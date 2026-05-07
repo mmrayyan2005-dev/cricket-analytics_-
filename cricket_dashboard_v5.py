@@ -51,14 +51,34 @@ html,body,[class*="css"]{{font-family:'Inter',sans-serif;background:{BG};color:{
 </style>""", unsafe_allow_html=True)
 
 import io
+import time
 
-import io
-
-def gdrive(file_id):
-    url = f"https://drive.google.com/uc?export=download&id={file_id}&confirm=t"
-    r = requests.get(url, timeout=60)
-    r.raise_for_status()
-    return pd.read_csv(io.StringIO(r.text))
+def gdrive(file_id: str, retries: int = 3, backoff: float = 2.0) -> pd.DataFrame:
+    import re
+    base_url = "https://drive.google.com/uc"
+    session = requests.Session()
+    last_exc: Exception = RuntimeError("Unknown error")
+    for attempt in range(1, retries + 1):
+        try:
+            params = {"export": "download", "id": file_id, "confirm": "t"}
+            r = session.get(base_url, params=params, timeout=60)
+            r.raise_for_status()
+            content_type = r.headers.get("Content-Type", "")
+            if "text/html" in content_type or r.text.lstrip().startswith("<!"):
+                match = re.search(r'confirm=([0-9A-Za-z_\-]+)', r.text)
+                if match:
+                    params["confirm"] = match.group(1)
+                    r = session.get(base_url, params=params, timeout=60)
+                    r.raise_for_status()
+                    content_type = r.headers.get("Content-Type", "")
+                if "text/html" in content_type or r.text.lstrip().startswith("<!"):
+                    raise RuntimeError(f"Google Drive returned HTML for file_id={file_id!r}. Check sharing permissions.")
+            return pd.read_csv(io.StringIO(r.text))
+        except (requests.RequestException, RuntimeError, pd.errors.ParserError) as exc:
+            last_exc = exc
+            if attempt < retries:
+                time.sleep(backoff ** attempt)
+    raise RuntimeError(f"Failed to load file {file_id!r} after {retries} attempts. Last error: {last_exc}") from last_exc
 
 @st.cache_data
 def load():
