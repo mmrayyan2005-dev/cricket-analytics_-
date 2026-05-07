@@ -12,9 +12,8 @@ RAW_BASE = "https://raw.githubusercontent.com/mmrayyan2005-dev/cricket-analytics
 # ─────────────────────────────────────────────────────────────────────────
 
 BG="#0f1117"; CARD="#1e2130"; TEXT="#f0f0f0"; GRID="#2a2d3e"
-FC={"ODI":"#00b894","Test":"#0984e3","T20I":"#d63031","IPL":"#e17055","PSL":"#6c5ce7",
-    "WPL":"#fd79a8","NT20":"#00cec9","Ranji":"#fdcb6e"}
-FORMATS=["ODI","Test","T20I","IPL","PSL","WPL","NT20","Ranji"]
+FC={"ODI":"#00b894","Test":"#0984e3","T20I":"#d63031","IPL":"#e17055","PSL":"#6c5ce7"}
+FORMATS=["ODI","Test","T20I","IPL","PSL"]
 
 BASE=dict(paper_bgcolor="rgba(0,0,0,0)",plot_bgcolor="rgba(0,0,0,0)",
           font=dict(color=TEXT,family="Inter,sans-serif",size=12),
@@ -37,13 +36,9 @@ html,body,[class*="css"]{{font-family:'Inter',sans-serif;background:{BG};color:{
 [data-testid="stMetricLabel"]{{font-size:11px;color:#aaa;text-transform:uppercase;letter-spacing:.5px}}
 [data-testid="stMetricValue"]{{font-size:20px;font-weight:700;color:{TEXT}}}
 [data-testid="column"]{{min-width:90px!important}}
-[data-testid="stHorizontalBlock"] > [data-testid="column"] > div {{height:100%;display:flex;flex-direction:column}}
-[data-testid="stHorizontalBlock"] > [data-testid="column"] > div > div {{flex:1}}
 .js-plotly-plot{{touch-action:pan-y!important}}
 div[data-baseweb="tab-list"]{{gap:8px}}
 div[data-baseweb="tab"]{{border-radius:8px;padding:6px 14px;background:{CARD}}}
-/* Equal-height columns for head-to-head player cards */
-[data-testid="stHorizontalBlock"]>[data-testid="column"]>div>div>div>[data-testid="stMarkdownContainer"]>div>div{{height:100%;box-sizing:border-box}}
 </style>""",unsafe_allow_html=True)
 
 # ── Load CSVs from GitHub raw ─────────────────────────────────────────────
@@ -51,10 +46,6 @@ div[data-baseweb="tab"]{{border-radius:8px;padding:6px 14px;background:{CARD}}}
 def load():
     def read(name):
         return pd.read_csv(f"{RAW_BASE}/{name}")
-    def read_opt(name):
-        """Try to read optional CSV; return empty DataFrame on failure."""
-        try: return pd.read_csv(f"{RAW_BASE}/{name}")
-        except: return pd.DataFrame()
     return (read("cricket_batting_stats.csv"),
             read("cricket_bowling_stats.csv"),
             read("cricket_batting_by_format.csv"),
@@ -87,40 +78,28 @@ def ch(fig,h=320,margin=None):
     fig.update_layout(**BASE,height=h,margin=margin or M_DEFAULT)
     st.plotly_chart(fig,**CFG)
 
-def plot_h(fig):
-    """Plot a bar_h figure without overriding its internally-computed height/margins."""
-    fig.update_layout(**BASE)
-    st.plotly_chart(fig,**CFG)
-
 def bar_h(df,x,y,col,scale,title):
+    # measure longest label precisely — 8px per char + 40px padding
     max_chars = int(df[y].astype(str).str.len().max()) if len(df)>0 else 20
-    lm = max(260, int(max_chars * 9 + 40))
-    h  = max(500, len(df) * 68)
-    xmax = float(df[x].max()) * 1.22 if len(df)>0 else 1
+    lm = max(200, max_chars * 8 + 40)
+    h  = max(420, len(df) * 54)
     fig=px.bar(df,x=x,y=y,orientation="h",color=col,color_continuous_scale=scale,title=title)
-    fig.update_traces(marker_line_width=0,
-                      text=pd.to_numeric(df[x], errors="coerce").round(1).fillna(0).astype(str),
-                      textposition="outside",
-                      textfont=dict(size=11,color=TEXT),
-                      cliponaxis=False)
+    fig.update_traces(marker_line_width=0)
     fig.update_layout(**BASE,height=h,coloraxis_showscale=False,
-                      margin=dict(l=lm,r=90,t=52,b=12),bargap=0.28)
+                      margin=dict(l=lm,r=60,t=48,b=8),bargap=0.38)
     fig.update_yaxes(categoryorder="total ascending",showgrid=False,title="",
-                     tickfont=dict(size=13,color=TEXT),automargin=False,
+                     tickfont=dict(size=12,color=TEXT),automargin=False,
                      tickmode="linear")
-    fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",tickfont=dict(size=12),
-                     range=[0,xmax])
+    fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",tickfont=dict(size=11))
     return fig
 
-def bar_v(df,x,y,title,color,h=420):
-    fig=px.bar(df,x=x,y=y,text_auto=True,title=title,color_discrete_sequence=[color])
-    fig.update_traces(textposition="outside",textfont=dict(size=12,color=TEXT),
-                      marker_line_width=0,width=0.6)
-    fig.update_layout(**BASE,height=h,showlegend=False,
-                      margin=dict(l=12,r=12,t=52,b=80))
+def bar_v(df,x,y,title,color,h=340):
+    fig=px.bar(df,x=x,y=y,text=y,title=title,color_discrete_sequence=[color])
+    fig.update_traces(textposition="outside",textfont=dict(size=11,color=TEXT),marker_line_width=0)
+    fig.update_layout(**BASE,height=h,showlegend=False,margin=M_BARV)
     fig.update_xaxes(tickmode="linear",tickangle=-40,showgrid=False,
-                     tickfont=dict(size=12),automargin=True)
-    fig.update_yaxes(showgrid=True,gridcolor=GRID,tickfont=dict(size=12))
+                     tickfont=dict(size=11),automargin=True)
+    fig.update_yaxes(showgrid=True,gridcolor=GRID)
     return fig
 
 def line(df,x,y,title,color,h=260):
@@ -242,83 +221,60 @@ def get_wiki(cricsheet_name, search_name):
         import re
 
         def clean(val):
-            # [[Link#anchor|Display Text]] → Display Text
-            val = re.sub(r"\[\[[^\]|]*\|([^\]]+)\]\]", r"\1", val)
-            # [[Display Text]] → Display Text
-            val = re.sub(r"\[\[([^\]]+)\]\]", r"\1", val)
+            val = re.sub(r"\[\[([^\]|]+\|)?([^\]]+)\]\]", r"\2", val)
             val = re.sub(r"\{\{[^}]+\}\}", "", val)
             val = re.sub(r"<[^>]+>", "", val)
             val = re.sub(r"''+'", "", val)
             return val.strip().strip("|").strip()
 
         def extract_field(text, keys):
-            """Extract field value, capturing full line so [[Link|Text]] wikilinks are preserved for clean()."""
             for key in keys:
                 m = re.search(
-                    r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n]{2,150})",
+                    r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n\|}{]{2,80})",
                     text, re.IGNORECASE
                 )
                 if m:
                     val = clean(m.group(1))
-                    # strip any leftover broken [[ fragments
-                    val = re.sub(r"\[\[[^\]]*", "", val).strip().rstrip("|").strip()
-                    if len(val) > 2:
+                    if len(val) > 3:
                         return val
             return ""
 
-        def extract_raw(text, keys):
-            """Extract RAW field value (no cleaning) — needed for date templates like {{dts|yyyy|mm|dd}}."""
-            for key in keys:
-                m = re.search(r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n]{2,150})",
-                              text, re.IGNORECASE)
-                if m:
-                    return m.group(1).strip()
-            return ""
-
-        def parse_date(val):
-            """Parse a date from raw wikitext including {{dts|...}} and {{birth date|...}} templates."""
-            if not val: return ""
-            months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-            # {{dts|yyyy|mm|dd}} or {{birth date|yyyy|mm|dd}} or {{birth date and age|yyyy|mm|dd}}
-            m = re.search(r"\{\{(?:dts|birth date(?:[^|{]*)?)\s*\|\s*(\d{4})\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})",
-                          val, re.IGNORECASE)
-            if m:
-                try: return f"{int(m.group(3))} {months[int(m.group(2))]} {m.group(1)}"
-                except: pass
-            # Plain yyyy-mm-dd or yyyy|mm|dd anywhere in string
-            m2 = re.search(r"(\d{4})\D+?(\d{1,2})\D+?(\d{1,2})", val)
-            if m2:
-                try:
-                    mo = int(m2.group(2))
-                    if 1 <= mo <= 12:
-                        return f"{int(m2.group(3))} {months[mo]} {m2.group(1)}"
-                except: pass
-            # dd MonthName yyyy
-            m3 = re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", val)
-            if m3:
-                return f"{int(m3.group(1))} {m3.group(2)[:3].capitalize()} {m3.group(3)}"
-            return ""
-
-        # born — look for birth_date template e.g. {{birth date and age|1988|11|5}}
+        # born — look for birth_date template too e.g. {{birth date|1988|10|15}}
         born = ""
         bd_m = re.search(r"\{\{birth date(?:\s*and age)?\s*\|([^}]+)\}\}", wikitext, re.IGNORECASE)
         if bd_m:
             parts = [p.strip() for p in bd_m.group(1).split("|") if p.strip().isdigit()]
             if len(parts) >= 3:
-                months_list = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-                try: born = f"{int(parts[2])} {months_list[int(parts[1])]} {parts[0]}"
+                months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+                try:
+                    born = f"{int(parts[2])} {months[int(parts[1])]} {parts[0]}"
                 except: pass
         if not born:
             born = extract_field(wikitext, ["birth_date","birthdate","born"])
 
-        # Debut dates — MUST use extract_raw so {{dts|yyyy|mm|dd}} isn't stripped before parsing
-        odi_debut  = parse_date(extract_raw(wikitext, ["odidebutdate","ODIdebutdate","odi_debut_date"]))
-        test_debut = parse_date(extract_raw(wikitext, ["testdebutdate","Testdebutdate","test_debut_date"]))
-        t20_debut  = parse_date(extract_raw(wikitext, ["t20idebutdate","T20Idebutdate","T20debutdate","t20_debut_date"]))
-        any_debut  = parse_date(extract_raw(wikitext, ["debutdate","debut_date","internationaldebutdate"]))
+        # parse a date template {{dts|yyyy|mm|dd}} or {{date|...}}
+        def parse_date_template(val):
+            import re as _r2
+            months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+            m = _r2.search(r"(\d{4})\D+(\d{1,2})\D+(\d{1,2})", val)
+            if m:
+                try: return f"{int(m.group(3))} {months[int(m.group(2))]} {m.group(1)}"
+                except: pass
+            m2 = _r2.search(r"(\d{1,2})\D+(\d{1,2})\D+(\d{4})", val)
+            if m2:
+                try: return f"{int(m2.group(1))} {months[int(m2.group(2))]} {m2.group(3)}"
+                except: pass
+            # just return cleaned val if has year
+            m3 = _r2.search(r"\d{4}", val)
+            return val.strip() if m3 else ""
 
-        role   = extract_field(wikitext, ["role","batting_style","bowling_style"])
-        nation = extract_field(wikitext, ["country","nationality","national_side"])
+        odi_debut  = parse_date_template(extract_field(wikitext, ["odidebutdate","ODIdebutdate"]))
+        test_debut = parse_date_template(extract_field(wikitext, ["testdebutdate","Testdebutdate"]))
+        t20_debut  = parse_date_template(extract_field(wikitext, ["t20idebutdate","T20Idebutdate","T20debutdate"]))
+        any_debut  = parse_date_template(extract_field(wikitext, ["debutdate","debut_date","internationaldebutdate"]))
+
+        role   = extract_field(wikitext, ["role","batting_style","batting style","bowling_style","bowling style"])
+        nation = extract_field(wikitext, ["country","nationality","national_side","national side"])
 
         description = data.get("description","")
 
@@ -338,35 +294,20 @@ def get_wiki(cricsheet_name, search_name):
 def show_player_card(cricsheet_name, search_name, fmt="ODI"):
     card = get_wiki(cricsheet_name, search_name)
 
-    # Fallback placeholder SVG avatar (always shown if no image)
-    AVATAR_SVG = (
-        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='145' "
-        "viewBox='0 0 120 145'%3E%3Crect width='120' height='145' rx='12' fill='%231e2a3a'/%3E"
-        "%3Ccircle cx='60' cy='50' r='28' fill='%232d3561'/%3E"
-        "%3Cellipse cx='60' cy='120' rx='38' ry='28' fill='%232d3561'/%3E"
-        "%3Ctext x='60' y='58' text-anchor='middle' font-size='28' fill='%236c7faa'%3E🏏%3C/text%3E"
-        "%3C/svg%3E"
-    )
-
     if not card:
-        # show placeholder card with avatar if wiki fails
-        display_name = cricsheet_name or search_name
-        img_html = f'<img src="{AVATAR_SVG}" style="width:110px;height:132px;object-fit:cover;border-radius:12px;border:2px solid #2d3561;flex-shrink:0;">'
+        # show placeholder if wiki fails
         st.markdown(f"""
 <div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:16px;
-            padding:20px;margin:0 0 20px 0;border:1px solid #2d3561;
-            display:flex;gap:18px;align-items:flex-start;min-height:180px;box-sizing:border-box">
-  {img_html}
-  <div style="flex:1;min-width:0">
-    <div style="color:#fff;font-size:20px;font-weight:800;margin-bottom:8px">{display_name}</div>
-    <div style="color:#aaa;font-size:13px;margin-top:8px">📖 Profile unavailable — Wikipedia not reachable</div>
-  </div>
+            padding:16px 20px;margin:0 0 20px 0;border:1px solid #2d3561">
+  <div style="color:#aaa;font-size:13px">📖 Player profile unavailable — Wikipedia not reachable</div>
 </div>""", unsafe_allow_html=True)
         return
 
-    # Use Wikipedia image or fallback avatar
-    img_src = card["img"] if card.get("img") else AVATAR_SVG
-    img_html = f'<img src="{img_src}" style="width:110px;height:132px;object-fit:cover;border-radius:12px;border:2px solid #2d3561;flex-shrink:0;box-shadow:0 4px 20px #000a">'
+    img_html = ""
+    if card["img"]:
+        img_html = f'''<img src="{card["img"]}"
+            style="width:120px;height:145px;object-fit:cover;border-radius:12px;
+                   border:2px solid #2d3561;flex-shrink:0;box-shadow:0 4px 20px #000a">'''
 
     # Pick correct debut for selected format
     fmt_key = {"ODI":"odi_debut","Test":"test_debut","T20I":"t20_debut",
@@ -376,29 +317,23 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI"):
     # Build info pills
     pills = ""
     if card["born"]:
-        pills += f'<span style="background:#1e2a3a;color:#00b894;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🎂 Born: {card["born"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#00b894;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🎂 Born: {card["born"]}</span>'
     if card["nation"]:
-        pills += f'<span style="background:#1e2a3a;color:#0984e3;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🌍 {card["nation"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#0984e3;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🌍 {card["nation"]}</span>'
     if card["role"]:
-        pills += f'<span style="background:#1e2a3a;color:#fdcb6e;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🏏 {card["role"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#fdcb6e;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🏏 {card["role"]}</span>'
     if debut_date:
-        pills += f'<span style="background:#1e2a3a;color:#e17055;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🎯 {fmt} Debut: {debut_date}</span>'
-
-    # Truncate bio to 3 sentences for compact side-by-side layout
-    bio_short = card["bio"]
-    sents = [s.strip() for s in bio_short.split(".") if len(s.strip()) > 10]
-    bio_display = ". ".join(sents[:3]) + "." if sents else bio_short[:280]
+        pills += f'<span style="background:#1e2a3a;color:#e17055;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🎯 {fmt} Debut: {debut_date}</span>'
 
     st.markdown(f"""
 <div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:16px;
             padding:20px;margin:0 0 20px 0;border:1px solid #2d3561;
-            display:flex;gap:16px;align-items:flex-start;min-height:200px;
-            box-sizing:border-box;height:100%">
+            display:flex;gap:18px;align-items:flex-start">
   {img_html}
-  <div style="flex:1;min-width:0;overflow:hidden">
-    <div style="color:#fff;font-size:18px;font-weight:800;margin-bottom:8px;line-height:1.2">{card["title"]}</div>
-    <div style="margin-bottom:8px;flex-wrap:wrap;display:flex;gap:4px;line-height:1.8">{pills}</div>
-    <div style="color:#8899bb;font-size:12px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical">{bio_display}</div>
+  <div style="flex:1;min-width:0">
+    <div style="color:#fff;font-size:22px;font-weight:800;margin-bottom:8px">{card["title"]}</div>
+    <div style="margin-bottom:10px;flex-wrap:wrap;display:flex;gap:6px">{pills}</div>
+    <div style="color:#8899bb;font-size:13px;line-height:1.7">{card["bio"]}</div>
   </div>
 </div>""", unsafe_allow_html=True)
 
@@ -433,9 +368,6 @@ if section=="🔍 Player Search":
     <span style="background:linear-gradient(135deg,#d63031,#ff7675);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #d6303155">T20I</span>
     <span style="background:linear-gradient(135deg,#e17055,#fdcb6e);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #e1705555">IPL</span>
     <span style="background:linear-gradient(135deg,#6c5ce7,#a29bfe);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #6c5ce755">PSL</span>
-    <span style="background:linear-gradient(135deg,#fd79a8,#e84393);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #fd79a855">WPL</span>
-    <span style="background:linear-gradient(135deg,#00cec9,#55efc4);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #00cec955">NT20</span>
-    <span style="background:linear-gradient(135deg,#fdcb6e,#e17055);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #fdcb6e55">Ranji</span>
   </div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:500px;margin:0 auto 22px auto">
     <div style="background:linear-gradient(135deg,#1e2a3a,#1e2130);border-radius:14px;padding:16px 8px;border:1px solid #00b89433">
@@ -471,38 +403,17 @@ if section=="🔍 Player Search":
         avl=sorted(set(ab+aw),key=lambda x:FORMATS.index(x) if x in FORMATS else 99)
         if not avl: st.error(f"No player found for '{name}'."); st.stop()
 
-        # Determine the canonical player name from the data row with most runs
-        # (prevents "Smriti Anand" matching when you search "Smriti Mandhana")
-        all_bat_matches = bat_fmt[bat_fmt["striker"].str.contains(sname,case=False,na=False)]
-        all_bowl_matches = bowl_fmt[bowl_fmt["bowler"].str.contains(sname,case=False,na=False)]
-        if len(all_bat_matches)>0:
-            # pick the striker name that has the most total runs — that's the intended player
-            canonical_name = all_bat_matches.groupby("striker")["runs"].sum().idxmax()
-        elif len(all_bowl_matches)>0:
-            canonical_name = all_bowl_matches.groupby("bowler")["wickets"].sum().idxmax()
-        else:
-            canonical_name = sname
-        # Re-filter everything using exact canonical name
-        bat_fmt_f  = bat_fmt[bat_fmt["striker"]==canonical_name]
-        bowl_fmt_f = bowl_fmt[bowl_fmt["bowler"]==canonical_name]
-        bat_yr_f   = bat_yr[bat_yr["striker"]==canonical_name]
-        bowl_yr_f  = bowl_yr[bowl_yr["bowler"]==canonical_name]
-        avl2 = sorted(
-            set(bat_fmt_f["format"].unique().tolist()+bowl_fmt_f["format"].unique().tolist()),
-            key=lambda x:FORMATS.index(x) if x in FORMATS else 99
-        )
-        if avl2: avl = avl2
-
         fmt=st.radio("📋 Format",avl,horizontal=True)
         clr=FC.get(fmt,"#00b894")
-        bat=bat_fmt_f[bat_fmt_f["format"]==fmt]
-        bowl=bowl_fmt_f[bowl_fmt_f["format"]==fmt]
+        bat=bat_fmt[(bat_fmt["striker"].str.contains(sname,case=False,na=False))&(bat_fmt["format"]==fmt)]
+        bowl=bowl_fmt[(bowl_fmt["bowler"].str.contains(sname,case=False,na=False))&(bowl_fmt["format"]==fmt)]
 
-        show_player_card(canonical_name, name, fmt)
+        display_name=bat["striker"].iloc[0] if len(bat)>0 else (bowl["bowler"].iloc[0] if len(bowl)>0 else sname)
+        show_player_card(display_name,name,fmt)
 
         if len(bat)>0:
             p=bat.sort_values("runs",ascending=False).iloc[0]
-            st.subheader(f"🏏 {canonical_name} — Batting ({fmt})")
+            st.subheader(f"🏏 {p['striker']} — Batting ({fmt})")
             metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
             metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
             metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
@@ -513,7 +424,7 @@ if section=="🔍 Player Search":
             ps  =round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
             metrics({"100s":h100,"50s":h50,"Highest Score":hs,"Ducks":dk,"⭐ Player Score":ps})
 
-            by=bat_yr_f[bat_yr_f["format"]==fmt].sort_values("year")
+            by=bat_yr[(bat_yr["striker"].str.contains(sname,case=False,na=False))&(bat_yr["format"]==fmt)].sort_values("year")
             if len(by)>1:
                 ch(bar_v(by,"year","runs","Runs per Year",clr))
                 c1,c2=st.columns(2)
@@ -526,14 +437,14 @@ if section=="🔍 Player Search":
         st.divider()
         if len(bowl)>0:
             p2=bowl.sort_values("wickets",ascending=False).iloc[0]
-            st.subheader(f"🎳 {canonical_name} — Bowling ({fmt})")
+            st.subheader(f"🎳 {p2['bowler']} — Bowling ({fmt})")
             metrics({"Matches":int(p2["matches"]),"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
             metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot Ball %":f"{p2['dot_pct']}%"})
             fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
             bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
             metrics({"5-Wicket Hauls":fw,"Best Bowling":bb})
 
-            by2=bowl_yr_f[bowl_yr_f["format"]==fmt].sort_values("year")
+            by2=bowl_yr[(bowl_yr["bowler"].str.contains(sname,case=False,na=False))&(bowl_yr["format"]==fmt)].sort_values("year")
             if len(by2)>1:
                 ch(bar_v(by2,"year","wickets","Wickets per Year",clr))
                 c1,c2=st.columns(2)
@@ -551,13 +462,8 @@ elif section=="⚔️ Head to Head":
     fmt=st.radio("Format",FORMATS,horizontal=True)
     if n1 and n2:
         s1=resolve(n1); s2=resolve(n2)
-        # Resolve to the canonical (highest-run) player name to avoid partial-name collisions
-        b1all=bat_fmt[bat_fmt["striker"].str.contains(s1,case=False,na=False)]
-        b2all=bat_fmt[bat_fmt["striker"].str.contains(s2,case=False,na=False)]
-        if len(b1all)>0: s1=b1all.groupby("striker")["runs"].sum().idxmax()
-        if len(b2all)>0: s2=b2all.groupby("striker")["runs"].sum().idxmax()
-        b1=bat_fmt[(bat_fmt["striker"]==s1)&(bat_fmt["format"]==fmt)]
-        b2=bat_fmt[(bat_fmt["striker"]==s2)&(bat_fmt["format"]==fmt)]
+        b1=bat_fmt[(bat_fmt["striker"].str.contains(s1,case=False,na=False))&(bat_fmt["format"]==fmt)]
+        b2=bat_fmt[(bat_fmt["striker"].str.contains(s2,case=False,na=False))&(bat_fmt["format"]==fmt)]
         if len(b1)==0 or len(b2)==0:
             st.error(f"One or both players have no {fmt} data.")
         else:
@@ -568,47 +474,32 @@ elif section=="⚔️ Head to Head":
             with cc1: show_player_card(p1n,n1,fmt)
             with cc2: show_player_card(p2n,n2,fmt)
             st.subheader(f"🏏 Batting — {fmt}")
+            LABELS={"runs":"Runs","fours":"Fours","sixes":"Sixes",
+                    "average":"Avg","strike_rate":"Strike Rate",
+                    "dot_pct":"Dot %","boundary_pct":"Boundary %"}
+            for title,ml in [("🏏 Volume",["runs","fours","sixes"]),
+                              ("📈 Rates",["average","strike_rate"]),
+                              ("📊 Percentages",["dot_pct","boundary_pct"])]:
+                pretty=[LABELS.get(m,m) for m in ml]
+                v1=[float(p1.get(m,0)) for m in ml]; v2=[float(p2.get(m,0)) for m in ml]
+                fig=go.Figure()
+                fig.add_trace(go.Bar(name=p1n,y=pretty,x=v1,orientation="h",
+                    marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
+                    text=[f"{v:.1f}" for v in v1],textposition="outside",
+                    textfont=dict(size=11,color=TEXT)))
+                fig.add_trace(go.Bar(name=p2n,y=pretty,x=v2,orientation="h",
+                    marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
+                    text=[f"{v:.1f}" for v in v2],textposition="outside",
+                    textfont=dict(size=11,color=TEXT)))
+                fig.update_layout(**BASE,barmode="group",title=title,
+                                  height=max(180,len(ml)*90),
+                                  margin=dict(l=120,r=60,t=48,b=8))
+                fig.update_yaxes(showgrid=False,tickfont=dict(size=13),title="",automargin=False)
+                fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True)
+                st.plotly_chart(fig,**CFG)
 
-            def h2h_bar(labels, v1, v2, title, color1=FC["ODI"], color2=FC["Test"], h=380):
-                """Create a clean head-to-head horizontal grouped bar chart."""
-                xmax = max(v1+v2)*1.32 if max(v1+v2)>0 else 10
-                fig = go.Figure()
-                fig.add_trace(go.Bar(name=p1n, y=labels, x=v1, orientation="h",
-                    marker=dict(color=color1, opacity=0.92, line=dict(width=0)),
-                    text=[f"{v:.1f}" for v in v1], textposition="outside",
-                    textfont=dict(size=12, color=TEXT), cliponaxis=False))
-                fig.add_trace(go.Bar(name=p2n, y=labels, x=v2, orientation="h",
-                    marker=dict(color=color2, opacity=0.92, line=dict(width=0)),
-                    text=[f"{v:.1f}" for v in v2], textposition="outside",
-                    textfont=dict(size=12, color=TEXT), cliponaxis=False))
-                fig.update_layout(**BASE, barmode="group", title=title,
-                                  height=h, margin=dict(l=160, r=130, t=52, b=12))
-                fig.update_yaxes(showgrid=False, tickfont=dict(size=14), title="", automargin=True)
-                fig.update_xaxes(showgrid=True, gridcolor=GRID, title="", fixedrange=True, range=[0, xmax])
-                st.plotly_chart(fig, **CFG)
-
-            # Split Runs onto its own chart (scale is too different from Fours/Sixes)
-            h2h_bar(["Runs"],
-                    [float(p1.get("runs",0))], [float(p2.get("runs",0))],
-                    "🏏 Total Runs", h=240)
-            # Fours & Sixes on their own chart
-            h2h_bar(["Fours","Sixes"],
-                    [float(p1.get("fours",0)), float(p1.get("sixes",0))],
-                    [float(p2.get("fours",0)), float(p2.get("sixes",0))],
-                    "🏏 Boundaries — Fours & Sixes", h=340)
-            # Rates
-            h2h_bar(["Avg","Strike Rate"],
-                    [float(p1.get("average",0)), float(p1.get("strike_rate",0))],
-                    [float(p2.get("average",0)), float(p2.get("strike_rate",0))],
-                    "📈 Average & Strike Rate", h=340)
-            # Percentages
-            h2h_bar(["Dot %","Boundary %"],
-                    [float(p1.get("dot_pct",0)), float(p1.get("boundary_pct",0))],
-                    [float(p2.get("dot_pct",0)), float(p2.get("boundary_pct",0))],
-                    "📊 Dot Ball % vs Boundary %", h=340)
-
-            by1=bat_yr[(bat_yr["striker"]==s1)&(bat_yr["format"]==fmt)].copy()
-            by2y=bat_yr[(bat_yr["striker"]==s2)&(bat_yr["format"]==fmt)].copy()
+            by1=bat_yr[(bat_yr["striker"].str.contains(s1,case=False,na=False))&(bat_yr["format"]==fmt)].copy()
+            by2y=bat_yr[(bat_yr["striker"].str.contains(s2,case=False,na=False))&(bat_yr["format"]==fmt)].copy()
             if len(by1)>0 and len(by2y)>0:
                 by1["player"]=p1n; by2y["player"]=p2n
                 combined = pd.concat([by1,by2y]).sort_values("year")
@@ -616,46 +507,11 @@ elif section=="⚔️ Head to Head":
                            title=f"Runs per Year — {fmt}",
                            color_discrete_map={p1n:FC["ODI"],p2n:FC["Test"]})
                 fy.update_traces(line=dict(width=2.5),marker=dict(size=8))
-                fy.update_layout(**BASE,height=420,margin=dict(l=60,r=30,t=52,b=50))
+                fy.update_layout(**BASE,height=340,margin=dict(l=50,r=20,t=48,b=40))
                 fy.update_xaxes(title="Year",tickmode="linear",dtick=2,
                                 showgrid=True,gridcolor=GRID)
                 fy.update_yaxes(title="Runs",showgrid=True,gridcolor=GRID)
                 st.plotly_chart(fy,**CFG)
-
-            # ── Bowling comparison ──────────────────────────────────────────
-            w1=bowl_fmt[(bowl_fmt["bowler"]==s1)&(bowl_fmt["format"]==fmt)]
-            w2=bowl_fmt[(bowl_fmt["bowler"]==s2)&(bowl_fmt["format"]==fmt)]
-            if len(w1)>0 and len(w2)>0:
-                st.subheader(f"🎳 Bowling — {fmt}")
-                pw1=w1.iloc[0]; pw2=w2.iloc[0]
-                def h2h_bowl(labels,bv1,bv2,title,h=340):
-                    bxmax=max(bv1+bv2)*1.32 if max(bv1+bv2)>0 else 10
-                    bfig=go.Figure()
-                    bfig.add_trace(go.Bar(name=pw1["bowler"],y=labels,x=bv1,orientation="h",
-                        marker=dict(color=FC["ODI"],opacity=0.92,line=dict(width=0)),
-                        text=[f"{v:.1f}" for v in bv1],textposition="outside",
-                        textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                    bfig.add_trace(go.Bar(name=pw2["bowler"],y=labels,x=bv2,orientation="h",
-                        marker=dict(color=FC["Test"],opacity=0.92,line=dict(width=0)),
-                        text=[f"{v:.1f}" for v in bv2],textposition="outside",
-                        textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                    bfig.update_layout(**BASE,barmode="group",title=title,
-                                      height=h,margin=dict(l=160,r=130,t=52,b=12))
-                    bfig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
-                    bfig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,bxmax])
-                    st.plotly_chart(bfig,**CFG)
-                # Wickets alone (scale mismatch with economy)
-                h2h_bowl(["Wickets"],
-                         [float(pw1.get("wickets",0))],[float(pw2.get("wickets",0))],
-                         "🎳 Total Wickets", h=240)
-                h2h_bowl(["Economy","Average"],
-                         [float(pw1.get("economy",0)),float(pw1.get("average",0))],
-                         [float(pw2.get("economy",0)),float(pw2.get("average",0))],
-                         "📊 Economy & Average", h=340)
-                h2h_bowl(["Strike Rate","Dot %"],
-                         [float(pw1.get("strike_rate",0)),float(pw1.get("dot_pct",0))],
-                         [float(pw2.get("strike_rate",0)),float(pw2.get("dot_pct",0))],
-                         "⚡ Strike Rate & Dot %", h=340)
 
 # ══ 3. PLAYER VS VENUE ═════════════════════════════════════════════════════
 elif section=="🏟️ Player vs Venue":
@@ -673,12 +529,12 @@ elif section=="🏟️ Player vs Venue":
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
                 df_v=df_v.sort_values(m,ascending=False).head(15)
-                plot_h(bar_h(df_v,m,"venue",m,"Greens",f"{df_v['striker'].iloc[0]} — {m} by Venue ({fmt})"))
+                ch(bar_h(df_v,m,"venue",m,"Greens",f"{df_v['striker'].iloc[0]} — {m} by Venue ({fmt})"))
                 st.dataframe(df_v[["venue","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
                 df_v=df_v.sort_values(m,ascending=False).head(15)
-                plot_h(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
+                ch(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
                 st.dataframe(df_v[["venue","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ 4. PLAYER VS OPPONENT ══════════════════════════════════════════════════
@@ -697,12 +553,12 @@ elif section=="🌍 Player vs Opponent":
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
                 df_o=df_o.sort_values(m,ascending=False)
-                plot_h(bar_h(df_o,m,"opponent",m,"Blues",f"{df_o['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
+                ch(bar_h(df_o,m,"opponent",m,"Blues",f"{df_o['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
                 st.dataframe(df_o[["opponent","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
                 df_o=df_o.sort_values(m,ascending=False)
-                plot_h(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
+                ch(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
                 st.dataframe(df_o[["opponent","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ 5. BATTER VS BOWLER ════════════════════════════════════════════════════
@@ -720,7 +576,7 @@ elif section=="🤜 Batter vs Bowler":
                 df_m=src[src["format"]==fmt]
                 m=st.selectbox("Sort by",["balls_faced","runs","strike_rate","dismissals"])
                 df_m=df_m.sort_values(m,ascending=False).head(20)
-                plot_h(bar_h(df_m,m,"bowler",m,"Greens",f"Top 20 bowlers faced — {m} ({fmt})"))
+                ch(bar_h(df_m,m,"bowler",m,"Greens",f"Top 20 bowlers faced — {m} ({fmt})"))
                 st.dataframe(df_m[["bowler","balls_faced","runs","strike_rate","dismissals"]].reset_index(drop=True))
     else:
         name=st.text_input("Bowler name","Shaheen")
@@ -733,7 +589,7 @@ elif section=="🤜 Batter vs Bowler":
                 df_m=src[src["format"]==fmt]
                 m=st.selectbox("Sort by",["wickets","economy","dot_pct","runs_given"])
                 df_m=df_m.sort_values(m,ascending=(m in ["economy","dot_pct"])).head(20)
-                plot_h(bar_h(df_m,m,"striker",m,"Reds",f"Top 20 batters bowled to — {m} ({fmt})"))
+                ch(bar_h(df_m,m,"striker",m,"Reds",f"Top 20 batters bowled to — {m} ({fmt})"))
                 st.dataframe(df_m[["striker","balls_bowled","runs_given","wickets","economy"]].reset_index(drop=True))
 
 # ══ 6. PERFORMANCE OVER YEARS ══════════════════════════════════════════════
@@ -751,22 +607,16 @@ elif section=="📈 Performance Over Years":
             by=src[src["format"]==fmt].sort_values("year")
             clr=FC.get(fmt,"#00b894")
             if st_=="Batting":
-                if len(by)>1:
-                    ch(bar_v(by,"year","runs","Runs per Year",clr))
-                    c1,c2=st.columns(2)
-                    with c1: ch(line(by,"year","average","Batting Average",clr),260)
-                    with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),260)
-                else:
-                    st.info("Not enough yearly data to plot trends.")
+                ch(bar_v(by,"year","runs","Runs per Year",clr))
+                c1,c2=st.columns(2)
+                with c1: ch(line(by,"year","average","Batting Average",clr),260)
+                with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),260)
                 st.dataframe(by[["year","matches","runs","average","strike_rate","fours","sixes"]].reset_index(drop=True))
             else:
-                if len(by)>1:
-                    ch(bar_v(by,"year","wickets","Wickets per Year",clr))
-                    c1,c2=st.columns(2)
-                    with c1: ch(line(by,"year","economy","Economy Rate","#d63031"),260)
-                    with c2: ch(line(by,"year","average","Bowling Average","#6c5ce7"),260)
-                else:
-                    st.info("Not enough yearly data to plot trends.")
+                ch(bar_v(by,"year","wickets","Wickets per Year",clr))
+                c1,c2=st.columns(2)
+                with c1: ch(line(by,"year","economy","Economy Rate","#d63031"),260)
+                with c2: ch(line(by,"year","average","Bowling Average","#6c5ce7"),260)
                 st.dataframe(by[["year","matches","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
 # ══ 7. LEADERBOARD ═════════════════════════════════════════════════════════
@@ -782,7 +632,7 @@ elif section=="🏆 Leaderboard":
         tn=st.slider("Top N",5,30,15)
         lb=bs[bs["runs"]>=mr].sort_values(sb,ascending=False).head(tn).reset_index(drop=True)
         lb.insert(0,"Rank",range(1,len(lb)+1))
-        plot_h(bar_h(lb,sb,"striker",sb,"Teal",f"Top {tn} {fmt} Batters — {sb}"))
+        ch(bar_h(lb,sb,"striker",sb,"Teal",f"Top {tn} {fmt} Batters — {sb}"),max(350,tn*30))
         show_cols=[c for c in ["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"] if c in lb.columns]
         st.dataframe(lb[show_cols].reset_index(drop=True))
     with tab2:
@@ -793,7 +643,7 @@ elif section=="🏆 Leaderboard":
         tn2=st.slider("Top N bowlers",5,30,15)
         lb2=ws[ws["wickets"]>=mw].sort_values(sb2,ascending=(sb2 in ["economy","average"])).head(tn2).reset_index(drop=True)
         lb2.insert(0,"Rank",range(1,len(lb2)+1))
-        plot_h(bar_h(lb2,sb2,"bowler",sb2,"Sunset",f"Top {tn2} {fmt} Bowlers — {sb2}"))
+        ch(bar_h(lb2,"wickets","bowler","economy","Sunset",f"Top {tn2} {fmt} Bowlers"),max(350,tn2*30))
         show_cols2=[c for c in ["Rank","bowler","matches","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
         st.dataframe(lb2[show_cols2].reset_index(drop=True))
 
@@ -817,7 +667,7 @@ elif section=="🤖 Similar Players":
                 same=same.sort_values("average",ascending=False).head(10)
                 st.subheader(f"Players most similar to {p['striker']} in {fmt}")
                 st.caption(f"⭐ Player Score: {p.get('player_score','—')} | Cluster #{cluster}")
-                plot_h(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
+                ch(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
                 st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
         else:
             src=bowl_sim[(bowl_sim["bowler"].str.contains(sname,case=False,na=False))&(bowl_sim["format"]==fmt)]
@@ -829,7 +679,7 @@ elif section=="🤖 Similar Players":
                 same=same[~same["bowler"].str.contains(sname,case=False,na=False)]
                 same=same.sort_values("wickets",ascending=False).head(10)
                 st.subheader(f"Bowlers most similar to {p['bowler']} in {fmt}")
-                plot_h(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
+                ch(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
                 st.dataframe(same[["bowler","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
 # ══ 9. FORM & RATINGS ══════════════════════════════════════════════════════
@@ -844,13 +694,13 @@ elif section=="🔥 Form & Ratings":
         with t1:
             top=src[src["form_score"]>=110].sort_values("form_score",ascending=False).head(20)
             if len(top)>0:
-                plot_h(bar_h(top,"form_score","striker","form_score","Oranges",f"🔥 On Fire Batters ({fmt})"))
+                ch(bar_h(top,"form_score","striker","form_score","Oranges",f"🔥 On Fire Batters ({fmt})"))
                 st.dataframe(top[["striker","form_label","form_score","recent_avg","career_avg","recent_sr","career_sr"]].reset_index(drop=True))
             else: st.info("No batters in 'On Fire' form for this format yet.")
         with t2:
             bot=src[src["form_score"]<70].sort_values("form_score").head(20)
             if len(bot)>0:
-                plot_h(bar_h(bot,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
+                ch(bar_h(bot,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
                 st.dataframe(bot[["striker","form_label","form_score","recent_avg","career_avg"]].reset_index(drop=True))
             else: st.info("No batters struggling in this format.")
 
@@ -860,18 +710,18 @@ elif section=="🔥 Form & Ratings":
         with t1:
             top2=src2[src2["form_score"]>=110].sort_values("form_score",ascending=False).head(20)
             if len(top2)>0:
-                plot_h(bar_h(top2,"form_score","bowler","form_score","Oranges",f"🔥 On Fire Bowlers ({fmt})"))
+                ch(bar_h(top2,"form_score","bowler","form_score","Oranges",f"🔥 On Fire Bowlers ({fmt})"))
                 st.dataframe(top2[["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"]].reset_index(drop=True))
             else: st.info("No bowlers in 'On Fire' form for this format yet.")
         with t2:
             bot2=src2[src2["form_score"]<70].sort_values("form_score").head(20)
             if len(bot2)>0:
-                plot_h(bar_h(bot2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
+                ch(bar_h(bot2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
                 st.dataframe(bot2[["bowler","form_label","form_score","recent_econ","career_econ"]].reset_index(drop=True))
             else: st.info("No bowlers struggling in this format.")
 
     with tab3:
         ps=bat_sim[bat_sim["format"]==fmt].sort_values("player_score",ascending=False).head(20)
-        plot_h(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 20 Player Scores ({fmt})"))
+        ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 20 Player Scores ({fmt})"))
         st.caption("Score = Average 30% · Strike Rate 25% · Boundary% 20% · Runs volume 15% · Non-dot% 10%")
         st.dataframe(ps[["striker","player_score","average","strike_rate","boundary_pct","runs"]].reset_index(drop=True))
