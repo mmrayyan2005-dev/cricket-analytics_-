@@ -36,6 +36,8 @@ html,body,[class*="css"]{{font-family:'Inter',sans-serif;background:{BG};color:{
 [data-testid="stMetricLabel"]{{font-size:11px;color:#aaa;text-transform:uppercase;letter-spacing:.5px}}
 [data-testid="stMetricValue"]{{font-size:20px;font-weight:700;color:{TEXT}}}
 [data-testid="column"]{{min-width:90px!important}}
+[data-testid="stHorizontalBlock"] > [data-testid="column"] > div {{height:100%;display:flex;flex-direction:column}}
+[data-testid="stHorizontalBlock"] > [data-testid="column"] > div > div {{flex:1}}
 .js-plotly-plot{{touch-action:pan-y!important}}
 div[data-baseweb="tab-list"]{{gap:8px}}
 div[data-baseweb="tab"]{{border-radius:8px;padding:6px 14px;background:{CARD}}}
@@ -78,16 +80,19 @@ def ch(fig,h=320,margin=None):
     fig.update_layout(**BASE,height=h,margin=margin or M_DEFAULT)
     st.plotly_chart(fig,**CFG)
 
+def plot_h(fig):
+    """Plot a bar_h figure without overriding its internally-computed height/margins."""
+    fig.update_layout(**BASE)
+    st.plotly_chart(fig,**CFG)
+
 def bar_h(df,x,y,col,scale,title):
-    # 8.5px per char at font-size 12 + 30px padding; automargin=False so our lm is respected
     max_chars = int(df[y].astype(str).str.len().max()) if len(df)>0 else 20
     lm = max(240, int(max_chars * 8.5 + 30))
     h  = max(420, len(df) * 58)
-    # x-axis range: add 18% headroom so value labels don't clip right edge
     xmax = float(df[x].max()) * 1.18 if len(df)>0 else 1
     fig=px.bar(df,x=x,y=y,orientation="h",color=col,color_continuous_scale=scale,title=title)
     fig.update_traces(marker_line_width=0,
-                      text=df[x].round(1).astype(str),
+                      text=pd.to_numeric(df[x], errors="coerce").round(1).fillna(0).astype(str),
                       textposition="outside",
                       textfont=dict(size=10,color=TEXT),
                       cliponaxis=False)
@@ -101,7 +106,7 @@ def bar_h(df,x,y,col,scale,title):
     return fig
 
 def bar_v(df,x,y,title,color,h=340):
-    fig=px.bar(df,x=x,y=y,text=y,title=title,color_discrete_sequence=[color])
+    fig=px.bar(df,x=x,y=y,text_auto=True,title=title,color_discrete_sequence=[color])
     fig.update_traces(textposition="outside",textfont=dict(size=11,color=TEXT),marker_line_width=0)
     fig.update_layout(**BASE,height=h,showlegend=False,margin=M_BARV)
     fig.update_xaxes(tickmode="linear",tickangle=-40,showgrid=False,
@@ -228,26 +233,32 @@ def get_wiki(cricsheet_name, search_name):
         import re
 
         def clean(val):
-            val = re.sub(r"\[\[([^\]|]+\|)?([^\]]+)\]\]", r"\2", val)
+            # [[Link#anchor|Display Text]] → Display Text
+            val = re.sub(r"\[\[[^\]|]*\|([^\]]+)\]\]", r"\1", val)
+            # [[Display Text]] → Display Text
+            val = re.sub(r"\[\[([^\]]+)\]\]", r"\1", val)
             val = re.sub(r"\{\{[^}]+\}\}", "", val)
             val = re.sub(r"<[^>]+>", "", val)
             val = re.sub(r"''+'", "", val)
             return val.strip().strip("|").strip()
 
         def extract_field(text, keys):
+            """Extract field value, capturing full line so [[Link|Text]] wikilinks are preserved for clean()."""
             for key in keys:
                 m = re.search(
-                    r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n\|}{]{2,80})",
+                    r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n]{2,150})",
                     text, re.IGNORECASE
                 )
                 if m:
                     val = clean(m.group(1))
-                    if len(val) > 3:
+                    # strip any leftover broken [[ fragments
+                    val = re.sub(r"\[\[[^\]]*", "", val).strip().rstrip("|").strip()
+                    if len(val) > 2:
                         return val
             return ""
 
-        # extract_raw: gets the RAW field value INCLUDING template markup (for dates)
         def extract_raw(text, keys):
+            """Extract RAW field value (no cleaning) — needed for date templates like {{dts|yyyy|mm|dd}}."""
             for key in keys:
                 m = re.search(r"\|\s*" + re.escape(key) + r"\s*=\s*([^\n]{2,150})",
                               text, re.IGNORECASE)
@@ -255,58 +266,50 @@ def get_wiki(cricsheet_name, search_name):
                     return m.group(1).strip()
             return ""
 
-        # parse_date: works on RAW wikitext value, handles {{dts|...}}, {{birth date|...}}, plain text
         def parse_date(val):
-            if not val:
-                return ""
+            """Parse a date from raw wikitext including {{dts|...}} and {{birth date|...}} templates."""
+            if not val: return ""
             months = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
             # {{dts|yyyy|mm|dd}} or {{birth date|yyyy|mm|dd}} or {{birth date and age|yyyy|mm|dd}}
-            m = re.search(r"\{\{(?:dts|birth date(?:[^|]*)?)\s*\|\s*(\d{4})\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})",
+            m = re.search(r"\{\{(?:dts|birth date(?:[^|{]*)?)\s*\|\s*(\d{4})\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})",
                           val, re.IGNORECASE)
             if m:
                 try: return f"{int(m.group(3))} {months[int(m.group(2))]} {m.group(1)}"
                 except: pass
-            # Any yyyy|mm|dd or yyyy-mm-dd sequence anywhere in value
-            m2 = re.search(r"(\d{4})\D+(\d{1,2})\D+(\d{1,2})", val)
+            # Plain yyyy-mm-dd or yyyy|mm|dd anywhere in string
+            m2 = re.search(r"(\d{4})\D+?(\d{1,2})\D+?(\d{1,2})", val)
             if m2:
                 try:
                     mo = int(m2.group(2))
                     if 1 <= mo <= 12:
                         return f"{int(m2.group(3))} {months[mo]} {m2.group(1)}"
                 except: pass
-            # dd Month_name yyyy
+            # dd MonthName yyyy
             m3 = re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", val)
             if m3:
-                mon = m3.group(2)[:3].capitalize()
-                return f"{int(m3.group(1))} {mon} {m3.group(3)}"
-            # Month_name dd, yyyy
-            m4 = re.search(r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})", val)
-            if m4:
-                mon = m4.group(1)[:3].capitalize()
-                return f"{int(m4.group(2))} {mon} {m4.group(3)}"
+                return f"{int(m3.group(1))} {m3.group(2)[:3].capitalize()} {m3.group(3)}"
             return ""
 
-        # born — look for birth_date template too e.g. {{birth date|1988|10|15}}
+        # born — look for birth_date template e.g. {{birth date and age|1988|11|5}}
         born = ""
         bd_m = re.search(r"\{\{birth date(?:\s*and age)?\s*\|([^}]+)\}\}", wikitext, re.IGNORECASE)
         if bd_m:
             parts = [p.strip() for p in bd_m.group(1).split("|") if p.strip().isdigit()]
             if len(parts) >= 3:
                 months_list = ["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-                try:
-                    born = f"{int(parts[2])} {months_list[int(parts[1])]} {parts[0]}"
+                try: born = f"{int(parts[2])} {months_list[int(parts[1])]} {parts[0]}"
                 except: pass
         if not born:
             born = extract_field(wikitext, ["birth_date","birthdate","born"])
 
-        # Debut dates — use extract_raw so {{dts|...}} is preserved for parse_date
+        # Debut dates — MUST use extract_raw so {{dts|yyyy|mm|dd}} isn't stripped before parsing
         odi_debut  = parse_date(extract_raw(wikitext, ["odidebutdate","ODIdebutdate","odi_debut_date"]))
         test_debut = parse_date(extract_raw(wikitext, ["testdebutdate","Testdebutdate","test_debut_date"]))
         t20_debut  = parse_date(extract_raw(wikitext, ["t20idebutdate","T20Idebutdate","T20debutdate","t20_debut_date"]))
         any_debut  = parse_date(extract_raw(wikitext, ["debutdate","debut_date","internationaldebutdate"]))
 
-        role   = extract_field(wikitext, ["role","batting_style","batting style","bowling_style","bowling style"])
-        nation = extract_field(wikitext, ["country","nationality","national_side","national side"])
+        role   = extract_field(wikitext, ["role","batting_style","bowling_style"])
+        nation = extract_field(wikitext, ["country","nationality","national_side"])
 
         description = data.get("description","")
 
@@ -360,7 +363,7 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI"):
     st.markdown(f"""
 <div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:16px;
             padding:20px;margin:0 0 20px 0;border:1px solid #2d3561;
-            display:flex;gap:18px;align-items:flex-start">
+            display:flex;gap:18px;align-items:flex-start;height:100%;min-height:180px">
   {img_html}
   <div style="flex:1;min-width:0">
     <div style="color:#fff;font-size:22px;font-weight:800;margin-bottom:8px">{card["title"]}</div>
@@ -546,6 +549,37 @@ elif section=="⚔️ Head to Head":
                 fy.update_yaxes(title="Runs",showgrid=True,gridcolor=GRID)
                 st.plotly_chart(fy,**CFG)
 
+            # ── Bowling comparison ──────────────────────────────────────────
+            w1=bowl_fmt[(bowl_fmt["bowler"].str.contains(s1,case=False,na=False))&(bowl_fmt["format"]==fmt)]
+            w2=bowl_fmt[(bowl_fmt["bowler"].str.contains(s2,case=False,na=False))&(bowl_fmt["format"]==fmt)]
+            if len(w1)>0 and len(w2)>0:
+                st.subheader(f"🎳 Bowling — {fmt}")
+                pw1=w1.iloc[0]; pw2=w2.iloc[0]
+                BLABELS={"wickets":"Wickets","economy":"Economy","average":"Average",
+                         "strike_rate":"Strike Rate","dot_pct":"Dot %"}
+                for btitle,bml in [("🎳 Wickets & Economy",["wickets","economy"]),
+                                   ("📊 Average & Strike Rate",["average","strike_rate"]),
+                                   ("💧 Dot Ball %",["dot_pct"])]:
+                    bpretty=[BLABELS.get(m,m) for m in bml]
+                    bv1=[float(pw1.get(m,0)) for m in bml]
+                    bv2=[float(pw2.get(m,0)) for m in bml]
+                    bxmax=max(bv1+bv2)*1.22 if max(bv1+bv2)>0 else 10
+                    bfig=go.Figure()
+                    bfig.add_trace(go.Bar(name=pw1["bowler"],y=bpretty,x=bv1,orientation="h",
+                        marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
+                        text=[f"{v:.1f}" for v in bv1],textposition="outside",
+                        textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                    bfig.add_trace(go.Bar(name=pw2["bowler"],y=bpretty,x=bv2,orientation="h",
+                        marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
+                        text=[f"{v:.1f}" for v in bv2],textposition="outside",
+                        textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                    bfig.update_layout(**BASE,barmode="group",title=btitle,
+                                      height=max(200,len(bml)*110),
+                                      margin=dict(l=130,r=90,t=48,b=8))
+                    bfig.update_yaxes(showgrid=False,tickfont=dict(size=13),title="",automargin=True)
+                    bfig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,bxmax])
+                    st.plotly_chart(bfig,**CFG)
+
 # ══ 3. PLAYER VS VENUE ═════════════════════════════════════════════════════
 elif section=="🏟️ Player vs Venue":
     page_banner("🏟️","Player vs Venue","How does a player perform at different grounds?","#0a1a1a","#0d2b2b","#00b894")
@@ -562,12 +596,12 @@ elif section=="🏟️ Player vs Venue":
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
                 df_v=df_v.sort_values(m,ascending=False).head(15)
-                ch(bar_h(df_v,m,"venue",m,"Greens",f"{df_v['striker'].iloc[0]} — {m} by Venue ({fmt})"))
+                plot_h(bar_h(df_v,m,"venue",m,"Greens",f"{df_v['striker'].iloc[0]} — {m} by Venue ({fmt})"))
                 st.dataframe(df_v[["venue","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
                 df_v=df_v.sort_values(m,ascending=False).head(15)
-                ch(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
+                plot_h(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
                 st.dataframe(df_v[["venue","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ 4. PLAYER VS OPPONENT ══════════════════════════════════════════════════
@@ -586,12 +620,12 @@ elif section=="🌍 Player vs Opponent":
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
                 df_o=df_o.sort_values(m,ascending=False)
-                ch(bar_h(df_o,m,"opponent",m,"Blues",f"{df_o['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
+                plot_h(bar_h(df_o,m,"opponent",m,"Blues",f"{df_o['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
                 st.dataframe(df_o[["opponent","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
                 df_o=df_o.sort_values(m,ascending=False)
-                ch(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
+                plot_h(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
                 st.dataframe(df_o[["opponent","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ 5. BATTER VS BOWLER ════════════════════════════════════════════════════
@@ -609,7 +643,7 @@ elif section=="🤜 Batter vs Bowler":
                 df_m=src[src["format"]==fmt]
                 m=st.selectbox("Sort by",["balls_faced","runs","strike_rate","dismissals"])
                 df_m=df_m.sort_values(m,ascending=False).head(20)
-                ch(bar_h(df_m,m,"bowler",m,"Greens",f"Top 20 bowlers faced — {m} ({fmt})"))
+                plot_h(bar_h(df_m,m,"bowler",m,"Greens",f"Top 20 bowlers faced — {m} ({fmt})"))
                 st.dataframe(df_m[["bowler","balls_faced","runs","strike_rate","dismissals"]].reset_index(drop=True))
     else:
         name=st.text_input("Bowler name","Shaheen")
@@ -622,7 +656,7 @@ elif section=="🤜 Batter vs Bowler":
                 df_m=src[src["format"]==fmt]
                 m=st.selectbox("Sort by",["wickets","economy","dot_pct","runs_given"])
                 df_m=df_m.sort_values(m,ascending=(m in ["economy","dot_pct"])).head(20)
-                ch(bar_h(df_m,m,"striker",m,"Reds",f"Top 20 batters bowled to — {m} ({fmt})"))
+                plot_h(bar_h(df_m,m,"striker",m,"Reds",f"Top 20 batters bowled to — {m} ({fmt})"))
                 st.dataframe(df_m[["striker","balls_bowled","runs_given","wickets","economy"]].reset_index(drop=True))
 
 # ══ 6. PERFORMANCE OVER YEARS ══════════════════════════════════════════════
@@ -640,16 +674,22 @@ elif section=="📈 Performance Over Years":
             by=src[src["format"]==fmt].sort_values("year")
             clr=FC.get(fmt,"#00b894")
             if st_=="Batting":
-                ch(bar_v(by,"year","runs","Runs per Year",clr))
-                c1,c2=st.columns(2)
-                with c1: ch(line(by,"year","average","Batting Average",clr),260)
-                with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),260)
+                if len(by)>1:
+                    ch(bar_v(by,"year","runs","Runs per Year",clr))
+                    c1,c2=st.columns(2)
+                    with c1: ch(line(by,"year","average","Batting Average",clr),260)
+                    with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),260)
+                else:
+                    st.info("Not enough yearly data to plot trends.")
                 st.dataframe(by[["year","matches","runs","average","strike_rate","fours","sixes"]].reset_index(drop=True))
             else:
-                ch(bar_v(by,"year","wickets","Wickets per Year",clr))
-                c1,c2=st.columns(2)
-                with c1: ch(line(by,"year","economy","Economy Rate","#d63031"),260)
-                with c2: ch(line(by,"year","average","Bowling Average","#6c5ce7"),260)
+                if len(by)>1:
+                    ch(bar_v(by,"year","wickets","Wickets per Year",clr))
+                    c1,c2=st.columns(2)
+                    with c1: ch(line(by,"year","economy","Economy Rate","#d63031"),260)
+                    with c2: ch(line(by,"year","average","Bowling Average","#6c5ce7"),260)
+                else:
+                    st.info("Not enough yearly data to plot trends.")
                 st.dataframe(by[["year","matches","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
 # ══ 7. LEADERBOARD ═════════════════════════════════════════════════════════
@@ -665,7 +705,7 @@ elif section=="🏆 Leaderboard":
         tn=st.slider("Top N",5,30,15)
         lb=bs[bs["runs"]>=mr].sort_values(sb,ascending=False).head(tn).reset_index(drop=True)
         lb.insert(0,"Rank",range(1,len(lb)+1))
-        ch(bar_h(lb,sb,"striker",sb,"Teal",f"Top {tn} {fmt} Batters — {sb}"),max(350,tn*30))
+        plot_h(bar_h(lb,sb,"striker",sb,"Teal",f"Top {tn} {fmt} Batters — {sb}"))
         show_cols=[c for c in ["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"] if c in lb.columns]
         st.dataframe(lb[show_cols].reset_index(drop=True))
     with tab2:
@@ -676,7 +716,7 @@ elif section=="🏆 Leaderboard":
         tn2=st.slider("Top N bowlers",5,30,15)
         lb2=ws[ws["wickets"]>=mw].sort_values(sb2,ascending=(sb2 in ["economy","average"])).head(tn2).reset_index(drop=True)
         lb2.insert(0,"Rank",range(1,len(lb2)+1))
-        ch(bar_h(lb2,"wickets","bowler","economy","Sunset",f"Top {tn2} {fmt} Bowlers"),max(350,tn2*30))
+        plot_h(bar_h(lb2,sb2,"bowler",sb2,"Sunset",f"Top {tn2} {fmt} Bowlers — {sb2}"))
         show_cols2=[c for c in ["Rank","bowler","matches","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
         st.dataframe(lb2[show_cols2].reset_index(drop=True))
 
@@ -700,7 +740,7 @@ elif section=="🤖 Similar Players":
                 same=same.sort_values("average",ascending=False).head(10)
                 st.subheader(f"Players most similar to {p['striker']} in {fmt}")
                 st.caption(f"⭐ Player Score: {p.get('player_score','—')} | Cluster #{cluster}")
-                ch(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
+                plot_h(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
                 st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
         else:
             src=bowl_sim[(bowl_sim["bowler"].str.contains(sname,case=False,na=False))&(bowl_sim["format"]==fmt)]
@@ -712,7 +752,7 @@ elif section=="🤖 Similar Players":
                 same=same[~same["bowler"].str.contains(sname,case=False,na=False)]
                 same=same.sort_values("wickets",ascending=False).head(10)
                 st.subheader(f"Bowlers most similar to {p['bowler']} in {fmt}")
-                ch(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
+                plot_h(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
                 st.dataframe(same[["bowler","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
 # ══ 9. FORM & RATINGS ══════════════════════════════════════════════════════
@@ -727,13 +767,13 @@ elif section=="🔥 Form & Ratings":
         with t1:
             top=src[src["form_score"]>=110].sort_values("form_score",ascending=False).head(20)
             if len(top)>0:
-                ch(bar_h(top,"form_score","striker","form_score","Oranges",f"🔥 On Fire Batters ({fmt})"))
+                plot_h(bar_h(top,"form_score","striker","form_score","Oranges",f"🔥 On Fire Batters ({fmt})"))
                 st.dataframe(top[["striker","form_label","form_score","recent_avg","career_avg","recent_sr","career_sr"]].reset_index(drop=True))
             else: st.info("No batters in 'On Fire' form for this format yet.")
         with t2:
             bot=src[src["form_score"]<70].sort_values("form_score").head(20)
             if len(bot)>0:
-                ch(bar_h(bot,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
+                plot_h(bar_h(bot,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
                 st.dataframe(bot[["striker","form_label","form_score","recent_avg","career_avg"]].reset_index(drop=True))
             else: st.info("No batters struggling in this format.")
 
@@ -743,18 +783,18 @@ elif section=="🔥 Form & Ratings":
         with t1:
             top2=src2[src2["form_score"]>=110].sort_values("form_score",ascending=False).head(20)
             if len(top2)>0:
-                ch(bar_h(top2,"form_score","bowler","form_score","Oranges",f"🔥 On Fire Bowlers ({fmt})"))
+                plot_h(bar_h(top2,"form_score","bowler","form_score","Oranges",f"🔥 On Fire Bowlers ({fmt})"))
                 st.dataframe(top2[["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"]].reset_index(drop=True))
             else: st.info("No bowlers in 'On Fire' form for this format yet.")
         with t2:
             bot2=src2[src2["form_score"]<70].sort_values("form_score").head(20)
             if len(bot2)>0:
-                ch(bar_h(bot2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
+                plot_h(bar_h(bot2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
                 st.dataframe(bot2[["bowler","form_label","form_score","recent_econ","career_econ"]].reset_index(drop=True))
             else: st.info("No bowlers struggling in this format.")
 
     with tab3:
         ps=bat_sim[bat_sim["format"]==fmt].sort_values("player_score",ascending=False).head(20)
-        ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 20 Player Scores ({fmt})"))
+        plot_h(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 20 Player Scores ({fmt})"))
         st.caption("Score = Average 30% · Strike Rate 25% · Boundary% 20% · Runs volume 15% · Non-dot% 10%")
         st.dataframe(ps[["striker","player_score","average","strike_rate","boundary_pct","runs"]].reset_index(drop=True))
