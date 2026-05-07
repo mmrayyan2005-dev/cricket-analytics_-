@@ -41,6 +41,8 @@ html,body,[class*="css"]{{font-family:'Inter',sans-serif;background:{BG};color:{
 .js-plotly-plot{{touch-action:pan-y!important}}
 div[data-baseweb="tab-list"]{{gap:8px}}
 div[data-baseweb="tab"]{{border-radius:8px;padding:6px 14px;background:{CARD}}}
+/* Equal-height columns for head-to-head player cards */
+[data-testid="stHorizontalBlock"]>[data-testid="column"]>div>div>div>[data-testid="stMarkdownContainer"]>div>div{{height:100%;box-sizing:border-box}}
 </style>""",unsafe_allow_html=True)
 
 # ── Load CSVs from GitHub raw ─────────────────────────────────────────────
@@ -87,31 +89,33 @@ def plot_h(fig):
 
 def bar_h(df,x,y,col,scale,title):
     max_chars = int(df[y].astype(str).str.len().max()) if len(df)>0 else 20
-    lm = max(240, int(max_chars * 8.5 + 30))
-    h  = max(420, len(df) * 58)
-    xmax = float(df[x].max()) * 1.18 if len(df)>0 else 1
+    lm = max(260, int(max_chars * 9 + 40))
+    h  = max(500, len(df) * 68)
+    xmax = float(df[x].max()) * 1.22 if len(df)>0 else 1
     fig=px.bar(df,x=x,y=y,orientation="h",color=col,color_continuous_scale=scale,title=title)
     fig.update_traces(marker_line_width=0,
                       text=pd.to_numeric(df[x], errors="coerce").round(1).fillna(0).astype(str),
                       textposition="outside",
-                      textfont=dict(size=10,color=TEXT),
+                      textfont=dict(size=11,color=TEXT),
                       cliponaxis=False)
     fig.update_layout(**BASE,height=h,coloraxis_showscale=False,
-                      margin=dict(l=lm,r=80,t=48,b=8),bargap=0.32)
+                      margin=dict(l=lm,r=90,t=52,b=12),bargap=0.28)
     fig.update_yaxes(categoryorder="total ascending",showgrid=False,title="",
-                     tickfont=dict(size=12,color=TEXT),automargin=False,
+                     tickfont=dict(size=13,color=TEXT),automargin=False,
                      tickmode="linear")
-    fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",tickfont=dict(size=11),
+    fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",tickfont=dict(size=12),
                      range=[0,xmax])
     return fig
 
-def bar_v(df,x,y,title,color,h=340):
+def bar_v(df,x,y,title,color,h=420):
     fig=px.bar(df,x=x,y=y,text_auto=True,title=title,color_discrete_sequence=[color])
-    fig.update_traces(textposition="outside",textfont=dict(size=11,color=TEXT),marker_line_width=0)
-    fig.update_layout(**BASE,height=h,showlegend=False,margin=M_BARV)
+    fig.update_traces(textposition="outside",textfont=dict(size=12,color=TEXT),
+                      marker_line_width=0,width=0.6)
+    fig.update_layout(**BASE,height=h,showlegend=False,
+                      margin=dict(l=12,r=12,t=52,b=80))
     fig.update_xaxes(tickmode="linear",tickangle=-40,showgrid=False,
-                     tickfont=dict(size=11),automargin=True)
-    fig.update_yaxes(showgrid=True,gridcolor=GRID)
+                     tickfont=dict(size=12),automargin=True)
+    fig.update_yaxes(showgrid=True,gridcolor=GRID,tickfont=dict(size=12))
     return fig
 
 def line(df,x,y,title,color,h=260):
@@ -329,20 +333,35 @@ def get_wiki(cricsheet_name, search_name):
 def show_player_card(cricsheet_name, search_name, fmt="ODI"):
     card = get_wiki(cricsheet_name, search_name)
 
+    # Fallback placeholder SVG avatar (always shown if no image)
+    AVATAR_SVG = (
+        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='145' "
+        "viewBox='0 0 120 145'%3E%3Crect width='120' height='145' rx='12' fill='%231e2a3a'/%3E"
+        "%3Ccircle cx='60' cy='50' r='28' fill='%232d3561'/%3E"
+        "%3Cellipse cx='60' cy='120' rx='38' ry='28' fill='%232d3561'/%3E"
+        "%3Ctext x='60' y='58' text-anchor='middle' font-size='28' fill='%236c7faa'%3E🏏%3C/text%3E"
+        "%3C/svg%3E"
+    )
+
     if not card:
-        # show placeholder if wiki fails
+        # show placeholder card with avatar if wiki fails
+        display_name = cricsheet_name or search_name
+        img_html = f'<img src="{AVATAR_SVG}" style="width:110px;height:132px;object-fit:cover;border-radius:12px;border:2px solid #2d3561;flex-shrink:0;">'
         st.markdown(f"""
 <div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:16px;
-            padding:16px 20px;margin:0 0 20px 0;border:1px solid #2d3561">
-  <div style="color:#aaa;font-size:13px">📖 Player profile unavailable — Wikipedia not reachable</div>
+            padding:20px;margin:0 0 20px 0;border:1px solid #2d3561;
+            display:flex;gap:18px;align-items:flex-start;min-height:180px;box-sizing:border-box">
+  {img_html}
+  <div style="flex:1;min-width:0">
+    <div style="color:#fff;font-size:20px;font-weight:800;margin-bottom:8px">{display_name}</div>
+    <div style="color:#aaa;font-size:13px;margin-top:8px">📖 Profile unavailable — Wikipedia not reachable</div>
+  </div>
 </div>""", unsafe_allow_html=True)
         return
 
-    img_html = ""
-    if card["img"]:
-        img_html = f'''<img src="{card["img"]}"
-            style="width:120px;height:145px;object-fit:cover;border-radius:12px;
-                   border:2px solid #2d3561;flex-shrink:0;box-shadow:0 4px 20px #000a">'''
+    # Use Wikipedia image or fallback avatar
+    img_src = card["img"] if card.get("img") else AVATAR_SVG
+    img_html = f'<img src="{img_src}" style="width:110px;height:132px;object-fit:cover;border-radius:12px;border:2px solid #2d3561;flex-shrink:0;box-shadow:0 4px 20px #000a">'
 
     # Pick correct debut for selected format
     fmt_key = {"ODI":"odi_debut","Test":"test_debut","T20I":"t20_debut",
@@ -352,23 +371,29 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI"):
     # Build info pills
     pills = ""
     if card["born"]:
-        pills += f'<span style="background:#1e2a3a;color:#00b894;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🎂 Born: {card["born"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#00b894;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🎂 Born: {card["born"]}</span>'
     if card["nation"]:
-        pills += f'<span style="background:#1e2a3a;color:#0984e3;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🌍 {card["nation"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#0984e3;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🌍 {card["nation"]}</span>'
     if card["role"]:
-        pills += f'<span style="background:#1e2a3a;color:#fdcb6e;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🏏 {card["role"]}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#fdcb6e;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🏏 {card["role"]}</span>'
     if debut_date:
-        pills += f'<span style="background:#1e2a3a;color:#e17055;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px;display:inline-block">🎯 {fmt} Debut: {debut_date}</span>'
+        pills += f'<span style="background:#1e2a3a;color:#e17055;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600;margin-right:4px;margin-bottom:4px;display:inline-block">🎯 {fmt} Debut: {debut_date}</span>'
+
+    # Truncate bio to 3 sentences for compact side-by-side layout
+    bio_short = card["bio"]
+    sents = [s.strip() for s in bio_short.split(".") if len(s.strip()) > 10]
+    bio_display = ". ".join(sents[:3]) + "." if sents else bio_short[:280]
 
     st.markdown(f"""
 <div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:16px;
             padding:20px;margin:0 0 20px 0;border:1px solid #2d3561;
-            display:flex;gap:18px;align-items:flex-start;height:100%;min-height:180px">
+            display:flex;gap:16px;align-items:flex-start;min-height:200px;
+            box-sizing:border-box;height:100%">
   {img_html}
-  <div style="flex:1;min-width:0">
-    <div style="color:#fff;font-size:22px;font-weight:800;margin-bottom:8px">{card["title"]}</div>
-    <div style="margin-bottom:10px;flex-wrap:wrap;display:flex;gap:6px">{pills}</div>
-    <div style="color:#8899bb;font-size:13px;line-height:1.7">{card["bio"]}</div>
+  <div style="flex:1;min-width:0;overflow:hidden">
+    <div style="color:#fff;font-size:18px;font-weight:800;margin-bottom:8px;line-height:1.2">{card["title"]}</div>
+    <div style="margin-bottom:8px;flex-wrap:wrap;display:flex;gap:4px;line-height:1.8">{pills}</div>
+    <div style="color:#8899bb;font-size:12px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical">{bio_display}</div>
   </div>
 </div>""", unsafe_allow_html=True)
 
@@ -517,20 +542,20 @@ elif section=="⚔️ Head to Head":
                               ("📊 Percentages",["dot_pct","boundary_pct"])]:
                 pretty=[LABELS.get(m,m) for m in ml]
                 v1=[float(p1.get(m,0)) for m in ml]; v2=[float(p2.get(m,0)) for m in ml]
-                xmax=max(v1+v2)*1.22 if max(v1+v2)>0 else 10
+                xmax=max(v1+v2)*1.30 if max(v1+v2)>0 else 10
                 fig=go.Figure()
                 fig.add_trace(go.Bar(name=p1n,y=pretty,x=v1,orientation="h",
                     marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
                     text=[f"{v:.1f}" for v in v1],textposition="outside",
-                    textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                    textfont=dict(size=12,color=TEXT),cliponaxis=False))
                 fig.add_trace(go.Bar(name=p2n,y=pretty,x=v2,orientation="h",
                     marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
                     text=[f"{v:.1f}" for v in v2],textposition="outside",
-                    textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                    textfont=dict(size=12,color=TEXT),cliponaxis=False))
                 fig.update_layout(**BASE,barmode="group",title=title,
-                                  height=max(200,len(ml)*110),
-                                  margin=dict(l=120,r=90,t=48,b=8))
-                fig.update_yaxes(showgrid=False,tickfont=dict(size=13),title="",automargin=True)
+                                  height=max(300,len(ml)*150),
+                                  margin=dict(l=150,r=120,t=52,b=12))
+                fig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
                 fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,xmax])
                 st.plotly_chart(fig,**CFG)
 
@@ -543,7 +568,7 @@ elif section=="⚔️ Head to Head":
                            title=f"Runs per Year — {fmt}",
                            color_discrete_map={p1n:FC["ODI"],p2n:FC["Test"]})
                 fy.update_traces(line=dict(width=2.5),marker=dict(size=8))
-                fy.update_layout(**BASE,height=340,margin=dict(l=50,r=20,t=48,b=40))
+                fy.update_layout(**BASE,height=420,margin=dict(l=60,r=30,t=52,b=50))
                 fy.update_xaxes(title="Year",tickmode="linear",dtick=2,
                                 showgrid=True,gridcolor=GRID)
                 fy.update_yaxes(title="Runs",showgrid=True,gridcolor=GRID)
@@ -563,20 +588,20 @@ elif section=="⚔️ Head to Head":
                     bpretty=[BLABELS.get(m,m) for m in bml]
                     bv1=[float(pw1.get(m,0)) for m in bml]
                     bv2=[float(pw2.get(m,0)) for m in bml]
-                    bxmax=max(bv1+bv2)*1.22 if max(bv1+bv2)>0 else 10
+                    bxmax=max(bv1+bv2)*1.30 if max(bv1+bv2)>0 else 10
                     bfig=go.Figure()
                     bfig.add_trace(go.Bar(name=pw1["bowler"],y=bpretty,x=bv1,orientation="h",
                         marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
                         text=[f"{v:.1f}" for v in bv1],textposition="outside",
-                        textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                        textfont=dict(size=12,color=TEXT),cliponaxis=False))
                     bfig.add_trace(go.Bar(name=pw2["bowler"],y=bpretty,x=bv2,orientation="h",
                         marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
                         text=[f"{v:.1f}" for v in bv2],textposition="outside",
-                        textfont=dict(size=11,color=TEXT),cliponaxis=False))
+                        textfont=dict(size=12,color=TEXT),cliponaxis=False))
                     bfig.update_layout(**BASE,barmode="group",title=btitle,
-                                      height=max(200,len(bml)*110),
-                                      margin=dict(l=130,r=90,t=48,b=8))
-                    bfig.update_yaxes(showgrid=False,tickfont=dict(size=13),title="",automargin=True)
+                                      height=max(300,len(bml)*150),
+                                      margin=dict(l=150,r=120,t=52,b=12))
+                    bfig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
                     bfig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,bxmax])
                     st.plotly_chart(bfig,**CFG)
 
