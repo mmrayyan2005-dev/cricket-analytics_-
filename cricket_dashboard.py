@@ -12,8 +12,9 @@ RAW_BASE = "https://raw.githubusercontent.com/mmrayyan2005-dev/cricket-analytics
 # ─────────────────────────────────────────────────────────────────────────
 
 BG="#0f1117"; CARD="#1e2130"; TEXT="#f0f0f0"; GRID="#2a2d3e"
-FC={"ODI":"#00b894","Test":"#0984e3","T20I":"#d63031","IPL":"#e17055","PSL":"#6c5ce7"}
-FORMATS=["ODI","Test","T20I","IPL","PSL"]
+FC={"ODI":"#00b894","Test":"#0984e3","T20I":"#d63031","IPL":"#e17055","PSL":"#6c5ce7",
+    "WPL":"#fd79a8","NT20":"#00cec9","Ranji":"#fdcb6e"}
+FORMATS=["ODI","Test","T20I","IPL","PSL","WPL","NT20","Ranji"]
 
 BASE=dict(paper_bgcolor="rgba(0,0,0,0)",plot_bgcolor="rgba(0,0,0,0)",
           font=dict(color=TEXT,family="Inter,sans-serif",size=12),
@@ -50,6 +51,10 @@ div[data-baseweb="tab"]{{border-radius:8px;padding:6px 14px;background:{CARD}}}
 def load():
     def read(name):
         return pd.read_csv(f"{RAW_BASE}/{name}")
+    def read_opt(name):
+        """Try to read optional CSV; return empty DataFrame on failure."""
+        try: return pd.read_csv(f"{RAW_BASE}/{name}")
+        except: return pd.DataFrame()
     return (read("cricket_batting_stats.csv"),
             read("cricket_bowling_stats.csv"),
             read("cricket_batting_by_format.csv"),
@@ -428,6 +433,9 @@ if section=="🔍 Player Search":
     <span style="background:linear-gradient(135deg,#d63031,#ff7675);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #d6303155">T20I</span>
     <span style="background:linear-gradient(135deg,#e17055,#fdcb6e);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #e1705555">IPL</span>
     <span style="background:linear-gradient(135deg,#6c5ce7,#a29bfe);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #6c5ce755">PSL</span>
+    <span style="background:linear-gradient(135deg,#fd79a8,#e84393);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #fd79a855">WPL</span>
+    <span style="background:linear-gradient(135deg,#00cec9,#55efc4);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #00cec955">NT20</span>
+    <span style="background:linear-gradient(135deg,#fdcb6e,#e17055);color:#fff;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:700;box-shadow:0 0 12px #fdcb6e55">Ranji</span>
   </div>
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:500px;margin:0 auto 22px auto">
     <div style="background:linear-gradient(135deg,#1e2a3a,#1e2130);border-radius:14px;padding:16px 8px;border:1px solid #00b89433">
@@ -463,17 +471,38 @@ if section=="🔍 Player Search":
         avl=sorted(set(ab+aw),key=lambda x:FORMATS.index(x) if x in FORMATS else 99)
         if not avl: st.error(f"No player found for '{name}'."); st.stop()
 
+        # Determine the canonical player name from the data row with most runs
+        # (prevents "Smriti Anand" matching when you search "Smriti Mandhana")
+        all_bat_matches = bat_fmt[bat_fmt["striker"].str.contains(sname,case=False,na=False)]
+        all_bowl_matches = bowl_fmt[bowl_fmt["bowler"].str.contains(sname,case=False,na=False)]
+        if len(all_bat_matches)>0:
+            # pick the striker name that has the most total runs — that's the intended player
+            canonical_name = all_bat_matches.groupby("striker")["runs"].sum().idxmax()
+        elif len(all_bowl_matches)>0:
+            canonical_name = all_bowl_matches.groupby("bowler")["wickets"].sum().idxmax()
+        else:
+            canonical_name = sname
+        # Re-filter everything using exact canonical name
+        bat_fmt_f  = bat_fmt[bat_fmt["striker"]==canonical_name]
+        bowl_fmt_f = bowl_fmt[bowl_fmt["bowler"]==canonical_name]
+        bat_yr_f   = bat_yr[bat_yr["striker"]==canonical_name]
+        bowl_yr_f  = bowl_yr[bowl_yr["bowler"]==canonical_name]
+        avl2 = sorted(
+            set(bat_fmt_f["format"].unique().tolist()+bowl_fmt_f["format"].unique().tolist()),
+            key=lambda x:FORMATS.index(x) if x in FORMATS else 99
+        )
+        if avl2: avl = avl2
+
         fmt=st.radio("📋 Format",avl,horizontal=True)
         clr=FC.get(fmt,"#00b894")
-        bat=bat_fmt[(bat_fmt["striker"].str.contains(sname,case=False,na=False))&(bat_fmt["format"]==fmt)]
-        bowl=bowl_fmt[(bowl_fmt["bowler"].str.contains(sname,case=False,na=False))&(bowl_fmt["format"]==fmt)]
+        bat=bat_fmt_f[bat_fmt_f["format"]==fmt]
+        bowl=bowl_fmt_f[bowl_fmt_f["format"]==fmt]
 
-        display_name=bat["striker"].iloc[0] if len(bat)>0 else (bowl["bowler"].iloc[0] if len(bowl)>0 else sname)
-        show_player_card(display_name,name,fmt)
+        show_player_card(canonical_name, name, fmt)
 
         if len(bat)>0:
             p=bat.sort_values("runs",ascending=False).iloc[0]
-            st.subheader(f"🏏 {p['striker']} — Batting ({fmt})")
+            st.subheader(f"🏏 {canonical_name} — Batting ({fmt})")
             metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
             metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
             metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
@@ -484,7 +513,7 @@ if section=="🔍 Player Search":
             ps  =round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
             metrics({"100s":h100,"50s":h50,"Highest Score":hs,"Ducks":dk,"⭐ Player Score":ps})
 
-            by=bat_yr[(bat_yr["striker"].str.contains(sname,case=False,na=False))&(bat_yr["format"]==fmt)].sort_values("year")
+            by=bat_yr_f[bat_yr_f["format"]==fmt].sort_values("year")
             if len(by)>1:
                 ch(bar_v(by,"year","runs","Runs per Year",clr))
                 c1,c2=st.columns(2)
@@ -497,14 +526,14 @@ if section=="🔍 Player Search":
         st.divider()
         if len(bowl)>0:
             p2=bowl.sort_values("wickets",ascending=False).iloc[0]
-            st.subheader(f"🎳 {p2['bowler']} — Bowling ({fmt})")
+            st.subheader(f"🎳 {canonical_name} — Bowling ({fmt})")
             metrics({"Matches":int(p2["matches"]),"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
             metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot Ball %":f"{p2['dot_pct']}%"})
             fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
             bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
             metrics({"5-Wicket Hauls":fw,"Best Bowling":bb})
 
-            by2=bowl_yr[(bowl_yr["bowler"].str.contains(sname,case=False,na=False))&(bowl_yr["format"]==fmt)].sort_values("year")
+            by2=bowl_yr_f[bowl_yr_f["format"]==fmt].sort_values("year")
             if len(by2)>1:
                 ch(bar_v(by2,"year","wickets","Wickets per Year",clr))
                 c1,c2=st.columns(2)
@@ -522,8 +551,13 @@ elif section=="⚔️ Head to Head":
     fmt=st.radio("Format",FORMATS,horizontal=True)
     if n1 and n2:
         s1=resolve(n1); s2=resolve(n2)
-        b1=bat_fmt[(bat_fmt["striker"].str.contains(s1,case=False,na=False))&(bat_fmt["format"]==fmt)]
-        b2=bat_fmt[(bat_fmt["striker"].str.contains(s2,case=False,na=False))&(bat_fmt["format"]==fmt)]
+        # Resolve to the canonical (highest-run) player name to avoid partial-name collisions
+        b1all=bat_fmt[bat_fmt["striker"].str.contains(s1,case=False,na=False)]
+        b2all=bat_fmt[bat_fmt["striker"].str.contains(s2,case=False,na=False)]
+        if len(b1all)>0: s1=b1all.groupby("striker")["runs"].sum().idxmax()
+        if len(b2all)>0: s2=b2all.groupby("striker")["runs"].sum().idxmax()
+        b1=bat_fmt[(bat_fmt["striker"]==s1)&(bat_fmt["format"]==fmt)]
+        b2=bat_fmt[(bat_fmt["striker"]==s2)&(bat_fmt["format"]==fmt)]
         if len(b1)==0 or len(b2)==0:
             st.error(f"One or both players have no {fmt} data.")
         else:
@@ -534,33 +568,47 @@ elif section=="⚔️ Head to Head":
             with cc1: show_player_card(p1n,n1,fmt)
             with cc2: show_player_card(p2n,n2,fmt)
             st.subheader(f"🏏 Batting — {fmt}")
-            LABELS={"runs":"Runs","fours":"Fours","sixes":"Sixes",
-                    "average":"Avg","strike_rate":"Strike Rate",
-                    "dot_pct":"Dot %","boundary_pct":"Boundary %"}
-            for title,ml in [("🏏 Volume",["runs","fours","sixes"]),
-                              ("📈 Rates",["average","strike_rate"]),
-                              ("📊 Percentages",["dot_pct","boundary_pct"])]:
-                pretty=[LABELS.get(m,m) for m in ml]
-                v1=[float(p1.get(m,0)) for m in ml]; v2=[float(p2.get(m,0)) for m in ml]
-                xmax=max(v1+v2)*1.30 if max(v1+v2)>0 else 10
-                fig=go.Figure()
-                fig.add_trace(go.Bar(name=p1n,y=pretty,x=v1,orientation="h",
-                    marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
-                    text=[f"{v:.1f}" for v in v1],textposition="outside",
-                    textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                fig.add_trace(go.Bar(name=p2n,y=pretty,x=v2,orientation="h",
-                    marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
-                    text=[f"{v:.1f}" for v in v2],textposition="outside",
-                    textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                fig.update_layout(**BASE,barmode="group",title=title,
-                                  height=max(300,len(ml)*150),
-                                  margin=dict(l=150,r=120,t=52,b=12))
-                fig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
-                fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,xmax])
-                st.plotly_chart(fig,**CFG)
 
-            by1=bat_yr[(bat_yr["striker"].str.contains(s1,case=False,na=False))&(bat_yr["format"]==fmt)].copy()
-            by2y=bat_yr[(bat_yr["striker"].str.contains(s2,case=False,na=False))&(bat_yr["format"]==fmt)].copy()
+            def h2h_bar(labels, v1, v2, title, color1=FC["ODI"], color2=FC["Test"], h=380):
+                """Create a clean head-to-head horizontal grouped bar chart."""
+                xmax = max(v1+v2)*1.32 if max(v1+v2)>0 else 10
+                fig = go.Figure()
+                fig.add_trace(go.Bar(name=p1n, y=labels, x=v1, orientation="h",
+                    marker=dict(color=color1, opacity=0.92, line=dict(width=0)),
+                    text=[f"{v:.1f}" for v in v1], textposition="outside",
+                    textfont=dict(size=12, color=TEXT), cliponaxis=False))
+                fig.add_trace(go.Bar(name=p2n, y=labels, x=v2, orientation="h",
+                    marker=dict(color=color2, opacity=0.92, line=dict(width=0)),
+                    text=[f"{v:.1f}" for v in v2], textposition="outside",
+                    textfont=dict(size=12, color=TEXT), cliponaxis=False))
+                fig.update_layout(**BASE, barmode="group", title=title,
+                                  height=h, margin=dict(l=160, r=130, t=52, b=12))
+                fig.update_yaxes(showgrid=False, tickfont=dict(size=14), title="", automargin=True)
+                fig.update_xaxes(showgrid=True, gridcolor=GRID, title="", fixedrange=True, range=[0, xmax])
+                st.plotly_chart(fig, **CFG)
+
+            # Split Runs onto its own chart (scale is too different from Fours/Sixes)
+            h2h_bar(["Runs"],
+                    [float(p1.get("runs",0))], [float(p2.get("runs",0))],
+                    "🏏 Total Runs", h=240)
+            # Fours & Sixes on their own chart
+            h2h_bar(["Fours","Sixes"],
+                    [float(p1.get("fours",0)), float(p1.get("sixes",0))],
+                    [float(p2.get("fours",0)), float(p2.get("sixes",0))],
+                    "🏏 Boundaries — Fours & Sixes", h=340)
+            # Rates
+            h2h_bar(["Avg","Strike Rate"],
+                    [float(p1.get("average",0)), float(p1.get("strike_rate",0))],
+                    [float(p2.get("average",0)), float(p2.get("strike_rate",0))],
+                    "📈 Average & Strike Rate", h=340)
+            # Percentages
+            h2h_bar(["Dot %","Boundary %"],
+                    [float(p1.get("dot_pct",0)), float(p1.get("boundary_pct",0))],
+                    [float(p2.get("dot_pct",0)), float(p2.get("boundary_pct",0))],
+                    "📊 Dot Ball % vs Boundary %", h=340)
+
+            by1=bat_yr[(bat_yr["striker"]==s1)&(bat_yr["format"]==fmt)].copy()
+            by2y=bat_yr[(bat_yr["striker"]==s2)&(bat_yr["format"]==fmt)].copy()
             if len(by1)>0 and len(by2y)>0:
                 by1["player"]=p1n; by2y["player"]=p2n
                 combined = pd.concat([by1,by2y]).sort_values("year")
@@ -575,35 +623,39 @@ elif section=="⚔️ Head to Head":
                 st.plotly_chart(fy,**CFG)
 
             # ── Bowling comparison ──────────────────────────────────────────
-            w1=bowl_fmt[(bowl_fmt["bowler"].str.contains(s1,case=False,na=False))&(bowl_fmt["format"]==fmt)]
-            w2=bowl_fmt[(bowl_fmt["bowler"].str.contains(s2,case=False,na=False))&(bowl_fmt["format"]==fmt)]
+            w1=bowl_fmt[(bowl_fmt["bowler"]==s1)&(bowl_fmt["format"]==fmt)]
+            w2=bowl_fmt[(bowl_fmt["bowler"]==s2)&(bowl_fmt["format"]==fmt)]
             if len(w1)>0 and len(w2)>0:
                 st.subheader(f"🎳 Bowling — {fmt}")
                 pw1=w1.iloc[0]; pw2=w2.iloc[0]
-                BLABELS={"wickets":"Wickets","economy":"Economy","average":"Average",
-                         "strike_rate":"Strike Rate","dot_pct":"Dot %"}
-                for btitle,bml in [("🎳 Wickets & Economy",["wickets","economy"]),
-                                   ("📊 Average & Strike Rate",["average","strike_rate"]),
-                                   ("💧 Dot Ball %",["dot_pct"])]:
-                    bpretty=[BLABELS.get(m,m) for m in bml]
-                    bv1=[float(pw1.get(m,0)) for m in bml]
-                    bv2=[float(pw2.get(m,0)) for m in bml]
-                    bxmax=max(bv1+bv2)*1.30 if max(bv1+bv2)>0 else 10
+                def h2h_bowl(labels,bv1,bv2,title,h=340):
+                    bxmax=max(bv1+bv2)*1.32 if max(bv1+bv2)>0 else 10
                     bfig=go.Figure()
-                    bfig.add_trace(go.Bar(name=pw1["bowler"],y=bpretty,x=bv1,orientation="h",
-                        marker=dict(color=FC["ODI"],opacity=0.9,line=dict(width=0)),
+                    bfig.add_trace(go.Bar(name=pw1["bowler"],y=labels,x=bv1,orientation="h",
+                        marker=dict(color=FC["ODI"],opacity=0.92,line=dict(width=0)),
                         text=[f"{v:.1f}" for v in bv1],textposition="outside",
                         textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                    bfig.add_trace(go.Bar(name=pw2["bowler"],y=bpretty,x=bv2,orientation="h",
-                        marker=dict(color=FC["Test"],opacity=0.9,line=dict(width=0)),
+                    bfig.add_trace(go.Bar(name=pw2["bowler"],y=labels,x=bv2,orientation="h",
+                        marker=dict(color=FC["Test"],opacity=0.92,line=dict(width=0)),
                         text=[f"{v:.1f}" for v in bv2],textposition="outside",
                         textfont=dict(size=12,color=TEXT),cliponaxis=False))
-                    bfig.update_layout(**BASE,barmode="group",title=btitle,
-                                      height=max(300,len(bml)*150),
-                                      margin=dict(l=150,r=120,t=52,b=12))
+                    bfig.update_layout(**BASE,barmode="group",title=title,
+                                      height=h,margin=dict(l=160,r=130,t=52,b=12))
                     bfig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
                     bfig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,bxmax])
                     st.plotly_chart(bfig,**CFG)
+                # Wickets alone (scale mismatch with economy)
+                h2h_bowl(["Wickets"],
+                         [float(pw1.get("wickets",0))],[float(pw2.get("wickets",0))],
+                         "🎳 Total Wickets", h=240)
+                h2h_bowl(["Economy","Average"],
+                         [float(pw1.get("economy",0)),float(pw1.get("average",0))],
+                         [float(pw2.get("economy",0)),float(pw2.get("average",0))],
+                         "📊 Economy & Average", h=340)
+                h2h_bowl(["Strike Rate","Dot %"],
+                         [float(pw1.get("strike_rate",0)),float(pw1.get("dot_pct",0))],
+                         [float(pw2.get("strike_rate",0)),float(pw2.get("dot_pct",0))],
+                         "⚡ Strike Rate & Dot %", h=340)
 
 # ══ 3. PLAYER VS VENUE ═════════════════════════════════════════════════════
 elif section=="🏟️ Player vs Venue":
