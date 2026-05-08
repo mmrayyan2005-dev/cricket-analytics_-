@@ -656,10 +656,7 @@ elif section=="🤖 Similar Players":
         sname=resolve(name)
         if st_type=="Batter":
             src=find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname)
-            if len(src)==0:
-                has_bowl=not find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname).empty
-                hint=" (They appear as a Bowler — try switching to Bowler above.)" if has_bowl else ""
-                st.error(f"No ML data for '{name}' in {fmt}. They may have <200 runs in this format.{hint}")
+            if len(src)==0: st.error(f"No ML data for '{name}' in {fmt}. They may have <200 runs in this format.")
             else:
                 p=src.iloc[0]; cluster=int(p["cluster"])
                 same=bat_sim[(bat_sim["cluster"]==cluster)&(bat_sim["format"]==fmt)]
@@ -671,10 +668,7 @@ elif section=="🤖 Similar Players":
                 st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
         else:
             src=find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname)
-            if len(src)==0:
-                has_bat=not find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname).empty
-                hint=" (They appear as a Batter — try switching to Batter above.)" if has_bat else ""
-                st.error(f"No ML data for '{name}' in {fmt}. They may have <20 wickets.{hint}")
+            if len(src)==0: st.error(f"No ML data for '{name}' in {fmt}. They may have <20 wickets.")
             else:
                 p=src.iloc[0]; cluster=int(p["cluster"])
                 same=bowl_sim[(bowl_sim["cluster"]==cluster)&(bowl_sim["format"]==fmt)]
@@ -699,11 +693,7 @@ elif section=="🔥 Form & Ratings":
             fsname=resolve(fname)
             if ftype=="Batting":
                 pyr=find_rows(bat_yr[bat_yr["format"]==fmt],"striker",fsname)
-                if pyr.empty:
-                    # Check if they have bowling data instead
-                    has_bowl=not find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",fsname).empty
-                    hint=f" (They do have **bowling** data in {fmt} — try switching to Bowling above.)" if has_bowl else ""
-                    st.error(f"No {fmt} yearly batting data for '{fname}'.{hint}")
+                if pyr.empty: st.error(f"No {fmt} yearly batting data for '{fname}'.")
                 else:
                     pyr=pyr.sort_values("year")
                     pname=pyr["striker"].iloc[0]
@@ -769,10 +759,7 @@ elif section=="🔥 Form & Ratings":
 
             else:  # Bowling
                 pyr=find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",fsname)
-                if pyr.empty:
-                    has_bat=not find_rows(bat_yr[bat_yr["format"]==fmt],"striker",fsname).empty
-                    hint=f" (They do have **batting** data in {fmt} — try switching to Batting above.)" if has_bat else ""
-                    st.error(f"No {fmt} yearly bowling data for '{fname}'.{hint}")
+                if pyr.empty: st.error(f"No {fmt} yearly bowling data for '{fname}'.")
                 else:
                     pyr=pyr.sort_values("year")
                     pname=pyr["bowler"].iloc[0]
@@ -836,10 +823,6 @@ elif section=="🔥 Form & Ratings":
             else:
                 latest_yr=bat_yr["year"].max()
                 recent=bat_yr[(bat_yr["format"]==fmt)&(bat_yr["year"]>=latest_yr-n_yrs+1)]
-                # Only include genuine batters (min 200 career runs in this format)
-                if not bat_fmt.empty:
-                    genuine_batters=set(bat_fmt[(bat_fmt["format"]==fmt)&(bat_fmt["runs"]>=200)]["striker"].unique())
-                    recent=recent[recent["striker"].isin(genuine_batters)]
                 agg=recent.groupby("striker").agg(
                     innings=("matches","sum"),runs=("runs","sum"),
                     avg=("average","mean"),sr=("strike_rate","mean"),
@@ -859,10 +842,6 @@ elif section=="🔥 Form & Ratings":
             else:
                 latest_yr=bowl_yr["year"].max()
                 recent=bowl_yr[(bowl_yr["format"]==fmt)&(bowl_yr["year"]>=latest_yr-n_yrs+1)]
-                # Only include genuine bowlers (min 20 career wickets in this format)
-                if not bowl_fmt.empty:
-                    genuine_bowlers=set(bowl_fmt[(bowl_fmt["format"]==fmt)&(bowl_fmt["wickets"]>=20)]["bowler"].unique())
-                    recent=recent[recent["bowler"].isin(genuine_bowlers)]
                 agg=recent.groupby("bowler").agg(
                     innings=("matches","sum"),wickets=("wickets","sum"),
                     econ=("economy","mean"),avg=("average","mean"),
@@ -888,14 +867,12 @@ elif section=="🔥 Form & Ratings":
             else:
                 src=bat_form[bat_form["format"]==fmt].copy()
                 src=src.merge(
-                    bat_fmt[bat_fmt["format"]==fmt][["striker","matches","runs"]],
+                    bat_fmt[bat_fmt["format"]==fmt][["striker","matches"]],
                     on="striker",how="left"
                 )
-                # Exclude pure bowlers: only keep players with meaningful batting history (200+ runs)
-                src=src[(src["runs"]>=200)&(src["matches"]>=min_career)]
-                cold=src[src["form_score"]<80].sort_values("form_score").head(20)
+                cold=src[(src["form_score"]<80)&(src["matches"]>=min_career)].sort_values("form_score").head(20)
                 if len(cold)>0:
-                    ch(bar_h(cold,"form_score","striker","form_score","Reds",f"📉 Struggling Batters ({fmt})"))
+                    ch(bar_h(cold,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
                     show_c=[col for col in ["striker","form_label","form_score","recent_avg","career_avg","recent_sr","career_sr"] if col in cold.columns]
                     st.dataframe(cold[show_c].reset_index(drop=True))
                 else: st.info("No batters in poor form right now.")
@@ -904,33 +881,21 @@ elif section=="🔥 Form & Ratings":
             else:
                 src2=bowl_form[bowl_form["format"]==fmt].copy()
                 src2=src2.merge(
-                    bowl_fmt[bowl_fmt["format"]==fmt][["bowler","matches","wickets"]],
+                    bowl_fmt[bowl_fmt["format"]==fmt][["bowler","matches"]],
                     on="bowler",how="left"
                 )
-                # Exclude batters who bowl occasionally: only keep genuine bowlers (20+ wickets)
-                src2=src2[(src2["wickets"]>=20)&(src2["matches"]>=min_career)]
-                cold2=src2[src2["form_score"]<80].sort_values("form_score").head(20)
+                cold2=src2[(src2["form_score"]<80)&(src2["matches"]>=min_career)].sort_values("form_score").head(20)
                 if len(cold2)>0:
-                    ch(bar_h(cold2,"form_score","bowler","form_score","Reds",f"📉 Struggling Bowlers ({fmt})"))
+                    ch(bar_h(cold2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
                     show_c2=[col for col in ["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"] if col in cold2.columns]
                     st.dataframe(cold2[show_c2].reset_index(drop=True))
                 else: st.info("No bowlers in poor form right now.")
 
     # ── Tab 4: Player Scores ──────────────────────────────────────────────
     with tab4:
-        ps_type=st.radio("Type",["Batting","Bowling"],horizontal=True,key="ps_type")
-        if ps_type=="Batting":
-            ps=bat_sim[bat_sim["format"]==fmt].sort_values("player_score",ascending=False).head(25) if not bat_sim.empty else pd.DataFrame()
-            if len(ps)>0:
-                ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 25 Batter Scores ({fmt})"))
-                st.caption("Score = Average 30% · Strike Rate 25% · Boundary% 20% · Runs volume 15% · Non-dot% 10%")
-                st.dataframe(ps[["striker","player_score","average","strike_rate","boundary_pct","runs"]].reset_index(drop=True))
-            else: st.info(f"No batting player score data for {fmt} yet.")
-        else:
-            ps2=bowl_sim[bowl_sim["format"]==fmt].sort_values("player_score",ascending=False).head(25) if not bowl_sim.empty else pd.DataFrame()
-            if len(ps2)>0:
-                ch(bar_h(ps2,"player_score","bowler","player_score","Purples",f"⭐ Top 25 Bowler Scores ({fmt})"))
-                st.caption("Score = Wickets volume 30% · Economy 25% · Average 25% · Dot Ball% 20%")
-                show_bowl=[c for c in ["bowler","player_score","wickets","economy","average","dot_pct"] if c in ps2.columns]
-                st.dataframe(ps2[show_bowl].reset_index(drop=True))
-            else: st.info(f"No bowling player score data for {fmt} yet.")
+        ps=bat_sim[bat_sim["format"]==fmt].sort_values("player_score",ascending=False).head(25) if not bat_sim.empty else pd.DataFrame()
+        if len(ps)>0:
+            ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 25 Player Scores ({fmt})"))
+            st.caption("Score = Average 30% · Strike Rate 25% · Boundary% 20% · Runs volume 15% · Non-dot% 10%")
+            st.dataframe(ps[["striker","player_score","average","strike_rate","boundary_pct","runs"]].reset_index(drop=True))
+        else: st.info(f"No player score data for {fmt} yet.")
