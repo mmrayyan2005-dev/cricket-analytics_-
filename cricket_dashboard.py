@@ -92,23 +92,29 @@ def avail(df,col):
 
 # ── Smart search: tries exact, then last name, then fuzzy first/last ──────
 def find_rows(df, name_col, query):
-    """Return rows matching query. Tries multiple strategies so 'Smriti' finds 'S Mandhana'."""
+    """Smart search: tries 4 strategies to match player names across naming conventions."""
     if df.empty: return pd.DataFrame()
     q = query.strip()
-    # 1. Direct contains
+    # 1. Direct contains (handles most cases)
     mask = df[name_col].str.contains(q, case=False, na=False)
     if mask.any(): return df[mask]
-    # 2. Split query — try each part as a word boundary match
     parts = q.split()
+    # 2. Each word individually (handles "Smriti" finding "Smriti Mandhana" or "S Mandhana")
     for part in parts:
-        if len(part) >= 3:
-            mask = df[name_col].str.contains(r"(?i)\b" + part, case=False, na=False, regex=True)
+        if len(part) >= 4:
+            mask = df[name_col].str.contains(part, case=False, na=False)
             if mask.any(): return df[mask]
-    # 3. Initial + last name  e.g. "Smriti Mandhana" -> "S Mandhana"
+    # 3. Last name only (handles "Mandhana" -> "S Mandhana")
+    if len(parts) >= 2:
+        last = parts[-1]
+        if len(last) >= 4:
+            mask = df[name_col].str.contains(last, case=False, na=False)
+            if mask.any(): return df[mask]
+    # 4. Initial + last name  e.g. "Smriti Mandhana" -> "S Mandhana"
     if len(parts) >= 2:
         initial = parts[0][0].upper()
         last = parts[-1]
-        pattern = f"(?i)\\b{initial}\\w*\\s+{last}"
+        pattern = rf"(?i)\b{initial}\w*\s+{last}"
         mask = df[name_col].str.contains(pattern, case=False, na=False, regex=True)
         if mask.any(): return df[mask]
     return pd.DataFrame()
@@ -122,8 +128,6 @@ def bar_h(df, x, y, col, scale, title, min_h=400):
     if df.empty: return go.Figure()
     n = len(df)
     h = max(min_h, n * 52 + 80)          # 52px per bar minimum
-    max_chars = int(df[y].astype(str).str.len().max())
-    lm = max(180, int(max_chars * 8 + 30))
     xmax = float(df[x].max()) * 1.22
     fig = px.bar(df, x=x, y=y, orientation="h", color=col,
                  color_continuous_scale=scale, title=title)
@@ -133,10 +137,10 @@ def bar_h(df, x, y, col, scale, title, min_h=400):
                       textfont=dict(size=11, color=TEXT),
                       cliponaxis=False)
     fig.update_layout(**BASE, height=h, coloraxis_showscale=False,
-                      margin=dict(l=lm, r=90, t=48, b=8), bargap=0.28)
+                      margin=dict(l=20, r=90, t=48, b=8), bargap=0.28)
     fig.update_yaxes(categoryorder="total ascending", showgrid=False,
                      title="", tickfont=dict(size=12, color=TEXT),
-                     automargin=False, tickmode="linear")
+                     automargin=True, tickmode="linear")
     fig.update_xaxes(showgrid=True, gridcolor=GRID, title="",
                      tickfont=dict(size=11), range=[0, xmax])
     return fig
@@ -249,7 +253,8 @@ def get_wiki(cricsheet_name, search_name):
         img=data.get("thumbnail",{}).get("source","")
         bio=data.get("extract","")
         sents=[s.strip() for s in bio.split(".") if len(s.strip())>15]
-        bio=". ".join(sents[:4])+"." if sents else bio[:400]
+        bio=". ".join(sents[:5])+"." if sents else bio[:600]
+        bio=bio.replace("..",".").strip()
         ir=requests.get("https://en.wikipedia.org/w/api.php",
             params={"action":"query","titles":page_title,"prop":"revisions",
                     "rvprop":"content","rvslots":"main","format":"json","rvsection":0},
@@ -305,16 +310,22 @@ def get_wiki(cricsheet_name, search_name):
         test_d=pd2(er(wt,["testdebutdate","Testdebutdate","test_debut_date"]))
         t20_d=pd2(er(wt,["t20idebutdate","T20Idebutdate","T20debutdate","t20_debut_date"]))
         any_d=pd2(er(wt,["debutdate","debut_date","internationaldebutdate"]))
-        role=ef(wt,["role","batting_style","batting style","bowling_style","bowling style"])
-        nation=ef(wt,["country","nationality","national_side","national side"])
+        role_raw=ef(wt,["role","batting_style","batting style","bowling_style","bowling style"])
+        # Strip any remaining wikilinks like [[Batter (cricket)]]
+        role_raw=re.sub(r"\[\[([^\]|]+\|)?([^\]]+)\]\]",r"\2",role_raw)
+        role_raw=re.sub(r"\{\{[^}]+\}\}","",role_raw).strip()
+        # If wikitext role looks like garbage, fall back to Wikipedia description
         desc=data.get("description","")
+        if not role_raw or "[[" in role_raw or len(role_raw)<3:
+            role_raw=desc[:60] if desc else ""
+        nation=ef(wt,["country","nationality","national_side","national side"])
         return {"title":data.get("title",page_title),"bio":bio,"img":img,
                 "born":born[:60] if born else "",
                 "odi_debut":odi_d if odi_d else any_d,
                 "test_debut":test_d if test_d else any_d,
                 "t20_debut":t20_d if t20_d else any_d,
                 "ipl_debut":"","psl_debut":"","wpl_debut":"",
-                "role":role[:80] if role else desc[:60],
+                "role":role_raw[:60] if role_raw else "",
                 "nation":nation[:40] if nation else ""}
     except Exception: return None
 
@@ -464,7 +475,7 @@ elif section=="⚔️ Head to Head":
                     text=[f"{v:.1f}" for v in v2],textposition="outside",
                     textfont=dict(size=12,color=TEXT),cliponaxis=False))
                 fig.update_layout(**BASE,barmode="group",title=title,
-                                  height=max(220,len(ml)*120),margin=dict(l=130,r=100,t=48,b=8))
+                                  height=max(220,len(ml)*120),margin=dict(l=20,r=100,t=48,b=8))
                 fig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
                 fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,xmax])
                 st.plotly_chart(fig,**CFG)
