@@ -92,31 +92,37 @@ def avail(df,col):
 
 # ── Smart search: tries exact, then last name, then fuzzy first/last ──────
 def find_rows(df, name_col, query):
-    """Smart search: tries 4 strategies to match player names across naming conventions."""
+    """Smart search: tries strategies in priority order to match player names."""
+    import re as _re
     if df.empty: return pd.DataFrame()
     q = query.strip()
-    # 1. Direct contains (handles most cases)
-    mask = df[name_col].str.contains(q, case=False, na=False)
-    if mask.any(): return df[mask]
     parts = q.split()
-    # 2. Each word individually (handles "Smriti" finding "Smriti Mandhana" or "S Mandhana")
-    for part in parts:
-        if len(part) >= 4:
-            mask = df[name_col].str.contains(part, case=False, na=False)
-            if mask.any(): return df[mask]
-    # 3. Last name only (handles "Mandhana" -> "S Mandhana")
-    if len(parts) >= 2:
-        last = parts[-1]
-        if len(last) >= 4:
-            mask = df[name_col].str.contains(last, case=False, na=False)
-            if mask.any(): return df[mask]
-    # 4. Initial + last name  e.g. "Smriti Mandhana" -> "S Mandhana"
+
+    # 1. Exact full-name contains  e.g. "Smriti Mandhana" -> "Smriti Mandhana"
+    mask = df[name_col].str.contains(_re.escape(q), case=False, na=False, regex=True)
+    if mask.any(): return df[mask]
+
+    # 2. Initial + last name  e.g. "Smriti Mandhana" -> "S Mandhana"
+    #    This is tried BEFORE first-name-only to avoid matching "Smriti Anand"
     if len(parts) >= 2:
         initial = parts[0][0].upper()
-        last = parts[-1]
-        pattern = rf"(?i)\b{initial}\w*\s+{last}"
+        last = _re.escape(parts[-1])
+        pattern = rf"(?i)\b{initial}\b.*\b{last}\b"
         mask = df[name_col].str.contains(pattern, case=False, na=False, regex=True)
         if mask.any(): return df[mask]
+        # Also try just last name — catches "S Mandhana" when query is "Mandhana"
+        mask2 = df[name_col].str.contains(rf"(?i)\b{last}\b", na=False, regex=True)
+        if mask2.any(): return df[mask2]
+
+    # 3. Single word query — try as last name first (more specific)
+    if len(parts) == 1 and len(q) >= 4:
+        # Try matching as last name (word at end)
+        mask = df[name_col].str.contains(rf"(?i)\b{_re.escape(q)}$", na=False, regex=True)
+        if mask.any(): return df[mask]
+        # Then anywhere
+        mask = df[name_col].str.contains(_re.escape(q), case=False, na=False)
+        if mask.any(): return df[mask]
+
     return pd.DataFrame()
 
 def ch(fig, h=380, margin=None):
@@ -202,7 +208,7 @@ NAME_ALIASES={
     "fakhar":"Fakhar Zaman","fakhar zaman":"Fakhar Zaman","imam":"Imam-ul-Haq",
     "iftikhar":"Iftikhar Ahmed","naseem":"Naseem Shah","shadab":"Shadab Khan",
     "smriti":"Smriti Mandhana","mandhana":"Smriti Mandhana",
-    "smriti mandhana":"Smriti Mandhana",
+    "smriti mandhana":"Smriti Mandhana","s mandhana":"S Mandhana","smriti anand":"Smriti Anand",
     "shafali":"Shafali Verma","verma":"Shafali Verma",
     "harmanpreet":"Harmanpreet Kaur","kaur":"Harmanpreet Kaur",
     "deepti":"Deepti Sharma","mithali":"Mithali Raj","raj":"Mithali Raj",
@@ -211,7 +217,23 @@ NAME_ALIASES={
     "sciver":"NR Sciver","tahlia":"TM McGrath","mcgrath":"TM McGrath",
     "amelia":"AMC Kerr","kerr":"AMC Kerr","devine":"SFM Devine",
 }
-def resolve(name): return NAME_ALIASES.get(name.strip().lower(), name)
+# Maps resolved display names -> exact Cricsheet name in data
+CRICSHEET_NAME = {
+    "Smriti Mandhana": "S Mandhana",
+    "Harmanpreet Kaur": "H Kaur",
+    "Shafali Verma": "Shafali Verma",
+    "Deepti Sharma": "Deepti Sharma",
+    "Mithali Raj": "Mithali Raj",
+    "Jhulan Goswami": "Jhulan Goswami",
+    "Alyssa Healy": "AJ Healy",
+    "Ellyse Perry": "EA Perry",
+    "Ashleigh Gardner": "A Gardner",
+}
+
+def resolve(name):
+    display = NAME_ALIASES.get(name.strip().lower(), name)
+    # Return the Cricsheet data name if we know it, else display name
+    return CRICSHEET_NAME.get(display, display)
 
 WIKI_NAMES={
     "V Kohli":"Virat Kohli","Babar Azam":"Babar Azam","SPD Smith":"Steve Smith cricketer",
