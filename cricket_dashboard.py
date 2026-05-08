@@ -263,13 +263,28 @@ div[data-testid="stHorizontalBlock"] > div[data-testid="column"]{{min-width:0 !i
   [data-testid="stMetric"]{{padding:12px 14px !important}}
   [data-testid="stHorizontalBlock"]{{flex-direction:column !important;gap:8px !important}}
   [data-testid="stHorizontalBlock"] > div[data-testid="column"]{{width:100% !important;min-width:100% !important;flex:1 1 100% !important}}
-  div[data-baseweb="tab"]{{padding:5px 10px !important;font-size:11px !important}}
+  div[data-baseweb="tab"]{{padding:5px 8px !important;font-size:10px !important}}
+  div[data-baseweb="tab-list"]{{gap:4px !important}}
   .js-plotly-plot .plotly,.stPlotlyChart{{overflow-x:auto !important}}
   .stDataFrame{{overflow-x:auto !important}}
   .stDataFrame thead th{{font-size:10px !important}}
   .stDataFrame tbody td{{font-size:11px !important}}
   [data-testid="stSlider"]{{width:100% !important}}
   [data-testid="stSelectbox"]{{width:100% !important}}
+
+  /* ── Player card: stack image above text on mobile ── */
+  .ca-player-card{{flex-direction:column !important;align-items:center !important;text-align:center !important}}
+  .ca-player-card .ca-player-img{{flex-shrink:0;margin-bottom:10px}}
+  .ca-player-card .ca-player-info{{min-width:0;width:100%}}
+  .ca-player-card .ca-player-name{{white-space:normal !important;overflow:visible !important;text-overflow:unset !important;text-align:center}}
+  .ca-player-card .ca-player-pills{{justify-content:center}}
+  /* ── Bio: show full text on mobile, no clamp ── */
+  .ca-player-bio{{-webkit-line-clamp:unset !important;display:block !important;overflow:visible !important}}
+  /* ── Hero banner: shrink on mobile ── */
+  .ca-hero{{padding:18px 16px 16px !important}}
+  .ca-hero h1{{font-size:20px !important}}
+  /* ── Pills: allow wrap and shrink ── */
+  .ca-pill{{white-space:normal !important;word-break:break-word !important}}
 }}
 
 /* ══════════════════════════════════════
@@ -417,8 +432,9 @@ def donut(labels, values, colors, title):
 
 def metrics(d):
     items=list(d.items())
-    # Cap at 4 per row so they don't squish on mobile
-    chunk=4
+    # Use 2 per row on narrow screens; Streamlit doesn't detect viewport,
+    # so cap at 3 per row as a safe default that works on most phones
+    chunk=3
     for i in range(0,len(items),chunk):
         cols=st.columns(len(items[i:i+chunk]))
         for c,(k,v) in zip(cols,items[i:i+chunk]): c.metric(k,v)
@@ -615,7 +631,7 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI", compact=False):
              "PSL":"psl_debut","WPL":"wpl_debut","BBL":"odi_debut","CPL":"odi_debut"}.get(fmt,"odi_debut")
     debut=card.get(fmt_key,"") or card.get("odi_debut","") or card.get("test_debut","") or card.get("t20_debut","")
     def pill(icon,text,color):
-        return f'<span style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:{color};padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0">{icon} {text}</span>'
+        return f'<span class="ca-pill" style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:{color};padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0">{icon} {text}</span>'
     pills=""
     if card["born"]: pills+=pill("🎂",card["born"],"#fbbf24")
     if card["nation"]: pills+=pill("🌍",card["nation"],"#3d8bff")
@@ -625,18 +641,18 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI", compact=False):
     short_bio=". ".join(card["bio"].split(". ")[:max_sents])+"." if card["bio"] else ""
     name_sz="14px" if compact else "18px"
     acl=FC.get(fmt,"#00e5a0")
-    st.markdown(f"""<div class="ca-fade" style="
+    st.markdown(f"""<div class="ca-fade ca-player-card" style="
       background:linear-gradient(135deg,var(--card),var(--surface));
       border-radius:var(--radius);padding:14px;margin:0 0 14px 0;
       border:1px solid var(--border);
       border-left:3px solid {acl};
       display:flex;gap:14px;align-items:flex-start;
       box-sizing:border-box;width:100%;overflow:hidden">
-  {img_html}
-  <div style="flex:1;min-width:0">
-    <div style="font-family:'Syne',sans-serif;color:#fff;font-size:{name_sz};font-weight:800;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-0.2px">{card["title"]}</div>
-    <div style="display:flex;flex-wrap:wrap;margin-bottom:7px">{pills}</div>
-    <div style="color:var(--muted);font-size:11px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:{max_sents};-webkit-box-orient:vertical">{short_bio}</div>
+  {f'<div class="ca-player-img" style="flex-shrink:0"><img src="{card["img"]}" style="width:{img_sz}px;height:{int(img_sz*1.2)}px;object-fit:cover;border-radius:10px;border:2px solid var(--border);display:block"></div>' if card["img"] else ''}
+  <div class="ca-player-info" style="flex:1;min-width:0">
+    <div class="ca-player-name" style="font-family:'Syne',sans-serif;color:#fff;font-size:{name_sz};font-weight:800;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-0.2px">{card["title"]}</div>
+    <div class="ca-player-pills" style="display:flex;flex-wrap:wrap;margin-bottom:7px">{pills}</div>
+    <div class="ca-player-bio" style="color:var(--muted);font-size:11px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:{max_sents};-webkit-box-orient:vertical">{short_bio}</div>
   </div>
 </div>""",unsafe_allow_html=True)
 
@@ -663,7 +679,7 @@ if section=="🔍 Player Search":
     chip_html="".join([f'<span style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:{c};padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap">{n}</span>' for n,c in chips])
 
     st.markdown(f"""
-<div class="ca-fade" style="
+<div class="ca-fade ca-hero" style="
   background:linear-gradient(160deg,#080c14 0%,#0c1628 50%,#080c14 100%);
   border-radius:var(--radius);
   padding:32px 28px 24px;
