@@ -1,0 +1,117 @@
+name: 🏏 Update Cricket Data (Hourly)
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # top of every hour, 24/7
+  workflow_dispatch:        # also lets you click "Run" manually in GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40     # full pipeline takes ~15-25 min; kill if stuck
+
+    steps:
+
+      # ── 1. Checkout your repo ──────────────────────────────────────────────
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ── 2. Python + dependencies ───────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pandas scikit-learn requests nbconvert ipykernel jupyter
+
+      # ── 3. Inject secrets into the notebook before running ─────────────────
+      #    The notebook's Step 8 has placeholder values for TOKEN/USER/REPO.
+      #    We swap them with real values from GitHub Secrets at runtime so
+      #    your PAT is never hardcoded in the file.
+      - name: Patch notebook secrets
+        env:
+          GITHUB_TOKEN_SECRET: ${{ secrets.CRICKET_GH_TOKEN }}
+          GITHUB_USER_SECRET:  ${{ secrets.CRICKET_GH_USER }}
+          GITHUB_REPO_SECRET:  ${{ secrets.CRICKET_GH_REPO }}
+        run: |
+          python - <<'EOF'
+          import json, os
+
+          nb_path = "All_Formats_Cricket_ML_v6.ipynb"
+          with open(nb_path, "r", encoding="utf-8") as f:
+              nb = json.load(f)
+
+          tok  = os.environ["GITHUB_TOKEN_SECRET"]
+          user = os.environ["GITHUB_USER_SECRET"]
+          repo = os.environ["GITHUB_REPO_SECRET"]
+
+          for cell in nb["cells"]:
+              if cell["cell_type"] != "code":
+                  continue
+              src = "".join(cell["source"])
+              if "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" in src:
+                  new_src = src.replace(
+                      "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", tok
+                  ).replace(
+                      "your-github-username", user
+                  ).replace(
+                      "'cricket-data'", f"'{repo}'"
+                  )
+                  cell["source"] = [new_src]
+                  break   # only one cell needs patching
+
+          with open(nb_path, "w", encoding="utf-8") as f:
+              json.dump(nb, f)
+
+          print("✓ Notebook patched")
+          EOF
+
+      # ── 4. Execute the full notebook ───────────────────────────────────────
+      - name: Run data pipeline notebook
+        run: |
+          jupyter nbconvert \
+            --to notebook \
+            --execute \
+            --ExecutePreprocessor.timeout=1800 \
+            --ExecutePreprocessor.kernel_name=python3 \
+            --inplace \
+            All_Formats_Cricket_ML_v6.ipynb
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      # ── 5. Write a timestamp file so the dashboard can show "last updated" ─
+      - name: Write last-updated timestamp
+        run: |
+          python - <<'EOF'
+          from datetime import datetime, timezone
+          ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          with open("last_updated.txt", "w") as f:
+              f.write(ts)
+          print(f"Timestamp written: {ts}")
+          EOF
+
+      # ── 6. Push timestamp back to repo (CSVs already pushed by notebook) ──
+      - name: Commit & push last_updated.txt
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_updated.txt
+          # Only commit if something changed (avoids empty commits)
+          git diff --staged --quiet || git commit -m "⏱ data updated $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 7. Post a failure notice if anything above broke ──────────────────
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Cricket data pipeline failed. Check the logs above."
+          echo "Common causes:"
+          echo "  - Cricsheet.org was unreachable (try again in an hour)"
+          echo "  - CRICKET_GH_TOKEN secret is missing or expired"
+          echo "  - Notebook execution timed out (>30 min)"
