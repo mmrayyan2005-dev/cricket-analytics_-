@@ -4,6 +4,7 @@ Runs on GitHub Actions. Reads secrets from environment variables.
 Replicates all steps from All_Formats_Cricket_ML_v6.ipynb
 """
 import os, urllib.request, zipfile, requests, base64
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -44,10 +45,16 @@ def try_download(folder, filenames):
             if os.path.exists(fname): os.remove(fname)
     return None
 
-print("Step 1 — Downloading from Cricsheet...")
-for folder, fnames in downloads:
+print("Step 1 — Downloading from Cricsheet (parallel)...")
+def download_one(args):
+    folder, fnames = args
     label = folder.replace("_data","").upper()
     hit = try_download(folder, fnames)
+    return label, hit
+
+with ThreadPoolExecutor(max_workers=5) as ex:
+    results = list(ex.map(download_one, downloads))
+for label, hit in results:
     print(f"  {label}: {'✓' if hit else '⚠ skipped'}")
 
 # ── Step 2: Load & tag ─────────────────────────────────────────────────────
