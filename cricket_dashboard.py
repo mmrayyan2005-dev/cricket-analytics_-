@@ -680,40 +680,219 @@ elif section=="🤖 Similar Players":
 
 # ══ 9. FORM & RATINGS ══════════════════════════════════════════════════════
 elif section=="🔥 Form & Ratings":
-    page_banner("🔥","Form & Ratings","Who is on fire right now? Last 2 seasons vs career average","#1a0800","#2e1500","#e17055")
+    page_banner("🔥","Form & Ratings","Player form by year, career trend, and who\'s peaking right now","#1a0800","#2e1500","#e17055")
     fmt=st.radio("Format",ALL_FMT,horizontal=True)
-    tab1,tab2,tab3=st.tabs(["🏏 Batting Form","🎳 Bowling Form","⭐ Player Scores"])
+    tab1,tab2,tab3,tab4=st.tabs(["🔍 Player Form","🔥 Hot List","📉 Cold List","⭐ Player Scores"])
+
+    # ── Tab 1: Individual player year-by-year form ─────────────────────────
     with tab1:
-        src=bat_form[bat_form["format"]==fmt].copy() if not bat_form.empty else pd.DataFrame()
-        t1,t2=st.tabs(["🔥 On Fire","📉 Struggling"])
-        with t1:
-            top=src[src["form_score"]>=110].sort_values("form_score",ascending=False).head(20) if len(src)>0 else pd.DataFrame()
-            if len(top)>0:
-                ch(bar_h(top,"form_score","striker","form_score","Oranges",f"🔥 On Fire Batters ({fmt})"))
-                st.dataframe(top[["striker","form_label","form_score","recent_avg","career_avg","recent_sr","career_sr"]].reset_index(drop=True))
-            else: st.info("No batters in 'On Fire' form for this format yet.")
-        with t2:
-            bot=src[src["form_score"]<70].sort_values("form_score").head(20) if len(src)>0 else pd.DataFrame()
-            if len(bot)>0:
-                ch(bar_h(bot,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
-                st.dataframe(bot[["striker","form_label","form_score","recent_avg","career_avg"]].reset_index(drop=True))
-            else: st.info("No batters struggling in this format.")
+        st.markdown("#### Search a player to see their form trend by year")
+        fname=st.text_input("Player name","Kohli",key="form_player")
+        ftype=st.radio("Type",["Batting","Bowling"],horizontal=True,key="form_type")
+        if fname:
+            fsname=resolve(fname)
+            if ftype=="Batting":
+                pyr=find_rows(bat_yr[bat_yr["format"]==fmt],"striker",fsname)
+                if pyr.empty: st.error(f"No {fmt} yearly batting data for '{fname}'.")
+                else:
+                    pyr=pyr.sort_values("year")
+                    pname=pyr["striker"].iloc[0]
+                    # Career averages for reference lines
+                    career=find_rows(bat_fmt[bat_fmt["format"]==fmt],"striker",fsname)
+                    cavg=float(career["average"].iloc[0]) if len(career)>0 else None
+                    csr=float(career["strike_rate"].iloc[0]) if len(career)>0 else None
+
+                    # Metrics row
+                    latest=pyr.iloc[-1]
+                    prev=pyr.iloc[-2] if len(pyr)>1 else latest
+                    metrics({
+                        "Latest Year":int(latest["year"]),
+                        "Runs":f"{int(latest['runs']):,}",
+                        "Avg (latest)":round(float(latest["average"]),1),
+                        "SR (latest)":round(float(latest["strike_rate"]),1),
+                        "Matches":int(latest["matches"]),
+                    })
+
+                    # Year-by-year runs bar
+                    clr=FC.get(fmt,"#00b894")
+                    ch(bar_v(pyr,"year","runs",f"{pname} — Runs per Year ({fmt})",clr))
+
+                    # Average trend with career avg reference line
+                    fig_avg=px.line(pyr,x="year",y="average",markers=True,
+                                    title=f"{pname} — Batting Average by Year")
+                    fig_avg.update_traces(line=dict(color=clr,width=3),
+                                          marker=dict(size=9,color=clr,line=dict(width=2,color=BG)))
+                    if cavg:
+                        fig_avg.add_hline(y=cavg,line_dash="dash",line_color="#fdcb6e",
+                                          annotation_text=f"Career avg {cavg:.1f}",
+                                          annotation_position="bottom right",
+                                          annotation_font=dict(color="#fdcb6e",size=11))
+                    fig_avg.update_layout(**BASE,height=300,margin=M_DEFAULT)
+                    c1,c2=st.columns(2)
+                    with c1: st.plotly_chart(fig_avg,**CFG)
+
+                    # Strike rate trend
+                    fig_sr=px.line(pyr,x="year",y="strike_rate",markers=True,
+                                   title=f"{pname} — Strike Rate by Year")
+                    fig_sr.update_traces(line=dict(color="#fdcb6e",width=3),
+                                         marker=dict(size=9,color="#fdcb6e",line=dict(width=2,color=BG)))
+                    if csr:
+                        fig_sr.add_hline(y=csr,line_dash="dash",line_color="#e17055",
+                                         annotation_text=f"Career SR {csr:.1f}",
+                                         annotation_position="bottom right",
+                                         annotation_font=dict(color="#e17055",size=11))
+                    fig_sr.update_layout(**BASE,height=300,margin=M_DEFAULT)
+                    with c2: st.plotly_chart(fig_sr,**CFG)
+
+                    # Fours & Sixes trend
+                    fig_b=go.Figure()
+                    fig_b.add_trace(go.Bar(name="4s",x=pyr["year"],y=pyr["fours"],
+                        marker_color="#00b894",opacity=0.85))
+                    fig_b.add_trace(go.Bar(name="6s",x=pyr["year"],y=pyr["sixes"],
+                        marker_color="#d63031",opacity=0.85))
+                    fig_b.update_layout(**BASE,barmode="group",title="Boundaries by Year",
+                                        height=280,margin=M_BARV,bargap=0.25)
+                    st.plotly_chart(fig_b,**CFG)
+
+                    # Full table
+                    st.dataframe(pyr[["year","matches","runs","average","strike_rate","fours","sixes","dismissals"]].reset_index(drop=True))
+
+            else:  # Bowling
+                pyr=find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",fsname)
+                if pyr.empty: st.error(f"No {fmt} yearly bowling data for '{fname}'.")
+                else:
+                    pyr=pyr.sort_values("year")
+                    pname=pyr["bowler"].iloc[0]
+                    career=find_rows(bowl_fmt[bowl_fmt["format"]==fmt],"bowler",fsname)
+                    cecon=float(career["economy"].iloc[0]) if len(career)>0 else None
+                    cavg=float(career["average"].iloc[0]) if len(career)>0 else None
+                    clr=FC.get(fmt,"#d63031")
+
+                    latest=pyr.iloc[-1]
+                    metrics({
+                        "Latest Year":int(latest["year"]),
+                        "Wickets":int(latest["wickets"]),
+                        "Economy (latest)":round(float(latest["economy"]),2),
+                        "Average (latest)":round(float(latest["average"]),1),
+                        "Matches":int(latest["matches"]),
+                    })
+
+                    ch(bar_v(pyr,"year","wickets",f"{pname} — Wickets per Year ({fmt})","#d63031"))
+
+                    fig_econ=px.line(pyr,x="year",y="economy",markers=True,
+                                     title=f"{pname} — Economy by Year")
+                    fig_econ.update_traces(line=dict(color="#d63031",width=3),
+                                           marker=dict(size=9,color="#d63031",line=dict(width=2,color=BG)))
+                    if cecon:
+                        fig_econ.add_hline(y=cecon,line_dash="dash",line_color="#fdcb6e",
+                                           annotation_text=f"Career econ {cecon:.2f}",
+                                           annotation_position="top right",
+                                           annotation_font=dict(color="#fdcb6e",size=11))
+                    fig_econ.update_layout(**BASE,height=300,margin=M_DEFAULT)
+                    c1,c2=st.columns(2)
+                    with c1: st.plotly_chart(fig_econ,**CFG)
+
+                    fig_avg2=px.line(pyr,x="year",y="average",markers=True,
+                                     title=f"{pname} — Bowling Average by Year")
+                    fig_avg2.update_traces(line=dict(color="#6c5ce7",width=3),
+                                           marker=dict(size=9,color="#6c5ce7",line=dict(width=2,color=BG)))
+                    if cavg:
+                        fig_avg2.add_hline(y=cavg,line_dash="dash",line_color="#fdcb6e",
+                                           annotation_text=f"Career avg {cavg:.1f}",
+                                           annotation_position="top right",
+                                           annotation_font=dict(color="#fdcb6e",size=11))
+                    fig_avg2.update_layout(**BASE,height=300,margin=M_DEFAULT)
+                    with c2: st.plotly_chart(fig_avg2,**CFG)
+
+                    fig_dot=px.line(pyr,x="year",y="dot_pct",markers=True,
+                                    title=f"{pname} — Dot Ball % by Year")
+                    fig_dot.update_traces(line=dict(color="#00cec9",width=3),
+                                          marker=dict(size=8,color="#00cec9"))
+                    fig_dot.update_layout(**BASE,height=260,margin=M_DEFAULT)
+                    st.plotly_chart(fig_dot,**CFG)
+
+                    st.dataframe(pyr[["year","matches","wickets","economy","average","dot_pct","balls"]].reset_index(drop=True))
+
+    # ── Tab 2: Hot List (best form right now) ─────────────────────────────
     with tab2:
-        src2=bowl_form[bowl_form["format"]==fmt].copy() if not bowl_form.empty else pd.DataFrame()
-        t1,t2=st.tabs(["🔥 On Fire","📉 Struggling"])
-        with t1:
-            top2=src2[src2["form_score"]>=110].sort_values("form_score",ascending=False).head(20) if len(src2)>0 else pd.DataFrame()
-            if len(top2)>0:
-                ch(bar_h(top2,"form_score","bowler","form_score","Oranges",f"🔥 On Fire Bowlers ({fmt})"))
-                st.dataframe(top2[["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"]].reset_index(drop=True))
-            else: st.info("No bowlers in 'On Fire' form for this format yet.")
-        with t2:
-            bot2=src2[src2["form_score"]<70].sort_values("form_score").head(20) if len(src2)>0 else pd.DataFrame()
-            if len(bot2)>0:
-                ch(bar_h(bot2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
-                st.dataframe(bot2[["bowler","form_label","form_score","recent_econ","career_econ"]].reset_index(drop=True))
-            else: st.info("No bowlers struggling in this format.")
+        ftype2=st.radio("Type",["Batting","Bowling"],horizontal=True,key="hot_type")
+        n_yrs=st.slider("Recent window (years)",1,3,1,key="hot_yrs")
+        min_inn=st.slider("Min innings",3,20,5,key="hot_inn")
+        if ftype2=="Batting":
+            if bat_yr.empty: st.info("No data loaded.")
+            else:
+                latest_yr=bat_yr["year"].max()
+                recent=bat_yr[(bat_yr["format"]==fmt)&(bat_yr["year"]>=latest_yr-n_yrs+1)]
+                agg=recent.groupby("striker").agg(
+                    innings=("matches","sum"),runs=("runs","sum"),
+                    avg=("average","mean"),sr=("strike_rate","mean"),
+                    fours=("fours","sum"),sixes=("sixes","sum")
+                ).reset_index()
+                agg=agg[agg["innings"]>=min_inn].sort_values("avg",ascending=False).head(25)
+                agg["avg"]=agg["avg"].round(1); agg["sr"]=agg["sr"].round(1)
+                if len(agg)>0:
+                    metric_opt=st.selectbox("Rank by",["avg","sr","runs","sixes"],key="hot_bat_m")
+                    agg=agg.sort_values(metric_opt,ascending=False)
+                    ch(bar_h(agg,metric_opt,"striker",metric_opt,"Oranges",
+                             f"🔥 Top Batters — {metric_opt} (last {n_yrs}yr, {fmt})"))
+                    st.dataframe(agg[["striker","innings","runs","avg","sr","fours","sixes"]].reset_index(drop=True))
+                else: st.info("No batters meet the minimum innings threshold.")
+        else:
+            if bowl_yr.empty: st.info("No data loaded.")
+            else:
+                latest_yr=bowl_yr["year"].max()
+                recent=bowl_yr[(bowl_yr["format"]==fmt)&(bowl_yr["year"]>=latest_yr-n_yrs+1)]
+                agg=recent.groupby("bowler").agg(
+                    innings=("matches","sum"),wickets=("wickets","sum"),
+                    econ=("economy","mean"),avg=("average","mean"),
+                    dot_pct=("dot_pct","mean")
+                ).reset_index()
+                agg=agg[agg["innings"]>=min_inn].sort_values("wickets",ascending=False).head(25)
+                agg["econ"]=agg["econ"].round(2); agg["avg"]=agg["avg"].round(1)
+                if len(agg)>0:
+                    metric_opt=st.selectbox("Rank by",["wickets","econ","avg","dot_pct"],key="hot_bowl_m")
+                    ascending=(metric_opt in ["econ","avg"])
+                    agg=agg.sort_values(metric_opt,ascending=ascending)
+                    ch(bar_h(agg,metric_opt,"bowler",metric_opt,"Reds",
+                             f"🔥 Top Bowlers — {metric_opt} (last {n_yrs}yr, {fmt})"))
+                    st.dataframe(agg[["bowler","innings","wickets","econ","avg","dot_pct"]].reset_index(drop=True))
+                else: st.info("No bowlers meet the minimum innings threshold.")
+
+    # ── Tab 3: Cold List (poor form) ─────────────────────────────────────
     with tab3:
+        ftype3=st.radio("Type",["Batting","Bowling"],horizontal=True,key="cold_type")
+        min_career=st.slider("Min career matches",5,30,10,key="cold_min")
+        if ftype3=="Batting":
+            if bat_form.empty: st.info("No form data.")
+            else:
+                src=bat_form[bat_form["format"]==fmt].copy()
+                src=src.merge(
+                    bat_fmt[bat_fmt["format"]==fmt][["striker","matches"]],
+                    on="striker",how="left"
+                )
+                cold=src[(src["form_score"]<80)&(src["matches"]>=min_career)].sort_values("form_score").head(20)
+                if len(cold)>0:
+                    ch(bar_h(cold,"form_score","striker","form_score","Blues",f"📉 Struggling Batters ({fmt})"))
+                    show_c=[col for col in ["striker","form_label","form_score","recent_avg","career_avg","recent_sr","career_sr"] if col in cold.columns]
+                    st.dataframe(cold[show_c].reset_index(drop=True))
+                else: st.info("No batters in poor form right now.")
+        else:
+            if bowl_form.empty: st.info("No form data.")
+            else:
+                src2=bowl_form[bowl_form["format"]==fmt].copy()
+                src2=src2.merge(
+                    bowl_fmt[bowl_fmt["format"]==fmt][["bowler","matches"]],
+                    on="bowler",how="left"
+                )
+                cold2=src2[(src2["form_score"]<80)&(src2["matches"]>=min_career)].sort_values("form_score").head(20)
+                if len(cold2)>0:
+                    ch(bar_h(cold2,"form_score","bowler","form_score","Blues",f"📉 Struggling Bowlers ({fmt})"))
+                    show_c2=[col for col in ["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"] if col in cold2.columns]
+                    st.dataframe(cold2[show_c2].reset_index(drop=True))
+                else: st.info("No bowlers in poor form right now.")
+
+    # ── Tab 4: Player Scores ──────────────────────────────────────────────
+    with tab4:
         ps=bat_sim[bat_sim["format"]==fmt].sort_values("player_score",ascending=False).head(25) if not bat_sim.empty else pd.DataFrame()
         if len(ps)>0:
             ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 25 Player Scores ({fmt})"))
