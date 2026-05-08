@@ -312,6 +312,14 @@ def load():
             read("cricket_bat_similarity.csv"),read("cricket_bowl_similarity.csv"),
             read("cricket_bat_innings.csv"),read("cricket_bowl_innings.csv"))
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def get_last_updated():
+    try:
+        r=requests.get(f"{RAW_BASE}/last_updated.txt",timeout=5)
+        if r.status_code==200: return r.text.strip()
+    except Exception: pass
+    return None
+
 st.sidebar.markdown(f"""<div style="padding:16px 4px 12px">
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px">
     <div style="font-size:28px;line-height:1">🏏</div>
@@ -325,7 +333,11 @@ st.sidebar.markdown(f"""<div style="padding:16px 4px 12px">
 cr1,cr2=st.sidebar.columns([1,2])
 if cr1.button("🔄",help="Refresh data"):
     st.cache_data.clear(); st.rerun()
-cr2.caption(f"⚡ {datetime.now().strftime('%H:%M · %d %b')}")
+last_upd=get_last_updated()
+if last_upd:
+    cr2.caption(f"✅ {last_upd}")
+else:
+    cr2.caption(f"⚡ {datetime.now().strftime('%H:%M · %d %b')}")
 st.sidebar.markdown(f"""<div style="height:1px;background:var(--border);margin:4px 0 10px"></div>""",unsafe_allow_html=True)
 
 with st.spinner("Loading cricket data..."):
@@ -752,47 +764,87 @@ if section=="🔍 Player Search":
         display_name=bat["striker"].iloc[0] if len(bat)>0 else (bowl["bowler"].iloc[0] if len(bowl)>0 else sname)
         show_player_card(display_name,name,fmt)
 
-        if len(bat)>0:
-            p=bat.sort_values("runs",ascending=False).iloc[0]
-            st.subheader(f"🏏 {p['striker']} — Batting ({fmt})")
-            metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
-            metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
-            metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
-            h100=int(p["hundreds"]) if "hundreds" in p.index and pd.notna(p.get("hundreds")) else "—"
-            h50=int(p["fifties"]) if "fifties" in p.index and pd.notna(p.get("fifties")) else "—"
-            hs=int(p["highest"]) if "highest" in p.index and pd.notna(p.get("highest")) else "—"
-            dk=int(p["ducks"]) if "ducks" in p.index and pd.notna(p.get("ducks")) else "—"
-            ps=round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
-            metrics({"100s":h100,"50s":h50,"Highest Score":hs,"Ducks":dk,"⭐ Player Score":ps})
-
-            by=find_rows(bat_yr[bat_yr["format"]==fmt],"striker",sname).sort_values("year") if not bat_yr.empty else pd.DataFrame()
-            if len(by)>1:
-                ch(bar_v(by,"year","runs","Runs per Year",clr))
-                c1,c2=st.columns(2)
-                with c1: ch(line(by,"year","average","Batting Average",clr),280)
-                with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),280)
-
-            fr=int(p["fours"])*4; sr=int(p["sixes"])*6; or_=max(0,int(p["runs"])-fr-sr)
-            ch(donut(["Fours","Sixes","Other"],[fr,sr,or_],[clr,"#d63031","#636e72"],"Scoring Breakdown"),320)
-
-        st.divider()
-        if len(bowl)>0:
-            p2=bowl.sort_values("wickets",ascending=False).iloc[0]
-            st.subheader(f"🎳 {p2['bowler']} — Bowling ({fmt})")
-            metrics({"Matches":int(p2["matches"]),"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
-            metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot Ball %":f"{p2['dot_pct']}%"})
-            fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
-            bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
-            metrics({"5-Wicket Hauls":fw,"Best Bowling":bb})
-            by2=find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",sname).sort_values("year") if not bowl_yr.empty else pd.DataFrame()
-            if len(by2)>1:
-                ch(bar_v(by2,"year","wickets","Wickets per Year",clr))
-                c1,c2=st.columns(2)
-                with c1: ch(line(by2,"year","economy","Economy Rate","#d63031"),280)
-                with c2: ch(line(by2,"year","average","Bowling Average","#6c5ce7"),280)
+        # ── Data freshness banner ─────────────────────────────────────────────
+        last_upd=get_last_updated()
+        if last_upd:
+            st.markdown(f"""<div style="background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.2);
+              border-radius:8px;padding:8px 14px;margin:0 0 14px 0;display:flex;align-items:center;gap:8px">
+              <span style="font-size:15px">✅</span>
+              <span style="font-size:11px;color:#00e5a0;line-height:1.5">
+                Data last updated: <strong>{last_upd}</strong> — pipeline runs every hour from Cricsheet.
+              </span>
+            </div>""",unsafe_allow_html=True)
+        else:
+            st.markdown(f"""<div style="background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.25);
+              border-radius:8px;padding:8px 14px;margin:0 0 14px 0;display:flex;align-items:center;gap:8px">
+              <span style="font-size:15px">⚠️</span>
+              <span style="font-size:11px;color:#fbbf24;line-height:1.5">
+                Stats reflect the last dataset update. Very recent matches may not yet be included —
+                data refreshes hourly via the pipeline. Hit <strong>🔄</strong> in the sidebar to reload.
+              </span>
+            </div>""",unsafe_allow_html=True)
 
         if len(bat)==0 and len(bowl)==0:
             st.warning(f"No {fmt} data for '{display_name}'. This format may not have downloaded.")
+        else:
+            # ── Build tab list dynamically based on what data exists ──────────
+            tab_labels=[]
+            if len(bat)>0: tab_labels.append("🏏 Batting")
+            if len(bowl)>0: tab_labels.append("🎳 Bowling")
+            has_bat_charts = len(bat)>0
+            has_bowl_charts = len(bowl)>0
+            if has_bat_charts or has_bowl_charts: tab_labels.append("📈 Charts")
+            tabs=st.tabs(tab_labels)
+            tab_idx=0
+
+            # ── Batting tab ───────────────────────────────────────────────────
+            if len(bat)>0:
+                with tabs[tab_idx]:
+                    p=bat.sort_values("runs",ascending=False).iloc[0]
+                    metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
+                    metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
+                    metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
+                    h100=int(p["hundreds"]) if "hundreds" in p.index and pd.notna(p.get("hundreds")) else "—"
+                    h50=int(p["fifties"]) if "fifties" in p.index and pd.notna(p.get("fifties")) else "—"
+                    hs=int(p["highest"]) if "highest" in p.index and pd.notna(p.get("highest")) else "—"
+                    dk=int(p["ducks"]) if "ducks" in p.index and pd.notna(p.get("ducks")) else "—"
+                    ps=round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
+                    metrics({"100s":h100,"50s":h50,"Highest Score":hs,"Ducks":dk,"⭐ Score":ps})
+                    fr=int(p["fours"])*4; sr_=int(p["sixes"])*6; or_=max(0,int(p["runs"])-fr-sr_)
+                    ch(donut(["Fours","Sixes","Other"],[fr,sr_,or_],[clr,"#d63031","#636e72"],"Scoring Breakdown"),300)
+                tab_idx+=1
+
+            # ── Bowling tab ───────────────────────────────────────────────────
+            if len(bowl)>0:
+                with tabs[tab_idx]:
+                    p2=bowl.sort_values("wickets",ascending=False).iloc[0]
+                    metrics({"Matches":int(p2["matches"]),"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
+                    metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot Ball %":f"{p2['dot_pct']}%"})
+                    fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
+                    bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
+                    metrics({"5-Wkt Hauls":fw,"Best Bowling":bb})
+                tab_idx+=1
+
+            # ── Charts tab ────────────────────────────────────────────────────
+            with tabs[tab_idx]:
+                if len(bat)>0:
+                    p=bat.sort_values("runs",ascending=False).iloc[0]
+                    exact_batter_name=p["striker"]
+                    by=bat_yr[(bat_yr["format"]==fmt)&(bat_yr["striker"]==exact_batter_name)].sort_values("year") if not bat_yr.empty else pd.DataFrame()
+                    if len(by)>1:
+                        st.markdown("**🏏 Batting Trends**")
+                        ch(bar_v(by,"year","runs","Runs per Year",clr))
+                        ch(line(by,"year","average","Batting Average",clr),260)
+                        ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),260)
+                if len(bowl)>0:
+                    p2=bowl.sort_values("wickets",ascending=False).iloc[0]
+                    exact_bowler_name=p2["bowler"]
+                    by2=bowl_yr[(bowl_yr["format"]==fmt)&(bowl_yr["bowler"]==exact_bowler_name)].sort_values("year") if not bowl_yr.empty else pd.DataFrame()
+                    if len(by2)>1:
+                        st.markdown("**🎳 Bowling Trends**")
+                        ch(bar_v(by2,"year","wickets","Wickets per Year",clr))
+                        ch(line(by2,"year","economy","Economy Rate","#d63031"),260)
+                        ch(line(by2,"year","average","Bowling Average","#6c5ce7"),260)
 
 # ══ 2. HEAD TO HEAD ════════════════════════════════════════════════════════
 elif section=="⚔️ Head to Head":
