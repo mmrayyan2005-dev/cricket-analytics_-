@@ -357,7 +357,7 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI", compact=False):
         st.markdown(f"""<div style="background:{CARD};border-radius:14px;padding:14px 16px;margin:0 0 16px 0;border:1px solid #2d3561">
   <div style="color:#aaa;font-size:13px">📖 Profile unavailable for {cricsheet_name}</div></div>""",unsafe_allow_html=True)
         return
-    img_w=88 if compact else 110; img_h=108 if compact else 135
+    img_w=72 if compact else 100; img_h=90 if compact else 125
     img_html=""
     if card["img"]:
         img_html=f'<div style="flex-shrink:0"><img src="{card["img"]}" style="width:{img_w}px;height:{img_h}px;object-fit:cover;border-radius:10px;border:2px solid #2d3561;display:block;box-shadow:0 4px 14px #000a"></div>'
@@ -370,15 +370,15 @@ def show_player_card(cricsheet_name, search_name, fmt="ODI", compact=False):
     if card["nation"]: pills+=f'<span style="background:#1e2a3a;color:#0984e3;padding:3px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block;white-space:nowrap">🌍 {card["nation"]}</span>'
     if card["role"]: pills+=f'<span style="background:#1e2a3a;color:#fdcb6e;padding:3px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block;white-space:nowrap">🏏 {card["role"][:30]}</span>'
     if debut: pills+=f'<span style="background:#1e2a3a;color:#e17055;padding:3px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block;white-space:nowrap">🎯 {fmt}: {debut}</span>'
-    max_sents=2 if compact else 4
+    max_sents=2 if compact else 5
     short_bio=". ".join(card["bio"].split(". ")[:max_sents])+"." if card["bio"] else ""
     name_sz="15px" if compact else "20px"
-    st.markdown(f"""<div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:14px;padding:14px;margin:0 0 14px 0;border:1px solid #2d3561;display:flex;gap:12px;align-items:flex-start;overflow:hidden;box-sizing:border-box;width:100%">
+    st.markdown(f"""<div style="background:linear-gradient(135deg,#1a1f3a,#0f1117);border-radius:14px;padding:14px;margin:0 0 14px 0;border:1px solid #2d3561;display:flex;gap:12px;align-items:flex-start;box-sizing:border-box;width:100%;overflow:hidden">
   {img_html}
-  <div style="flex:1;min-width:0;overflow:hidden">
-    <div style="color:#fff;font-size:{name_sz};font-weight:800;margin-bottom:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{card["title"]}</div>
-    <div style="display:flex;flex-wrap:wrap;gap:3px;margin-bottom:7px">{pills}</div>
-    <div style="color:#8899bb;font-size:12px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:{max_sents+1};-webkit-box-orient:vertical">{short_bio}</div>
+  <div style="flex:1;min-width:0">
+    <div style="color:#fff;font-size:{name_sz};font-weight:800;margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{card["title"]}</div>
+    <div style="display:flex;flex-wrap:wrap;gap:3px;margin-bottom:6px">{pills}</div>
+    <div style="color:#8899bb;font-size:11px;line-height:1.55;overflow:hidden;display:-webkit-box;-webkit-line-clamp:{max_sents};-webkit-box-orient:vertical">{short_bio}</div>
   </div>
 </div>""",unsafe_allow_html=True)
 
@@ -497,8 +497,10 @@ elif section=="⚔️ Head to Head":
                     text=[f"{v:.1f}" for v in v2],textposition="outside",
                     textfont=dict(size=12,color=TEXT),cliponaxis=False))
                 fig.update_layout(**BASE,barmode="group",title=title,
-                                  height=max(220,len(ml)*120),margin=dict(l=20,r=100,t=48,b=8))
-                fig.update_yaxes(showgrid=False,tickfont=dict(size=14),title="",automargin=True)
+                                  height=max(260,len(ml)*140),
+                                  margin=dict(l=20,r=110,t=48,b=8),
+                                  bargap=0.25,bargroupgap=0.08)
+                fig.update_yaxes(showgrid=False,tickfont=dict(size=13),title="",automargin=True)
                 fig.update_xaxes(showgrid=True,gridcolor=GRID,title="",fixedrange=True,range=[0,xmax])
                 st.plotly_chart(fig,**CFG)
 
