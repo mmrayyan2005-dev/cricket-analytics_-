@@ -8,7 +8,7 @@ from datetime import datetime
 st.set_page_config(page_title="Cricket Analytics", layout="wide", page_icon="🏏",
                    initial_sidebar_state="collapsed")
 
-RAW_BASE = "https://raw.githubusercontent.com/mmrayyan2005-dev/cricket-analytics-/main"
+RAW_BASE = "https://raw.githubusercontent.com/mmrayyan2005-dev/cricket-analytics_-/main"
 
 BG="#080c14"; CARD="#131929"; TEXT="#e8edf5"; GRID="#1e2840"
 FC={
