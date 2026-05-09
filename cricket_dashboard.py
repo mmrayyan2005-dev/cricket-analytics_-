@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import requests
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 st.set_page_config(page_title="Cricket Analytics", layout="wide", page_icon="🏏",
                    initial_sidebar_state="collapsed")
@@ -330,14 +330,12 @@ st.sidebar.markdown(f"""<div style="padding:16px 4px 12px">
   </div>
 </div>""",unsafe_allow_html=True)
 
-cr1,cr2=st.sidebar.columns([1,2])
-if cr1.button("🔄",help="Refresh data"):
-    st.cache_data.clear(); st.rerun()
+# auto-update via GitHub Actions — no manual refresh needed
 last_upd=get_last_updated()
 if last_upd:
     cr2.caption(f"✅ {last_upd}")
 else:
-    cr2.caption(f"⚡ {datetime.now().strftime('%H:%M · %d %b')}")
+    cr2.caption(f"⚡ {datetime.now(timezone(timedelta(hours=5))).strftime('%H:%M · %d %b')}")
 st.sidebar.markdown(f"""<div style="height:1px;background:var(--border);margin:4px 0 10px"></div>""",unsafe_allow_html=True)
 
 with st.spinner("Loading cricket data..."):
@@ -727,7 +725,7 @@ if section=="🔍 Player Search":
     </div>
     <div style="display:flex;align-items:center;gap:6px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);border-radius:20px;padding:5px 12px;flex-shrink:0">
       <span class="ca-live"></span>
-      <span style="font-size:11px;font-weight:600;color:var(--accent)">Auto-refreshes hourly</span>
+      <span style="font-size:11px;font-weight:600;color:var(--accent)">Updated daily via GitHub Actions</span>
     </div>
   </div>
 
@@ -771,7 +769,7 @@ if section=="🔍 Player Search":
               border-radius:8px;padding:8px 14px;margin:0 0 14px 0;display:flex;align-items:center;gap:8px">
               <span style="font-size:15px">✅</span>
               <span style="font-size:11px;color:#00e5a0;line-height:1.5">
-                Data last updated: <strong>{last_upd}</strong> — pipeline runs every hour from Cricsheet.
+                Data last updated: <strong>{last_upd}</strong> — auto-updated daily from Cricsheet.
               </span>
             </div>""",unsafe_allow_html=True)
         else:
@@ -779,8 +777,7 @@ if section=="🔍 Player Search":
               border-radius:8px;padding:8px 14px;margin:0 0 14px 0;display:flex;align-items:center;gap:8px">
               <span style="font-size:15px">⚠️</span>
               <span style="font-size:11px;color:#fbbf24;line-height:1.5">
-                Stats reflect the last dataset update. Very recent matches may not yet be included —
-                data refreshes hourly via the pipeline. Hit <strong>🔄</strong> in the sidebar to reload.
+                Stats reflect Cricsheet's latest data. Very recent matches (last 2-3 days) may not yet be included — Cricsheet updates daily.
               </span>
             </div>""",unsafe_allow_html=True)
 
