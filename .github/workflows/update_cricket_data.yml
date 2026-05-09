@@ -1,49 +1,34 @@
-name: 🏏 Update Cricket Data (Hourly)
+name: Update Cricket Data (Daily)
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 2 * * *'   # runs every day at 2:00 AM UTC (7 AM Pakistan time)
+  workflow_dispatch:        # allows manual trigger from GitHub UI
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-
-    env:
-      CRICKET_GH_TOKEN: ${{ secrets.CRICKET_GH_TOKEN }}
-      CRICKET_GH_USER:  ${{ secrets.CRICKET_GH_USER }}
-      CRICKET_GH_REPO:  ${{ secrets.CRICKET_GH_REPO }}
+    timeout-minutes: 60
 
     steps:
-
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: pip
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install pandas scikit-learn requests
+          pip install pandas numpy scikit-learn requests
 
-      - name: Run cricket data pipeline
-        run: python pipeline.py
-
-      - name: Commit & push last_updated.txt
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add last_updated.txt
-          git diff --staged --quiet || git commit -m "data updated $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+      - name: Run update script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CRICKET_TOKEN }}
+          GITHUB_USER:  ${{ secrets.CRICKET_USER }}
+          GITHUB_REPO:  ${{ secrets.CRICKET_REPO }}
+        run: python update_data.py
 
-      - name: Notify on failure
-        if: failure()
-        run: echo "::error::Cricket data pipeline failed — check logs above."
+      - name: Done
+        run: echo "✅ Cricket data updated successfully"
