@@ -333,9 +333,9 @@ st.sidebar.markdown(f"""<div style="padding:16px 4px 12px">
 # auto-update via GitHub Actions — no manual refresh needed
 last_upd=get_last_updated()
 if last_upd:
-    cr2.caption(f"✅ {last_upd}")
+    st.sidebar.caption(f"✅ {last_upd}")
 else:
-    cr2.caption(f"⚡ {datetime.now(timezone(timedelta(hours=5))).strftime('%H:%M · %d %b')}")
+    st.sidebar.caption(f"⚡ {datetime.now(timezone(timedelta(hours=5))).strftime('%H:%M · %d %b')}")
 st.sidebar.markdown(f"""<div style="height:1px;background:var(--border);margin:4px 0 10px"></div>""",unsafe_allow_html=True)
 
 with st.spinner("Loading cricket data..."):
