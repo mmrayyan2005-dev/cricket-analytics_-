@@ -33,7 +33,7 @@ M_DEFAULT=dict(l=8,r=8,t=48,b=8)
 M_BARV=dict(l=8,r=8,t=48,b=60)
 CFG=dict(config={"displayModeBar":False,"scrollZoom":False,"doubleClick":False,"responsive":True},use_container_width=True)
 
-# ── V13 UI + improved CSS ─────────────────────────────────────────────────────
+# ── V17 UI + comprehensive CSS ────────────────────────────────────────────────
 st.markdown("""<style>
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap');
 :root{
@@ -42,107 +42,136 @@ st.markdown("""<style>
   --text:#e8edf5;--muted:#5a6580;--subtle:#8899bb;
   --radius:14px;--radius-sm:8px;
   --font-head:'Syne',sans-serif;--font-body:'Inter',sans-serif;
+  --shadow:0 4px 24px rgba(0,0,0,.4);
 }
 html,body,[class*="css"]{font-family:var(--font-body);background:var(--bg);color:var(--text)}
 .block-container{padding:0 !important;max-width:100% !important}
 [data-testid="stSidebar"]{display:none !important}
 
 /* ── Metrics ── */
-[data-testid="stMetric"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius)!important;padding:14px 16px!important;position:relative;overflow:hidden;transition:border-color .25s,transform .2s}
+[data-testid="stMetric"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius)!important;padding:14px 16px!important;position:relative;overflow:hidden;transition:border-color .25s,transform .2s;box-shadow:var(--shadow)}
 [data-testid="stMetric"]:hover{border-color:#2e4060!important;transform:translateY(-2px)}
-[data-testid="stMetric"]::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0.55}
-[data-testid="stMetricLabel"]{font-size:10px!important;font-weight:600!important;color:var(--muted)!important;text-transform:uppercase;letter-spacing:1px!important}
+[data-testid="stMetric"]::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0.6}
+[data-testid="stMetricLabel"]{font-size:10px!important;font-weight:600!important;color:var(--muted)!important;text-transform:uppercase;letter-spacing:1.2px!important}
 [data-testid="stMetricValue"]{font-family:var(--font-head)!important;font-size:22px!important;font-weight:800!important;color:var(--text)!important;line-height:1.2!important}
 [data-testid="stMetricDelta"]{font-size:11px!important}
 
 /* ── Tabs ── */
 div[data-baseweb="tab-list"]{gap:4px!important;flex-wrap:wrap!important;background:transparent!important;border-bottom:1px solid var(--border)!important;padding-bottom:6px!important}
-div[data-baseweb="tab"]{border-radius:var(--radius-sm)!important;padding:6px 14px!important;background:var(--card)!important;font-weight:600!important;font-size:12px!important;color:var(--subtle)!important;border:1px solid var(--border)!important;transition:all .2s!important}
-div[data-baseweb="tab"]:hover{border-color:#2e4060!important;color:var(--text)!important}
-div[data-baseweb="tab"][aria-selected="true"]{background:linear-gradient(135deg,#004d35,#003d68)!important;border-color:var(--accent)!important;color:var(--accent)!important}
+div[data-baseweb="tab"]{border-radius:var(--radius-sm)!important;padding:7px 16px!important;background:var(--card)!important;font-weight:600!important;font-size:12px!important;color:var(--subtle)!important;border:1px solid var(--border)!important;transition:all .2s!important}
+div[data-baseweb="tab"]:hover{border-color:#2e4060!important;color:var(--text)!important;background:#161d2e!important}
+div[data-baseweb="tab"][aria-selected="true"]{background:linear-gradient(135deg,#004d35,#003d68)!important;border-color:var(--accent)!important;color:var(--accent)!important;box-shadow:0 0 12px rgba(0,229,160,.15)!important}
 div[data-baseweb="tab-highlight"],div[data-baseweb="tab-border"]{display:none!important}
 
 /* ── Inputs ── */
-[data-testid="stTextInput"] input{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--text)!important;font-family:var(--font-body)!important;font-size:14px!important;padding:11px 14px!important;transition:border-color .2s!important}
-[data-testid="stTextInput"] input:focus{border-color:var(--accent)!important;box-shadow:0 0 0 3px rgba(0,229,160,.1)!important}
-[data-testid="stSelectbox"]>div>div{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important}
+[data-testid="stTextInput"] input{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--text)!important;font-family:var(--font-body)!important;font-size:14px!important;padding:11px 14px!important;transition:border-color .2s,box-shadow .2s!important}
+[data-testid="stTextInput"] input:focus{border-color:var(--accent)!important;box-shadow:0 0 0 3px rgba(0,229,160,.12)!important;outline:none!important}
+[data-testid="stTextInput"] input::placeholder{color:var(--muted)!important}
+[data-testid="stSelectbox"]>div>div{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--text)!important;transition:border-color .2s!important}
+[data-testid="stSelectbox"]>div>div:hover{border-color:#2e4060!important}
 [data-testid="stRadio"]>div{flex-wrap:wrap!important;gap:5px!important}
 [data-testid="stRadio"] label{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;padding:5px 13px!important;font-size:12px!important;font-weight:600!important;color:var(--subtle)!important;cursor:pointer;transition:all .15s!important}
-[data-testid="stRadio"] label:has(input:checked){border-color:var(--accent)!important;color:var(--accent)!important;background:rgba(0,229,160,.08)!important}
+[data-testid="stRadio"] label:hover{border-color:#2e4060!important;color:var(--text)!important}
+[data-testid="stRadio"] label:has(input:checked){border-color:var(--accent)!important;color:var(--accent)!important;background:rgba(0,229,160,.08)!important;box-shadow:0 0 8px rgba(0,229,160,.1)!important}
 
 /* ── Sliders ── */
-[data-testid="stSlider"] [data-baseweb="slider"] [role="slider"]{background:var(--accent)!important;border-color:var(--accent)!important}
+[data-testid="stSlider"] [data-baseweb="slider"] [role="slider"]{background:var(--accent)!important;border-color:var(--accent)!important;box-shadow:0 0 0 4px rgba(0,229,160,.15)!important}
+[data-testid="stSlider"] [data-baseweb="slider"] div[class*="Track"]{background:var(--border)!important}
 
 /* ── DataFrames ── */
-.stDataFrame{border-radius:var(--radius)!important;overflow:hidden!important;border:1px solid var(--border)!important}
-.stDataFrame thead th{font-size:11px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.6px;background:var(--surface)!important;color:var(--muted)!important;padding:10px 12px!important}
-.stDataFrame tbody td{font-size:12px!important;padding:8px 12px!important}
-.stDataFrame tbody tr:hover td{background:rgba(255,255,255,.03)!important}
+.stDataFrame{border-radius:var(--radius)!important;overflow:hidden!important;border:1px solid var(--border)!important;box-shadow:var(--shadow)}
+.stDataFrame thead th{font-size:10px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.8px;background:var(--surface)!important;color:var(--muted)!important;padding:10px 14px!important;border-bottom:1px solid var(--border)!important}
+.stDataFrame tbody td{font-size:12px!important;padding:9px 14px!important;border-bottom:1px solid rgba(30,40,64,.5)!important}
+.stDataFrame tbody tr:hover td{background:rgba(0,229,160,.03)!important}
+.stDataFrame tbody tr:first-child td{color:var(--gold)!important;font-weight:600!important}
+
+/* ── Spinner / Loading ── */
+[data-testid="stSpinner"]>div{border-color:var(--accent) transparent transparent transparent!important}
+
+/* ── Captions ── */
+[data-testid="stCaptionContainer"]{color:var(--muted)!important;font-size:11px!important;line-height:1.6!important;padding:2px 0 8px!important}
+
+/* ── Headings ── */
+h1,h2,h3,h4{font-family:var(--font-head)!important;letter-spacing:-0.3px!important;color:var(--text)!important}
+h4{font-size:14px!important;font-weight:700!important;margin:18px 0 8px!important;color:var(--subtle)!important;text-transform:uppercase;letter-spacing:.8px!important}
+
+/* ── Section divider ── */
+hr{border:none!important;border-top:1px solid var(--border)!important;margin:20px 0!important}
+.ca-divider{display:flex;align-items:center;gap:12px;margin:20px 0 16px}
+.ca-divider-line{flex:1;height:1px;background:var(--border)}
+.ca-divider-label{font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap}
+
 /* ── Back button ── */
-[data-testid="stButton"] button[kind="secondary"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--subtle)!important;font-size:12px!important;font-weight:600!important;padding:5px 14px!important;transition:all .15s!important;margin-bottom:12px!important}
-[data-testid="stButton"] button[kind="secondary"]:hover{border-color:#2e4060!important;color:var(--text)!important;background:#161d2e!important}
+[data-testid="stButton"] button[kind="secondary"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--subtle)!important;font-size:12px!important;font-weight:600!important;padding:6px 16px!important;transition:all .15s!important;margin-bottom:14px!important}
+[data-testid="stButton"] button[kind="secondary"]:hover{border-color:var(--accent)!important;color:var(--accent)!important;background:rgba(0,229,160,.06)!important}
 
 /* ── Alerts / Error / Info ── */
-[data-testid="stAlert"]{border-radius:var(--radius-sm)!important;border-left:3px solid!important;font-size:13px!important}
-[data-testid="stAlert"][data-type="error"]{background:rgba(255,77,109,.07)!important;border-color:var(--warn)!important}
-[data-testid="stAlert"][data-type="info"]{background:rgba(61,139,255,.07)!important;border-color:var(--accent2)!important}
-[data-testid="stAlert"][data-type="warning"]{background:rgba(251,191,36,.07)!important;border-color:var(--gold)!important}
-[data-testid="stAlert"][data-type="success"]{background:rgba(0,229,160,.07)!important;border-color:var(--accent)!important}
+[data-testid="stAlert"]{border-radius:var(--radius-sm)!important;border-left:3px solid!important;font-size:13px!important;padding:10px 14px!important}
+[data-testid="stAlert"][data-type="error"]{background:rgba(255,77,109,.06)!important;border-color:var(--warn)!important}
+[data-testid="stAlert"][data-type="info"]{background:rgba(61,139,255,.06)!important;border-color:var(--accent2)!important}
+[data-testid="stAlert"][data-type="warning"]{background:rgba(251,191,36,.06)!important;border-color:var(--gold)!important}
+[data-testid="stAlert"][data-type="success"]{background:rgba(0,229,160,.06)!important;border-color:var(--accent)!important}
 
-/* ── Subheaders ── */
-h3[data-testid="stHeading"]{font-family:var(--font-head)!important;letter-spacing:-0.3px!important}
-
-hr{border:none!important;border-top:1px solid var(--border)!important;margin:16px 0!important}
+/* ── Plotly chart wrappers ── */
 .js-plotly-plot{touch-action:pan-y!important}
+[data-testid="stPlotlyChart"]{border-radius:var(--radius)!important;overflow:hidden!important;border:1px solid var(--border)!important;background:var(--card)!important;box-shadow:var(--shadow)}
+
+/* ── Columns ── */
 div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!important;flex:1 1 auto}
 
 /* ── Animations ── */
-@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 @keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
-@keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+@keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.75)}}
+@keyframes glow-pulse{0%,100%{box-shadow:0 0 8px rgba(0,229,160,.2)}50%{box-shadow:0 0 20px rgba(0,229,160,.4)}}
 .ca-fade{animation:fadeUp .4s ease both}
 .ca-shimmer{background:linear-gradient(90deg,var(--accent) 0%,var(--accent2) 40%,var(--accent) 80%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 3s linear infinite}
 .ca-live{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse-dot 1.8s ease infinite;vertical-align:middle;margin-right:4px}
 
-/* ── TOP NAV (V13) ── */
-.ca-topnav{position:sticky;top:0;z-index:999;background:rgba(8,12,20,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;gap:0;height:56px;width:100%;box-sizing:border-box}
+/* ── TOP NAV ── */
+.ca-topnav{position:sticky;top:0;z-index:999;background:rgba(8,12,20,.95);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;gap:0;height:56px;width:100%;box-sizing:border-box}
 .ca-topnav-brand{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-size:16px;font-weight:800;color:#fff;white-space:nowrap;margin-right:24px;flex-shrink:0}
 .ca-topnav-brand span{color:var(--accent)}
 .ca-topnav-links{display:flex;align-items:center;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
 .ca-topnav-links::-webkit-scrollbar{display:none}
 .ca-navbtn{display:flex;align-items:center;gap:5px;padding:6px 12px;border-radius:8px;font-size:12px;font-weight:600;color:var(--subtle);white-space:nowrap;cursor:pointer;border:none;background:transparent;transition:all .15s;font-family:var(--font-body);text-decoration:none}
 .ca-navbtn:hover{background:rgba(255,255,255,.06);color:var(--text)}
-.ca-navbtn.active{background:rgba(0,229,160,.1);color:var(--accent)}
-.ca-topnav-status{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:20px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);font-size:10px;font-weight:600;color:var(--accent);white-space:nowrap;flex-shrink:0;margin-left:12px}
-.ca-content{padding:20px 24px 40px}
+.ca-navbtn.active{background:rgba(0,229,160,.1);color:var(--accent);box-shadow:inset 0 0 0 1px rgba(0,229,160,.2)}
+.ca-topnav-status{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:20px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.18);font-size:10px;font-weight:600;color:var(--accent);white-space:nowrap;flex-shrink:0;margin-left:12px}
+.ca-content{padding:20px 24px 60px}
 
 /* ── Section cards ── */
-.ca-section-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:16px}
+.ca-section-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:16px;box-shadow:var(--shadow)}
 .ca-section-header{display:flex;align-items:center;gap:10px;margin-bottom:16px}
 .ca-section-emoji{font-size:24px;line-height:1}
 .ca-section-title{font-family:var(--font-head);font-size:18px;font-weight:800;color:#fff}
 .ca-section-sub{font-size:12px;color:var(--muted);margin-top:2px}
 
 /* ── Home grid ── */
-.ca-home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-bottom:24px}
-.ca-feature-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;cursor:pointer;transition:all .2s;text-decoration:none;display:block}
-.ca-feature-card:hover{border-color:#2e4060;transform:translateY(-2px);background:#161d2e}
+.ca-home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:24px}
+.ca-feature-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;cursor:pointer;transition:all .22s;text-decoration:none;display:block;box-shadow:var(--shadow)}
+.ca-feature-card:hover{border-color:#2e4060;transform:translateY(-3px);background:#161d2e;box-shadow:0 8px 32px rgba(0,0,0,.5)}
 .ca-feature-icon{font-size:28px;margin-bottom:10px}
 .ca-feature-title{font-family:var(--font-head);font-size:15px;font-weight:800;color:#fff;margin-bottom:4px}
 .ca-feature-desc{font-size:12px;color:var(--muted);line-height:1.5}
 
-/* ── Player card (V12 enhanced) ── */
+/* ── Player card ── */
 .ca-player-card{display:flex;gap:14px;align-items:flex-start;overflow:hidden;box-sizing:border-box}
 .ca-player-img{flex-shrink:0}
 .ca-player-info{flex:1;min-width:0}
 .ca-player-name{font-family:'Syne',sans-serif;color:#fff;font-weight:800;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-0.2px}
 .ca-player-pills{display:flex;flex-wrap:wrap;margin-bottom:7px}
 .ca-player-bio{color:var(--muted);font-size:11px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical}
-.ca-pill{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0}
+.ca-pill{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0;transition:border-color .15s}
+.ca-pill:hover{border-color:rgba(255,255,255,.18)}
+
+/* ── Insight box ── */
+.ca-insight{background:rgba(0,229,160,.04);border:1px solid rgba(0,229,160,.15);border-radius:var(--radius-sm);padding:10px 14px;margin:8px 0 14px;font-size:12px;color:var(--subtle);line-height:1.6}
+.ca-insight strong{color:var(--accent)}
 
 /* ── Mobile ── */
 @media(max-width:640px){
-  .ca-content{padding:12px 14px 32px}
+  .ca-content{padding:12px 14px 40px}
   .ca-topnav{padding:0 12px;height:52px}
   .ca-topnav-brand{font-size:14px;margin-right:10px}
   .ca-navbtn{padding:5px 8px;font-size:11px}
@@ -167,9 +196,10 @@ div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!impor
   .ca-player-name{white-space:normal!important;overflow:visible!important;text-overflow:unset!important;text-align:center}
   .ca-player-pills{justify-content:center}
   .ca-player-bio{-webkit-line-clamp:unset!important;display:block!important;overflow:visible!important}
+  [data-testid="stPlotlyChart"]{border-radius:var(--radius-sm)!important}
 }
 @media(min-width:641px) and (max-width:900px){
-  .ca-content{padding:16px 18px 32px}
+  .ca-content{padding:16px 18px 40px}
   [data-testid="stMetricValue"]{font-size:20px!important}
   div[data-baseweb="tab"]{font-size:12px!important;padding:6px 12px!important}
 }
@@ -288,22 +318,37 @@ def metrics(d):
         cols=st.columns(len(items[i:i+chunk]))
         for c,(k,v) in zip(cols,items[i:i+chunk]): c.metric(k,v)
 
+def _hex_to_rgba(hex_color, alpha=0.18):
+    """Convert hex color like #00e5a0 to rgba(0,229,160,0.18)."""
+    h = hex_color.lstrip("#")
+    if len(h) == 3: h = "".join(c*2 for c in h)
+    try:
+        r,g,b = int(h[0:2],16), int(h[2:4],16), int(h[4:6],16)
+        return f"rgba({r},{g},{b},{alpha})"
+    except:
+        return f"rgba(100,100,100,{alpha})"
+
 def radar(categories, values1, values2, name1, name2, color1, color2, title):
     """Radar / spider chart for head-to-head comparisons."""
-    import numpy as np
     cats = categories + [categories[0]]
     v1 = values1 + [values1[0]]
     v2 = values2 + [values2[0]]
     fig = go.Figure()
     fig.add_trace(go.Scatterpolar(r=v1, theta=cats, fill="toself", name=name1,
-        line=dict(color=color1, width=2.5), fillcolor=color1.replace(")", ",0.15)").replace("rgb","rgba") if color1.startswith("rgb") else color1+"26"))
+        line=dict(color=color1, width=2.5),
+        fillcolor=_hex_to_rgba(color1, 0.18),
+        hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}<extra>" + name1 + "</extra>"))
     fig.add_trace(go.Scatterpolar(r=v2, theta=cats, fill="toself", name=name2,
-        line=dict(color=color2, width=2.5), fillcolor=color2.replace(")", ",0.15)").replace("rgb","rgba") if color2.startswith("rgb") else color2+"26"))
-    fig.update_layout(**BASE, title=title, height=420,
+        line=dict(color=color2, width=2.5),
+        fillcolor=_hex_to_rgba(color2, 0.18),
+        hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}<extra>" + name2 + "</extra>"))
+    fig.update_layout(**BASE, title=title, height=440,
         polar=dict(bgcolor="rgba(0,0,0,0)",
-            radialaxis=dict(visible=True, gridcolor=GRID, color=TEXT, tickfont=dict(size=9)),
-            angularaxis=dict(gridcolor=GRID, linecolor=GRID, tickfont=dict(size=11, color=TEXT))),
-        margin=dict(l=40,r=40,t=60,b=40))
+            radialaxis=dict(visible=True, gridcolor=GRID, color=TEXT,
+                            tickfont=dict(size=9), range=[0,110]),
+            angularaxis=dict(gridcolor=GRID, linecolor=GRID,
+                             tickfont=dict(size=12, color=TEXT))),
+        margin=dict(l=50,r=50,t=60,b=50))
     return fig
 
 def scatter(df, x, y, text_col, color, title, x_label="", y_label=""):
@@ -871,6 +916,7 @@ elif section=="⚔️ Head to Head":
 
             # ── Radar chart comparison ────────────────────────────────────────
             st.markdown("### 🕸️ Head-to-Head Radar")
+            st.markdown('<div class="ca-insight">Each axis is <strong>normalized 0–100</strong> relative to both players — so the shape shows who dominates which dimension, not raw values. A larger filled area = more rounded player.</div>', unsafe_allow_html=True)
             radar_metrics=["average","strike_rate","boundary_pct","dot_pct"]
             radar_labels=["Average","Strike Rate","Boundary %","Dot %"]
             # Normalize each metric 0-100 across both players for radar
@@ -1070,6 +1116,7 @@ elif section=="🏆 Leaderboard":
         # Scatter: runs vs average — the classic "who's elite" plot
         if "runs" in lb.columns and "average" in lb.columns and len(lb)>=4:
             st.markdown("#### 💠 Runs vs Average — The Elite Quadrant")
+            st.markdown('<div class="ca-insight"><strong>Top-right</strong> = high volume AND high quality. <strong>Color</strong> = strike rate. The dotted lines are median splits — names above both lines are the true greats of this format.</div>', unsafe_allow_html=True)
             st.caption("Top-right = high volume AND high quality. The true greats live there.")
             med_r=float(lb["runs"].median()); med_a=float(lb["average"].median())
             fig_sc=px.scatter(lb,x="runs",y="average",text="striker",
