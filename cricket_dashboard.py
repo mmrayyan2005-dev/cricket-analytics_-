@@ -285,6 +285,17 @@ div[data-testid="stHorizontalBlock"] > div[data-testid="column"]{{min-width:0 !i
   .ca-hero h1{{font-size:20px !important}}
   /* ── Pills: allow wrap and shrink ── */
   .ca-pill{{white-space:normal !important;word-break:break-word !important}}
+  /* ── Charts: scrollable on mobile ── */
+  .stPlotlyChart{{overflow-x:auto !important;-webkit-overflow-scrolling:touch !important}}
+  .stPlotlyChart > div{{min-width:320px}}
+  /* ── Sidebar: full width on mobile ── */
+  [data-testid="stSidebar"]{{width:100% !important;min-width:100% !important}}
+  /* ── Radio horizontal: wrap properly ── */
+  [data-testid="stRadio"] > div{{display:flex !important;flex-wrap:wrap !important;gap:4px !important}}
+  [data-testid="stRadio"] label{{font-size:11px !important;padding:4px 10px !important}}
+  /* ── Format badges in hero ── */
+  .ca-hero .ca-badges{{gap:4px !important}}
+  .ca-hero .ca-badges span{{font-size:10px !important;padding:3px 8px !important}}
 }}
 
 /* ══════════════════════════════════════
@@ -333,9 +344,11 @@ st.sidebar.markdown(f"""<div style="padding:16px 4px 12px">
 # auto-update via GitHub Actions — no manual refresh needed
 last_upd=get_last_updated()
 if last_upd:
-    st.sidebar.caption(f"✅ {last_upd}")
+    st.sidebar.caption(f"✅ Data: {last_upd}")
 else:
-    st.sidebar.caption(f"⚡ {datetime.now(timezone(timedelta(hours=5))).strftime('%H:%M · %d %b')}")
+    pkt=datetime.now(timezone(timedelta(hours=5)))
+    st.sidebar.caption(f"⚡ {pkt.strftime('%H:%M · %d %b')} PKT")
+st.sidebar.caption("🔄 Auto-updated daily · Cricsheet (2-3 day lag)")
 st.sidebar.markdown(f"""<div style="height:1px;background:var(--border);margin:4px 0 10px"></div>""",unsafe_allow_html=True)
 
 with st.spinner("Loading cricket data..."):
@@ -353,35 +366,46 @@ def avail(df,col):
 
 # ── Smart search: tries exact, then last name, then fuzzy first/last ──────
 def find_rows(df, name_col, query):
-    """Smart search: tries strategies in priority order to match player names."""
+    """
+    Strict name search — prevents wrong player matches (e.g. 'Fazal' matching 'Abdullah Fazal').
+    Strategy: only return rows where the FULL query matches as a complete word-boundary match.
+    Falls back to initial+last only for known multi-word names.
+    """
     import re as _re
     if df.empty: return pd.DataFrame()
     q = query.strip()
+    if not q: return pd.DataFrame()
     parts = q.split()
 
-    # 1. Exact full-name contains  e.g. "Smriti Mandhana" -> "Smriti Mandhana"
-    mask = df[name_col].str.contains(_re.escape(q), case=False, na=False, regex=True)
+    # 1. Exact full string match (case-insensitive word boundaries)
+    #    "Babar Azam" only matches "Babar Azam", not "Babar Azam Khan"
+    pattern_full = r"(?i)^" + _re.escape(q) + r"$"
+    mask = df[name_col].str.match(pattern_full, case=False, na=False)
     if mask.any(): return df[mask]
 
-    # 2. Initial + last name  e.g. "Smriti Mandhana" -> "S Mandhana"
-    #    This is tried BEFORE first-name-only to avoid matching "Smriti Anand"
+    # 2. Contains exact query (whole name appears somewhere)
+    mask = df[name_col].str.contains(_re.escape(q), case=False, na=False)
+    if mask.any(): return df[mask]
+
+    # 3. Multi-word query: try Initial + Last  e.g. "Virat Kohli" -> "V Kohli"
     if len(parts) >= 2:
         initial = parts[0][0].upper()
         last = _re.escape(parts[-1])
-        pattern = rf"(?i)\b{initial}\b.*\b{last}\b"
-        mask = df[name_col].str.contains(pattern, case=False, na=False, regex=True)
+        # Must match: single letter OR full first word, then last name as whole word
+        pattern_init = rf"(?i)^{initial}.*{last}$"
+        mask = df[name_col].str.match(pattern_init, case=False, na=False)
         if mask.any(): return df[mask]
-        # Also try just last name — catches "S Mandhana" when query is "Mandhana"
-        mask2 = df[name_col].str.contains(rf"(?i)\b{last}\b", na=False, regex=True)
-        if mask2.any(): return df[mask2]
 
-    # 3. Single word query — try as last name first (more specific)
-    if len(parts) == 1 and len(q) >= 4:
-        # Try matching as last name (word at end)
-        mask = df[name_col].str.contains(rf"(?i)\b{_re.escape(q)}$", na=False, regex=True)
+    # 4. Single word: only match if it's the ENTIRE name or last word of name
+    #    "Kohli" matches "V Kohli" but NOT "Kohli Ahmed" unintentionally
+    if len(parts) == 1 and len(q) >= 3:
+        # Match as last word of name only (prevents "Fazal" matching "Abdullah Fazal" when searching "Fazal")
+        pattern_last = rf"(?i)\b{_re.escape(q)}$"
+        mask = df[name_col].str.contains(pattern_last, na=False, regex=True)
         if mask.any(): return df[mask]
-        # Then anywhere
-        mask = df[name_col].str.contains(_re.escape(q), case=False, na=False)
+        # Also match as first word
+        pattern_first = rf"(?i)^{_re.escape(q)}\b"
+        mask = df[name_col].str.contains(pattern_first, na=False, regex=True)
         if mask.any(): return df[mask]
 
     return pd.DataFrame()
@@ -748,8 +772,11 @@ if section=="🔍 Player Search":
         # Use smart find_rows for both bat and bowl
         ab_rows=find_rows(bat_fmt,"striker",sname)
         aw_rows=find_rows(bowl_fmt,"bowler",sname)
-        ab=ab_rows["format"].unique().tolist() if not ab_rows.empty else []
-        aw=aw_rows["format"].unique().tolist() if not aw_rows.empty else []
+        # Only show formats where player has meaningful data (>=5 innings or >=10 wickets)
+        ab_qual=ab_rows[ab_rows["matches"]>=3] if not ab_rows.empty and "matches" in ab_rows.columns else ab_rows
+        aw_qual=aw_rows[aw_rows["matches"]>=3] if not aw_rows.empty and "matches" in aw_rows.columns else aw_rows
+        ab=ab_qual["format"].unique().tolist() if not ab_qual.empty else []
+        aw=aw_qual["format"].unique().tolist() if not aw_qual.empty else []
         avl=sorted(set(ab+aw),key=lambda x:FORMATS.index(x) if x in FORMATS else 99)
         if not avl:
             st.error(f"No data found for '{name}'. Try a different spelling or ensure their format data is loaded.")
