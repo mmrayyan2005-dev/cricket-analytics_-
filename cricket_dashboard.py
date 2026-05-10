@@ -479,6 +479,12 @@ PAGES=["🏠 Home","🔍 Player Search","⚔️ Head to Head","🏟️ vs Venue"
 
 if "page" not in st.session_state: st.session_state["page"]="🏠 Home"
 
+# Apply any pending navigation BEFORE widgets are rendered
+if st.session_state.get("_go"):
+    dest = st.session_state["_go"]
+    del st.session_state["_go"]
+    st.session_state["page"] = dest
+
 last_upd=get_last_updated()
 pkt=datetime.now(timezone(timedelta(hours=5)))
 status_txt=f"Updated {last_upd}" if last_upd else f"{pkt.strftime('%H:%M')} PKT"
@@ -531,7 +537,7 @@ if section=="🏠 Home":
     qname=st.text_input("","",placeholder="Type a player name — Babar, Kohli, Smriti, Shaheen, Maxwell...",
                         key="home_search",label_visibility="collapsed")
     if qname:
-        st.session_state["page"]="🔍 Player Search"
+        st.session_state["_go"]="🔍 Player Search"
         st.session_state["ps_name"]=qname
         st.rerun()
 
@@ -550,7 +556,7 @@ if section=="🏠 Home":
     for i,(emoji,title,desc,target) in enumerate(features):
         with cols[i%4]:
             if st.button(f"{emoji} **{title}**\n\n{desc}",key=f"feat_{i}",use_container_width=True):
-                st.session_state["page"]=target; st.rerun()
+                st.session_state["_go"]=target; st.rerun()
 
     st.markdown("---")
     st.markdown("#### 🏆 Quick Leaderboard")
