@@ -573,8 +573,10 @@ if section=="🏠 Home":
 
 # ══ PLAYER SEARCH ═════════════════════════════════════════════════════════════
 elif section=="🔍 Player Search":
-    default_name=st.session_state.get("ps_name","")
-    st.session_state["ps_name"]=""
+    # Pre-fill search box via session state key (value= param removed in new Streamlit)
+    if st.session_state.get("ps_name","") and "ps_input" not in st.session_state:
+        st.session_state["ps_input"] = st.session_state["ps_name"]
+    st.session_state["ps_name"] = ""
     fmt_pills="".join([
         f'<span style="background:{FORMAT_META.get(f,("","#00e5a0",""))[1]}18;color:{FORMAT_META.get(f,("","#00e5a0",""))[1]};border:1px solid {FORMAT_META.get(f,("","#00e5a0",""))[1]}44;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700">'
         f'{FORMAT_META.get(f,("🏏","",""))[0]} {f}</span>' for f in ALL_FMT])
@@ -592,8 +594,9 @@ elif section=="🔍 Player Search":
       <p style="color:var(--muted);font-size:12px;margin:10px 0 0">Search any player across all formats · Ball-by-ball stats · Wikipedia profiles</p>
     </div>""", unsafe_allow_html=True)
 
-    name=st.text_input("","",placeholder="🔍  Player name — e.g. Babar, Kohli, Smriti, Shaheen...",
-                       label_visibility="collapsed",value=default_name)
+    name=st.text_input("",placeholder="🔍  Player name — e.g. Babar, Kohli, Smriti, Shaheen...",
+                       label_visibility="collapsed",key="ps_input")
+    name = st.session_state.get("ps_input","") or ""
     if name:
         sname=resolve(name)
         ab_rows=find_rows(bat_fmt,"striker",sname)
