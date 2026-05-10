@@ -81,6 +81,17 @@ div[data-baseweb="tab-highlight"],div[data-baseweb="tab-border"]{display:none!im
 /* ── Back button ── */
 [data-testid="stButton"] button[kind="secondary"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--subtle)!important;font-size:12px!important;font-weight:600!important;padding:5px 14px!important;transition:all .15s!important;margin-bottom:12px!important}
 [data-testid="stButton"] button[kind="secondary"]:hover{border-color:#2e4060!important;color:var(--text)!important;background:#161d2e!important}
+
+/* ── Alerts / Error / Info ── */
+[data-testid="stAlert"]{border-radius:var(--radius-sm)!important;border-left:3px solid!important;font-size:13px!important}
+[data-testid="stAlert"][data-type="error"]{background:rgba(255,77,109,.07)!important;border-color:var(--warn)!important}
+[data-testid="stAlert"][data-type="info"]{background:rgba(61,139,255,.07)!important;border-color:var(--accent2)!important}
+[data-testid="stAlert"][data-type="warning"]{background:rgba(251,191,36,.07)!important;border-color:var(--gold)!important}
+[data-testid="stAlert"][data-type="success"]{background:rgba(0,229,160,.07)!important;border-color:var(--accent)!important}
+
+/* ── Subheaders ── */
+h3[data-testid="stHeading"]{font-family:var(--font-head)!important;letter-spacing:-0.3px!important}
+
 hr{border:none!important;border-top:1px solid var(--border)!important;margin:16px 0!important}
 .js-plotly-plot{touch-action:pan-y!important}
 div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!important;flex:1 1 auto}
@@ -276,6 +287,51 @@ def metrics(d):
     for i in range(0,len(items),chunk):
         cols=st.columns(len(items[i:i+chunk]))
         for c,(k,v) in zip(cols,items[i:i+chunk]): c.metric(k,v)
+
+def radar(categories, values1, values2, name1, name2, color1, color2, title):
+    """Radar / spider chart for head-to-head comparisons."""
+    import numpy as np
+    cats = categories + [categories[0]]
+    v1 = values1 + [values1[0]]
+    v2 = values2 + [values2[0]]
+    fig = go.Figure()
+    fig.add_trace(go.Scatterpolar(r=v1, theta=cats, fill="toself", name=name1,
+        line=dict(color=color1, width=2.5), fillcolor=color1.replace(")", ",0.15)").replace("rgb","rgba") if color1.startswith("rgb") else color1+"26"))
+    fig.add_trace(go.Scatterpolar(r=v2, theta=cats, fill="toself", name=name2,
+        line=dict(color=color2, width=2.5), fillcolor=color2.replace(")", ",0.15)").replace("rgb","rgba") if color2.startswith("rgb") else color2+"26"))
+    fig.update_layout(**BASE, title=title, height=420,
+        polar=dict(bgcolor="rgba(0,0,0,0)",
+            radialaxis=dict(visible=True, gridcolor=GRID, color=TEXT, tickfont=dict(size=9)),
+            angularaxis=dict(gridcolor=GRID, linecolor=GRID, tickfont=dict(size=11, color=TEXT))),
+        margin=dict(l=40,r=40,t=60,b=40))
+    return fig
+
+def scatter(df, x, y, text_col, color, title, x_label="", y_label=""):
+    """Scatter plot with player name labels."""
+    if df.empty: return go.Figure()
+    fig = px.scatter(df, x=x, y=y, text=text_col, title=title,
+                     color_discrete_sequence=[color])
+    fig.update_traces(
+        marker=dict(size=9, opacity=0.85, line=dict(width=1, color=BG)),
+        textposition="top center", textfont=dict(size=9, color=TEXT),
+        hovertemplate="<b>%{text}</b><br>" + (x_label or x) + ": <b>%{x:.1f}</b><br>" + (y_label or y) + ": <b>%{y:.1f}</b><extra></extra>")
+    fig.update_layout(**BASE, height=480, margin=dict(l=50,r=20,t=48,b=50),
+                      xaxis_title=x_label or x, yaxis_title=y_label or y)
+    fig.update_xaxes(showgrid=True, gridcolor=GRID)
+    fig.update_yaxes(showgrid=True, gridcolor=GRID)
+    return fig
+
+def form_delta_html(recent_val, career_val, label, higher_is_better=True):
+    """Return a styled HTML badge showing form vs career average."""
+    if not recent_val or not career_val: return ""
+    diff = recent_val - career_val
+    pct = (diff / career_val * 100) if career_val else 0
+    good = (diff > 0) == higher_is_better
+    color = "#00e5a0" if good else "#ff4d6d"
+    arrow = "▲" if diff > 0 else "▼"
+    return (f'<span style="background:{color}18;border:1px solid {color}44;'
+            f'color:{color};padding:2px 8px;border-radius:12px;font-size:11px;font-weight:700">'
+            f'{arrow} {abs(pct):.1f}% vs career {label}</span>')
 
 # ── V12 page_banner (richer gradient + pattern) ──────────────────────────────
 def page_banner(emoji, title, subtitle, ga, gb, glow):
@@ -813,6 +869,19 @@ elif section=="⚔️ Head to Head":
                 fy2.update_yaxes(title="Average",showgrid=True,gridcolor=GRID)
                 st.plotly_chart(fy2,**CFG)
 
+            # ── Radar chart comparison ────────────────────────────────────────
+            st.markdown("### 🕸️ Head-to-Head Radar")
+            radar_metrics=["average","strike_rate","boundary_pct","dot_pct"]
+            radar_labels=["Average","Strike Rate","Boundary %","Dot %"]
+            # Normalize each metric 0-100 across both players for radar
+            v1_raw=[float(p1.get(m,0)) for m in radar_metrics]
+            v2_raw=[float(p2_.get(m,0)) for m in radar_metrics]
+            combined_max=[max(a,b,0.001) for a,b in zip(v1_raw,v2_raw)]
+            v1_norm=[round(a/mx*100,1) for a,mx in zip(v1_raw,combined_max)]
+            v2_norm=[round(b/mx*100,1) for b,mx in zip(v2_raw,combined_max)]
+            st.plotly_chart(radar(radar_labels,v1_norm,v2_norm,p1n,p2n,FC["ODI"],FC["Test"],
+                f"Batting Profile — {fmt}"),**CFG)
+
 # ══ VS VENUE ══════════════════════════════════════════════════════════════════
 elif section=="🏟️ vs Venue":
     page_banner("🏟️","Player vs Venue","How does a player perform at different grounds?","#0a1a1a","#0d2b2b","#00b894")
@@ -820,20 +889,54 @@ elif section=="🏟️ vs Venue":
     if name:
         sname=resolve(name)
         src=find_rows(bat_ven,"striker",sname) if st_=="Batting" else find_rows(bowl_ven,"bowler",sname)
-        if len(src)==0: st.error("Player not found! Try a different spelling.")
+        if len(src)==0:
+            st.error("Player not found! Try a different spelling.")
         else:
             fmt=st.radio("Format",avail(src,"format"),horizontal=True)
             df_v=src[src["format"]==fmt]
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
-                df_v=df_v.sort_values(m,ascending=False).head(20)
-                ch(bar_h(df_v,m,"venue",m,"Greens",f"{df_v['striker'].iloc[0]} — {m} by Venue ({fmt})"))
-                st.dataframe(df_v[["venue","innings","runs","average","strike_rate"]].reset_index(drop=True))
+                df_top=df_v.sort_values(m,ascending=False).head(20)
+                ch(bar_h(df_top,m,"venue",m,"Greens",f"{df_top['striker'].iloc[0]} — {m} by Venue ({fmt})"))
+                # Scatter: innings vs average per venue — reveals consistency
+                if "innings" in df_v.columns and "average" in df_v.columns and len(df_v)>=3:
+                    st.markdown("#### 📍 Consistency Map — Innings vs Average per Venue")
+                    st.caption("Top-right = visits often AND scores big. Bubble size = total runs.")
+                    df_sc=df_v.copy()
+                    bsz=df_sc["runs"].fillna(0) if "runs" in df_sc.columns else None
+                    fig_sc=px.scatter(df_sc,x="innings",y="average",text="venue",
+                        size=bsz,size_max=45,color="average",color_continuous_scale="Greens",
+                        title=f"Venue Consistency — {fmt}",
+                        hover_data={k:True for k in ["venue","innings","runs","average","strike_rate"] if k in df_sc.columns})
+                    fig_sc.update_traces(textposition="top center",textfont=dict(size=8,color=TEXT),
+                        hovertemplate="<b>%{text}</b><br>Innings: %{x}<br>Avg: %{y:.1f}<extra></extra>")
+                    fig_sc.update_layout(**BASE,height=460,coloraxis_showscale=False,
+                        margin=dict(l=50,r=20,t=48,b=50),xaxis_title="Innings Played",yaxis_title="Batting Average")
+                    fig_sc.update_xaxes(showgrid=True,gridcolor=GRID)
+                    fig_sc.update_yaxes(showgrid=True,gridcolor=GRID)
+                    st.plotly_chart(fig_sc,**CFG)
+                st.dataframe(df_v.sort_values(m,ascending=False)[["venue","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
-                df_v=df_v.sort_values(m,ascending=False).head(20)
-                ch(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
-                st.dataframe(df_v[["venue","innings","wickets","economy","average"]].reset_index(drop=True))
+                df_top=df_v.sort_values(m,ascending=False).head(20)
+                ch(bar_h(df_top,m,"venue",m,"Reds",f"{df_top['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
+                if "innings" in df_v.columns and "economy" in df_v.columns and len(df_v)>=3:
+                    st.markdown("#### 📍 Economy Map — Innings vs Economy per Venue")
+                    st.caption("Bottom-right = bowls a lot AND stays economical. Bubble size = wickets.")
+                    df_sc2=df_v.copy()
+                    bsz2=df_sc2["wickets"].fillna(0) if "wickets" in df_sc2.columns else None
+                    fig_sc2=px.scatter(df_sc2,x="innings",y="economy",text="venue",
+                        size=bsz2,size_max=45,color="economy",color_continuous_scale="Reds_r",
+                        title=f"Venue Economy — {fmt}",
+                        hover_data={k:True for k in ["venue","innings","wickets","economy","average"] if k in df_sc2.columns})
+                    fig_sc2.update_traces(textposition="top center",textfont=dict(size=8,color=TEXT),
+                        hovertemplate="<b>%{text}</b><br>Innings: %{x}<br>Economy: %{y:.2f}<extra></extra>")
+                    fig_sc2.update_layout(**BASE,height=460,coloraxis_showscale=False,
+                        margin=dict(l=50,r=20,t=48,b=50),xaxis_title="Innings Bowled",yaxis_title="Economy Rate")
+                    fig_sc2.update_xaxes(showgrid=True,gridcolor=GRID)
+                    fig_sc2.update_yaxes(showgrid=True,gridcolor=GRID)
+                    st.plotly_chart(fig_sc2,**CFG)
+                st.dataframe(df_v.sort_values(m,ascending=False)[["venue","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ VS OPPONENT ═══════════════════════════════════════════════════════════════
 elif section=="🌍 vs Opponent":
@@ -848,14 +951,50 @@ elif section=="🌍 vs Opponent":
             df_o=src[src["format"]==fmt]
             if st_=="Batting":
                 m=st.selectbox("Metric",["runs","average","strike_rate","fours","sixes"])
-                df_o=df_o.sort_values(m,ascending=False)
-                ch(bar_h(df_o,m,"opponent",m,"Blues",f"{df_o['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
-                st.dataframe(df_o[["opponent","innings","runs","average","strike_rate"]].reset_index(drop=True))
+                df_o_s=df_o.sort_values(m,ascending=False)
+                ch(bar_h(df_o_s,m,"opponent",m,"Blues",f"{df_o_s['striker'].iloc[0]} — {m} vs Teams ({fmt})"))
+                # Dominance scatter: innings vs average per opponent
+                if "innings" in df_o.columns and "average" in df_o.columns and len(df_o)>=3:
+                    st.markdown("#### 🎯 Dominance Map — Which Teams Does He Master?")
+                    st.caption("Top-right = plays them often AND scores big. Bottom-left = struggles.")
+                    med_avg = float(df_o["average"].median()) if "average" in df_o.columns else 0
+                    med_inn = float(df_o["innings"].median()) if "innings" in df_o.columns else 0
+                    fig_dom=px.scatter(df_o,x="innings",y="average",text="opponent",
+                        size="runs" if "runs" in df_o.columns else None,size_max=50,
+                        color="average",color_continuous_scale="Blues",
+                        title=f"Batting Dominance by Opponent ({fmt})")
+                    fig_dom.update_traces(textposition="top center",textfont=dict(size=9,color=TEXT),
+                        hovertemplate="<b>%{text}</b><br>Innings: %{x}<br>Avg: %{y:.1f}<extra></extra>")
+                    # Quadrant lines
+                    fig_dom.add_hline(y=med_avg,line_dash="dot",line_color=GRID,
+                                      annotation_text="Median avg",annotation_font=dict(size=9,color=TEXT))
+                    fig_dom.add_vline(x=med_inn,line_dash="dot",line_color=GRID,
+                                      annotation_text="Median innings",annotation_font=dict(size=9,color=TEXT))
+                    fig_dom.update_layout(**BASE,height=480,coloraxis_showscale=False,
+                        margin=dict(l=50,r=20,t=48,b=50),xaxis_title="Innings Played",yaxis_title="Batting Average")
+                    fig_dom.update_xaxes(showgrid=True,gridcolor=GRID)
+                    fig_dom.update_yaxes(showgrid=True,gridcolor=GRID)
+                    st.plotly_chart(fig_dom,**CFG)
+                st.dataframe(df_o.sort_values(m,ascending=False)[["opponent","innings","runs","average","strike_rate"]].reset_index(drop=True))
             else:
                 m=st.selectbox("Metric",["wickets","economy","average","dot_pct"])
-                df_o=df_o.sort_values(m,ascending=False)
-                ch(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
-                st.dataframe(df_o[["opponent","innings","wickets","economy","average"]].reset_index(drop=True))
+                df_o_s=df_o.sort_values(m,ascending=False)
+                ch(bar_h(df_o_s,m,"opponent",m,"Purples",f"{df_o_s['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
+                if "innings" in df_o.columns and "economy" in df_o.columns and len(df_o)>=3:
+                    st.markdown("#### 🎯 Bowling Dominance Map")
+                    st.caption("Top-right = bowls them often AND takes wickets. Bottom = struggles for wickets.")
+                    fig_dom2=px.scatter(df_o,x="innings",y="wickets" if "wickets" in df_o.columns else "economy",
+                        text="opponent",size="wickets" if "wickets" in df_o.columns else None,size_max=50,
+                        color="economy",color_continuous_scale="Purples_r",
+                        title=f"Bowling Dominance by Opponent ({fmt})")
+                    fig_dom2.update_traces(textposition="top center",textfont=dict(size=9,color=TEXT),
+                        hovertemplate="<b>%{text}</b><br>Innings: %{x}<br>Wickets: %{y}<extra></extra>")
+                    fig_dom2.update_layout(**BASE,height=480,coloraxis_showscale=False,
+                        margin=dict(l=50,r=20,t=48,b=50),xaxis_title="Innings Bowled",yaxis_title="Wickets")
+                    fig_dom2.update_xaxes(showgrid=True,gridcolor=GRID)
+                    fig_dom2.update_yaxes(showgrid=True,gridcolor=GRID)
+                    st.plotly_chart(fig_dom2,**CFG)
+                st.dataframe(df_o.sort_values(m,ascending=False)[["opponent","innings","wickets","economy","average"]].reset_index(drop=True))
 
 # ══ BATTER VS BOWLER ══════════════════════════════════════════════════════════
 elif section=="🤜 Batter vs Bowler":
@@ -928,6 +1067,27 @@ elif section=="🏆 Leaderboard":
         lb=bs[bs["runs"]>=mr].sort_values(sb,ascending=False).head(tn).reset_index(drop=True)
         lb.insert(0,"Rank",range(1,len(lb)+1))
         ch(bar_h(lb,sb,"striker",sb,"Teal",f"Top {tn} {fmt} Batters — {sb}"))
+        # Scatter: runs vs average — the classic "who's elite" plot
+        if "runs" in lb.columns and "average" in lb.columns and len(lb)>=4:
+            st.markdown("#### 💠 Runs vs Average — The Elite Quadrant")
+            st.caption("Top-right = high volume AND high quality. The true greats live there.")
+            med_r=float(lb["runs"].median()); med_a=float(lb["average"].median())
+            fig_sc=px.scatter(lb,x="runs",y="average",text="striker",
+                color="strike_rate" if "strike_rate" in lb.columns else None,
+                color_continuous_scale="Teal",size_max=18,
+                title=f"Runs vs Average — {fmt} (Top {tn})",
+                hover_data={k:True for k in ["striker","runs","average","strike_rate","matches"] if k in lb.columns})
+            fig_sc.update_traces(marker=dict(size=10,opacity=0.9,line=dict(width=1,color=BG)),
+                textposition="top center",textfont=dict(size=8,color=TEXT),
+                hovertemplate="<b>%{text}</b><br>Runs: %{x:,}<br>Avg: %{y:.1f}<extra></extra>")
+            fig_sc.add_hline(y=med_a,line_dash="dot",line_color=GRID,annotation_text=f"Median avg {med_a:.0f}",annotation_font=dict(size=9,color=TEXT))
+            fig_sc.add_vline(x=med_r,line_dash="dot",line_color=GRID,annotation_text=f"Median runs {med_r:.0f}",annotation_font=dict(size=9,color=TEXT))
+            fig_sc.update_layout(**BASE,height=460,coloraxis_showscale=True,
+                coloraxis_colorbar=dict(title="SR",tickfont=dict(size=9)),
+                margin=dict(l=50,r=60,t=48,b=50),xaxis_title="Total Runs",yaxis_title="Batting Average")
+            fig_sc.update_xaxes(showgrid=True,gridcolor=GRID)
+            fig_sc.update_yaxes(showgrid=True,gridcolor=GRID)
+            st.plotly_chart(fig_sc,**CFG)
         show_cols=[c for c in ["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"] if c in lb.columns]
         st.dataframe(lb[show_cols].reset_index(drop=True))
     with tab2:
@@ -938,6 +1098,27 @@ elif section=="🏆 Leaderboard":
         lb2=ws[ws["wickets"]>=mw].sort_values(sb2,ascending=(sb2 in ["economy","average"])).head(tn2).reset_index(drop=True)
         lb2.insert(0,"Rank",range(1,len(lb2)+1))
         ch(bar_h(lb2,"wickets","bowler","economy","Sunset",f"Top {tn2} {fmt} Bowlers"))
+        # Scatter: wickets vs economy
+        if "wickets" in lb2.columns and "economy" in lb2.columns and len(lb2)>=4:
+            st.markdown("#### 💠 Wickets vs Economy — The Elite Quadrant")
+            st.caption("Top-right = high wickets AND economical. The match-winners.")
+            fig_sc2=px.scatter(lb2,x="wickets",y="economy",text="bowler",
+                color="average" if "average" in lb2.columns else None,
+                color_continuous_scale="Reds_r",
+                title=f"Wickets vs Economy — {fmt} (Top {tn2})",
+                hover_data={k:True for k in ["bowler","wickets","economy","average","matches"] if k in lb2.columns})
+            fig_sc2.update_traces(marker=dict(size=10,opacity=0.9,line=dict(width=1,color=BG)),
+                textposition="top center",textfont=dict(size=8,color=TEXT),
+                hovertemplate="<b>%{text}</b><br>Wickets: %{x}<br>Economy: %{y:.2f}<extra></extra>")
+            med_w=float(lb2["wickets"].median()); med_e=float(lb2["economy"].median())
+            fig_sc2.add_hline(y=med_e,line_dash="dot",line_color=GRID,annotation_text=f"Median econ {med_e:.1f}",annotation_font=dict(size=9,color=TEXT))
+            fig_sc2.add_vline(x=med_w,line_dash="dot",line_color=GRID,annotation_text=f"Median wkts {med_w:.0f}",annotation_font=dict(size=9,color=TEXT))
+            fig_sc2.update_layout(**BASE,height=460,coloraxis_showscale=True,
+                coloraxis_colorbar=dict(title="Avg",tickfont=dict(size=9)),
+                margin=dict(l=50,r=60,t=48,b=50),xaxis_title="Total Wickets",yaxis_title="Economy Rate")
+            fig_sc2.update_xaxes(showgrid=True,gridcolor=GRID)
+            fig_sc2.update_yaxes(showgrid=True,gridcolor=GRID)
+            st.plotly_chart(fig_sc2,**CFG)
         show_cols2=[c for c in ["Rank","bowler","matches","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
         st.dataframe(lb2[show_cols2].reset_index(drop=True))
 
@@ -961,8 +1142,15 @@ elif section=="🤖 Similar Players":
                 same=same[~same["striker"].str.contains(sname,case=False,na=False)]
                 same=same.sort_values("average",ascending=False).head(12)
                 st.subheader(f"Players most similar to {p['striker']} in {fmt}")
-                st.caption(f"⭐ Player Score: {p.get('player_score','—')} | Cluster #{cluster}")
+                st.caption(f"⭐ Player Score: {p.get('player_score','—')} | Cluster #{cluster} | {len(same)} similar players found")
                 ch(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
+                # Show compact player cards for top 4 matches
+                st.markdown("#### 🎴 Top Similar Players")
+                top4=same.head(4)["striker"].tolist()
+                card_cols=st.columns(min(len(top4),2))
+                for i,pname_s in enumerate(top4):
+                    with card_cols[i%2]:
+                        show_player_card(pname_s,pname_s,fmt,compact=True)
                 st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
         else:
             src=find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname)
@@ -976,7 +1164,14 @@ elif section=="🤖 Similar Players":
                 same=same[~same["bowler"].str.contains(sname,case=False,na=False)]
                 same=same.sort_values("wickets",ascending=False).head(12)
                 st.subheader(f"Bowlers most similar to {p['bowler']} in {fmt}")
+                st.caption(f"Cluster #{cluster} | {len(same)} similar bowlers found")
                 ch(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
+                top4b=same.head(4)["bowler"].tolist()
+                st.markdown("#### 🎴 Top Similar Bowlers")
+                card_cols2=st.columns(min(len(top4b),2))
+                for i,bname_s in enumerate(top4b):
+                    with card_cols2[i%2]:
+                        show_player_card(bname_s,bname_s,fmt,compact=True)
                 st.dataframe(same[["bowler","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
 # ══ FORM & RATINGS ════════════════════════════════════════════════════════════
@@ -1008,6 +1203,13 @@ elif section=="🔥 Form & Ratings":
                              "Avg (latest)":round(float(latest["average"]),1),
                              "SR (latest)":round(float(latest["strike_rate"]),1),
                              "Matches":int(latest["matches"])})
+                    # Form delta badges vs career
+                    if cavg or csr:
+                        badges=""
+                        if cavg: badges+=form_delta_html(float(latest["average"]),cavg,"avg",True)+" "
+                        if csr: badges+=form_delta_html(float(latest["strike_rate"]),csr,"SR",True)
+                        if badges.strip():
+                            st.markdown(f'<div style="margin:4px 0 12px;display:flex;gap:6px;flex-wrap:wrap">{badges}</div>',unsafe_allow_html=True)
                     clr=FC.get(fmt,"#00b894")
                     ch(bar_v(pyr,"year","runs",f"{pname} — Runs per Year ({fmt})",clr))
                     c1,c2=st.columns(2)
@@ -1053,6 +1255,13 @@ elif section=="🔥 Form & Ratings":
                              "Economy (latest)":round(float(latest["economy"]),2),
                              "Average (latest)":round(float(latest["average"]),1),
                              "Matches":int(latest["matches"])})
+                    # Form delta badges vs career
+                    if cecon or cavg:
+                        badges2=""
+                        if cecon: badges2+=form_delta_html(float(latest["economy"]),cecon,"econ",False)+" "
+                        if cavg: badges2+=form_delta_html(float(latest["average"]),cavg,"avg",False)
+                        if badges2.strip():
+                            st.markdown(f'<div style="margin:4px 0 12px;display:flex;gap:6px;flex-wrap:wrap">{badges2}</div>',unsafe_allow_html=True)
                     clr=FC.get(fmt,"#d63031")
                     ch(bar_v(pyr,"year","wickets",f"{pname} — Wickets per Year ({fmt})","#d63031"))
                     c1,c2=st.columns(2)
