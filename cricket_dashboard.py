@@ -477,7 +477,7 @@ PAGES=["🏠 Home","🔍 Player Search","⚔️ Head to Head","🏟️ vs Venue"
        "🌍 vs Opponent","🤜 Batter vs Bowler","📈 Over Years",
        "🏆 Leaderboard","🤖 Similar Players","🔥 Form & Ratings"]
 
-if "page" not in st.session_state: st.session_state.page="🏠 Home"
+if "page" not in st.session_state: st.session_state["page"]="🏠 Home"
 
 last_upd=get_last_updated()
 pkt=datetime.now(timezone(timedelta(hours=5)))
@@ -485,7 +485,7 @@ status_txt=f"Updated {last_upd}" if last_upd else f"{pkt.strftime('%H:%M')} PKT"
 
 nav_html='<div class="ca-topnav"><div class="ca-topnav-brand">🏏 Cricket<span>Analytics</span></div><div class="ca-topnav-links">'
 for p in PAGES:
-    active="active" if st.session_state.page==p else ""
+    active="active" if st.session_state.get("page","")==p else ""
     emoji=p.split()[0]; label=" ".join(p.split()[1:])
     nav_html+=f'<button class="ca-navbtn {active}" onclick="void(0)">{emoji} <span class="nav-label">{label}</span></button>'
 nav_html+=f'</div><div class="ca-topnav-status"><span class="ca-live"></span>{status_txt}</div></div>'
@@ -495,7 +495,7 @@ with st.sidebar:
     section=st.radio("",PAGES,key="page",label_visibility="collapsed")
 
 st.markdown('<div class="ca-content">', unsafe_allow_html=True)
-section=st.session_state.page
+section=st.session_state.get("page","🏠 Home")
 
 # ══ HOME ═════════════════════════════════════════════════════════════════════
 if section=="🏠 Home":
@@ -531,7 +531,7 @@ if section=="🏠 Home":
     qname=st.text_input("","",placeholder="Type a player name — Babar, Kohli, Smriti, Shaheen, Maxwell...",
                         key="home_search",label_visibility="collapsed")
     if qname:
-        st.session_state.page="🔍 Player Search"
+        st.session_state["page"]="🔍 Player Search"
         st.session_state["ps_name"]=qname
         st.rerun()
 
@@ -550,7 +550,7 @@ if section=="🏠 Home":
     for i,(emoji,title,desc,target) in enumerate(features):
         with cols[i%4]:
             if st.button(f"{emoji} **{title}**\n\n{desc}",key=f"feat_{i}",use_container_width=True):
-                st.session_state.page=target; st.rerun()
+                st.session_state["page"]=target; st.rerun()
 
     st.markdown("---")
     st.markdown("#### 🏆 Quick Leaderboard")
