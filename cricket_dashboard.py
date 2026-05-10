@@ -31,6 +31,7 @@ M_DEFAULT=dict(l=8,r=8,t=48,b=8)
 M_BARV=dict(l=8,r=8,t=48,b=60)
 CFG=dict(config={"displayModeBar":False,"scrollZoom":False,"doubleClick":False,"responsive":True},use_container_width=True)
 
+# ── V13 UI + improved CSS ─────────────────────────────────────────────────────
 st.markdown("""<style>
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap');
 :root{
@@ -43,27 +44,43 @@ st.markdown("""<style>
 html,body,[class*="css"]{font-family:var(--font-body);background:var(--bg);color:var(--text)}
 .block-container{padding:0 !important;max-width:100% !important}
 [data-testid="stSidebar"]{display:none !important}
-[data-testid="stMetric"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius)!important;padding:14px 16px!important;position:relative;overflow:hidden}
-[data-testid="stMetric"]:hover{border-color:#2e4060!important}
-[data-testid="stMetric"]::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0.5}
+
+/* ── Metrics ── */
+[data-testid="stMetric"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius)!important;padding:14px 16px!important;position:relative;overflow:hidden;transition:border-color .25s,transform .2s}
+[data-testid="stMetric"]:hover{border-color:#2e4060!important;transform:translateY(-2px)}
+[data-testid="stMetric"]::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0.55}
 [data-testid="stMetricLabel"]{font-size:10px!important;font-weight:600!important;color:var(--muted)!important;text-transform:uppercase;letter-spacing:1px!important}
 [data-testid="stMetricValue"]{font-family:var(--font-head)!important;font-size:22px!important;font-weight:800!important;color:var(--text)!important;line-height:1.2!important}
+[data-testid="stMetricDelta"]{font-size:11px!important}
+
+/* ── Tabs ── */
 div[data-baseweb="tab-list"]{gap:4px!important;flex-wrap:wrap!important;background:transparent!important;border-bottom:1px solid var(--border)!important;padding-bottom:6px!important}
-div[data-baseweb="tab"]{border-radius:var(--radius-sm)!important;padding:6px 14px!important;background:var(--card)!important;font-weight:600!important;font-size:12px!important;color:var(--subtle)!important;border:1px solid var(--border)!important}
+div[data-baseweb="tab"]{border-radius:var(--radius-sm)!important;padding:6px 14px!important;background:var(--card)!important;font-weight:600!important;font-size:12px!important;color:var(--subtle)!important;border:1px solid var(--border)!important;transition:all .2s!important}
+div[data-baseweb="tab"]:hover{border-color:#2e4060!important;color:var(--text)!important}
 div[data-baseweb="tab"][aria-selected="true"]{background:linear-gradient(135deg,#004d35,#003d68)!important;border-color:var(--accent)!important;color:var(--accent)!important}
 div[data-baseweb="tab-highlight"],div[data-baseweb="tab-border"]{display:none!important}
-[data-testid="stTextInput"] input{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--text)!important;font-size:15px!important;padding:11px 14px!important}
+
+/* ── Inputs ── */
+[data-testid="stTextInput"] input{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--text)!important;font-family:var(--font-body)!important;font-size:14px!important;padding:11px 14px!important;transition:border-color .2s!important}
 [data-testid="stTextInput"] input:focus{border-color:var(--accent)!important;box-shadow:0 0 0 3px rgba(0,229,160,.1)!important}
 [data-testid="stSelectbox"]>div>div{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important}
 [data-testid="stRadio"]>div{flex-wrap:wrap!important;gap:5px!important}
-[data-testid="stRadio"] label{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;padding:5px 13px!important;font-size:12px!important;font-weight:600!important;color:var(--subtle)!important;cursor:pointer}
+[data-testid="stRadio"] label{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;padding:5px 13px!important;font-size:12px!important;font-weight:600!important;color:var(--subtle)!important;cursor:pointer;transition:all .15s!important}
 [data-testid="stRadio"] label:has(input:checked){border-color:var(--accent)!important;color:var(--accent)!important;background:rgba(0,229,160,.08)!important}
+
+/* ── Sliders ── */
+[data-testid="stSlider"] [data-baseweb="slider"] [role="slider"]{background:var(--accent)!important;border-color:var(--accent)!important}
+
+/* ── DataFrames ── */
 .stDataFrame{border-radius:var(--radius)!important;overflow:hidden!important;border:1px solid var(--border)!important}
 .stDataFrame thead th{font-size:11px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.6px;background:var(--surface)!important;color:var(--muted)!important;padding:10px 12px!important}
 .stDataFrame tbody td{font-size:12px!important;padding:8px 12px!important}
+.stDataFrame tbody tr:hover td{background:rgba(255,255,255,.03)!important}
 hr{border:none!important;border-top:1px solid var(--border)!important;margin:16px 0!important}
 .js-plotly-plot{touch-action:pan-y!important}
 div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!important;flex:1 1 auto}
+
+/* ── Animations ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes shimmer{0%{background-position:-200% center}100%{background-position:200% center}}
 @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
@@ -71,76 +88,43 @@ div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!impor
 .ca-shimmer{background:linear-gradient(90deg,var(--accent) 0%,var(--accent2) 40%,var(--accent) 80%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 3s linear infinite}
 .ca-live{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse-dot 1.8s ease infinite;vertical-align:middle;margin-right:4px}
 
-/* ── TOP NAV BAR ── */
-.ca-topnav{
-  position:sticky;top:0;z-index:999;
-  background:rgba(8,12,20,.92);
-  backdrop-filter:blur(16px);
-  -webkit-backdrop-filter:blur(16px);
-  border-bottom:1px solid var(--border);
-  padding:0 24px;
-  display:flex;align-items:center;gap:0;
-  height:56px;
-  width:100%;
-  box-sizing:border-box;
-}
-.ca-topnav-brand{
-  display:flex;align-items:center;gap:8px;
-  font-family:var(--font-head);font-size:16px;font-weight:800;
-  color:#fff;white-space:nowrap;margin-right:24px;flex-shrink:0;
-}
+/* ── TOP NAV (V13) ── */
+.ca-topnav{position:sticky;top:0;z-index:999;background:rgba(8,12,20,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;gap:0;height:56px;width:100%;box-sizing:border-box}
+.ca-topnav-brand{display:flex;align-items:center;gap:8px;font-family:var(--font-head);font-size:16px;font-weight:800;color:#fff;white-space:nowrap;margin-right:24px;flex-shrink:0}
 .ca-topnav-brand span{color:var(--accent)}
-.ca-topnav-links{
-  display:flex;align-items:center;gap:2px;
-  flex:1;overflow-x:auto;
-  scrollbar-width:none;-ms-overflow-style:none;
-}
+.ca-topnav-links{display:flex;align-items:center;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
 .ca-topnav-links::-webkit-scrollbar{display:none}
-.ca-navbtn{
-  display:flex;align-items:center;gap:5px;
-  padding:6px 12px;border-radius:8px;
-  font-size:12px;font-weight:600;
-  color:var(--subtle);white-space:nowrap;
-  cursor:pointer;border:none;background:transparent;
-  transition:all .15s;font-family:var(--font-body);
-  text-decoration:none;
-}
+.ca-navbtn{display:flex;align-items:center;gap:5px;padding:6px 12px;border-radius:8px;font-size:12px;font-weight:600;color:var(--subtle);white-space:nowrap;cursor:pointer;border:none;background:transparent;transition:all .15s;font-family:var(--font-body);text-decoration:none}
 .ca-navbtn:hover{background:rgba(255,255,255,.06);color:var(--text)}
 .ca-navbtn.active{background:rgba(0,229,160,.1);color:var(--accent)}
-.ca-topnav-status{
-  display:flex;align-items:center;gap:6px;
-  padding:4px 10px;border-radius:20px;
-  background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);
-  font-size:10px;font-weight:600;color:var(--accent);
-  white-space:nowrap;flex-shrink:0;margin-left:12px;
-}
+.ca-topnav-status{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:20px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);font-size:10px;font-weight:600;color:var(--accent);white-space:nowrap;flex-shrink:0;margin-left:12px}
 .ca-content{padding:20px 24px 40px}
 
-/* ── CARDS ── */
-.ca-section-card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:var(--radius);padding:20px;margin-bottom:16px;
-}
-.ca-section-header{
-  display:flex;align-items:center;gap:10px;margin-bottom:16px;
-}
+/* ── Section cards ── */
+.ca-section-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:16px}
+.ca-section-header{display:flex;align-items:center;gap:10px;margin-bottom:16px}
 .ca-section-emoji{font-size:24px;line-height:1}
 .ca-section-title{font-family:var(--font-head);font-size:18px;font-weight:800;color:#fff}
 .ca-section-sub{font-size:12px;color:var(--muted);margin-top:2px}
 
-/* ── HOME GRID ── */
+/* ── Home grid ── */
 .ca-home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-bottom:24px}
-.ca-feature-card{
-  background:var(--card);border:1px solid var(--border);
-  border-radius:var(--radius);padding:18px 20px;
-  cursor:pointer;transition:all .2s;text-decoration:none;display:block;
-}
+.ca-feature-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;cursor:pointer;transition:all .2s;text-decoration:none;display:block}
 .ca-feature-card:hover{border-color:#2e4060;transform:translateY(-2px);background:#161d2e}
 .ca-feature-icon{font-size:28px;margin-bottom:10px}
 .ca-feature-title{font-family:var(--font-head);font-size:15px;font-weight:800;color:#fff;margin-bottom:4px}
 .ca-feature-desc{font-size:12px;color:var(--muted);line-height:1.5}
 
-/* ── MOBILE ── */
+/* ── Player card (V12 enhanced) ── */
+.ca-player-card{display:flex;gap:14px;align-items:flex-start;overflow:hidden;box-sizing:border-box}
+.ca-player-img{flex-shrink:0}
+.ca-player-info{flex:1;min-width:0}
+.ca-player-name{font-family:'Syne',sans-serif;color:#fff;font-weight:800;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-0.2px}
+.ca-player-pills{display:flex;flex-wrap:wrap;margin-bottom:7px}
+.ca-player-bio{color:var(--muted);font-size:11px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical}
+.ca-pill{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);padding:3px 9px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;display:inline-block;margin:2px 2px 2px 0}
+
+/* ── Mobile ── */
 @media(max-width:640px){
   .ca-content{padding:12px 14px 32px}
   .ca-topnav{padding:0 12px;height:52px}
@@ -154,20 +138,28 @@ div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!impor
   [data-testid="stHorizontalBlock"]{flex-direction:column!important;gap:8px!important}
   [data-testid="stHorizontalBlock"]>div[data-testid="column"]{width:100%!important;min-width:100%!important;flex:1 1 100%!important}
   div[data-baseweb="tab"]{padding:5px 8px!important;font-size:10px!important}
-  .stPlotlyChart{overflow-x:auto!important}
+  .stPlotlyChart{overflow-x:auto!important;-webkit-overflow-scrolling:touch!important}
+  .stDataFrame{overflow-x:auto!important}
   [data-testid="stRadio"] label{font-size:11px!important;padding:4px 8px!important}
   .ca-home-grid{grid-template-columns:1fr 1fr}
   .ca-feature-icon{font-size:22px;margin-bottom:6px}
   .ca-feature-title{font-size:13px}
   .ca-feature-desc{display:none}
+  .ca-player-card{flex-direction:column!important;align-items:center!important;text-align:center!important}
+  .ca-player-img{flex-shrink:0;margin-bottom:10px}
+  .ca-player-info{min-width:0;width:100%}
+  .ca-player-name{white-space:normal!important;overflow:visible!important;text-overflow:unset!important;text-align:center}
+  .ca-player-pills{justify-content:center}
+  .ca-player-bio{-webkit-line-clamp:unset!important;display:block!important;overflow:visible!important}
 }
 @media(min-width:641px) and (max-width:900px){
   .ca-content{padding:16px 18px 32px}
   [data-testid="stMetricValue"]{font-size:20px!important}
+  div[data-baseweb="tab"]{font-size:12px!important;padding:6px 12px!important}
 }
 </style>""", unsafe_allow_html=True)
 
-# ── Data loading ─────────────────────────────────────────────────────────────
+# ── Data loading ──────────────────────────────────────────────────────────────
 @st.cache_data(ttl=3600, show_spinner=False)
 def load():
     def read(name):
@@ -204,25 +196,22 @@ ALL_FMT=get_all_formats(bat_fmt)
 def avail(df,col):
     return sorted(df[col].unique().tolist(),key=lambda x:FORMATS.index(x) if x in FORMATS else 99)
 
+# ── V12 smart find_rows (more thorough) ──────────────────────────────────────
 def find_rows(df, name_col, query):
     import re as _re
     if df.empty: return pd.DataFrame()
     q = query.strip()
     if not q: return pd.DataFrame()
     parts = q.split()
-    # 1. Exact full match
     mask = df[name_col].str.match(r"(?i)^"+_re.escape(q)+r"$", na=False)
     if mask.any(): return df[mask]
-    # 2. Contains full query
     mask = df[name_col].str.contains(_re.escape(q), case=False, na=False)
     if mask.any(): return df[mask]
-    # 3. Multi-word: Initial + Last
     if len(parts) >= 2:
         initial = parts[0][0].upper()
         last = _re.escape(parts[-1])
-        mask = df[name_col].str.match(rf"(?i)^{initial}\b.*\b{last}$", na=False)
+        mask = df[name_col].str.match(rf"(?i)^{initial}.*{last}$", na=False)
         if mask.any(): return df[mask]
-    # 4. Single word: last-word match only
     if len(parts) == 1 and len(q) >= 3:
         mask = df[name_col].str.contains(rf"(?i)\b{_re.escape(q)}$", na=False, regex=True)
         if mask.any(): return df[mask]
@@ -230,14 +219,14 @@ def find_rows(df, name_col, query):
         if mask.any(): return df[mask]
     return pd.DataFrame()
 
+# ── Chart helpers ─────────────────────────────────────────────────────────────
 def ch(fig, h=380, margin=None):
     fig.update_layout(**BASE, height=h, margin=margin or M_DEFAULT)
     st.plotly_chart(fig, **CFG)
 
 def bar_h(df, x, y, col, scale, title, min_h=400):
     if df.empty: return go.Figure()
-    n = len(df)
-    h = max(min_h, n*52+80)
+    n = len(df); h = max(min_h, n*52+80)
     xmax = float(df[x].max())*1.22
     fig = px.bar(df,x=x,y=y,orientation="h",color=col,color_continuous_scale=scale,title=title)
     fig.update_traces(marker_line_width=0,text=df[x].round(1).astype(str),
@@ -261,7 +250,8 @@ def bar_v(df, x, y, title, color, h=360):
 def line(df, x, y, title, color, h=280):
     if df.empty: return go.Figure()
     fig = px.line(df,x=x,y=y,markers=True,title=title)
-    fig.update_traces(line=dict(color=color,width=3),marker=dict(size=8,color=color,line=dict(width=2,color=BG)))
+    fig.update_traces(line=dict(color=color,width=3),
+                      marker=dict(size=8,color=color,line=dict(width=2,color=BG)))
     fig.update_layout(**BASE,height=h,margin=M_DEFAULT)
     return fig
 
@@ -269,16 +259,32 @@ def donut(labels, values, colors, title):
     fig = go.Figure(go.Pie(labels=labels,values=values,hole=0.55,
         marker=dict(colors=colors,line=dict(color=BG,width=3)),
         textinfo="percent+label",textfont=dict(size=13,color=TEXT)))
-    fig.update_layout(**BASE,height=300,title=title,showlegend=False,margin=M_DEFAULT)
+    fig.update_layout(**BASE,height=320,title=title,showlegend=False,margin=M_DEFAULT)
     return fig
 
 def metrics(d):
-    items=list(d.items())
-    chunk=3
+    items=list(d.items()); chunk=3
     for i in range(0,len(items),chunk):
         cols=st.columns(len(items[i:i+chunk]))
         for c,(k,v) in zip(cols,items[i:i+chunk]): c.metric(k,v)
 
+# ── V12 page_banner (richer gradient + pattern) ──────────────────────────────
+def page_banner(emoji, title, subtitle, ga, gb, glow):
+    st.markdown(f"""<div class="ca-fade" style="
+      background:linear-gradient(120deg,{ga} 0%,{gb} 100%);
+      border-radius:var(--radius);padding:18px 22px;margin:0 0 20px 0;
+      border:1px solid {glow}33;display:flex;align-items:center;gap:16px;
+      position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(
+        -45deg,transparent,transparent 18px,rgba(255,255,255,.015) 18px,rgba(255,255,255,.015) 19px);pointer-events:none"></div>
+      <div style="font-size:36px;line-height:1;flex-shrink:0">{emoji}</div>
+      <div>
+        <div style="font-family:'Syne',sans-serif;color:#fff;font-size:19px;font-weight:800;letter-spacing:-0.3px;line-height:1.2">{title}</div>
+        <div style="color:rgba(255,255,255,.5);font-size:12px;margin-top:3px">{subtitle}</div>
+      </div>
+    </div>""", unsafe_allow_html=True)
+
+# ── Name aliases ──────────────────────────────────────────────────────────────
 NAME_ALIASES={
     "steve smith":"SPD Smith","smith":"SPD Smith","hazelwood":"JR Hazlewood",
     "josh hazelwood":"JR Hazlewood","hazlewood":"JR Hazlewood","warner":"DA Warner",
@@ -295,7 +301,8 @@ NAME_ALIASES={
     "sangakkara":"KC Sangakkara","malinga":"SL Malinga",
     "fakhar":"Fakhar Zaman","fakhar zaman":"Fakhar Zaman","imam":"Imam-ul-Haq",
     "iftikhar":"Iftikhar Ahmed","naseem":"Naseem Shah","shadab":"Shadab Khan",
-    "smriti":"Smriti Mandhana","mandhana":"Smriti Mandhana","smriti mandhana":"Smriti Mandhana",
+    "smriti":"Smriti Mandhana","mandhana":"Smriti Mandhana",
+    "smriti mandhana":"Smriti Mandhana","s mandhana":"S Mandhana",
     "shafali":"Shafali Verma","verma":"Shafali Verma",
     "harmanpreet":"Harmanpreet Kaur","kaur":"Harmanpreet Kaur",
     "deepti":"Deepti Sharma","mithali":"Mithali Raj","raj":"Mithali Raj",
@@ -306,6 +313,8 @@ NAME_ALIASES={
     "kl rahul":"KL Rahul","rahul":"KL Rahul",
 }
 CRICSHEET_NAME={"Smriti Mandhana":"S Mandhana","Harmanpreet Kaur":"H Kaur",
+                "Shafali Verma":"Shafali Verma","Deepti Sharma":"Deepti Sharma",
+                "Mithali Raj":"Mithali Raj","Jhulan Goswami":"Jhulan Goswami",
                 "Alyssa Healy":"AJ Healy","Ellyse Perry":"EA Perry","Ashleigh Gardner":"A Gardner"}
 
 def resolve(name):
@@ -326,8 +335,11 @@ WIKI_NAMES={
     "Naseem Shah":"Naseem Shah cricketer","Shadab Khan":"Shadab Khan cricketer",
     "Smriti Mandhana":"Smriti Mandhana","Shafali Verma":"Shafali Verma",
     "Harmanpreet Kaur":"Harmanpreet Kaur","Deepti Sharma":"Deepti Sharma cricketer",
-    "AJ Healy":"Alyssa Healy","EA Perry":"Ellyse Perry","A Gardner":"Ashleigh Gardner",
-    "KL Rahul":"KL Rahul cricketer",
+    "Mithali Raj":"Mithali Raj","Jhulan Goswami":"Jhulan Goswami",
+    "Richa Ghosh":"Richa Ghosh cricketer","AJ Healy":"Alyssa Healy",
+    "EA Perry":"Ellyse Perry","A Gardner":"Ashleigh Gardner",
+    "NR Sciver":"Nat Sciver-Brunt","TM McGrath":"Tahlia McGrath",
+    "AMC Kerr":"Amelia Kerr","SFM Devine":"Sophie Devine","KL Rahul":"KL Rahul cricketer",
 }
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -383,8 +395,16 @@ def get_wiki(cricsheet_name, search_name):
             if m:
                 try: return f"{int(m.group(3))} {mo[int(m.group(2))]} {m.group(1)}"
                 except: pass
-            m2=re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})",v)
-            if m2: return f"{int(m2.group(1))} {m2.group(2)[:3].capitalize()} {m2.group(3)}"
+            m2=re.search(r"(\d{4})\D+(\d{1,2})\D+(\d{1,2})",v)
+            if m2:
+                try:
+                    mx=int(m2.group(2))
+                    if 1<=mx<=12: return f"{int(m2.group(3))} {mo[mx]} {m2.group(1)}"
+                except: pass
+            m3=re.search(r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})",v)
+            if m3: return f"{int(m3.group(1))} {m3.group(2)[:3].capitalize()} {m3.group(3)}"
+            m4=re.search(r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})",v)
+            if m4: return f"{int(m4.group(2))} {m4.group(1)[:3].capitalize()} {m4.group(3)}"
             return ""
         born=""
         bd=re.search(r"\{\{birth date(?:\s*and age)?\s*\|([^}]+)\}\}",wt,re.IGNORECASE)
@@ -395,53 +415,64 @@ def get_wiki(cricsheet_name, search_name):
                 try: born=f"{int(parts2[2])} {mo2[int(parts2[1])]} {parts2[0]}"
                 except: pass
         if not born: born=ef(wt,["birth_date","birthdate","born"])
-        odi_d=pd2(er(wt,["odidebutdate","ODIdebutdate"]))
-        test_d=pd2(er(wt,["testdebutdate","Testdebutdate"]))
-        t20_d=pd2(er(wt,["t20idebutdate","T20Idebutdate","T20debutdate"]))
-        any_d=pd2(er(wt,["debutdate","debut_date"]))
-        role_raw=ef(wt,["role","batting_style","batting style"])
+        odi_d=pd2(er(wt,["odidebutdate","ODIdebutdate","odi_debut_date"]))
+        test_d=pd2(er(wt,["testdebutdate","Testdebutdate","test_debut_date"]))
+        t20_d=pd2(er(wt,["t20idebutdate","T20Idebutdate","T20debutdate","t20_debut_date"]))
+        any_d=pd2(er(wt,["debutdate","debut_date","internationaldebutdate"]))
+        role_raw=ef(wt,["role","batting_style","batting style","bowling_style","bowling style"])
         role_raw=re.sub(r"\[\[([^\]|]+\|)?([^\]]+)\]\]",r"\2",role_raw)
         role_raw=re.sub(r"\{\{[^}]+\}\}","",role_raw).strip()
         desc=data.get("description","")
         if not role_raw or "[[" in role_raw or len(role_raw)<3:
             role_raw=desc[:60] if desc else ""
-        nation=ef(wt,["country","nationality","national_side"])
+        nation=ef(wt,["country","nationality","national_side","national side"])
         return {"title":data.get("title",page_title),"bio":bio,"img":img,
                 "born":born[:60] if born else "",
                 "odi_debut":odi_d or any_d,"test_debut":test_d or any_d,"t20_debut":t20_d or any_d,
+                "ipl_debut":"","psl_debut":"","wpl_debut":"",
                 "role":role_raw[:60] if role_raw else "",
                 "nation":nation[:40] if nation else ""}
     except: return None
 
+# ── V12 show_player_card (pill helper + border-left accent + mobile classes) ──
 def show_player_card(cricsheet_name, search_name, fmt="ODI", compact=False):
     card=get_wiki(cricsheet_name,search_name)
     if not card:
-        st.markdown(f"""<div style="background:{CARD};border-radius:12px;padding:12px 16px;margin:0 0 12px;border:1px solid #2d3561">
-  <span style="color:#8899bb;font-size:13px">📖 Profile unavailable for {cricsheet_name}</span></div>""",unsafe_allow_html=True)
+        st.markdown(f"""<div style="background:var(--card);border-radius:var(--radius);padding:14px 16px;
+          margin:0 0 16px;border:1px solid var(--border)">
+          <div style="color:var(--muted);font-size:12px">📖 Profile unavailable for {cricsheet_name}</div>
+        </div>""", unsafe_allow_html=True)
         return
-    img_w=70 if compact else 96; img_h=88 if compact else 118
-    img_html=f'<div style="flex-shrink:0"><img src="{card["img"]}" style="width:{img_w}px;height:{img_h}px;object-fit:cover;border-radius:10px;border:2px solid #2d3561;display:block"></div>' if card["img"] else ""
-    fmt_key={"ODI":"odi_debut","Test":"test_debut","T20I":"t20_debut"}.get(fmt,"odi_debut")
+    img_sz=72 if compact else 96
+    acl=FC.get(fmt,"#00e5a0")
+    fmt_key={"ODI":"odi_debut","Test":"test_debut","T20I":"t20_debut","IPL":"ipl_debut",
+             "PSL":"psl_debut","WPL":"wpl_debut","BBL":"odi_debut","CPL":"odi_debut"}.get(fmt,"odi_debut")
     debut=card.get(fmt_key,"") or card.get("odi_debut","") or card.get("test_debut","") or card.get("t20_debut","")
-    psz="10px"
+    def pill(icon,text,color):
+        return f'<span class="ca-pill" style="color:{color}">{icon} {text}</span>'
     pills=""
-    if card["born"]: pills+=f'<span style="background:#1a2540;color:#00e5a0;padding:2px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block">🎂 {card["born"]}</span>'
-    if card["nation"]: pills+=f'<span style="background:#1a2540;color:#3d8bff;padding:2px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block">🌍 {card["nation"]}</span>'
-    if card["role"]: pills+=f'<span style="background:#1a2540;color:#fbbf24;padding:2px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block">🏏 {card["role"][:28]}</span>'
-    if debut: pills+=f'<span style="background:#1a2540;color:#fb923c;padding:2px 8px;border-radius:20px;font-size:{psz};font-weight:600;margin:2px 2px 2px 0;display:inline-block">🎯 {fmt}: {debut}</span>'
+    if card["born"]: pills+=pill("🎂",card["born"],"#fbbf24")
+    if card["nation"]: pills+=pill("🌍",card["nation"],"#3d8bff")
+    if card["role"]: pills+=pill("🏏",card["role"][:30],"#00e5a0")
+    if debut: pills+=pill(f"🎯 {fmt} debut",debut,"#e17055")
     max_sents=2 if compact else 4
     short_bio=". ".join(card["bio"].split(". ")[:max_sents])+"." if card["bio"] else ""
     name_sz="14px" if compact else "18px"
-    st.markdown(f"""<div style="background:linear-gradient(135deg,#141d35,#0d1320);border-radius:12px;padding:14px;margin:0 0 12px;border:1px solid #2d3561;display:flex;gap:12px;align-items:flex-start;overflow:hidden;box-sizing:border-box">
-  {img_html}
-  <div style="flex:1;min-width:0">
-    <div style="color:#fff;font-size:{name_sz};font-weight:800;margin-bottom:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{card["title"]}</div>
-    <div style="display:flex;flex-wrap:wrap;gap:3px;margin-bottom:6px">{pills}</div>
-    <div style="color:#8899bb;font-size:11px;line-height:1.6;overflow:hidden;display:-webkit-box;-webkit-line-clamp:{max_sents+1};-webkit-box-orient:vertical">{short_bio}</div>
-  </div>
-</div>""",unsafe_allow_html=True)
+    img_html=f'<div class="ca-player-img"><img src="{card["img"]}" style="width:{img_sz}px;height:{int(img_sz*1.2)}px;object-fit:cover;border-radius:10px;border:2px solid var(--border);display:block"></div>' if card["img"] else ""
+    st.markdown(f"""<div class="ca-fade ca-player-card" style="
+      background:linear-gradient(135deg,var(--card),var(--surface));
+      border-radius:var(--radius);padding:14px;margin:0 0 14px 0;
+      border:1px solid var(--border);border-left:3px solid {acl};
+      box-sizing:border-box;width:100%">
+      {img_html}
+      <div class="ca-player-info">
+        <div class="ca-player-name" style="font-size:{name_sz}">{card["title"]}</div>
+        <div class="ca-player-pills">{pills}</div>
+        <div class="ca-player-bio" style="-webkit-line-clamp:{max_sents+1}">{short_bio}</div>
+      </div>
+    </div>""", unsafe_allow_html=True)
 
-# ── TOP NAVIGATION BAR ────────────────────────────────────────────────────────
+# ── TOP NAVIGATION BAR (V13) ──────────────────────────────────────────────────
 PAGES=["🏠 Home","🔍 Player Search","⚔️ Head to Head","🏟️ vs Venue",
        "🌍 vs Opponent","🤜 Batter vs Bowler","📈 Over Years",
        "🏆 Leaderboard","🤖 Similar Players","🔥 Form & Ratings"]
@@ -458,49 +489,52 @@ for p in PAGES:
     emoji=p.split()[0]; label=" ".join(p.split()[1:])
     nav_html+=f'<button class="ca-navbtn {active}" onclick="void(0)">{emoji} <span class="nav-label">{label}</span></button>'
 nav_html+=f'</div><div class="ca-topnav-status"><span class="ca-live"></span>{status_txt}</div></div>'
-st.markdown(nav_html,unsafe_allow_html=True)
+st.markdown(nav_html, unsafe_allow_html=True)
 
-# Streamlit native nav (hidden visually, used for actual routing)
 with st.sidebar:
     section=st.radio("",PAGES,key="page",label_visibility="collapsed")
 
 st.markdown('<div class="ca-content">', unsafe_allow_html=True)
-
 section=st.session_state.page
 
-# ══ HOME ════════════════════════════════════════════════════════════════════
+# ══ HOME ═════════════════════════════════════════════════════════════════════
 if section=="🏠 Home":
-    # Hero
     fmt_pills="".join([
-        f'<span style="background:{FORMAT_META.get(f,("","#00e5a0",""))[1]}18;color:{FORMAT_META.get(f,("","#00e5a0",""))[1]};border:1px solid {FORMAT_META.get(f,("","#00e5a0",""))[1]}44;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700">'
+        f'<span style="background:{FORMAT_META.get(f,("","#00e5a0",""))[1]}18;'
+        f'color:{FORMAT_META.get(f,("","#00e5a0",""))[1]};'
+        f'border:1px solid {FORMAT_META.get(f,("","#00e5a0",""))[1]}44;'
+        f'padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700">'
         f'{FORMAT_META.get(f,("🏏","",""))[0]} {f}</span>'
         for f in ALL_FMT
     ])
-    st.markdown(f"""<div class="ca-fade" style="background:linear-gradient(150deg,#080c14,#0c1628,#080c14);border-radius:16px;padding:36px 32px 28px;margin-bottom:24px;border:1px solid var(--border);position:relative;overflow:hidden">
-  <div style="position:absolute;top:-80px;left:20%;width:400px;height:300px;background:radial-gradient(ellipse,rgba(0,229,160,.06) 0%,transparent 70%);pointer-events:none"></div>
-  <div style="position:absolute;bottom:-60px;right:5%;width:300px;height:220px;background:radial-gradient(ellipse,rgba(61,139,255,.05) 0%,transparent 70%);pointer-events:none"></div>
-  <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
-    <span style="font-size:40px">🏏</span>
-    <div>
-      <h1 style="font-family:'Syne',sans-serif;color:#fff;margin:0;font-size:30px;font-weight:800;letter-spacing:-0.5px">Cricket <span class="ca-shimmer">Analytics</span></h1>
-      <p style="color:var(--muted);font-size:13px;margin:4px 0 0">Ball-by-ball data · All-time records · 8 formats</p>
-    </div>
-  </div>
-  <div style="display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 18px">{fmt_pills}</div>
-  <div style="display:flex;align-items:center;gap:8px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);border-radius:20px;padding:6px 14px;width:fit-content">
-    <span class="ca-live"></span><span style="font-size:11px;font-weight:600;color:var(--accent)">Auto-updated daily · Cricsheet (2-3 day lag)</span>
-  </div>
-</div>""",unsafe_allow_html=True)
+    st.markdown(f"""<div class="ca-fade" style="background:linear-gradient(150deg,#080c14,#0c1628,#080c14);
+      border-radius:16px;padding:36px 32px 28px;margin-bottom:24px;
+      border:1px solid var(--border);position:relative;overflow:hidden">
+      <div style="position:absolute;top:-80px;left:20%;width:400px;height:300px;background:radial-gradient(ellipse,rgba(0,229,160,.06) 0%,transparent 70%);pointer-events:none"></div>
+      <div style="position:absolute;bottom:-60px;right:5%;width:300px;height:220px;background:radial-gradient(ellipse,rgba(61,139,255,.05) 0%,transparent 70%);pointer-events:none"></div>
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(61,139,255,.03) 39px,rgba(61,139,255,.03) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(61,139,255,.03) 39px,rgba(61,139,255,.03) 40px);pointer-events:none"></div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
+        <span style="font-size:40px">🏏</span>
+        <div>
+          <h1 style="font-family:'Syne',sans-serif;color:#fff;margin:0;font-size:30px;font-weight:800;letter-spacing:-0.5px">Cricket <span class="ca-shimmer">Analytics</span></h1>
+          <p style="color:var(--muted);font-size:13px;margin:4px 0 0">Ball-by-ball data · All-time records · 8 formats</p>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 18px">{fmt_pills}</div>
+      <div style="display:flex;align-items:center;gap:8px;background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.15);border-radius:20px;padding:6px 14px;width:fit-content">
+        <span class="ca-live"></span>
+        <span style="font-size:11px;font-weight:600;color:var(--accent)">Auto-updated daily · Cricsheet (2-3 day lag)</span>
+      </div>
+    </div>""", unsafe_allow_html=True)
 
-    # Quick search
     st.markdown("#### 🔍 Quick Player Search")
-    qname=st.text_input("","",placeholder="Type a player name — Babar, Kohli, Smriti, Shaheen, Maxwell...",key="home_search",label_visibility="collapsed")
+    qname=st.text_input("","",placeholder="Type a player name — Babar, Kohli, Smriti, Shaheen, Maxwell...",
+                        key="home_search",label_visibility="collapsed")
     if qname:
         st.session_state.page="🔍 Player Search"
         st.session_state["ps_name"]=qname
         st.rerun()
 
-    # Feature cards grid
     st.markdown("#### Explore")
     features=[
         ("⚔️","Head to Head","Compare any two players side by side","⚔️ Head to Head"),
@@ -518,7 +552,6 @@ if section=="🏠 Home":
             if st.button(f"{emoji} **{title}**\n\n{desc}",key=f"feat_{i}",use_container_width=True):
                 st.session_state.page=target; st.rerun()
 
-    # Mini leaderboard preview
     st.markdown("---")
     st.markdown("#### 🏆 Quick Leaderboard")
     ql_fmt=st.radio("Format",ALL_FMT,horizontal=True,key="ql_fmt")
@@ -532,17 +565,26 @@ if section=="🏠 Home":
         top_bowl=bowl_fmt[bowl_fmt["format"]==ql_fmt].sort_values("wickets",ascending=False).head(5)[["bowler","wickets","economy","average"]] if not bowl_fmt.empty else pd.DataFrame()
         if not top_bowl.empty: st.dataframe(top_bowl.reset_index(drop=True),hide_index=True)
 
-# ══ PLAYER SEARCH ════════════════════════════════════════════════════════════
+# ══ PLAYER SEARCH ═════════════════════════════════════════════════════════════
 elif section=="🔍 Player Search":
     default_name=st.session_state.get("ps_name","")
     st.session_state["ps_name"]=""
     fmt_pills="".join([
         f'<span style="background:{FORMAT_META.get(f,("","#00e5a0",""))[1]}18;color:{FORMAT_META.get(f,("","#00e5a0",""))[1]};border:1px solid {FORMAT_META.get(f,("","#00e5a0",""))[1]}44;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700">'
         f'{FORMAT_META.get(f,("🏏","",""))[0]} {f}</span>' for f in ALL_FMT])
-    st.markdown(f"""<div class="ca-fade" style="background:linear-gradient(160deg,#080c14,#0c1628,#080c14);border-radius:14px;padding:24px;margin-bottom:20px;border:1px solid var(--border)">
-  <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">{fmt_pills}</div>
-  <p style="color:var(--muted);font-size:12px;margin:0">Search any player across all formats · Ball-by-ball stats · Wikipedia profiles</p>
-</div>""",unsafe_allow_html=True)
+    chips=[("Babar","#6c5ce7"),("Kohli","#00e5a0"),("Bumrah","#3d8bff"),("Smriti","#fd79a8"),("Shaheen","#fbbf24"),("Maxwell","#ff7675")]
+    chip_html="".join([f'<span style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:{c};padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;white-space:nowrap">{n}</span>' for n,c in chips])
+    st.markdown(f"""<div class="ca-fade" style="background:linear-gradient(160deg,#080c14,#0c1628,#080c14);
+      border-radius:14px;padding:24px 28px 20px;margin-bottom:20px;border:1px solid var(--border);
+      position:relative;overflow:hidden">
+      <div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(61,139,255,.04) 39px,rgba(61,139,255,.04) 40px),repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(61,139,255,.04) 39px,rgba(61,139,255,.04) 40px);pointer-events:none"></div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">{fmt_pills}</div>
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:4px">
+        <span style="font-size:11px;color:var(--muted);font-weight:600;white-space:nowrap">Quick search →</span>
+        {chip_html}
+      </div>
+      <p style="color:var(--muted);font-size:12px;margin:10px 0 0">Search any player across all formats · Ball-by-ball stats · Wikipedia profiles</p>
+    </div>""", unsafe_allow_html=True)
 
     name=st.text_input("","",placeholder="🔍  Player name — e.g. Babar, Kohli, Smriti, Shaheen...",
                        label_visibility="collapsed",value=default_name)
@@ -556,7 +598,7 @@ elif section=="🔍 Player Search":
         aw=aw_qual["format"].unique().tolist() if not aw_qual.empty else []
         avl=sorted(set(ab+aw),key=lambda x:FORMATS.index(x) if x in FORMATS else 99)
         if not avl:
-            st.error(f"No data found for '{name}'. Try a different spelling.")
+            st.error(f"No data found for '{name}'. Try a different spelling or ensure their format data is loaded.")
             st.stop()
         fmt=st.radio("📋 Format",avl,horizontal=True)
         clr=FC.get(fmt,"#00e5a0")
@@ -564,23 +606,37 @@ elif section=="🔍 Player Search":
         bowl=find_rows(bowl_fmt[bowl_fmt["format"]==fmt],"bowler",sname)
         display_name=bat["striker"].iloc[0] if len(bat)>0 else (bowl["bowler"].iloc[0] if len(bowl)>0 else sname)
         show_player_card(display_name,name,fmt)
-        if last_upd:
-            st.markdown(f"""<div style="background:rgba(0,229,160,.05);border:1px solid rgba(0,229,160,.2);border-radius:8px;padding:7px 12px;margin:0 0 12px;font-size:11px;color:#00e5a0">
-              ✅ Data last updated: <b>{last_upd}</b> — auto-updated daily from Cricsheet</div>""",unsafe_allow_html=True)
+
+        # Data freshness banner
+        lu=get_last_updated()
+        if lu:
+            st.markdown(f"""<div style="background:rgba(0,229,160,.06);border:1px solid rgba(0,229,160,.2);
+              border-radius:8px;padding:8px 14px;margin:0 0 14px;display:flex;align-items:center;gap:8px">
+              <span>✅</span>
+              <span style="font-size:11px;color:#00e5a0">Data last updated: <strong>{lu}</strong> — auto-updated daily from Cricsheet.</span>
+            </div>""", unsafe_allow_html=True)
+        else:
+            st.markdown("""<div style="background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.25);
+              border-radius:8px;padding:8px 14px;margin:0 0 14px;display:flex;align-items:center;gap:8px">
+              <span>⚠️</span>
+              <span style="font-size:11px;color:#fbbf24">Stats reflect Cricsheet's latest data. Very recent matches (last 2-3 days) may not yet be included.</span>
+            </div>""", unsafe_allow_html=True)
+
         if len(bat)==0 and len(bowl)==0:
             st.warning(f"No {fmt} data for '{display_name}'.")
         else:
             tab_labels=[]
             if len(bat)>0: tab_labels.append("🏏 Batting")
             if len(bowl)>0: tab_labels.append("🎳 Bowling")
-            tab_labels.append("📈 Charts")
+            if len(bat)>0 or len(bowl)>0: tab_labels.append("📈 Charts")
             tabs=st.tabs(tab_labels); ti=0
+
             if len(bat)>0:
                 with tabs[ti]:
                     p=bat.sort_values("runs",ascending=False).iloc[0]
                     metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
                     metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
-                    metrics({"Dismissals":int(p["dismissals"]),"Dot %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
+                    metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
                     h100=int(p["hundreds"]) if "hundreds" in p.index and pd.notna(p.get("hundreds")) else "—"
                     h50=int(p["fifties"]) if "fifties" in p.index and pd.notna(p.get("fifties")) else "—"
                     hs=int(p["highest"]) if "highest" in p.index and pd.notna(p.get("highest")) else "—"
@@ -601,8 +657,7 @@ elif section=="🔍 Player Search":
                 ti+=1
             with tabs[ti]:
                 if len(bat)>0:
-                    p=bat.sort_values("runs",ascending=False).iloc[0]
-                    en=p["striker"]
+                    p=bat.sort_values("runs",ascending=False).iloc[0]; en=p["striker"]
                     by=bat_yr[(bat_yr["format"]==fmt)&(bat_yr["striker"]==en)].sort_values("year") if not bat_yr.empty else pd.DataFrame()
                     if len(by)>1:
                         st.markdown("**🏏 Batting Trends**")
@@ -611,8 +666,7 @@ elif section=="🔍 Player Search":
                         with c1: ch(line(by,"year","average","Batting Average",clr),260)
                         with c2: ch(line(by,"year","strike_rate","Strike Rate","#fbbf24"),260)
                 if len(bowl)>0:
-                    p2=bowl.sort_values("wickets",ascending=False).iloc[0]
-                    en2=p2["bowler"]
+                    p2=bowl.sort_values("wickets",ascending=False).iloc[0]; en2=p2["bowler"]
                     by2=bowl_yr[(bowl_yr["format"]==fmt)&(bowl_yr["bowler"]==en2)].sort_values("year") if not bowl_yr.empty else pd.DataFrame()
                     if len(by2)>1:
                         st.markdown("**🎳 Bowling Trends**")
@@ -620,11 +674,13 @@ elif section=="🔍 Player Search":
                         c1,c2=st.columns(2)
                         with c1: ch(line(by2,"year","economy","Economy Rate","#d63031"),260)
                         with c2: ch(line(by2,"year","average","Bowling Average","#6c5ce7"),260)
+                        # V12 extra: dot ball % chart
+                        if "dot_pct" in by2.columns:
+                            ch(line(by2,"year","dot_pct","Dot Ball % by Year","#00cec9"),240)
 
-# ══ HEAD TO HEAD ═════════════════════════════════════════════════════════════
+# ══ HEAD TO HEAD ══════════════════════════════════════════════════════════════
 elif section=="⚔️ Head to Head":
-    st.markdown("## ⚔️ Head to Head")
-    st.markdown("Compare any two players side by side across all formats.")
+    page_banner("⚔️","Head to Head","Pick two players and see who dominates across formats","#1a0a2e","#2d1b4e","#6c5ce7")
     c1,c2=st.columns(2)
     n1=c1.text_input("Player 1","Kohli"); n2=c2.text_input("Player 2","Babar Azam")
     fmt=st.radio("Format",ALL_FMT,horizontal=True)
@@ -639,6 +695,7 @@ elif section=="⚔️ Head to Head":
             cc1,cc2=st.columns(2)
             with cc1: show_player_card(p1n,n1,fmt,compact=True)
             with cc2: show_player_card(p2n,n2,fmt,compact=True)
+            st.subheader(f"🏏 Batting — {fmt}")
             LABELS={"runs":"Runs","fours":"Fours","sixes":"Sixes","average":"Avg",
                     "strike_rate":"Strike Rate","dot_pct":"Dot %","boundary_pct":"Boundary %"}
             for title,ml in [("🏏 Volume",["runs","fours","sixes"]),
@@ -675,11 +732,19 @@ elif section=="⚔️ Head to Head":
                 fy.update_xaxes(title="Year",tickmode="linear",dtick=2,showgrid=True,gridcolor=GRID)
                 fy.update_yaxes(title="Runs",showgrid=True,gridcolor=GRID)
                 st.plotly_chart(fy,**CFG)
+                # V12 extra: average comparison over years
+                fy2=px.line(combined,x="year",y="average",color="player",markers=True,
+                            title=f"Batting Average — {fmt}",
+                            color_discrete_map={p1n:FC["ODI"],p2n:FC["Test"]})
+                fy2.update_traces(line=dict(width=3),marker=dict(size=9))
+                fy2.update_layout(**BASE,height=300,margin=dict(l=50,r=20,t=48,b=40))
+                fy2.update_xaxes(title="Year",tickmode="linear",dtick=2,showgrid=True,gridcolor=GRID)
+                fy2.update_yaxes(title="Average",showgrid=True,gridcolor=GRID)
+                st.plotly_chart(fy2,**CFG)
 
-# ══ VS VENUE ═════════════════════════════════════════════════════════════════
+# ══ VS VENUE ══════════════════════════════════════════════════════════════════
 elif section=="🏟️ vs Venue":
-    st.markdown("## 🏟️ Player vs Venue")
-    st.markdown("How does a player perform at different grounds?")
+    page_banner("🏟️","Player vs Venue","How does a player perform at different grounds?","#0a1a1a","#0d2b2b","#00b894")
     name=st.text_input("Player name","Kohli"); st_=st.radio("Type",["Batting","Bowling"],horizontal=True)
     if name:
         sname=resolve(name)
@@ -699,10 +764,9 @@ elif section=="🏟️ vs Venue":
                 ch(bar_h(df_v,m,"venue",m,"Reds",f"{df_v['bowler'].iloc[0]} — {m} by Venue ({fmt})"))
                 st.dataframe(df_v[["venue","innings","wickets","economy","average"]].reset_index(drop=True))
 
-# ══ VS OPPONENT ══════════════════════════════════════════════════════════════
+# ══ VS OPPONENT ═══════════════════════════════════════════════════════════════
 elif section=="🌍 vs Opponent":
-    st.markdown("## 🌍 Player vs Opponent")
-    st.markdown("Find which teams a player dominates — and which trouble them.")
+    page_banner("🌍","Player vs Opponent","Find which teams a player dominates — and which trouble them","#0a1020","#0d1e3a","#0984e3")
     name=st.text_input("Player name","Kohli"); st_=st.radio("Type",["Batting","Bowling"],horizontal=True)
     if name:
         sname=resolve(name)
@@ -722,10 +786,9 @@ elif section=="🌍 vs Opponent":
                 ch(bar_h(df_o,m,"opponent",m,"Purples",f"{df_o['bowler'].iloc[0]} — {m} vs Teams ({fmt})"))
                 st.dataframe(df_o[["opponent","innings","wickets","economy","average"]].reset_index(drop=True))
 
-# ══ BATTER VS BOWLER ═════════════════════════════════════════════════════════
+# ══ BATTER VS BOWLER ══════════════════════════════════════════════════════════
 elif section=="🤜 Batter vs Bowler":
-    st.markdown("## 🤜 Batter vs Bowler")
-    st.markdown("Ball-by-ball matchup data — who has the edge?")
+    page_banner("🤜","Batter vs Bowler","The ultimate matchup — who has the edge ball by ball?","#1a0a0a","#2e1010","#d63031")
     mt=st.radio("Look up a...",["Batter","Bowler"],horizontal=True)
     if mt=="Batter":
         name=st.text_input("Batter name","Babar Azam")
@@ -754,10 +817,9 @@ elif section=="🤜 Batter vs Bowler":
                 ch(bar_h(df_m,m,"striker",m,"Reds",f"Top 20 batters bowled to — {m} ({fmt})"))
                 st.dataframe(df_m[["striker","balls_bowled","runs_given","wickets","economy"]].reset_index(drop=True))
 
-# ══ OVER YEARS ═══════════════════════════════════════════════════════════════
+# ══ PERFORMANCE OVER YEARS ════════════════════════════════════════════════════
 elif section=="📈 Over Years":
-    st.markdown("## 📈 Performance Over Years")
-    st.markdown("Track how a player has evolved season by season.")
+    page_banner("📈","Performance Over Years","Track how a player has evolved season by season","#0a150a","#0d2a10","#00b894")
     name=st.text_input("Player name","Kohli"); st_=st.radio("Type",["Batting","Bowling"],horizontal=True)
     if name:
         sname=resolve(name)
@@ -765,24 +827,26 @@ elif section=="📈 Over Years":
         if len(src)==0: st.error("Player not found!")
         else:
             fmt=st.radio("Format",avail(src,"format"),horizontal=True)
-            by=src[src["format"]==fmt].sort_values("year"); clr=FC.get(fmt,"#00e5a0")
+            by=src[src["format"]==fmt].sort_values("year"); clr=FC.get(fmt,"#00b894")
             if st_=="Batting":
                 ch(bar_v(by,"year","runs","Runs per Year",clr))
                 c1,c2=st.columns(2)
                 with c1: ch(line(by,"year","average","Batting Average",clr),280)
-                with c2: ch(line(by,"year","strike_rate","Strike Rate","#fbbf24"),280)
+                with c2: ch(line(by,"year","strike_rate","Strike Rate","#fdcb6e"),280)
                 st.dataframe(by[["year","matches","runs","average","strike_rate","fours","sixes"]].reset_index(drop=True))
             else:
                 ch(bar_v(by,"year","wickets","Wickets per Year",clr))
                 c1,c2=st.columns(2)
                 with c1: ch(line(by,"year","economy","Economy Rate","#d63031"),280)
                 with c2: ch(line(by,"year","average","Bowling Average","#6c5ce7"),280)
-                st.dataframe(by[["year","matches","wickets","economy","average","dot_pct"]].reset_index(drop=True))
+                # V12 bonus: dot ball % over years
+                if "dot_pct" in by.columns:
+                    ch(line(by,"year","dot_pct","Dot Ball % by Year","#00cec9"),240)
+                st.dataframe(by[["year","matches","wickets","economy","average","dot_pct","balls"]].reset_index(drop=True) if "balls" in by.columns else by[["year","matches","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
-# ══ LEADERBOARD ══════════════════════════════════════════════════════════════
+# ══ LEADERBOARD ═══════════════════════════════════════════════════════════════
 elif section=="🏆 Leaderboard":
-    st.markdown("## 🏆 Leaderboard")
-    st.markdown("The greatest — ranked by format and stat.")
+    page_banner("🏆","Leaderboard","The greatest — ranked by format and stat","#1a1400","#2e2400","#fdcb6e")
     fmt=st.radio("Format",ALL_FMT,horizontal=True)
     tab1,tab2=st.tabs(["🏏 Batting","🎳 Bowling"])
     with tab1:
@@ -806,17 +870,20 @@ elif section=="🏆 Leaderboard":
         show_cols2=[c for c in ["Rank","bowler","matches","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
         st.dataframe(lb2[show_cols2].reset_index(drop=True))
 
-# ══ SIMILAR PLAYERS ══════════════════════════════════════════════════════════
+# ══ SIMILAR PLAYERS ═══════════════════════════════════════════════════════════
 elif section=="🤖 Similar Players":
-    st.markdown("## 🤖 Similar Players")
-    st.markdown("ML-powered · KMeans clustering on career stats to find statistically similar players.")
+    page_banner("🤖","Similar Players","ML-powered: find cricketers who play just like your favourite","#0a0a1a","#1a1a3a","#a29bfe")
+    st.markdown("Uses **KMeans clustering + cosine similarity** on career stats to find statistically similar players.")
     st_type=st.radio("Type",["Batter","Bowler"],horizontal=True)
     name=st.text_input("Player name","Babar"); fmt=st.radio("Format",ALL_FMT,horizontal=True)
     if name:
         sname=resolve(name)
         if st_type=="Batter":
             src=find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname)
-            if len(src)==0: st.error(f"No ML data for '{name}' in {fmt}. They may have <200 runs.")
+            if len(src)==0:
+                has_bowl=not find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname).empty
+                hint=" (They appear as a Bowler — try switching to Bowler above.)" if has_bowl else ""
+                st.error(f"No ML data for '{name}' in {fmt}. They may have <200 runs.{hint}")
             else:
                 p=src.iloc[0]; cluster=int(p["cluster"])
                 same=bat_sim[(bat_sim["cluster"]==cluster)&(bat_sim["format"]==fmt)]
@@ -828,7 +895,10 @@ elif section=="🤖 Similar Players":
                 st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
         else:
             src=find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname)
-            if len(src)==0: st.error(f"No ML data for '{name}' in {fmt}. They may have <20 wickets.")
+            if len(src)==0:
+                has_bat=not find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname).empty
+                hint=" (They appear as a Batter — try switching to Batter above.)" if has_bat else ""
+                st.error(f"No ML data for '{name}' in {fmt}. They may have <20 wickets.{hint}")
             else:
                 p=src.iloc[0]; cluster=int(p["cluster"])
                 same=bowl_sim[(bowl_sim["cluster"]==cluster)&(bowl_sim["format"]==fmt)]
@@ -838,11 +908,13 @@ elif section=="🤖 Similar Players":
                 ch(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
                 st.dataframe(same[["bowler","wickets","economy","average","dot_pct"]].reset_index(drop=True))
 
-# ══ FORM & RATINGS ═══════════════════════════════════════════════════════════
+# ══ FORM & RATINGS ════════════════════════════════════════════════════════════
 elif section=="🔥 Form & Ratings":
-    st.markdown("## 🔥 Form & Ratings")
+    page_banner("🔥","Form & Ratings","Player form by year, career trend, and who's peaking right now","#1a0800","#2e1500","#e17055")
     fmt=st.radio("Format",ALL_FMT,horizontal=True)
     tab1,tab2,tab3,tab4=st.tabs(["🔍 Player Form","🔥 Hot List","📉 Cold List","⭐ Player Scores"])
+
+    # ── Tab 1: Player year-by-year form ──────────────────────────────────────
     with tab1:
         st.markdown("#### Year-by-year form with career reference lines")
         fname=st.text_input("Player name","Kohli",key="form_player")
@@ -851,26 +923,41 @@ elif section=="🔥 Form & Ratings":
             fsname=resolve(fname)
             if ftype=="Batting":
                 pyr=find_rows(bat_yr[bat_yr["format"]==fmt],"striker",fsname)
-                if pyr.empty: st.error(f"No {fmt} batting data for '{fname}'.")
+                if pyr.empty:
+                    has_bowl=not find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",fsname).empty
+                    hint=f" (They do have **bowling** data in {fmt} — try switching to Bowling above.)" if has_bowl else ""
+                    st.error(f"No {fmt} yearly batting data for '{fname}'.{hint}")
                 else:
                     pyr=pyr.sort_values("year"); pname=pyr["striker"].iloc[0]
                     career=find_rows(bat_fmt[bat_fmt["format"]==fmt],"striker",fsname)
                     cavg=float(career["average"].iloc[0]) if len(career)>0 else None
                     csr=float(career["strike_rate"].iloc[0]) if len(career)>0 else None
-                    latest=pyr.iloc[-1]
+                    latest=pyr.iloc[-1]; prev=pyr.iloc[-2] if len(pyr)>1 else latest
                     metrics({"Latest Year":int(latest["year"]),"Runs":f"{int(latest['runs']):,}",
-                             "Avg":round(float(latest["average"]),1),"SR":round(float(latest["strike_rate"]),1),"Matches":int(latest["matches"])})
-                    clr=FC.get(fmt,"#00e5a0")
+                             "Avg (latest)":round(float(latest["average"]),1),
+                             "SR (latest)":round(float(latest["strike_rate"]),1),
+                             "Matches":int(latest["matches"])})
+                    clr=FC.get(fmt,"#00b894")
                     ch(bar_v(pyr,"year","runs",f"{pname} — Runs per Year ({fmt})",clr))
                     c1,c2=st.columns(2)
-                    fig_avg=px.line(pyr,x="year",y="average",markers=True,title=f"{pname} — Batting Average")
-                    fig_avg.update_traces(line=dict(color=clr,width=3),marker=dict(size=9,color=clr))
-                    if cavg: fig_avg.add_hline(y=cavg,line_dash="dash",line_color="#fbbf24",annotation_text=f"Career {cavg:.1f}",annotation_font=dict(color="#fbbf24",size=11))
+                    fig_avg=px.line(pyr,x="year",y="average",markers=True,title=f"{pname} — Batting Average by Year")
+                    fig_avg.update_traces(line=dict(color=clr,width=3),
+                                          marker=dict(size=9,color=clr,line=dict(width=2,color=BG)))
+                    if cavg:
+                        fig_avg.add_hline(y=cavg,line_dash="dash",line_color="#fdcb6e",
+                                          annotation_text=f"Career avg {cavg:.1f}",
+                                          annotation_position="bottom right",
+                                          annotation_font=dict(color="#fdcb6e",size=11))
                     fig_avg.update_layout(**BASE,height=300,margin=M_DEFAULT)
                     with c1: st.plotly_chart(fig_avg,**CFG)
-                    fig_sr=px.line(pyr,x="year",y="strike_rate",markers=True,title=f"{pname} — Strike Rate")
-                    fig_sr.update_traces(line=dict(color="#fbbf24",width=3),marker=dict(size=9,color="#fbbf24"))
-                    if csr: fig_sr.add_hline(y=csr,line_dash="dash",line_color="#fb923c",annotation_text=f"Career {csr:.1f}",annotation_font=dict(color="#fb923c",size=11))
+                    fig_sr=px.line(pyr,x="year",y="strike_rate",markers=True,title=f"{pname} — Strike Rate by Year")
+                    fig_sr.update_traces(line=dict(color="#fbbf24",width=3),
+                                         marker=dict(size=9,color="#fbbf24",line=dict(width=2,color=BG)))
+                    if csr:
+                        fig_sr.add_hline(y=csr,line_dash="dash",line_color="#e17055",
+                                         annotation_text=f"Career SR {csr:.1f}",
+                                         annotation_position="bottom right",
+                                         annotation_font=dict(color="#e17055",size=11))
                     fig_sr.update_layout(**BASE,height=300,margin=M_DEFAULT)
                     with c2: st.plotly_chart(fig_sr,**CFG)
                     fig_b=go.Figure()
@@ -881,29 +968,53 @@ elif section=="🔥 Form & Ratings":
                     st.dataframe(pyr[["year","matches","runs","average","strike_rate","fours","sixes","dismissals"]].reset_index(drop=True))
             else:
                 pyr=find_rows(bowl_yr[bowl_yr["format"]==fmt],"bowler",fsname)
-                if pyr.empty: st.error(f"No {fmt} bowling data for '{fname}'.")
+                if pyr.empty:
+                    has_bat=not find_rows(bat_yr[bat_yr["format"]==fmt],"striker",fsname).empty
+                    hint=f" (They do have **batting** data in {fmt} — try switching to Batting above.)" if has_bat else ""
+                    st.error(f"No {fmt} yearly bowling data for '{fname}'.{hint}")
                 else:
                     pyr=pyr.sort_values("year"); pname=pyr["bowler"].iloc[0]
                     career=find_rows(bowl_fmt[bowl_fmt["format"]==fmt],"bowler",fsname)
                     cecon=float(career["economy"].iloc[0]) if len(career)>0 else None
-                    cavg2=float(career["average"].iloc[0]) if len(career)>0 else None
+                    cavg=float(career["average"].iloc[0]) if len(career)>0 else None
                     latest=pyr.iloc[-1]
                     metrics({"Latest Year":int(latest["year"]),"Wickets":int(latest["wickets"]),
-                             "Economy":round(float(latest["economy"]),2),"Average":round(float(latest["average"]),1),"Matches":int(latest["matches"])})
+                             "Economy (latest)":round(float(latest["economy"]),2),
+                             "Average (latest)":round(float(latest["average"]),1),
+                             "Matches":int(latest["matches"])})
                     clr=FC.get(fmt,"#d63031")
                     ch(bar_v(pyr,"year","wickets",f"{pname} — Wickets per Year ({fmt})","#d63031"))
                     c1,c2=st.columns(2)
-                    fig_econ=px.line(pyr,x="year",y="economy",markers=True,title=f"{pname} — Economy")
-                    fig_econ.update_traces(line=dict(color="#d63031",width=3),marker=dict(size=9,color="#d63031"))
-                    if cecon: fig_econ.add_hline(y=cecon,line_dash="dash",line_color="#fbbf24",annotation_text=f"Career {cecon:.2f}",annotation_font=dict(color="#fbbf24",size=11))
+                    fig_econ=px.line(pyr,x="year",y="economy",markers=True,title=f"{pname} — Economy by Year")
+                    fig_econ.update_traces(line=dict(color="#d63031",width=3),
+                                           marker=dict(size=9,color="#d63031",line=dict(width=2,color=BG)))
+                    if cecon:
+                        fig_econ.add_hline(y=cecon,line_dash="dash",line_color="#fdcb6e",
+                                           annotation_text=f"Career econ {cecon:.2f}",
+                                           annotation_position="top right",
+                                           annotation_font=dict(color="#fdcb6e",size=11))
                     fig_econ.update_layout(**BASE,height=300,margin=M_DEFAULT)
                     with c1: st.plotly_chart(fig_econ,**CFG)
-                    fig_avg2=px.line(pyr,x="year",y="average",markers=True,title=f"{pname} — Bowling Average")
-                    fig_avg2.update_traces(line=dict(color="#6c5ce7",width=3),marker=dict(size=9,color="#6c5ce7"))
-                    if cavg2: fig_avg2.add_hline(y=cavg2,line_dash="dash",line_color="#fbbf24",annotation_text=f"Career {cavg2:.1f}",annotation_font=dict(color="#fbbf24",size=11))
+                    fig_avg2=px.line(pyr,x="year",y="average",markers=True,title=f"{pname} — Bowling Average by Year")
+                    fig_avg2.update_traces(line=dict(color="#6c5ce7",width=3),
+                                           marker=dict(size=9,color="#6c5ce7",line=dict(width=2,color=BG)))
+                    if cavg:
+                        fig_avg2.add_hline(y=cavg,line_dash="dash",line_color="#fdcb6e",
+                                           annotation_text=f"Career avg {cavg:.1f}",
+                                           annotation_position="top right",
+                                           annotation_font=dict(color="#fdcb6e",size=11))
                     fig_avg2.update_layout(**BASE,height=300,margin=M_DEFAULT)
                     with c2: st.plotly_chart(fig_avg2,**CFG)
-                    st.dataframe(pyr[["year","matches","wickets","economy","average","dot_pct"]].reset_index(drop=True))
+                    # V12 bonus: dot ball % trend
+                    if "dot_pct" in pyr.columns:
+                        fig_dot=px.line(pyr,x="year",y="dot_pct",markers=True,title=f"{pname} — Dot Ball % by Year")
+                        fig_dot.update_traces(line=dict(color="#00cec9",width=3),marker=dict(size=8,color="#00cec9"))
+                        fig_dot.update_layout(**BASE,height=260,margin=M_DEFAULT)
+                        st.plotly_chart(fig_dot,**CFG)
+                    show_cols=[c for c in ["year","matches","wickets","economy","average","dot_pct","balls"] if c in pyr.columns]
+                    st.dataframe(pyr[show_cols].reset_index(drop=True))
+
+    # ── Tab 2: Hot List ───────────────────────────────────────────────────────
     with tab2:
         ftype2=st.radio("Type",["Batting","Bowling"],horizontal=True,key="hot_type")
         n_yrs=st.slider("Recent window (years)",1,5,1,key="hot_yrs")
@@ -922,6 +1033,7 @@ elif section=="🔥 Form & Ratings":
                 mo=st.selectbox("Rank by",["avg","sr","runs","sixes"],key="hot_bat_m")
                 ch(bar_h(agg.sort_values(mo,ascending=False),mo,"striker",mo,"Oranges",f"🔥 Top Batters — {mo} (last {n_yrs}yr, {fmt})"))
                 st.dataframe(agg[["striker","innings","runs","avg","sr","fours","sixes"]].reset_index(drop=True))
+            else: st.info("No batters meet the minimum innings threshold.")
         elif ftype2=="Bowling" and not bowl_yr.empty:
             latest_yr=bowl_yr["year"].max()
             recent=bowl_yr[(bowl_yr["format"]==fmt)&(bowl_yr["year"]>=latest_yr-n_yrs+1)]
@@ -936,6 +1048,9 @@ elif section=="🔥 Form & Ratings":
                 mo=st.selectbox("Rank by",["wickets","econ","avg","dot_pct"],key="hot_bowl_m")
                 ch(bar_h(agg.sort_values(mo,ascending=(mo in ["econ","avg"])),mo,"bowler",mo,"Reds",f"🔥 Top Bowlers — {mo} (last {n_yrs}yr, {fmt})"))
                 st.dataframe(agg[["bowler","innings","wickets","econ","avg","dot_pct"]].reset_index(drop=True))
+            else: st.info("No bowlers meet the minimum innings threshold.")
+
+    # ── Tab 3: Cold List ──────────────────────────────────────────────────────
     with tab3:
         ftype3=st.radio("Type",["Batting","Bowling"],horizontal=True,key="cold_type")
         min_career=st.slider("Min career matches",5,30,10,key="cold_min")
@@ -959,6 +1074,8 @@ elif section=="🔥 Form & Ratings":
                 sc2=[c for c in ["bowler","form_label","form_score","recent_econ","career_econ","recent_avg","career_avg"] if c in cold2.columns]
                 st.dataframe(cold2[sc2].reset_index(drop=True))
             else: st.info("No bowlers in poor form right now.")
+
+    # ── Tab 4: Player Scores ──────────────────────────────────────────────────
     with tab4:
         ps_type=st.radio("Type",["Batting","Bowling"],horizontal=True,key="ps_type")
         if ps_type=="Batting":
@@ -967,13 +1084,14 @@ elif section=="🔥 Form & Ratings":
                 ch(bar_h(ps,"player_score","striker","player_score","Teal",f"⭐ Top 25 Batter Scores ({fmt})"))
                 st.caption("Score = Average 30% · Strike Rate 25% · Boundary% 20% · Runs volume 15% · Non-dot% 10%")
                 st.dataframe(ps[["striker","player_score","average","strike_rate","boundary_pct","runs"]].reset_index(drop=True))
-            else: st.info(f"No data for {fmt}.")
+            else: st.info(f"No batting player score data for {fmt} yet.")
         else:
-            ps2=bowl_sim[bowl_sim["format"]==fmt].sort_values("wickets",ascending=False).head(25) if not bowl_sim.empty else pd.DataFrame()
+            ps2=bowl_sim[bowl_sim["format"]==fmt].sort_values("player_score",ascending=False).head(25) if not bowl_sim.empty else pd.DataFrame()
             if len(ps2)>0:
-                ch(bar_h(ps2,"wickets","bowler","economy","Purples",f"⭐ Top 25 Bowlers ({fmt})"))
-                sc2=[c for c in ["bowler","wickets","economy","average","dot_pct"] if c in ps2.columns]
-                st.dataframe(ps2[sc2].reset_index(drop=True))
-            else: st.info(f"No data for {fmt}.")
+                ch(bar_h(ps2,"player_score","bowler","player_score","Purples",f"⭐ Top 25 Bowler Scores ({fmt})"))
+                st.caption("Score = Wickets volume 30% · Economy 25% · Average 25% · Dot Ball% 20%")
+                show_bowl=[c for c in ["bowler","player_score","wickets","economy","average","dot_pct"] if c in ps2.columns]
+                st.dataframe(ps2[show_bowl].reset_index(drop=True))
+            else: st.info(f"No bowling player score data for {fmt} yet.")
 
 st.markdown('</div>', unsafe_allow_html=True)
