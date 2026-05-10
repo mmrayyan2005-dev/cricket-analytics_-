@@ -26,7 +26,9 @@ BASE=dict(paper_bgcolor="rgba(0,0,0,0)",plot_bgcolor="rgba(0,0,0,0)",
                       bgcolor="rgba(0,0,0,0)",font=dict(size=11)),
           xaxis=dict(showgrid=True,gridcolor=GRID,zeroline=False,color=TEXT,fixedrange=True),
           yaxis=dict(showgrid=True,gridcolor=GRID,zeroline=False,color=TEXT,fixedrange=True),
-          dragmode=False)
+          dragmode=False,
+          hoverlabel=dict(bgcolor="#1e2840",bordercolor="#2e4060",font=dict(color=TEXT,size=12,family="Inter,sans-serif")),
+          hovermode="closest")
 M_DEFAULT=dict(l=8,r=8,t=48,b=8)
 M_BARV=dict(l=8,r=8,t=48,b=60)
 CFG=dict(config={"displayModeBar":False,"scrollZoom":False,"doubleClick":False,"responsive":True},use_container_width=True)
@@ -76,6 +78,9 @@ div[data-baseweb="tab-highlight"],div[data-baseweb="tab-border"]{display:none!im
 .stDataFrame thead th{font-size:11px!important;font-weight:700!important;text-transform:uppercase;letter-spacing:.6px;background:var(--surface)!important;color:var(--muted)!important;padding:10px 12px!important}
 .stDataFrame tbody td{font-size:12px!important;padding:8px 12px!important}
 .stDataFrame tbody tr:hover td{background:rgba(255,255,255,.03)!important}
+/* ── Back button ── */
+[data-testid="stButton"] button[kind="secondary"]{background:var(--card)!important;border:1px solid var(--border)!important;border-radius:var(--radius-sm)!important;color:var(--subtle)!important;font-size:12px!important;font-weight:600!important;padding:5px 14px!important;transition:all .15s!important;margin-bottom:12px!important}
+[data-testid="stButton"] button[kind="secondary"]:hover{border-color:#2e4060!important;color:var(--text)!important;background:#161d2e!important}
 hr{border:none!important;border-top:1px solid var(--border)!important;margin:16px 0!important}
 .js-plotly-plot{touch-action:pan-y!important}
 div[data-testid="stHorizontalBlock"]>div[data-testid="column"]{min-width:0!important;flex:1 1 auto}
@@ -230,7 +235,8 @@ def bar_h(df, x, y, col, scale, title, min_h=400):
     xmax = float(df[x].max())*1.22
     fig = px.bar(df,x=x,y=y,orientation="h",color=col,color_continuous_scale=scale,title=title)
     fig.update_traces(marker_line_width=0,text=df[x].round(1).astype(str),
-                      textposition="outside",textfont=dict(size=11,color=TEXT),cliponaxis=False)
+                      textposition="outside",textfont=dict(size=11,color=TEXT),cliponaxis=False,
+                      hovertemplate="<b>%{y}</b><br>" + x + ": <b>%{x:.1f}</b><extra></extra>")
     fig.update_layout(**BASE,height=h,coloraxis_showscale=False,
                       margin=dict(l=20,r=90,t=48,b=8),bargap=0.28)
     fig.update_yaxes(categoryorder="total ascending",showgrid=False,title="",
@@ -241,7 +247,8 @@ def bar_h(df, x, y, col, scale, title, min_h=400):
 def bar_v(df, x, y, title, color, h=360):
     if df.empty: return go.Figure()
     fig = px.bar(df,x=x,y=y,text=y,title=title,color_discrete_sequence=[color])
-    fig.update_traces(textposition="outside",textfont=dict(size=12,color=TEXT),marker_line_width=0)
+    fig.update_traces(textposition="outside",textfont=dict(size=12,color=TEXT),marker_line_width=0,
+                      hovertemplate="<b>%{x}</b><br>" + y + ": <b>%{y}</b><extra></extra>")
     fig.update_layout(**BASE,height=h,showlegend=False,margin=M_BARV)
     fig.update_xaxes(tickmode="linear",tickangle=-40,showgrid=False,tickfont=dict(size=12),automargin=True)
     fig.update_yaxes(showgrid=True,gridcolor=GRID)
@@ -251,14 +258,16 @@ def line(df, x, y, title, color, h=280):
     if df.empty: return go.Figure()
     fig = px.line(df,x=x,y=y,markers=True,title=title)
     fig.update_traces(line=dict(color=color,width=3),
-                      marker=dict(size=8,color=color,line=dict(width=2,color=BG)))
+                      marker=dict(size=8,color=color,line=dict(width=2,color=BG)),
+                      hovertemplate="<b>%{x}</b><br>" + y + ": <b>%{y:.2f}</b><extra></extra>")
     fig.update_layout(**BASE,height=h,margin=M_DEFAULT)
     return fig
 
 def donut(labels, values, colors, title):
     fig = go.Figure(go.Pie(labels=labels,values=values,hole=0.55,
         marker=dict(colors=colors,line=dict(color=BG,width=3)),
-        textinfo="percent+label",textfont=dict(size=13,color=TEXT)))
+        textinfo="percent+label",textfont=dict(size=13,color=TEXT),
+        hovertemplate="<b>%{label}</b><br>Runs: <b>%{value}</b><br>Share: <b>%{percent}</b><extra></extra>"))
     fig.update_layout(**BASE,height=320,title=title,showlegend=False,margin=M_DEFAULT)
     return fig
 
@@ -478,30 +487,83 @@ PAGES=["🏠 Home","🔍 Player Search","⚔️ Head to Head","🏟️ vs Venue"
        "🏆 Leaderboard","🤖 Similar Players","🔥 Form & Ratings"]
 
 if "page" not in st.session_state: st.session_state["page"]="🏠 Home"
+if "nav_history" not in st.session_state: st.session_state["nav_history"]=[]
 
 # Apply any pending navigation BEFORE widgets are rendered
 if st.session_state.get("_go"):
     dest = st.session_state["_go"]
     del st.session_state["_go"]
+    cur = st.session_state.get("page","🏠 Home")
+    if cur != dest:
+        st.session_state["nav_history"].append(cur)
     st.session_state["page"] = dest
+
+# Handle in-app back navigation
+if st.session_state.get("_back"):
+    del st.session_state["_back"]
+    hist = st.session_state.get("nav_history",[])
+    if hist:
+        prev = hist.pop()
+        st.session_state["nav_history"] = hist
+        st.session_state["page"] = prev
 
 last_upd=get_last_updated()
 pkt=datetime.now(timezone(timedelta(hours=5)))
 status_txt=f"Updated {last_upd}" if last_upd else f"{pkt.strftime('%H:%M')} PKT"
 
 nav_html='<div class="ca-topnav"><div class="ca-topnav-brand">🏏 Cricket<span>Analytics</span></div><div class="ca-topnav-links">'
-for p in PAGES:
+for i,p in enumerate(PAGES):
     active="active" if st.session_state.get("page","")==p else ""
     emoji=p.split()[0]; label=" ".join(p.split()[1:])
-    nav_html+=f'<button class="ca-navbtn {active}" onclick="void(0)">{emoji} <span class="nav-label">{label}</span></button>'
+    nav_html+=f'<button class="ca-navbtn {active}" onclick="navigateTo({i})">{emoji} <span class="nav-label">{label}</span></button>'
 nav_html+=f'</div><div class="ca-topnav-status"><span class="ca-live"></span>{status_txt}</div></div>'
 st.markdown(nav_html, unsafe_allow_html=True)
+
+# JS: wire nav buttons to sidebar radio + block browser back
+pages_json = str([p for p in PAGES]).replace("'",'"')
+st.markdown(f"""<script>
+const PAGES = {pages_json};
+function navigateTo(idx) {{
+  // Find the sidebar radio buttons and click the matching one
+  const labels = window.parent.document.querySelectorAll('[data-testid="stSidebar"] [role="radiogroup"] label');
+  if (labels && labels[idx]) {{
+    labels[idx].click();
+  }}
+}}
+// Prevent browser back/forward from leaving the app
+(function() {{
+  // Push a dummy state so there's always something to "back" into
+  history.pushState(null, '', location.href);
+  window.addEventListener('popstate', function(e) {{
+    // Re-push state to trap the user in the SPA
+    history.pushState(null, '', location.href);
+    // Trigger in-app back via the hidden back button
+    const backBtn = window.parent.document.querySelector('[data-testid="stButton"] button[kind="secondary"]');
+    // Find back button by key
+    const btns = window.parent.document.querySelectorAll('button');
+    for (const b of btns) {{
+      if (b.innerText && b.innerText.trim() === '← Back') {{
+        b.click();
+        break;
+      }}
+    }}
+  }});
+}})();
+</script>""", unsafe_allow_html=True)
 
 with st.sidebar:
     section=st.radio("",PAGES,key="page",label_visibility="collapsed")
 
 st.markdown('<div class="ca-content">', unsafe_allow_html=True)
 section=st.session_state.get("page","🏠 Home")
+
+# ── In-app Back button (shown on all pages except Home) ──────────────────────
+if section != "🏠 Home" and st.session_state.get("nav_history"):
+    prev_page = st.session_state["nav_history"][-1]
+    prev_label = " ".join(prev_page.split()[1:]) if len(prev_page.split()) > 1 else prev_page
+    if st.button(f"← Back  to {prev_label}", key="_back_btn", type="secondary"):
+        st.session_state["_back"] = True
+        st.rerun()
 
 # ══ HOME ═════════════════════════════════════════════════════════════════════
 if section=="🏠 Home":
