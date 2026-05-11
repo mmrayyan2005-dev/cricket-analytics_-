@@ -346,35 +346,50 @@ def section_heading(icon, text):
 
 def radar(categories, values1, values2, name1, name2, color1, color2, title):
     """
-    FIX: Improved radar chart.
-    - Each axis is normalized 0-100 so the two shapes are always visually distinct.
-    - Added slight separation so identical values still show two traces.
-    - Better polar styling.
+    Radar chart for head-to-head comparison.
+    FIX: BASE contains xaxis, yaxis, hovermode AND legend — all of which either
+    conflict with polar layout keys or are re-specified explicitly here, causing
+    a 'multiple values for keyword argument' TypeError.  Strip them all out first.
     """
+    # Keys in BASE that are either cartesian-only or re-defined below
+    _POLAR_STRIP = ("xaxis", "yaxis", "hovermode", "legend")
+    POLAR_BASE = {k: v for k, v in BASE.items() if k not in _POLAR_STRIP}
+
     cats = categories + [categories[0]]
-    v1 = values1 + [values1[0]]
-    v2 = values2 + [values2[0]]
-    fig = go.Figure()
-    fig.add_trace(go.Scatterpolar(r=v1, theta=cats, fill="toself", name=name1,
+    v1   = values1   + [values1[0]]
+    v2   = values2   + [values2[0]]
+    fig  = go.Figure()
+    fig.add_trace(go.Scatterpolar(
+        r=v1, theta=cats, fill="toself", name=name1,
         line=dict(color=color1, width=2.5),
         fillcolor=_hex_to_rgba(color1, 0.22),
         hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}<extra>" + name1 + "</extra>"))
-    fig.add_trace(go.Scatterpolar(r=v2, theta=cats, fill="toself", name=name2,
+    fig.add_trace(go.Scatterpolar(
+        r=v2, theta=cats, fill="toself", name=name2,
         line=dict(color=color2, width=2.5),
         fillcolor=_hex_to_rgba(color2, 0.22),
         hovertemplate="<b>%{theta}</b><br>Score: %{r:.1f}<extra>" + name2 + "</extra>"))
-    fig.update_layout(**BASE, title=title, height=460,
-        polar=dict(bgcolor="rgba(0,0,0,0)",
-            radialaxis=dict(visible=True, gridcolor=GRID, color=TEXT,
-                            tickfont=dict(size=9), range=[0,110],
-                            tickvals=[20,40,60,80,100],
-                            ticktext=["20","40","60","80","100"]),
-            angularaxis=dict(gridcolor=GRID, linecolor=GRID,
-                             tickfont=dict(size=12, color=TEXT),
-                             rotation=90, direction="clockwise")),
-        legend=dict(orientation="h", yanchor="bottom", y=-0.12, xanchor="center", x=0.5,
-                    bgcolor="rgba(0,0,0,0)", font=dict(size=12)),
-        margin=dict(l=60,r=60,t=70,b=60))
+    fig.update_layout(
+        **POLAR_BASE,
+        title=title,
+        height=460,
+        hovermode="closest",
+        polar=dict(
+            bgcolor="rgba(0,0,0,0)",
+            radialaxis=dict(
+                visible=True, gridcolor=GRID, color=TEXT,
+                tickfont=dict(size=9), range=[0, 110],
+                tickvals=[20, 40, 60, 80, 100],
+                ticktext=["20", "40", "60", "80", "100"]),
+            angularaxis=dict(
+                gridcolor=GRID, linecolor=GRID,
+                tickfont=dict(size=12, color=TEXT),
+                rotation=90, direction="clockwise")),
+        legend=dict(
+            orientation="h", yanchor="bottom", y=-0.12,
+            xanchor="center", x=0.5,
+            bgcolor="rgba(0,0,0,0)", font=dict(size=12)),
+        margin=dict(l=60, r=60, t=70, b=60))
     return fig
 
 def scatter(df, x, y, text_col, color, title, x_label="", y_label=""):
