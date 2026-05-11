@@ -23,4 +23,4 @@ jobs:
           DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}
           DATA_GITHUB_USER: ${{ secrets.DATA_GITHUB_USER }}
           DATA_GITHUB_REPO: ${{ secrets.DATA_GITHUB_REPO }}
-        run: python update_cricket_data.py
+        run: python update_data.py
