@@ -1,34 +1,26 @@
-name: Update Cricket Data (Daily)
+name: Update Cricket Data
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # runs every day at 2:00 AM UTC (7 AM Pakistan time)
-  workflow_dispatch:        # allows manual trigger from GitHub UI
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install pandas numpy scikit-learn requests
+        run: pip install pandas numpy scikit-learn requests
 
-      - name: Run update script
+      - name: Run updater
         env:
-          GITHUB_TOKEN: ${{ secrets.CRICKET_TOKEN }}
-          GITHUB_USER:  ${{ secrets.CRICKET_USER }}
-          GITHUB_REPO:  ${{ secrets.CRICKET_REPO }}
-        run: python update_data.py
-
-      - name: Done
-        run: echo "✅ Cricket data updated successfully"
+          DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}
+          DATA_GITHUB_USER: ${{ secrets.DATA_GITHUB_USER }}
+          DATA_GITHUB_REPO: ${{ secrets.DATA_GITHUB_REPO }}
+        run: python update_cricket_data.py
