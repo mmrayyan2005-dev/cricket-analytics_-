@@ -32,6 +32,7 @@ A Dhabe,T20I,20,6.390000000000001,16.995,6.4,16.95,99.9,✅ Good
 A Dhar,T20I,0,10.0,30.0,10.0,30.0,100.0,✅ Good
 A Dirannehelage,T20I,12,2.8600000000000003,7.055,3.39,9.31,125.2,🔥 On Fire
 A Donovan,T20I,3,6.53,37.0,6.76,47.33,115.7,🔥 On Fire
+A Dowling,T20I,4,11.47,21.5,11.47,21.5,100.0,✅ Good
 A Dutt,ODI,11,4.64,23.18,4.82,30.64,118.0,🔥 On Fire
 A Dutt,T20I,15,6.425,19.5,6.9,21.77,109.5,✅ Good
 A Fillie,T20I,4,6.56,26.25,5.51,11.19,63.3,😐 Average
@@ -54,7 +55,7 @@ A Ikuzwe,T20I,24,5.245,21.15,4.86,12.36,75.5,😐 Average
 A Ilahi,T20I,5,5.69,18.2,5.69,18.2,100.0,✅ Good
 A Johnson,T20I,0,10.67,32.0,7.2,36.0,90.0,✅ Good
 A Kalasi,T20I,1,7.5,15.0,4.74,14.75,80.8,😐 Average
-A Kamboj,IPL,26,8.365,19.585,8.86,21.57,108.0,✅ Good
+A Kamboj,IPL,29,8.495000000000001,19.439999999999998,9.0,21.0,107.0,✅ Good
 A Kamboj,Test,1,4.77,89.0,4.77,89.0,100.0,✅ Good
 A Kanukuntla,T20I,6,5.94,30.67,5.94,30.67,100.0,✅ Good
 A Kanwal,T20I,1,6.92,15.0,6.92,15.0,100.0,✅ Good
@@ -77,7 +78,7 @@ A Levaci,T20I,8,5.94,11.5,5.94,11.5,100.0,✅ Good
 A Limdawala,T20I,7,8.25,37.14,7.38,28.85,83.6,😐 Average
 A Lupascu,T20I,5,6.76,14.2,6.76,14.2,100.0,✅ Good
 A Magdalenic,T20I,0,20.0,40.0,17.57,82.0,146.4,🔥 On Fire
-A Makri,T20I,18,5.199999999999999,14.87,6.09,16.97,115.6,🔥 On Fire
+A Makri,T20I,23,5.5600000000000005,16.31,6.01,17.15,106.6,✅ Good
 A Martel,T20I,8,5.609999999999999,30.665,6.62,20.29,92.1,✅ Good
 A Mazvishaya,ODI,1,5.825,62.5,4.63,36.31,68.8,😐 Average
 A Mazvishaya,T20I,5,6.12,10.6,6.01,15.79,123.6,🔥 On Fire
@@ -91,12 +92,12 @@ A Munisar,ODI,7,4.555,32.915,4.65,33.86,102.5,✅ Good
 A Munisar,T20I,2,5.45,25.0,5.69,33.4,119.0,🔥 On Fire
 A Nagarajan,T20I,0,9.67,58.0,9.07,45.33,86.0,✅ Good
 A Nanda,T20I,7,8.64,13.57,7.94,26.04,141.9,🔥 On Fire
-A Nao,T20I,5,5.64,12.4,6.0,14.64,112.2,🔥 On Fire
+A Nao,T20I,7,6.27,17.7,6.09,15.26,91.7,✅ Good
 A Natubhai Ahir,T20I,5,3.97,9.0,5.07,16.94,158.0,🔥 On Fire
 A Nortje,IPL,1,10.805,61.0,9.02,26.92,63.8,😐 Average
 A Nortje,T20I,3,9.205,46.835,7.34,19.03,60.2,😐 Average
 A Ostergaard,T20I,3,7.665,36.25,6.22,37.0,91.6,✅ Good
-A Parima,T20I,5,8.03,16.6,8.03,16.6,100.0,✅ Good
+A Parima,T20I,5,5.765,11.8,7.3,18.0,139.6,🔥 On Fire
 A Paul,T20I,6,9.5,19.0,8.68,20.93,100.8,✅ Good
 A Perera,T20I,6,3.5,3.5,4.51,7.83,176.3,🔥 On Fire
 A Phillip,Test,7,4.85,63.86,4.76,65.9,100.7,✅ Good
@@ -107,10 +108,10 @@ A Razmilic,T20I,3,13.11,55.33,13.11,55.33,100.0,✅ Good
 A Reddy,ODI,9,6.17,32.56,5.34,28.82,87.5,✅ Good
 A Reddy,T20I,20,8.015,22.21,7.68,24.96,104.1,✅ Good
 A Reddy,WPL,6,9.375,66.125,8.37,37.0,72.6,😐 Average
-A Reyes,T20I,3,9.625,31.835,8.22,18.5,71.8,😐 Average
+A Reyes,T20I,4,9.46,50.835,8.33,19.43,63.1,😐 Average
 A Salomao,T20I,20,4.965,19.060000000000002,5.18,16.18,94.6,✅ Good
-A Savvani,T20I,2,6.2,99.0,6.12,24.06,61.5,😐 Average
-A Shahi,T20I,9,6.78,19.465,7.6,19.2,105.4,✅ Good
+A Savvani,T20I,5,6.365,65.625,6.29,23.75,67.5,😐 Average
+A Shahi,T20I,14,7.455,17.785,7.83,18.52,104.6,✅ Good
 A Sharafu,ODI,0,6.0,12.0,6.0,12.0,100.0,✅ Good
 A Sharafu,T20I,0,18.0,3.0,18.0,3.0,100.0,✅ Good
 A Shukla,T20I,21,8.795,24.369999999999997,7.94,25.88,98.2,✅ Good
@@ -128,7 +129,7 @@ A Tripathi,T20I,2,3.0,2.0,13.0,13.0,541.7,🔥 On Fire
 A Turkmen,T20I,4,8.57,30.0,6.87,21.88,76.5,😐 Average
 A Vaidya,T20I,10,5.39,11.4,5.02,12.12,99.7,✅ Good
 A Vailoa,T20I,9,6.0,11.0,6.0,11.0,100.0,✅ Good
-A Vala,T20I,1,11.67,35.0,6.48,15.59,50.0,📉 Poor
+A Vala,T20I,3,8.635,24.5,6.44,15.51,68.9,😐 Average
 A Vessik,T20I,7,4.74,17.71,4.64,11.88,82.5,😐 Average
 A Wanjira,T20I,1,4.62,10.0,5.44,19.47,156.2,🔥 On Fire
 A Wright,T20I,17,4.904999999999999,21.115,5.22,16.74,92.9,✅ Good
@@ -138,14 +139,15 @@ A Zampa,IPL,2,11.75,47.0,8.38,20.38,57.3,📉 Poor
 A Zampa,ODI,14,5.89,33.21,5.54,28.18,89.5,✅ Good
 A Zampa,PSL,5,7.71,43.2,7.71,43.2,100.0,✅ Good
 A Zampa,T20I,30,8.215,18.63,7.4,20.58,100.3,✅ Good
-A Zimunu,ODI,11,6.0600000000000005,61.25,5.74,34.31,75.4,😐 Average
-A Zimunu,T20I,4,7.325,47.75,7.07,47.75,98.3,✅ Good
+A Zimunu,ODI,11,6.19,69.0,5.91,36.69,74.3,😐 Average
+A Zimunu,T20I,4,8.059999999999999,58.75,7.83,58.75,98.6,✅ Good
 AA Alleyne,ODI,27,5.79,27.355,5.51,25.4,94.0,✅ Good
 AA Alleyne,T20I,1,10.385,65.0,7.99,42.67,71.3,😐 Average
 AA Gajic,T20I,4,8.62,17.25,7.86,18.14,98.2,✅ Good
 AA Jimoh,T20I,5,5.84,14.2,5.84,14.2,100.0,✅ Good
 AA Navicha,T20I,8,8.56,13.38,7.95,14.7,101.4,✅ Good
 AA Rahayu,T20I,20,6.11,13.6,5.72,13.17,95.2,✅ Good
+AA Senn,T20I,2,3.75,7.5,3.75,7.5,100.0,✅ Good
 AAH Bhikari,T20I,0,6.0,1.0,11.36,17.67,978.2,🔥 On Fire
 AAM Eliane,T20I,1,8.56,77.0,8.56,77.0,100.0,✅ Good
 AAP Atkinson,ODI,2,9.27,69.5,6.68,40.54,65.2,😐 Average
@@ -159,14 +161,14 @@ AB Kaur,T20I,4,8.695,36.25,7.57,39.75,98.4,✅ Good
 AB Kaur,WPL,11,8.845,31.765,8.7,34.0,102.7,✅ Good
 AB Martinez,T20I,0,3.6,12.0,5.7,58.0,320.8,🔥 On Fire
 AB Sharma,T20I,0,24.0,4.0,24.0,4.0,100.0,✅ Good
-AB Slebsager,T20I,6,8.59,23.125,7.48,22.8,92.8,✅ Good
+AB Slebsager,T20I,16,7.355,13.68,7.16,14.8,102.8,✅ Good
 ABY Smith,T20I,10,5.67,19.0,5.56,23.09,109.8,✅ Good
 AC Agar,BBL,9,7.84,26.475,7.35,28.33,100.4,✅ Good
 AC Douglas,T20I,2,6.9,34.5,6.24,13.14,64.3,😐 Average
 AC Frame,T20I,0,7.43,26.0,7.43,26.0,100.0,✅ Good
 AC Jayangani,ODI,23,4.76,25.189999999999998,5.29,33.0,121.1,🔥 On Fire
 AC Jayangani,T20I,11,6.9399999999999995,23.93,6.67,19.46,88.7,✅ Good
-AC Kerr,ODI,27,4.62,27.08,4.67,27.24,100.8,✅ Good
+AC Kerr,ODI,29,4.705,27.795,4.68,27.24,98.7,✅ Good
 AC Kerr,T20I,12,6.904999999999999,29.85,6.07,18.33,74.7,😐 Average
 AC Kerr,WPL,32,7.63,15.469999999999999,7.61,17.15,105.3,✅ Good
 ACF Stokes,T20I,5,6.62,17.2,6.02,15.95,91.8,✅ Good
@@ -192,7 +194,7 @@ AIV Benatar,T20I,4,4.83,7.25,4.44,8.75,106.3,✅ Good
 AJ Healy,ODI,0,6.0,12.0,6.0,12.0,100.0,✅ Good
 AJ Hosein,BBL,0,7.29,51.0,6.79,18.76,65.0,😐 Average
 AJ Hosein,CPL,13,8.04,29.69,6.61,24.7,82.7,😐 Average
-AJ Hosein,IPL,7,7.11,18.29,7.64,21.0,111.1,🔥 On Fire
+AJ Hosein,IPL,8,8.05,22.12,8.35,24.11,106.4,✅ Good
 AJ Hosein,ODI,7,4.22,12.86,4.79,26.52,159.9,🔥 On Fire
 AJ Hosein,PSL,2,10.0,20.0,8.11,23.47,99.2,✅ Good
 AJ Hosein,T20I,34,8.355,24.48,7.41,25.09,95.6,✅ Good
@@ -205,7 +207,7 @@ AK Gokoel,T20I,6,6.3,17.67,6.14,15.0,91.2,✅ Good
 AK Gonerara,T20I,6,6.33,19.33,6.69,20.62,106.2,✅ Good
 AK Maguire,ODI,7,6.76,25.29,6.06,27.43,99.1,✅ Good
 AK Maguire,T20I,9,8.0,21.75,7.26,20.11,91.6,✅ Good
-AK Markram,IPL,4,10.725,47.25,9.27,57.17,103.7,✅ Good
+AK Markram,IPL,4,11.55,54.25,9.56,59.5,96.2,✅ Good
 AK Markram,ODI,1,7.32,233.0,5.88,56.0,52.2,📉 Poor
 AK Markram,T20I,3,9.915,42.5,8.79,36.81,87.6,✅ Good
 AK Markram,Test,3,2.78,25.0,3.01,52.5,159.1,🔥 On Fire
@@ -213,7 +215,7 @@ AL Mundundo,T20I,14,6.11,14.665,4.95,12.89,84.5,😐 Average
 AM Fernando,ODI,26,6.355,53.21,5.95,31.15,76.1,😐 Average
 AM Fernando,Test,8,3.39,33.38,3.58,27.63,94.2,✅ Good
 AM Ghazanfar,CPL,2,6.43,22.5,6.43,22.5,100.0,✅ Good
-AM Ghazanfar,IPL,12,9.92,23.83,9.92,23.83,100.0,✅ Good
+AM Ghazanfar,IPL,13,10.02,24.54,10.02,24.54,100.0,✅ Good
 AM Hardie,BBL,13,8.795,25.29,8.37,23.76,94.6,✅ Good
 AM Hardie,ODI,3,6.1,42.67,5.52,39.2,91.2,✅ Good
 AM Hardie,PSL,11,7.42,12.82,7.42,12.82,100.0,✅ Good
@@ -235,7 +237,7 @@ AR McBrine,ODI,3,5.6,93.33,4.84,36.77,62.9,😐 Average
 AR McBrine,Test,12,3.22,38.33,3.53,38.84,105.5,✅ Good
 AR Naidoo,T20I,0,17.5,35.0,17.33,52.0,123.8,🔥 On Fire
 AR Nedd,CPL,4,9.07,34.0,7.31,26.72,79.6,😐 Average
-AR Patel,IPL,15,8.469999999999999,40.75,7.41,29.73,80.2,😐 Average
+AR Patel,IPL,16,8.385,40.635000000000005,7.41,29.71,80.7,😐 Average
 AR Patel,ODI,11,4.47,34.27,4.49,31.55,96.3,✅ Good
 AR Patel,T20I,32,7.779999999999999,18.925,7.52,20.4,102.2,✅ Good
 AR Patel,Test,2,2.85,28.5,2.53,19.0,77.7,😐 Average
@@ -250,9 +252,10 @@ AS Joseph,T20I,8,12.32,38.75,9.13,23.73,67.7,😐 Average
 AS Joseph,Test,14,3.31,18.93,3.66,32.42,140.9,🔥 On Fire
 AS Nadkarni,T20I,0,6.5,13.0,6.5,13.0,100.0,✅ Good
 AS Qwele,T20I,23,3.76,7.43,4.41,8.36,114.9,🔥 On Fire
-AS Roy,IPL,8,7.95,19.085,8.54,26.14,122.2,🔥 On Fire
+AS Roy,IPL,10,7.815,17.939999999999998,8.48,24.81,123.4,🔥 On Fire
+AS Samra,T20I,0,10.25,41.0,10.25,41.0,100.0,✅ Good
 AS Wikman,T20I,1,9.1,47.0,9.1,47.0,100.0,✅ Good
-ASF Sirah,T20I,6,7.88,31.5,6.98,17.6,72.2,😐 Average
+ASF Sirah,T20I,13,6.65,20.395,6.73,15.78,89.3,✅ Good
 ASS Fletcher,ODI,34,4.845000000000001,27.675,4.71,24.49,92.9,✅ Good
 ASS Fletcher,T20I,14,6.640000000000001,26.95,6.21,18.84,81.7,😐 Average
 AT Nidamanuru,T20I,3,7.5,10.0,7.5,10.0,100.0,✅ Good
@@ -260,7 +263,7 @@ ATS Silva,ODI,5,4.81,25.0,4.81,25.0,100.0,✅ Good
 ATS Silva,T20I,10,5.22,14.1,5.22,14.1,100.0,✅ Good
 AU Rashid,ODI,37,5.245,20.744999999999997,5.61,30.05,125.9,🔥 On Fire
 AU Rashid,T20I,37,8.11,19.7,7.49,22.66,103.7,✅ Good
-AUKDS Kalugala,T20I,1,3.33,10.0,7.29,17.0,194.5,🔥 On Fire
+AUKDS Kalugala,T20I,1,4.165,7.5,7.0,18.67,208.5,🔥 On Fire
 AV Lazarus,T20I,1,6.155,11.0,6.61,25.33,168.8,🔥 On Fire
 AY Patel,Test,6,1.86,22.67,3.14,27.04,144.0,🔥 On Fire
 Aamer Jamal,PSL,9,10.629999999999999,34.325,10.36,29.88,92.3,✅ Good
@@ -282,14 +285,14 @@ Abdul Majid Abbasi,T20I,47,5.85,18.189999999999998,5.57,19.51,101.2,✅ Good
 Abdul Naser Baluch,T20I,12,7.71,17.67,6.98,16.84,92.9,✅ Good
 Abdul Salman Khan,T20I,1,7.4,37.0,7.4,37.0,100.0,✅ Good
 Abdul Samad,IPL,0,27.0,6.0,13.16,62.5,545.2,🔥 On Fire
-Abdul Samad,T20I,12,4.93,11.67,4.62,10.0,89.7,✅ Good
+Abdul Samad,T20I,15,4.29,11.26,4.08,9.37,89.2,✅ Good
 Abdul Waheed,T20I,0,6.67,20.0,7.09,19.5,101.9,✅ Good
 Abdul Wahid,T20I,0,10.43,73.0,8.66,20.73,55.7,📉 Poor
 Abdullah Mahmood,T20I,2,4.67,7.0,6.38,14.73,173.5,🔥 On Fire
 Abdullah Mohd Yousaf,T20I,2,7.38,28.5,8.55,28.5,107.9,✅ Good
 Abdullahi Ismail,T20I,5,6.43,18.0,6.43,18.0,100.0,✅ Good
 Abhinandan Singh,IPL,3,12.62,40.67,12.62,40.67,100.0,✅ Good
-Abhishek Anand,T20I,1,4.0,4.0,4.0,8.0,150.0,🔥 On Fire
+Abhishek Anand,T20I,1,3.0,5.0,2.5,10.0,141.7,🔥 On Fire
 Abhishek Sharma,IPL,0,10.16,80.5,9.02,50.0,75.4,😐 Average
 Abhishek Sharma,T20I,4,9.21,31.835,8.69,34.14,100.8,✅ Good
 Abraar Khan,T20I,1,5.0,10.0,5.0,10.0,100.0,✅ Good
@@ -299,9 +302,10 @@ Abrar Ahmed,T20I,42,6.63,16.384999999999998,6.75,17.37,103.9,✅ Good
 Abrar Ahmed,Test,7,3.01,14.57,3.6,32.92,172.8,🔥 On Fire
 Abul Farhad,T20I,1,12.0,96.0,8.19,18.93,44.0,📉 Poor
 Ada Bhasin,T20I,5,4.0,8.0,4.51,14.68,148.1,🔥 On Fire
-Adam Senn,T20I,7,5.74,31.75,5.98,34.43,106.3,✅ Good
+Adam Senn,T20I,13,6.09,25.25,6.08,24.46,98.4,✅ Good
 Adil Butt,T20I,14,8.075,16.3,7.87,17.97,103.9,✅ Good
 Adil Khan,T20I,4,10.190000000000001,20.375,7.91,18.67,84.6,😐 Average
+Adil Latheef,T20I,2,6.22,28.5,6.22,28.5,100.0,✅ Good
 Adnan Razzaq,T20I,0,16.5,33.0,8.88,28.4,69.9,😐 Average
 Adnan Shnwarei,T20I,0,7.67,23.0,7.67,23.0,100.0,✅ Good
 Afida Afthab,T20I,9,4.68,26.0,4.86,21.4,93.1,✅ Good
@@ -309,7 +313,7 @@ Afif Hossain,ODI,0,8.0,8.0,6.27,38.67,280.9,🔥 On Fire
 Agha Salman,ODI,4,5.89,69.25,5.86,53.68,88.5,✅ Good
 Agha Salman,PSL,5,8.465,32.415,8.27,36.38,105.0,✅ Good
 Agha Salman,T20I,4,7.085,23.335,7.68,20.86,98.9,✅ Good
-Agha Salman,Test,4,3.95,55.25,3.75,55.29,97.5,✅ Good
+Agha Salman,Test,4,3.93,49.125,3.75,57.33,106.1,✅ Good
 Ahmad Ullah,T20I,0,15.5,31.0,15.5,31.0,100.0,✅ Good
 Ahmadullah Shinwari,T20I,17,15.025,22.0,6.97,22.44,74.2,😐 Average
 Ahmed Aqeel,T20I,2,8.46,27.5,6.63,35.8,104.3,✅ Good
@@ -319,13 +323,13 @@ Ahmed Faiz,T20I,1,4.4,22.0,6.14,44.0,169.8,🔥 On Fire
 Ahmed Wardak,T20I,1,6.75,27.0,6.39,15.0,75.1,😐 Average
 Ahmer Bin Nisar,T20I,2,10.085,18.25,9.6,24.0,113.3,🔥 On Fire
 Ainna Hamizah Hashim,T20I,12,6.165,19.25,5.59,19.57,96.2,✅ Good
-Aisya Eleesa,T20I,10,4.77,22.835,5.63,17.39,97.1,✅ Good
+Aisya Eleesa,T20I,13,4.404999999999999,15.21,5.47,17.2,118.6,🔥 On Fire
 Aizaz Khan,T20I,10,8.225,20.560000000000002,7.76,19.25,94.0,✅ Good
 Ajay Kumar,ODI,11,4.59,15.36,4.59,15.36,100.0,✅ Good
 Ajay Kumar,T20I,0,4.0,16.0,4.0,16.0,100.0,✅ Good
 Ajaz Patel,T20I,2,5.0,12.5,5.0,12.5,100.0,✅ Good
 Ajhar Alam,T20I,3,9.82,36.0,9.82,36.0,100.0,✅ Good
-Ajin Soman,T20I,3,10.2,17.0,10.2,17.0,100.0,✅ Good
+Ajin Soman,T20I,8,7.0,14.0,7.0,14.0,100.0,✅ Good
 Akash Deep,IPL,3,12.05,76.33,11.66,49.82,81.0,😐 Average
 Akash Deep,Test,13,4.27,36.46,3.85,35.79,94.2,✅ Good
 Akash Madhwal,IPL,4,11.07,41.5,9.86,22.69,71.9,😐 Average
@@ -359,18 +363,19 @@ Amandeep Singh,T20I,0,11.2,56.0,7.27,24.0,53.9,📉 Poor
 Amar Sharma,T20I,4,10.94,38.75,8.41,34.08,82.4,😐 Average
 Amarpal Kaur,T20I,18,4.95,11.0,4.37,7.91,80.1,😐 Average
 Amaya Rajapaksha,T20I,1,6.605,40.0,6.67,80.0,150.5,🔥 On Fire
+Amber Kainat,T20I,1,7.0,14.0,7.0,14.0,100.0,✅ Good
 Amina Kashif,T20I,5,8.19,23.915,8.28,24.0,100.7,✅ Good
 Aminata Kamara,T20I,24,4.85,14.75,5.27,18.68,117.7,🔥 On Fire
 Aminul Islam Chowdhury,T20I,2,4.67,7.0,4.67,7.0,100.0,✅ Good
 Amir Butt,T20I,9,6.8,14.035,7.86,18.78,124.7,🔥 On Fire
 Amir Farooq,T20I,0,10.67,32.0,7.94,23.19,73.4,😐 Average
 Amir Khan,T20I,3,3.92,5.67,3.92,5.67,100.0,✅ Good
-Amjad Sher,T20I,10,6.25,14.8,6.67,18.92,117.3,🔥 On Fire
+Amjad Sher,T20I,19,5.16,10.790000000000001,6.35,16.6,138.5,🔥 On Fire
 Amma Kashif,T20I,0,7.5,15.0,6.2,31.0,144.7,🔥 On Fire
 Amna Tariq,T20I,10,4.97,17.9,5.11,16.39,97.2,✅ Good
 Anas Khan,T20I,7,6.46,12.0,6.26,12.2,99.3,✅ Good
 Angela Busa,T20I,2,7.52,44.5,7.52,44.5,100.0,✅ Good
-Anjar Tadarus,T20I,27,7.335,24.335,7.36,22.21,95.8,✅ Good
+Anjar Tadarus,T20I,27,7.52,29.0,7.43,23.21,89.4,✅ Good
 Ankush Singh,T20I,1,5.08,11.0,5.08,11.0,100.0,✅ Good
 Ansh Patel,T20I,11,5.6450000000000005,14.835,5.75,10.45,86.2,✅ Good
 Anshuman Rath,T20I,2,14.14,16.5,8.06,36.25,138.3,🔥 On Fire
@@ -385,7 +390,7 @@ Arif Ullah,T20I,11,6.665,18.95,7.8,18.09,106.2,✅ Good
 Arif Yaqoob,PSL,7,6.5,13.0,7.77,15.53,119.5,🔥 On Fire
 Arjun Vinod,T20I,0,17.0,17.0,8.55,56.4,191.0,🔥 On Fire
 Arshad Khan,IPL,12,9.675,25.92,10.98,32.83,120.1,🔥 On Fire
-Arshdeep Singh,IPL,33,9.63,29.775,9.14,25.35,90.0,✅ Good
+Arshdeep Singh,IPL,35,9.385000000000002,27.814999999999998,9.09,25.1,93.5,✅ Good
 Arshdeep Singh,ODI,14,5.945,22.275,5.38,21.82,94.2,✅ Good
 Arshdeep Singh,T20I,34,8.945,23.055,8.51,18.62,88.0,✅ Good
 Arslan Amjad,T20I,6,10.74,25.67,10.94,19.08,88.1,✅ Good
@@ -409,13 +414,14 @@ Aslam Bera,T20I,7,7.21,28.86,7.21,28.86,100.0,✅ Good
 Aslan Jafri,T20I,9,7.65,19.56,7.65,19.56,100.0,✅ Good
 Ateeq Iqbal,T20I,16,6.73,21.31,6.04,19.62,90.9,✅ Good
 Attia Diwan Ali,T20I,1,7.81,82.0,7.81,82.0,100.0,✅ Good
-Auqib Nabi,IPL,0,13.12,94.0,13.12,94.0,100.0,✅ Good
-Avesh Khan,IPL,18,10.684999999999999,41.629999999999995,9.24,27.17,75.9,😐 Average
+Aue Oru,T20I,4,5.14,9.0,5.14,9.0,100.0,✅ Good
+Auqib Nabi,IPL,0,10.96,126.0,10.96,126.0,100.0,✅ Good
+Avesh Khan,IPL,19,10.68,41.480000000000004,9.26,27.34,76.3,😐 Average
 Avishka Iroshan,T20I,10,9.52,16.5,9.52,16.5,100.0,✅ Good
 Awais Ahmad,T20I,1,8.57,20.0,8.57,20.0,100.0,✅ Good
 Awais Ikram,T20I,2,9.38,30.5,10.0,26.0,95.9,✅ Good
 Ayaz Dadabhai,T20I,13,5.62,12.54,5.62,12.54,100.0,✅ Good
-Ayesha Zafar,ODI,1,6.88,55.0,6.08,73.0,110.5,🔥 On Fire
+Ayesha Zafar,ODI,3,4.86,22.67,4.78,28.67,112.4,🔥 On Fire
 Ayesha Zafar,T20I,4,6.8,8.5,6.8,8.5,100.0,✅ Good
 Aysha,T20I,10,5.9350000000000005,23.02,6.31,19.7,95.9,✅ Good
 Ayyaz Qureshi,T20I,0,7.5,15.0,8.55,22.8,133.0,🔥 On Fire
@@ -424,20 +430,20 @@ Azmatullah Omarzai,IPL,8,10.33,34.88,9.69,38.75,102.4,✅ Good
 Azri Azhar,T20I,4,7.8149999999999995,15.0,6.53,27.5,133.4,🔥 On Fire
 B Akhilesh Reddy,T20I,1,5.31,85.0,5.31,85.0,100.0,✅ Good
 B Balala,T20I,4,7.545,44.375,8.82,63.2,129.7,🔥 On Fire
-B Biza,ODI,1,5.220000000000001,118.0,5.17,78.0,82.6,😐 Average
-B Biza,T20I,9,8.03,33.78,6.35,16.28,63.6,😐 Average
+B Biza,ODI,1,5.12,132.0,5.13,85.0,82.3,😐 Average
+B Biza,T20I,10,7.51,50.28,6.5,17.16,60.3,😐 Average
 B Doggett,BBL,3,9.84,80.5,8.5,29.26,61.4,😐 Average
 B Doggett,Test,8,4.42,26.88,4.42,26.88,100.0,✅ Good
 B Dugic,T20I,6,10.0,15.0,10.83,30.0,154.2,🔥 On Fire
 B Evans,ODI,2,5.5,55.5,5.85,33.26,83.1,😐 Average
 B Evans,T20I,39,8.3,15.465,7.83,16.11,99.3,✅ Good
 B Fernando,T20I,6,8.38,28.17,8.21,27.25,97.4,✅ Good
-B Ito-Davis,T20I,13,4.625,11.865,4.31,7.83,79.6,😐 Average
+B Ito-Davis,T20I,14,4.654999999999999,12.575,4.31,8.13,78.6,😐 Average
 B Kasinja,T20I,6,4.08,16.33,4.08,16.33,100.0,✅ Good
 B Keganne,T20I,3,7.29,24.25,7.8,26.0,107.1,✅ Good
 B Kgosiemang,T20I,8,6.595000000000001,21.335,7.68,24.53,115.7,🔥 On Fire
 B Khumalo,T20I,8,6.12,10.835,7.37,23.58,169.0,🔥 On Fire
-B Kumar,IPL,36,8.45,21.695,7.67,24.72,102.4,✅ Good
+B Kumar,IPL,40,8.365,20.71,7.66,24.4,104.7,✅ Good
 B Leo,T20I,0,10.5,21.0,8.23,25.8,100.6,✅ Good
 B Maximo,T20I,4,7.18,19.75,7.18,19.75,100.0,✅ Good
 B Mejaro,T20I,7,6.62,15.29,6.79,17.12,107.3,✅ Good
@@ -466,7 +472,7 @@ B van Zyl,T20I,3,4.5,12.0,4.5,12.0,100.0,✅ Good
 BA Carse,ODI,12,6.5,45.75,6.27,38.19,90.0,✅ Good
 BA Carse,T20I,14,9.46,22.86,8.99,20.6,92.6,✅ Good
 BA Carse,Test,32,4.545,47.995,3.83,29.68,73.1,😐 Average
-BA Pai,T20I,1,5.5,11.0,6.58,23.27,165.6,🔥 On Fire
+BA Pai,T20I,6,7.73,14.17,6.7,22.16,121.5,🔥 On Fire
 BA Stokes,Test,35,3.34,35.31,3.3,30.74,92.9,✅ Good
 BAD Manenti,BBL,3,6.715,29.835,7.32,29.12,103.3,✅ Good
 BAD Manenti,T20I,7,6.845000000000001,29.3,7.57,41.62,126.3,🔥 On Fire
@@ -476,22 +482,23 @@ BE Fletcher,T20I,2,12.0,30.0,12.0,30.0,100.0,✅ Good
 BF Mailata,T20I,4,10.33,38.75,10.33,38.75,100.0,✅ Good
 BFW de Leede,ODI,1,4.38,46.0,6.0,31.96,103.2,✅ Good
 BFW de Leede,T20I,13,6.845,13.594999999999999,7.89,18.59,126.0,🔥 On Fire
-BG Illing,ODI,14,5.095000000000001,32.644999999999996,5.11,32.64,100.1,✅ Good
+BG Illing,ODI,15,4.9350000000000005,32.525,4.94,32.53,100.1,✅ Good
 BG Illing,T20I,4,6.16,29.75,5.9,29.75,97.9,✅ Good
 BG Lister,ODI,2,6.2,31.0,6.11,36.67,108.4,✅ Good
 BG Lister,T20I,0,5.75,23.0,8.3,30.82,139.2,🔥 On Fire
 BJ Bennett,T20I,0,8.635,34.5,8.17,32.0,93.7,✅ Good
 BJ Bennett,Test,1,4.15,199.0,4.15,199.0,100.0,✅ Good
-BJ Currie,ODI,17,4.11,9.88,3.84,11.71,106.0,✅ Good
+BJ Currie,ODI,20,4.745,12.105,3.94,11.92,90.8,✅ Good
 BJ Currie,T20I,8,7.01,21.875,5.88,12.25,69.9,😐 Average
 BJ Dwarshuis,BBL,20,8.305,31.83,8.08,21.61,82.6,😐 Average
+BJ Dwarshuis,IPL,2,12.75,25.5,12.75,25.5,100.0,✅ Good
 BJ Dwarshuis,ODI,7,5.69,29.29,5.58,27.88,96.6,✅ Good
 BJ Dwarshuis,PSL,7,10.29,30.86,10.29,30.86,100.0,✅ Good
 BJ Dwarshuis,T20I,19,9.46,29.895,9.38,22.33,86.9,✅ Good
 BJ McCarthy,ODI,10,7.32,20.0,5.94,29.63,114.6,🔥 On Fire
 BJ McCarthy,T20I,18,9.344999999999999,25.205,8.65,28.09,102.0,✅ Good
 BJ McCarthy,Test,8,3.58,21.12,3.1,20.33,91.4,✅ Good
-BJ McMullen,ODI,24,4.55,21.55,4.48,20.41,96.6,✅ Good
+BJ McMullen,ODI,24,4.75,26.3,4.5,21.02,87.3,✅ Good
 BJ McMullen,T20I,7,8.795,48.665,8.92,41.11,92.9,✅ Good
 BJ Webster,BBL,2,8.48,47.0,7.39,36.35,82.2,😐 Average
 BJ Webster,Test,11,3.5,25.625,3.27,24.55,94.6,✅ Good
@@ -523,7 +530,8 @@ Bilal Shah,T20I,0,9.0,18.0,9.0,18.0,100.0,✅ Good
 Bilal Tahir,T20I,1,9.5,13.5,6.0,12.33,77.2,😐 Average
 Bilal Zalmai,T20I,41,7.845000000000001,29.84,7.27,24.84,88.0,✅ Good
 Bipin Kumar,T20I,1,9.78,150.0,8.3,77.0,68.1,😐 Average
-Brijesh Sharma,IPL,7,9.3,30.57,9.3,30.57,100.0,✅ Good
+Boio Ray,T20I,0,5.0,5.0,5.0,5.0,100.0,✅ Good
+Brijesh Sharma,IPL,9,9.67,29.0,9.67,29.0,100.0,✅ Good
 Bukhar Illikkal,T20I,1,8.43,59.0,7.0,39.2,74.7,😐 Average
 C Abel,ODI,7,4.85,22.86,4.44,21.17,92.1,✅ Good
 C Abel,T20I,14,6.43,16.455,5.93,13.62,87.5,✅ Good
@@ -531,7 +539,7 @@ C Agafili,T20I,2,4.74,17.0,4.74,17.0,100.0,✅ Good
 C Aweko,T20I,43,4.12,12.09,4.22,10.4,94.2,✅ Good
 C Bah,T20I,4,7.25,56.5,6.7,33.33,75.7,😐 Average
 C Bevin,T20I,2,9.49,43.5,9.49,43.5,100.0,✅ Good
-C Bosch,IPL,4,9.46,37.335,9.24,28.5,87.0,✅ Good
+C Bosch,IPL,8,8.485,33.57,8.57,17.5,76.6,😐 Average
 C Bosch,ODI,10,6.93,58.7,7.0,59.64,101.3,✅ Good
 C Bosch,T20I,36,7.85,16.6,7.86,16.44,99.6,✅ Good
 C Bosch,Test,11,3.08,16.82,3.48,18.88,112.6,🔥 On Fire
@@ -551,15 +559,15 @@ C Connolly,BBL,20,6.640000000000001,15.75,6.83,17.0,105.4,✅ Good
 C Connolly,ODI,6,4.82,17.67,5.27,22.83,119.3,🔥 On Fire
 C Connolly,T20I,3,10.135,55.0,9.24,77.0,115.6,🔥 On Fire
 C Connolly,Test,0,4.2,21.0,4.2,21.0,100.0,✅ Good
-C Dickson,T20I,4,5.14,12.0,6.63,25.77,171.9,🔥 On Fire
+C Dickson,T20I,8,5.175,10.125,6.48,21.65,169.5,🔥 On Fire
 C Forshaw,T20I,6,7.1049999999999995,18.125,8.19,14.3,97.1,✅ Good
-C Green,IPL,3,11.73,43.67,9.41,34.57,79.7,😐 Average
+C Green,IPL,4,11.75,35.75,9.44,33.62,87.2,✅ Good
 C Green,T20I,2,9.68,35.5,9.15,24.07,81.2,😐 Average
 C Green,Test,4,4.654999999999999,88.83500000000001,3.5,37.98,59.0,📉 Poor
 C Greenshields,T20I,5,7.25,11.6,7.25,11.6,100.0,✅ Good
 C Gwilliam-Lopez,T20I,1,6.33,19.0,6.33,19.0,100.0,✅ Good
 C Henery,T20I,5,7.52,18.8,5.59,12.45,70.3,😐 Average
-C Hinze,T20I,12,5.495,25.25,5.18,13.18,73.2,😐 Average
+C Hinze,T20I,15,5.380000000000001,18.1,5.16,12.93,83.7,😐 Average
 C Karunaratne,T20I,0,9.25,37.0,8.19,36.19,93.2,✅ Good
 C Kellaway,BBL,0,8.0,16.0,9.0,36.0,168.8,🔥 On Fire
 C Kyewuta,T20I,10,7.77,20.2,6.61,15.28,80.4,😐 Average
@@ -570,9 +578,9 @@ C Munoz-Mills,T20I,1,3.0,3.0,3.0,3.0,100.0,✅ Good
 C Munro,CPL,0,21.6,18.0,10.97,64.0,203.2,🔥 On Fire
 C Murray,ODI,13,5.71,33.08,5.91,28.56,94.9,✅ Good
 C Murray,T20I,14,6.61,16.21,6.78,20.11,113.3,🔥 On Fire
-C Mutasa,ODI,1,8.2,41.0,8.2,41.0,100.0,✅ Good
+C Mutasa,ODI,1,9.24,57.0,9.24,57.0,100.0,✅ Good
 C Mutasa,T20I,0,9.12,38.0,8.27,102.0,179.6,🔥 On Fire
-C Ostergaard,T20I,7,6.525,20.75,5.44,17.6,84.1,😐 Average
+C Ostergaard,T20I,12,5.3100000000000005,20.05,4.9,15.47,84.7,😐 Average
 C Pengkumta,T20I,4,7.5,18.75,7.11,22.75,108.1,✅ Good
 C Perry,T20I,3,7.78,70.0,5.94,17.76,50.9,📉 Poor
 C Piparo,T20I,1,7.71,9.0,7.71,9.0,100.0,✅ Good
@@ -603,7 +611,7 @@ CA Young,Test,0,3.79,110.0,3.53,62.33,74.9,😐 Average
 CB Roposo,T20I,3,8.42,31.33,6.47,14.37,61.4,😐 Average
 CBRLS Kumara,ODI,0,8.0,48.0,6.48,32.05,73.9,😐 Average
 CBRLS Kumara,Test,0,5.29,37.0,3.86,35.04,83.8,😐 Average
-CE Dean,ODI,17,5.06,35.94,4.73,22.54,78.1,😐 Average
+CE Dean,ODI,19,4.029999999999999,23.22,4.7,22.27,106.3,✅ Good
 CE Dean,T20I,13,6.97,19.31,6.92,17.27,94.4,✅ Good
 CE Dean,WPL,2,11.75,23.5,11.75,23.5,100.0,✅ Good
 CE McConchie,PSL,0,10.83,83.0,10.83,83.0,100.0,✅ Good
@@ -623,7 +631,7 @@ CJ Jordan,BBL,16,8.719999999999999,71.565,8.74,27.37,69.2,😐 Average
 CJ Jordan,PSL,3,11.78,53.0,8.62,23.65,58.9,📉 Poor
 CJ Langford,T20I,1,8.71,61.0,6.42,16.1,50.1,📉 Poor
 CJPF Kalugamage,T20I,14,7.654999999999999,27.085,6.88,18.72,79.5,😐 Average
-CK Jasmat,T20I,9,7.25,29.67,6.64,27.25,91.7,✅ Good
+CK Jasmat,T20I,11,6.625,28.335,6.56,27.22,97.5,✅ Good
 CL Tryon,ODI,19,5.365,50.99,4.79,36.41,80.3,😐 Average
 CL Tryon,T20I,10,7.115,27.125,6.93,32.59,108.8,✅ Good
 CL Tryon,WPL,2,10.55,58.0,10.55,58.0,100.0,✅ Good
@@ -643,12 +651,14 @@ CS Fraser,ODI,3,6.13,61.33,6.04,47.1,87.7,✅ Good
 CS Fraser,T20I,4,8.8,27.5,8.04,22.71,87.0,✅ Good
 CS Nascimento,T20I,14,5.025,11.7,4.83,12.17,100.1,✅ Good
 CV Fernandes Torres,T20I,1,4.62,10.0,4.62,10.0,100.0,✅ Good
-CV Varun,IPL,27,8.27,22.365000000000002,7.65,23.28,98.3,✅ Good
+CV Ranasinghe,T20I,1,9.25,74.0,9.25,74.0,100.0,✅ Good
+CV Varun,IPL,27,8.14,23.765,7.64,23.53,96.4,✅ Good
 CV Varun,ODI,10,4.73,19.0,4.73,19.0,100.0,✅ Good
 CV Varun,T20I,56,8.14,17.22,7.56,16.17,93.4,✅ Good
 CW Perchard,T20I,13,6.41,10.85,6.11,12.83,106.8,✅ Good
-Cai Yuzhi,T20I,5,5.21,9.6,5.5,10.5,107.5,✅ Good
+Cai Yuzhi,T20I,9,4.995,11.6,5.39,10.82,100.6,✅ Good
 Camila Valdes,T20I,1,6.21,29.0,10.38,45.0,161.2,🔥 On Fire
+Chamalka Fernando,T20I,0,12.33,37.0,12.33,37.0,100.0,✅ Good
 Chan Ka Man,T20I,7,5.05,15.14,4.41,12.97,86.5,✅ Good
 Chan Sau Har,T20I,9,5.31,9.44,5.31,9.44,100.0,✅ Good
 Chare Smith,T20I,7,7.86,21.71,6.81,21.44,92.7,✅ Good
@@ -664,7 +674,7 @@ D Brown,ODI,5,5.47,81.5,4.99,31.9,65.2,😐 Average
 D Brown,T20I,5,7.14,53.5,6.51,23.81,67.8,😐 Average
 D Brown,Test,6,2.88,24.5,3.27,26.81,111.5,🔥 On Fire
 D Doyle-Calle,T20I,2,6.0,3.0,5.33,8.0,177.7,🔥 On Fire
-D Ferreira,IPL,1,14.0,14.0,14.0,14.0,100.0,✅ Good
+D Ferreira,IPL,1,12.5,25.0,12.5,25.0,100.0,✅ Good
 D Ferreira,ODI,2,5.0,57.5,5.0,57.5,100.0,✅ Good
 D Ferreira,T20I,2,7.91,58.0,8.66,76.5,120.7,🔥 On Fire
 D Forrester,PSL,4,12.34,18.0,12.34,18.0,100.0,✅ Good
@@ -672,7 +682,7 @@ D Forrester,T20I,0,4.0,4.0,4.0,4.0,100.0,✅ Good
 D Foxcroft,ODI,2,4.91,43.0,4.91,43.0,100.0,✅ Good
 D Foxcroft,T20I,0,8.5,17.0,8.5,17.0,100.0,✅ Good
 D Ganesh,T20I,5,7.57,21.2,6.17,18.5,84.4,😐 Average
-D Golechha,T20I,5,3.37,8.2,3.41,14.12,136.7,🔥 On Fire
+D Golechha,T20I,10,3.37,9.6,3.39,12.92,117.6,🔥 On Fire
 D Hemalatha,WPL,0,4.0,4.0,4.0,4.0,100.0,✅ Good
 D Heyliger,ODI,10,5.91,26.1,5.09,23.26,87.6,✅ Good
 D Heyliger,T20I,5,8.115,61.75,7.47,23.8,65.3,😐 Average
@@ -708,18 +718,19 @@ D Rawat,T20I,1,9.0,90.0,7.3,18.67,50.9,📉 Poor
 D Ruynekova,T20I,7,7.49,24.43,7.49,24.43,100.0,✅ Good
 D Sabir,T20I,16,5.79,10.56,5.91,12.29,109.2,✅ Good
 D St Ange,T20I,3,6.09,22.33,6.09,22.33,100.0,✅ Good
-D Suzuki,T20I,16,6.529999999999999,10.285,7.16,18.72,145.8,🔥 On Fire
+D Suzuki,T20I,17,6.41,10.69,7.05,18.52,141.6,🔥 On Fire
 D Svilicic,T20I,2,12.82,70.5,12.82,70.5,100.0,✅ Good
 D Tanase,T20I,4,5.45,12.5,5.45,12.5,100.0,✅ Good
 D Tekyildirim,T20I,12,5.03,6.08,5.03,6.08,100.0,✅ Good
 D Unhale,T20I,6,4.46,20.33,4.46,20.33,100.0,✅ Good
 D Vihanga,ODI,17,4.625,23.485,4.7,23.24,100.3,✅ Good
-D Visser,T20I,7,8.42,28.86,7.59,18.37,76.9,😐 Average
+D Visser,T20I,9,6.415,26.18,6.99,18.86,90.5,✅ Good
 D Vora,T20I,0,9.5,19.0,9.5,19.0,100.0,✅ Good
 D Warren,BBL,1,6.0,18.0,8.68,40.5,184.8,🔥 On Fire
 D Wheatley,T20I,0,17.0,34.0,17.0,34.0,100.0,✅ Good
 D Wiese,CPL,9,10.88,38.89,9.09,21.96,70.0,😐 Average
 D Wiese,PSL,0,17.0,17.0,8.26,28.3,107.5,✅ Good
+D Wotu,T20I,3,5.71,13.33,6.91,21.5,141.2,🔥 On Fire
 D Wulandari,T20I,0,11.0,11.0,3.94,21.0,113.4,🔥 On Fire
 DA Payne,BBL,13,6.43,11.46,7.94,17.39,137.6,🔥 On Fire
 DA Payne,IPL,2,14.0,35.0,14.0,35.0,100.0,✅ Good
@@ -731,14 +742,14 @@ DB Sharma,T20I,25,7.800000000000001,20.985,6.28,17.73,82.5,😐 Average
 DB Sharma,Test,2,3.9,33.5,2.37,19.5,59.5,📉 Poor
 DB Sharma,WPL,17,8.72,28.965,8.39,25.92,92.9,✅ Good
 DC Drakes,CPL,2,10.88,43.5,10.04,33.19,84.3,😐 Average
-DC Smith,T20I,1,9.0,36.0,7.72,26.74,80.0,😐 Average
-DE Burgess,T20I,2,7.8,39.0,7.6,21.33,76.1,😐 Average
+DC Smith,T20I,1,8.175,48.0,7.68,29.89,78.1,😐 Average
+DE Burgess,T20I,4,7.0649999999999995,24.25,7.41,18.38,90.3,✅ Good
 DEM Carter,ODI,1,2.5,10.0,4.18,30.56,236.4,🔥 On Fire
 DEM Carter,T20I,4,6.21,21.75,6.08,15.68,85.0,😐 Average
 DG Blampied,T20I,1,6.0,36.0,7.01,20.14,86.4,✅ Good
 DG Weakley,T20I,4,10.83,32.5,6.96,23.67,68.5,😐 Average
 DGAPD Wiswi,T20I,14,6.21,9.55,6.19,11.07,107.8,✅ Good
-DJ Hawoe,T20I,49,8.1,22.195,7.15,20.52,90.4,✅ Good
+DJ Hawoe,T20I,50,8.205,23.75,7.22,21.03,88.3,✅ Good
 DJ Hooda,IPL,0,15.0,15.0,8.64,54.6,210.8,🔥 On Fire
 DJ Mitchell,ODI,1,7.835,30.0,5.93,23.93,77.7,😐 Average
 DJ Mitchell,PSL,7,10.225,34.75,10.25,35.14,100.7,✅ Good
@@ -753,7 +764,7 @@ DJS Dottin,WPL,11,10.135000000000002,41.14,9.21,32.64,85.1,✅ Good
 DK Pallekonda,T20I,4,10.94,43.75,10.68,33.83,87.5,✅ Good
 DK Shetty,T20I,19,7.08,19.990000000000002,6.78,18.54,94.3,✅ Good
 DL Brangman,T20I,11,7.58,23.55,5.68,12.78,64.6,😐 Average
-DL Chahar,IPL,13,10.74,80.66499999999999,8.24,29.64,56.7,📉 Poor
+DL Chahar,IPL,15,10.17,42.83,8.24,29.36,74.8,😐 Average
 DM Gondaria,T20I,9,6.23,17.89,6.19,16.6,96.1,✅ Good
 DM Nakrani,T20I,15,5.19,13.2,5.65,13.4,105.2,✅ Good
 DM de Silva,ODI,4,5.2,26.0,5.17,36.04,119.0,🔥 On Fire
@@ -766,19 +777,20 @@ DN Wellalage,T20I,10,8.22,30.65,7.1,23.75,81.9,😐 Average
 DNA Ankrah,T20I,0,16.15,35.0,8.37,30.0,68.8,😐 Average
 DO Leicher,ODI,1,7.165,27.0,6.41,54.5,145.7,🔥 On Fire
 DPS Tyagi,T20I,11,7.66,20.55,7.66,20.55,100.0,✅ Good
+DR Gibson,ODI,1,4.67,28.0,4.67,28.0,100.0,✅ Good
 DR Gibson,WPL,2,10.0,20.0,10.0,20.0,100.0,✅ Good
 DR Sams,BBL,13,9.870000000000001,25.835,8.63,20.28,83.0,😐 Average
 DR Sams,CPL,15,7.73,18.13,7.73,18.13,100.0,✅ Good
 DR Sams,PSL,4,9.875,46.5,9.95,42.5,96.1,✅ Good
-DS Airee,ODI,9,4.465,28.15,4.06,27.67,94.6,✅ Good
+DS Airee,ODI,9,4.645,31.775,4.1,28.2,88.5,✅ Good
 DS Airee,T20I,16,6.4,36.644999999999996,6.12,16.87,70.8,😐 Average
 DS Bajwa,ODI,0,4.8,24.0,5.56,50.0,162.1,🔥 On Fire
 DS Bajwa,T20I,1,6.49,37.0,9.56,51.0,142.6,🔥 On Fire
-DS Rathi,IPL,17,9.01,61.155,8.76,41.41,82.5,😐 Average
+DS Rathi,IPL,19,9.1,47.32,8.88,39.42,90.4,✅ Good
 DT Christian,BBL,1,8.4,42.0,8.21,24.5,78.0,😐 Average
 DT Doram,T20I,6,8.56,38.5,7.76,25.87,78.9,😐 Average
 DV Devjani Mutreja,T20I,4,7.125,27.0,7.12,19.0,85.2,✅ Good
-DVD Madampage,T20I,7,8.86,27.86,8.86,27.86,100.0,✅ Good
+DVD Madampage,T20I,10,8.645,23.765,8.76,25.4,104.1,✅ Good
 DW Lawrence,BBL,1,10.0,30.0,8.23,15.29,66.6,😐 Average
 Danish Aziz,PSL,0,10.0,10.0,10.97,53.0,319.8,🔥 On Fire
 Danyal Raja,T20I,5,9.14,51.2,8.61,31.75,78.1,😐 Average
@@ -787,8 +799,9 @@ Dawood Ahmadzai,T20I,18,6.18,25.93,6.23,17.27,83.7,😐 Average
 Dayal Joy,T20I,1,10.5,63.0,10.5,63.0,100.0,✅ Good
 Deep Harian,T20I,0,9.0,18.0,9.0,18.0,100.0,✅ Good
 Delawar Khan,T20I,5,8.46,17.2,7.32,21.58,106.0,✅ Good
-Diana Baig,ODI,22,5.9399999999999995,38.975,5.11,35.68,88.8,✅ Good
+Diana Baig,ODI,22,5.87,44.31,5.11,36.17,84.3,😐 Average
 Diana Baig,T20I,3,9.13,11.67,6.25,22.71,131.5,🔥 On Fire
+Dilum Fernando,T20I,5,7.0,12.6,7.0,12.6,100.0,✅ Good
 Divya Kandpal,T20I,0,8.0,16.0,8.0,16.0,100.0,✅ Good
 Dok Da Nit,T20I,4,6.33,14.5,6.33,14.5,100.0,✅ Good
 E Anyipo,T20I,0,6.0,23.0,5.21,20.22,87.4,✅ Good
@@ -800,7 +813,7 @@ E Bosch,ODI,1,4.71,33.0,4.71,33.0,100.0,✅ Good
 E Gouge,T20I,0,7.71,9.0,5.32,19.5,142.8,🔥 On Fire
 E Guehoada,T20I,15,4.17,9.4,4.96,15.19,140.3,🔥 On Fire
 E Kabwere,T20I,19,4.62,8.11,4.62,8.11,100.0,✅ Good
-E Kallous,T20I,6,6.425000000000001,27.8,6.81,20.0,89.0,✅ Good
+E Kallous,T20I,9,6.915000000000001,21.175,6.66,20.09,95.6,✅ Good
 E Kamara,T20I,24,5.13,15.08,5.32,16.08,105.2,✅ Good
 E Karimi,T20I,4,8.09,22.25,6.38,14.47,71.9,😐 Average
 E Konasova,T20I,2,7.24,38.0,7.24,38.0,100.0,✅ Good
@@ -808,7 +821,7 @@ E Kubwimana,T20I,6,8.05,25.5,9.2,21.79,99.9,✅ Good
 E Kuchey,T20I,0,8.6,43.0,8.73,96.0,162.4,🔥 On Fire
 E Kuncova,T20I,6,6.14,30.0,6.97,42.0,126.8,🔥 On Fire
 E Kusuda-Nairn,T20I,1,6.5,26.0,5.82,19.4,82.1,😐 Average
-E Malinga,IPL,31,9.184999999999999,19.145,9.23,19.35,100.8,✅ Good
+E Malinga,IPL,31,9.285,20.5,9.36,20.84,101.2,✅ Good
 E Malinga,ODI,4,5.97,55.75,5.97,55.75,100.0,✅ Good
 E Malinga,T20I,10,9.649999999999999,20.29,9.28,21.5,101.1,✅ Good
 E Mapisa,T20I,1,6.5,13.0,6.5,13.0,100.0,✅ Good
@@ -846,7 +859,7 @@ ER Oza,ODI,14,3.25,15.14,3.25,15.14,100.0,✅ Good
 ER Oza,T20I,27,5.11,10.89,5.06,11.99,104.6,✅ Good
 ET Williams,T20I,4,6.0,23.75,6.0,23.75,100.0,✅ Good
 EU Kejarukua,T20I,24,5.76,22.375,4.72,17.52,80.1,😐 Average
-Ebadat Hossain,Test,1,3.54,131.0,3.54,52.18,69.9,😐 Average
+Ebadat Hossain,Test,1,3.97,97.0,3.56,53.79,72.6,😐 Average
 Ebrahim Naseri,T20I,1,11.0,11.0,11.0,11.0,100.0,✅ Good
 Edward Fleming,T20I,6,6.28,18.83,6.28,18.83,100.0,✅ Good
 Ehsan Adil,T20I,0,12.32,39.0,12.32,39.0,100.0,✅ Good
@@ -856,11 +869,11 @@ Elias Tilman,T20I,4,9.63,43.75,9.63,43.75,100.0,✅ Good
 Elizabeth Annor,T20I,0,12.46,27.0,12.46,27.0,100.0,✅ Good
 Ellen Asante,T20I,0,9.0,18.0,9.0,18.0,100.0,✅ Good
 Emily Sirs,T20I,0,3.25,13.0,3.25,13.0,100.0,✅ Good
-Esam Rahman,T20I,0,10.94,93.0,10.94,93.0,100.0,✅ Good
+Esam Rahman,T20I,1,7.095,53.0,8.48,106.0,159.8,🔥 On Fire
 Ethan D'Souza,T20I,5,6.62,10.6,6.62,10.6,100.0,✅ Good
 Eva Somsel Yangzom,T20I,0,10.0,10.0,10.0,20.0,150.0,🔥 On Fire
 Ezgi Nur Kilic,T20I,12,4.94,9.67,5.8,13.4,128.0,🔥 On Fire
-F Banunaek,T20I,50,7.525,26.71,6.96,20.66,84.9,😐 Average
+F Banunaek,T20I,55,7.234999999999999,22.395000000000003,6.92,20.2,92.9,✅ Good
 F Chenda,T20I,0,13.0,13.0,13.0,13.0,100.0,✅ Good
 F Chipare,ODI,2,5.47,46.5,4.73,31.17,76.8,😐 Average
 F Chipare,T20I,7,7.75,29.71,7.14,23.61,85.8,✅ Good
@@ -904,16 +917,17 @@ Faisal Akram,PSL,7,8.655000000000001,24.855,8.96,27.22,106.5,✅ Good
 Faisal Khan,T20I,0,10.0,10.0,9.81,39.25,245.3,🔥 On Fire
 Faisal Raza,T20I,1,9.75,39.0,9.75,39.0,100.0,✅ Good
 Faizal Salehji,T20I,0,7.5,15.0,7.5,15.0,100.0,✅ Good
+Faraaz Mehti Abbas,T20I,1,5.0,35.0,5.0,35.0,100.0,✅ Good
 Fariha Trisna,ODI,0,6.08,78.0,4.8,31.33,59.6,📉 Poor
 Fariha Trisna,T20I,1,8.76,97.5,7.59,29.81,58.6,📉 Poor
 Fatima Sana,ODI,32,5.55,21.435,5.44,25.03,107.4,✅ Good
-Fatima Sana,T20I,9,7.885,24.355,7.33,23.13,94.0,✅ Good
+Fatima Sana,T20I,12,7.255,14.855,7.24,22.0,123.9,🔥 On Fire
 Fawad Ali,PSL,2,8.76,54.0,8.76,54.0,100.0,✅ Good
 Fayaz Khan,T20I,5,9.81,49.75,7.88,19.45,59.7,📉 Poor
 Fazalhaq Farooqi,CPL,5,8.87,27.2,8.87,27.2,100.0,✅ Good
 Fazalhaq Farooqi,IPL,0,12.35,210.0,10.32,72.83,59.1,📉 Poor
 Festus Benn,T20I,8,8.14,24.25,6.48,15.0,70.7,😐 Average
-Firas Hussain,T20I,3,7.26,17.33,8.58,22.6,124.3,🔥 On Fire
+Firas Hussain,T20I,4,9.254999999999999,31.165,9.2,26.33,91.9,✅ Good
 Fiza,T20I,16,4.345,7.625,5.03,9.06,117.3,🔥 On Fire
 Florencia Martinez,T20I,0,6.64,31.0,10.03,102.0,240.0,🔥 On Fire
 Franz Bur,T20I,0,9.0,9.0,8.33,12.5,115.7,🔥 On Fire
@@ -922,7 +936,7 @@ G Bruno,T20I,2,10.0,20.0,10.0,20.0,100.0,✅ Good
 G Candiru,T20I,13,5.84,19.655,5.73,21.47,103.7,✅ Good
 G Cengiz,T20I,3,6.83,22.0,7.78,35.0,136.5,🔥 On Fire
 G Chilia,T20I,2,6.24,13.0,6.24,13.0,100.0,✅ Good
-G Chohan,T20I,7,7.14,17.86,9.5,34.2,162.3,🔥 On Fire
+G Chohan,T20I,7,8.32,18.43,9.5,36.1,155.0,🔥 On Fire
 G Coetzee,IPL,2,10.92,65.5,10.34,31.47,71.4,😐 Average
 G Coetzee,T20I,10,8.375,29.81,9.19,25.91,98.3,✅ Good
 G Dempsey,ODI,2,7.26,103.5,5.31,40.56,56.2,📉 Poor
@@ -962,7 +976,7 @@ G Wareham,WPL,20,8.94,23.880000000000003,8.76,24.76,100.8,✅ Good
 G Wetherall,T20I,13,6.77,12.15,6.04,16.0,110.5,🔥 On Fire
 GA Priandana,T20I,21,7.58,17.985,7.33,16.58,94.4,✅ Good
 GC Murtaza,T20I,18,7.78,23.56,7.62,22.18,96.0,✅ Good
-GD Arta,T20I,29,5.725,16.625,5.9,17.74,104.9,✅ Good
+GD Arta,T20I,29,5.92,18.759999999999998,6.04,18.86,101.3,✅ Good
 GD Phillips,ODI,3,6.195,77.66499999999999,6.1,50.75,81.9,😐 Average
 GD Phillips,T20I,3,10.885,32.335,8.4,28.64,82.9,😐 Average
 GD Phillips,Test,2,3.05,30.5,3.57,31.03,109.4,✅ Good
@@ -996,14 +1010,14 @@ GS Dinusha,Test,3,2.32,9.67,2.32,9.67,100.0,✅ Good
 GS Sandhu,BBL,23,9.83,17.345,8.22,22.35,106.2,✅ Good
 GS Sequeira,T20I,7,4.37,7.29,4.37,7.29,100.0,✅ Good
 GT Taylor,T20I,4,10.25,33.75,8.76,20.18,72.6,😐 Average
-Gagandeep Singh,T20I,3,10.25,58.67,8.83,49.5,85.3,✅ Good
-Gaurav Tiwari,T20I,14,7.285,24.145,6.43,19.56,84.6,😐 Average
+Gagandeep Singh,T20I,5,11.725,45.835,9.27,46.2,89.9,✅ Good
+Gaurav Tiwari,T20I,16,7.3149999999999995,25.52,6.44,20.26,83.7,😐 Average
 Geovanis Uwase,T20I,9,5.335,16.5,5.33,16.67,100.5,✅ Good
 Ghayour Ahmad,T20I,0,8.75,35.0,8.75,35.0,100.0,✅ Good
 Ghulam Abbas Butt,T20I,2,7.88,31.5,6.17,37.0,97.9,✅ Good
 Ghulam Ahmadi,T20I,5,10.855,25.335,6.29,18.89,66.3,😐 Average
-Gong Yuting,T20I,2,2.7,9.0,4.52,24.5,219.8,🔥 On Fire
-Gulsan Jha,ODI,6,5.535,49.9,6.04,30.75,85.4,✅ Good
+Gong Yuting,T20I,3,4.35,24.5,5.09,29.67,119.1,🔥 On Fire
+Gulsan Jha,ODI,6,5.324999999999999,52.6,5.96,31.5,85.9,✅ Good
 Gulsan Jha,T20I,7,4.035,8.07,7.29,21.79,225.3,🔥 On Fire
 Gurjapneet Singh,IPL,4,9.25,42.0,9.25,42.0,100.0,✅ Good
 Gurpreet Singh,T20I,9,6.74,17.22,6.66,20.11,107.8,✅ Good
@@ -1032,7 +1046,7 @@ H Kerr,BBL,9,8.795,28.25,8.44,22.53,87.9,✅ Good
 H Khogiyani,T20I,8,7.05,29.38,7.05,29.38,100.0,✅ Good
 H Khuttan,T20I,4,6.4,29.335,6.08,19.0,79.9,😐 Average
 H Klazinge,T20I,0,11.0,11.0,6.86,10.58,79.3,😐 Average
-H Lakov,T20I,1,12.5,100.0,8.19,26.43,46.0,📉 Poor
+H Lakov,T20I,3,8.79,52.75,8.12,25.03,69.9,😐 Average
 H Leko,T20I,2,5.12,20.5,4.78,22.0,100.3,✅ Good
 H Lin Aung,T20I,11,7.14,13.64,7.07,16.91,111.5,🔥 On Fire
 H Lin Oo,T20I,8,7.5,11.25,8.65,22.5,157.7,🔥 On Fire
@@ -1049,7 +1063,7 @@ H Thaker,ODI,3,5.07,60.0,4.34,31.48,69.0,😐 Average
 H Thaker,T20I,11,5.62,17.73,6.07,18.0,104.8,✅ Good
 H Venkataram,T20I,20,7.55,16.35,7.55,16.35,100.0,✅ Good
 HA Daluwatta,T20I,0,8.73,32.0,10.0,70.0,166.6,🔥 On Fire
-HB Dickson,T20I,6,5.0,16.67,5.48,21.0,117.8,🔥 On Fire
+HB Dickson,T20I,8,5.025,17.585,5.37,20.38,111.4,🔥 On Fire
 HC Brook,Test,0,6.88,55.0,4.34,105.0,127.0,🔥 On Fire
 HC Knight,Test,0,5.0,5.0,2.45,24.43,268.8,🔥 On Fire
 HDJ Siegers,T20I,20,4.66,12.475000000000001,5.47,15.06,119.1,🔥 On Fire
@@ -1086,6 +1100,7 @@ Haider Ali,ODI,7,3.9400000000000004,44.29,3.94,43.29,98.9,✅ Good
 Haider Ali,T20I,33,6.795,22.424999999999997,6.24,17.39,84.7,😐 Average
 Hamid Mahmood,T20I,3,4.8,20.0,5.03,15.6,91.4,✅ Good
 Hamid Safi,T20I,4,10.71,18.75,10.71,18.75,100.0,✅ Good
+Hammadullah Shinwari,T20I,8,4.73,8.88,4.73,8.88,100.0,✅ Good
 Hamza Dar,T20I,0,9.0,9.0,8.14,33.0,228.6,🔥 On Fire
 Hamza Khan,T20I,0,15.0,15.0,15.0,15.0,100.0,✅ Good
 Happy Kumari,WPL,0,10.0,10.0,10.0,10.0,100.0,✅ Good
@@ -1107,7 +1122,7 @@ Hasan Ali,BBL,9,7.9,28.165,7.91,25.78,95.8,✅ Good
 Hasan Ali,ODI,2,5.82,47.5,5.81,28.29,79.7,😐 Average
 Hasan Ali,PSL,35,9.09,19.465,8.2,20.59,98.0,✅ Good
 Hasan Ali,T20I,13,10.57,17.08,8.59,20.5,100.6,✅ Good
-Hasan Ali,Test,0,2.75,28.0,3.02,26.66,102.5,✅ Good
+Hasan Ali,Test,4,2.835,29.875,3.01,26.9,98.1,✅ Good
 Hasan Mahmud,ODI,0,6.14,43.0,5.97,30.72,84.3,😐 Average
 Hasan Mahmud,T20I,6,10.33,29.83,7.8,23.21,76.7,😐 Average
 Hasan Mahmud,Test,6,3.16,40.33,3.52,30.31,93.3,✅ Good
@@ -1128,6 +1143,8 @@ Hunain Shah,PSL,18,10.79,15.195,8.96,20.41,108.7,✅ Good
 Hussain Talat,ODI,0,7.62,61.0,7.7,77.0,113.6,🔥 On Fire
 Hussain Talat,PSL,6,10.03,20.33,9.21,26.59,111.3,🔥 On Fire
 Hussain Talat,T20I,3,8.53,18.0,8.76,15.43,94.2,✅ Good
+Huzaif Yousuf,T20I,1,12.5,25.0,11.24,33.25,111.5,🔥 On Fire
+Huzaifa Mohammed,T20I,7,6.2,8.86,6.09,17.35,147.0,🔥 On Fire
 I Barma,T20I,16,7.01,16.365000000000002,4.56,12.5,70.7,😐 Average
 I Bist,T20I,9,6.27,20.89,5.73,21.55,97.3,✅ Good
 I Chathurani,T20I,16,3.53,6.355,3.27,6.75,99.4,✅ Good
@@ -1149,17 +1166,17 @@ I Sharma,IPL,4,11.18,51.25,8.3,33.77,70.1,😐 Average
 I Siriwardanalage,T20I,0,8.73,16.0,8.73,16.0,100.0,✅ Good
 I Stewart,T20I,4,8.5,17.0,8.5,17.0,100.0,✅ Good
 I Suhun,T20I,2,7.85,8.5,8.43,44.0,312.5,🔥 On Fire
-I Takahashi,T20I,12,5.58,18.97,5.92,16.5,96.5,✅ Good
+I Takahashi,T20I,17,5.41,18.815,5.77,15.27,93.9,✅ Good
 I Toua,ODI,5,2.81,18.0,3.9,23.38,134.3,🔥 On Fire
 I Toua,T20I,29,5.21,41.0,4.68,14.08,62.1,😐 Average
 I Waqavakatoga,T20I,16,4.97,9.31,4.97,9.31,100.0,✅ Good
 I van der Woning,T20I,17,5.699999999999999,17.105,6.43,19.58,113.6,🔥 On Fire
-IDM Latin,T20I,4,9.84,10.25,9.53,19.25,142.3,🔥 On Fire
+IDM Latin,T20I,7,8.24,17.86,9.05,20.63,112.7,🔥 On Fire
 IECM Wong,T20I,5,7.68,29.2,6.85,27.64,91.9,✅ Good
 IGTP Wiguna,T20I,4,10.17,26.0,8.04,32.5,102.0,✅ Good
 IJR Zwilling,T20I,44,4.665,12.845,5.04,14.86,111.9,🔥 On Fire
 IK Cheema,T20I,3,6.19,22.0,6.19,22.0,100.0,✅ Good
-IK Gamantika,T20I,25,6.245,18.32,5.89,16.24,91.5,✅ Good
+IK Gamantika,T20I,29,6.145,17.625,5.87,16.03,93.2,✅ Good
 IKEG Artawan,T20I,21,8.42,34.78,6.78,19.91,68.9,😐 Average
 IKO Aboagye,T20I,8,2.75,4.12,4.46,8.29,181.7,🔥 On Fire
 IM Vaghela,T20I,13,5.71,16.075,5.02,12.62,83.2,😐 Average
@@ -1183,15 +1200,16 @@ Imad Wasim,CPL,3,6.86,66.67,6.5,20.91,63.1,😐 Average
 Imad Wasim,PSL,26,7.35,22.805,7.09,27.11,107.7,✅ Good
 Imal Zuwak,T20I,0,5.0,5.0,5.0,5.0,100.0,✅ Good
 Imran Ahmed Kaneez,T20I,1,7.89,75.0,6.1,20.83,52.5,📉 Poor
-Imran Ameer,T20I,6,5.275,16.335,6.68,27.29,146.8,🔥 On Fire
+Imran Ameer,T20I,9,5.8,20.085,6.83,27.85,128.2,🔥 On Fire
 Imran Anwar,T20I,35,8.675,31.439999999999998,7.07,19.82,72.3,😐 Average
 Imran Khan,T20I,40,7.525,16.86,7.11,19.39,104.7,✅ Good
 Imran Tahir,CPL,23,7.21,15.04,6.6,16.67,101.2,✅ Good
 Imtiaz Khan,T20I,5,8.92,21.4,8.92,21.4,100.0,✅ Good
 Inshaf Farook,T20I,7,5.24,12.71,5.24,12.71,100.0,✅ Good
-Iqra Sahar,T20I,7,4.675,32.71,5.25,18.79,84.9,😐 Average
+Iqra Sahar,T20I,12,4.529999999999999,32.055,5.13,17.98,84.7,😐 Average
 Irfan Hafejee,T20I,2,4.0,8.0,6.77,15.95,184.3,🔥 On Fire
 Irfan Khan,ODI,3,10.2,17.0,10.2,17.0,100.0,✅ Good
+Irfan Ringku,T20I,3,7.5,20.0,7.5,20.0,100.0,✅ Good
 Irfan Safi,T20I,13,9.745000000000001,19.8,9.88,18.62,97.7,✅ Good
 Ishan Kishan,IPL,0,24.0,4.0,24.0,4.0,100.0,✅ Good
 Ishtiaq Ahmad,T20I,20,7.1,12.9,6.77,14.93,105.5,✅ Good
@@ -1200,6 +1218,7 @@ Izaz Ali,T20I,10,9.55,25.0,9.51,22.08,94.0,✅ Good
 J Ajiambo,T20I,4,4.79,21.75,4.53,12.11,75.1,😐 Average
 J Baguma,T20I,4,7.44,16.75,6.19,12.86,80.0,😐 Average
 J Baker,T20I,3,9.29,21.67,9.29,21.67,100.0,✅ Good
+J Baleicikoibia,T20I,2,9.67,14.5,12.0,24.0,144.8,🔥 On Fire
 J Blades,CPL,3,12.56,30.0,12.56,30.0,100.0,✅ Good
 J Blades,ODI,1,6.91,99.0,8.32,172.0,147.1,🔥 On Fire
 J Blades,T20I,6,8.9,29.67,8.9,29.67,100.0,✅ Good
@@ -1212,7 +1231,7 @@ J Chirila,T20I,2,5.14,36.0,5.14,36.0,100.0,✅ Good
 J Coetzee,T20I,16,4.125,5.415,4.73,8.08,131.9,🔥 On Fire
 J Cutinho,T20I,6,7.25,9.67,7.25,9.67,100.0,✅ Good
 J Daley,T20I,4,5.19,8.0,5.19,8.0,100.0,✅ Good
-J Dowling,T20I,6,7.38,20.5,7.38,20.5,100.0,✅ Good
+J Dowling,T20I,9,8.55,25.915,8.24,24.11,94.7,✅ Good
 J Drysdale,T20I,6,9.11,13.67,8.94,24.58,139.0,🔥 On Fire
 J Dzulfikar,T20I,7,3.57,7.57,4.04,9.71,120.7,🔥 On Fire
 J Edmiston,T20I,2,9.5,19.0,9.5,19.0,100.0,✅ Good
@@ -1220,18 +1239,19 @@ J Edwards,BBL,29,7.905,18.655,7.89,20.35,104.4,✅ Good
 J Edwards,T20I,0,12.5,25.0,12.5,25.0,100.0,✅ Good
 J Erdenesuvd,T20I,2,6.21,29.5,7.14,91.0,211.7,🔥 On Fire
 J Essex,T20I,0,8.07,39.0,8.07,39.0,100.0,✅ Good
-J Fernando,T20I,1,9.3,93.0,9.3,93.0,100.0,✅ Good
+J Fernando,T20I,3,7.65,55.5,8.06,43.0,91.4,✅ Good
 J Giyanani,ODI,0,10.33,31.0,10.33,31.0,100.0,✅ Good
 J Glasgow,ODI,3,6.470000000000001,41.335,6.03,68.67,129.7,🔥 On Fire
 J Glasgow,T20I,4,5.89,13.25,6.61,19.0,127.8,🔥 On Fire
+J Grewcock,ODI,1,4.33,26.0,4.33,26.0,100.0,✅ Good
 J Gunasekar,T20I,25,5.3100000000000005,13.49,5.11,13.16,96.9,✅ Good
 J Henry,T20I,3,9.17,18.33,8.71,23.8,112.4,🔥 On Fire
 J Hicks,T20I,4,5.59,23.75,4.18,9.62,57.6,📉 Poor
-J Horrocks,T20I,0,16.5,33.0,9.0,30.55,73.6,😐 Average
-J Jarvis,ODI,15,4.84,24.415,5.26,25.73,107.0,✅ Good
+J Horrocks,T20I,1,9.33,56.0,8.69,29.92,73.3,😐 Average
+J Jarvis,ODI,16,5.154999999999999,25.685,5.37,26.09,102.9,✅ Good
 J Jarvis,T20I,4,9.0,28.75,8.8,19.67,83.1,😐 Average
-J Kariko,T20I,3,6.27,23.0,5.18,13.54,70.7,😐 Average
-J Khadka,T20I,5,8.85,28.6,8.85,28.6,100.0,✅ Good
+J Kariko,T20I,5,5.885,22.5,5.21,14.14,75.7,😐 Average
+J Khadka,T20I,8,8.355,23.465,8.55,24.75,103.9,✅ Good
 J Kominkova,T20I,3,7.3,54.33,7.48,46.75,94.3,✅ Good
 J Lassayo,T20I,5,7.56,18.4,7.56,18.4,100.0,✅ Good
 J Layne,CPL,0,12.25,49.0,12.56,113.0,166.6,🔥 On Fire
@@ -1245,6 +1265,7 @@ J Maguire,ODI,13,4.92,22.54,4.72,34.57,124.7,🔥 On Fire
 J Maguire,T20I,20,6.51,18.09,6.57,18.37,101.2,✅ Good
 J Martins,T20I,10,8.31,12.6,8.31,12.6,100.0,✅ Good
 J Matharu,ODI,0,5.46,71.0,5.46,71.0,100.0,✅ Good
+J Mathew,T20I,3,7.0,14.0,7.0,14.0,100.0,✅ Good
 J Mbabazi,T20I,52,5.49,9.71,4.8,10.05,95.5,✅ Good
 J Miyaji,T20I,12,7.52,19.75,6.18,13.06,74.2,😐 Average
 J Neill,ODI,0,6.6,33.0,6.6,33.0,100.0,✅ Good
@@ -1253,7 +1274,7 @@ J Newland,T20I,0,7.0,14.0,7.0,14.0,100.0,✅ Good
 J Nkomo,ODI,2,4.56,30.0,3.82,17.85,71.6,😐 Average
 J Nkomo,T20I,17,6.085,13.235,5.07,12.28,88.1,✅ Good
 J Overton,BBL,17,8.085,20.715,8.34,19.59,98.9,✅ Good
-J Overton,IPL,11,11.355,51.18,9.87,26.91,69.8,😐 Average
+J Overton,IPL,14,11.36,50.394999999999996,9.76,23.71,66.5,😐 Average
 J Overton,ODI,13,6.215,27.375,5.65,24.36,89.9,✅ Good
 J Overton,T20I,25,8.565,17.225,8.22,16.45,95.7,✅ Good
 J Overton,Test,2,4.32,82.0,4.12,77.5,94.9,✅ Good
@@ -1261,6 +1282,7 @@ J Perry,T20I,0,15.0,30.0,15.0,30.0,100.0,✅ Good
 J Proctor,T20I,4,7.42,34.0,6.15,20.6,71.7,😐 Average
 J Ramanandi,ODI,2,4.64,104.5,4.64,104.5,100.0,✅ Good
 J Ramanandi,T20I,22,9.925,22.525,8.07,14.91,73.8,😐 Average
+J Rasu,T20I,8,5.8,7.25,7.22,16.97,179.3,🔥 On Fire
 J Rokoro,T20I,1,8.09,62.0,8.09,62.0,100.0,✅ Good
 J Sanele,T20I,11,4.95,11.64,4.91,17.33,124.0,🔥 On Fire
 J Singye,T20I,3,6.4,32.0,6.75,25.29,92.2,✅ Good
@@ -1268,10 +1290,10 @@ J Souckova,T20I,0,9.27,17.0,9.27,17.0,100.0,✅ Good
 J Stanigze,T20I,5,7.27,16.0,7.38,15.38,98.8,✅ Good
 J Sumerauer,T20I,3,7.54,50.67,7.2,20.71,68.2,😐 Average
 J Thomas,T20I,4,9.1,22.75,7.76,26.4,100.7,✅ Good
-J Tuffin,T20I,13,6.82,21.0,6.5,18.57,91.9,✅ Good
+J Tuffin,T20I,18,6.605,17.0,6.48,17.5,100.5,✅ Good
 J Tugsjargal,T20I,0,7.2,18.0,7.2,18.0,100.0,✅ Good
 J Wadia,BBL,3,8.615,25.835,7.58,30.33,102.7,✅ Good
-J Wilson,T20I,5,11.58,52.75,11.27,46.6,92.8,✅ Good
+J Wilson,T20I,8,10.65,38.25,10.67,38.25,100.1,✅ Good
 J Yon,T20I,2,9.29,32.5,6.67,13.33,56.4,📉 Poor
 J de Figueiredo,T20I,3,4.36,16.0,4.36,16.0,100.0,✅ Good
 JA Burrows,T20I,2,10.77,35.0,7.64,16.63,59.2,📉 Poor
@@ -1293,7 +1315,7 @@ JA Warrican,Test,26,2.71,17.73,3.04,27.95,134.9,🔥 On Fire
 JAM Henri,T20I,10,8.25,26.375,8.05,26.4,98.8,✅ Good
 JAN Ngono,T20I,1,5.5,22.0,6.2,25.2,113.6,🔥 On Fire
 JB Richards,T20I,0,12.0,8.0,12.0,8.0,100.0,✅ Good
-JC Archer,IPL,29,9.01,27.340000000000003,7.95,24.63,89.2,✅ Good
+JC Archer,IPL,29,9.245000000000001,28.695,8.03,25.22,87.4,✅ Good
 JC Archer,ODI,16,4.85,21.25,4.98,24.33,108.6,✅ Good
 JC Archer,T20I,22,9.715,26.295,8.3,22.21,84.9,😐 Average
 JC Archer,Test,18,2.97,27.89,2.98,29.61,103.3,✅ Good
@@ -1312,7 +1334,7 @@ JDS Neesham,T20I,26,9.375,22.57,9.21,23.19,100.5,✅ Good
 JE Ronalds,T20I,20,3.82,8.35,4.5,9.78,117.5,🔥 On Fire
 JE Root,ODI,3,6.52,52.25,5.9,55.93,98.8,✅ Good
 JE Root,Test,3,3.14,75.0,3.36,43.4,82.4,😐 Average
-JEA Doctora,T20I,4,8.11,12.5,8.67,16.25,118.5,🔥 On Fire
+JEA Doctora,T20I,4,8.805,15.75,8.84,21.0,116.9,🔥 On Fire
 JF Bangura,T20I,0,10.29,12.0,10.29,12.0,100.0,✅ Good
 JG Bethell,BBL,4,6.81,19.0,6.81,19.0,100.0,✅ Good
 JG Bethell,ODI,4,7.33,53.5,7.47,46.38,94.3,✅ Good
@@ -1323,7 +1345,7 @@ JH Davey,ODI,1,2.9,29.0,4.82,23.67,123.9,🔥 On Fire
 JI de Villiers,ODI,0,5.33,16.0,6.65,51.33,222.8,🔥 On Fire
 JI de Villiers,T20I,3,7.06,40.0,8.2,54.67,126.4,🔥 On Fire
 JJ Bazley,BBL,0,12.0,12.0,8.74,28.0,153.1,🔥 On Fire
-JJ Bumrah,IPL,25,7.6499999999999995,48.65,7.27,21.2,69.3,😐 Average
+JJ Bumrah,IPL,25,7.4799999999999995,51.15,7.26,21.29,69.3,😐 Average
 JJ Bumrah,T20I,35,7.1899999999999995,17.665,6.59,17.2,94.5,✅ Good
 JJ Bumrah,Test,31,2.79,22.16,2.74,19.38,92.8,✅ Good
 JJ Davidson,ODI,8,5.9399999999999995,44.43,6.01,31.0,85.5,✅ Good
@@ -1337,10 +1359,10 @@ JKC Claxton,T20I,9,8.045,22.95,7.86,23.0,99.0,✅ Good
 JKD Andreano,T20I,8,5.54,31.38,5.59,27.09,93.6,✅ Good
 JL Aras,T20I,6,5.59,29.5,6.05,19.0,86.3,✅ Good
 JL Jonassen,WPL,13,8.25,18.08,7.74,18.03,96.8,✅ Good
-JL Tutty,T20I,1,4.67,28.0,6.1,20.56,102.0,✅ Good
+JL Tutty,T20I,3,6.835,27.5,6.58,21.73,87.6,✅ Good
 JM Bird,BBL,4,4.0,4.0,7.37,23.87,390.5,🔥 On Fire
 JM Iradukunda,T20I,11,6.62,14.64,7.47,20.33,125.9,🔥 On Fire
-JM Kerr,ODI,22,4.63,25.57,4.41,22.44,91.5,✅ Good
+JM Kerr,ODI,23,4.555,26.29,4.41,22.68,91.5,✅ Good
 JM Kerr,T20I,20,6.789999999999999,18.87,6.38,26.74,117.8,🔥 On Fire
 JM Polarouthu,T20I,0,10.62,46.0,10.62,46.0,100.0,✅ Good
 JM Vujinovich,T20I,2,10.3,51.5,7.57,25.82,61.8,😐 Average
@@ -1356,7 +1378,7 @@ JNT Seales,ODI,29,5.72,16.9,5.84,28.64,135.8,🔥 On Fire
 JNT Seales,T20I,6,11.645,49.835,10.74,46.83,93.1,✅ Good
 JNT Seales,Test,24,3.31,35.5,3.39,24.58,85.8,✅ Good
 JO Holder,CPL,14,7.8,19.5,7.8,24.14,111.9,🔥 On Fire
-JO Holder,IPL,7,6.95,15.71,8.62,23.8,137.8,🔥 On Fire
+JO Holder,IPL,13,6.36,10.92,8.5,22.26,168.7,🔥 On Fire
 JO Holder,PSL,17,9.11,16.53,9.11,16.53,100.0,✅ Good
 JO Holder,T20I,48,9.175,22.735,8.76,24.28,101.1,✅ Good
 JP Behrendorff,BBL,14,9.275,76.77,7.09,18.79,50.5,📉 Poor
@@ -1364,7 +1386,7 @@ JP Cabrera,T20I,3,5.41,15.665,5.69,24.67,131.3,🔥 On Fire
 JP Greaves,ODI,7,6.69,59.29,6.7,63.62,103.7,✅ Good
 JP Greaves,Test,14,3.73,41.86,3.5,38.95,93.4,✅ Good
 JR Barry,T20I,3,10.05,46.33,8.73,21.82,67.0,😐 Average
-JR Hazlewood,IPL,31,9.094999999999999,23.165,8.44,21.72,93.3,✅ Good
+JR Hazlewood,IPL,32,9.02,23.375,8.44,21.88,93.6,✅ Good
 JR Hazlewood,ODI,4,4.11,41.25,4.74,26.29,89.5,✅ Good
 JR Hazlewood,T20I,12,7.37,16.58,7.36,20.41,111.5,🔥 On Fire
 JR Hazlewood,Test,16,2.84,17.94,2.77,23.73,114.9,🔥 On Fire
@@ -1389,7 +1411,7 @@ Jahandad Khan,PSL,7,10.879999999999999,39.5,9.96,36.92,92.5,✅ Good
 Jahandad Khan,T20I,1,18.92,82.0,11.61,30.14,49.1,📉 Poor
 Jai Sinh,T20I,4,8.57,15.0,7.55,9.22,74.8,😐 Average
 Jaikumar Thakur,T20I,3,8.53,42.67,8.53,42.67,100.0,✅ Good
-Jakob Gul,T20I,19,7.28,16.74,7.28,16.74,100.0,✅ Good
+Jakob Gul,T20I,24,8.065,19.869999999999997,7.64,18.04,92.8,✅ Good
 Jalat Khan,PSL,1,12.67,38.0,12.67,38.0,100.0,✅ Good
 Jamshid Nasiri,T20I,8,6.43,17.43,5.58,13.25,81.4,😐 Average
 Jannatul Ferdus,ODI,9,4.44,18.33,4.44,18.33,100.0,✅ Good
@@ -1397,9 +1419,9 @@ Jasdeep Singh,ODI,16,5.62,24.69,5.48,30.07,109.6,✅ Good
 Jasdeep Singh,T20I,7,5.74,15.71,8.31,25.4,153.2,🔥 On Fire
 Jaskaran Singh,ODI,4,5.26,33.75,5.26,33.75,100.0,✅ Good
 Jaskaran Singh,T20I,13,9.66,70.46,8.32,24.31,60.3,😐 Average
-Jaspal Singh,T20I,2,10.36,47.5,8.09,47.2,88.7,✅ Good
+Jaspal Singh,T20I,3,8.515,33.75,7.96,42.67,110.0,✅ Good
 Jaspreet Singh,T20I,6,8.02,30.1,7.1,18.42,74.9,😐 Average
-Jaswinder Singh,T20I,9,11.475,23.835,8.22,19.88,77.5,😐 Average
+Jaswinder Singh,T20I,9,10.475,34.835,8.36,21.25,70.4,😐 Average
 Jatinder Singh,ODI,0,4.0,4.0,5.12,41.0,576.5,🔥 On Fire
 Jatinder Singh,T20I,0,36.0,6.0,10.62,23.0,206.4,🔥 On Fire
 Javed Hina,T20I,0,5.0,5.0,5.0,5.0,100.0,✅ Good
@@ -1407,15 +1429,15 @@ Javid Patel,T20I,9,6.47,26.0,6.47,26.0,100.0,✅ Good
 Jay Odedra,ODI,7,4.465,23.57,4.0,24.7,97.2,✅ Good
 Jay Odedra,T20I,1,11.67,35.0,7.4,31.71,77.0,😐 Average
 Jayasooriya,T20I,8,5.46,19.12,5.43,17.69,96.0,✅ Good
-Jiaping Li,T20I,2,3.5,7.0,3.62,14.5,155.3,🔥 On Fire
+Jiaping Li,T20I,2,5.86,21.0,5.1,28.5,111.4,🔥 On Fire
 Joanna Child,T20I,0,6.0,11.0,6.0,11.0,100.0,✅ Good
 Jobayer Hossen,T20I,1,7.0,77.0,7.24,18.1,63.5,😐 Average
 Jonte Smith,T20I,5,8.0,14.4,6.12,11.0,76.4,😐 Average
 Josh Brown,BBL,0,18.0,48.0,18.0,48.0,100.0,✅ Good
 Joshua Asia,T20I,18,4.86,8.72,4.67,9.85,104.5,✅ Good
-Joyleen Kaur,T20I,1,5.220000000000001,33.5,5.69,21.0,85.8,✅ Good
+Joyleen Kaur,T20I,9,5.2,31.56,5.2,13.8,71.9,😐 Average
 Junaid Aziz,T20I,0,7.5,15.0,8.4,13.07,99.6,✅ Good
-Junaid Khan,T20I,4,4.25,8.5,6.55,21.46,203.3,🔥 On Fire
+Junaid Khan,T20I,9,5.125,9.75,6.5,19.77,164.8,🔥 On Fire
 Junaid Siddique,ODI,28,5.105,20.625,5.1,26.27,113.6,🔥 On Fire
 Junaid Siddique,T20I,30,8.195,16.19,7.85,18.83,106.0,✅ Good
 K Amuge,T20I,33,4.31,8.27,4.31,8.27,100.0,✅ Good
@@ -1427,7 +1449,7 @@ K Boniface,T20I,2,8.5,17.0,8.5,17.0,100.0,✅ Good
 K Brock-Nielsen,T20I,1,9.79,62.0,8.77,57.0,90.8,✅ Good
 K Burrows,T20I,3,11.0,7.33,11.0,7.33,100.0,✅ Good
 K Canavarci,T20I,2,5.92,36.5,7.11,38.5,112.8,🔥 On Fire
-K Chigora,ODI,3,6.85,60.5,5.87,46.6,81.4,😐 Average
+K Chigora,ODI,4,6.77,57.25,6.11,45.33,84.7,😐 Average
 K Chigora,T20I,6,7.85,18.25,7.28,18.71,97.6,✅ Good
 K Dorji,T20I,2,9.21,21.5,9.46,28.0,116.5,🔥 On Fire
 K Fletcher,T20I,5,7.7,23.6,6.79,18.96,84.3,😐 Average
@@ -1460,7 +1482,7 @@ K Lake,T20I,1,11.5,18.0,5.45,15.0,65.4,😐 Average
 K Mahekdeep,T20I,7,6.0,13.43,5.37,15.88,103.9,✅ Good
 K Mataora,T20I,0,14.0,14.0,14.0,14.0,100.0,✅ Good
 K Matigimu,Test,2,5.77,62.0,5.77,62.0,100.0,✅ Good
-K Mirpuri,T20I,6,11.48,47.6,8.04,29.0,65.5,😐 Average
+K Mirpuri,T20I,10,12.295,38.0,8.47,29.65,73.5,😐 Average
 K Mishara,ODI,0,9.0,9.0,9.0,9.0,100.0,✅ Good
 K Mishara,T20I,0,10.0,10.0,10.0,10.0,100.0,✅ Good
 K Moingoto,T20I,2,4.69,21.5,4.69,21.5,100.0,✅ Good
@@ -1468,7 +1490,7 @@ K Mtunduwatha,T20I,0,10.0,10.0,10.0,10.0,100.0,✅ Good
 K Nassoro,T20I,9,7.0,18.1,6.71,19.73,102.4,✅ Good
 K Ndlovu,ODI,5,4.27,25.6,3.53,16.5,73.6,😐 Average
 K Ndlovu,T20I,5,6.99,24.0,5.98,18.33,81.0,😐 Average
-K Nestor,T20I,8,9.23,29.715,8.78,31.38,100.4,✅ Good
+K Nestor,T20I,8,9.495,42.715,8.9,33.0,85.5,✅ Good
 K Oala,ODI,2,3.74,19.0,3.74,19.0,100.0,✅ Good
 K Oala,T20I,0,8.5,17.0,5.71,20.0,92.4,✅ Good
 K Ota,T20I,7,6.87,16.86,6.02,14.65,87.3,✅ Good
@@ -1478,7 +1500,7 @@ K Pierre,ODI,1,3.6,108.0,4.75,133.0,127.5,🔥 On Fire
 K Pierre,T20I,3,8.62,23.0,9.67,31.9,125.4,🔥 On Fire
 K Pierre,Test,1,3.67,246.0,3.67,246.0,100.0,✅ Good
 K Piet,T20I,11,6.645,39.14,6.68,18.38,73.7,😐 Average
-K Rabada,IPL,18,10.4,51.75,8.62,21.53,62.2,😐 Average
+K Rabada,IPL,23,10.36,50.525,8.62,21.22,62.6,😐 Average
 K Rabada,ODI,3,6.52,37.33,5.07,25.72,73.3,😐 Average
 K Rabada,T20I,11,8.77,38.485,8.33,26.62,82.1,😐 Average
 K Rabada,Test,20,3.46,23.35,3.3,21.35,93.4,✅ Good
@@ -1523,12 +1545,12 @@ KDC Clarke,T20I,1,10.0,40.0,10.0,40.0,100.0,✅ Good
 KDU Prabodhani,ODI,5,5.31,27.8,4.62,38.88,113.4,🔥 On Fire
 KE Bryce,ODI,6,6.06,32.33,4.9,24.5,78.3,😐 Average
 KE Bryce,T20I,13,5.52,11.38,4.81,12.39,98.0,✅ Good
-KH Pandya,IPL,27,8.475000000000001,24.645,7.55,30.42,106.3,✅ Good
+KH Pandya,IPL,27,8.475000000000001,25.945,7.56,30.66,103.7,✅ Good
 KHM James,CPL,0,12.33,37.0,9.23,60.0,118.5,🔥 On Fire
 KIC Asalanka,ODI,3,5.29,84.5,4.99,32.63,66.5,😐 Average
 KIC Asalanka,PSL,0,8.67,26.0,8.67,26.0,100.0,✅ Good
 KIC Asalanka,T20I,4,7.575,29.25,7.8,35.29,111.8,🔥 On Fire
-KJ Ferrary,T20I,0,17.0,17.0,6.82,13.83,60.7,😐 Average
+KJ Ferrary,T20I,1,9.62,77.0,7.21,17.38,48.8,📉 Poor
 KJ Garth,ODI,19,4.64,24.990000000000002,4.21,20.25,85.9,✅ Good
 KJ Garth,T20I,8,8.39,31.0,6.73,24.3,79.3,😐 Average
 KJ Garth,Test,2,1.65,14.0,2.88,33.12,205.6,🔥 On Fire
@@ -1564,7 +1586,7 @@ KV Morea,T20I,4,7.18,19.75,7.37,15.29,90.0,✅ Good
 KV Sharma,IPL,7,8.53,18.29,8.38,24.89,117.2,🔥 On Fire
 KV Vakuruivalu,T20I,3,6.43,24.67,5.64,17.22,78.8,😐 Average
 KW Richardson,BBL,4,9.53,35.75,7.9,21.36,71.3,😐 Average
-KY Chan,T20I,28,3.94,9.295,4.44,9.06,105.1,✅ Good
+KY Chan,T20I,39,3.7750000000000004,8.625,4.36,8.68,108.1,✅ Good
 Kabir Berlia,T20I,8,8.4,20.12,8.4,20.12,100.0,✅ Good
 Kaleem Sana,ODI,18,4.74,20.06,4.35,19.84,95.3,✅ Good
 Kaleem Sana,T20I,27,6.725,38.04,6.1,13.39,63.0,😐 Average
@@ -1574,15 +1596,15 @@ Kamran Ghulam,PSL,0,7.0,7.0,8.6,86.0,675.7,🔥 On Fire
 Kamran Ghulam,Test,0,5.05,16.0,5.05,16.0,100.0,✅ Good
 Kamran Wahid,T20I,5,8.25,13.2,8.89,15.75,113.5,🔥 On Fire
 Kanchan Rana,T20I,8,5.51,16.88,5.48,15.7,96.2,✅ Good
-Karan KC,ODI,19,5.09,24.42,5.17,24.3,100.5,✅ Good
+Karan KC,ODI,21,5.305,25.035,5.19,24.32,97.5,✅ Good
 Karan KC,T20I,14,8.71,43.54,7.77,18.47,65.8,😐 Average
-Karan Singh,T20I,1,7.71,54.0,7.71,54.0,100.0,✅ Good
+Karan Singh,T20I,4,6.7,33.5,6.7,33.5,100.0,✅ Good
 Karanbir Singh,T20I,28,11.18,35.795,8.3,15.22,58.4,📉 Poor
 Karim Janat,IPL,0,30.0,30.0,30.0,30.0,100.0,✅ Good
 Karma Dorji,T20I,2,4.43,15.5,7.31,27.88,172.4,🔥 On Fire
 Karri Gullem Keen,T20I,15,5.7,16.27,5.52,14.14,91.9,✅ Good
 Karthik Jayaraj,T20I,0,8.0,24.0,8.0,24.0,100.0,✅ Good
-Kartik Tyagi,IPL,11,9.21,26.36,9.72,37.15,123.2,🔥 On Fire
+Kartik Tyagi,IPL,14,8.87,22.5,9.59,34.27,130.2,🔥 On Fire
 Kashif Ali,Test,2,3.6,19.5,3.6,19.5,100.0,✅ Good
 Kashif Bhatti,PSL,1,9.0,36.0,10.0,60.0,138.9,🔥 On Fire
 Kashif Khan,T20I,4,6.16,18.75,6.16,18.75,100.0,✅ Good
@@ -1611,8 +1633,8 @@ Khuzaima Tanveer,T20I,0,8.2,56.0,8.2,56.0,100.0,✅ Good
 Kim Daeyeon,T20I,0,16.0,16.0,8.12,19.5,86.3,✅ Good
 Komang Putra,T20I,0,10.5,21.0,10.5,21.0,100.0,✅ Good
 Krish Bhagat,IPL,0,10.5,63.0,10.5,63.0,100.0,✅ Good
-Kuldeep Gurjar,T20I,10,8.14,15.6,9.12,19.3,117.9,🔥 On Fire
-Kuldeep Yadav,IPL,23,8.855,34.405,8.25,27.34,86.3,✅ Good
+Kuldeep Gurjar,T20I,11,9.07,27.8,9.26,21.18,89.1,✅ Good
+Kuldeep Yadav,IPL,23,9.004999999999999,37.335,8.29,27.7,83.1,😐 Average
 Kuldeep Yadav,ODI,23,6.25,44.11,5.12,25.96,70.4,😐 Average
 Kuldeep Yadav,T20I,26,7.79,17.12,6.87,13.37,83.1,😐 Average
 Kuldeep Yadav,Test,20,3.47,23.15,3.53,22.42,99.3,✅ Good
@@ -1621,14 +1643,14 @@ Kushal Malla,T20I,1,12.0,10.5,6.45,16.88,107.3,✅ Good
 Kyte Gullem Keen,T20I,4,5.39,11.0,5.39,11.0,100.0,✅ Good
 L Barnett,T20I,6,4.73,20.5,3.9,16.23,80.8,😐 Average
 L Bigula,T20I,1,5.84,37.0,5.84,37.0,100.0,✅ Good
-L Bruce,T20I,7,9.455,25.95,8.08,27.0,94.8,✅ Good
+L Bruce,T20I,10,8.695,24.6,8.1,27.08,101.6,✅ Good
 L Bull,T20I,29,4.45,9.79,4.43,9.24,97.0,✅ Good
 L Cardoso,T20I,27,3.47,9.5,4.37,7.82,104.1,✅ Good
 L Chipanga,T20I,18,3.525,9.64,3.62,11.09,108.9,✅ Good
 L Delany,ODI,1,6.24,281.0,4.74,39.08,44.9,📉 Poor
 L Delany,T20I,11,5.305,11.75,6.17,15.93,125.9,🔥 On Fire
 L Denny,T20I,2,8.52,22.0,7.37,17.84,83.8,😐 Average
-L Filer,ODI,9,6.02,37.56,5.31,23.83,75.8,😐 Average
+L Filer,ODI,10,5.16,40.28,5.24,24.47,81.2,😐 Average
 L Filer,T20I,3,9.03,48.67,7.43,34.67,76.8,😐 Average
 L Filer,Test,2,3.29,43.0,4.03,44.0,112.4,🔥 On Fire
 L Hamilton,T20I,6,4.33,8.67,4.33,8.67,100.0,✅ Good
@@ -1643,8 +1665,8 @@ L Lamin,T20I,4,7.37,25.5,7.62,28.25,107.1,✅ Good
 L Leemhuis,T20I,1,9.33,28.0,9.33,28.0,100.0,✅ Good
 L Little,ODI,7,4.89,18.29,5.9,37.88,163.9,🔥 On Fire
 L Little,T20I,0,8.54,31.0,8.46,86.0,188.2,🔥 On Fire
-L Mabhero,ODI,7,4.585,37.915,4.35,37.0,96.2,✅ Good
-L Mabhero,T20I,12,5.8100000000000005,31.225,5.78,22.0,85.0,😐 Average
+L Mabhero,ODI,7,4.82,54.415,4.48,40.3,83.5,😐 Average
+L Mabhero,T20I,12,6.775,50.225,6.02,23.73,68.1,😐 Average
 L Makgale,T20I,4,2.25,2.25,2.25,2.25,100.0,✅ Good
 L Malino,T20I,29,4.22,8.665,4.6,11.2,119.1,🔥 On Fire
 L Mamba,T20I,5,6.58,54.2,6.63,49.0,95.6,✅ Good
@@ -1654,12 +1676,12 @@ L McCarthy,ODI,5,7.3,37.0,7.3,37.0,100.0,✅ Good
 L McCarthy,T20I,0,20.25,81.0,20.25,81.0,100.0,✅ Good
 L Moises,T20I,21,3.1900000000000004,9.79,4.03,9.52,111.8,🔥 On Fire
 L Monanthane,T20I,1,6.67,30.0,6.35,36.5,108.4,✅ Good
-L Ngidi,IPL,13,9.325,23.235,8.5,18.66,85.7,✅ Good
+L Ngidi,IPL,13,9.35,26.18,8.52,19.95,83.7,😐 Average
 L Ngidi,ODI,17,6.25,33.24,5.81,28.87,89.9,✅ Good
 L Ngidi,T20I,24,7.46,21.18,8.6,20.44,105.9,✅ Good
 L Ngidi,Test,3,3.89,27.67,3.14,22.98,81.9,😐 Average
 L Nyarko,T20I,6,4.24,9.67,4.01,9.9,98.5,✅ Good
-L Ostergaard,T20I,8,5.720000000000001,60.0,5.12,13.35,55.9,📉 Poor
+L Ostergaard,T20I,13,5.15,18.665,4.96,13.0,83.0,😐 Average
 L Paul,ODI,0,5.86,43.0,5.25,75.67,132.8,🔥 On Fire
 L Paul,T20I,8,3.84,5.12,5.85,15.33,225.9,🔥 On Fire
 L Phiri,ODI,3,4.89,29.33,5.14,36.62,115.0,🔥 On Fire
@@ -1670,7 +1692,7 @@ L Pope,BBL,23,8.48,19.630000000000003,8.38,21.47,104.1,✅ Good
 L Qiao,T20I,1,6.67,20.0,3.34,7.35,43.4,📉 Poor
 L Scott,BBL,6,7.86,19.875,9.54,27.62,130.2,🔥 On Fire
 L Shetty,T20I,10,7.119999999999999,22.875,6.75,17.1,84.8,😐 Average
-L Siaka,T20I,0,10.0,10.0,6.73,14.57,106.5,✅ Good
+L Siaka,T20I,3,6.4,7.335,5.75,11.6,124.0,🔥 On Fire
 L Sipamla,T20I,5,10.82,23.5,10.39,36.77,126.2,🔥 On Fire
 L Taylor,T20I,4,4.71,23.75,4.67,19.3,90.2,✅ Good
 L Tshuma,ODI,15,5.359999999999999,48.105000000000004,4.5,24.2,67.1,😐 Average
@@ -1706,7 +1728,7 @@ LH Rodrigues,T20I,12,5.380000000000001,12.645,5.26,13.62,102.7,✅ Good
 LI Salomone,T20I,5,6.94,22.2,7.41,25.2,110.1,🔥 On Fire
 LJ Myott,T20I,6,5.6,18.67,6.04,14.06,91.6,✅ Good
 LJ Payas,T20I,1,4.33,13.0,5.71,16.5,129.4,🔥 On Fire
-LK Bell,ODI,15,5.39,42.0,5.49,29.87,86.5,✅ Good
+LK Bell,ODI,18,4.66,27.335,5.43,28.79,110.9,🔥 On Fire
 LK Bell,T20I,16,7.48,16.12,7.11,17.3,101.2,✅ Good
 LK Bell,Test,2,3.76,47.0,3.47,24.11,71.8,😐 Average
 LK Bell,WPL,12,5.53,16.58,5.53,16.58,100.0,✅ Good
@@ -1719,7 +1741,7 @@ LL Htun,T20I,0,5.8,29.0,4.74,12.96,63.2,😐 Average
 LMM Tahuhu,ODI,10,4.62,15.7,4.69,24.3,128.1,🔥 On Fire
 LMM Tahuhu,T20I,5,8.32,22.165,6.65,19.75,84.5,😐 Average
 LN Oluoch,T20I,6,10.08,28.83,7.16,18.64,67.8,😐 Average
-LN Rajbanshi,ODI,8,4.805,48.415,4.03,25.26,68.0,😐 Average
+LN Rajbanshi,ODI,8,4.475,56.665,4.0,25.92,67.6,😐 Average
 LN Rajbanshi,T20I,16,12.875,18.78,6.56,20.32,79.6,😐 Average
 LR Gaonkar,T20I,0,11.0,22.0,7.17,43.0,130.3,🔥 On Fire
 LR Morris,BBL,10,8.88,14.2,8.2,21.86,123.1,🔥 On Fire
@@ -1739,8 +1761,8 @@ Lihara Ayeysekara,T20I,3,9.0,38.0,9.0,38.0,100.0,✅ Good
 Likitha Yadav,T20I,1,5.72,41.0,5.36,25.0,77.3,😐 Average
 Lily Lamb,T20I,2,8.14,28.5,8.14,28.5,100.0,✅ Good
 Lopamudra,T20I,2,6.96,65.0,6.18,41.2,76.1,😐 Average
-Lovedeep Singh,T20I,9,6.4399999999999995,17.535,6.59,18.67,104.4,✅ Good
-Luca Petre,T20I,7,10.37,26.43,10.37,26.43,100.0,✅ Good
+Lovedeep Singh,T20I,11,7.02,19.91,6.92,19.82,99.1,✅ Good
+Luca Petre,T20I,10,8.559999999999999,17.715,9.71,21.2,116.6,🔥 On Fire
 Lucas Rossi,T20I,14,4.8100000000000005,10.21,4.95,11.08,105.7,✅ Good
 Lucky Ali,T20I,0,5.0,10.0,5.03,12.25,111.6,🔥 On Fire
 Luis Hermida,T20I,2,4.78,21.5,6.48,15.67,104.2,✅ Good
@@ -1755,7 +1777,7 @@ M Batnasan,T20I,3,8.79,13.67,8.79,13.67,100.0,✅ Good
 M Bean,BBL,2,9.62,38.5,9.62,38.5,100.0,✅ Good
 M Beardman,BBL,18,7.82,19.715,7.85,18.17,96.3,✅ Good
 M Beardman,T20I,2,7.92,16.5,7.92,16.5,100.0,✅ Good
-M Bibi,T20I,2,7.699999999999999,61.0,5.95,15.93,51.7,📉 Poor
+M Bibi,T20I,2,7.795,69.75,6.02,16.57,50.5,📉 Poor
 M Biu,T20I,6,5.96,27.67,6.17,31.57,108.8,✅ Good
 M Chabula,T20I,9,6.34,16.44,6.34,16.44,100.0,✅ Good
 M Choamba,T20I,6,4.685,24.83,5.33,17.07,91.3,✅ Good
@@ -1764,13 +1786,13 @@ M Dale-Bradley,T20I,9,6.865,39.06,6.63,18.17,71.5,😐 Average
 M Dlamini,T20I,14,5.68,18.86,6.5,26.8,128.3,🔥 On Fire
 M Durdevac,T20I,0,5.23,27.0,5.23,27.0,100.0,✅ Good
 M Elikana,T20I,2,1.89,3.0,1.89,3.0,100.0,✅ Good
-M Gogev,T20I,10,9.92,25.8,9.21,29.47,103.5,✅ Good
+M Gogev,T20I,11,9.625,54.9,9.23,32.88,77.9,😐 Average
 M Heingo,ODI,3,6.19,33.33,6.19,33.33,100.0,✅ Good
 M Heingo,T20I,6,10.905000000000001,27.5,11.06,31.33,107.7,✅ Good
 M Hill,T20I,4,6.36,13.25,5.0,15.54,97.9,✅ Good
 M Holmes,T20I,1,5.69,37.0,5.69,37.0,100.0,✅ Good
 M Hundal,T20I,9,5.08,8.56,5.33,10.05,111.2,🔥 On Fire
-M Jansen,IPL,22,9.525,42.725,9.43,34.07,89.4,✅ Good
+M Jansen,IPL,22,9.59,46.475,9.47,35.09,87.1,✅ Good
 M Jansen,ODI,7,6.58,42.29,6.29,33.5,87.4,✅ Good
 M Jansen,T20I,16,9.92,30.634999999999998,8.87,28.88,91.8,✅ Good
 M Jansen,Test,19,2.84,22.53,3.27,21.12,104.4,✅ Good
@@ -1788,7 +1810,7 @@ M Khojbariya,T20I,5,6.885,48.5,6.51,24.2,72.2,😐 Average
 M Klaas,ODI,14,6.26,27.29,5.03,28.24,91.9,✅ Good
 M Klaas,T20I,8,8.285,32.085,7.89,26.88,89.5,✅ Good
 M Kojo,T20I,1,8.8,44.0,8.8,44.0,100.0,✅ Good
-M Koli,T20I,15,7.52,16.47,7.26,18.53,104.5,✅ Good
+M Koli,T20I,16,9.07,50.735,7.49,20.05,61.0,😐 Average
 M Kulfiwala,T20I,2,1.2,0.5,1.2,0.5,100.0,✅ Good
 M Labuschagne,BBL,1,15.9,21.5,9.44,22.36,81.7,😐 Average
 M Labuschagne,ODI,4,6.17,18.5,6.65,35.8,150.6,🔥 On Fire
@@ -1804,7 +1826,7 @@ M Mani,WPL,14,7.645,22.375,7.62,22.41,99.9,✅ Good
 M Markande,IPL,0,15.2,76.0,9.15,30.95,50.5,📉 Poor
 M Martinez,T20I,2,6.33,48.5,5.34,32.29,75.5,😐 Average
 M Mavunga,ODI,0,5.875,63.5,6.2,156.0,175.6,🔥 On Fire
-M Mavunga,T20I,0,11.0,22.0,5.84,12.33,54.6,📉 Poor
+M Mavunga,T20I,1,11.25,22.5,6.38,13.4,58.1,📉 Poor
 M McColl,ODI,0,6.2,31.0,6.2,31.0,100.0,✅ Good
 M Modise,T20I,0,8.5,17.0,8.5,17.0,100.0,✅ Good
 M Modric,T20I,0,9.75,13.0,9.75,13.0,100.0,✅ Good
@@ -1823,7 +1845,7 @@ M Pathirana,IPL,15,10.1,28.27,8.66,19.17,76.8,😐 Average
 M Pathirana,T20I,11,8.985,29.72,8.26,19.03,78.0,😐 Average
 M Perry,BBL,3,9.58,35.67,10.63,35.0,104.5,✅ Good
 M Phiase,T20I,10,4.645,8.335,4.7,9.82,109.5,✅ Good
-M Prasidh Krishna,IPL,40,9.309999999999999,18.990000000000002,8.83,26.28,116.6,🔥 On Fire
+M Prasidh Krishna,IPL,42,9.17,18.509999999999998,8.82,25.97,118.2,🔥 On Fire
 M Prasidh Krishna,ODI,11,6.869999999999999,33.855,6.01,26.88,83.4,😐 Average
 M Prasidh Krishna,Test,20,4.72,31.3,4.7,34.36,104.7,✅ Good
 M Raikes,T20I,2,17.31,50.5,13.83,45.33,84.8,😐 Average
@@ -1840,14 +1862,14 @@ M Smith,T20I,2,9.67,14.5,9.67,14.5,100.0,✅ Good
 M Spoors,BBL,2,9.309999999999999,46.5,9.82,54.0,110.8,🔥 On Fire
 M Stanikzai,T20I,1,9.11,129.0,9.14,83.0,82.3,😐 Average
 M Syahadat Ramli,T20I,2,6.0,3.0,6.14,8.93,200.0,🔥 On Fire
-M Syrioti,T20I,19,5.425000000000001,15.34,5.57,16.59,105.4,✅ Good
-M Taniyama,T20I,9,5.734999999999999,15.420000000000002,5.31,10.95,81.8,😐 Average
+M Syrioti,T20I,24,5.8100000000000005,16.36,5.65,16.62,99.4,✅ Good
+M Taniyama,T20I,13,6.16,13.085,5.48,10.8,85.7,✅ Good
 M Taylor,T20I,5,9.75,58.2,6.91,29.94,61.2,😐 Average
 M Theekshana,IPL,11,9.69,37.27,8.25,33.53,87.6,✅ Good
 M Theekshana,ODI,15,4.46,27.0,4.42,22.9,92.0,✅ Good
 M Theekshana,PSL,4,8.17,24.5,8.17,24.5,100.0,✅ Good
 M Theekshana,T20I,25,7.725,28.99,7.04,24.02,87.0,✅ Good
-M Tiwari,IPL,0,14.0,14.0,14.0,14.0,100.0,✅ Good
+M Tiwari,IPL,2,12.0,17.0,10.8,27.0,124.4,🔥 On Fire
 M Tom,ODI,1,3.66,92.0,3.66,92.0,100.0,✅ Good
 M Tom,T20I,20,6.73,30.915,5.17,16.58,65.2,😐 Average
 M Trajkovi,T20I,3,6.0,12.0,4.82,15.0,102.7,✅ Good
@@ -1857,21 +1879,21 @@ M Upadhayay,T20I,30,4.734999999999999,8.805,4.57,8.53,96.7,✅ Good
 M Uwase,T20I,0,11.0,11.0,11.0,11.0,100.0,✅ Good
 M Valner,T20I,18,3.47,5.11,4.26,9.96,158.8,🔥 On Fire
 M Vandrasi,T20I,1,9.44,85.0,7.38,19.67,50.7,📉 Poor
-M Vervitsioti,T20I,14,6.575,18.425,6.61,19.77,103.9,✅ Good
-M Wai Siu,T20I,27,4.6850000000000005,11.809999999999999,4.79,13.14,106.8,✅ Good
+M Vervitsioti,T20I,16,6.735,19.355,6.51,19.83,99.6,✅ Good
+M Wai Siu,T20I,34,4.5,11.0,4.72,12.6,109.7,✅ Good
 M Whelan,T20I,0,12.0,24.0,11.94,53.75,161.7,🔥 On Fire
 M Yanagida,T20I,2,5.54,6.0,4.62,13.1,150.9,🔥 On Fire
 M Zdravkova,T20I,1,5.45,10.0,4.96,38.0,235.5,🔥 On Fire
-M Zhu,T20I,2,3.84,8.0,5.0,15.0,158.9,🔥 On Fire
+M Zhu,T20I,5,5.54,19.2,5.5,19.38,100.1,✅ Good
 MA Abbas,ODI,2,4.550000000000001,22.75,5.0,37.5,137.4,🔥 On Fire
 MA Algi,T20I,6,9.43,22.0,9.43,22.0,100.0,✅ Good
 MA Baig,T20I,6,6.07,13.83,4.84,8.84,71.8,😐 Average
-MA Leask,ODI,10,5.04,24.905,4.96,27.58,104.6,✅ Good
+MA Leask,ODI,10,5.484999999999999,29.905,4.99,27.99,92.3,✅ Good
 MA Leask,T20I,20,6.484999999999999,13.6,7.46,19.76,130.2,🔥 On Fire
 MA Nyabela,T20I,16,5.46,14.0,6.21,18.08,121.4,🔥 On Fire
 MA Parker,T20I,3,3.89,8.0,5.9,15.0,169.6,🔥 On Fire
 MA Starc,BBL,10,8.0,16.0,7.92,15.23,97.1,✅ Good
-MA Starc,IPL,22,9.440000000000001,22.189999999999998,8.62,19.84,90.4,✅ Good
+MA Starc,IPL,25,10.33,23.689999999999998,8.76,20.18,85.0,😐 Average
 MA Starc,ODI,3,5.48,38.33,5.25,22.38,77.1,😐 Average
 MA Starc,Test,62,3.8200000000000003,24.86,3.43,25.57,96.3,✅ Good
 MA Tsemane,T20I,1,6.0,24.0,7.63,59.33,187.2,🔥 On Fire
@@ -1879,7 +1901,7 @@ MA Wood,ODI,4,6.68,44.25,5.57,38.67,85.4,✅ Good
 MA Wood,T20I,4,8.77,28.5,8.49,18.77,81.3,😐 Average
 MA Wood,Test,0,3.94,44.0,3.32,30.04,76.3,😐 Average
 MADI Hemantha,T20I,10,8.870000000000001,25.96,9.1,26.7,102.7,✅ Good
-MB Tambe,T20I,5,7.25,5.8,7.08,19.17,214.1,🔥 On Fire
+MB Tambe,T20I,7,7.75,19.4,7.19,20.03,98.0,✅ Good
 MC Henriques,BBL,1,7.0,7.0,8.0,31.21,280.1,🔥 On Fire
 MD Bimenyimana,T20I,39,4.34,10.675,4.23,8.98,90.8,✅ Good
 MD Botha,ODI,14,3.83,12.57,3.83,12.57,100.0,✅ Good
@@ -1923,7 +1945,7 @@ MJ Santner,T20I,25,7.95,29.665,7.16,22.69,83.3,😐 Average
 MJ Santner,Test,5,2.25,15.4,2.81,31.74,165.5,🔥 On Fire
 MJ Suthar,IPL,2,11.33,34.0,11.75,47.0,121.0,🔥 On Fire
 MJ Swepson,BBL,11,8.215,39.8,7.61,29.27,83.1,😐 Average
-MJ Tugaga,T20I,1,6.29,44.0,6.29,44.0,100.0,✅ Good
+MJ Tugaga,T20I,1,8.145,27.0,6.75,54.0,141.4,🔥 On Fire
 MJM Kavana,T20I,5,5.7,11.4,6.82,12.5,114.6,🔥 On Fire
 MK Amusa,T20I,16,4.095,12.335,4.09,11.5,96.6,✅ Good
 MK Thakur,T20I,10,5.455,14.799999999999999,5.92,17.52,113.5,🔥 On Fire
@@ -1950,16 +1972,17 @@ MP Kuhnemann,Test,16,2.97,17.19,3.24,21.35,116.6,🔥 On Fire
 MP O'Dowd,ODI,0,25.0,25.0,6.93,149.0,311.9,🔥 On Fire
 MP O'Dowd,T20I,0,13.0,26.0,8.72,38.5,107.6,✅ Good
 MP Stoinis,BBL,20,7.355,17.165,8.45,22.61,123.3,🔥 On Fire
-MP Stoinis,IPL,2,11.690000000000001,114.5,9.81,31.98,55.9,📉 Poor
+MP Stoinis,IPL,3,12.36,112.0,9.91,32.23,54.5,📉 Poor
 MP Stoinis,T20I,8,9.379999999999999,30.75,8.78,23.49,85.0,😐 Average
 MP Yadav,IPL,2,12.875,78.0,10.27,29.1,58.5,📉 Poor
-MPGT Ketiyage,T20I,7,7.16,12.65,7.34,23.8,145.3,🔥 On Fire
+MPGT Ketiyage,T20I,7,7.6850000000000005,16.15,7.47,24.73,125.2,🔥 On Fire
 MPM Pathirannehelage,T20I,12,4.06,9.08,4.08,8.62,97.7,✅ Good
 MPP San,T20I,2,5.39,48.5,4.97,14.0,60.5,😐 Average
 MR Adair,ODI,6,5.68,23.83,5.76,31.93,117.7,🔥 On Fire
 MR Adair,T20I,16,8.66,23.535,7.74,18.17,83.3,😐 Average
 MR Adair,Test,3,2.78,34.33,3.72,36.47,120.0,🔥 On Fire
-MRJ Watt,ODI,17,3.95,28.3,4.22,25.54,98.5,✅ Good
+MR Corteen-Coleman,ODI,2,4.9,24.5,4.9,24.5,100.0,✅ Good
+MRJ Watt,ODI,19,4.115,28.09,4.23,25.41,96.6,✅ Good
 MRJ Watt,T20I,13,7.585,28.44,7.02,20.85,82.9,😐 Average
 MS Beresford,T20I,3,7.12,25.33,6.11,16.74,76.0,😐 Average
 MSN Ekani,T20I,4,7.8,35.75,6.66,22.82,74.6,😐 Average
@@ -1967,7 +1990,7 @@ MT Jacob,T20I,13,6.234999999999999,42.79,5.95,15.93,66.3,😐 Average
 MT Renshaw,BBL,6,8.2,18.5,7.57,28.33,122.7,🔥 On Fire
 MT Steketee,BBL,15,7.23,9.4,8.88,22.19,179.4,🔥 On Fire
 MT Waqanisau,T20I,10,5.2,14.3,5.2,14.3,100.0,✅ Good
-MTMMJ Ave,T20I,5,6.8,18.6,6.9,17.36,97.4,✅ Good
+MTMMJ Ave,T20I,6,8.065,23.3,7.14,18.25,83.4,😐 Average
 MV Fare,T20I,0,10.29,12.0,10.29,12.0,100.0,✅ Good
 MV Lehmann,T20I,0,7.38,16.0,7.38,16.0,100.0,✅ Good
 MV Pavlovic,T20I,8,8.2,20.5,6.75,14.48,76.5,😐 Average
@@ -1983,7 +2006,7 @@ MW Short,ODI,1,6.36,140.0,6.16,151.0,102.4,✅ Good
 MW Short,T20I,2,11.46,57.5,11.44,22.89,69.8,😐 Average
 MWR Stokes,T20I,3,8.165,41.835,7.1,27.21,76.0,😐 Average
 Ma Luz Barcelona,T20I,0,10.0,10.0,10.0,10.0,100.0,✅ Good
-Ma Ruike,T20I,10,3.98,7.625,4.88,15.07,160.1,🔥 On Fire
+Ma Ruike,T20I,13,4.045,10.925,4.94,16.06,134.6,🔥 On Fire
 Maahi Madhavan,ODI,4,4.93,18.5,4.93,18.5,100.0,✅ Good
 Maahi Madhavan,T20I,18,6.225,29.03,6.1,13.94,73.0,😐 Average
 Maaz Sadaqat,ODI,3,5.33,10.67,5.33,10.67,100.0,✅ Good
@@ -1992,7 +2015,7 @@ Madhawa Basnayaka,T20I,5,8.65,19.6,8.65,19.6,100.0,✅ Good
 Mah Noor,T20I,0,12.35,105.0,12.35,105.0,100.0,✅ Good
 Mah Noor Amir,T20I,3,10.84,53.0,12.29,99.0,150.1,🔥 On Fire
 Mahedi Hasan,T20I,26,7.3100000000000005,22.29,6.78,22.26,96.3,✅ Good
-Mahirah Izzati Ismail,T20I,20,5.4,20.25,4.76,13.04,76.3,😐 Average
+Mahirah Izzati Ismail,T20I,23,5.175,17.97,4.75,13.14,82.5,😐 Average
 Maira Saleem,T20I,0,5.14,18.0,5.14,18.0,100.0,✅ Good
 Malyun Hassan,T20I,2,4.36,16.0,4.36,16.0,100.0,✅ Good
 Malyun Yusuf,T20I,7,5.1,8.14,5.1,8.14,100.0,✅ Good
@@ -2009,7 +2032,7 @@ Marsya Qistina Binti,T20I,0,6.86,8.0,6.86,8.0,100.0,✅ Good
 Marufa Akter,ODI,17,4.38,30.905,4.61,29.0,99.5,✅ Good
 Marufa Akter,T20I,9,6.5,18.78,6.39,23.43,111.5,🔥 On Fire
 Maryam Omar,T20I,10,3.58,6.5,4.84,14.39,178.3,🔥 On Fire
-Mas Elysa,T20I,6,6.59,24.33,5.56,14.57,72.1,😐 Average
+Mas Elysa,T20I,10,6.51,21.6,5.63,14.81,77.5,😐 Average
 Matilda Fred,T20I,1,5.0,10.0,5.0,10.0,100.0,✅ Good
 Matiullah Khan,T20I,4,9.03,37.25,9.03,37.25,100.0,✅ Good
 Mayank Nagayach,T20I,2,7.68,96.0,7.68,96.0,100.0,✅ Good
@@ -2019,10 +2042,10 @@ Meet Bhavsar,T20I,6,8.77,18.83,7.01,17.75,87.1,✅ Good
 Meghna Rajan,T20I,19,2.54,4.63,2.54,4.63,100.0,✅ Good
 Meghna Singh,WPL,6,10.0,21.67,10.01,26.57,111.4,🔥 On Fire
 Mehak Thakur,T20I,2,0.0,0.0,3.64,5.67,465.5,🔥 On Fire
-Mehboob Ali,T20I,11,8.775,31.03,8.63,30.73,98.7,✅ Good
+Mehboob Ali,T20I,11,8.665,35.03,8.6,32.18,95.6,✅ Good
 Mehedi Hasan Miraz,ODI,15,3.955,38.58,4.79,32.91,103.2,✅ Good
 Mehedi Hasan Miraz,T20I,4,8.53,32.0,8.47,36.88,107.3,✅ Good
-Mehedi Hasan Miraz,Test,20,2.4,21.9,3.12,31.57,137.1,🔥 On Fire
+Mehedi Hasan Miraz,Test,26,2.5549999999999997,23.365,3.11,31.38,128.0,🔥 On Fire
 Mehran Mumtaz,PSL,0,10.0,10.0,6.8,27.2,170.0,🔥 On Fire
 Mengting Liu,T20I,12,3.0,4.0,4.14,7.46,162.2,🔥 On Fire
 Metty Fernandes,T20I,6,4.82,13.0,4.82,13.0,100.0,✅ Good
@@ -2039,7 +2062,7 @@ Mohamed Shafeeq,T20I,8,10.530000000000001,44.855000000000004,7.87,24.93,65.2,�
 Mohamed Turay,T20I,8,7.27,20.75,7.27,20.75,100.0,✅ Good
 Mohameed Taiwo,T20I,6,6.65,13.67,6.34,21.89,127.7,🔥 On Fire
 Mohammad Aadil Alam,T20I,4,8.38,16.75,6.86,16.78,91.0,✅ Good
-Mohammad Abbas,Test,3,3.81,37.67,2.5,23.18,63.6,😐 Average
+Mohammad Abbas,Test,9,3.21,29.42,2.5,23.07,78.1,😐 Average
 Mohammad Ali,ODI,1,5.3,53.0,5.3,53.0,100.0,✅ Good
 Mohammad Ali,PSL,26,10.11,27.990000000000002,8.69,18.89,76.7,😐 Average
 Mohammad Ali,T20I,1,12.0,86.0,12.0,86.0,100.0,✅ Good
@@ -2072,22 +2095,22 @@ Mohammad Zeeshan,PSL,0,11.0,22.0,10.05,134.0,350.2,🔥 On Fire
 Mohammed Alamgir,T20I,3,9.43,19.25,8.33,23.25,104.6,✅ Good
 Mohammed Irshad,T20I,11,8.02,10.45,8.46,14.0,119.7,🔥 On Fire
 Mohammed Jamadar,T20I,2,5.62,45.0,5.62,45.0,100.0,✅ Good
-Mohammed Qasim,T20I,8,7.775,24.355,6.73,12.62,69.2,😐 Average
-Mohammed Shami,IPL,15,9.895,46.75,8.6,25.74,71.0,😐 Average
+Mohammed Qasim,T20I,11,6.859999999999999,16.605,6.91,14.45,93.9,✅ Good
+Mohammed Shami,IPL,15,9.92,48.805,8.6,25.97,70.0,😐 Average
 Mohammed Shami,ODI,14,5.93,24.07,5.58,22.63,94.1,✅ Good
 Mohammed Shami,T20I,3,8.82,16.67,8.98,27.0,131.9,🔥 On Fire
-Mohammed Siraj,IPL,28,8.625,28.805,8.64,29.4,101.1,✅ Good
+Mohammed Siraj,IPL,30,8.74,29.4,8.66,29.45,99.6,✅ Good
 Mohammed Siraj,ODI,5,4.77,44.165,5.05,24.01,80.1,😐 Average
 Mohammed Siraj,T20I,3,7.25,9.67,7.7,26.72,191.3,🔥 On Fire
 Mohammed Siraj,Test,43,3.74,27.21,3.52,29.25,100.8,✅ Good
 Mohsin Khan,IPL,10,7.45,14.9,8.3,22.65,131.7,🔥 On Fire
 Mokbul Ahammed,T20I,0,6.0,24.0,6.0,24.0,100.0,✅ Good
 Momin Qamar,PSL,4,9.25,27.75,9.25,27.75,100.0,✅ Good
-Momina Riasat,ODI,4,4.81,19.25,4.81,19.25,100.0,✅ Good
+Momina Riasat,ODI,6,4.46,19.33,4.46,19.33,100.0,✅ Good
 Mominul Haque,Test,1,3.0,45.0,3.95,53.18,124.9,🔥 On Fire
 Mounica Chowdary,T20I,0,7.33,44.0,7.33,44.0,100.0,✅ Good
 Mubasir Khan,PSL,1,9.64,53.0,8.93,64.0,106.7,✅ Good
-Muhammad Ajmal,T20I,0,9.25,23.0,9.2,46.0,149.7,🔥 On Fire
+Muhammad Ajmal,T20I,1,8.885,55.0,8.46,110.0,147.6,🔥 On Fire
 Muhammad Akram,T20I,0,7.5,30.0,7.5,30.0,100.0,✅ Good
 Muhammad Amir,T20I,12,6.6,20.7,6.83,14.68,87.2,✅ Good
 Muhammad Arfan,T20I,17,6.35,16.43,6.48,15.12,97.0,✅ Good
@@ -2101,6 +2124,7 @@ Muhammad Jawadullah,ODI,8,4.975,30.165,5.97,39.6,125.6,🔥 On Fire
 Muhammad Jawadullah,T20I,14,8.530000000000001,20.32,7.63,17.28,87.2,✅ Good
 Muhammad Moiz,T20I,12,9.18,19.0,8.3,16.04,87.4,✅ Good
 Muhammad Murad,T20I,0,12.49,77.0,7.97,21.46,45.8,📉 Poor
+Muhammad Nadeem,T20I,1,8.38,67.0,8.38,67.0,100.0,✅ Good
 Muhammad Nadir,T20I,23,5.33,16.26,5.23,17.35,102.4,✅ Good
 Muhammad Naeem,PSL,1,5.0,15.0,5.0,15.0,100.0,✅ Good
 Muhammad Rohid,ODI,2,5.0,75.0,5.0,75.0,100.0,✅ Good
@@ -2120,8 +2144,8 @@ Mujeeb Ur Rahman,IPL,1,14.0,28.0,8.34,29.52,82.5,😐 Average
 Mujeeb-ur-Rehman,T20I,15,7.609999999999999,23.29,7.09,25.18,100.6,✅ Good
 Mujibur Ali,ODI,3,5.275,64.33500000000001,5.25,60.67,96.9,✅ Good
 Mujibur Ali,T20I,0,11.0,11.0,11.0,11.0,100.0,✅ Good
-Mukesh Choudhary,IPL,5,10.07,49.0,9.59,30.0,78.2,😐 Average
-Mukesh Kumar,IPL,20,10.585,37.485,10.42,27.0,85.2,✅ Good
+Mukesh Choudhary,IPL,5,10.415,54.625,9.69,32.14,75.9,😐 Average
+Mukesh Kumar,IPL,21,10.425,36.925,10.37,27.21,86.6,✅ Good
 Murat Yilmaz,T20I,5,9.38,15.0,8.1,20.8,112.5,🔥 On Fire
 Murid Ekrami,T20I,8,6.3,13.0,6.96,22.11,140.3,🔥 On Fire
 Musaddiq Ahmed,T20I,0,17.14,20.0,7.77,30.75,99.5,✅ Good
@@ -2166,6 +2190,7 @@ N Mlaba,T20I,27,6.395,16.095,6.43,20.05,112.6,🔥 On Fire
 N Mokoena,T20I,3,6.95,24.33,6.95,24.33,100.0,✅ Good
 N Navaika,T20I,25,5.8,16.259999999999998,5.35,12.16,83.5,😐 Average
 N Ndzeute,T20I,4,7.9,19.75,7.9,19.75,100.0,✅ Good
+N Nipiko,T20I,1,7.5,15.0,7.79,14.21,99.3,✅ Good
 N Nojic,T20I,8,6.73,12.75,4.41,9.22,68.9,😐 Average
 N Nuntarach,T20I,6,6.93,13.67,7.44,17.71,118.5,🔥 On Fire
 N Peter,ODI,3,6.08,24.33,6.08,24.33,100.0,✅ Good
@@ -2179,14 +2204,15 @@ N Shangase,T20I,1,7.25,29.0,7.14,13.53,72.6,😐 Average
 N Shree Charani,ODI,30,6.72,39.71,5.68,34.37,85.5,✅ Good
 N Shree Charani,T20I,28,7.515,17.09,7.57,17.07,100.3,✅ Good
 N Shree Charani,WPL,18,8.595,20.055,8.41,21.33,102.1,✅ Good
-N Sibanda,ODI,5,5.15,84.25,4.69,42.56,70.8,😐 Average
-N Sibanda,T20I,5,6.8950000000000005,61.125,5.24,16.86,51.8,📉 Poor
-N Tanner,T20I,18,7.37,15.5,7.42,15.95,101.8,✅ Good
+N Sibanda,ODI,5,5.1850000000000005,97.25,4.77,45.44,69.4,😐 Average
+N Sibanda,T20I,7,7.65,39.29,5.5,17.42,58.1,📉 Poor
+N Tanner,T20I,20,8.405,29.0,7.77,18.36,77.9,😐 Average
 N Thushara,IPL,1,6.24,26.0,9.28,31.44,134.8,🔥 On Fire
 N Thushara,T20I,11,12.135,32.045,8.16,22.88,69.3,😐 Average
 N Toleva,T20I,0,9.4,105.0,9.77,153.0,124.8,🔥 On Fire
 N Tyagi,T20I,5,8.21,23.0,8.35,27.83,111.4,🔥 On Fire
 N Vare,T20I,0,11.0,11.0,9.5,19.0,129.5,🔥 On Fire
+N Venables,T20I,1,4.56,41.0,4.56,41.0,100.0,✅ Good
 N Vichara,T20I,0,9.23,20.0,9.23,20.0,100.0,✅ Good
 N Wadhera,IPL,0,10.8,9.0,7.76,22.0,158.1,🔥 On Fire
 N Zimonjic,T20I,7,9.53,16.57,11.79,28.1,146.6,🔥 On Fire
@@ -2202,7 +2228,7 @@ NG Smith,T20I,3,9.4,15.67,9.4,15.67,100.0,✅ Good
 NG Smith,Test,3,1.99,19.67,4.51,36.18,205.3,🔥 On Fire
 NGRP Jayasuriya,Test,16,3.34,43.88,3.25,30.97,83.9,😐 Average
 NH Berejo,T20I,8,5.32,11.75,4.19,9.79,81.0,😐 Average
-NH Patel,ODI,3,3.52,34.0,3.52,34.0,100.0,✅ Good
+NH Patel,ODI,4,3.58,34.0,3.58,34.0,100.0,✅ Good
 NH Patel,T20I,6,3.56,9.5,3.56,9.5,100.0,✅ Good
 NJ Amongin,T20I,8,3.26,8.62,3.26,8.62,100.0,✅ Good
 NJ Carey,ODI,4,5.9,29.5,4.27,25.54,79.5,😐 Average
@@ -2215,18 +2241,18 @@ NJM Salima,T20I,1,3.79,12.0,3.79,12.0,100.0,✅ Good
 NK Aneesh Kumar,T20I,8,7.73,29.0,6.65,26.09,88.0,✅ Good
 NK Ariani,T20I,27,4.45,7.85,4.5,8.69,105.9,✅ Good
 NK Crafton,T20I,0,2.0,2.0,2.0,2.0,100.0,✅ Good
-NK Yadav,ODI,9,6.505,25.325,5.87,25.67,95.8,✅ Good
+NK Yadav,ODI,11,5.705,24.365,5.58,24.0,98.2,✅ Good
 NK Yadav,T20I,25,8.085,19.435,7.8,16.28,90.1,✅ Good
 NLKWR Dewi,T20I,17,4.49,12.59,4.06,8.74,79.9,😐 Average
 NM Lyon,Test,29,3.21,25.31,2.95,29.08,103.4,✅ Good
 NM Meepage,ODI,6,3.55,19.5,3.55,19.5,100.0,✅ Good
 NM Meepage,T20I,3,9.219999999999999,31.5,10.0,36.67,112.4,🔥 On Fire
-NM Salonen,T20I,7,6.33,19.14,6.81,16.35,96.5,✅ Good
+NM Salonen,T20I,8,7.325,31.07,6.96,17.62,75.9,😐 Average
 NMP Suwandewi,T20I,7,5.37,17.0,3.66,12.28,70.2,😐 Average
 NN Saidi,T20I,29,5.21,12.45,4.72,11.77,92.6,✅ Good
 NND de Silva,ODI,1,5.0,65.0,5.26,72.5,108.4,✅ Good
 NND de Silva,T20I,4,5.14,9.0,5.74,13.69,131.9,🔥 On Fire
-NP Dalgaard,T20I,6,5.25,58.1,4.58,14.75,56.3,📉 Poor
+NP Dalgaard,T20I,12,4.895,19.53,4.83,14.82,87.3,✅ Good
 NP Kenjige,ODI,11,4.04,30.0,4.22,31.84,105.3,✅ Good
 NP Kenjige,T20I,3,5.775,19.75,7.52,25.18,128.9,🔥 On Fire
 NR Kirton,ODI,0,10.0,30.0,4.77,26.25,67.6,😐 Average
@@ -2251,7 +2277,7 @@ Nadeem Khan,T20I,12,6.815,55.875,5.89,18.25,59.5,📉 Poor
 Nahid Rana,ODI,17,4.835,30.22,4.94,21.47,86.6,✅ Good
 Nahid Rana,PSL,11,5.39,8.91,5.39,8.91,100.0,✅ Good
 Nahid Rana,T20I,2,11.54,25.0,11.54,25.0,100.0,✅ Good
-Nahid Rana,Test,7,4.64,56.29,4.55,41.67,86.0,✅ Good
+Nahid Rana,Test,13,4.605,40.144999999999996,4.55,38.45,97.3,✅ Good
 Nahida Akter,ODI,25,3.85,19.225,3.94,20.3,104.0,✅ Good
 Nahida Akter,T20I,11,6.59,16.18,5.92,15.25,92.0,✅ Good
 Naina Saju,T20I,10,5.54,14.5,5.54,14.5,100.0,✅ Good
@@ -2268,11 +2294,11 @@ Nashra Sandhu,T20I,4,5.745,44.335,5.56,18.88,69.7,😐 Average
 Nasrulla Rana,T20I,10,8.74,26.5,8.34,23.93,92.9,✅ Good
 Nasum Ahmed,ODI,5,3.06,9.8,4.54,34.47,250.1,🔥 On Fire
 Nasum Ahmed,T20I,8,7.43,32.5,7.61,25.61,90.6,✅ Good
-Natalia Pervaiz,ODI,0,13.0,13.0,7.25,29.0,139.4,🔥 On Fire
-Natalia Pervaiz,T20I,0,15.0,15.0,8.87,33.0,139.6,🔥 On Fire
+Natalia Pervaiz,ODI,0,9.665,16.0,6.86,48.0,185.5,🔥 On Fire
+Natalia Pervaiz,T20I,2,8.25,8.25,7.75,20.4,170.6,🔥 On Fire
 Natalie Clarke,T20I,0,6.13,46.0,6.13,46.0,100.0,✅ Good
 Natim Hassam,T20I,3,6.025,26.5,6.31,27.33,103.9,✅ Good
-Nauman Ali,Test,30,3.36,17.5,3.03,23.31,111.7,🔥 On Fire
+Nauman Ali,Test,34,3.6799999999999997,28.25,3.07,23.91,84.0,😐 Average
 Navdeep Saini,IPL,0,12.33,37.0,11.47,29.0,85.7,✅ Good
 Naveed Ahmed,T20I,1,9.2,46.0,7.28,23.92,65.6,😐 Average
 Naveena Shetty,T20I,0,6.0,12.0,6.0,12.0,100.0,✅ Good
@@ -2288,28 +2314,28 @@ Nilusha Waruwangodage,T20I,2,4.15,9.0,4.15,9.0,100.0,✅ Good
 Nimish Lathief,T20I,3,11.985,29.5,8.1,30.9,86.2,✅ Good
 Nishita Akter Nishi,ODI,3,4.73,50.67,4.21,34.5,78.5,😐 Average
 Nitesh Hooda,T20I,6,4.4,7.33,4.4,7.33,100.0,✅ Good
-Nithish Kumar Reddy,IPL,11,9.895,22.945,10.6,32.87,125.2,🔥 On Fire
+Nithish Kumar Reddy,IPL,11,9.815000000000001,24.875,10.51,34.67,123.2,🔥 On Fire
 Nithish Kumar Reddy,ODI,0,7.17,53.0,6.99,106.0,148.7,🔥 On Fire
 Nithish Kumar Reddy,Test,5,4.27,43.6,4.23,45.75,102.0,✅ Good
 Nizakat Khan,T20I,0,6.0,6.0,5.88,16.08,183.0,🔥 On Fire
 Noah Mead,T20I,4,10.27,31.25,8.72,29.62,89.8,✅ Good
 Noman Amjad,T20I,4,8.045,64.0,7.34,29.7,68.8,😐 Average
 Nonoha Yasumoto,T20I,9,4.29,10.56,4.24,13.0,111.0,🔥 On Fire
-Noor Ahmad,IPL,36,8.215,21.085,8.11,22.82,103.5,✅ Good
+Noor Ahmad,IPL,37,8.1,21.04,8.06,22.84,104.0,✅ Good
 Nooruddin Mujadady,T20I,1,9.12,73.0,9.86,41.4,82.4,😐 Average
 Nur Alya Batrisyia,T20I,2,6.38,17.0,6.38,17.0,100.0,✅ Good
 Nur Arianna Natsya,T20I,11,5.955,12.785,5.46,14.81,103.8,✅ Good
-Nur Dania Syuhada,T20I,23,5.175,17.645,5.16,16.07,95.4,✅ Good
-Nur Qalysha,T20I,0,8.5,17.0,8.5,17.0,100.0,✅ Good
-Nurin Imanina,T20I,5,4.5,5.4,4.5,5.4,100.0,✅ Good
+Nur Dania Syuhada,T20I,26,5.154999999999999,17.65,5.22,16.55,97.5,✅ Good
+Nur Qalysha,T20I,3,5.92,23.67,5.92,23.67,100.0,✅ Good
+Nurin Imanina,T20I,5,5.86,8.6,5.86,8.6,100.0,✅ Good
 Nyeing Cham Soe,T20I,10,8.69,15.5,8.34,17.59,104.7,✅ Good
 O Amarjargal,T20I,4,4.76,13.5,6.03,24.86,155.4,🔥 On Fire
 O Bastin,T20I,4,5.71,24.5,5.48,26.5,102.1,✅ Good
 O Bell,T20I,14,6.645,32.665,6.06,14.93,68.5,😐 Average
-O Chare,ODI,1,6.67,40.0,5.34,32.5,80.7,😐 Average
-O Davidson,ODI,2,5.09,28.0,4.3,43.0,119.0,🔥 On Fire
+O Chare,ODI,1,6.4,64.0,5.44,38.5,72.6,😐 Average
+O Davidson,ODI,3,4.53,28.67,4.14,38.67,113.1,🔥 On Fire
 O Davidson,T20I,6,7.39,22.17,7.39,22.17,100.0,✅ Good
-O Duff,T20I,0,17.0,17.0,12.27,22.5,102.3,✅ Good
+O Duff,T20I,1,13.25,46.5,10.37,40.33,82.5,😐 Average
 O Erdenebaatar,T20I,2,4.56,27.0,6.03,29.25,120.3,🔥 On Fire
 O Isiyaku,T20I,12,6.39,13.75,6.39,13.75,100.0,✅ Good
 O Kamchomphu,ODI,5,5.07,31.8,3.62,15.95,60.8,😐 Average
@@ -2328,7 +2354,7 @@ O Shields,Test,5,4.16,35.2,4.16,35.2,100.0,✅ Good
 O Thomas,CPL,2,12.21,58.0,9.14,23.05,57.3,📉 Poor
 OC McCoy,CPL,9,9.83,25.11,8.7,23.57,91.2,✅ Good
 OC McCoy,T20I,0,9.25,37.0,8.75,22.85,78.2,😐 Average
-OE Taylor,T20I,7,4.76,12.57,6.45,10.79,110.7,🔥 On Fire
+OE Taylor,T20I,9,6.154999999999999,16.035,6.57,11.46,89.1,✅ Good
 OEG Baartman,ODI,2,7.06,60.0,5.26,27.62,60.3,😐 Average
 OEG Baartman,T20I,14,9.215,19.585,8.11,18.47,91.2,✅ Good
 OF Smith,CPL,1,12.47,79.0,9.81,26.28,56.0,📉 Poor
@@ -2345,6 +2371,7 @@ P Bhandari,T20I,6,5.43,14.17,6.99,22.12,142.4,🔥 On Fire
 P Chabuta,T20I,6,5.34,10.83,5.34,10.83,100.0,✅ Good
 P Chilongia,T20I,5,5.8,11.8,4.27,7.87,70.2,😐 Average
 P Cuinica,T20I,17,5.03,12.72,5.48,18.64,127.7,🔥 On Fire
+P Dakainivanua,T20I,0,9.0,27.0,6.04,19.86,70.3,😐 Average
 P Dubey,IPL,1,10.0,20.0,8.54,55.5,181.4,🔥 On Fire
 P Gheewala,T20I,5,8.46,22.0,8.24,23.93,103.1,✅ Good
 P Ghosh,T20I,0,9.0,9.0,9.0,9.0,100.0,✅ Good
@@ -2357,15 +2384,15 @@ P Madhukar,T20I,2,6.57,23.0,6.57,23.0,100.0,✅ Good
 P Malemikia,T20I,0,3.4,17.0,4.21,14.17,103.6,✅ Good
 P Mapotsane,T20I,14,4.029999999999999,7.15,5.92,12.25,159.1,🔥 On Fire
 P Marange,ODI,5,5.0,28.0,4.34,29.0,95.2,✅ Good
-P Marange,T20I,1,7.4,37.0,4.4,14.46,49.3,📉 Poor
+P Marange,T20I,2,8.575,38.0,4.53,14.96,46.1,📉 Poor
 P Maya,ODI,3,5.72,47.0,5.19,25.5,72.5,😐 Average
 P Maya,T20I,40,6.055,14.23,5.63,13.75,94.8,✅ Good
 P Maziya,T20I,24,4.755,12.309999999999999,4.8,10.83,94.5,✅ Good
-P Mishra,T20I,9,6.61,24.22,7.1,25.0,105.3,✅ Good
+P Mishra,T20I,14,7.265000000000001,21.61,7.16,24.36,105.6,✅ Good
 P Molkenboer,T20I,0,6.0,6.0,4.51,13.23,147.8,🔥 On Fire
 P Neighbour,T20I,0,8.14,38.0,8.14,38.0,100.0,✅ Good
 P Pratt,T20I,6,5.51,11.33,5.51,11.33,100.0,✅ Good
-P Pushparajan,T20I,11,6.51,16.439999999999998,6.88,17.09,104.8,✅ Good
+P Pushparajan,T20I,12,7.255000000000001,24.939999999999998,7.26,22.58,95.3,✅ Good
 P Pustoslemsek,T20I,1,4.5,9.0,7.52,18.8,188.0,🔥 On Fire
 P Raghunath,T20I,1,5.33,24.0,4.8,28.0,103.4,✅ Good
 P Rathnayake,ODI,0,12.0,12.0,12.0,12.0,100.0,✅ Good
@@ -2388,19 +2415,21 @@ PA van Meekeren,ODI,23,5.38,21.17,5.37,24.37,107.5,✅ Good
 PA van Meekeren,T20I,4,6.7,41.75,7.09,19.75,76.6,😐 Average
 PE Kulume,T20I,6,5.37,19.83,5.18,14.52,84.8,😐 Average
 PE Mendonca,T20I,28,4.300000000000001,11.495000000000001,4.76,14.55,118.6,🔥 On Fire
+PEA Karunarathna,T20I,4,7.82,21.5,7.82,21.5,100.0,✅ Good
 PG Dooley,BBL,1,9.25,37.0,7.61,22.19,71.1,😐 Average
 PHKD Mendis,IPL,2,8.57,30.0,8.57,30.0,100.0,✅ Good
 PHKD Mendis,ODI,4,6.75,27.0,6.52,54.33,148.9,🔥 On Fire
 PHKD Mendis,T20I,4,8.01,32.335,8.16,39.67,112.3,🔥 On Fire
 PHKD Mendis,Test,0,5.0,20.0,5.33,37.33,146.6,🔥 On Fire
 PI Walter,BBL,2,9.0,27.0,8.81,21.23,88.3,✅ Good
-PJ Cummins,IPL,20,9.059999999999999,32.435,8.81,29.3,93.8,✅ Good
+PJ Cummins,IPL,21,8.655,30.759999999999998,8.76,29.2,98.1,✅ Good
 PJ Cummins,Test,26,2.68,16.54,2.88,21.64,119.1,🔥 On Fire
+PK Matautaava,T20I,3,6.26,16.0,5.87,15.58,95.6,✅ Good
 PM Liyanagamage,ODI,3,6.685,68.83500000000001,7.1,55.75,93.6,✅ Good
 PM Liyanagamage,T20I,0,11.5,23.0,8.88,18.75,79.4,😐 Average
 PM Siddle,BBL,25,7.5649999999999995,19.11,7.52,19.53,100.8,✅ Good
 PM Siddle,PSL,14,8.84,25.36,8.84,25.36,100.0,✅ Good
-PP Hinge,IPL,8,12.06,24.62,12.06,24.62,100.0,✅ Good
+PP Hinge,IPL,10,11.07,21.4,11.07,21.4,100.0,✅ Good
 PPS Win,T20I,2,5.03,13.0,5.03,13.0,100.0,✅ Good
 PR Surve,T20I,1,12.0,36.0,8.03,30.62,76.0,😐 Average
 PR Veer,IPL,0,12.5,25.0,12.5,25.0,100.0,✅ Good
@@ -2408,6 +2437,7 @@ PS Sisodia,WPL,1,9.33,84.0,9.33,84.0,100.0,✅ Good
 PSRK Sudarshan,T20I,16,7.63,23.38,7.63,23.38,100.0,✅ Good
 PUKK Arachchige,T20I,0,9.0,9.0,9.0,9.0,100.0,✅ Good
 PV Naringrekar,T20I,0,15.0,8.0,7.38,16.0,124.6,🔥 On Fire
+PV Vuniwaqa,T20I,1,9.89,61.0,9.26,27.0,68.9,😐 Average
 PVD Chameera,IPL,4,10.265,33.75,9.74,43.2,111.4,🔥 On Fire
 PVD Chameera,ODI,9,5.62,34.33,5.49,34.15,98.6,✅ Good
 PVD Chameera,T20I,41,7.92,14.879999999999999,7.95,21.81,123.5,🔥 On Fire
@@ -2426,13 +2456,14 @@ Paras Singh,T20I,3,9.14,22.33,9.14,22.33,100.0,✅ Good
 Pargat Singh,ODI,2,5.9,29.0,4.92,20.29,76.7,😐 Average
 Pargat Singh,T20I,1,3.0,3.0,9.6,29.33,648.8,🔥 On Fire
 Parveen Kumar,ODI,3,4.4,47.67,4.0,40.4,87.8,✅ Good
+Patrick Nou,T20I,0,4.67,14.0,4.67,14.0,100.0,✅ Good
 Pavandeep Singh,T20I,30,4.745,12.285,5.86,16.28,128.0,🔥 On Fire
 Pen Samon,T20I,0,8.18,15.0,8.18,15.0,100.0,✅ Good
 Phoup Srey Pheak,T20I,2,8.45,34.5,5.69,18.67,60.7,😐 Average
 Prachi Kumari,T20I,9,5.92,17.22,6.24,20.44,112.1,🔥 On Fire
 Pratik Singh Bais,T20I,12,5.125,32.445,5.38,14.7,75.1,😐 Average
 Pratika Rawal,ODI,4,5.03,37.75,5.37,31.33,94.9,✅ Good
-Prince Yadav,IPL,24,9.0,30.475,8.8,22.0,85.0,😐 Average
+Prince Yadav,IPL,24,9.04,31.42,8.81,23.5,86.1,✅ Good
 Priya Mishra,ODI,4,5.74,27.25,5.9,24.94,97.2,✅ Good
 Priya Mishra,WPL,6,9.13,39.83,9.13,39.83,100.0,✅ Good
 Priyada Murali,T20I,6,6.0,19.83,5.96,18.63,96.6,✅ Good
@@ -2442,6 +2473,7 @@ Pyae Phyo Wai,T20I,12,5.93,15.08,6.82,19.78,123.1,🔥 On Fire
 Q Abel,T20I,5,6.28,22.6,4.64,8.67,56.1,📉 Poor
 Q Joseph,ODI,0,9.165,14.5,4.97,25.38,114.6,🔥 On Fire
 Q Joseph,T20I,2,6.0,6.5,5.72,25.75,245.7,🔥 On Fire
+Q Stephens,T20I,4,6.71,11.75,6.71,11.75,100.0,✅ Good
 Qamar Mushtaque,T20I,36,6.574999999999999,12.24,6.71,12.87,103.6,✅ Good
 R Abdulkareem,T20I,6,9.47,23.67,6.37,13.05,61.2,😐 Average
 R Abdulrasak,T20I,1,4.0,4.0,3.94,12.0,199.2,🔥 On Fire
@@ -2489,18 +2521,18 @@ R Ravindra,ODI,3,4.67,37.33,5.79,45.85,123.4,🔥 On Fire
 R Ravindra,T20I,12,7.25,23.634999999999998,6.88,16.92,83.2,😐 Average
 R Ravindra,Test,1,2.8,69.0,3.0,42.92,84.7,😐 Average
 R Rijke,T20I,9,7.51,21.25,5.22,13.0,65.3,😐 Average
-R Sai Kishore,IPL,19,9.25,20.68,8.86,20.34,97.1,✅ Good
-R Sakurano-Thomas,T20I,1,8.33,50.0,6.9,17.31,58.7,📉 Poor
+R Sai Kishore,IPL,19,8.625,14.34,8.85,20.59,123.1,🔥 On Fire
+R Sakurano-Thomas,T20I,6,6.095,27.7,6.65,15.7,82.9,😐 Average
 R Samson,T20I,16,4.14,6.0,5.19,12.03,162.9,🔥 On Fire
 R Sandeep,T20I,2,6.0,30.5,5.42,26.5,88.6,✅ Good
 R Satheesan,T20I,1,9.7,139.0,8.89,38.88,59.8,📉 Poor
 R Sewwandi,T20I,2,11.17,33.5,11.17,33.5,100.0,✅ Good
 R Shepherd,CPL,9,9.0,31.0,8.37,18.67,76.6,😐 Average
-R Shepherd,IPL,11,11.805,34.585,12.04,36.94,104.4,✅ Good
+R Shepherd,IPL,12,11.295,32.42,11.71,35.89,107.2,✅ Good
 R Shepherd,ODI,2,4.24,50.5,5.48,35.92,100.2,✅ Good
 R Shepherd,T20I,27,10.615,24.965,9.98,25.55,98.2,✅ Good
 R Shimwamana,T20I,20,4.01,10.954999999999998,3.56,10.8,93.7,✅ Good
-R Siriwardena,T20I,10,8.335,10.765,9.86,14.13,124.8,🔥 On Fire
+R Siriwardena,T20I,13,8.705,14.344999999999999,9.65,15.28,108.7,✅ Good
 R Siwa,T20I,1,5.57,13.0,5.57,13.0,100.0,✅ Good
 R Slater,ODI,6,4.74,18.17,4.39,19.43,99.8,✅ Good
 R Slater,T20I,18,5.640000000000001,13.35,6.53,19.32,130.2,🔥 On Fire
@@ -2511,10 +2543,11 @@ R Trumpelmann,ODI,17,4.98,25.585,4.69,24.18,94.3,✅ Good
 R Trumpelmann,T20I,21,8.965,54.14,8.22,24.35,68.3,😐 Average
 R Ugarkar,ODI,7,4.33,11.86,4.33,11.86,100.0,✅ Good
 R Uwimana,T20I,1,4.86,34.0,4.86,34.0,100.0,✅ Good
-RA Jadeja,IPL,17,8.11,28.345,7.66,28.81,98.0,✅ Good
+RA Bawa,IPL,1,12.32,39.0,12.32,39.0,100.0,✅ Good
+RA Jadeja,IPL,18,8.17,28.95,7.67,28.83,96.7,✅ Good
 RA Jadeja,ODI,12,5.375,87.21000000000001,4.89,34.28,65.1,😐 Average
 RA Jadeja,Test,25,3.18,38.2,2.58,24.87,73.1,😐 Average
-RA Mair,ODI,13,5.279999999999999,31.125,5.25,40.5,114.8,🔥 On Fire
+RA Mair,ODI,17,5.18,29.05,5.19,36.5,112.9,🔥 On Fire
 RA Mair,T20I,7,7.700000000000001,66.5,6.57,22.77,59.8,📉 Poor
 RA Tappin,T20I,0,9.5,19.0,9.5,19.0,100.0,✅ Good
 RC Belbashi,T20I,14,6.235,35.335,4.43,14.64,56.2,📉 Poor
@@ -2530,7 +2563,7 @@ RJ Gleeson,PSL,12,7.06,18.83,7.06,18.83,100.0,✅ Good
 RJ Hatchman,T20I,0,15.69,68.0,11.91,83.0,99.0,✅ Good
 RJW Topley,BBL,5,10.23,26.6,8.91,25.57,91.6,✅ Good
 RJW Topley,IPL,0,13.33,40.0,11.1,44.4,97.1,✅ Good
-RK Paudel,ODI,0,5.33,16.0,4.23,25.3,118.7,🔥 On Fire
+RK Paudel,ODI,0,6.67,40.0,4.41,27.7,67.7,😐 Average
 RK Paudel,T20I,5,6.265000000000001,18.25,6.55,17.4,99.9,✅ Good
 RK Raval,T20I,0,9.0,9.0,9.0,9.0,100.0,✅ Good
 RK Singh,T20I,1,9.6,16.0,7.12,6.33,56.9,📉 Poor
@@ -2547,6 +2580,7 @@ RM Magare,T20I,2,6.88,55.0,6.88,55.0,100.0,✅ Good
 RMAM Avery,T20I,17,5.1850000000000005,7.5,5.04,7.71,100.0,✅ Good
 RMMP Rathnayake,ODI,0,10.0,10.0,10.0,10.0,100.0,✅ Good
 RMMP Rathnayake,Test,4,1.82,16.25,3.39,28.07,179.5,🔥 On Fire
+RMR Brathwaite,T20I,1,12.0,76.0,12.0,76.0,100.0,✅ Good
 RO Mazumba,T20I,10,4.85,9.3,5.16,11.0,112.3,🔥 On Fire
 ROC Dunka,T20I,12,8.350000000000001,28.85,7.98,27.62,95.7,✅ Good
 RP Burl,PSL,0,16.5,22.0,16.5,22.0,100.0,✅ Good
@@ -2586,13 +2620,13 @@ Rahmatullah Mangal,T20I,7,9.39,17.0,6.79,14.27,78.1,😐 Average
 Raihan Hossain,T20I,1,8.04,67.0,8.04,67.0,100.0,✅ Good
 Raja Adeel,T20I,5,3.95,5.0,5.81,12.48,198.3,🔥 On Fire
 Ramandeep Singh,IPL,1,11.62,31.0,10.07,13.43,65.0,😐 Average
-Rameen Shamim,ODI,15,3.23,20.54,4.3,29.11,137.4,🔥 On Fire
-Rameen Shamim,T20I,5,7.45,16.4,7.07,39.57,168.1,🔥 On Fire
+Rameen Shamim,ODI,15,3.715,28.54,4.32,30.79,112.1,🔥 On Fire
+Rameen Shamim,T20I,6,6.725,17.2,7.0,36.88,159.3,🔥 On Fire
 Rameesha Shahid,T20I,9,7.12,31.0,7.15,31.89,101.6,✅ Good
 Rameez Khan,T20I,8,7.53,17.88,7.53,17.88,100.0,✅ Good
-Rashid Khan,IPL,20,8.809999999999999,42.465,7.16,23.09,67.8,😐 Average
+Rashid Khan,IPL,25,8.765,39.245,7.16,22.65,69.7,😐 Average
 Rashidatu Salia,T20I,0,12.0,24.0,8.8,44.0,128.3,🔥 On Fire
-Rasikh Salam,IPL,9,10.559999999999999,46.81,10.16,33.22,83.6,😐 Average
+Rasikh Salam,IPL,10,10.645,47.835,10.19,33.68,83.1,😐 Average
 Ravi Bishnoi,IPL,21,10.33,32.99,8.34,28.02,82.8,😐 Average
 Ravi Bishnoi,T20I,9,8.07,22.165,7.3,17.58,84.9,😐 Average
 Ravinder Gill,T20I,0,9.5,19.0,9.5,19.0,100.0,✅ Good
@@ -2623,20 +2657,21 @@ Rizwanullah,PSL,3,10.35,23.0,10.35,23.0,100.0,✅ Good
 Roheed Akhtar,T20I,3,6.18,45.33,6.27,29.0,82.7,😐 Average
 Ronitkumar Ahir,T20I,12,2.42,2.42,2.42,2.42,100.0,✅ Good
 Rosine Irera,T20I,38,4.4,11.895,3.79,9.64,83.6,😐 Average
-Ruchitha Venkatesh,T20I,8,4.805,23.0,5.02,20.65,97.1,✅ Good
+Ruchitha Venkatesh,T20I,9,4.855,24.07,5.0,20.88,94.9,✅ Good
 Rumaisa Jawad Nasir,T20I,2,9.33,28.0,9.33,28.0,100.0,✅ Good
 Rupesh Singh,T20I,2,9.6,48.0,9.6,48.0,100.0,✅ Good
 S Akiteng,T20I,38,4.68,13.24,4.62,13.08,98.8,✅ Good
+S Alavala,T20I,2,8.5,17.0,8.5,17.0,100.0,✅ Good
 S Asha,WPL,4,9.28,41.75,8.1,22.45,70.5,😐 Average
 S Austin,T20I,7,6.23,11.57,6.23,11.57,100.0,✅ Good
 S Baker,ODI,0,10.86,76.0,10.86,76.0,100.0,✅ Good
 S Baker,T20I,0,13.0,52.0,13.0,52.0,100.0,✅ Good
 S Basharat,T20I,1,7.5,15.0,5.28,22.0,108.5,✅ Good
-S Bau,T20I,0,7.07,53.0,6.56,27.43,72.3,😐 Average
+S Bau,T20I,3,6.535,30.5,6.53,24.0,89.3,✅ Good
 S Bevin,T20I,0,10.5,14.0,10.5,14.0,100.0,✅ Good
 S Bhardwaj,T20I,5,5.01,12.2,5.02,10.88,94.7,✅ Good
 S Bist,T20I,5,6.0649999999999995,45.375,5.5,29.5,77.8,😐 Average
-S Bodha,T20I,2,12.83,38.5,8.37,19.27,57.6,📉 Poor
+S Bodha,T20I,3,11.56,43.67,8.47,20.1,59.6,📉 Poor
 S Borakambi,T20I,4,4.25,8.5,4.74,11.25,121.9,🔥 On Fire
 S Budhathoki,T20I,5,4.2,7.0,4.2,7.0,100.0,✅ Good
 S Burdekin,T20I,1,13.0,13.0,7.54,14.07,83.1,😐 Average
@@ -2662,7 +2697,7 @@ S Ecclestone,WPL,17,7.140000000000001,26.27,6.84,18.27,82.7,😐 Average
 S Foster,T20I,0,18.0,36.0,10.17,61.0,113.0,🔥 On Fire
 S Fouché,ODI,3,5.42,21.67,5.2,20.38,95.0,✅ Good
 S Galabova,T20I,0,6.0,12.0,11.23,73.0,397.8,🔥 On Fire
-S Georgota,T20I,25,4.845,11.905,5.56,14.87,119.8,🔥 On Fire
+S Georgota,T20I,27,5.71,14.85,5.71,17.09,107.5,✅ Good
 S Gill,T20I,9,6.08,23.89,5.65,22.31,93.2,✅ Good
 S Gimhani,T20I,0,13.89,44.0,6.99,18.14,45.8,📉 Poor
 S Glenn,ODI,3,5.25,7.0,4.34,21.04,191.6,🔥 On Fire
@@ -2681,7 +2716,7 @@ S Ishaque,WPL,2,11.75,27.5,7.7,19.63,68.5,😐 Average
 S Ismail,WPL,16,6.449999999999999,27.965,6.59,26.26,98.0,✅ Good
 S Jamil,T20I,2,9.52,36.5,9.69,42.0,108.4,✅ Good
 S Jeelany,T20I,4,4.0,3.5,4.91,6.75,157.8,🔥 On Fire
-S Jegannathan,T20I,11,6.140000000000001,12.91,6.12,13.91,103.7,✅ Good
+S Jegannathan,T20I,13,6.265000000000001,14.7,6.23,14.85,100.2,✅ Good
 S Jimmy,T20I,3,10.0,26.67,4.96,11.0,45.4,📉 Poor
 S Joseph,CPL,6,7.13,17.83,8.56,23.41,125.7,🔥 On Fire
 S Joseph,ODI,3,6.16,66.0,6.4,67.5,103.1,✅ Good
@@ -2702,7 +2737,7 @@ S Kotte,ODI,9,2.66,12.11,2.66,12.11,100.0,✅ Good
 S Kotte,T20I,10,4.48,14.8,3.97,11.53,83.3,😐 Average
 S Krisheta,T20I,5,5.58,10.6,5.58,10.6,100.0,✅ Good
 S Kubheka,T20I,0,10.0,20.0,10.4,52.0,182.0,🔥 On Fire
-S Lamichhane,ODI,22,3.92,20.69,4.38,18.49,100.6,✅ Good
+S Lamichhane,ODI,26,4.025,20.0,4.37,18.27,100.0,✅ Good
 S Lamichhane,T20I,29,6.365,14.81,6.16,12.1,89.2,✅ Good
 S Laomi,ODI,2,5.96,74.5,4.4,17.83,48.9,📉 Poor
 S Laomi,T20I,49,5.0600000000000005,16.625,4.44,12.22,80.6,😐 Average
@@ -2710,7 +2745,7 @@ S Luus,ODI,13,5.135,45.535,4.7,26.3,74.6,😐 Average
 S Luus,T20I,6,7.5,38.1,6.87,25.02,78.6,😐 Average
 S MacMahon,ODI,1,4.6,69.0,5.36,39.75,87.1,✅ Good
 S MacMahon,T20I,2,5.25,10.5,5.42,21.67,154.8,🔥 On Fire
-S Maduranga,T20I,13,7.88,15.15,7.55,17.94,107.1,✅ Good
+S Maduranga,T20I,14,8.375,41.575,7.77,20.88,71.5,😐 Average
 S Mahmood,ODI,11,5.65,32.0,5.19,29.12,91.4,✅ Good
 S Mahmood,T20I,3,8.75,11.67,9.28,26.64,167.2,🔥 On Fire
 S Malikzai,T20I,1,6.67,20.0,6.67,20.0,100.0,✅ Good
@@ -2731,15 +2766,17 @@ S Naidu,ODI,1,8.0,40.0,8.0,40.0,100.0,✅ Good
 S Nampiina,T20I,17,4.58,6.65,5.04,8.43,118.4,🔥 On Fire
 S Nisansala,ODI,1,5.17,31.0,4.76,26.33,88.5,✅ Good
 S Nunna,T20I,0,8.5,17.0,7.43,52.0,196.6,🔥 On Fire
-S Ostergaard,T20I,7,7.775,21.7,6.52,12.54,70.8,😐 Average
+S Ostergaard,T20I,11,7.1,14.2,6.59,11.82,88.0,✅ Good
 S Ozkunduz,T20I,5,6.2,18.8,6.2,18.8,100.0,✅ Good
 S Pandey,WPL,22,7.505,22.605,7.15,22.83,98.1,✅ Good
+S Parker,T20I,3,4.38,11.67,4.38,11.67,100.0,✅ Good
 S Pillai,T20I,2,7.83,93.0,6.19,33.43,57.5,📉 Poor
+S Pitabeddara,T20I,1,8.5,34.0,9.71,68.0,157.1,🔥 On Fire
 S Rana,ODI,35,5.92,28.35,5.03,26.59,89.4,✅ Good
 S Rana,T20I,3,7.07,35.33,6.05,17.38,67.4,😐 Average
 S Rana,Test,1,3.76,64.0,3.08,21.84,58.0,📉 Poor
 S Rana,WPL,7,9.435,96.25,9.27,37.38,68.5,😐 Average
-S Ravichandran,T20I,19,3.935,7.305000000000001,4.9,11.29,139.5,🔥 On Fire
+S Ravichandran,T20I,22,4.9350000000000005,9.915,5.04,11.71,110.1,🔥 On Fire
 S Ravikumar,T20I,5,7.635,25.165,6.96,21.0,87.3,✅ Good
 S Rokuad,T20I,0,7.68,32.0,7.68,32.0,100.0,✅ Good
 S Rukmal,T20I,3,7.31,31.67,7.1,46.17,121.5,🔥 On Fire
@@ -2755,11 +2792,12 @@ S Shrivastava,T20I,2,9.29,79.0,8.0,26.5,59.8,📉 Poor
 S Siegers,T20I,26,6.17,28.16,5.84,21.48,85.5,✅ Good
 S Sigaiwasa,T20I,9,4.79,12.33,5.19,17.11,123.6,🔥 On Fire
 S Simic,T20I,1,6.5,13.0,4.92,25.0,134.0,🔥 On Fire
-S Sola,T20I,6,9.23,26.67,7.49,27.6,92.3,✅ Good
+S Sola,T20I,13,6.390000000000001,16.12,6.59,18.53,109.0,✅ Good
 S Solman,T20I,16,5.63,14.864999999999998,5.57,18.08,110.3,🔥 On Fire
 S Stephen,T20I,1,6.61,119.0,6.61,119.0,100.0,✅ Good
-S Sugaya-Slater,T20I,7,8.645,28.65,7.85,27.86,94.0,✅ Good
+S Sugaya-Slater,T20I,7,7.1899999999999995,32.15,7.17,29.86,96.3,✅ Good
 S Sunday,T20I,1,1.0,1.0,4.0,6.0,500.0,🔥 On Fire
+S Tabuisulu,T20I,1,7.5,45.0,7.63,38.4,93.5,✅ Good
 S Talamarla,T20I,3,7.14,14.67,7.14,14.67,100.0,✅ Good
 S Thapa,T20I,0,9.79,31.0,5.84,11.75,48.8,📉 Poor
 S Tino,T20I,10,4.43,12.4,4.43,12.4,100.0,✅ Good
@@ -2802,7 +2840,7 @@ SE Rutherford,BBL,0,22.0,22.0,22.0,22.0,100.0,✅ Good
 SE Rutherford,CPL,4,11.33,25.5,10.58,38.8,122.8,🔥 On Fire
 SE Rutherford,T20I,1,10.0,20.0,10.67,21.33,106.7,✅ Good
 SF Jerome,T20I,12,4.61,14.58,4.23,12.22,87.8,✅ Good
-SF Tiai,T20I,11,7.62,26.91,7.21,19.3,83.2,😐 Average
+SF Tiai,T20I,17,7.365,18.79,7.2,17.86,96.4,✅ Good
 SFM Devine,ODI,4,5.85,50.25,4.86,35.17,76.5,😐 Average
 SFM Devine,T20I,11,8.5,26.085,7.08,18.52,77.1,😐 Average
 SFM Devine,WPL,17,8.28,16.0,8.29,20.77,115.0,🔥 On Fire
@@ -2831,13 +2869,15 @@ SM Curran,BBL,6,9.6,16.0,9.6,16.0,100.0,✅ Good
 SM Curran,IPL,1,11.08,133.0,9.68,32.27,55.8,📉 Poor
 SM Curran,ODI,5,5.895,41.0,6.08,35.49,94.8,✅ Good
 SM Curran,T20I,15,10.129999999999999,28.79,8.81,27.01,90.4,✅ Good
-SM Dhanusri,T20I,1,7.0,25.0,5.09,26.0,88.4,✅ Good
+SM Dhanusri,T20I,1,7.165,33.5,5.48,31.67,85.5,✅ Good
 SM Elliott,BBL,5,7.22,13.0,7.88,25.2,151.5,🔥 On Fire
-SM Nash,T20I,15,8.2,19.4,7.69,20.84,100.6,✅ Good
+SM Nash,T20I,22,6.01,12.2,7.1,16.58,127.0,🔥 On Fire
 SM Sharif,ODI,17,5.755,19.5,4.87,26.31,109.8,✅ Good
 SM Sharif,T20I,12,8.32,34.4,8.02,20.44,77.9,😐 Average
 SM Sharma,ODI,2,4.88,19.5,5.57,27.85,128.5,🔥 On Fire
 SM Sharma,T20I,0,18.0,18.0,10.09,111.0,336.4,🔥 On Fire
+SM Solia,T20I,0,7.38,16.0,7.38,16.0,100.0,✅ Good
+SM Tupou,T20I,2,8.2,20.5,6.75,13.5,74.1,😐 Average
 SN Netravalkar,CPL,7,8.0,17.14,8.0,17.14,100.0,✅ Good
 SN Netravalkar,ODI,21,3.5,15.62,3.89,20.06,119.8,🔥 On Fire
 SN Netravalkar,T20I,10,9.21,28.5,7.2,22.93,79.3,😐 Average
@@ -2849,7 +2889,7 @@ SO Ngoche,T20I,2,6.85,44.5,6.17,16.03,63.0,😐 Average
 SP Krishnamurthi,ODI,4,4.97,13.25,4.74,19.75,122.2,🔥 On Fire
 SP Krishnamurthi,T20I,2,4.2,10.5,4.2,10.5,100.0,✅ Good
 SP Narine,CPL,10,5.94,30.9,5.45,19.05,76.7,😐 Average
-SP Narine,IPL,23,7.235,24.259999999999998,6.79,23.07,94.5,✅ Good
+SP Narine,IPL,24,7.095000000000001,24.165,6.78,23.04,95.5,✅ Good
 SPD Smith,PSL,1,14.0,14.0,14.0,14.0,100.0,✅ Good
 SR Bhudia,T20I,0,11.0,11.0,5.81,20.44,119.3,🔥 On Fire
 SR Harmer,Test,31,2.5,13.84,2.88,21.49,135.2,🔥 On Fire
@@ -2883,9 +2923,10 @@ Sabreen Zaki,T20I,0,8.5,17.0,8.4,42.0,172.9,🔥 On Fire
 Sadamali Bhakshala,T20I,2,7.8,78.0,7.02,48.88,76.3,😐 Average
 Sadat Said,T20I,2,5.67,8.5,5.67,8.5,100.0,✅ Good
 Sadia Iqbal,ODI,26,4.95,23.41,4.04,21.7,87.2,✅ Good
-Sadia Iqbal,T20I,9,6.37,19.085,5.73,16.71,88.8,✅ Good
+Sadia Iqbal,T20I,12,6.18,18.115000000000002,5.7,16.2,90.8,✅ Good
 Saee Parkhi,T20I,0,7.17,55.0,7.25,64.0,108.7,✅ Good
 Saeed Waqar Ali,T20I,4,11.83,51.25,10.97,42.67,88.0,✅ Good
+Sageer Ahmad,T20I,0,9.5,57.0,9.5,57.0,100.0,✅ Good
 Saghir Khan,T20I,10,8.34,17.8,8.34,17.8,100.0,✅ Good
 Sahel Zadran,T20I,21,6.32,19.57,7.13,20.52,108.8,✅ Good
 Sahil Chauhan,T20I,0,6.0,12.0,7.0,14.0,116.7,🔥 On Fire
@@ -2895,17 +2936,18 @@ Saif Hassan,T20I,2,6.12,24.5,5.85,38.5,126.4,🔥 On Fire
 Saim Ayub,ODI,4,5.32,58.75,5.04,41.56,82.7,😐 Average
 Saim Ayub,PSL,11,8.395,43.885000000000005,8.11,33.33,86.3,✅ Good
 Saim Ayub,T20I,31,7.705,17.0,7.36,19.26,104.4,✅ Good
+Saira Jabeen,T20I,0,10.0,10.0,10.0,10.0,100.0,✅ Good
 Sajid Khan,T20I,1,9.36,78.0,9.36,78.0,100.0,✅ Good
 Sajid Khan,Test,21,3.65,25.0,3.42,27.65,102.1,✅ Good
 Sajid Liaqat,T20I,14,9.82,23.925,9.41,18.07,85.7,✅ Good
 Sajid Safi,T20I,0,15.0,15.0,15.0,15.0,100.0,✅ Good
-Sakib Hussain,IPL,10,9.29,24.3,9.29,24.3,100.0,✅ Good
+Sakib Hussain,IPL,12,9.28,23.33,9.28,23.33,100.0,✅ Good
 Salman Irshad,CPL,8,6.39,14.5,7.74,19.06,126.3,🔥 On Fire
 Salman Irshad,PSL,15,9.559999999999999,25.83,9.6,25.68,99.9,✅ Good
 Salman Mirza,PSL,13,10.635,37.125,10.72,28.93,89.4,✅ Good
 Salman Mirza,T20I,24,6.475,15.365,6.41,15.46,99.8,✅ Good
 Salman Patel,T20I,2,10.33,37.0,10.33,37.0,100.0,✅ Good
-Salman Sharjeel,T20I,1,9.67,29.0,9.67,29.0,100.0,✅ Good
+Salman Sharjeel,T20I,5,8.96,23.6,8.96,23.6,100.0,✅ Good
 Salvin Stanly,T20I,0,7.5,15.0,9.27,51.0,231.8,🔥 On Fire
 Samarth Shetty,T20I,3,7.0,11.67,7.0,11.67,100.0,✅ Good
 Sameer Minhas,PSL,0,7.71,9.0,7.71,9.0,100.0,✅ Good
@@ -2951,12 +2993,12 @@ Shah Abrar Hussain,T20I,15,6.94,23.07,7.54,25.14,108.8,✅ Good
 Shah Faisal,ODI,3,6.1,41.0,6.1,41.0,100.0,✅ Good
 Shah Faisal,T20I,16,8.165,45.635,7.54,21.69,69.9,😐 Average
 Shahab Alam,T20I,2,10.835,19.25,9.52,31.29,125.2,🔥 On Fire
-Shahbaz Ahmed,IPL,3,12.125,63.25,9.65,41.17,72.3,😐 Average
+Shahbaz Ahmed,IPL,5,11.645,60.875,9.66,39.15,73.6,😐 Average
 Shaheen Shah Afridi,BBL,2,10.8,76.5,10.8,76.5,100.0,✅ Good
 Shaheen Shah Afridi,ODI,21,5.925,32.44,5.72,25.04,86.9,✅ Good
 Shaheen Shah Afridi,PSL,36,7.8149999999999995,16.770000000000003,7.94,18.76,106.7,✅ Good
 Shaheen Shah Afridi,T20I,35,8.725,20.619999999999997,7.9,20.05,93.9,✅ Good
-Shaheen Shah Afridi,Test,5,3.58,28.6,3.14,27.46,91.9,✅ Good
+Shaheen Shah Afridi,Test,10,3.56,31.0,3.16,27.7,89.1,✅ Good
 Shaheryar Butt,T20I,0,6.0,1.0,15.43,18.0,1028.6,
 Shahid Afridi,T20I,16,8.67,14.635000000000002,6.83,21.41,112.5,🔥 On Fire
 Shahid Ahmadzai,ODI,4,3.78,21.75,3.55,36.2,130.2,🔥 On Fire
@@ -2984,7 +3026,7 @@ Sheraz Sirwari,T20I,4,7.52,31.0,7.52,31.0,100.0,✅ Good
 Shiraz Khan,T20I,1,9.17,55.0,6.35,20.64,53.4,📉 Poor
 Shivam Sharma,ODI,8,5.22,29.38,5.22,29.38,100.0,✅ Good
 Shivam Sharma,T20I,17,8.25,15.620000000000001,5.43,9.59,63.6,😐 Average
-Shivang Kumar,IPL,10,9.5,28.5,9.5,28.5,100.0,✅ Good
+Shivang Kumar,IPL,10,9.5,30.4,9.5,30.4,100.0,✅ Good
 Shivani Sati,T20I,1,9.33,14.0,9.33,14.0,100.0,✅ Good
 Shoaib Bashir,Test,20,3.9,34.2,3.79,38.43,104.8,✅ Good
 Shoaib Khan,ODI,0,24.0,4.0,5.59,67.5,855.4,🔥 On Fire
@@ -3029,16 +3071,17 @@ Sukhjinder Singh,T20I,3,5.31,23.0,5.31,23.0,100.0,✅ Good
 Sulaimon Runsewe,T20I,1,7.0,14.0,8.22,12.33,102.8,✅ Good
 Sultana Khatun,ODI,2,5.67,41.25,4.03,27.64,69.0,😐 Average
 Sultana Khatun,T20I,8,7.015,30.75,6.77,23.16,85.9,✅ Good
+Surinder Singh,T20I,3,3.79,4.0,8.71,21.57,384.5,🔥 On Fire
 Surya Anand,T20I,0,7.0,21.0,5.92,27.44,107.6,✅ Good
 Suryansh Shedge,IPL,0,12.63,40.0,12.63,40.0,100.0,✅ Good
-Suyash Sharma,IPL,16,8.645,43.769999999999996,8.66,40.11,95.9,✅ Good
+Suyash Sharma,IPL,16,8.705,45.269999999999996,8.69,40.89,95.1,✅ Good
 Suzan Turan,T20I,6,4.97,9.67,4.97,9.67,100.0,✅ Good
 Sweeta Corda,T20I,1,11.54,25.0,11.54,25.0,100.0,✅ Good
 Syed Ali Gillani,T20I,3,8.67,26.0,8.67,26.0,100.0,✅ Good
 Syed Aziz,T20I,42,5.99,15.595,7.25,20.03,124.7,🔥 On Fire
 Syed Faizan Tahir,T20I,1,8.0,8.0,8.0,8.0,100.0,✅ Good
 Syed Jawad Haider,T20I,1,9.33,28.0,9.33,28.0,100.0,✅ Good
-Syeda Aroob Shah,ODI,9,4.404999999999999,16.93,4.6,21.89,116.9,🔥 On Fire
+Syeda Aroob Shah,ODI,11,4.395,16.055,4.58,21.18,118.1,🔥 On Fire
 Sylvia Usabyimana,T20I,5,5.61,20.4,5.4,16.89,89.5,✅ Good
 T Araliya,T20I,6,6.62,19.67,6.94,19.67,102.4,✅ Good
 T Chopra,T20I,13,4.95,8.38,5.26,10.87,118.0,🔥 On Fire
@@ -3072,7 +3115,7 @@ T Putthawong,ODI,10,5.2,21.3,3.69,15.39,71.6,😐 Average
 T Putthawong,T20I,79,4.735,8.195,4.27,8.26,95.5,✅ Good
 T Ramabitsa,T20I,6,6.57,17.33,6.53,19.0,104.5,✅ Good
 T Rossi,T20I,2,9.875,32.5,7.04,19.67,65.9,😐 Average
-T Sandaruwan,T20I,7,8.7,18.86,8.7,18.86,100.0,✅ Good
+T Sandaruwan,T20I,9,7.6,15.93,8.24,17.56,109.3,✅ Good
 T Sangha,BBL,8,7.824999999999999,58.855000000000004,7.41,20.98,65.2,😐 Average
 T Sangha,ODI,0,6.82,75.0,6.9,100.0,117.3,🔥 On Fire
 T Sarada,T20I,1,6.0,40.0,6.0,40.0,100.0,✅ Good
@@ -3129,22 +3172,23 @@ TS Sekhukhune,ODI,15,6.035,34.0,5.03,32.38,89.3,✅ Good
 TS Sekhukhune,T20I,10,10.05,22.3,7.62,19.85,82.4,😐 Average
 TT Maposa,T20I,14,13.48,35.96,8.98,31.13,76.6,😐 Average
 TT Soe,T20I,5,4.94,17.8,4.07,10.2,69.8,😐 Average
-TU Deshpande,IPL,14,11.215,37.79,9.96,29.53,83.5,😐 Average
+TU Deshpande,IPL,14,11.335,42.99,10.02,30.4,79.6,😐 Average
 Taful Elkhair,T20I,0,12.344999999999999,20.0,10.91,40.0,144.2,🔥 On Fire
 Taher Muhammad,T20I,2,13.2,66.0,10.08,60.5,84.0,😐 Average
-Taijul Islam,Test,37,3.02,23.7,3.05,30.27,114.4,🔥 On Fire
+Taijul Islam,Test,41,2.8449999999999998,20.35,3.04,30.06,127.3,🔥 On Fire
 Tanvir Islam,ODI,13,5.640000000000001,44.54,4.68,24.46,68.9,😐 Average
 Tanvir Islam,T20I,2,8.38,33.5,8.0,34.0,98.5,✅ Good
 Tanzim Hasan Sakib,ODI,7,6.21,25.43,5.9,28.05,102.7,✅ Good
 Tanzim Hasan Sakib,T20I,22,9.07,23.9,8.31,24.09,96.2,✅ Good
 Tanzim Hasan Sakib,Test,1,4.67,49.0,4.67,49.0,100.0,✅ Good
-Taranjeet Singh,T20I,15,6.61,15.93,6.8,17.53,106.5,✅ Good
-Taranjit Singh,T20I,11,7.845000000000001,12.555,6.88,16.33,108.9,✅ Good
+Taranjeet Singh,T20I,15,5.805,17.965,6.75,17.92,108.0,✅ Good
+Taranjit Singh,T20I,17,6.765000000000001,11.995000000000001,6.95,15.7,116.8,🔥 On Fire
 Tashi Dorji,T20I,10,6.66,21.56,6.42,18.18,90.4,✅ Good
 Tashi Phuntsho,T20I,13,5.140000000000001,12.344999999999999,5.19,10.9,94.6,✅ Good
 Taskin Ahmed,ODI,17,4.845000000000001,23.695,5.42,30.52,120.3,🔥 On Fire
 Taskin Ahmed,T20I,22,8.88,16.82,7.74,20.99,106.0,✅ Good
-Tasmia Rubab,ODI,3,3.75,13.33,3.75,13.33,100.0,✅ Good
+Taskin Ahmed,Test,4,3.82,27.5,3.58,38.98,117.7,🔥 On Fire
+Tasmia Rubab,ODI,6,4.31,14.83,4.31,14.83,100.0,✅ Good
 Tasmia Rubab,T20I,0,12.86,15.0,11.61,60.0,245.1,🔥 On Fire
 Tenjin Rabgey,T20I,0,8.0,8.0,5.2,26.0,195.0,🔥 On Fire
 Thilina Silva,T20I,5,5.43,15.2,5.43,15.2,100.0,✅ Good
@@ -3155,7 +3199,7 @@ Tilak Varma,T20I,2,6.35,14.5,5.79,13.75,93.0,✅ Good
 Towhid Hridoy,T20I,0,15.0,5.0,15.0,5.0,100.0,✅ Good
 Tripti Gore,T20I,1,10.94,62.0,10.94,62.0,100.0,✅ Good
 Tshering Choden,T20I,3,6.0,21.0,6.1,40.67,147.7,🔥 On Fire
-Tuba Hassan,T20I,1,8.785,47.5,6.7,25.79,65.3,😐 Average
+Tuba Hassan,T20I,1,7.9,53.0,6.55,26.18,66.2,😐 Average
 U Bayarjavkhlan,T20I,2,6.86,44.0,7.07,23.8,78.6,😐 Average
 U Dorji,T20I,0,11.5,23.0,11.5,23.0,100.0,✅ Good
 U Peace,T20I,14,4.215,16.04,4.23,14.09,94.1,✅ Good
@@ -3191,12 +3235,12 @@ V Mansale,T20I,13,6.05,17.08,5.71,15.73,93.2,✅ Good
 V Marghashayam,T20I,3,10.38,27.67,10.2,25.5,95.2,✅ Good
 V Masekesa,Test,11,4.84,42.0,4.84,42.0,100.0,✅ Good
 V Nagpaul,T20I,5,6.12,20.8,6.12,20.8,100.0,✅ Good
-V Nigam,IPL,14,9.995000000000001,34.585,9.29,31.07,91.4,✅ Good
+V Nigam,IPL,14,10.65,43.085,9.6,33.5,83.9,😐 Average
 V Poglitsch,T20I,0,12.0,16.0,12.0,16.0,100.0,✅ Good
 V Puthur,IPL,6,9.08,18.17,9.08,18.17,100.0,✅ Good
 V Ravindran,T20I,1,4.42,14.0,3.0,5.0,51.8,📉 Poor
 V Redkar,T20I,0,6.0,6.0,6.0,6.0,100.0,✅ Good
-V Saini,T20I,12,6.85,14.75,7.26,22.06,127.8,🔥 On Fire
+V Saini,T20I,16,6.855,13.375,7.24,21.27,132.3,🔥 On Fire
 V Shaw,T20I,1,6.0,18.0,5.72,13.67,85.6,✅ Good
 V Vijh,T20I,4,8.46,27.5,8.01,20.36,84.4,😐 Average
 V Vira,T20I,32,4.33,9.63,4.31,9.61,99.7,✅ Good
@@ -3206,12 +3250,13 @@ V Zimonjic,T20I,5,9.36,41.8,7.77,23.3,69.4,😐 Average
 VB Viyala,T20I,5,7.23,21.2,7.23,21.2,100.0,✅ Good
 VD Adewoye,T20I,7,8.18,19.86,7.9,21.22,101.7,✅ Good
 VE Tembo,T20I,0,27.0,27.0,13.46,83.0,178.6,🔥 On Fire
-VG Arora,IPL,30,10.11,25.54,9.56,26.58,99.3,✅ Good
+VG Arora,IPL,31,10.09,25.564999999999998,9.56,26.63,99.5,✅ Good
 VJ Joshitha,WPL,0,10.38,83.0,10.38,83.0,100.0,✅ Good
 VJ Kingma,ODI,4,5.07,42.5,5.1,26.56,81.5,😐 Average
 VJ Kingma,T20I,0,4.0,2.0,7.49,27.41,778.9,🔥 On Fire
 VM Nyauchi,Test,3,4.28,73.0,3.26,47.88,70.9,😐 Average
 VM Vaghela,T20I,4,3.0,3.0,4.0,5.0,150.0,🔥 On Fire
+VM Waqavakatoga,T20I,0,9.75,39.0,9.75,39.0,100.0,✅ Good
 VP Thamotharam,T20I,6,8.13,45.83,7.72,27.2,77.2,😐 Average
 Vaishnave Mahesh,ODI,1,4.72,125.0,4.72,125.0,100.0,✅ Good
 Vaishnave Mahesh,T20I,26,4.08,8.19,4.8,10.88,125.2,🔥 On Fire
@@ -3234,6 +3279,7 @@ W Madhevere,Test,7,3.68,34.71,3.68,34.71,100.0,✅ Good
 W Matabwa,T20I,1,8.29,58.0,8.29,58.0,100.0,✅ Good
 W Moutswi,T20I,15,4.77,12.875,4.16,12.25,91.2,✅ Good
 W Mwatile,T20I,28,4.84,18.875,4.44,14.93,85.4,✅ Good
+W Nalisa,T20I,3,5.28,19.67,7.0,19.31,115.4,🔥 On Fire
 W Ngowhuad,T20I,14,12.035,16.895,9.6,18.35,94.2,✅ Good
 W O'Rourke,IPL,6,12.77,22.0,12.77,22.0,100.0,✅ Good
 W O'Rourke,ODI,24,5.5,30.375,5.63,31.79,103.5,✅ Good
@@ -3243,10 +3289,11 @@ W Perchard,T20I,0,10.0,20.0,7.67,46.0,153.4,🔥 On Fire
 W Prestwidge,BBL,2,9.705,24.5,9.92,24.38,100.9,✅ Good
 W Smith,T20I,2,9.75,19.5,9.75,19.5,100.0,✅ Good
 W Sutherland,BBL,10,9.14,46.099999999999994,8.83,34.23,85.4,✅ Good
+W Wotu,T20I,2,9.47,15.0,7.42,23.5,117.5,🔥 On Fire
 WA Agar,BBL,11,10.114999999999998,35.855000000000004,9.09,22.15,75.8,😐 Average
-WA Duraisingam,T20I,4,7.585,37.625,5.9,20.73,66.4,😐 Average
+WA Duraisingam,T20I,4,7.775,43.125,5.92,20.93,62.3,😐 Average
 WAE Burton,T20I,2,9.25,74.0,8.83,30.9,68.6,😐 Average
-WG Jacks,IPL,7,13.07,36.5,10.43,30.33,81.4,😐 Average
+WG Jacks,IPL,7,10.835,43.0,10.15,31.78,83.8,😐 Average
 WG Jacks,ODI,4,6.9,81.0,6.18,49.67,75.4,😐 Average
 WG Jacks,T20I,16,7.96,17.82,8.67,18.35,105.9,✅ Good
 WG Jacks,Test,6,4.9399999999999995,49.75,4.61,46.17,93.1,✅ Good
@@ -3265,7 +3312,7 @@ Waheeda Akhtar,T20I,1,8.0,24.0,7.52,25.5,100.1,✅ Good
 Wahidullah Sahak,T20I,3,7.33,7.33,7.87,15.32,158.2,🔥 On Fire
 Waji Ul Hassan,T20I,15,7.7,13.87,7.62,22.19,129.5,🔥 On Fire
 Walid Ghauri,T20I,0,8.0,8.0,8.04,35.5,272.1,🔥 On Fire
-Wang Huiying,T20I,4,4.595,14.75,5.41,18.46,121.4,🔥 On Fire
+Wang Huiying,T20I,7,4.2,16.585,5.21,17.69,115.4,🔥 On Fire
 Waqar Ali,T20I,26,4.59,6.77,4.64,7.16,103.4,✅ Good
 Waqar Khan,T20I,3,16.75,22.33,16.75,22.33,100.0,✅ Good
 Waqar Salamkheil,BBL,4,8.8,11.0,9.45,17.33,132.5,🔥 On Fire
@@ -3275,7 +3322,7 @@ Waqas Barkat,T20I,6,8.56,22.83,8.11,32.0,117.5,🔥 On Fire
 Waseem Muhammad,T20I,0,14.21,45.0,11.46,42.67,87.7,✅ Good
 Waseem Yaqoob,T20I,6,7.5,15.0,7.92,13.25,97.0,✅ Good
 Washeem Abbas,T20I,8,10.36,36.25,8.1,18.67,64.8,😐 Average
-Washington Sundar,IPL,3,10.059999999999999,53.25,7.74,35.4,71.7,😐 Average
+Washington Sundar,IPL,3,9.379999999999999,58.25,7.72,35.64,71.7,😐 Average
 Washington Sundar,ODI,6,5.67,28.835,4.95,28.86,93.7,✅ Good
 Washington Sundar,T20I,4,8.3,33.625,6.93,21.63,73.9,😐 Average
 Washington Sundar,Test,11,3.27,50.64,3.24,32.97,82.1,😐 Average
@@ -3304,8 +3351,8 @@ YS Samra,T20I,2,6.5,6.5,6.5,6.5,100.0,✅ Good
 Yahya Suhail,T20I,2,8.31,36.0,8.31,36.0,100.0,✅ Good
 Yasar Haroon,T20I,8,6.015000000000001,17.165,5.69,15.58,92.7,✅ Good
 Yash Dayal,IPL,14,9.46,33.57,9.47,30.89,96.1,✅ Good
-Yash Raj Punja,IPL,3,8.25,22.0,8.25,22.0,100.0,✅ Good
-Yash Thakur,IPL,1,11.85,79.0,10.34,27.5,61.0,😐 Average
+Yash Raj Punja,IPL,4,8.58,25.75,8.58,25.75,100.0,✅ Good
+Yash Thakur,IPL,3,12.524999999999999,53.25,10.49,27.5,67.7,😐 Average
 Yasim Murtaza,T20I,26,7.38,30.25,6.43,18.77,74.6,😐 Average
 Yasin Patel,T20I,10,6.54,23.69,5.98,17.11,81.8,😐 Average
 Yasir Ali,T20I,8,3.2,6.0,5.61,11.11,180.2,🔥 On Fire
@@ -3360,7 +3407,7 @@ Zeeshan Ansari,IPL,8,9.79,41.62,9.79,41.62,100.0,✅ Good
 Zeeshan Goraya,T20I,8,9.395,29.365,9.04,27.12,94.3,✅ Good
 Zeeshan Kukikhel,T20I,2,13.12,35.0,8.48,19.71,60.5,😐 Average
 Zeshan Arif,T20I,1,13.0,39.0,13.0,39.0,100.0,✅ Good
-Zhao Yihan,T20I,2,3.33,5.0,3.33,5.0,100.0,✅ Good
+Zhao Yihan,T20I,4,5.29,13.0,5.29,13.0,100.0,✅ Good
 Ziaurahman Shinwari,T20I,12,7.44,13.75,7.44,13.75,100.0,✅ Good
 Zikria Islam,T20I,1,6.75,27.0,6.75,27.0,100.0,✅ Good
 Zon Lin,T20I,5,5.82,12.8,4.88,12.48,90.7,✅ Good
