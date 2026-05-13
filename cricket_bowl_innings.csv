@@ -132541,6 +132541,17 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1495661,Muhammad Moiz,Austria,Romania,"GB Oval, Szodliget",2025-07-27,T20I,18,44.0,1,6,3.0,14.67,2025
 1495661,Taranjeet Singh,Austria,Romania,"GB Oval, Szodliget",2025-07-27,T20I,18,25.0,0,7,3.0,8.33,2025
 1495661,V Saini,Austria,Romania,"GB Oval, Szodliget",2025-07-27,T20I,24,27.0,1,9,4.0,6.75,2025
+1496542,AC Kerr,England,New Zealand,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,60,52.0,2,30,10.0,5.2,2026
+1496542,BG Illing,England,New Zealand,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,56,29.0,1,37,9.3,3.11,2026
+1496542,CE Dean,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,42,21.0,2,27,7.0,3.0,2026
+1496542,DR Gibson,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,36,26.0,1,16,6.0,4.33,2026
+1496542,J Grewcock,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,36,25.0,1,15,6.0,4.17,2026
+1496542,JM Kerr,England,New Zealand,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,60,41.0,1,35,10.0,4.1,2026
+1496542,L Filer,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,60,40.0,1,36,10.0,4.0,2026
+1496542,LK Bell,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,58,38.0,3,33,9.7,3.93,2026
+1496542,MR Corteen-Coleman,New Zealand,England,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,60,48.0,2,26,10.0,4.8,2026
+1496542,NH Patel,England,New Zealand,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,54,34.0,1,31,9.0,3.78,2026
+1496542,RA Mair,England,New Zealand,"Riverside Ground, Chester-le-Street",2026-05-10,ODI,62,40.0,4,35,10.3,3.87,2026
 1496821,A Dhabe,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,2,12,4.0,6.75,2025
 1496821,Abdul Naser Baluch,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,14.0,2,15,4.0,3.5,2025
 1496821,Aqib Iqbal,Sweden,Austria,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,3,10,4.0,6.75,2025
@@ -141708,6 +141719,74 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1529293,Rasikh Salam,Lucknow Super Giants,Royal Challengers Bengaluru,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-05-07,IPL,24,52.0,1,5,4.0,13.0,2026
 1529293,Shahbaz Ahmed,Royal Challengers Bengaluru,Lucknow Super Giants,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-05-07,IPL,18,30.0,2,8,3.0,10.0,2026
 1529293,Suyash Sharma,Lucknow Super Giants,Royal Challengers Bengaluru,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-05-07,IPL,12,21.0,0,2,2.0,10.5,2026
+1529294,AR Patel,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,24,27.0,1,9,4.0,6.75,2026
+1529294,AS Roy,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,24,29.0,1,10,4.0,7.25,2026
+1529294,C Green,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,6,12.0,1,2,1.0,12.0,2026
+1529294,CV Varun,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,24,28.0,0,10,4.0,7.0,2026
+1529294,Kartik Tyagi,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,24,25.0,3,10,4.0,6.25,2026
+1529294,Kuldeep Yadav,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,18,41.0,0,6,3.0,13.67,2026
+1529294,L Ngidi,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,12,7.0,0,5,2.0,3.5,2026
+1529294,MA Starc,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,18,31.0,1,5,3.0,10.33,2026
+1529294,Mukesh Kumar,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,2,7.0,0,0,0.3,21.0,2026
+1529294,SP Narine,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,24,17.0,1,14,4.0,4.25,2026
+1529294,V Nigam,Kolkata Knight Riders,Delhi Capitals,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,12,34.0,0,1,2.0,17.0,2026
+1529294,VG Arora,Delhi Capitals,Kolkata Knight Riders,"Arun Jaitley Stadium, Delhi",2026-05-08,IPL,18,29.0,1,5,3.0,9.67,2026
+1529295,Brijesh Sharma,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,45.0,2,10,4.0,11.25,2026
+1529295,D Ferreira,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,6,11.0,0,1,1.0,11.0,2026
+1529295,JC Archer,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,19,37.0,0,4,3.2,11.68,2026
+1529295,JO Holder,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,15,12.0,3,8,2.5,4.8,2026
+1529295,K Rabada,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,18,33.0,2,9,3.0,11.0,2026
+1529295,Mohammed Siraj,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,53.0,1,8,4.0,13.25,2026
+1529295,R Sai Kishore,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,6,8.0,0,1,1.0,8.0,2026
+1529295,RA Jadeja,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,34.0,1,5,4.0,8.5,2026
+1529295,Rashid Khan,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,33.0,4,12,4.0,8.25,2026
+1529295,TU Deshpande,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,49.0,0,7,4.0,12.25,2026
+1529295,Washington Sundar,Rajasthan Royals,Gujarat Titans,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,12,10.0,0,6,2.0,5.0,2026
+1529295,Yash Raj Punja,Gujarat Titans,Rajasthan Royals,"Sawai Mansingh Stadium, Jaipur",2026-05-09,IPL,24,35.0,1,6,4.0,8.75,2026
+1529296,A Kamboj,Lucknow Super Giants,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,25,46.0,3,8,4.2,11.04,2026
+1529296,AJ Hosein,Lucknow Super Giants,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,49.0,1,4,4.0,12.25,2026
+1529296,AK Markram,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,2,12.0,0,0,0.3,36.0,2026
+1529296,Avesh Khan,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,40.0,1,9,4.0,10.0,2026
+1529296,DS Rathi,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,44.0,2,7,4.0,11.0,2026
+1529296,J Overton,Lucknow Super Giants,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,34.0,3,11,4.0,8.5,2026
+1529296,Mohammed Shami,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,37.0,0,6,4.0,9.25,2026
+1529296,Mukesh Choudhary,Lucknow Super Giants,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,43.0,0,9,4.0,10.75,2026
+1529296,Noor Ahmad,Lucknow Super Giants,Chennai Super Kings,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,24.0,1,10,4.0,6.0,2026
+1529296,Prince Yadav,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,24,34.0,0,10,4.0,8.5,2026
+1529296,Shahbaz Ahmed,Chennai Super Kings,Lucknow Super Giants,"MA Chidambaram Stadium, Chepauk, Chennai",2026-05-10,IPL,18,30.0,2,3,3.0,10.0,2026
+1529297,AM Ghazanfar,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,18,33.0,1,4,3.0,11.0,2026
+1529297,B Kumar,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,22.0,4,12,4.0,5.5,2026
+1529297,C Bosch,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,26.0,4,14,4.0,6.5,2026
+1529297,DL Chahar,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,31.0,2,10,4.0,7.75,2026
+1529297,JJ Bumrah,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,18.0,0,10,4.0,4.5,2026
+1529297,JR Hazlewood,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,32.0,1,12,4.0,8.0,2026
+1529297,KH Pandya,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,18,25.0,0,1,3.0,8.33,2026
+1529297,R Shepherd,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,18,18.0,1,8,3.0,6.0,2026
+1529297,RA Bawa,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,19,33.0,1,4,3.2,10.42,2026
+1529297,Rasikh Salam,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,24,42.0,1,6,4.0,10.5,2026
+1529297,Suyash Sharma,Mumbai Indians,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,12,21.0,0,1,2.0,10.5,2026
+1529297,WG Jacks,Royal Challengers Bengaluru,Mumbai Indians,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-10,IPL,12,12.0,0,3,2.0,6.0,2026
+1529298,Arshdeep Singh,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,17.0,2,14,4.0,4.25,2026
+1529298,Auqib Nabi,Punjab Kings,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,26,32.0,0,10,4.3,7.38,2026
+1529298,BJ Dwarshuis,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,46.0,2,6,4.0,11.5,2026
+1529298,L Ngidi,Punjab Kings,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,46.0,0,7,4.0,11.5,2026
+1529298,M Jansen,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,44.0,0,8,4.0,11.0,2026
+1529298,M Tiwari,Punjab Kings,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,38.0,2,9,4.0,9.5,2026
+1529298,MA Starc,Punjab Kings,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,50.0,2,9,4.0,12.5,2026
+1529298,MP Stoinis,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,18,42.0,1,3,3.0,14.0,2026
+1529298,Mukesh Kumar,Punjab Kings,Delhi Capitals,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,24,29.0,1,7,4.0,7.25,2026
+1529298,Yash Thakur,Delhi Capitals,Punjab Kings,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2026-05-11,IPL,25,50.0,2,8,4.2,12.0,2026
+1529299,E Malinga,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,45.0,0,4,4.0,11.25,2026
+1529299,JO Holder,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,19.0,3,15,4.0,4.75,2026
+1529299,K Rabada,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,28.0,3,13,4.0,7.0,2026
+1529299,M Prasidh Krishna,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,18,23.0,2,10,3.0,7.67,2026
+1529299,Mohammed Siraj,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,18,11.0,1,13,3.0,3.67,2026
+1529299,Nithish Kumar Reddy,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,18,27.0,0,9,3.0,9.0,2026
+1529299,PJ Cummins,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,20.0,1,13,4.0,5.0,2026
+1529299,PP Hinge,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,18,17.0,2,10,3.0,5.67,2026
+1529299,Rashid Khan,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,5,3.0,1,3,0.8,3.6,2026
+1529299,Sakib Hussain,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,34.0,2,7,4.0,8.5,2026
+1529299,Shivang Kumar,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,12,17.0,0,2,2.0,8.5,2026
 1529377,D Panda,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,12,12.0,2,7,2.0,6.0,2026
 1529377,DV Devjani Mutreja,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,24,13.0,0,17,4.0,3.25,2026
 1529377,Hassan Nasir,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,24,8.0,1,19,4.0,2.0,2026
@@ -142246,6 +142325,46 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1531682,P Pushparajan,Gibraltar,Malta,Marsa Sports Club,2026-05-07,T20I,24,26.0,2,8,4.0,6.5,2026
 1531682,S Bodha,Malta,Gibraltar,Marsa Sports Club,2026-05-07,T20I,18,35.0,1,3,3.0,11.67,2026
 1531682,Salman Sharjeel,Gibraltar,Malta,Marsa Sports Club,2026-05-07,T20I,18,28.0,1,7,3.0,9.33,2026
+1531683,A Reyes,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,6,17.0,0,1,1.0,17.0,2026
+1531683,Adil Latheef,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,13,11.0,1,5,2.2,5.08,2026
+1531683,Ajin Soman,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,24.0,0,11,4.0,6.0,2026
+1531683,IDM Latin,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,18,15.0,1,11,3.0,5.0,2026
+1531683,Imran Ameer,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,26.0,2,13,4.0,6.5,2026
+1531683,J Wilson,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,6,10.0,0,1,1.0,10.0,2026
+1531683,K Mirpuri,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,12,24.0,0,4,2.0,12.0,2026
+1531683,K Nestor,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,13,24.0,0,4,2.2,11.08,2026
+1531683,KJ Ferrary,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,12,29.0,1,5,2.0,14.5,2026
+1531683,Mehboob Ali,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,12,15.0,0,1,2.0,7.5,2026
+1531683,Muhammad Ajmal,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,6,17.0,0,1,1.0,17.0,2026
+1531683,P Pushparajan,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,28.0,0,6,4.0,7.0,2026
+1531683,S Bodha,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,12,17.0,1,6,2.0,8.5,2026
+1531683,Salman Sharjeel,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,18,22.0,2,8,3.0,7.33,2026
+1531684,Adil Latheef,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,18,11.0,1,8,3.0,3.67,2026
+1531684,Ajin Soman,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,18,16.0,2,9,3.0,5.33,2026
+1531684,BA Pai,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,18,38.0,1,5,3.0,12.67,2026
+1531684,IDM Latin,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,24,27.0,1,10,4.0,6.75,2026
+1531684,Imran Ameer,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,42.0,0,6,4.0,10.5,2026
+1531684,J Mathew,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,23.0,2,6,4.0,5.75,2026
+1531684,J Wilson,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,12,22.0,0,2,2.0,11.0,2026
+1531684,K Mirpuri,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,24,36.0,2,11,4.0,9.0,2026
+1531684,L Bruce,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,24,28.0,2,15,4.0,7.0,2026
+1531684,Mohammed Qasim,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,24,34.0,1,6,4.0,8.5,2026
+1531684,S Bodha,Malta,Gibraltar,Marsa Sports Club,2026-05-08,T20I,18,27.0,0,10,3.0,9.0,2026
+1531684,Salman Sharjeel,Gibraltar,Malta,Marsa Sports Club,2026-05-08,T20I,12,16.0,1,5,2.0,8.0,2026
+1531685,A Reyes,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,18,21.0,1,8,3.0,7.0,2026
+1531685,Adil Latheef,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,24,27.0,0,8,4.0,6.75,2026
+1531685,Ajin Soman,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,24,18.0,3,10,4.0,4.5,2026
+1531685,BA Pai,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,12,15.0,0,6,2.0,7.5,2026
+1531685,IDM Latin,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,18,29.0,0,5,3.0,9.67,2026
+1531685,J Wilson,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,6,9.0,1,2,1.0,9.0,2026
+1531685,Jaswinder Singh,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,12,22.0,0,2,2.0,11.0,2026
+1531685,K Mirpuri,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,19,42.0,0,2,3.2,13.26,2026
+1531685,KJ Ferrary,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,12,7.0,0,8,2.0,3.5,2026
+1531685,L Bruce,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,18,12.0,1,10,3.0,4.0,2026
+1531685,Mohammed Qasim,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,24,23.0,2,8,4.0,5.75,2026
+1531685,Muhammad Ajmal,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,18,18.0,1,8,3.0,6.0,2026
+1531685,P Pushparajan,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,18,23.0,1,8,3.0,7.67,2026
+1531685,S Bodha,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,2,6.0,0,1,0.3,18.0,2026
 1531694,H Dhami,United Arab Emirates,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-04-20,T20I,6,20.0,0,2,1.0,20.0,2026
 1531694,Haider Ali,Nepal,United Arab Emirates,"Tribhuvan University International Cricket Ground, Kirtipur",2026-04-20,T20I,24,32.0,1,9,4.0,8.0,2026
 1531694,Junaid Siddique,Nepal,United Arab Emirates,"Tribhuvan University International Cricket Ground, Kirtipur",2026-04-20,T20I,18,17.0,2,9,3.0,5.67,2026
@@ -142348,6 +142467,194 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1531701,S Lamichhane,Oman,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-05,ODI,53,30.0,1,39,8.8,3.4,2026
 1531701,Shakeel Ahmed,Nepal,Oman,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-05,ODI,60,43.0,2,36,10.0,4.3,2026
 1531701,Wasim Ali,Nepal,Oman,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-05,ODI,12,16.0,0,6,2.0,8.0,2026
+1531702,BJ Currie,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,48,43.0,3,24,8.0,5.38,2026
+1531702,BJ McMullen,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,43,38.0,0,24,7.2,5.3,2026
+1531702,DS Airee,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,24,28.0,0,10,4.0,7.0,2026
+1531702,Gulsan Jha,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,42,25.0,0,24,7.0,3.57,2026
+1531702,J Jarvis,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,24,33.0,1,10,4.0,8.25,2026
+1531702,Karan KC,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,48,51.0,2,28,8.0,6.38,2026
+1531702,LN Rajbanshi,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,60,33.0,0,39,10.0,3.3,2026
+1531702,MA Leask,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,24,29.0,0,13,4.0,7.25,2026
+1531702,MRJ Watt,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,48,36.0,2,25,8.0,4.5,2026
+1531702,NK Yadav,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,48,27.0,2,31,8.0,3.38,2026
+1531702,O Davidson,Nepal,Scotland,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,48,30.0,1,25,8.0,3.75,2026
+1531702,RK Paudel,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,18,24.0,0,8,3.0,8.0,2026
+1531702,S Lamichhane,Scotland,Nepal,"Tribhuvan University International Cricket Ground, Kirtipur",2026-05-12,ODI,60,39.0,4,35,10.0,3.9,2026
+1531873,BA Pai,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,24,20.0,3,13,4.0,5.0,2026
+1531873,IDM Latin,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,6,7.0,1,2,1.0,7.0,2026
+1531873,Imran Ameer,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,24,24.0,1,10,4.0,6.0,2026
+1531873,J Horrocks,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,24,21.0,1,13,4.0,5.25,2026
+1531873,J Mathew,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,12,16.0,1,6,2.0,8.0,2026
+1531873,J Wilson,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,24,24.0,2,7,4.0,6.0,2026
+1531873,Jaspal Singh,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,18,19.0,1,9,3.0,6.33,2026
+1531873,K Mirpuri,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,12,33.0,2,2,2.0,16.5,2026
+1531873,KJ Ferrary,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,18,22.0,0,3,3.0,7.33,2026
+1531873,L Bruce,Malta,Gibraltar,Marsa Sports Club,2026-05-09,T20I,18,36.0,0,4,3.0,12.0,2026
+1531873,Muhammad Ajmal,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,24,29.0,0,10,4.0,7.25,2026
+1531873,P Pushparajan,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,18,29.0,0,7,3.0,9.67,2026
+1531873,Salman Sharjeel,Gibraltar,Malta,Marsa Sports Club,2026-05-09,T20I,31,51.0,1,7,5.2,9.87,2026
+1532486,Agha Salman,Bangladesh,Pakistan,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,66,43.0,0,37,11.0,3.91,2026
+1532486,Ebadat Hossain,Pakistan,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,86,63.0,0,61,14.3,4.4,2026
+1532486,Hasan Ali,Bangladesh,Pakistan,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,261,127.0,4,197,43.5,2.92,2026
+1532486,Mehedi Hasan Miraz,Pakistan,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,330,149.0,6,240,55.0,2.71,2026
+1532486,Mohammad Abbas,Bangladesh,Pakistan,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,292,126.0,6,228,48.7,2.59,2026
+1532486,Nahid Rana,Pakistan,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,189,138.0,6,124,31.5,4.38,2026
+1532486,Nauman Ali,Bangladesh,Pakistan,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,234,156.0,4,133,39.0,4.0,2026
+1532486,Shaheen Shah Afridi,Bangladesh,Pakistan,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,283,167.0,5,210,47.2,3.54,2026
+1532486,Taijul Islam,Pakistan,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,153,68.0,4,115,25.5,2.67,2026
+1532486,Taskin Ahmed,Pakistan,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-05-08,Test,173,105.0,4,121,28.8,3.64,2026
+1532637,ASF Sirah,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,24,19.0,2,10,4.0,4.75,2026
+1532637,Anjar Tadarus,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,18,28.0,0,3,3.0,9.33,2026
+1532637,DC Smith,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,7,12.0,0,1,1.2,10.29,2026
+1532637,DJ Hawoe,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,18,24.0,1,5,3.0,8.0,2026
+1532637,F Banunaek,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,24,18.0,3,12,4.0,4.5,2026
+1532637,G Chohan,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,6,8.0,0,1,1.0,8.0,2026
+1532637,Gaurav Tiwari,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,24,19.0,0,11,4.0,4.75,2026
+1532637,Huzaifa Mohammed,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,24,8.0,3,16,4.0,2.0,2026
+1532637,IK Gamantika,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,24,17.0,2,12,4.0,4.25,2026
+1532637,J Tuffin,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,24,15.0,4,16,4.0,3.75,2026
+1532637,JEA Doctora,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,12,18.0,0,5,2.0,9.0,2026
+1532637,N Tanner,Indonesia,Philippines,Sano International Cricket Ground,2026-05-08,T20I,24,34.0,0,9,4.0,8.5,2026
+1532637,S Jegannathan,Philippines,Indonesia,Sano International Cricket Ground,2026-05-08,T20I,12,13.0,0,4,2.0,6.5,2026
+1532638,D Wotu,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,12,3.0,2,10,2.0,1.5,2026
+1532638,J Baleicikoibia,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,29.0,2,3,3.0,9.67,2026
+1532638,J Rasu,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,12,10.0,3,8,2.0,5.0,2026
+1532638,N Nipiko,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,6,5.0,1,4,1.0,5.0,2026
+1532638,N Venables,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,24,13.0,1,16,4.0,3.25,2026
+1532638,P Dakainivanua,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,27.0,0,6,3.0,9.0,2026
+1532638,PK Matautaava,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,12,7.0,0,8,2.0,3.5,2026
+1532638,PV Vuniwaqa,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,24,35.0,1,6,4.0,8.75,2026
+1532638,S Tabuisulu,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,24,26.0,0,13,4.0,6.5,2026
+1532638,SM Tupou,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,24.0,1,6,3.0,8.0,2026
+1532638,VM Waqavakatoga,Vanuatu,Fiji,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,21.0,0,7,3.0,7.0,2026
+1532638,W Nalisa,Fiji,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-08,T20I,22,6.0,3,17,3.7,1.64,2026
+1532639,A Parima,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,12,6.0,0,7,2.0,3.0,2026
+1532639,C Dickson,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,14,4.0,2,11,2.3,1.71,2026
+1532639,CV Ranasinghe,Cook Islands,South Korea,"Korogi Sports Park, Nisshin",2026-05-08,T20I,12,19.0,0,5,2.0,9.5,2026
+1532639,DVD Madampage,Cook Islands,South Korea,"Korogi Sports Park, Nisshin",2026-05-08,T20I,6,12.0,0,3,1.0,12.0,2026
+1532639,HB Dickson,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,19,9.0,1,11,3.2,2.84,2026
+1532639,JL Tutty,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,8.0,2,14,3.0,2.67,2026
+1532639,Muhammad Nadeem,Cook Islands,South Korea,"Korogi Sports Park, Nisshin",2026-05-08,T20I,6,9.0,1,2,1.0,9.0,2026
+1532639,OE Taylor,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,8.0,2,13,3.0,2.67,2026
+1532639,Q Stephens,South Korea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-08,T20I,18,4.0,3,14,3.0,1.33,2026
+1532639,S Maduranga,Cook Islands,South Korea,"Korogi Sports Park, Nisshin",2026-05-08,T20I,4,6.0,0,1,0.7,9.0,2026
+1532640,CK Jasmat,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,24,22.0,0,13,4.0,5.5,2026
+1532640,D Visser,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,18,18.0,0,8,3.0,6.0,2026
+1532640,DE Burgess,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,12,12.0,1,5,2.0,6.0,2026
+1532640,DJ Hawoe,Samoa,Indonesia,Sano International Cricket Ground,2026-05-09,T20I,12,24.0,0,4,2.0,12.0,2026
+1532640,F Banunaek,Samoa,Indonesia,Sano International Cricket Ground,2026-05-09,T20I,18,22.0,0,8,3.0,7.33,2026
+1532640,GD Arta,Samoa,Indonesia,Sano International Cricket Ground,2026-05-09,T20I,12,19.0,0,3,2.0,9.5,2026
+1532640,Gaurav Tiwari,Samoa,Indonesia,Sano International Cricket Ground,2026-05-09,T20I,6,17.0,0,1,1.0,17.0,2026
+1532640,IK Gamantika,Samoa,Indonesia,Sano International Cricket Ground,2026-05-09,T20I,8,10.0,1,3,1.3,7.5,2026
+1532640,S Sola,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,24,9.0,3,17,4.0,2.25,2026
+1532640,SF Tiai,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,18,23.0,1,6,3.0,7.67,2026
+1532640,SM Nash,Indonesia,Samoa,Sano International Cricket Ground,2026-05-09,T20I,24,6.0,3,19,4.0,1.5,2026
+1532641,Abdul Samad,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,4.0,2,20,4.0,1.0,2026
+1532641,B Ito-Davis,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,17.0,1,13,4.0,4.25,2026
+1532641,C Hinze,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,20.0,2,16,4.0,5.0,2026
+1532641,D Suzuki,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,6,5.0,0,2,1.0,5.0,2026
+1532641,D Wotu,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,15.0,1,4,2.0,7.5,2026
+1532641,I Takahashi,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,9.0,0,6,2.0,4.5,2026
+1532641,J Rasu,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,24.0,4,11,4.0,6.0,2026
+1532641,N Nipiko,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,6,9.0,0,2,1.0,9.0,2026
+1532641,N Venables,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,16.0,0,14,4.0,4.0,2026
+1532641,PK Matautaava,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,16,8.0,3,10,2.7,3.0,2026
+1532641,S Ravichandran,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,20.0,1,6,4.0,5.0,2026
+1532641,S Sugaya-Slater,Vanuatu,Japan,"Korogi Sports Park, Nisshin",2026-05-09,T20I,8,5.0,0,4,1.3,3.75,2026
+1532641,W Nalisa,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,24.0,0,8,4.0,6.0,2026
+1532641,W Wotu,Japan,Vanuatu,"Korogi Sports Park, Nisshin",2026-05-09,T20I,13,15.0,2,1,2.2,6.92,2026
+1532642,A Nao,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,22,14.0,2,15,3.7,3.82,2026
+1532642,A Vala,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,3.0,1,9,2.0,1.5,2026
+1532642,Aue Oru,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,10.0,4,18,4.0,2.5,2026
+1532642,Boio Ray,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,6,5.0,0,4,1.0,5.0,2026
+1532642,CV Ranasinghe,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,34.0,1,7,4.0,8.5,2026
+1532642,DVD Madampage,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,12.0,1,6,2.0,6.0,2026
+1532642,J Kariko,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,15.0,0,13,4.0,3.75,2026
+1532642,Kuldeep Gurjar,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,40.0,1,2,4.0,10.0,2026
+1532642,L Siaka,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,3.0,2,9,2.0,1.5,2026
+1532642,Muhammad Nadeem,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,24,34.0,0,8,4.0,8.5,2026
+1532642,Patrick Nou,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,12,4.0,0,9,2.0,2.0,2026
+1532642,S Bau,South Korea,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,6,2.0,1,4,1.0,2.0,2026
+1532642,S Maduranga,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,18,34.0,0,5,3.0,11.33,2026
+1532642,Sageer Ahmad,Papua New Guinea,South Korea,"Korogi Sports Park, Nisshin",2026-05-09,T20I,18,33.0,0,3,3.0,11.0,2026
+1532643,AS Samra,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,12,12.0,0,3,2.0,6.0,2026
+1532643,ASF Sirah,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,24,27.0,2,5,4.0,6.75,2026
+1532643,CK Jasmat,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,12,11.0,1,9,2.0,5.5,2026
+1532643,D Visser,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,22,12.0,2,11,3.7,3.27,2026
+1532643,DC Smith,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,18,21.0,0,8,3.0,7.0,2026
+1532643,Huzaifa Mohammed,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,24,30.0,3,7,4.0,7.5,2026
+1532643,J Tuffin,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,25,28.0,1,11,4.2,6.72,2026
+1532643,MJ Tugaga,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,6,10.0,0,2,1.0,10.0,2026
+1532643,N Tanner,Samoa,Philippines,Sano International Cricket Ground,2026-05-10,T20I,18,33.0,1,3,3.0,11.0,2026
+1532643,S Sola,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,18,6.0,2,12,3.0,2.0,2026
+1532643,SF Tiai,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,12,15.0,1,5,2.0,7.5,2026
+1532643,SM Nash,Philippines,Samoa,Sano International Cricket Ground,2026-05-10,T20I,18,11.0,4,12,3.0,3.67,2026
+1532644,Abdul Samad,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,12,1.0,1,11,2.0,0.5,2026
+1532644,Abhishek Anand,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,12,2.0,0,10,2.0,1.0,2026
+1532644,Esam Rahman,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,10.0,0,10,3.0,3.33,2026
+1532644,I Takahashi,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,10,4.0,3,7,1.7,2.4,2026
+1532644,M Taniyama,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,20,26.0,2,8,3.3,7.8,2026
+1532644,PV Vuniwaqa,Japan,Fiji,"Korogi Sports Park, Nisshin",2026-05-10,T20I,13,23.0,0,5,2.2,10.62,2026
+1532644,R Sakurano-Thomas,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,24,15.0,3,16,4.0,3.75,2026
+1532644,S Ravichandran,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,6,4.0,1,2,1.0,4.0,2026
+1532644,S Sugaya-Slater,Fiji,Japan,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,8.0,0,10,3.0,2.67,2026
+1532644,S Tabuisulu,Japan,Fiji,"Korogi Sports Park, Nisshin",2026-05-10,T20I,12,16.0,1,5,2.0,8.0,2026
+1532644,SM Tupou,Japan,Fiji,"Korogi Sports Park, Nisshin",2026-05-10,T20I,12,16.0,1,2,2.0,8.0,2026
+1532644,VM Waqavakatoga,Japan,Fiji,"Korogi Sports Park, Nisshin",2026-05-10,T20I,6,6.0,0,3,1.0,6.0,2026
+1532645,A Nao,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,32.0,0,5,3.0,10.67,2026
+1532645,A Vala,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,25.0,1,6,3.0,8.33,2026
+1532645,Aue Oru,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,25.0,0,8,3.0,8.33,2026
+1532645,C Dickson,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,24,28.0,2,9,4.0,7.0,2026
+1532645,HB Dickson,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,25,23.0,1,14,4.2,5.52,2026
+1532645,J Kariko,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,24,29.0,2,15,4.0,7.25,2026
+1532645,JL Tutty,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,44.0,0,3,3.0,14.67,2026
+1532645,L Siaka,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,8.0,1,11,3.0,2.67,2026
+1532645,MTMMJ Ave,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,28.0,1,5,3.0,9.33,2026
+1532645,OE Taylor,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,13,31.0,0,4,2.2,14.31,2026
+1532645,Patrick Nou,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,6,9.0,0,2,1.0,9.0,2026
+1532645,Q Stephens,Papua New Guinea,Cook Islands,"Korogi Sports Park, Nisshin",2026-05-10,T20I,24,43.0,1,3,4.0,10.75,2026
+1532645,S Bau,Cook Islands,Papua New Guinea,"Korogi Sports Park, Nisshin",2026-05-10,T20I,18,22.0,2,7,3.0,7.33,2026
+1532646,CK Jasmat,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,18,19.0,1,9,3.0,6.33,2026
+1532646,D Visser,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,24,17.0,0,12,4.0,4.25,2026
+1532646,D Wotu,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,18,22.0,0,10,3.0,7.33,2026
+1532646,DE Burgess,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,6,7.0,1,2,1.0,7.0,2026
+1532646,J Rasu,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,24,23.0,1,13,4.0,5.75,2026
+1532646,N Venables,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,6,11.0,0,2,1.0,11.0,2026
+1532646,PK Matautaava,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,18,29.0,0,5,3.0,9.67,2026
+1532646,S Sola,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,24,23.0,2,9,4.0,5.75,2026
+1532646,SF Tiai,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,24,23.0,4,10,4.0,5.75,2026
+1532646,SM Nash,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,13,15.0,0,9,2.2,6.92,2026
+1532646,SM Solia,Vanuatu,Samoa,Sano International Cricket Ground,2026-05-12,T20I,13,16.0,0,5,2.2,7.38,2026
+1532646,W Nalisa,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,21,23.0,0,6,3.5,6.57,2026
+1532646,W Wotu,Samoa,Vanuatu,Sano International Cricket Ground,2026-05-12,T20I,6,14.0,0,1,1.0,14.0,2026
+1532647,AS Samra,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,12,26.0,0,2,2.0,13.0,2026
+1532647,ASF Sirah,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,24,13.0,3,15,4.0,3.25,2026
+1532647,CV Ranasinghe,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,12,16.0,0,7,2.0,8.0,2026
+1532647,DC Smith,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,24,20.0,0,14,4.0,5.0,2026
+1532647,DVD Madampage,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,24,31.0,2,9,4.0,7.75,2026
+1532647,G Chohan,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,6,9.0,0,1,1.0,9.0,2026
+1532647,Huzaifa Mohammed,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,12,23.0,1,5,2.0,11.5,2026
+1532647,J Tuffin,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,12,16.0,0,6,2.0,8.0,2026
+1532647,Muhammad Nadeem,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,18,21.0,0,7,3.0,7.0,2026
+1532647,N Tanner,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,12,15.0,1,3,2.0,7.5,2026
+1532647,S Maduranga,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,24,27.0,1,8,4.0,6.75,2026
+1532647,S Pitabeddara,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,24,33.0,1,7,4.0,8.25,2026
+1532647,Sageer Ahmad,Philippines,South Korea,Sano International Cricket Ground 2,2026-05-12,T20I,18,23.0,0,10,3.0,7.67,2026
+1532647,Surinder Singh,South Korea,Philippines,Sano International Cricket Ground 2,2026-05-12,T20I,19,12.0,3,8,3.2,3.79,2026
+1532648,Abdul Samad,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,18,13.0,0,10,3.0,4.33,2026
+1532648,C Hinze,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,12,8.0,1,5,2.0,4.0,2026
+1532648,D Suzuki,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,12,7.0,1,6,2.0,3.5,2026
+1532648,DJ Hawoe,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,12,21.0,0,3,2.0,10.5,2026
+1532648,Esam Rahman,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,6,3.0,1,3,1.0,3.0,2026
+1532648,F Banunaek,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,18,16.0,2,9,3.0,5.33,2026
+1532648,GD Arta,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,18,28.0,0,4,3.0,9.33,2026
+1532648,Gaurav Tiwari,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,24,21.0,2,14,4.0,5.25,2026
+1532648,I Takahashi,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,24,9.0,2,15,4.0,2.25,2026
+1532648,IK Gamantika,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,24,24.0,1,8,4.0,6.0,2026
+1532648,M Taniyama,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,7,11.0,2,2,1.2,9.43,2026
+1532648,R Sakurano-Thomas,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,18,12.0,2,8,3.0,4.0,2026
+1532648,S Jegannathan,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,24,27.0,2,12,4.0,6.75,2026
+1532648,S Ravichandran,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,18,34.0,1,8,3.0,11.33,2026
 1533385,Baseer Khan,Germany,Austria,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,24,50.0,0,2,4.0,12.5,2026
 1533385,Bilal Zalmai,Germany,Austria,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,18,49.0,0,4,3.0,16.33,2026
 1533385,Ghulam Ahmadi,Austria,Germany,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,7,16.0,2,2,1.2,13.71,2026
@@ -142480,6 +142787,98 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1533395,T Nightingale,Isle of Man,Guernsey,"King George V Sports Ground, Castel",2026-05-03,T20I,12,7.0,0,5,2.0,3.5,2026
 1533396,G Newton,Guernsey,Isle of Man,"King George V Sports Ground, Castel",2026-05-03,T20I,3,9.0,0,0,0.5,18.0,2026
 1533396,MJ Ansell,Guernsey,Isle of Man,"King George V Sports Ground, Castel",2026-05-03,T20I,6,18.0,0,0,1.0,18.0,2026
+1533397,A Shahi,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,15,22.0,2,7,2.5,8.8,2026
+1533397,AUKDS Kalugala,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,6,5.0,0,2,1.0,5.0,2026
+1533397,Adam Senn,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,24,15.0,4,16,4.0,3.75,2026
+1533397,Amjad Sher,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,14.0,2,16,4.0,3.5,2026
+1533397,Faraaz Mehti Abbas,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,12,11.0,0,2,2.0,5.5,2026
+1533397,Hammadullah Shinwari,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,29.0,0,8,4.0,7.25,2026
+1533397,Karan Singh,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,18,11.0,0,12,3.0,3.67,2026
+1533397,MB Tambe,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,36.0,0,8,4.0,9.0,2026
+1533397,MPGT Ketiyage,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,6,13.0,0,1,1.0,13.0,2026
+1533397,NM Salonen,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,14,24.0,0,4,2.3,10.29,2026
+1533397,PEA Karunarathna,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,43.0,1,8,4.0,10.75,2026
+1533397,R Siriwardena,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,24,31.0,3,8,4.0,7.75,2026
+1533397,RMR Brathwaite,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,19,26.0,1,4,3.2,8.21,2026
+1533398,Adam Senn,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,24,34.0,0,7,4.0,8.5,2026
+1533398,Amjad Sher,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,24.0,3,15,4.0,6.0,2026
+1533398,Faraaz Mehti Abbas,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,16.0,1,15,4.0,4.0,2026
+1533398,Hammadullah Shinwari,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,24,11.0,2,16,4.0,2.75,2026
+1533398,Junaid Khan,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,18,17.0,1,6,3.0,5.67,2026
+1533398,Karan Singh,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,18,13.0,1,10,3.0,4.33,2026
+1533398,NM Salonen,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,13,16.0,0,7,2.2,7.38,2026
+1533398,PEA Karunarathna,Cyprus,Finland,Happy Valley Ground,2026-05-08,T20I,18,11.0,1,9,3.0,3.67,2026
+1533398,R Siriwardena,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,12,15.0,0,4,2.0,7.5,2026
+1533398,RMR Brathwaite,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,12,29.0,0,4,2.0,14.5,2026
+1533398,Taranjit Singh,Finland,Cyprus,Happy Valley Ground,2026-05-08,T20I,25,12.0,2,16,4.2,2.88,2026
+1533399,A Shahi,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,12,14.0,3,7,2.0,7.0,2026
+1533399,AA Senn,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,15.0,2,13,4.0,3.75,2026
+1533399,Amjad Sher,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,18,5.0,1,14,3.0,1.67,2026
+1533399,Hammadullah Shinwari,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,24,7.0,6,21,4.0,1.75,2026
+1533399,Junaid Khan,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,12,5.0,2,8,2.0,2.5,2026
+1533399,Karan Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,25.0,2,15,4.0,6.25,2026
+1533399,Lovedeep Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,31.0,1,6,4.0,7.75,2026
+1533399,NM Salonen,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,4,2.0,1,2,0.7,3.0,2026
+1533399,R Siriwardena,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,6,10.0,0,2,1.0,10.0,2026
+1533399,RMR Brathwaite,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,7,16.0,0,1,1.2,13.71,2026
+1533399,Taranjit Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,35.0,2,7,4.0,8.75,2026
+1533400,A Shahi,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,25,26.0,0,13,4.2,6.24,2026
+1533400,Adam Senn,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,23.0,2,11,4.0,5.75,2026
+1533400,Amjad Sher,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,24,13.0,3,18,4.0,3.25,2026
+1533400,Faraaz Mehti Abbas,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,6,5.0,0,2,1.0,5.0,2026
+1533400,Hammadullah Shinwari,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,18,20.0,0,9,3.0,6.67,2026
+1533400,Junaid Khan,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,25,24.0,2,10,4.2,5.76,2026
+1533400,Karan Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,18,24.0,0,7,3.0,8.0,2026
+1533400,Lovedeep Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,12,17.0,1,5,2.0,8.5,2026
+1533400,MB Tambe,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,24,30.0,2,8,4.0,7.5,2026
+1533400,PEA Karunarathna,Cyprus,Finland,Happy Valley Ground,2026-05-09,T20I,24,28.0,2,10,4.0,7.0,2026
+1533400,S Alavala,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,24,33.0,2,11,4.0,8.25,2026
+1533400,Taranjit Singh,Finland,Cyprus,Happy Valley Ground,2026-05-09,T20I,18,29.0,2,8,3.0,9.67,2026
+1534065,A Makri,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,24,14.0,1,14,4.0,3.5,2026
+1534065,A Savvani,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,24,24.0,3,8,4.0,6.0,2026
+1534065,AB Slebsager,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,7,7.0,0,2,1.2,6.0,2026
+1534065,C Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,24,15.0,1,14,4.0,3.75,2026
+1534065,D Golechha,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,25,10.0,2,16,4.2,2.4,2026
+1534065,E Kallous,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,19,13.0,1,11,3.2,4.11,2026
+1534065,L Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,25,24.0,1,11,4.2,5.76,2026
+1534065,M Syrioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,26,19.0,1,9,4.3,4.38,2026
+1534065,M Vervitsioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,13,11.0,0,7,2.2,5.08,2026
+1534065,NP Dalgaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,24,20.0,0,13,4.0,5.0,2026
+1534065,S Georgota,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,20,22.0,1,4,3.3,6.6,2026
+1534065,S Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,21,22.0,2,9,3.5,6.29,2026
+1534066,A Makri,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,24,22.0,1,12,4.0,5.5,2026
+1534066,A Savvani,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,7,11.0,0,2,1.2,9.43,2026
+1534066,AB Slebsager,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,12,7.0,3,8,2.0,3.5,2026
+1534066,C Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,18,11.0,2,8,3.0,3.67,2026
+1534066,D Golechha,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,24,7.0,1,19,4.0,1.75,2026
+1534066,E Kallous,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,23,22.0,1,9,3.8,5.74,2026
+1534066,L Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,12,2.0,1,10,2.0,1.0,2026
+1534066,M Syrioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,24,18.0,3,16,4.0,4.5,2026
+1534066,M Vervitsioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,19,15.0,2,9,3.2,4.74,2026
+1534066,NP Dalgaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-09,T20I,24,15.0,3,9,4.0,3.75,2026
+1534066,S Georgota,Denmark,Greece,"Marina Ground, Corfu",2026-05-09,T20I,25,24.0,0,12,4.2,5.76,2026
+1534067,A Makri,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,24,19.0,1,14,4.0,4.75,2026
+1534067,A Savvani,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,13,10.0,0,4,2.2,4.62,2026
+1534067,AB Slebsager,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,20,20.0,2,10,3.3,6.0,2026
+1534067,C Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,12.0,1,16,4.0,3.0,2026
+1534067,D Golechha,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,8.0,1,16,4.0,2.0,2026
+1534067,E Kallous,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,7,7.0,0,2,1.2,6.0,2026
+1534067,L Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,19,17.0,1,6,3.2,5.37,2026
+1534067,M Syrioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,20,24.0,1,9,3.3,7.2,2026
+1534067,M Vervitsioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,12,11.0,0,4,2.0,5.5,2026
+1534067,NP Dalgaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,17.0,2,14,4.0,4.25,2026
+1534067,S Georgota,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,25,18.0,1,11,4.2,4.32,2026
+1534067,S Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,12,5.0,2,8,2.0,2.5,2026
+1534068,A Makri,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,25,22.0,2,9,4.2,5.28,2026
+1534068,A Savvani,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,8,13.0,0,0,1.3,9.75,2026
+1534068,AB Slebsager,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,26,13.0,5,15,4.3,3.0,2026
+1534068,C Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,9.0,1,16,4.0,2.25,2026
+1534068,D Golechha,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,25,16.0,1,14,4.2,3.84,2026
+1534068,E Kallous,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,9,7.0,1,3,1.5,4.67,2026
+1534068,L Ostergaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,13.0,2,18,4.0,3.25,2026
+1534068,M Syrioti,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,12,10.0,0,6,2.0,5.0,2026
+1534068,NP Dalgaard,Greece,Denmark,"Marina Ground, Corfu",2026-05-10,T20I,24,22.0,1,9,4.0,5.5,2026
+1534068,S Georgota,Denmark,Greece,"Marina Ground, Corfu",2026-05-10,T20I,24,20.0,0,7,4.0,5.0,2026
 1534071,A Zimunu,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-04,ODI,36,51.0,0,16,6.0,8.5,2026
 1534071,B Biza,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-04,ODI,60,41.0,0,36,10.0,4.1,2026
 1534071,C Mutasa,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-04,ODI,18,20.0,0,8,3.0,6.67,2026
@@ -142505,6 +142904,33 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1534072,O Chare,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-06,ODI,36,40.0,1,11,6.0,6.67,2026
 1534072,Rameen Shamim,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-06,ODI,48,20.0,2,34,8.0,2.5,2026
 1534072,Syeda Aroob Shah,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-06,ODI,36,17.0,2,26,6.0,2.83,2026
+1534073,A Zimunu,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,18,24.0,0,9,3.0,8.0,2026
+1534073,Ayesha Zafar,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,36,12.0,2,29,6.0,2.0,2026
+1534073,B Biza,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,36,28.0,0,18,6.0,4.67,2026
+1534073,C Mutasa,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,7,14.0,0,2,1.2,12.0,2026
+1534073,Diana Baig,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,36,30.0,0,24,6.0,5.0,2026
+1534073,K Chigora,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,29,31.0,1,16,4.8,6.41,2026
+1534073,L Mabhero,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,30,33.0,0,13,5.0,6.6,2026
+1534073,Momina Riasat,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,60,39.0,2,40,10.0,3.9,2026
+1534073,N Sibanda,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,48,47.0,0,21,8.0,5.88,2026
+1534073,Natalia Pervaiz,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,18,19.0,0,9,3.0,6.33,2026
+1534073,O Chare,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-09,ODI,24,24.0,0,8,4.0,6.0,2026
+1534073,Rameen Shamim,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,42,32.0,0,25,7.0,4.57,2026
+1534073,Syeda Aroob Shah,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,48,35.0,2,25,8.0,4.38,2026
+1534073,Tasmia Rubab,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-09,ODI,60,46.0,3,34,10.0,4.6,2026
+1534074,A Zimunu,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,18,40.0,0,3,3.0,13.33,2026
+1534074,Amber Kainat,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,12,14.0,1,7,2.0,7.0,2026
+1534074,B Biza,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,24,32.0,1,6,4.0,8.0,2026
+1534074,Fatima Sana,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,18,6.0,3,12,3.0,2.0,2026
+1534074,L Mabhero,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,18,38.0,0,4,3.0,12.67,2026
+1534074,M Mavunga,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,12,21.0,1,5,2.0,10.5,2026
+1534074,N Sibanda,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,25,56.0,2,4,4.2,13.44,2026
+1534074,Natalia Pervaiz,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,12,3.0,2,9,2.0,1.5,2026
+1534074,P Marange,Pakistan,Zimbabwe,"National Stadium, Karachi",2026-05-12,T20I,24,38.0,1,8,4.0,9.5,2026
+1534074,Rameen Shamim,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,18,18.0,1,9,3.0,6.0,2026
+1534074,Sadia Iqbal,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,20,13.0,3,14,3.3,3.9,2026
+1534074,Saira Jabeen,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,6,2.0,0,5,1.0,2.0,2026
+1534074,Tuba Hassan,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-12,T20I,24,11.0,0,17,4.0,2.75,2026
 1534321,Aisya Eleesa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,1.0,1,11,2.0,0.5,2026
 1534321,Cai Yuzhi,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,11.0,0,5,2.0,5.5,2026
 1534321,Jiaping Li,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,24,12.0,2,17,4.0,3.0,2026
@@ -142530,3 +142956,114 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1534322,Nur Dania Syuhada,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,24,24.0,1,9,4.0,6.0,2026
 1534322,Nur Qalysha,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,15.0,0,3,2.0,7.5,2026
 1534322,Nurin Imanina,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,14.0,0,4,2.0,7.0,2026
+1534323,Aisya Eleesa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,20,9.0,2,14,3.3,2.7,2026
+1534323,Cai Yuzhi,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,23,13.0,3,11,3.8,3.39,2026
+1534323,Gong Yuting,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,18,12.0,1,6,3.0,4.0,2026
+1534323,Jiaping Li,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,6,10.0,0,2,1.0,10.0,2026
+1534323,M Zhu,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,30,23.0,2,13,5.0,4.6,2026
+1534323,Ma Ruike,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,8.0,1,17,4.0,2.0,2026
+1534323,Mahirah Izzati Ismail,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,16.0,1,1,2.0,8.0,2026
+1534323,Mas Elysa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,13.0,2,15,4.0,3.25,2026
+1534323,Nur Dania Syuhada,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,28,25.0,2,11,4.7,5.36,2026
+1534323,Nur Qalysha,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,7.0,3,18,4.0,1.75,2026
+1534323,Nurin Imanina,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,8,15.0,0,1,1.3,11.25,2026
+1534323,Wang Huiying,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,8.0,1,7,2.0,4.0,2026
+1534323,Zhao Yihan,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,8.0,1,5,2.0,4.0,2026
+1534324,Cai Yuzhi,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,14.0,0,3,2.0,7.0,2026
+1534324,Gong Yuting,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,13,12.0,0,7,2.2,5.54,2026
+1534324,Iqra Sahar,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,3.0,2,10,2.0,1.5,2026
+1534324,Joyleen Kaur,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,23.0,2,10,4.0,5.75,2026
+1534324,KY Chan,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,11.0,1,15,4.0,2.75,2026
+1534324,M Bibi,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,12,20.0,0,2,2.0,10.0,2026
+1534324,M Wai Siu,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,23.0,3,9,4.0,5.75,2026
+1534324,M Zhu,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,22.0,0,9,4.0,5.5,2026
+1534324,Ma Ruike,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,23.0,1,11,4.0,5.75,2026
+1534324,Ruchitha Venkatesh,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,25,23.0,0,8,4.2,5.52,2026
+1534324,Wang Huiying,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,19.0,1,13,4.0,4.75,2026
+1534324,Zhao Yihan,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-08,T20I,24,23.0,1,9,4.0,5.75,2026
+1534325,Aisya Eleesa,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,25,23.0,1,14,4.2,5.52,2026
+1534325,Iqra Sahar,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,4.0,1,20,4.0,1.0,2026
+1534325,Joyleen Kaur,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,12,8.0,0,5,2.0,4.0,2026
+1534325,KY Chan,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,9.0,5,17,4.0,2.25,2026
+1534325,M Wai Siu,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,18,4.0,2,16,3.0,1.33,2026
+1534325,Mahirah Izzati Ismail,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,17.0,0,8,4.0,4.25,2026
+1534325,Mas Elysa,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,35.0,1,4,4.0,8.75,2026
+1534325,Nur Dania Syuhada,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,21.0,0,8,4.0,5.25,2026
+1534325,Nur Qalysha,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,18,20.0,0,11,3.0,6.67,2026
+1534325,Ruchitha Venkatesh,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,12,5.0,1,7,2.0,2.5,2026
+1534325,S Parker,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,12,6.0,1,7,2.0,3.0,2026
+1534325,WA Duraisingam,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,6,11.0,0,1,1.0,11.0,2026
+1534326,Cai Yuzhi,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,21.0,1,9,4.0,5.25,2026
+1534326,Gong Yuting,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,9,16.0,0,2,1.5,10.67,2026
+1534326,Iqra Sahar,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,14.0,1,17,4.0,3.5,2026
+1534326,Jiaping Li,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,13,17.0,0,3,2.2,7.85,2026
+1534326,Joyleen Kaur,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,12.0,4,16,4.0,3.0,2026
+1534326,KY Chan,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,9.0,2,16,4.0,2.25,2026
+1534326,M Bibi,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,13,11.0,0,6,2.2,5.08,2026
+1534326,M Wai Siu,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,9.0,0,15,4.0,2.25,2026
+1534326,M Zhu,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,25,32.0,1,8,4.2,7.68,2026
+1534326,Ma Ruike,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,25,28.0,1,9,4.2,6.72,2026
+1534326,S Parker,China,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,12,9.0,0,5,2.0,4.5,2026
+1534326,Wang Huiying,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,24,11.0,1,14,4.0,2.75,2026
+1534326,Zhao Yihan,Hong Kong,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-10,T20I,5,9.0,0,0,0.8,10.8,2026
+1534327,Aisya Eleesa,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,11.0,0,18,4.0,2.75,2026
+1534327,Iqra Sahar,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,25.0,1,8,4.0,6.25,2026
+1534327,Joyleen Kaur,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,12.0,2,14,4.0,3.0,2026
+1534327,KY Chan,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,23,12.0,3,14,3.8,3.13,2026
+1534327,M Wai Siu,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,18,14.0,2,8,3.0,4.67,2026
+1534327,Mahirah Izzati Ismail,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,13.0,2,13,4.0,3.25,2026
+1534327,Mas Elysa,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,18,17.0,1,4,3.0,5.67,2026
+1534327,Nur Dania Syuhada,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,27.0,1,11,4.0,6.75,2026
+1534327,Nur Qalysha,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,18,24.0,0,6,3.0,8.0,2026
+1534327,S Parker,Malaysia,Hong Kong,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,24,18.0,2,9,4.0,4.5,2026
+1534327,SM Dhanusri,Hong Kong,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-11,T20I,12,16.0,0,2,2.0,8.0,2026
+1534590,A Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,21,27.0,4,6,3.5,7.71,2026
+1534590,Dilum Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,18,22.0,1,9,3.0,7.33,2026
+1534590,Firas Hussain,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,18,32.0,1,4,3.0,10.67,2026
+1534590,Irfan Ringku,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,24.0,1,11,4.0,6.0,2026
+1534590,J Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,15,20.0,1,8,2.5,8.0,2026
+1534590,J Khadka,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,18.0,2,15,4.0,4.5,2026
+1534590,Jakob Gul,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,29.0,1,8,4.0,7.25,2026
+1534590,M Gogev,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,12,20.0,0,4,2.0,10.0,2026
+1534590,O Duff,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,6,6.0,0,3,1.0,6.0,2026
+1534590,P Mishra,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,17.0,3,11,4.0,4.25,2026
+1534590,T Sandaruwan,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,6,10.0,1,2,1.0,10.0,2026
+1534590,Taranjeet Singh,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,19.0,0,11,4.0,4.75,2026
+1534590,V Saini,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-08,T20I,24,27.0,1,10,4.0,6.75,2026
+1534591,A Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,42.0,0,4,3.0,14.0,2026
+1534591,Chamalka Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,37.0,0,1,3.0,12.33,2026
+1534591,Dilum Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,18.0,2,9,3.0,6.0,2026
+1534591,Gagandeep Singh,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,29.0,0,3,2.0,14.5,2026
+1534591,J Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,15.0,0,8,3.0,5.0,2026
+1534591,J Khadka,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,34.0,1,5,3.0,11.33,2026
+1534591,Jakob Gul,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,45.0,2,4,3.0,15.0,2026
+1534591,M Gogev,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,18.0,0,4,2.0,9.0,2026
+1534591,M Koli,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,42.0,0,4,3.0,14.0,2026
+1534591,O Duff,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,18,20.0,1,10,3.0,6.67,2026
+1534591,P Mishra,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,21.0,0,3,2.0,10.5,2026
+1534592,Firas Hussain,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,10.0,0,2,1.0,10.0,2026
+1534592,Huzaif Yousuf,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,23.0,1,4,2.0,11.5,2026
+1534592,Irfan Ringku,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,13.0,0,3,1.0,13.0,2026
+1534592,J Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,25,38.0,1,8,4.2,9.12,2026
+1534592,J Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,10.0,1,2,1.0,10.0,2026
+1534592,Jakob Gul,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,20.0,1,5,2.0,10.0,2026
+1534592,Luca Petre,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,9.0,2,2,1.0,9.0,2026
+1534592,M Gogev,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,21.0,0,3,2.0,10.5,2026
+1534592,M Koli,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,10.0,0,2,1.0,10.0,2026
+1534592,O Duff,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,24,36.0,0,12,4.0,9.0,2026
+1534592,P Mishra,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,12,26.0,0,2,2.0,13.0,2026
+1534592,V Saini,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-09,T20I,6,9.0,1,1,1.0,9.0,2026
+1534594,A Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,6,12.0,0,0,1.0,12.0,2026
+1534594,Dilum Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,21.0,1,6,3.0,7.0,2026
+1534594,Gagandeep Singh,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,33.0,2,5,3.0,11.0,2026
+1534594,H Lakov,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,13,11.0,2,6,2.2,5.08,2026
+1534594,Irfan Ringku,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,16.0,2,12,3.0,5.33,2026
+1534594,J Dowling,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,23.0,1,6,3.0,7.67,2026
+1534594,J Fernando,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,12,3.0,1,10,2.0,1.5,2026
+1534594,Jakob Gul,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,24,18.0,1,7,4.0,4.5,2026
+1534594,Luca Petre,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,17.0,1,8,3.0,5.67,2026
+1534594,M Gogev,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,22.0,1,8,3.0,7.33,2026
+1534594,M Koli,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,24,32.0,1,9,4.0,8.0,2026
+1534594,P Mishra,Romania,Bulgaria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,24,24.0,2,6,4.0,6.0,2026
+1534594,T Sandaruwan,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,18,16.0,1,8,3.0,5.33,2026
+1534594,V Saini,Bulgaria,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-05-10,T20I,12,9.0,2,5,2.0,4.5,2026
