@@ -141787,6 +141787,17 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1529299,Rashid Khan,Sunrisers Hyderabad,Gujarat Titans,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,5,3.0,1,3,0.8,3.6,2026
 1529299,Sakib Hussain,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,24,34.0,2,7,4.0,8.5,2026
 1529299,Shivang Kumar,Gujarat Titans,Sunrisers Hyderabad,"Narendra Modi Stadium, Ahmedabad",2026-05-12,IPL,12,17.0,0,2,2.0,8.5,2026
+1529300,AS Roy,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,18,30.0,0,3,3.0,10.0,2026
+1529300,B Kumar,Kolkata Knight Riders,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,34.0,2,9,4.0,8.5,2026
+1529300,C Green,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,12,21.0,0,0,2.0,10.5,2026
+1529300,JA Duffy,Kolkata Knight Riders,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,48.0,0,9,4.0,12.0,2026
+1529300,JR Hazlewood,Kolkata Knight Riders,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,35.0,1,8,4.0,8.75,2026
+1529300,KH Pandya,Kolkata Knight Riders,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,38.0,0,5,4.0,9.5,2026
+1529300,Kartik Tyagi,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,31.0,3,11,4.0,7.75,2026
+1529300,Rasikh Salam,Kolkata Knight Riders,Royal Challengers Bengaluru,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,34.0,1,6,4.0,8.5,2026
+1529300,SP Narine,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,31.0,1,8,4.0,7.75,2026
+1529300,SR Dubey,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,13,21.0,0,6,2.2,9.69,2026
+1529300,VG Arora,Royal Challengers Bengaluru,Kolkata Knight Riders,"Shaheed Veer Narayan Singh International Stadium, Raipur",2026-05-13,IPL,24,46.0,0,4,4.0,11.5,2026
 1529377,D Panda,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,12,12.0,2,7,2.0,6.0,2026
 1529377,DV Devjani Mutreja,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,24,13.0,0,17,4.0,3.25,2026
 1529377,Hassan Nasir,Costa Rica,Mexico,"Reforma Athletic Club, Naucalpan",2026-04-02,T20I,24,8.0,1,19,4.0,2.0,2026
@@ -142655,6 +142666,47 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1532648,R Sakurano-Thomas,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,18,12.0,2,8,3.0,4.0,2026
 1532648,S Jegannathan,Japan,Indonesia,Sano International Cricket Ground,2026-05-12,T20I,24,27.0,2,12,4.0,6.75,2026
 1532648,S Ravichandran,Indonesia,Japan,Sano International Cricket Ground,2026-05-12,T20I,18,34.0,1,8,3.0,11.33,2026
+1532649,AS Broomfield,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,12,8.0,1,5,2.0,4.0,2026
+1532649,CV Ranasinghe,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,6,9.0,0,3,1.0,9.0,2026
+1532649,DVD Madampage,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,12,18.0,0,5,2.0,9.0,2026
+1532649,HMHE Parsons,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,23,26.0,7,14,3.8,6.78,2026
+1532649,J Baleicikoibia,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,18,20.0,0,8,3.0,6.67,2026
+1532649,Kuldeep Gurjar,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,6,15.0,0,2,1.0,15.0,2026
+1532649,Muhammad Nadeem,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,12,12.0,2,8,2.0,6.0,2026
+1532649,P Dakainivanua,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,12,26.0,1,3,2.0,13.0,2026
+1532649,PV Vuniwaqa,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,24,29.0,2,11,4.0,7.25,2026
+1532649,S Maduranga,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,24,13.0,0,12,4.0,3.25,2026
+1532649,S Pitabeddara,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,6,9.0,0,3,1.0,9.0,2026
+1532649,S Tabuisulu,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,12,19.0,0,6,2.0,9.5,2026
+1532649,S Waqabaca,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,6,4.0,0,5,1.0,4.0,2026
+1532649,SM Tupou,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,26,20.0,1,10,4.3,4.62,2026
+1532649,Sageer Ahmad,Fiji,South Korea,Sano International Cricket Ground 2,2026-05-13,T20I,18,16.0,0,11,3.0,5.33,2026
+1532649,VM Waqavakatoga,South Korea,Fiji,Sano International Cricket Ground 2,2026-05-13,T20I,12,15.0,0,6,2.0,7.5,2026
+1532650,A Nao,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,24,28.0,3,11,4.0,7.0,2026
+1532650,A Vala,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,6,5.0,0,1,1.0,5.0,2026
+1532650,Aue Oru,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,18,14.0,3,8,3.0,4.67,2026
+1532650,CK Jasmat,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,18,18.0,1,7,3.0,6.0,2026
+1532650,D Visser,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,24,10.0,1,14,4.0,2.5,2026
+1532650,J Kariko,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,24,15.0,3,13,4.0,3.75,2026
+1532650,KV Morea,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,24,22.0,1,13,4.0,5.5,2026
+1532650,L Siaka,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,12,10.0,0,5,2.0,5.0,2026
+1532650,MJ Tugaga,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,18,13.0,2,10,3.0,4.33,2026
+1532650,S Bau,Samoa,Papua New Guinea,Sano International Cricket Ground,2026-05-13,T20I,12,13.0,0,5,2.0,6.5,2026
+1532650,S Sola,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,12,17.0,0,1,2.0,8.5,2026
+1532650,SF Tiai,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,24,21.0,4,11,4.0,5.25,2026
+1532650,SM Nash,Papua New Guinea,Samoa,Sano International Cricket Ground,2026-05-13,T20I,24,26.0,0,7,4.0,6.5,2026
+1532651,C Dickson,Vanuatu,Cook Islands,Sano International Cricket Ground,2026-05-13,T20I,6,11.0,0,1,1.0,11.0,2026
+1532651,D Wotu,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,13,15.0,0,6,2.2,6.92,2026
+1532651,HB Dickson,Vanuatu,Cook Islands,Sano International Cricket Ground,2026-05-13,T20I,12,8.0,1,6,2.0,4.0,2026
+1532651,J Rasu,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,18,32.0,2,8,3.0,10.67,2026
+1532651,JL Tutty,Vanuatu,Cook Islands,Sano International Cricket Ground,2026-05-13,T20I,12,7.0,2,8,2.0,3.5,2026
+1532651,N Nipiko,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,13,23.0,0,2,2.2,10.62,2026
+1532651,N Venables,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,25,36.0,1,5,4.2,8.64,2026
+1532651,OE Taylor,Vanuatu,Cook Islands,Sano International Cricket Ground,2026-05-13,T20I,6,20.0,0,2,1.0,20.0,2026
+1532651,PK Matautaava,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,6,10.0,1,3,1.0,10.0,2026
+1532651,Q Stephens,Vanuatu,Cook Islands,Sano International Cricket Ground,2026-05-13,T20I,12,12.0,2,5,2.0,6.0,2026
+1532651,TL Cutler,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,24,19.0,2,16,4.0,4.75,2026
+1532651,W Nalisa,Cook Islands,Vanuatu,Sano International Cricket Ground,2026-05-13,T20I,24,28.0,1,11,4.0,7.0,2026
 1533385,Baseer Khan,Germany,Austria,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,24,50.0,0,2,4.0,12.5,2026
 1533385,Bilal Zalmai,Germany,Austria,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,18,49.0,0,4,3.0,16.33,2026
 1533385,Ghulam Ahmadi,Austria,Germany,Bayer Uerdingen Cricket Ground,2026-05-01,T20I,7,16.0,2,2,1.2,13.71,2026
