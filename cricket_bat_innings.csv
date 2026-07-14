@@ -164355,6 +164355,17 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1490708,S Jafta,South Africa,England,"Kennington Oval, London",2026-07-02,T20I,1,4,0,0,1,25.0,2026
 1490708,S Luus,South Africa,England,"Kennington Oval, London",2026-07-02,T20I,11,13,1,0,1,84.62,2026
 1490708,T Brits,South Africa,England,"Kennington Oval, London",2026-07-02,T20I,51,45,6,0,1,113.33,2026
+1490709,A Capsey,England,Australia,"Lord's, London",2026-07-05,T20I,23,20,2,1,1,115.0,2026
+1490709,A Gardner,Australia,England,"Lord's, London",2026-07-05,T20I,3,2,0,0,0,150.0,2026
+1490709,AE Jones,England,Australia,"Lord's, London",2026-07-05,T20I,6,6,1,0,1,100.0,2026
+1490709,BL Mooney,Australia,England,"Lord's, London",2026-07-05,T20I,64,49,10,0,1,130.61,2026
+1490709,DN Wyatt,England,Australia,"Lord's, London",2026-07-05,T20I,8,9,1,0,1,88.89,2026
+1490709,EA Perry,Australia,England,"Lord's, London",2026-07-05,T20I,13,12,2,0,0,108.33,2026
+1490709,FG Kemp,England,Australia,"Lord's, London",2026-07-05,T20I,44,28,4,1,0,157.14,2026
+1490709,G Voll,Australia,England,"Lord's, London",2026-07-05,T20I,9,6,2,0,1,150.0,2026
+1490709,HC Knight,England,Australia,"Lord's, London",2026-07-05,T20I,2,6,0,0,1,33.33,2026
+1490709,NR Sciver-Brunt,England,Australia,"Lord's, London",2026-07-05,T20I,58,53,5,0,0,109.43,2026
+1490709,P Litchfield,Australia,England,"Lord's, London",2026-07-05,T20I,48,35,6,2,1,137.14,2026
 1490854,A Argyropoulou,Greece,Turkey,"Vassil Levski National Sports Academy, Sofia",2025-07-07,T20I,4,12,0,0,1,33.33,2025
 1490854,A Kourkoulou,Greece,Turkey,"Vassil Levski National Sports Academy, Sofia",2025-07-07,T20I,7,6,1,0,0,116.67,2025
 1490854,A Makri,Greece,Turkey,"Vassil Levski National Sports Academy, Sofia",2025-07-07,T20I,20,17,1,0,0,117.65,2025
@@ -167281,6 +167292,28 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1496550,SIR Dunkley,England,India,"The Cooper Associates County Ground, Taunton",2026-06-02,T20I,16,13,3,0,1,123.08,2026
 1496550,Shafali Verma,India,England,"The Cooper Associates County Ground, Taunton",2026-06-02,T20I,11,6,2,0,1,183.33,2026
 1496550,YH Bhatia,India,England,"The Cooper Associates County Ground, Taunton",2026-06-02,T20I,32,18,7,0,1,177.78,2026
+1496551,A Capsey,England,India,"Lord's, London",2026-07-10,Test,30,48,4,0,1,62.5,2026
+1496551,AE Jones,England,India,"Lord's, London",2026-07-10,Test,106,142,12,0,1,74.65,2026
+1496551,DB Sharma,India,England,"Lord's, London",2026-07-10,Test,67,120,7,0,1,55.83,2026
+1496551,H Kaur,India,England,"Lord's, London",2026-07-10,Test,74,155,10,0,1,47.74,2026
+1496551,HC Knight,England,India,"Lord's, London",2026-07-10,Test,19,59,2,0,1,32.2,2026
+1496551,IECM Wong,England,India,"Lord's, London",2026-07-10,Test,8,66,1,0,1,12.12,2026
+1496551,JI Rodrigues,India,England,"Lord's, London",2026-07-10,Test,38,50,5,0,1,76.0,2026
+1496551,K Goud,India,England,"Lord's, London",2026-07-10,Test,1,3,0,0,1,33.33,2026
+1496551,L Filer,England,India,"Lord's, London",2026-07-10,Test,4,33,1,0,1,12.12,2026
+1496551,LK Bell,England,India,"Lord's, London",2026-07-10,Test,3,23,0,0,1,13.04,2026
+1496551,ME Bouchier,England,India,"Lord's, London",2026-07-10,Test,25,60,3,0,1,41.67,2026
+1496551,MK Villiers,England,India,"Lord's, London",2026-07-10,Test,36,96,3,0,1,37.5,2026
+1496551,N Shree Charani,India,England,"Lord's, London",2026-07-10,Test,3,1,0,0,0,300.0,2026
+1496551,NR Sciver-Brunt,England,India,"Lord's, London",2026-07-10,Test,55,110,6,1,1,50.0,2026
+1496551,RM Ghosh,India,England,"Lord's, London",2026-07-10,Test,63,64,10,0,1,98.44,2026
+1496551,S Ecclestone,England,India,"Lord's, London",2026-07-10,Test,61,88,8,0,1,69.32,2026
+1496551,S Mandhana,India,England,"Lord's, London",2026-07-10,Test,153,238,20,2,1,64.29,2026
+1496551,S Rana,India,England,"Lord's, London",2026-07-10,Test,14,50,0,0,1,28.0,2026
+1496551,SG Satghare,India,England,"Lord's, London",2026-07-10,Test,19,54,4,0,1,35.19,2026
+1496551,Shafali Verma,India,England,"Lord's, London",2026-07-10,Test,33,59,7,0,1,55.93,2026
+1496551,TT Beaumont,England,India,"Lord's, London",2026-07-10,Test,2,8,0,0,1,25.0,2026
+1496551,YH Bhatia,India,England,"Lord's, London",2026-07-10,Test,125,175,16,0,1,71.43,2026
 1496571,AAP Atkinson,England,New Zealand,"Lord's, London",2026-06-04,Test,18,43,1,0,1,41.86,2026
 1496571,BA Stokes,England,New Zealand,"Lord's, London",2026-06-04,Test,12,26,2,0,1,46.15,2026
 1496571,BM Duckett,England,New Zealand,"Lord's, London",2026-06-04,Test,52,83,8,0,1,62.65,2026
@@ -167356,6 +167389,67 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1496574,SS Iyer,India,England,"Riverside Ground, Chester-le-Street",2026-07-01,T20I,68,47,6,1,1,144.68,2026
 1496574,SV Samson,India,England,"Riverside Ground, Chester-le-Street",2026-07-01,T20I,1,7,0,0,1,14.29,2026
 1496574,Tilak Varma,India,England,"Riverside Ground, Chester-le-Street",2026-07-01,T20I,13,13,1,0,1,100.0,2026
+1496575,AR Patel,India,England,"Old Trafford, Manchester",2026-07-04,T20I,2,3,0,0,1,66.67,2026
+1496575,Abhishek Sharma,India,England,"Old Trafford, Manchester",2026-07-04,T20I,43,24,8,1,1,179.17,2026
+1496575,HC Brook,England,India,"Old Trafford, Manchester",2026-07-04,T20I,39,15,4,3,1,260.0,2026
+1496575,Harshit Rana,India,England,"Old Trafford, Manchester",2026-07-04,T20I,6,3,0,1,1,200.0,2026
+1496575,Ishan Kishan,India,England,"Old Trafford, Manchester",2026-07-04,T20I,49,40,6,0,1,122.5,2026
+1496575,JC Archer,England,India,"Old Trafford, Manchester",2026-07-04,T20I,10,7,1,0,0,142.86,2026
+1496575,JC Buttler,England,India,"Old Trafford, Manchester",2026-07-04,T20I,0,3,0,0,1,0.0,2026
+1496575,JG Bethell,England,India,"Old Trafford, Manchester",2026-07-04,T20I,76,46,5,5,0,165.22,2026
+1496575,PD Salt,England,India,"Old Trafford, Manchester",2026-07-04,T20I,0,1,0,0,1,0.0,2026
+1496575,S Dube,India,England,"Old Trafford, Manchester",2026-07-04,T20I,5,7,0,0,1,71.43,2026
+1496575,SM Curran,England,India,"Old Trafford, Manchester",2026-07-04,T20I,7,5,1,0,1,140.0,2026
+1496575,SS Iyer,India,England,"Old Trafford, Manchester",2026-07-04,T20I,37,22,3,1,1,168.18,2026
+1496575,T Banton,England,India,"Old Trafford, Manchester",2026-07-04,T20I,39,32,6,0,1,121.88,2026
+1496575,Tilak Varma,India,England,"Old Trafford, Manchester",2026-07-04,T20I,24,11,1,2,0,218.18,2026
+1496575,V Suryavanshi,India,England,"Old Trafford, Manchester",2026-07-04,T20I,14,10,0,2,1,140.0,2026
+1496575,WG Jacks,England,India,"Old Trafford, Manchester",2026-07-04,T20I,9,8,1,0,1,112.5,2026
+1496576,AR Patel,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,10,4,1,1,1,250.0,2026
+1496576,Abhishek Sharma,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,10,7,0,1,1,142.86,2026
+1496576,Arshdeep Singh,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,4,4,0,0,1,100.0,2026
+1496576,CV Varun,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,5,7,1,0,1,71.43,2026
+1496576,HC Brook,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,16,12,1,0,1,133.33,2026
+1496576,Harshit Rana,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,9,13,1,0,1,69.23,2026
+1496576,Ishan Kishan,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,13,9,1,1,1,144.44,2026
+1496576,JC Archer,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,5,2,1,0,0,250.0,2026
+1496576,JC Buttler,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,36,21,4,2,1,171.43,2026
+1496576,JG Bethell,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,13,9,2,0,1,144.44,2026
+1496576,PD Salt,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,70,44,7,3,1,159.09,2026
+1496576,Prince Yadav,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,2,2,0,0,0,100.0,2026
+1496576,S Dube,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,2,4,0,0,1,50.0,2026
+1496576,SM Curran,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,41,24,4,0,1,170.83,2026
+1496576,SS Iyer,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,5,4,1,0,1,125.0,2026
+1496576,T Banton,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,0,1,0,0,1,0.0,2026
+1496576,Tilak Varma,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,3,11,0,0,1,27.27,2026
+1496576,V Suryavanshi,India,England,"Trent Bridge, Nottingham",2026-07-07,T20I,13,5,0,2,1,260.0,2026
+1496576,WG Jacks,England,India,"Trent Bridge, Nottingham",2026-07-07,T20I,14,7,0,2,1,200.0,2026
+1496577,AR Patel,India,England,"County Ground, Bristol",2026-07-09,T20I,1,2,0,0,0,50.0,2026
+1496577,Abhishek Sharma,India,England,"County Ground, Bristol",2026-07-09,T20I,16,14,2,0,1,114.29,2026
+1496577,HC Brook,England,India,"County Ground, Bristol",2026-07-09,T20I,79,35,8,4,0,225.71,2026
+1496577,Ishan Kishan,India,England,"County Ground, Bristol",2026-07-09,T20I,4,6,0,0,1,66.67,2026
+1496577,JC Buttler,England,India,"County Ground, Bristol",2026-07-09,T20I,8,8,0,1,1,100.0,2026
+1496577,PD Salt,England,India,"County Ground, Bristol",2026-07-09,T20I,59,42,9,1,0,140.48,2026
+1496577,S Dube,India,England,"County Ground, Bristol",2026-07-09,T20I,22,23,2,0,1,95.65,2026
+1496577,SS Iyer,India,England,"County Ground, Bristol",2026-07-09,T20I,80,49,4,5,1,163.27,2026
+1496577,Tilak Varma,India,England,"County Ground, Bristol",2026-07-09,T20I,11,8,0,1,1,137.5,2026
+1496577,V Suryavanshi,India,England,"County Ground, Bristol",2026-07-09,T20I,15,10,1,1,1,150.0,2026
+1496577,Washington Sundar,India,England,"County Ground, Bristol",2026-07-09,T20I,5,8,0,0,1,62.5,2026
+1496578,AR Patel,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,3,4,0,0,1,75.0,2026
+1496578,Abhishek Sharma,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,3,5,0,0,1,60.0,2026
+1496578,Arshdeep Singh,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,4,5,0,0,0,80.0,2026
+1496578,HC Brook,England,India,"The Rose Bowl, Southampton",2026-07-11,T20I,95,45,4,8,0,211.11,2026
+1496578,Ishan Kishan,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,56,35,7,2,1,160.0,2026
+1496578,JC Buttler,England,India,"The Rose Bowl, Southampton",2026-07-11,T20I,131,64,12,8,1,204.69,2026
+1496578,JG Bethell,England,India,"The Rose Bowl, Southampton",2026-07-11,T20I,0,1,0,0,1,0.0,2026
+1496578,M Prasidh Krishna,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,1,1,0,0,0,100.0,2026
+1496578,PD Salt,England,India,"The Rose Bowl, Southampton",2026-07-11,T20I,6,9,1,0,1,66.67,2026
+1496578,S Dube,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,14,10,2,0,1,140.0,2026
+1496578,SS Iyer,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,28,16,4,0,1,175.0,2026
+1496578,SV Samson,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,27,14,3,2,1,192.86,2026
+1496578,Suryansh Shedge,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,7,6,1,0,1,116.67,2026
+1496578,Tilak Varma,India,England,"The Rose Bowl, Southampton",2026-07-11,T20I,53,25,3,4,1,212.0,2026
+1496578,WG Jacks,England,India,"The Rose Bowl, Southampton",2026-07-11,T20I,7,2,0,1,0,350.0,2026
 1496821,A Dhabe,Sweden,Austria,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,3,6,0,0,1,50.0,2025
 1496821,A Mundra,Sweden,Austria,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,18,10,2,1,1,180.0,2025
 1496821,A Randhawa,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,5,8,0,0,1,62.5,2025
@@ -178696,6 +178790,35 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1528542,Rameen Shamim,Pakistan,West Indies,"Castle Avenue, Dublin",2026-06-03,T20I,17,16,2,0,1,106.25,2026
 1528542,Saira Jabeen,Pakistan,West Indies,"Castle Avenue, Dublin",2026-06-03,T20I,7,8,1,0,1,87.5,2026
 1528542,Tuba Hassan,Pakistan,West Indies,"Castle Avenue, Dublin",2026-06-03,T20I,7,4,1,0,0,175.0,2026
+1528544,A Hunter,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,96,90,10,1,1,106.67,2026
+1528544,AK Maguire,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,3,5,0,0,0,60.0,2026
+1528544,C Murray,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,14,28,2,0,1,50.0,2026
+1528544,G Dempsey,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,0,2,0,0,1,0.0,2026
+1528544,GH Lewis,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,39,48,6,0,1,81.25,2026
+1528544,HK Matthews,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,159,123,24,2,0,129.27,2026
+1528544,J Maguire,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,0,3,0,0,1,0.0,2026
+1528544,L Little,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,27,29,1,2,1,93.1,2026
+1528544,L Paul,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,8,11,1,0,1,72.73,2026
+1528544,O Prendergast,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,30,33,2,1,1,90.91,2026
+1528544,R Stokell,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,20,26,2,1,1,76.92,2026
+1528544,RMAU Grimmond,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,91,107,11,0,1,85.05,2026
+1528544,S Forbes,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,11,20,1,0,0,55.0,2026
+1528544,SR Taylor,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-10,ODI,2,3,0,0,0,66.67,2026
+1528545,A Dalzell,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,17,9,3,0,0,188.89,2026
+1528545,A Hunter,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,67,87,7,0,1,77.01,2026
+1528545,DJS Dottin,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,9,12,1,0,1,75.0,2026
+1528545,G Dempsey,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,3,5,0,0,0,60.0,2026
+1528545,GH Lewis,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,24,36,4,0,1,66.67,2026
+1528545,HK Matthews,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,100,94,14,2,1,106.38,2026
+1528545,J Glasgow,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,9,5,2,0,1,180.0,2026
+1528545,L Little,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,7,13,1,0,1,53.85,2026
+1528545,L Paul,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,32,30,4,0,1,106.67,2026
+1528545,O Prendergast,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,9,17,1,0,1,52.94,2026
+1528545,R Stokell,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,57,76,6,0,1,75.0,2026
+1528545,RMAU Grimmond,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,0,3,0,0,1,0.0,2026
+1528545,S Forbes,Ireland,West Indies,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,17,28,2,0,1,60.71,2026
+1528545,SA Campbelle,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,10,16,1,0,0,62.5,2026
+1528545,SR Taylor,West Indies,Ireland,"Bready Cricket Club, Magheramason, Bready",2026-07-12,ODI,100,105,14,1,0,95.24,2026
 1528547,A Balbirnie,Ireland,New Zealand,"Civil Service Cricket Club, Stormont, Belfast",2026-05-27,Test,27,39,4,0,1,69.23,2026
 1528547,AR McBrine,Ireland,New Zealand,"Civil Service Cricket Club, Stormont, Belfast",2026-05-27,Test,86,128,14,0,1,67.19,2026
 1528547,C Campher,Ireland,New Zealand,"Civil Service Cricket Club, Stormont, Belfast",2026-05-27,Test,4,21,1,0,1,19.05,2026
@@ -183692,6 +183815,62 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1538297,Taijul Islam,Bangladesh,Zimbabwe,Harare Sports Club,2026-06-28,Test,17,36,3,0,1,47.22,2026
 1538297,Towhid Hridoy,Bangladesh,Zimbabwe,Harare Sports Club,2026-06-28,Test,12,33,1,0,1,36.36,2026
 1538297,W Madhevere,Zimbabwe,Bangladesh,Harare Sports Club,2026-06-28,Test,77,108,8,0,0,71.3,2026
+1538298,B Evans,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,3,7,0,0,1,42.86,2026
+1538298,B Muzarabani,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,4,10,0,0,0,40.0,2026
+1538298,BJ Bennett,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,17,24,3,0,1,70.83,2026
+1538298,BJ Curran,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,18,19,2,0,1,94.74,2026
+1538298,C Madande,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,2,7,0,0,1,28.57,2026
+1538298,CR Ervine,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,0,1,0,0,1,0.0,2026
+1538298,I Kaia,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,26,39,1,1,1,66.67,2026
+1538298,Mehedi Hasan Miraz,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,10,18,1,0,1,55.56,2026
+1538298,Mosaddek Hossain,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,3,7,0,0,1,42.86,2026
+1538298,Mustafizur Rahman,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,5,14,1,0,1,35.71,2026
+1538298,NT Nyamhuri,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,33,51,5,0,1,64.71,2026
+1538298,Nahid Rana,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,5,15,1,0,0,33.33,2026
+1538298,Nazmul Hossain Shanto,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,3,7,0,0,1,42.86,2026
+1538298,Nurul Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,31,44,3,1,1,70.45,2026
+1538298,R Ngarava,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,27,41,3,0,1,65.85,2026
+1538298,Rishad Hossain,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,3,10,0,0,1,30.0,2026
+1538298,Sikandar Raza,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,1,12,0,0,1,8.33,2026
+1538298,Soumya Sarkar,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,6,10,0,0,1,60.0,2026
+1538298,Tanzid Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,8,6,1,0,1,133.33,2026
+1538298,Taskin Ahmed,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,5,10,1,0,1,50.0,2026
+1538298,Towhid Hridoy,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-06,ODI,25,58,1,0,1,43.1,2026
+1538298,W Madhevere,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-06,ODI,0,10,0,0,1,0.0,2026
+1538299,B Evans,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,58,38,2,5,0,152.63,2026
+1538299,BJ Bennett,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,0,5,0,0,1,0.0,2026
+1538299,BJ Curran,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,111,135,9,0,0,82.22,2026
+1538299,C Madande,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,4,13,0,0,1,30.77,2026
+1538299,CR Ervine,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,9,20,1,0,1,45.0,2026
+1538299,I Kaia,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,4,7,1,0,1,57.14,2026
+1538299,Mehedi Hasan Miraz,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,27,33,3,0,1,81.82,2026
+1538299,Mosaddek Hossain,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,7,9,1,0,1,77.78,2026
+1538299,Nazmul Hossain Shanto,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,9,16,1,0,1,56.25,2026
+1538299,Nurul Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,38,41,5,0,1,92.68,2026
+1538299,Rishad Hossain,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,8,15,1,0,1,53.33,2026
+1538299,Shoriful Islam,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,6,4,1,0,1,150.0,2026
+1538299,Sikandar Raza,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,33,53,4,0,1,62.26,2026
+1538299,Soumya Sarkar,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,5,10,0,0,1,50.0,2026
+1538299,Tanzid Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,57,70,5,1,1,81.43,2026
+1538299,Taskin Ahmed,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,0,2,0,0,1,0.0,2026
+1538299,Towhid Hridoy,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-09,ODI,60,90,5,0,1,66.67,2026
+1538299,W Madhevere,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-09,ODI,15,30,2,0,1,50.0,2026
+1538300,B Evans,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,50,43,5,2,1,116.28,2026
+1538300,BJ Bennett,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,6,19,1,0,1,31.58,2026
+1538300,BJ Curran,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,2,13,0,0,1,15.38,2026
+1538300,C Madande,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,1,5,0,0,1,20.0,2026
+1538300,CR Ervine,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,5,20,0,0,1,25.0,2026
+1538300,E Masuku,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,2,10,0,0,1,20.0,2026
+1538300,I Kaia,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,25,67,1,0,1,37.31,2026
+1538300,Nazmul Hossain Shanto,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-11,ODI,18,28,3,0,0,64.29,2026
+1538300,Nurul Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-11,ODI,0,3,0,0,0,0.0,2026
+1538300,Sikandar Raza,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,11,25,0,1,1,44.0,2026
+1538300,Soumya Sarkar,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-11,ODI,69,82,6,2,1,84.15,2026
+1538300,TL Chivanga,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,2,4,0,0,0,50.0,2026
+1538300,Tanzid Hasan,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-11,ODI,94,101,8,3,1,93.07,2026
+1538300,Towhid Hridoy,Bangladesh,Zimbabwe,Harare Sports Club,2026-07-11,ODI,0,3,0,0,1,0.0,2026
+1538300,W Madhevere,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,75,74,5,1,1,101.35,2026
+1538300,WP Masakadza,Zimbabwe,Bangladesh,Harare Sports Club,2026-07-11,ODI,7,9,1,0,1,77.78,2026
 1538304,AS Joseph,West Indies,Sri Lanka,"Sabina Park, Kingston, Jamaica",2026-06-03,ODI,0,2,0,0,1,0.0,2026
 1538304,BKG Mendis,Sri Lanka,West Indies,"Sabina Park, Kingston, Jamaica",2026-06-03,ODI,72,62,4,4,1,116.13,2026
 1538304,G Motie,West Indies,Sri Lanka,"Sabina Park, Kingston, Jamaica",2026-06-03,ODI,22,30,3,0,1,73.33,2026
@@ -183783,6 +183962,27 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1538311,RL Chase,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-06-25,Test,194,324,13,2,1,59.88,2026
 1538311,RMMP Rathnayake,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-06-25,Test,27,55,3,0,1,49.09,2026
 1538311,S Joseph,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-06-25,Test,17,21,1,1,0,80.95,2026
+1538312,A Phillip,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,0,5,0,0,1,0.0,2026
+1538312,AA Jangoo,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,9,15,1,0,1,60.0,2026
+1538312,AS Joseph,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,13,24,0,1,1,54.17,2026
+1538312,BA King,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,68,155,8,1,1,43.87,2026
+1538312,BKG Mendis,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,71,118,8,3,1,60.17,2026
+1538312,DM de Silva,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,67,124,4,1,1,54.03,2026
+1538312,GS Dinusha,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,120,192,14,0,1,62.5,2026
+1538312,I Wijesundera,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,24,20,1,2,1,120.0,2026
+1538312,JD Campbell,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,123,267,13,3,1,46.07,2026
+1538312,JNT Seales,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,2,17,0,0,0,11.76,2026
+1538312,JP Greaves,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,180,325,14,2,1,55.38,2026
+1538312,KAR Hodge,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,31,139,2,0,1,22.3,2026
+1538312,KNM Fernando,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,26,39,3,0,1,66.67,2026
+1538312,LD Chandimal,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,72,122,4,2,1,59.02,2026
+1538312,LU Igalagamage,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,188,252,21,5,1,74.6,2026
+1538312,NGRP Jayasuriya,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,24,31,1,0,0,77.42,2026
+1538312,PHKD Mendis,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,128,178,16,1,1,71.91,2026
+1538312,RL Chase,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,23,40,3,0,1,57.5,2026
+1538312,RMMP Rathnayake,Sri Lanka,West Indies,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,35,63,1,1,1,55.56,2026
+1538312,S Joseph,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,5,11,0,0,1,45.45,2026
+1538312,SD Hope,West Indies,Sri Lanka,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-07-03,Test,112,243,10,0,1,46.09,2026
 1538425,Akhil Kumar,Canada,United States of America,"Maple Leaf North-West Ground, King City",2026-06-06,ODI,48,36,3,3,0,133.33,2026
 1538425,Ali Nadeem,Canada,United States of America,"Maple Leaf North-West Ground, King City",2026-06-06,ODI,51,70,4,1,1,72.86,2026
 1538425,GSNFG Jayasuriya,United States of America,Canada,"Maple Leaf North-West Ground, King City",2026-06-06,ODI,113,111,7,4,0,101.8,2026
@@ -184052,6 +184252,22 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1538455,S Mathur,Hong Kong,Nepal,Singapore National Cricket Ground,2026-06-08,T20I,26,21,2,1,1,123.81,2026
 1538455,Shahid Wasif,Hong Kong,Nepal,Singapore National Cricket Ground,2026-06-08,T20I,55,28,7,3,1,196.43,2026
 1538455,Yasim Murtaza,Hong Kong,Nepal,Singapore National Cricket Ground,2026-06-08,T20I,9,7,0,1,1,128.57,2026
+1538624,AWJ Auguste,West Indies,New Zealand,"Providence Stadium, Guyana",2026-07-11,ODI,38,58,4,0,1,65.52,2026
+1538624,DJ Mitchell,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,65,73,7,1,1,89.04,2026
+1538624,HM Nicholls,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,27,43,1,0,1,62.79,2026
+1538624,JA Duffy,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,0,5,0,0,1,0.0,2026
+1538624,JD Campbell,West Indies,New Zealand,"Providence Stadium, Guyana",2026-07-11,ODI,7,15,1,0,1,46.67,2026
+1538624,JR Lennox,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,0,1,0,0,0,0.0,2026
+1538624,KU Carty,West Indies,New Zealand,"Providence Stadium, Guyana",2026-07-11,ODI,95,112,10,2,1,84.82,2026
+1538624,MG Bracewell,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,29,31,3,0,1,93.55,2026
+1538624,MJ Fisher,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,1,2,0,0,1,50.0,2026
+1538624,MJ Santner,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,21,17,0,1,1,123.53,2026
+1538624,MS Chapman,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,27,26,2,1,1,103.85,2026
+1538624,NG Smith,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,5,9,0,0,1,55.56,2026
+1538624,SD Hope,West Indies,New Zealand,"Providence Stadium, Guyana",2026-07-11,ODI,87,92,4,4,0,94.57,2026
+1538624,SE Rutherford,West Indies,New Zealand,"Providence Stadium, Guyana",2026-07-11,ODI,22,16,1,1,0,137.5,2026
+1538624,TWM Latham,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,25,30,1,0,1,83.33,2026
+1538624,WA Young,New Zealand,West Indies,"Providence Stadium, Guyana",2026-07-11,ODI,49,63,5,0,1,77.78,2026
 1538634,B Shanti,Kuwait,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-05-30,T20I,20,25,2,0,1,80.0,2026
 1538634,HH Aung,Myanmar,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-05-30,T20I,3,5,0,0,0,60.0,2026
 1538634,KM Myat,Myanmar,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-05-30,T20I,38,50,4,1,1,76.0,2026
@@ -185473,3 +185689,365 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1542990,Shadnan Khan,Austria,Hungary,"GB Oval, Szodliget",2026-06-28,T20I,14,16,1,0,1,87.5,2026
 1542990,V Ravindran,Hungary,Austria,"GB Oval, Szodliget",2026-06-28,T20I,18,6,1,2,1,300.0,2026
 1542990,Waqar Zalmai,Austria,Hungary,"GB Oval, Szodliget",2026-06-28,T20I,0,1,0,0,1,0.0,2026
+1543356,A Pusthay,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,5,8,0,0,1,62.5,2026
+1543356,AK Mohan,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,6,4,1,0,1,150.0,2026
+1543356,Akhil Arjunan,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,2,3,0,0,1,66.67,2026
+1543356,Amjad Sher,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,6,6,0,0,1,100.0,2026
+1543356,C Nunes,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,5,6,0,0,1,83.33,2026
+1543356,D Norotam,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,52,36,5,1,1,144.44,2026
+1543356,Edward Fleming,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,0,1,0,0,1,0.0,2026
+1543356,Faheem Nellancheri,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,37,32,1,3,1,115.62,2026
+1543356,Faraaz Mehti Abbas,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,24,28,3,0,1,85.71,2026
+1543356,H Khuttan,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,0,1,0,0,1,0.0,2026
+1543356,Hammadullah Shinwari,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,3,7,0,0,1,42.86,2026
+1543356,J Martins,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,18,16,1,1,1,112.5,2026
+1543356,JP Netto,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,37,35,2,1,1,105.71,2026
+1543356,NM Salonen,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,16,15,1,0,0,106.67,2026
+1543356,PUKK Arachchige,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,0,1,0,0,1,0.0,2026
+1543356,R Hashu,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,3,4,0,0,0,75.0,2026
+1543356,SC de Oliveira,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,7,8,0,0,1,87.5,2026
+1543356,SP Gomes,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,4,4,1,0,1,100.0,2026
+1543356,Sirajullah Khadim,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,3,6,0,0,1,50.0,2026
+1543356,U Shantu,Portugal,Finland,Kerava National Cricket Ground,2026-07-03,T20I,2,5,0,0,0,40.0,2026
+1543356,VS Padhaal,Finland,Portugal,Kerava National Cricket Ground,2026-07-03,T20I,1,3,0,0,1,33.33,2026
+1543358,A Pusthay,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,17,13,0,0,0,130.77,2026
+1543358,AK Mohan,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,71,44,4,4,1,161.36,2026
+1543358,Amjad Sher,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,12,5,0,1,0,240.0,2026
+1543358,C Potgieter,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,8,7,0,0,1,114.29,2026
+1543358,D Norotam,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,47,29,3,2,1,162.07,2026
+1543358,Edward Fleming,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,0,2,0,0,0,0.0,2026
+1543358,Faheem Nellancheri,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,29,14,1,3,1,207.14,2026
+1543358,Faraaz Mehti Abbas,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,17,17,1,0,1,100.0,2026
+1543358,J Martins,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,11,8,1,0,0,137.5,2026
+1543358,JP Netto,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,41,29,4,1,1,141.38,2026
+1543358,NM Salonen,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,3,8,0,0,1,37.5,2026
+1543358,SP Gomes,Portugal,Finland,Kerava National Cricket Ground,2026-07-04,T20I,62,46,3,2,0,134.78,2026
+1543358,VS Padhaal,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,12,15,1,0,1,80.0,2026
+1543358,Zahidullah Kamal,Finland,Portugal,Kerava National Cricket Ground,2026-07-04,T20I,3,5,0,0,1,60.0,2026
+1543361,Abdullah Mahmood,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,9,7,1,0,1,128.57,2026
+1543361,Arslan Amjad,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,0,7,0,0,1,0.0,2026
+1543361,Bilal Masud,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,6,8,1,0,1,75.0,2026
+1543361,H Aggarwal,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,2,16,0,0,1,12.5,2026
+1543361,H Pattenden,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,5,5,1,0,0,100.0,2026
+1543361,HAM Shah,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,77,48,9,3,1,160.42,2026
+1543361,Habib Khan,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,1,3,0,0,1,33.33,2026
+1543361,Lucky Ali,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,7,5,0,0,0,140.0,2026
+1543361,Musa Shaheen,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,43,31,2,3,1,138.71,2026
+1543361,R Aggarwal,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,0,3,0,0,1,0.0,2026
+1543361,R Sekaran,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,9,12,1,0,0,75.0,2026
+1543361,S Gooch,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,18,45,1,0,1,40.0,2026
+1543361,S Heath,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,20,16,1,1,1,125.0,2026
+1543361,S Thanikaithasan,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,3,4,0,0,1,75.0,2026
+1543361,SA Ahmad,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,6,8,0,0,1,75.0,2026
+1543361,Sahil Chauhan,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,0,2,0,0,1,0.0,2026
+1543361,Surya Anand,Denmark,Estonia,"Svanholm Park, Brondby",2026-07-08,T20I,5,2,1,0,0,250.0,2026
+1543361,Zeeshan Ali,Estonia,Denmark,"Svanholm Park, Brondby",2026-07-08,T20I,25,20,0,2,1,125.0,2026
+1543362,A Raza,Belgium,Gibraltar,Koge Cricket Club,2026-07-08,T20I,10,9,1,1,1,111.11,2026
+1543362,Anthony Hillman,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,25,23,2,0,0,108.7,2026
+1543362,Aziz Mohammad,Belgium,Gibraltar,Koge Cricket Club,2026-07-08,T20I,67,44,7,4,0,152.27,2026
+1543362,B Niaz,Belgium,Gibraltar,Koge Cricket Club,2026-07-08,T20I,5,8,0,0,1,62.5,2026
+1543362,BA Pai,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,9,11,1,0,1,81.82,2026
+1543362,C Pyle,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,5,6,0,0,1,83.33,2026
+1543362,IDM Latin,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,18,20,0,1,1,90.0,2026
+1543362,JA Fitzgerald,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,3,4,0,0,1,75.0,2026
+1543362,K Mirpuri,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,0,1,0,0,1,0.0,2026
+1543362,KJ Ferrary,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,10,14,0,0,1,71.43,2026
+1543362,KJ Stagno,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,54,34,5,4,1,158.82,2026
+1543362,L Bruce,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,6,5,1,0,1,120.0,2026
+1543362,Matthew Walker,Gibraltar,Belgium,Koge Cricket Club,2026-07-08,T20I,1,2,0,0,1,50.0,2026
+1543362,Omid Mailk Khel,Belgium,Gibraltar,Koge Cricket Club,2026-07-08,T20I,28,17,5,0,1,164.71,2026
+1543362,Shaheryar Butt,Belgium,Gibraltar,Koge Cricket Club,2026-07-08,T20I,17,17,3,0,0,100.0,2026
+1543364,A Dizija,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,13,13,1,1,1,100.0,2026
+1543364,AN Lascu,Romania,Serbia,Koge Cricket Club,2026-07-08,T20I,37,27,1,3,0,137.04,2026
+1543364,BM Pecic,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,60,50,4,1,1,120.0,2026
+1543364,Irfan Ringku,Romania,Serbia,Koge Cricket Club,2026-07-08,T20I,68,34,7,5,1,200.0,2026
+1543364,LA Dunbar,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,0,1,0,0,1,0.0,2026
+1543364,Luka Woods,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,20,15,2,0,1,133.33,2026
+1543364,ML Kostic,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,24,31,2,1,1,77.42,2026
+1543364,Md Ariyan,Romania,Serbia,Koge Cricket Club,2026-07-08,T20I,32,13,1,4,0,246.15,2026
+1543364,Taranjeet Singh,Romania,Serbia,Koge Cricket Club,2026-07-08,T20I,0,1,0,0,1,0.0,2026
+1543364,V Zimonjic,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,1,1,0,0,0,100.0,2026
+1543364,WAE Burton,Serbia,Romania,Koge Cricket Club,2026-07-08,T20I,12,9,2,0,0,133.33,2026
+1543365,A Turkmen,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,7,9,1,0,1,77.78,2026
+1543365,Abdullah Khan Lodhi,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,0,1,0,0,1,0.0,2026
+1543365,Furkan Tuskan,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,21,22,1,2,1,95.45,2026
+1543365,HAM Shah,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,79,45,1,8,1,175.56,2026
+1543365,I Elec,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,50,43,3,3,0,116.28,2026
+1543365,Ibrahim Kursad Dalyan,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,1,3,0,0,1,33.33,2026
+1543365,Ilyas Ataullah,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,15,21,2,0,1,71.43,2026
+1543365,M Ozturk,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,14,10,0,2,1,140.0,2026
+1543365,Mertcan Filiz,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,0,1,0,0,0,0.0,2026
+1543365,Muhammad Fahad,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,1,3,0,0,1,33.33,2026
+1543365,Murat Yilmaz,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,1,4,0,0,1,25.0,2026
+1543365,Musa Shaheen,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,35,30,4,1,1,116.67,2026
+1543365,S Heath,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,17,10,0,2,1,170.0,2026
+1543365,S Thanikaithasan,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,16,12,3,0,1,133.33,2026
+1543365,SA Ahmad,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,40,22,3,2,0,181.82,2026
+1543365,Serdar Burak Emir,Turkey,Denmark,Koge Cricket Club,2026-07-09,T20I,1,4,0,0,1,25.0,2026
+1543365,Surya Anand,Denmark,Turkey,Koge Cricket Club,2026-07-09,T20I,6,1,0,1,0,600.0,2026
+1543366,Aditya Panwar,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,1,3,0,0,1,33.33,2026
+1543366,Arslan Amjad,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,15,19,2,0,1,78.95,2026
+1543366,Bilal Masud,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,6,14,0,0,1,42.86,2026
+1543366,D Abeyrathna,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,0,2,0,0,1,0.0,2026
+1543366,Faisal Raza,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,4,8,0,0,1,50.0,2026
+1543366,Farmanullah Ghari,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,1,1,0,0,0,100.0,2026
+1543366,H Aggarwal,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,1,7,0,0,0,14.29,2026
+1543366,H Pattenden,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,4,11,0,0,1,36.36,2026
+1543366,Habib Khan,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,0,2,0,0,1,0.0,2026
+1543366,Ibrahim Rahimi,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,37,14,0,5,1,264.29,2026
+1543366,Khizer Ahmed,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,16,9,3,0,1,177.78,2026
+1543366,Qamar Mushtaque,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,0,2,0,0,1,0.0,2026
+1543366,R Sekaran,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,2,7,0,0,0,28.57,2026
+1543366,S Gooch,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,7,18,0,0,1,38.89,2026
+1543366,Sahil Chauhan,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,42,25,4,3,1,168.0,2026
+1543366,Sher Sahak,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,0,1,0,0,1,0.0,2026
+1543366,Vinay Ravi,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,4,1,1,0,0,400.0,2026
+1543366,Wahidullah Sahak,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,9,4,2,0,1,225.0,2026
+1543366,Walid Ghauri,Norway,Estonia,Koge Cricket Club,2026-07-09,T20I,34,17,3,2,1,200.0,2026
+1543366,Zeeshan Ali,Estonia,Norway,Koge Cricket Club,2026-07-09,T20I,12,14,1,0,1,85.71,2026
+1543367,AN Lascu,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,5,9,1,0,1,55.56,2026
+1543367,Anthony Hillman,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,50,44,2,0,0,113.64,2026
+1543367,Avishka Iroshan,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,53,44,3,2,0,120.45,2026
+1543367,BA Pai,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,5,9,0,0,1,55.56,2026
+1543367,C Pyle,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,19,21,0,1,1,90.48,2026
+1543367,IDM Latin,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,4,7,1,0,1,57.14,2026
+1543367,Irfan Ringku,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,17,10,3,0,1,170.0,2026
+1543367,J Fernando,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,9,11,0,0,1,81.82,2026
+1543367,J Horrocks,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,4,1,1,0,0,400.0,2026
+1543367,J Khadka,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,2,6,0,0,0,33.33,2026
+1543367,JA Fitzgerald,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,8,9,1,0,1,88.89,2026
+1543367,K Mirpuri,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,2,3,0,0,1,66.67,2026
+1543367,KJ Ferrary,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,3,12,0,0,1,25.0,2026
+1543367,KJ Stagno,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,1,5,0,0,1,20.0,2026
+1543367,L Bruce,Gibraltar,Romania,"Svanholm Park, Brondby",2026-07-10,T20I,20,9,4,0,1,222.22,2026
+1543367,M Koli,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,0,1,0,0,1,0.0,2026
+1543367,Md Ariyan,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,10,10,0,1,1,100.0,2026
+1543367,Rameez Khan,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,1,3,0,0,1,33.33,2026
+1543367,T Sandaruwan,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,3,6,0,0,1,50.0,2026
+1543367,Taranjeet Singh,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,1,3,0,0,1,33.33,2026
+1543367,V Saini,Romania,Gibraltar,"Svanholm Park, Brondby",2026-07-10,T20I,13,12,2,0,1,108.33,2026
+1543368,A Paul,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,2,2,0,0,1,100.0,2026
+1543368,Aditya Panwar,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,29,25,3,1,1,116.0,2026
+1543368,Ali Nawaz,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,17,23,0,0,1,73.91,2026
+1543368,Amal Jacob,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,1,3,0,0,1,33.33,2026
+1543368,Arslan Amjad,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,0,4,0,0,1,0.0,2026
+1543368,Ashraful Shuvo,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,2,2,0,0,0,100.0,2026
+1543368,Bilal Masud,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,17,12,0,2,1,141.67,2026
+1543368,H Aggarwal,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,21,26,1,0,1,80.77,2026
+1543368,H Pattenden,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,21,12,1,2,0,175.0,2026
+1543368,Habib Khan,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,9,8,2,0,1,112.5,2026
+1543368,Kamran Wahid,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,8,15,0,0,1,53.33,2026
+1543368,Kasir Ahmed,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,9,11,0,0,1,81.82,2026
+1543368,M Bhaiji,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,11,12,0,1,1,91.67,2026
+1543368,Muhammad Saqlain,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,1,1,0,0,0,100.0,2026
+1543368,Muhammad Soban,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,0,2,0,0,1,0.0,2026
+1543368,S Gooch,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,8,15,1,0,1,53.33,2026
+1543368,SA Mohandas,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,2,5,0,0,1,40.0,2026
+1543368,Sahil Chauhan,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,1,5,0,0,1,20.0,2026
+1543368,V Ravindran,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,46,32,5,2,1,143.75,2026
+1543368,Z Marosy,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,2,2,0,0,1,100.0,2026
+1543368,Zahir Mohammed,Hungary,Estonia,Koge Cricket Club,2026-07-10,T20I,24,13,1,3,1,184.62,2026
+1543368,Zeeshan Ali,Estonia,Hungary,Koge Cricket Club,2026-07-10,T20I,6,9,0,0,1,66.67,2026
+1543369,A Dizija,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,11,19,1,0,1,57.89,2026
+1543369,A Raza,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,0,1,0,0,1,0.0,2026
+1543369,Aziz Mohammad,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,7,5,1,0,1,140.0,2026
+1543369,B Niaz,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,10,5,1,0,1,200.0,2026
+1543369,BM Pecic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,4,2,1,0,1,200.0,2026
+1543369,Khalid Ahmadi,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,6,5,0,0,1,120.0,2026
+1543369,LA Dunbar,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,19,30,1,0,0,63.33,2026
+1543369,Luka Woods,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,26,25,3,1,1,104.0,2026
+1543369,M Janicijevic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,2,2,0,0,0,100.0,2026
+1543369,ML Kostic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,7,12,0,0,1,58.33,2026
+1543369,MV Pavlovic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,0,3,0,0,1,0.0,2026
+1543369,Omid Mailk Khel,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,39,44,4,0,1,88.64,2026
+1543369,P Nedeljkovic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,7,7,1,0,1,100.0,2026
+1543369,S Tosic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,0,1,0,0,1,0.0,2026
+1543369,Saber Zakhil,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,24,13,2,2,1,184.62,2026
+1543369,Sajad Ahmadzai,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,5,3,1,0,0,166.67,2026
+1543369,Shaheryar Butt,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,50,36,3,4,1,138.89,2026
+1543369,Sheraz Sheikh,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,3,9,0,0,1,33.33,2026
+1543369,V Zimonjic,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,13,13,1,0,1,100.0,2026
+1543369,WAE Burton,Serbia,Belgium,"Svanholm Park, Brondby",2026-07-10,T20I,3,5,0,0,1,60.0,2026
+1543369,Zaki Ul Hassan,Belgium,Serbia,"Svanholm Park, Brondby",2026-07-10,T20I,2,1,0,0,0,200.0,2026
+1543370,A Turkmen,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,5,10,0,0,1,50.0,2026
+1543370,Furkan Tuskan,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,0,4,0,0,1,0.0,2026
+1543370,I Elec,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,1,4,0,0,1,25.0,2026
+1543370,Ibrahim Kursad Dalyan,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,0,7,0,0,1,0.0,2026
+1543370,Ibrahim Rahimi,Norway,Turkey,Koge Cricket Club,2026-07-10,T20I,5,3,1,0,1,166.67,2026
+1543370,Ilyas Ataullah,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,2,7,0,0,1,28.57,2026
+1543370,Khizer Ahmed,Norway,Turkey,Koge Cricket Club,2026-07-10,T20I,24,14,3,0,0,171.43,2026
+1543370,M Ozturk,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,17,18,1,1,1,94.44,2026
+1543370,Mertcan Donmez,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,10,14,2,0,0,71.43,2026
+1543370,Mertcan Filiz,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,0,4,0,0,1,0.0,2026
+1543370,Muhammad Fahad,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,52,34,6,3,1,152.94,2026
+1543370,Mustafa Balkis,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,1,3,0,0,1,33.33,2026
+1543370,Serdar Burak Emir,Turkey,Norway,Koge Cricket Club,2026-07-10,T20I,0,2,0,0,1,0.0,2026
+1543370,Sher Sahak,Norway,Turkey,Koge Cricket Club,2026-07-10,T20I,7,7,1,0,0,100.0,2026
+1543370,Wahidullah Sahak,Norway,Turkey,Koge Cricket Club,2026-07-10,T20I,20,10,5,0,1,200.0,2026
+1543370,Walid Ghauri,Norway,Turkey,Koge Cricket Club,2026-07-10,T20I,40,21,1,3,1,190.48,2026
+1543371,Ahmadullah Shinwari,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,1,5,0,0,1,20.0,2026
+1543371,D Abeyrathna,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,9,13,1,0,1,69.23,2026
+1543371,Faisal Raza,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,2,3,0,0,1,66.67,2026
+1543371,HAM Shah,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,27,18,4,1,1,150.0,2026
+1543371,Hayatullah Niazi,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,53,29,3,4,1,182.76,2026
+1543371,Ibrahim Rahimi,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,4,4,1,0,1,100.0,2026
+1543371,Khizer Ahmed,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,1,3,0,0,1,33.33,2026
+1543371,M Shahbaz Butt,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,1,3,0,0,0,33.33,2026
+1543371,Musa Shaheen,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,50,37,8,1,1,135.14,2026
+1543371,Qamar Mushtaque,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,7,7,1,0,1,100.0,2026
+1543371,S Heath,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,43,28,4,2,1,153.57,2026
+1543371,S Thanikaithasan,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,16,7,2,1,1,228.57,2026
+1543371,SA Ahmad,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,52,27,5,3,1,192.59,2026
+1543371,Surya Anand,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,1,2,0,0,0,50.0,2026
+1543371,T Bharaj,Denmark,Norway,"Svanholm Park, Brondby",2026-07-12,T20I,4,1,1,0,0,400.0,2026
+1543371,Vinay Ravi,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,12,9,2,0,1,133.33,2026
+1543371,Wahidullah Sahak,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,43,24,6,1,1,179.17,2026
+1543371,Walid Ghauri,Norway,Denmark,"Svanholm Park, Brondby",2026-07-12,T20I,7,7,1,0,1,100.0,2026
+1543372,A Raza,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,0,9,0,0,1,0.0,2026
+1543372,AN Lascu,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,7,10,1,0,1,70.0,2026
+1543372,Avishka Iroshan,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,12,17,1,0,1,70.59,2026
+1543372,Aziz Mohammad,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,0,4,0,0,1,0.0,2026
+1543372,B Niaz,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,4,3,1,0,1,133.33,2026
+1543372,Irfan Ringku,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,15,9,3,0,1,166.67,2026
+1543372,J Fernando,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,7,15,0,0,1,46.67,2026
+1543372,Khalid Ahmadi,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,19,13,2,1,1,146.15,2026
+1543372,Md Ariyan,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,7,7,0,1,1,100.0,2026
+1543372,Omid Mailk Khel,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,22,22,3,0,1,100.0,2026
+1543372,R Thapliyal,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,2,3,0,0,1,66.67,2026
+1543372,Rameez Khan,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,5,4,1,0,1,125.0,2026
+1543372,Saber Zakhil,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,8,10,1,0,1,80.0,2026
+1543372,Sajad Ahmadzai,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,11,10,0,1,1,110.0,2026
+1543372,Shaheryar Butt,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,6,6,1,0,1,100.0,2026
+1543372,Sheraz Sheikh,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,19,12,3,1,1,158.33,2026
+1543372,T Sandaruwan,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,13,9,1,1,0,144.44,2026
+1543372,Taranjeet Singh,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,0,4,0,0,1,0.0,2026
+1543372,V Saini,Romania,Belgium,Koge Cricket Club,2026-07-12,T20I,37,36,5,0,1,102.78,2026
+1543372,Zaki Ul Hassan,Belgium,Romania,Koge Cricket Club,2026-07-12,T20I,8,20,0,0,0,40.0,2026
+1543373,A Turkmen,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,1,1,0,0,0,100.0,2026
+1543373,Abdullah Khan Lodhi,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,6,8,1,0,1,75.0,2026
+1543373,Ali Nawaz,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,2,5,0,0,1,40.0,2026
+1543373,Furkan Tuskan,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,1,7,0,0,0,14.29,2026
+1543373,I Elec,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,5,5,1,0,1,100.0,2026
+1543373,Ibrahim Kursad Dalyan,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,0,1,0,0,0,0.0,2026
+1543373,Ilyas Ataullah,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,4,3,1,0,1,133.33,2026
+1543373,Kamran Wahid,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,8,5,2,0,1,160.0,2026
+1543373,M Bhaiji,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,81,52,5,5,1,155.77,2026
+1543373,Muhammad Fahad,Turkey,Hungary,"Svanholm Park, Brondby",2026-07-12,T20I,9,5,2,0,1,180.0,2026
+1543373,Muhammad Soban,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,50,46,6,0,1,108.7,2026
+1543373,RJ Ainsworth,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,1,2,0,0,0,50.0,2026
+1543373,V Ravindran,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,0,3,0,0,1,0.0,2026
+1543373,Zahir Mohammed,Hungary,Turkey,"Svanholm Park, Brondby",2026-07-12,T20I,10,8,2,0,1,125.0,2026
+1543374,A Dizija,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,3,2,0,0,1,150.0,2026
+1543374,Alexander Hillman,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,22,14,3,0,1,157.14,2026
+1543374,Anthony Hillman,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,25,17,4,0,1,147.06,2026
+1543374,BM Pecic,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,11,19,1,0,1,57.89,2026
+1543374,C Pyle,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,0,1,0,0,1,0.0,2026
+1543374,IDM Latin,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,12,16,1,0,0,75.0,2026
+1543374,JA Fitzgerald,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,0,4,0,0,1,0.0,2026
+1543374,K Mirpuri,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,15,12,1,0,0,125.0,2026
+1543374,KJ Ferrary,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,0,1,0,0,1,0.0,2026
+1543374,KJ Stagno,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,12,11,2,0,1,109.09,2026
+1543374,L Bruce,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,42,38,3,1,1,110.53,2026
+1543374,LA Dunbar,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,36,32,3,0,1,112.5,2026
+1543374,Luka Woods,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,39,20,6,2,1,195.0,2026
+1543374,ML Kostic,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,12,19,0,0,1,63.16,2026
+1543374,MV Pavlovic,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,17,14,3,0,1,121.43,2026
+1543374,Matthew Walker,Gibraltar,Serbia,Koge Cricket Club,2026-07-12,T20I,1,3,0,0,0,33.33,2026
+1543374,N Zimonjic,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,5,4,0,0,1,125.0,2026
+1543374,V Zimonjic,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,5,5,0,0,0,100.0,2026
+1543374,WAE Burton,Serbia,Gibraltar,Koge Cricket Club,2026-07-12,T20I,6,5,1,0,1,120.0,2026
+1543375,Ali Nawaz,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,20,10,1,2,1,200.0,2026
+1543375,HAM Shah,Denmark,Hungary,"Svanholm Park, Brondby",2026-07-13,T20I,95,51,7,6,1,186.27,2026
+1543375,Kamran Wahid,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,1,2,0,0,1,50.0,2026
+1543375,Kasir Ahmed,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,19,20,1,0,1,95.0,2026
+1543375,M Bhaiji,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,0,3,0,0,1,0.0,2026
+1543375,MP Ainsworth,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,2,4,0,0,1,50.0,2026
+1543375,Muhammad Saqlain,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,0,2,0,0,1,0.0,2026
+1543375,Muhammad Soban,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,13,12,2,0,1,108.33,2026
+1543375,Musa Shaheen,Denmark,Hungary,"Svanholm Park, Brondby",2026-07-13,T20I,27,31,1,1,1,87.1,2026
+1543375,RJ Ainsworth,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,3,4,0,0,1,75.0,2026
+1543375,S Heath,Denmark,Hungary,"Svanholm Park, Brondby",2026-07-13,T20I,47,33,6,1,1,142.42,2026
+1543375,S Thanikaithasan,Denmark,Hungary,"Svanholm Park, Brondby",2026-07-13,T20I,6,2,1,0,0,300.0,2026
+1543375,SA Ahmad,Denmark,Hungary,"Svanholm Park, Brondby",2026-07-13,T20I,3,4,0,0,0,75.0,2026
+1543375,SA Mohandas,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,5,5,0,0,0,100.0,2026
+1543375,V Ravindran,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,31,19,4,2,1,163.16,2026
+1543375,Zahir Mohammed,Hungary,Denmark,"Svanholm Park, Brondby",2026-07-13,T20I,20,18,2,1,1,111.11,2026
+1544137,A Kanukuntla,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,2,4,0,0,1,50.0,2026
+1544137,A Kohli,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,14,16,1,0,1,87.5,2026
+1544137,A Meyenborg,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,1,1,0,0,0,100.0,2026
+1544137,Aanvi Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,16,25,1,0,1,64.0,2026
+1544137,Aishani Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,3,4,0,0,1,75.0,2026
+1544137,Amrita Sasidharan,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,4,8,0,0,1,50.0,2026
+1544137,D Medagoda,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,3,5,0,0,0,60.0,2026
+1544137,F Kuenburg,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,32,33,3,0,0,96.97,2026
+1544137,K Simone-Kingsley,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,1,2,0,0,1,50.0,2026
+1544137,L Pickard,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,15,18,1,0,1,83.33,2026
+1544137,Meghna Rajan,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,32,46,2,0,1,69.57,2026
+1544137,Rameesha Shahid,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,18,18,1,0,1,100.0,2026
+1544137,S Kolcharam,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,7,9,1,0,1,77.78,2026
+1544137,V Stolle,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,5,4,0,0,1,125.0,2026
+1544137,Vani Dhanuka,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,10,14,0,0,1,71.43,2026
+1544137,W Hornero-Garcia,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,36,39,3,0,1,92.31,2026
+1544138,Aanvi Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,52,36,5,0,0,144.44,2026
+1544138,Amrita Sasidharan,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,12,14,1,0,1,85.71,2026
+1544138,D Medagoda,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,22,26,1,0,1,84.62,2026
+1544138,F Kuenburg,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,0,3,0,0,1,0.0,2026
+1544138,L Pickard,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,8,11,0,0,0,72.73,2026
+1544138,Meghna Rajan,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,23,36,0,0,1,63.89,2026
+1544138,Naina Saju,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,2,1,0,0,0,200.0,2026
+1544138,S Dabholkatr,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,4,4,0,0,0,100.0,2026
+1544138,S Divya,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,1,3,0,0,1,33.33,2026
+1544138,Vani Dhanuka,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,17,23,2,0,1,73.91,2026
+1544138,W Hornero-Garcia,Germany,Switzerland,SSC Karlsruhe,2026-07-10,T20I,51,44,5,0,0,115.91,2026
+1544139,A Kanukuntla,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,24,29,0,1,1,82.76,2026
+1544139,A Kohli,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,4,6,0,0,1,66.67,2026
+1544139,A Meyenborg,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,1,3,0,0,1,33.33,2026
+1544139,Aishani Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,7,7,0,0,1,100.0,2026
+1544139,Amrita Sasidharan,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,0,5,0,0,1,0.0,2026
+1544139,D Medagoda,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,7,7,1,0,1,100.0,2026
+1544139,F Kuenburg,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,6,8,1,0,1,75.0,2026
+1544139,Gargi Arya,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,0,2,0,0,1,0.0,2026
+1544139,I Edwards,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,1,3,0,0,0,33.33,2026
+1544139,L Pickard,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,1,2,0,0,1,50.0,2026
+1544139,Meghna Rajan,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,38,49,2,0,1,77.55,2026
+1544139,Naina Saju,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,6,11,0,0,0,54.55,2026
+1544139,Natalie Clarke,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,0,2,0,0,1,0.0,2026
+1544139,Rameesha Shahid,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,0,2,0,0,1,0.0,2026
+1544139,S Dabholkatr,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,2,3,0,0,1,66.67,2026
+1544139,S Kolcharam,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,10,12,1,0,1,83.33,2026
+1544139,Samiha Konuganti,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,1,5,0,0,1,20.0,2026
+1544139,Sejal Vinod,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,2,10,0,0,0,20.0,2026
+1544139,V Stolle,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,0,2,0,0,1,0.0,2026
+1544139,Vani Dhanuka,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,2,5,0,0,1,40.0,2026
+1544139,W Hornero-Garcia,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,31,40,3,0,1,77.5,2026
+1544139,Yukthi Suresh,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,5,10,0,0,1,50.0,2026
+1544140,A Kanukuntla,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,14,21,0,0,1,66.67,2026
+1544140,A Kohli,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,43,59,1,0,0,72.88,2026
+1544140,Aishani Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,12,13,0,0,1,92.31,2026
+1544140,D Medagoda,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,3,4,0,0,0,75.0,2026
+1544140,F Kuenburg,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,3,3,0,0,0,100.0,2026
+1544140,L Pickard,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,30,48,0,0,1,62.5,2026
+1544140,Meghna Rajan,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,3,6,0,0,1,50.0,2026
+1544140,Rameesha Shahid,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,8,11,0,0,1,72.73,2026
+1544140,S Divya,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,1,10,0,0,1,10.0,2026
+1544140,Vani Dhanuka,Switzerland,Germany,SSC Karlsruhe,2026-07-11,T20I,58,52,5,0,1,111.54,2026
+1544140,W Hornero-Garcia,Germany,Switzerland,SSC Karlsruhe,2026-07-11,T20I,22,19,1,0,1,115.79,2026
+1544141,A Kanukuntla,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,20,29,0,0,1,68.97,2026
+1544141,A Kohli,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,8,7,0,0,1,114.29,2026
+1544141,A Meyenborg,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,2,7,0,0,1,28.57,2026
+1544141,Aanvi Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,3,6,0,0,1,50.0,2026
+1544141,Aishani Kishore,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,5,14,0,0,1,35.71,2026
+1544141,D Medagoda,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,4,4,0,0,1,100.0,2026
+1544141,F Kuenburg,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,40,54,2,0,1,74.07,2026
+1544141,I Edwards,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,2,6,0,0,0,33.33,2026
+1544141,L Pickard,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,13,20,0,0,1,65.0,2026
+1544141,Meghana Lakayil,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,3,5,0,0,0,60.0,2026
+1544141,Meghna Rajan,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,14,13,1,0,1,107.69,2026
+1544141,Naina Saju,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,1,4,0,0,1,25.0,2026
+1544141,Natalie Clarke,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,8,4,1,0,0,200.0,2026
+1544141,Rameesha Shahid,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,5,6,0,0,1,83.33,2026
+1544141,S Dabholkatr,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,0,1,0,0,1,0.0,2026
+1544141,S Kolcharam,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,41,39,4,1,1,105.13,2026
+1544141,V Stolle,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,1,1,0,0,1,100.0,2026
+1544141,Vani Dhanuka,Switzerland,Germany,SSC Karlsruhe,2026-07-12,T20I,37,23,1,1,0,160.87,2026
+1544141,W Hornero-Garcia,Germany,Switzerland,SSC Karlsruhe,2026-07-12,T20I,0,1,0,0,1,0.0,2026
