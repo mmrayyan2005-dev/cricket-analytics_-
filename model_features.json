@@ -1,0 +1,1 @@
+{"win_prob_features": ["team1_form", "team2_form", "team1_h2h_rate", "toss_advantage"], "forecast_features": ["lag1_runs", "lag1_avg", "lag1_sr", "lag1_matches", "career_runs_to_date"]}
