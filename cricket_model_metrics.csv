@@ -1,0 +1,6 @@
+model,metric,value
+win_probability_rf,AUC,0.6807546872538208
+win_probability_rf,Accuracy,0.626057529610829
+win_probability_logreg,AUC,0.682539352879671
+run_forecast_rf,MAE,96.83883883883884
+run_forecast_rf,R2,0.21819178827868269
