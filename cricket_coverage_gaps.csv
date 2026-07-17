@@ -1,0 +1,7 @@
+player,format,cricsheet_matches,wiki_matches,gap_matches,gap_pct,cricsheet_runs,wiki_runs,wiki_page,flagged
+V Kohli,ODI,308,313.0,5.0,1.6,14675,14867.0,Virat Kohli,False
+KC Sangakkara,ODI,298,404.0,106.0,26.24,11640,14234.0,Kumar Sangakkara,True
+RG Sharma,ODI,278,285.0,7.0,2.46,11357,11720.0,Rohit Sharma,False
+V Kohli,Test,122,123.0,1.0,0.81,9230,9230.0,Virat Kohli,False
+RG Sharma,T20I,153,159.0,6.0,3.77,4042,4231.0,Rohit Sharma,True
+V Kohli,T20I,118,125.0,7.0,5.6,3969,4188.0,Virat Kohli,True
