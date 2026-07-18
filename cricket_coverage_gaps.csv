@@ -1,11 +1,11 @@
-player,format,cricsheet_matches,wiki_matches,gap_matches,gap_pct,cricsheet_runs,wiki_runs,wiki_page,flagged,documented_missing_candidates
-V Kohli,ODI,308,313.0,5.0,1.6,14675,14867.0,Virat Kohli,False,0
-KC Sangakkara,ODI,298,404.0,106.0,26.24,11640,14234.0,Kumar Sangakkara,True,135
-RG Sharma,ODI,278,285.0,7.0,2.46,11357,11720.0,Rohit Sharma,False,0
-V Kohli,Test,122,123.0,1.0,0.81,9230,9230.0,Virat Kohli,False,0
-GC Smith,ODI,155,197.0,42.0,21.32,5280,6989.0,Graeme Smith,True,118
-AJ Finch,ODI,143,146.0,3.0,2.05,5188,5406.0,Aaron Finch,False,0
-BB McCullum,ODI,212,260.0,48.0,18.46,5157,6083.0,Brendon McCullum,True,191
-BRM Taylor,ODI,163,207.0,44.0,21.26,5150,6704.0,Brendan Taylor,True,55
-RG Sharma,T20I,153,159.0,6.0,3.77,4042,4231.0,Rohit Sharma,True,0
-V Kohli,T20I,118,125.0,7.0,5.6,3969,4188.0,Virat Kohli,True,0
+player,format,cricsheet_matches,wiki_matches,gap_matches,gap_pct,cricsheet_runs,wiki_runs,wiki_page,flagged,documented_missing_candidates,possible_name_fragments
+V Kohli,ODI,308,313.0,5.0,1.6,14675,14867.0,Virat Kohli,False,0,
+KC Sangakkara,ODI,298,404.0,106.0,26.24,11640,14234.0,Kumar Sangakkara,True,135,
+RG Sharma,ODI,278,285.0,7.0,2.46,11357,11720.0,Rohit Sharma,False,0,
+V Kohli,Test,122,123.0,1.0,0.81,9230,9230.0,Virat Kohli,False,0,
+RG Sharma,T20I,151,159.0,8.0,5.03,3930,4231.0,Rohit Sharma,True,0,"Rohit Sharma (3m, 74% match); AB Sharma (3m, 75% match); LK Sharma (1m, 75% match); SM Sharma (4m, 75% match); KK Sharma (1m, 75% match); Sandeep Sharma (2m, 57% match); Aarsheya Sharma (1m, 64% match)"
+V Kohli,T20I,116,125.0,9.0,7.2,3860,4188.0,Virat Kohli,True,0,
+HH Gibbs,ODI,110,248.0,138.0,55.65,3766,8094.0,Herschelle Gibbs,True,118,
+AJ Strauss,ODI,114,127.0,13.0,10.24,3729,4205.0,Andrew Strauss,True,158,
+R Dravid,ODI,127,344.0,217.0,63.08,3723,10889.0,Rahul Dravid,True,183,
+RR Sarwan,ODI,120,181.0,61.0,33.7,3717,5804.0,Ramnaresh Sarwan,True,169,
