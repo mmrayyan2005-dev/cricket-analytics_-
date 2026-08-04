@@ -145143,6 +145143,32 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1540542,Tasmia Rubab,Sri Lanka,Pakistan,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2026-07-28,ODI,18,27.0,0,9,3.0,9.0,2026
 1540542,Umm-e-Hani,Sri Lanka,Pakistan,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2026-07-28,ODI,36,43.0,1,20,6.0,7.17,2026
 1540542,WK Dilhari,Pakistan,Sri Lanka,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",2026-07-28,ODI,42,25.0,3,23,7.0,3.57,2026
+1540543,AC Jayangani,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,33.0,0,10,4.0,8.25,2026
+1540543,Ayesha Zafar,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,12,26.0,0,2,2.0,13.0,2026
+1540543,BMSM Kumari,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,30.0,3,10,4.0,7.5,2026
+1540543,C Praboda,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,28.0,1,9,4.0,7.0,2026
+1540543,Humna Bilal,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,18,38.0,1,5,3.0,12.67,2026
+1540543,K Kavindi,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,18,26.0,1,4,3.0,8.67,2026
+1540543,Momina Riasat,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,33.0,0,7,4.0,8.25,2026
+1540543,Nashra Sandhu,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,25.0,2,8,4.0,6.25,2026
+1540543,R Sewwandi,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,6,13.0,0,2,1.0,13.0,2026
+1540543,Umm-e-Hani,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,37.0,1,8,4.0,9.25,2026
+1540543,WK Dilhari,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-07-31,T20I,24,36.0,2,10,4.0,9.0,2026
+1540543,Waheeda Akhtar,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-07-31,T20I,12,11.0,0,7,2.0,5.5,2026
+1540544,AC Jayangani,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,24,31.0,1,11,4.0,7.75,2026
+1540544,Ayesha Zafar,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,12,24.0,1,4,2.0,12.0,2026
+1540544,BMSM Kumari,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,24,37.0,1,6,4.0,9.25,2026
+1540544,C Praboda,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,24,27.0,2,8,4.0,6.75,2026
+1540544,K Kavindi,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,18,26.0,0,6,3.0,8.67,2026
+1540544,Momina Riasat,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,18,22.0,0,8,3.0,7.33,2026
+1540544,Nashra Sandhu,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,18,32.0,0,6,3.0,10.67,2026
+1540544,R Sewwandi,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,6,20.0,0,1,1.0,20.0,2026
+1540544,Saira Jabeen,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,6,13.0,0,0,1.0,13.0,2026
+1540544,Shawaal Zulfiqar,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,4,5.0,0,2,0.7,7.5,2026
+1540544,Tasmia Rubab,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,12,26.0,0,5,2.0,13.0,2026
+1540544,Umm-e-Hani,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,24,27.0,2,11,4.0,6.75,2026
+1540544,WK Dilhari,Pakistan,Sri Lanka,Rangiri Dambulla International Stadium,2026-08-02,T20I,24,29.0,1,9,4.0,7.25,2026
+1540544,Waheeda Akhtar,Sri Lanka,Pakistan,Rangiri Dambulla International Stadium,2026-08-02,T20I,12,24.0,1,5,2.0,12.0,2026
 1540948,AB Slebsager,Switzerland,Denmark,Albertslund Cricket Club,2026-06-27,T20I,20,17.0,1,6,3.3,5.1,2026
 1540948,C Ostergaard,Switzerland,Denmark,Albertslund Cricket Club,2026-06-27,T20I,12,12.0,1,5,2.0,6.0,2026
 1540948,D Golechha,Switzerland,Denmark,Albertslund Cricket Club,2026-06-27,T20I,22,15.0,4,13,3.7,4.09,2026
@@ -145625,6 +145651,18 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1544128,RE van der Merwe,Nepal,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-29,ODI,60,30.0,2,39,10.0,3.0,2026
 1544128,RK Paudel,Netherlands,Nepal,"Sportpark Maarschalkerweerd, Utrecht",2026-07-29,ODI,12,7.0,0,6,2.0,3.5,2026
 1544128,ZB Lion-Cachet,Nepal,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-29,ODI,42,17.0,2,30,7.0,2.43,2026
+1544129,A Dutt,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,60,37.0,1,43,10.0,3.7,2026
+1544129,A Roy,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,24,7.0,1,18,4.0,1.75,2026
+1544129,BM Scholtz,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,60,27.0,2,41,10.0,2.7,2026
+1544129,JJ Smit,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,61,36.0,1,37,10.2,3.54,2026
+1544129,JN Loftie-Eaton,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,36,25.0,0,19,6.0,4.17,2026
+1544129,JT Brassell,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,62,38.0,3,41,10.3,3.68,2026
+1544129,K Klein,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,36,37.0,0,17,6.0,6.17,2026
+1544129,MG Erasmus,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,17,10.0,1,7,2.8,3.53,2026
+1544129,R Trumpelmann,Netherlands,Namibia,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,60,34.0,3,42,10.0,3.4,2026
+1544129,RE van der Merwe,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,42,24.0,1,26,7.0,3.43,2026
+1544129,TJG Pringle,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,54,40.0,1,34,9.0,4.44,2026
+1544129,ZB Lion-Cachet,Namibia,Netherlands,"Sportpark Maarschalkerweerd, Utrecht",2026-07-31,ODI,30,30.0,0,13,5.0,6.0,2026
 1544137,A Kanukuntla,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,24,18.0,0,10,4.0,4.5,2026
 1544137,A Kohli,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,26,26.0,0,12,4.3,6.0,2026
 1544137,A Meyenborg,Switzerland,Germany,SSC Karlsruhe,2026-07-10,T20I,24,14.0,2,11,4.0,3.5,2026
@@ -145674,6 +145712,47 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1544142,Rabbjyot Rajput,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-29,T20I,24,11.0,0,18,4.0,2.75,2026
 1544142,Shreya Voya,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-29,T20I,24,3.0,4,21,4.0,0.75,2026
 1544142,Snigdha Malhotra,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-29,T20I,12,13.0,2,6,2.0,6.5,2026
+1544143,A Galan,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,24,12.0,0,16,4.0,3.0,2026
+1544143,A Perera,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,24,22.0,0,12,4.0,5.5,2026
+1544143,C Valencia,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,24,12.0,3,15,4.0,3.0,2026
+1544143,Francesca Galan,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,24,15.0,2,15,4.0,3.75,2026
+1544143,J Andujar,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,12,7.0,2,8,2.0,3.5,2026
+1544143,K Kapadia,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,12,6.0,0,7,2.0,3.0,2026
+1544143,M Hundal,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,20,18.0,1,11,3.3,5.4,2026
+1544143,M Lollo,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,18,16.0,0,9,3.0,5.33,2026
+1544143,MV Lehmann,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-07-30,T20I,20,17.0,1,9,3.3,5.1,2026
+1544143,Rabbjyot Rajput,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,18,13.0,0,10,3.0,4.33,2026
+1544143,Sanjana Rao,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,7,6.0,0,3,1.2,5.14,2026
+1544143,Shreya Voya,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,12,8.0,0,6,2.0,4.0,2026
+1544143,Snigdha Malhotra,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-30,T20I,24,11.0,3,14,4.0,2.75,2026
+1544144,Harper Chalmers,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-31,T20I,12,2.0,2,10,2.0,1.0,2026
+1544144,Shreya Voya,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-07-31,T20I,6,1.0,0,5,1.0,1.0,2026
+1544145,A Emch,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,23,11.0,2,14,3.8,2.87,2026
+1544145,A Galan,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,18,2.0,2,16,3.0,0.67,2026
+1544145,AC Dei Castelli,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,18,9.0,0,10,3.0,3.0,2026
+1544145,C Sosa,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,26,13.0,1,13,4.3,3.0,2026
+1544145,C Valencia,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,12,6.0,2,6,2.0,3.0,2026
+1544145,H Santhoshkumar,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,6,5.0,0,3,1.0,5.0,2026
+1544145,Harper Chalmers,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,24,15.0,2,14,4.0,3.75,2026
+1544145,J Andujar,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-01,T20I,19,10.0,2,9,3.2,3.16,2026
+1544145,K Kapadia,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,6,7.0,0,1,1.0,7.0,2026
+1544145,M Hundal,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,12,13.0,1,5,2.0,6.5,2026
+1544145,Rabbjyot Rajput,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,24,20.0,1,12,4.0,5.0,2026
+1544145,Shreya Voya,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,24,12.0,1,16,4.0,3.0,2026
+1544145,Snigdha Malhotra,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-01,T20I,24,19.0,4,9,4.0,4.75,2026
+1544147,A Emch,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,19,12.0,2,8,3.2,3.79,2026
+1544147,A Galan,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,13.0,1,6,3.0,4.33,2026
+1544147,AC Dei Castelli,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,12,8.0,2,5,2.0,4.0,2026
+1544147,C Valencia,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,23.0,1,4,3.0,7.67,2026
+1544147,H Santhoshkumar,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,12,18.0,0,4,2.0,9.0,2026
+1544147,Harper Chalmers,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,14.0,0,7,3.0,4.67,2026
+1544147,J Andujar,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,7,6.0,0,2,1.2,5.14,2026
+1544147,K Kapadia,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,6,6.0,0,2,1.0,6.0,2026
+1544147,M Hundal,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,7,10.0,0,0,1.2,8.57,2026
+1544147,M Lollo,Canada,Argentina,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,11.0,1,7,3.0,3.67,2026
+1544147,Rabbjyot Rajput,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,12,24.0,1,4,2.0,12.0,2026
+1544147,Shreya Voya,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,15.0,2,7,3.0,5.0,2026
+1544147,Snigdha Malhotra,Argentina,Canada,"St George's College Ground, Buenos Aires",2026-08-02,T20I,18,3.0,1,15,3.0,1.0,2026
 1544599,C Aweko,Hong Kong,Uganda,"High Performance Oval, Windhoek",2026-07-21,T20I,24,24.0,2,10,4.0,6.0,2026
 1544599,I Nakisuuyi,Hong Kong,Uganda,"High Performance Oval, Windhoek",2026-07-21,T20I,24,27.0,1,8,4.0,6.75,2026
 1544599,Iqra Sahar,Uganda,Hong Kong,"High Performance Oval, Windhoek",2026-07-21,T20I,12,19.0,0,5,2.0,9.5,2026
@@ -146024,3 +146103,26 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1547107,S Pattenden,Finland,Estonia,Estonian National Cricket and Rugby Field,2026-07-25,T20I,8,9.0,0,3,1.3,6.75,2026
 1547107,S Sheridan,Estonia,Finland,Estonian National Cricket and Rugby Field,2026-07-25,T20I,7,3.0,0,4,1.2,2.57,2026
 1547107,T Mulepati,Estonia,Finland,Estonian National Cricket and Rugby Field,2026-07-25,T20I,24,5.0,4,20,4.0,1.25,2026
+1548122,Abdul Majid Abbasi,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,24.0,0,14,4.0,6.0,2026
+1548122,Ali Dawood,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,36.0,1,9,4.0,9.0,2026
+1548122,Asif Ali,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,12,16.0,0,3,2.0,8.0,2026
+1548122,Asif Shaikh,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,26.0,2,11,4.0,6.5,2026
+1548122,DM Gondaria,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,6,11.0,1,1,1.0,11.0,2026
+1548122,Imran Anwar,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,12,21.0,0,3,2.0,10.5,2026
+1548122,LN Oluoch,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,29.0,0,8,4.0,7.25,2026
+1548122,P Koech,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,19.0,1,11,4.0,4.75,2026
+1548122,Rizwan Butt,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,16.0,5,14,4.0,4.0,2026
+1548122,S Gill,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,20.0,2,14,4.0,5.0,2026
+1548122,SO Ngoche,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,24,27.0,0,4,4.0,6.75,2026
+1548122,Vishil Patel,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-07-31,T20I,18,44.0,0,6,3.0,14.67,2026
+1548123,Abdul Majid Abbasi,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,26.0,2,11,4.0,6.5,2026
+1548123,Ali Dawood,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,31.0,2,10,4.0,7.75,2026
+1548123,Asif Ali,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,6,9.0,0,0,1.0,9.0,2026
+1548123,Asif Shaikh,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,21.0,2,9,4.0,5.25,2026
+1548123,GM Muthui,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,29.0,0,11,4.0,7.25,2026
+1548123,Imran Anwar,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,18,27.0,1,8,3.0,9.0,2026
+1548123,LN Oluoch,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,42.0,1,3,4.0,10.5,2026
+1548123,P Koech,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,17.0,2,14,4.0,4.25,2026
+1548123,Rizwan Butt,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,26.0,2,11,4.0,6.5,2026
+1548123,S Gill,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,28.0,0,12,4.0,7.0,2026
+1548123,SO Ngoche,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,25.0,2,11,4.0,6.25,2026
