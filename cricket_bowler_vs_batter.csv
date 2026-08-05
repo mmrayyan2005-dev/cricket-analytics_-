@@ -5529,6 +5529,7 @@ AC Jayangani,AJ Healy,T20I,24,39.0,0,5,4,1,9.75,24.0,20.83
 AC Jayangani,AN Kelly,ODI,19,1.0,1,19,0,0,0.32,19.0,100.0
 AC Jayangani,ASS Fletcher,ODI,21,14.0,1,8,0,0,4.0,21.0,38.1
 AC Jayangani,Aliya Riaz,ODI,11,9.0,0,5,1,0,4.91,11.0,45.45
+AC Jayangani,Ayesha Zafar,T20I,11,13.0,1,6,1,1,7.09,11.0,54.55
 AC Jayangani,BL Mooney,T20I,40,58.0,1,11,8,0,8.7,40.0,27.5
 AC Jayangani,BL Mooney,WPL,15,12.0,0,7,1,0,4.8,15.0,46.67
 AC Jayangani,BM Halliday,ODI,16,8.0,1,12,1,0,3.0,16.0,75.0
@@ -5590,7 +5591,7 @@ AC Jayangani,ML Green,T20I,12,15.0,1,3,1,0,7.5,12.0,25.0
 AC Jayangani,MM Lanning,ODI,29,40.0,1,14,8,0,8.28,29.0,48.28
 AC Jayangani,MM Lanning,T20I,20,27.0,0,5,3,0,8.1,20.0,25.0
 AC Jayangani,Muneeba Ali,ODI,21,17.0,0,9,0,0,4.86,21.0,42.86
-AC Jayangani,Muneeba Ali,T20I,17,24.0,0,6,4,0,8.47,17.0,35.29
+AC Jayangani,Muneeba Ali,T20I,23,28.0,0,11,5,0,7.3,23.0,47.83
 AC Jayangani,N Shangase,ODI,20,7.0,1,14,0,0,2.1,20.0,70.0
 AC Jayangani,N de Klerk,ODI,25,18.0,0,16,1,1,4.32,25.0,64.0
 AC Jayangani,NE Bolton,ODI,23,18.0,0,8,1,0,4.7,23.0,34.78
@@ -20211,8 +20212,9 @@ C Perry,A Rameshan,T20I,13,9.0,1,9,1,0,4.15,13.0,69.23
 C Perry,F Tanguy,T20I,10,9.0,0,7,1,0,5.4,10.0,70.0
 C Perry,LV Boas,T20I,11,16.0,1,5,1,0,8.73,11.0,45.45
 C Perry,M Syrioti,T20I,18,13.0,1,14,0,0,4.33,18.0,77.78
+C Praboda,Ayesha Zafar,T20I,12,19.0,0,3,3,0,9.5,12.0,25.0
 C Praboda,Eman Naseer,T20I,15,14.0,0,5,1,0,5.6,15.0,33.33
-C Praboda,Shawaal Zulfiqar,T20I,20,25.0,2,8,4,0,7.5,10.0,40.0
+C Praboda,Shawaal Zulfiqar,T20I,23,30.0,2,9,5,0,7.83,11.5,39.13
 C Prasad,B Biza,ODI,10,9.0,0,5,0,0,5.4,10.0,50.0
 C Prasad,CS Mugeri-Tiripano,ODI,14,10.0,0,4,0,0,4.29,14.0,28.57
 C Prasad,K Ndlovu,ODI,10,9.0,0,4,0,0,5.4,10.0,40.0
@@ -83565,11 +83567,12 @@ Mohsin Zaki,Meet Bhavsar,T20I,10,17.0,0,3,1,1,10.2,10.0,30.0
 Momin Qamar,DJ Mitchell,PSL,11,19.0,0,4,0,1,10.36,11.0,36.36
 Momina Riasat,A Zimunu,ODI,12,5.0,2,10,1,0,2.5,6.0,83.33
 Momina Riasat,B Biza,ODI,49,43.0,0,32,8,0,5.27,49.0,65.31
-Momina Riasat,I Dulani,T20I,16,28.0,0,4,5,0,10.5,16.0,25.0
+Momina Riasat,I Dulani,T20I,22,36.0,0,8,7,0,9.82,22.0,36.36
 Momina Riasat,K Ndlovu,ODI,34,29.0,1,20,4,0,5.12,34.0,58.82
 Momina Riasat,L Mabhero,ODI,16,13.0,0,10,2,0,4.88,16.0,62.5
 Momina Riasat,N Sibanda,ODI,12,8.0,2,7,0,0,4.0,6.0,58.33
 Momina Riasat,R Pasipanodya,ODI,17,11.0,0,13,1,0,3.88,17.0,76.47
+Momina Riasat,S Kavindi,T20I,11,7.0,1,7,1,0,3.82,11.0,63.64
 Mominul Haque,AD Mathews,Test,37,30.0,1,20,1,2,4.86,37.0,54.05
 Mominul Haque,Ahmed Shehzad,ODI,21,17.0,0,10,2,0,4.86,21.0,47.62
 Mominul Haque,Azhar Ali,Test,11,6.0,0,5,0,0,3.27,11.0,45.45
@@ -89599,7 +89602,7 @@ Nashra Sandhu,A Sutherland,T20I,11,20.0,0,1,3,0,10.91,11.0,9.09
 Nashra Sandhu,A Zimunu,T20I,14,20.0,2,5,3,0,8.57,7.0,35.71
 Nashra Sandhu,AA Alleyne,ODI,26,11.0,0,18,1,0,2.54,26.0,69.23
 Nashra Sandhu,AC Jayangani,ODI,36,20.0,4,24,2,0,3.33,9.0,66.67
-Nashra Sandhu,AC Jayangani,T20I,12,18.0,2,6,2,1,9.0,6.0,50.0
+Nashra Sandhu,AC Jayangani,T20I,16,20.0,2,8,2,1,7.5,8.0,50.0
 Nashra Sandhu,AC Kerr,ODI,50,42.0,1,22,2,0,5.04,50.0,44.0
 Nashra Sandhu,AC Kerr,T20I,21,16.0,1,8,0,0,4.57,21.0,38.1
 Nashra Sandhu,AE Jones,ODI,17,16.0,0,6,1,0,5.65,17.0,35.29
@@ -89747,7 +89750,7 @@ Nashra Sandhu,TT Beaumont,ODI,41,26.0,1,19,1,0,3.8,41.0,46.34
 Nashra Sandhu,Theertha Satish,T20I,15,14.0,1,7,1,0,5.6,15.0,46.67
 Nashra Sandhu,WA Duraisingam,T20I,14,9.0,1,10,1,0,3.86,14.0,71.43
 Nashra Sandhu,WK Dilhari,ODI,18,13.0,0,9,0,0,4.33,18.0,50.0
-Nashra Sandhu,WK Dilhari,T20I,15,12.0,1,6,1,0,4.8,15.0,40.0
+Nashra Sandhu,WK Dilhari,T20I,18,13.0,2,8,1,0,4.33,9.0,44.44
 Nasir Aziz,BRM Taylor,ODI,12,11.0,1,8,0,1,5.5,12.0,66.67
 Nasir Aziz,Babar Hayat,ODI,18,10.0,0,9,0,0,3.33,18.0,50.0
 Nasir Aziz,D Ramdin,ODI,14,6.0,0,9,0,0,2.57,14.0,64.29
@@ -128029,7 +128032,7 @@ Tshering Choden,SR Magar,T20I,14,16.0,0,7,1,1,6.86,14.0,50.0
 Tshering Choden,Y Daswani,T20I,13,8.0,0,6,0,0,3.69,13.0,46.15
 Tuba Hassan,A Dercksen,T20I,19,24.0,1,7,4,0,7.58,19.0,36.84
 Tuba Hassan,A Zimunu,T20I,26,12.0,0,19,1,0,2.77,26.0,73.08
-Tuba Hassan,AC Jayangani,T20I,12,21.0,1,3,4,0,10.5,12.0,25.0
+Tuba Hassan,AC Jayangani,T20I,18,27.0,1,3,4,0,9.0,18.0,16.67
 Tuba Hassan,AE Jones,T20I,10,9.0,0,4,1,0,5.4,10.0,40.0
 Tuba Hassan,B de Leede,T20I,12,9.0,0,5,0,0,4.5,12.0,41.67
 Tuba Hassan,BL Mooney,ODI,20,49.0,0,4,4,4,14.7,20.0,20.0
@@ -128039,8 +128042,8 @@ Tuba Hassan,CN Nation,ODI,10,15.0,0,4,3,0,9.0,10.0,40.0
 Tuba Hassan,CN Nation,T20I,18,24.0,0,8,3,0,8.0,18.0,44.44
 Tuba Hassan,EA Perry,T20I,16,23.0,0,5,4,0,8.62,16.0,31.25
 Tuba Hassan,GH Lewis,T20I,11,6.0,0,6,0,0,3.27,11.0,54.55
-Tuba Hassan,GWHM Perera,T20I,22,15.0,1,10,0,0,4.09,22.0,45.45
-Tuba Hassan,H Madavi,T20I,14,15.0,1,10,1,0,6.43,14.0,71.43
+Tuba Hassan,GWHM Perera,T20I,24,15.0,2,12,0,0,3.75,12.0,50.0
+Tuba Hassan,H Madavi,T20I,15,16.0,1,10,1,0,6.4,15.0,66.67
 Tuba Hassan,HC Knight,T20I,17,18.0,1,8,2,0,6.35,17.0,47.06
 Tuba Hassan,HK Matthews,ODI,59,42.0,0,31,1,1,4.27,59.0,52.54
 Tuba Hassan,HK Matthews,T20I,29,39.0,1,13,6,0,8.07,29.0,44.83
@@ -128065,7 +128068,7 @@ Tuba Hassan,Salma Khatun,T20I,10,6.0,0,8,1,0,3.6,10.0,80.0
 Tuba Hassan,Shafali Verma,T20I,13,21.0,1,6,3,1,9.69,13.0,46.15
 Tuba Hassan,Siow Tzin Yee,T20I,11,10.0,0,7,1,0,5.45,11.0,63.64
 Tuba Hassan,T Brits,T20I,15,15.0,0,6,2,0,6.0,15.0,40.0
-Tuba Hassan,WK Dilhari,T20I,12,6.0,1,9,1,0,3.0,12.0,75.0
+Tuba Hassan,WK Dilhari,T20I,18,12.0,1,11,1,0,4.0,18.0,61.11
 Tushar Imran,A Symonds,ODI,13,9.0,0,5,0,0,4.15,13.0,38.46
 Tushar Imran,B Lee,ODI,13,3.0,0,10,0,0,1.38,13.0,76.92
 Tushar Imran,DPMD Jayawardene,Test,25,18.0,0,12,1,0,4.32,25.0,48.0
@@ -129124,7 +129127,7 @@ Umm-e-Hani,A Capsey,ODI,12,6.0,0,7,0,0,3.0,12.0,58.33
 Umm-e-Hani,A Dercksen,ODI,10,4.0,1,6,0,0,2.4,10.0,60.0
 Umm-e-Hani,A Hunter,ODI,10,15.0,0,5,3,0,9.0,10.0,50.0
 Umm-e-Hani,AC Jayangani,ODI,28,24.0,1,16,2,1,5.14,28.0,57.14
-Umm-e-Hani,AC Jayangani,T20I,11,21.0,1,5,3,1,11.45,11.0,45.45
+Umm-e-Hani,AC Jayangani,T20I,24,35.0,1,13,6,1,8.75,24.0,54.17
 Umm-e-Hani,AC Kerr,ODI,44,42.0,0,14,2,0,5.73,44.0,31.82
 Umm-e-Hani,AE Jones,ODI,18,16.0,1,9,2,0,5.33,18.0,50.0
 Umm-e-Hani,B Bezuidenhout,ODI,14,14.0,1,4,0,0,6.0,14.0,28.57
@@ -129135,7 +129138,7 @@ Umm-e-Hani,H Madavi,ODI,40,33.0,0,21,4,0,4.95,40.0,52.5
 Umm-e-Hani,H Madavi,T20I,19,19.0,0,11,3,0,6.0,19.0,57.89
 Umm-e-Hani,HC Knight,ODI,17,11.0,1,9,1,0,3.88,17.0,52.94
 Umm-e-Hani,HK Matthews,ODI,37,36.0,1,16,5,0,5.84,37.0,43.24
-Umm-e-Hani,I Dulani,T20I,13,18.0,0,5,3,0,8.31,13.0,38.46
+Umm-e-Hani,I Dulani,T20I,18,24.0,1,6,3,0,8.0,18.0,33.33
 Umm-e-Hani,L Goodall,ODI,19,7.0,1,12,0,0,2.21,19.0,63.16
 Umm-e-Hani,L Paul,ODI,32,19.0,1,21,2,0,3.56,32.0,65.62
 Umm-e-Hani,L Wolvaardt,T20I,22,43.0,0,5,5,1,11.73,22.0,22.73
@@ -129153,6 +129156,7 @@ Umm-e-Hani,RMVD Gunaratne,ODI,31,32.0,0,14,4,0,6.19,31.0,45.16
 Umm-e-Hani,RMVD Gunaratne,T20I,11,6.0,3,7,0,0,3.27,3.67,63.64
 Umm-e-Hani,Ritu Moni,ODI,18,7.0,1,13,0,0,2.33,18.0,72.22
 Umm-e-Hani,Ritu Moni,T20I,10,6.0,1,5,0,0,3.6,10.0,50.0
+Umm-e-Hani,S Kavindi,T20I,11,18.0,0,3,3,0,9.82,11.0,27.27
 Umm-e-Hani,S Luus,ODI,32,32.0,0,14,4,0,6.0,32.0,43.75
 Umm-e-Hani,S Mostary,T20I,17,7.0,2,11,0,0,2.47,8.5,64.71
 Umm-e-Hani,SA Campbelle,ODI,28,30.0,1,11,4,0,6.43,28.0,39.29
@@ -132002,6 +132006,7 @@ WK Dilhari,DB Sharma,T20I,13,22.0,0,3,4,0,10.15,13.0,23.08
 WK Dilhari,DJS Dottin,ODI,17,14.0,1,11,2,0,4.94,17.0,64.71
 WK Dilhari,DN Wyatt,T20I,16,34.0,0,4,6,0,12.75,16.0,25.0
 WK Dilhari,EMA McLeod,T20I,13,10.0,2,5,0,0,4.62,6.5,38.46
+WK Dilhari,Eyman Fatima,T20I,11,20.0,1,5,3,1,10.91,11.0,45.45
 WK Dilhari,Fargana Hoque,T20I,15,11.0,1,7,1,0,4.4,15.0,46.67
 WK Dilhari,Fatima Sana,ODI,27,16.0,1,14,1,0,3.56,27.0,51.85
 WK Dilhari,GE Plimmer,ODI,17,13.0,0,6,0,0,4.59,17.0,35.29
@@ -132034,7 +132039,7 @@ WK Dilhari,ML Green,ODI,33,33.0,0,11,1,0,6.0,33.0,33.33
 WK Dilhari,ML Green,T20I,16,26.0,0,2,2,1,9.75,16.0,12.5
 WK Dilhari,MM Lanning,T20I,12,8.0,0,6,0,0,4.0,12.0,50.0
 WK Dilhari,Muneeba Ali,ODI,56,31.0,1,35,2,0,3.32,56.0,62.5
-WK Dilhari,Muneeba Ali,T20I,35,45.0,3,18,7,1,7.71,11.67,51.43
+WK Dilhari,Muneeba Ali,T20I,39,50.0,4,20,8,1,7.69,9.75,51.28
 WK Dilhari,Murshida Khatun,T20I,13,10.0,1,5,0,0,4.62,13.0,38.46
 WK Dilhari,N Koncharoenkai,T20I,20,10.0,0,11,0,0,3.0,20.0,55.0
 WK Dilhari,N de Klerk,ODI,44,37.0,1,25,4,0,5.05,44.0,56.82
@@ -132071,7 +132076,7 @@ WK Dilhari,Shafali Verma,ODI,17,18.0,0,4,1,0,6.35,17.0,23.53
 WK Dilhari,Shafali Verma,T20I,32,46.0,1,9,5,1,8.62,32.0,28.12
 WK Dilhari,Sharmin Akhter,ODI,41,39.0,0,22,4,0,5.71,41.0,53.66
 WK Dilhari,Sharmin Akhter,T20I,12,10.0,0,5,1,0,5.0,12.0,41.67
-WK Dilhari,Shawaal Zulfiqar,T20I,14,11.0,1,7,1,0,4.71,14.0,50.0
+WK Dilhari,Shawaal Zulfiqar,T20I,17,18.0,2,8,1,1,6.35,8.5,47.06
 WK Dilhari,Shorna Akter,ODI,12,13.0,1,4,1,0,6.5,12.0,33.33
 WK Dilhari,Shorna Akter,T20I,26,33.0,2,8,3,1,7.62,13.0,30.77
 WK Dilhari,Sidra Ameen,ODI,100,86.0,1,57,12,0,5.16,100.0,57.0
@@ -132809,9 +132814,10 @@ Waheed Ahmed,MG Erasmus,ODI,21,14.0,0,9,0,0,4.0,21.0,42.86
 Waheed Ahmed,NS Dhaliwal,T20I,10,10.0,1,3,0,0,6.0,10.0,30.0
 Waheed Ahmed,PM Seelaar,T20I,11,8.0,0,4,0,0,4.36,11.0,36.36
 Waheeda Akhtar,A Capsey,T20I,14,25.0,1,7,6,0,10.71,14.0,50.0
-Waheeda Akhtar,AC Jayangani,T20I,15,29.0,0,6,5,1,11.6,15.0,40.0
+Waheeda Akhtar,AC Jayangani,T20I,21,38.0,0,9,7,1,10.86,21.0,42.86
 Waheeda Akhtar,DN Wyatt,T20I,10,16.0,1,2,2,0,9.6,10.0,20.0
 Waheeda Akhtar,HC Knight,T20I,11,10.0,0,5,1,0,5.45,11.0,45.45
+Waheeda Akhtar,I Dulani,T20I,13,5.0,1,9,0,0,2.31,13.0,69.23
 Waheeda Akhtar,ME Bouchier,T20I,11,15.0,1,6,3,0,8.18,11.0,54.55
 Waheeda Akhtar,N de Klerk,ODI,16,12.0,1,9,1,0,4.5,16.0,56.25
 Waheeda Akhtar,S Mostary,T20I,11,13.0,0,7,2,0,7.09,11.0,63.64
