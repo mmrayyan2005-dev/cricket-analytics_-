@@ -3371,7 +3371,7 @@ AC Jayangani,R Premadasa Stadium,ODI,2,38,89,2,3,0,19.0,42.7
 AC Jayangani,R Premadasa Stadium,T20I,5,95,120,5,14,0,19.0,79.17
 AC Jayangani,"R Premadasa Stadium, Colombo",ODI,8,218,318,8,25,4,27.25,68.55
 AC Jayangani,Rangiri Dambulla International Stadium,ODI,6,98,163,5,16,0,19.6,60.12
-AC Jayangani,Rangiri Dambulla International Stadium,T20I,10,522,352,8,68,22,65.25,148.3
+AC Jayangani,Rangiri Dambulla International Stadium,T20I,11,556,385,9,73,22,61.78,144.42
 AC Jayangani,"Riverside Ground, Chester-le-Street",ODI,1,10,17,1,2,0,10.0,58.82
 AC Jayangani,"Saxton Oval, Nelson",ODI,2,16,36,2,2,0,8.0,44.44
 AC Jayangani,Senwes Park,ODI,5,170,204,5,22,3,34.0,83.33
@@ -9976,7 +9976,7 @@ Ayesha Zafar,Nondescripts Cricket Club Ground,ODI,2,20,30,2,3,0,10.0,66.67
 Ayesha Zafar,"Old Hararians, Harare",ODI,1,6,24,1,0,0,6.0,25.0
 Ayesha Zafar,P Sara Oval,ODI,2,53,101,2,7,0,26.5,52.48
 Ayesha Zafar,Providence Stadium,T20I,4,31,43,3,4,0,10.33,72.09
-Ayesha Zafar,Rangiri Dambulla International Stadium,T20I,2,25,16,2,2,2,12.5,156.25
+Ayesha Zafar,Rangiri Dambulla International Stadium,T20I,3,64,47,3,8,2,21.33,136.17
 Ayesha Zafar,Saxton Oval,ODI,1,52,83,1,7,0,52.0,62.65
 Ayesha Zafar,Saxton Oval,T20I,1,14,16,1,2,0,14.0,87.5
 Ayesha Zafar,"Senwes Park, Potchefstroom",T20I,1,9,6,1,2,0,9.0,150.0
@@ -23787,6 +23787,7 @@ EMKNH Senavirathna,"Greenfield International Stadium, Thiruvananthapuram",T20I,3
 EMKNH Senavirathna,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",T20I,1,7,6,1,1,0,7.0,116.67
 EMKNH Senavirathna,"National Cricket Stadium, St George's, Grenada",ODI,2,7,21,2,0,0,3.5,33.33
 EMKNH Senavirathna,"Old Trafford, Manchester",T20I,1,12,10,1,2,0,12.0,120.0
+EMKNH Senavirathna,Rangiri Dambulla International Stadium,T20I,1,12,18,0,0,0,12.0,66.67
 EMKNH Senavirathna,"Shahid Kamruzzaman Stadium, Rajshahi",ODI,2,22,27,2,2,0,11.0,81.48
 EMKNH Senavirathna,Sylhet International Cricket Stadium,T20I,1,1,5,1,0,0,1.0,20.0
 EMKNH Senavirathna,"Sylhet International Cricket Stadium, Academy Ground",T20I,2,8,5,2,1,0,4.0,160.0
@@ -24045,7 +24046,7 @@ Eyman Fatima,"County Ground, Bristol",T20I,1,0,6,1,0,0,0.0,0.0
 Eyman Fatima,"Gaddafi Stadium, Lahore",ODI,1,2,3,0,0,0,2.0,66.67
 Eyman Fatima,"National Stadium, Karachi",T20I,1,79,43,0,10,4,79.0,183.72
 Eyman Fatima,"R Premadasa Stadium, Colombo",ODI,1,0,3,1,0,0,0.0,0.0
-Eyman Fatima,Rangiri Dambulla International Stadium,T20I,2,35,24,1,4,2,35.0,145.83
+Eyman Fatima,Rangiri Dambulla International Stadium,T20I,3,40,32,2,5,2,20.0,125.0
 Eyman Fatima,"Willowmoore Park, Benoni",T20I,1,0,2,1,0,0,0.0,0.0
 Ezgi Nur Kilic,"FB Fields, St Clement",T20I,2,9,24,2,0,0,4.5,37.5
 Ezgi Nur Kilic,"Grainville, St Saviour, Jersey",T20I,2,14,25,2,2,0,7.0,56.0
@@ -27744,7 +27745,7 @@ GWHM Perera,R Premadasa Stadium,ODI,2,14,31,2,3,0,7.0,45.16
 GWHM Perera,R Premadasa Stadium,T20I,2,0,3,1,0,0,0.0,0.0
 GWHM Perera,"R Premadasa Stadium, Colombo",ODI,8,207,285,8,27,0,25.88,72.63
 GWHM Perera,Rangiri Dambulla International Stadium,ODI,2,19,27,2,3,0,9.5,70.37
-GWHM Perera,Rangiri Dambulla International Stadium,T20I,2,4,7,1,0,0,4.0,57.14
+GWHM Perera,Rangiri Dambulla International Stadium,T20I,3,4,9,2,0,0,2.0,44.44
 GWHM Perera,"Riverside Ground, Chester-le-Street",ODI,1,10,15,1,2,0,10.0,66.67
 GWHM Perera,Royal Selangor Club,T20I,3,82,78,0,8,0,82.0,105.13
 GWHM Perera,Senwes Park,ODI,1,15,44,1,2,0,15.0,34.09
@@ -28507,7 +28508,7 @@ H Madavi,Pallekele International Cricket Stadium,ODI,3,50,85,3,4,0,16.67,58.82
 H Madavi,"Pembroke Cricket Club, Sandymount, Dublin",T20I,2,151,89,1,24,4,151.0,169.66
 H Madavi,"Punjab Cricket Association IS Bindra Stadium, Mohali",T20I,1,0,4,1,0,0,0.0,0.0
 H Madavi,"R Premadasa Stadium, Colombo",ODI,8,275,340,8,28,0,34.38,80.88
-H Madavi,Rangiri Dambulla International Stadium,T20I,9,216,190,7,29,2,30.86,113.68
+H Madavi,Rangiri Dambulla International Stadium,T20I,10,219,195,8,29,2,27.38,112.31
 H Madavi,"Riverside Ground, Chester-le-Street",ODI,1,35,44,1,2,0,35.0,79.55
 H Madavi,Royal Selangor Club,T20I,1,9,14,1,0,0,9.0,64.29
 H Madavi,"Saxton Oval, Nelson",ODI,2,67,95,2,5,0,33.5,70.53
@@ -31531,7 +31532,7 @@ I Dulani,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambanto
 I Dulani,"National Cricket Stadium, St George's, Grenada",T20I,2,36,41,1,5,0,36.0,87.8
 I Dulani,"Old Trafford, Manchester",T20I,1,4,6,1,1,0,4.0,66.67
 I Dulani,"P Sara Oval, Colombo",ODI,1,10,30,1,0,0,10.0,33.33
-I Dulani,Rangiri Dambulla International Stadium,T20I,2,106,72,1,18,1,106.0,147.22
+I Dulani,Rangiri Dambulla International Stadium,T20I,3,123,89,2,20,1,61.5,138.2
 I Dulani,"Saxton Oval, Nelson",ODI,1,11,42,1,0,0,11.0,26.19
 I Dulani,"Shahid Kamruzzaman Stadium, Rajshahi",ODI,3,116,173,3,14,0,38.67,67.05
 I Dulani,Sylhet International Cricket Stadium,T20I,3,101,75,3,15,0,33.67,134.67
@@ -40227,6 +40228,7 @@ K Kavindi,"Diamond Oval, Kimberley",ODI,1,2,2,1,0,0,2.0,100.0
 K Kavindi,"Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",T20I,1,1,1,1,0,0,1.0,100.0
 K Kavindi,Galle International Stadium,ODI,1,15,31,1,1,0,15.0,48.39
 K Kavindi,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",T20I,1,6,4,0,1,0,6.0,150.0
+K Kavindi,Rangiri Dambulla International Stadium,T20I,1,10,12,0,0,0,10.0,83.33
 K Kekez,"Mladost Cricket Ground, Zagreb",T20I,2,2,13,1,0,0,2.0,15.38
 K Kisova,Estonian National Cricket and Rugby Field,T20I,1,0,6,1,0,0,0.0,0.0
 K Kisova,"Scott Page Field, Vinor",T20I,1,0,3,1,0,0,0.0,0.0
@@ -58330,7 +58332,7 @@ Muneeba Ali,"Old Hararians, Harare",ODI,1,22,40,1,3,0,22.0,55.0
 Muneeba Ali,Providence Stadium,T20I,1,0,5,1,0,0,0.0,0.0
 Muneeba Ali,"R Premadasa Stadium, Colombo",ODI,7,65,129,5,8,0,13.0,50.39
 Muneeba Ali,Rangiri Dambulla International Stadium,ODI,2,50,83,2,7,0,25.0,60.24
-Muneeba Ali,Rangiri Dambulla International Stadium,T20I,6,218,163,4,34,1,54.5,133.74
+Muneeba Ali,Rangiri Dambulla International Stadium,T20I,7,237,179,5,38,1,47.4,132.4
 Muneeba Ali,"Seddon Park, Hamilton",ODI,1,37,43,1,5,0,37.0,86.05
 Muneeba Ali,"Senwes Park, Potchefstroom",T20I,1,16,16,1,3,0,16.0,100.0
 Muneeba Ali,Sharjah Cricket Stadium,T20I,1,11,14,1,0,1,11.0,78.57
@@ -61629,6 +61631,7 @@ Najiha Alvi,"Kingsmead, Durban",ODI,1,36,46,1,1,0,36.0,78.26
 Najiha Alvi,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",ODI,3,51,64,2,7,0,25.5,79.69
 Najiha Alvi,"National Stadium, Karachi",ODI,4,110,102,3,12,1,36.67,107.84
 Najiha Alvi,"National Stadium, Karachi",T20I,4,14,16,4,1,0,3.5,87.5
+Najiha Alvi,Rangiri Dambulla International Stadium,T20I,1,5,10,1,0,0,5.0,50.0
 Najiha Alvi,"Shere Bangla National Stadium, Mirpur",ODI,3,26,46,2,0,0,13.0,56.52
 Najjam Shahzad,Europa Sports Complex,T20I,4,129,84,4,12,6,32.25,153.57
 Najjam Shahzad,Gucherre Cricket Ground,T20I,1,1,6,1,0,0,1.0,16.67
@@ -73385,7 +73388,7 @@ S Kaul,"Sardar Patel Stadium, Motera",IPL,1,2,2,0,0,0,2.0,100.0
 S Kaul,Wankhede Stadium,IPL,1,2,9,1,0,0,2.0,22.22
 S Kaul,"Zayed Cricket Stadium, Abu Dhabi",IPL,1,1,3,0,0,0,1.0,33.33
 S Kaushik,M Chinnaswamy Stadium,IPL,1,0,1,1,0,0,0.0,0.0
-S Kavindi,Rangiri Dambulla International Stadium,T20I,1,46,24,1,6,2,46.0,191.67
+S Kavindi,Rangiri Dambulla International Stadium,T20I,2,66,42,2,8,2,33.0,157.14
 S Kemigisha,VRA Ground,T20I,1,0,2,1,0,0,0.0,0.0
 S Khadka,Pokhara Rangasala,T20I,1,12,19,1,1,0,12.0,63.16
 S Khadka,"YSD-UKM Cricket Oval, Bangi",T20I,2,15,27,1,1,0,15.0,55.56
@@ -81015,7 +81018,7 @@ Saira Jabeen,"County Ground, Bristol",T20I,1,5,4,1,1,0,5.0,125.0
 Saira Jabeen,"Edgbaston, Birmingham",T20I,1,2,3,1,0,0,2.0,66.67
 Saira Jabeen,"Headingley, Leeds",T20I,1,5,4,1,1,0,5.0,125.0
 Saira Jabeen,"National Stadium, Karachi",T20I,2,55,37,1,9,0,55.0,148.65
-Saira Jabeen,Rangiri Dambulla International Stadium,T20I,2,29,17,2,5,0,14.5,170.59
+Saira Jabeen,Rangiri Dambulla International Stadium,T20I,3,41,33,2,5,0,20.5,124.24
 Saira Jabeen,"The Rose Bowl, Southampton",T20I,1,0,6,1,0,0,0.0,0.0
 Sajaa Fathimath,"Bayuemas Oval, Kuala Lumpur",T20I,1,1,6,1,0,0,1.0,16.67
 Sajaa Fathimath,Pokhara Rangasala,T20I,3,1,15,3,0,0,0.33,6.67
@@ -82907,7 +82910,7 @@ Shawaal Zulfiqar,"Gaddafi Stadium, Lahore",ODI,2,6,31,2,1,0,3.0,19.35
 Shawaal Zulfiqar,Lahore City Cricket Association Ground,ODI,1,2,2,1,0,0,2.0,100.0
 Shawaal Zulfiqar,"National Stadium, Karachi",ODI,1,7,15,1,1,0,7.0,46.67
 Shawaal Zulfiqar,"National Stadium, Karachi",T20I,3,33,42,3,5,0,11.0,78.57
-Shawaal Zulfiqar,Rangiri Dambulla International Stadium,T20I,2,111,76,2,18,1,55.5,146.05
+Shawaal Zulfiqar,Rangiri Dambulla International Stadium,T20I,3,132,88,3,21,2,44.0,150.0
 Shawaal Zulfiqar,"University Oval, Dunedin",T20I,2,48,51,2,8,0,24.0,94.12
 Shawaal Zulfiqar,Zhejiang University of Technology Cricket Field,T20I,2,16,32,2,1,0,8.0,50.0
 Shawaiz Irfan,Rawalpindi Cricket Stadium,PSL,1,0,6,1,0,0,0.0,0.0
@@ -88150,7 +88153,7 @@ Tuba Hassan,"National Stadium, Karachi",T20I,2,7,10,0,0,0,7.0,70.0
 Tuba Hassan,"Newlands, Cape Town",T20I,1,28,20,1,2,1,28.0,140.0
 Tuba Hassan,"North Sydney Oval, Sydney",ODI,1,0,3,0,0,0,0.0,0.0
 Tuba Hassan,"North Sydney Oval, Sydney",T20I,1,0,2,1,0,0,0.0,0.0
-Tuba Hassan,Rangiri Dambulla International Stadium,T20I,2,23,21,1,3,0,23.0,109.52
+Tuba Hassan,Rangiri Dambulla International Stadium,T20I,3,29,27,1,4,0,29.0,107.41
 Tuba Hassan,Sharjah Cricket Stadium,T20I,1,5,9,1,0,0,5.0,55.56
 Tuba Hassan,Sylhet International Cricket Stadium,T20I,1,1,1,0,0,0,1.0,100.0
 Tuba Hassan,"The Rose Bowl, Southampton",T20I,1,1,2,1,0,0,1.0,50.0
@@ -88794,7 +88797,7 @@ Umm-e-Hani,"John Davies Oval, Queenstown",ODI,1,9,12,1,0,0,9.0,75.0
 Umm-e-Hani,"Kingsmead, Durban",ODI,1,4,20,1,0,0,4.0,20.0
 Umm-e-Hani,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa, Hambantota",ODI,1,1,9,1,0,0,1.0,11.11
 Umm-e-Hani,"National Stadium, Karachi",ODI,4,11,23,4,0,0,2.75,47.83
-Umm-e-Hani,Rangiri Dambulla International Stadium,T20I,2,7,4,1,1,0,7.0,175.0
+Umm-e-Hani,Rangiri Dambulla International Stadium,T20I,3,15,15,2,2,0,7.5,100.0
 Umm-e-Hani,"Senwes Park, Potchefstroom",T20I,1,13,20,1,0,0,13.0,65.0
 Umm-e-Hani,"Shere Bangla National Stadium, Mirpur",ODI,2,11,7,2,2,0,5.5,157.14
 Umm-e-Hani,"Zahur Ahmed Chowdhury Stadium, Chattogram",T20I,2,16,18,1,1,0,16.0,88.89
@@ -91027,7 +91030,7 @@ WK Dilhari,"P Sara Oval, Colombo",T20I,2,10,11,2,1,0,5.0,90.91
 WK Dilhari,Pallekele International Cricket Stadium,ODI,3,17,37,3,1,0,5.67,45.95
 WK Dilhari,"Pembroke Cricket Club, Sandymount, Dublin",T20I,2,60,58,2,5,1,30.0,103.45
 WK Dilhari,"R Premadasa Stadium, Colombo",ODI,6,143,165,6,16,2,23.83,86.67
-WK Dilhari,Rangiri Dambulla International Stadium,T20I,9,140,126,5,13,2,28.0,111.11
+WK Dilhari,Rangiri Dambulla International Stadium,T20I,10,152,141,6,14,2,25.33,107.8
 WK Dilhari,"Riverside Ground, Chester-le-Street",ODI,1,9,17,1,1,0,9.0,52.94
 WK Dilhari,"Saxton Oval, Nelson",ODI,2,70,96,2,1,1,35.0,72.92
 WK Dilhari,Senwes Park,ODI,2,32,45,3,2,0,10.67,71.11
