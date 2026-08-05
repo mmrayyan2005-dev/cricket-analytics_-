@@ -181,7 +181,7 @@ AC Dei Castelli,T20I,3,3.71,11.33,3.71,11.33,100.0,Good
 AC Douglas,T20I,2,6.9,34.5,6.24,13.14,64.3,Average
 AC Frame,T20I,0,7.43,26.0,7.43,26.0,100.0,Good
 AC Jayangani,ODI,28,4.8149999999999995,24.755,5.26,31.95,119.2,On Fire
-AC Jayangani,T20I,15,7.47,29.545,6.85,21.15,81.6,Average
+AC Jayangani,T20I,17,7.37,28.310000000000002,6.82,20.88,83.1,Average
 AC Kerr,ODI,30,4.795,28.384999999999998,4.69,27.34,97.1,Good
 AC Kerr,T20I,20,7.21,32.165,6.11,18.76,71.5,Average
 AC Kerr,WPL,32,7.63,15.469999999999999,7.61,17.15,105.3,Good
@@ -455,7 +455,7 @@ Awais Ahmad,T20I,2,7.42,23.5,7.42,23.5,100.0,Good
 Awais Ikram,T20I,2,8.73,24.0,9.75,23.4,104.6,Good
 Ayaz Dadabhai,T20I,13,5.62,12.54,5.62,12.54,100.0,Good
 Ayesha Zafar,ODI,3,5.72,48.0,5.55,54.0,104.8,Good
-Ayesha Zafar,T20I,12,7.05,12.33,7.05,12.33,100.0,Good
+Ayesha Zafar,T20I,13,7.0,11.85,7.0,11.85,100.0,Good
 Aysha,T20I,10,6.135,26.52,6.34,20.33,90.0,Good
 Ayyaz Qureshi,T20I,0,7.5,15.0,8.55,22.8,133.0,On Fire
 Aziz Mohammad,T20I,11,8.655,15.695,8.23,19.06,108.3,Good
@@ -625,7 +625,7 @@ C Ostergaard,T20I,10,5.625,20.75,5.15,16.77,86.2,Good
 C Pengkumta,T20I,9,6.970000000000001,15.275,7.03,20.56,117.7,On Fire
 C Perry,T20I,3,7.78,70.0,5.94,17.76,50.9,Poor
 C Piparo,T20I,1,7.71,9.0,7.71,9.0,100.0,Good
-C Praboda,T20I,3,7.0,18.67,7.0,18.67,100.0,Good
+C Praboda,T20I,3,7.0,28.0,7.0,28.0,100.0,Good
 C Prasad,ODI,0,5.08,72.0,5.08,72.0,100.0,Good
 C Prasad,T20I,13,3.27,2.77,3.27,2.77,100.0,Good
 C Roberts,T20I,4,14.74,14.875,9.68,12.5,74.9,Average
@@ -1600,7 +1600,7 @@ K Kanwar,T20I,0,8.73,32.0,8.73,32.0,100.0,Good
 K Kapadia,T20I,2,5.46,26.75,4.9,25.75,93.0,Good
 K Kartikeya,IPL,2,9.75,39.0,8.66,33.92,87.9,Good
 K Kato-Stafford,T20I,2,4.59,6.5,5.03,7.6,113.3,On Fire
-K Kavindi,T20I,3,9.105,68.75,7.35,26.77,59.8,Poor
+K Kavindi,T20I,3,9.205,71.25,7.41,27.15,59.3,Poor
 K Khejroliya,IPL,1,11.48,30.0,10.72,46.17,123.6,On Fire
 K Kisova,T20I,0,5.25,7.0,5.25,7.0,100.0,Good
 K Klein,ODI,30,4.855,22.175,4.85,19.49,93.9,Good
@@ -1985,7 +1985,7 @@ M Levitt,ODI,8,5.0,34.38,4.73,39.44,104.7,Good
 M Levitt,T20I,4,7.0,14.0,8.69,23.17,144.8,On Fire
 M Lollo,T20I,1,3.7,37.0,3.7,37.0,100.0,Good
 M Madara,ODI,15,5.16,34.305,5.19,33.8,99.6,Good
-M Madara,T20I,13,7.050000000000001,26.085,7.04,22.46,93.0,Good
+M Madara,T20I,13,7.140000000000001,27.14,7.15,23.92,94.1,Good
 M Magagula,T20I,7,8.47,27.665,8.3,18.6,82.6,Average
 M Mani,ODI,2,3.67,11.0,6.45,32.25,234.5,On Fire
 M Mani,WPL,14,7.645,22.375,7.62,22.41,99.9,Good
@@ -2310,7 +2310,7 @@ Mohsin Khan,IPL,11,8.14,20.73,8.41,24.13,109.9,Good
 Mokbul Ahammed,T20I,0,6.0,24.0,6.0,24.0,100.0,Good
 Momin Qamar,PSL,4,9.25,27.75,9.25,27.75,100.0,Good
 Momina Riasat,ODI,6,4.46,19.33,4.46,19.33,100.0,Good
-Momina Riasat,T20I,0,7.86,55.0,7.86,55.0,100.0,Good
+Momina Riasat,T20I,2,6.64,36.5,6.64,36.5,100.0,Good
 Mominul Haque,Test,1,3.0,24.0,3.94,53.45,177.0,On Fire
 Mosaddek Hossain,ODI,2,4.6,46.0,5.25,54.61,116.4,On Fire
 Mounica Chowdary,T20I,0,7.14,44.0,7.14,44.0,100.0,Good
@@ -2463,7 +2463,7 @@ NKF Rada Rani,T20I,7,4.73,12.71,4.67,17.5,118.2,On Fire
 NLKWR Dewi,T20I,17,6.245,10.295,4.12,8.95,76.5,Average
 NM Lyon,Test,29,3.21,25.31,2.95,29.08,103.4,Good
 NM Meepage,ODI,7,3.79,22.29,3.79,22.29,100.0,Good
-NM Meepage,T20I,5,8.66,43.0,8.12,42.2,96.0,Good
+NM Meepage,T20I,7,8.46,37.1,7.67,32.86,89.6,Good
 NM Salonen,T20I,17,6.5649999999999995,17.22,6.81,16.0,98.3,Good
 NMP Suwandewi,T20I,17,4.705,13.65,3.76,11.54,82.2,Average
 NN Banner,T20I,0,7.0,49.0,7.06,19.54,70.4,Average
@@ -2510,7 +2510,7 @@ Naseem Shah,ODI,18,5.99,39.67,5.51,24.56,76.9,Average
 Naseem Shah,PSL,11,9.465,41.665,8.17,29.07,78.0,Average
 Naseem Shah,T20I,7,8.515,27.79,8.17,30.38,102.6,Good
 Nashra Sandhu,ODI,35,4.640000000000001,23.665,4.46,26.0,103.0,Good
-Nashra Sandhu,T20I,18,6.0,43.325,5.7,18.93,69.3,Average
+Nashra Sandhu,T20I,19,5.925,43.25,5.68,18.91,69.8,Average
 Nasrulla Rana,T20I,22,7.470000000000001,19.585,7.98,21.43,108.1,Good
 Nasum Ahmed,ODI,5,3.06,9.8,4.54,34.47,250.1,On Fire
 Nasum Ahmed,T20I,11,7.165,27.75,7.56,25.41,98.5,Good
@@ -3513,7 +3513,7 @@ Tilak Varma,T20I,3,6.9350000000000005,14.0,6.1,12.8,89.7,Good
 Towhid Hridoy,T20I,0,15.0,5.0,15.0,5.0,100.0,Good
 Tripti Gore,T20I,0,12.0,36.0,12.0,36.0,100.0,Good
 Tshering Choden,T20I,5,5.805,19.1,5.81,30.2,129.1,On Fire
-Tuba Hassan,T20I,7,7.925000000000001,37.285,6.4,24.62,73.4,Average
+Tuba Hassan,T20I,8,7.895,37.125,6.36,24.49,73.3,Average
 U Bayarjavkhlan,T20I,5,6.735,34.665,6.88,24.38,86.2,Good
 U Dorji,T20I,0,11.5,23.0,11.5,23.0,100.0,Good
 U Peace,T20I,14,4.215,16.04,4.23,14.09,94.1,Good
@@ -3526,7 +3526,7 @@ Umair Qasim,T20I,10,8.33,23.25,7.87,26.05,103.3,Good
 Umair Safi,T20I,1,4.75,38.0,4.75,38.0,100.0,Good
 Umair Tariq,T20I,49,8.805,17.79,8.31,15.27,90.1,Good
 Umm-e-Hani,ODI,4,5.03,41.5,4.67,33.57,86.9,Good
-Umm-e-Hani,T20I,3,9.7,32.33,6.38,25.4,72.2,Average
+Umm-e-Hani,T20I,4,9.07,31.75,6.48,25.82,76.4,Average
 Usama Mir,BBL,8,6.86,18.88,7.32,21.5,110.3,On Fire
 Usama Mir,CPL,5,8.74,33.2,8.45,34.88,100.9,Good
 Usama Mir,PSL,8,8.345,47.125,8.27,23.9,74.9,Average
@@ -3621,7 +3621,7 @@ WG Jacks,Test,6,4.9399999999999995,49.75,4.61,46.17,93.1,Good
 WGAKK Kulasuriya,ODI,4,5.4,40.5,4.91,35.62,89.4,Good
 WGAKK Kulasuriya,T20I,1,7.14,25.0,6.98,27.48,103.8,Good
 WK Dilhari,ODI,15,5.220000000000001,97.56,4.93,32.59,63.9,Average
-WK Dilhari,T20I,24,6.96,19.299999999999997,6.51,19.86,98.2,Good
+WK Dilhari,T20I,26,6.945,18.869999999999997,6.51,19.67,99.0,Good
 WK Lai,T20I,7,6.1850000000000005,25.5,5.6,14.61,73.9,Average
 WM Delgado,T20I,1,6.0,8.0,5.58,13.33,129.8,On Fire
 WP Masakadza,ODI,1,5.8,83.0,5.11,51.39,75.0,Average
@@ -3630,7 +3630,7 @@ WP Masakadza,Test,12,3.65,43.5,3.43,41.58,94.8,Good
 WP Myburgh,ODI,1,7.0,21.0,7.0,21.0,100.0,Good
 WP Myburgh,T20I,2,7.62,30.5,7.62,30.5,100.0,Good
 Wa Thone Nadi,T20I,6,3.19,8.5,3.19,8.5,100.0,Good
-Waheeda Akhtar,T20I,2,8.375,29.5,7.73,26.86,91.7,Good
+Waheeda Akhtar,T20I,2,7.785,38.5,7.54,29.43,86.6,Good
 Wahidullah Sahak,T20I,8,7.02,10.265,7.63,14.58,125.4,On Fire
 Waji Ul Hassan,T20I,15,7.7,13.87,7.62,22.19,129.5,On Fire
 Walid Ghauri,T20I,1,8.4,26.0,8.31,38.33,123.2,On Fire
