@@ -2717,7 +2717,7 @@ AC Jayangani,Mumbai Indians,WPL,1,3,5,1,0,0,3.0,60.0
 AC Jayangani,New Zealand,ODI,10,455,468,9,48,14,50.56,97.22
 AC Jayangani,New Zealand,T20I,13,365,321,10,51,7,36.5,113.71
 AC Jayangani,Pakistan,ODI,12,437,507,13,59,6,33.62,86.19
-AC Jayangani,Pakistan,T20I,15,334,279,15,42,12,22.27,119.71
+AC Jayangani,Pakistan,T20I,16,368,312,16,47,12,23.0,117.95
 AC Jayangani,Royal Challengers Bangalore,WPL,1,8,8,1,2,0,8.0,100.0
 AC Jayangani,Scotland,T20I,4,280,159,3,42,8,93.33,176.1
 AC Jayangani,South Africa,ODI,16,693,820,16,86,11,43.31,84.51
@@ -7817,7 +7817,7 @@ Ayesha Zafar,New Zealand,T20I,2,22,25,2,4,0,11.0,88.0
 Ayesha Zafar,South Africa,ODI,5,208,222,5,22,0,41.6,93.69
 Ayesha Zafar,South Africa,T20I,7,79,87,6,9,1,13.17,90.8
 Ayesha Zafar,Sri Lanka,ODI,5,85,114,4,6,3,21.25,74.56
-Ayesha Zafar,Sri Lanka,T20I,2,25,16,2,2,2,12.5,156.25
+Ayesha Zafar,Sri Lanka,T20I,3,64,47,3,8,2,21.33,136.17
 Ayesha Zafar,West Indies,ODI,6,99,177,6,12,0,16.5,55.93
 Ayesha Zafar,West Indies,T20I,8,124,133,7,13,0,17.71,93.23
 Ayesha Zafar,Zimbabwe,ODI,2,21,16,1,3,0,21.0,131.25
@@ -17653,6 +17653,7 @@ EMKNH Senavirathna,England,T20I,1,0,2,1,0,0,0.0,0.0
 EMKNH Senavirathna,India,T20I,5,45,36,1,5,0,45.0,125.0
 EMKNH Senavirathna,Malaysia,T20I,1,1,5,1,0,0,1.0,20.0
 EMKNH Senavirathna,New Zealand,T20I,1,24,14,0,3,0,24.0,171.43
+EMKNH Senavirathna,Pakistan,T20I,1,12,18,0,0,0,12.0,66.67
 EMKNH Senavirathna,Scotland,T20I,1,12,10,1,2,0,12.0,120.0
 EMKNH Senavirathna,Thailand,T20I,1,0,1,1,0,0,0.0,0.0
 EMKNH Senavirathna,United Arab Emirates,T20I,1,8,4,1,1,0,8.0,200.0
@@ -17929,7 +17930,7 @@ Eyman Fatima,Ireland,T20I,2,27,22,1,2,1,27.0,122.73
 Eyman Fatima,Netherlands,T20I,1,0,6,1,0,0,0.0,0.0
 Eyman Fatima,South Africa,ODI,1,2,3,0,0,0,2.0,66.67
 Eyman Fatima,South Africa,T20I,1,0,2,1,0,0,0.0,0.0
-Eyman Fatima,Sri Lanka,T20I,2,35,24,1,4,2,35.0,145.83
+Eyman Fatima,Sri Lanka,T20I,3,40,32,2,5,2,20.0,125.0
 Eyman Fatima,West Indies,T20I,1,1,4,1,0,0,1.0,25.0
 Eyman Fatima,Zimbabwe,T20I,1,79,43,0,10,4,79.0,183.72
 Ezgi Nur Kilic,Austria,T20I,1,23,36,1,3,0,23.0,63.89
@@ -20723,7 +20724,7 @@ GWHM Perera,Malaysia,T20I,3,49,55,2,5,0,24.5,89.09
 GWHM Perera,New Zealand,ODI,1,44,61,1,6,0,44.0,72.13
 GWHM Perera,New Zealand,T20I,4,63,87,4,6,0,15.75,72.41
 GWHM Perera,Pakistan,ODI,10,146,234,8,21,0,18.25,62.39
-GWHM Perera,Pakistan,T20I,12,117,150,11,10,0,10.64,78.0
+GWHM Perera,Pakistan,T20I,13,117,152,12,10,0,9.75,76.97
 GWHM Perera,Scotland,T20I,3,40,36,2,5,0,20.0,111.11
 GWHM Perera,South Africa,ODI,10,196,341,9,25,0,21.78,57.48
 GWHM Perera,South Africa,T20I,10,126,158,9,17,0,14.0,79.75
@@ -21384,7 +21385,7 @@ H Madavi,Malaysia,T20I,3,94,72,2,15,0,47.0,130.56
 H Madavi,New Zealand,ODI,7,175,258,5,15,0,35.0,67.83
 H Madavi,New Zealand,T20I,10,160,195,8,13,1,20.0,82.05
 H Madavi,Pakistan,ODI,5,289,400,2,24,0,144.5,72.25
-H Madavi,Pakistan,T20I,10,164,197,9,17,0,18.22,83.25
+H Madavi,Pakistan,T20I,11,167,202,10,17,0,16.7,82.67
 H Madavi,Scotland,T20I,3,58,49,4,8,0,14.5,118.37
 H Madavi,South Africa,ODI,7,193,272,7,15,1,27.57,70.96
 H Madavi,South Africa,T20I,6,124,124,5,12,2,24.8,100.0
@@ -23430,7 +23431,7 @@ I Dulani,England,T20I,1,7,9,1,1,0,7.0,77.78
 I Dulani,India,T20I,3,106,99,2,15,0,53.0,107.07
 I Dulani,Ireland,T20I,1,20,27,1,3,0,20.0,74.07
 I Dulani,New Zealand,ODI,1,11,42,1,0,0,11.0,26.19
-I Dulani,Pakistan,T20I,2,106,72,1,18,1,106.0,147.22
+I Dulani,Pakistan,T20I,3,123,89,2,20,1,61.5,138.2
 I Dulani,Scotland,T20I,1,4,6,1,1,0,4.0,66.67
 I Dulani,West Indies,T20I,4,59,65,3,9,0,19.67,90.77
 I Edwards,Denmark,T20I,1,1,4,0,0,0,1.0,25.0
@@ -29724,6 +29725,7 @@ K Kato-Stafford,Thailand,T20I,1,4,11,1,0,0,4.0,36.36
 K Kaur,Netherlands,T20I,1,0,3,1,0,0,0.0,0.0
 K Kavindi,India,T20I,1,1,1,1,0,0,1.0,100.0
 K Kavindi,New Zealand,ODI,1,15,31,1,1,0,15.0,48.39
+K Kavindi,Pakistan,T20I,1,10,12,0,0,0,10.0,83.33
 K Kavindi,South Africa,ODI,1,2,2,1,0,0,2.0,100.0
 K Kavindi,West Indies,T20I,2,23,32,2,2,0,11.5,71.88
 K Kekez,Spain,T20I,2,2,13,1,0,0,2.0,15.38
@@ -42157,7 +42159,7 @@ Muneeba Ali,Scotland,ODI,1,71,72,1,9,1,71.0,98.61
 Muneeba Ali,South Africa,ODI,10,158,262,10,23,0,15.8,60.31
 Muneeba Ali,South Africa,T20I,14,199,195,11,23,3,18.09,102.05
 Muneeba Ali,Sri Lanka,ODI,9,223,391,7,21,0,31.86,57.03
-Muneeba Ali,Sri Lanka,T20I,11,241,249,11,31,3,21.91,96.79
+Muneeba Ali,Sri Lanka,T20I,12,260,265,12,35,3,21.67,98.11
 Muneeba Ali,Thailand,ODI,1,18,33,1,3,0,18.0,54.55
 Muneeba Ali,Thailand,T20I,2,21,27,2,2,0,10.5,77.78
 Muneeba Ali,United Arab Emirates,T20I,2,80,75,1,9,1,80.0,106.67
@@ -44686,6 +44688,7 @@ Najiha Alvi,England,ODI,2,32,76,1,1,0,32.0,42.11
 Najiha Alvi,New Zealand,ODI,3,58,68,3,4,0,19.33,85.29
 Najiha Alvi,South Africa,ODI,1,36,46,1,1,0,36.0,78.26
 Najiha Alvi,Sri Lanka,ODI,3,51,64,2,7,0,25.5,79.69
+Najiha Alvi,Sri Lanka,T20I,1,5,10,1,0,0,5.0,50.0
 Najiha Alvi,West Indies,ODI,3,54,72,3,4,0,18.0,75.0
 Najiha Alvi,West Indies,T20I,4,14,16,4,1,0,3.5,87.5
 Najiha Alvi,Zimbabwe,ODI,1,56,30,0,8,1,56.0,186.67
@@ -53808,7 +53811,7 @@ S Kaul,Rajasthan Royals,IPL,1,2,2,0,0,0,2.0,100.0
 S Kaul,Rising Pune Supergiant,IPL,1,0,2,0,0,0,0.0,0.0
 S Kaul,Royal Challengers Bangalore,IPL,1,1,1,0,0,0,1.0,100.0
 S Kaushik,Royal Challengers Bangalore,IPL,1,0,1,1,0,0,0.0,0.0
-S Kavindi,Pakistan,T20I,1,46,24,1,6,2,46.0,191.67
+S Kavindi,Pakistan,T20I,2,66,42,2,8,2,33.0,157.14
 S Kemigisha,Scotland,T20I,1,0,2,1,0,0,0.0,0.0
 S Khadka,Bangladesh,T20I,1,12,19,1,1,0,12.0,63.16
 S Khadka,Malaysia,T20I,2,15,27,1,1,0,15.0,55.56
@@ -58933,7 +58936,7 @@ Saira Jabeen,Bangladesh,T20I,1,0,6,1,0,0,0.0,0.0
 Saira Jabeen,India,T20I,1,2,3,1,0,0,2.0,66.67
 Saira Jabeen,Ireland,T20I,1,36,33,1,4,0,36.0,109.09
 Saira Jabeen,Netherlands,T20I,1,5,4,1,1,0,5.0,125.0
-Saira Jabeen,Sri Lanka,T20I,2,29,17,2,5,0,14.5,170.59
+Saira Jabeen,Sri Lanka,T20I,3,41,33,2,5,0,20.5,124.24
 Saira Jabeen,West Indies,T20I,2,37,27,2,7,0,18.5,137.04
 Saira Jabeen,Zimbabwe,T20I,2,55,37,1,9,0,55.0,148.65
 Sajaa Fathimath,Bangladesh,T20I,1,1,7,1,0,0,1.0,14.29
@@ -60409,7 +60412,7 @@ Shawaal Zulfiqar,Ireland,T20I,2,36,33,2,6,0,18.0,109.09
 Shawaal Zulfiqar,New Zealand,T20I,2,48,51,2,8,0,24.0,94.12
 Shawaal Zulfiqar,South Africa,ODI,2,7,18,2,1,0,3.5,38.89
 Shawaal Zulfiqar,South Africa,T20I,3,33,42,3,5,0,11.0,78.57
-Shawaal Zulfiqar,Sri Lanka,T20I,3,127,103,3,19,1,42.33,123.3
+Shawaal Zulfiqar,Sri Lanka,T20I,4,148,115,4,22,2,37.0,128.7
 Shawaal Zulfiqar,Thailand,ODI,1,6,28,1,1,0,6.0,21.43
 Shawaiz Irfan,Peshawar Zalmi,PSL,1,0,6,1,0,0,0.0,0.0
 Shayan Jahangir,Bangladesh,T20I,1,18,20,1,2,1,18.0,90.0
@@ -64362,7 +64365,7 @@ Tuba Hassan,Ireland,T20I,1,10,7,0,1,0,10.0,142.86
 Tuba Hassan,Nepal,T20I,1,1,2,0,0,0,1.0,50.0
 Tuba Hassan,Netherlands,T20I,1,7,4,0,1,0,7.0,175.0
 Tuba Hassan,South Africa,T20I,3,34,38,1,3,0,34.0,89.47
-Tuba Hassan,Sri Lanka,T20I,1,5,9,1,0,0,5.0,55.56
+Tuba Hassan,Sri Lanka,T20I,2,11,15,1,1,0,11.0,73.33
 Tuba Hassan,West Indies,ODI,3,49,55,3,6,0,16.33,89.09
 Tuba Hassan,West Indies,T20I,3,14,14,0,1,0,14.0,100.0
 Tushar Imran,Australia,ODI,8,81,144,7,11,0,11.57,56.25
@@ -64786,7 +64789,7 @@ Umm-e-Hani,New Zealand,ODI,3,13,19,3,0,0,4.33,68.42
 Umm-e-Hani,South Africa,ODI,3,6,27,3,0,0,2.0,22.22
 Umm-e-Hani,South Africa,T20I,1,13,20,1,0,0,13.0,65.0
 Umm-e-Hani,Sri Lanka,ODI,1,1,9,1,0,0,1.0,11.11
-Umm-e-Hani,Sri Lanka,T20I,3,16,19,2,1,0,8.0,84.21
+Umm-e-Hani,Sri Lanka,T20I,4,24,30,3,2,0,8.0,80.0
 Umm-e-Hani,West Indies,ODI,2,9,16,2,0,0,4.5,56.25
 Umran Malik,Kolkata Knight Riders,IPL,1,3,5,0,0,0,3.0,60.0
 Umran Malik,Lucknow Super Giants,IPL,1,1,1,0,0,0,1.0,100.0
@@ -66571,7 +66574,7 @@ WK Dilhari,Malaysia,T20I,1,0,1,1,0,0,0.0,0.0
 WK Dilhari,New Zealand,ODI,5,164,213,5,12,1,32.8,77.0
 WK Dilhari,New Zealand,T20I,9,72,76,8,8,0,9.0,94.74
 WK Dilhari,Pakistan,ODI,5,184,208,3,18,1,61.33,88.46
-WK Dilhari,Pakistan,T20I,9,70,81,6,6,0,11.67,86.42
+WK Dilhari,Pakistan,T20I,10,82,96,7,7,0,11.71,85.42
 WK Dilhari,Scotland,T20I,2,33,30,2,4,0,16.5,110.0
 WK Dilhari,South Africa,ODI,6,149,176,7,13,2,21.29,84.66
 WK Dilhari,South Africa,T20I,5,72,54,4,10,0,18.0,133.33
