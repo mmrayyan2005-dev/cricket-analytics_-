@@ -2560,6 +2560,7 @@ AA Jangoo,Multan Cricket Stadium,Test,1,30,56,2,3,0,15.0,53.57
 AA Jangoo,"Providence Stadium, Guyana",CPL,2,106,106,2,6,5,53.0,100.0
 AA Jangoo,"Providence Stadium, Guyana",ODI,1,24,41,1,1,0,24.0,58.54
 AA Jangoo,"Queen's Park Oval, Port of Spain, Trinidad",CPL,2,40,42,3,6,1,13.33,95.24
+AA Jangoo,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,39,78,2,5,0,19.5,50.0
 AA Jangoo,"Saxton Oval, Nelson",T20I,2,17,22,1,3,0,17.0,77.27
 AA Jangoo,Sharjah Cricket Stadium,T20I,3,109,81,2,8,7,54.5,134.57
 AA Jangoo,"Sir Vivian Richards Stadium, North Sound, Antigua",Test,2,242,388,2,20,3,121.0,62.37
@@ -7718,6 +7719,7 @@ Abdullah Shafique,"National Stadium, Karachi",Test,4,186,529,7,19,1,26.57,35.16
 Abdullah Shafique,"Newlands, Cape Town",ODI,1,0,2,1,0,0,0.0,0.0
 Abdullah Shafique,Perth Stadium,ODI,1,37,53,1,1,1,37.0,69.81
 Abdullah Shafique,Perth Stadium,Test,1,44,127,2,6,0,22.0,34.65
+Abdullah Shafique,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,184,374,0,16,3,184.0,49.2
 Abdullah Shafique,"Queens Sports Club, Bulawayo",ODI,3,83,121,2,9,1,41.5,68.6
 Abdullah Shafique,"R Premadasa Stadium, Colombo",ODI,1,52,69,1,3,2,52.0,75.36
 Abdullah Shafique,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",ODI,1,113,103,1,10,3,113.0,109.71
@@ -8225,6 +8227,7 @@ Agha Salman,"Newlands, Cape Town",ODI,1,33,30,1,3,1,33.0,110.0
 Agha Salman,"Newlands, Cape Town",Test,1,67,117,2,8,0,33.5,57.26
 Agha Salman,Pallekele International Cricket Stadium,T20I,2,5,8,2,1,0,2.5,62.5
 Agha Salman,Perth Stadium,Test,1,33,87,0,4,0,33.0,37.93
+Agha Salman,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,0,4,1,0,0,0.0,0.0
 Agha Salman,"Queens Sports Club, Bulawayo",ODI,2,34,37,2,3,1,17.0,91.89
 Agha Salman,"Queens Sports Club, Bulawayo",T20I,2,45,51,1,3,0,45.0,88.24
 Agha Salman,"R Premadasa Stadium, Colombo",ODI,1,23,32,1,2,0,23.0,71.88
@@ -8771,6 +8774,7 @@ Ali Saleem,Tikkurila Cricket Ground,T20I,1,53,37,0,3,4,53.0,143.24
 Ali Sheikh,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,1,3,4,1,0,0,3.0,75.0
 Ali Sheikh,"Jimmy Powell Oval, Cayman Islands",T20I,2,19,16,1,1,0,19.0,118.75
 Ali Usman,"Brian Lara Stadium, Tarouba, Trinidad",Test,1,2,18,2,0,0,1.0,11.11
+Ali Usman,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,10,21,1,2,0,10.0,47.62
 Ali Waqar,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,1,4,6,1,0,0,4.0,66.67
 Ali Waqar,"Scott Page Field, Vinor",T20I,2,19,24,2,2,0,9.5,79.17
 Ali Yalmaz,"GB Oval, Szodliget",T20I,2,26,13,2,0,3,13.0,200.0
@@ -9885,6 +9889,7 @@ Awais Ikram,Kerava National Cricket Ground,T20I,1,2,3,1,0,0,2.0,66.67
 Awais Ikram,Tikkurila Cricket Ground,T20I,1,2,3,1,0,0,2.0,66.67
 Awais Ikram,"Velden Cricket Ground, Latschach",T20I,1,5,8,0,1,0,5.0,62.5
 Awais Zafar,"National Stadium, Karachi",PSL,1,36,27,1,5,1,36.0,133.33
+Awais Zafar,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,1,8,1,0,0,1.0,12.5
 Awais Zia,Dubai International Cricket Stadium,T20I,4,47,52,4,3,2,11.75,90.38
 Awais Zia,Sharjah Cricket Stadium,PSL,2,22,30,2,2,0,11.0,73.33
 Awais Zia,Sheikh Zayed Stadium,T20I,1,23,28,1,1,1,23.0,82.14
@@ -10026,6 +10031,7 @@ Azam Khan,"Trent Bridge, Nottingham",T20I,1,5,3,0,1,0,5.0,166.67
 Azam Khan,"University Oval, Dunedin",T20I,1,10,7,1,0,1,10.0,142.86
 Azam Khan,"Warner Park, Basseterre, St Kitts",CPL,13,215,176,12,14,14,17.92,122.16
 Azan Awais,"Brian Lara Stadium, Tarouba, Trinidad",Test,1,3,23,2,0,0,1.5,13.04
+Azan Awais,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,73,120,2,12,0,36.5,60.83
 Azan Awais,"Shere Bangla National Stadium, Mirpur",Test,1,118,198,2,15,0,59.0,59.6
 Azan Awais,Sylhet International Cricket Stadium,Test,1,34,83,2,5,0,17.0,40.96
 Azeem Nazir,Kerava National Cricket Ground,T20I,1,0,2,1,0,0,0.0,0.0
@@ -11072,6 +11078,7 @@ BA King,"Providence Stadium, Guyana",T20I,5,96,85,5,14,2,19.2,112.94
 BA King,"Queen's Park Oval, Port of Spain",CPL,5,41,41,5,4,2,8.2,100.0
 BA King,"Queen's Park Oval, Port of Spain, Trinidad",CPL,3,68,59,3,6,2,22.67,115.25
 BA King,"Queen's Park Oval, Port of Spain, Trinidad",ODI,3,96,108,3,7,3,32.0,88.89
+BA King,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,46,50,1,9,0,46.0,92.0
 BA King,"Rajiv Gandhi International Stadium, Uppal",T20I,1,31,23,1,3,1,31.0,134.78
 BA King,Rangiri Dambulla International Stadium,T20I,3,91,60,3,15,2,30.33,151.67
 BA King,"Sabina Park, Kingston",CPL,1,59,37,1,4,6,59.0,159.46
@@ -13268,6 +13275,7 @@ Babar Azam,Providence Stadium,ODI,3,154,175,2,10,3,77.0,88.0
 Babar Azam,"Providence Stadium, Guyana",T20I,1,51,40,2,4,2,25.5,127.5
 Babar Azam,"Queen's Park Oval, Port of Spain",CPL,1,2,4,1,0,0,2.0,50.0
 Babar Azam,"Queen's Park Oval, Port of Spain",T20I,3,108,102,3,8,2,36.0,105.88
+Babar Azam,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,112,177,1,12,3,112.0,63.28
 Babar Azam,Queens Sports Club,ODI,4,184,180,1,16,2,184.0,102.22
 Babar Azam,"R Premadasa Stadium, Colombo",ODI,2,39,59,2,5,0,19.5,66.1
 Babar Azam,"R Premadasa Stadium, Colombo",T20I,1,5,7,1,0,0,5.0,71.43
@@ -32914,6 +32922,7 @@ Imam-ul-Haq,Newlands,Test,1,14,34,2,3,0,7.0,41.18
 Imam-ul-Haq,Old Trafford,ODI,1,7,18,1,1,0,7.0,38.89
 Imam-ul-Haq,Perth Stadium,T20I,1,14,15,1,2,0,14.0,93.33
 Imam-ul-Haq,Perth Stadium,Test,1,72,219,2,5,0,36.0,32.88
+Imam-ul-Haq,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,23,30,2,3,0,11.5,76.67
 Imam-ul-Haq,Queens Sports Club,ODI,5,395,413,4,31,1,98.75,95.64
 Imam-ul-Haq,"R Premadasa Stadium, Colombo",ODI,1,9,18,1,1,0,9.0,50.0
 Imam-ul-Haq,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",ODI,2,27,31,2,3,0,13.5,87.1
@@ -35011,7 +35020,7 @@ JA Warrican,Multan Cricket Stadium,Test,2,85,93,2,6,3,42.5,91.4
 JA Warrican,"Narendra Modi Stadium, Ahmedabad",Test,1,8,18,2,1,0,4.0,44.44
 JA Warrican,P Sara Oval,Test,1,21,39,1,3,0,21.0,53.85
 JA Warrican,"Providence Stadium, Guyana",Test,1,25,66,1,2,1,25.0,37.88
-JA Warrican,"Queen's Park Oval, Port of Spain, Trinidad",Test,2,42,44,0,4,2,42.0,95.45
+JA Warrican,"Queen's Park Oval, Port of Spain, Trinidad",Test,3,49,68,0,4,2,49.0,72.06
 JA Warrican,"Rajiv Gandhi International Stadium, Uppal",Test,1,15,35,1,1,1,15.0,42.86
 JA Warrican,"Sabina Park, Kingston, Jamaica",Test,2,7,25,4,1,0,1.75,28.0
 JA Warrican,Shere Bangla National Stadium,Test,1,4,24,2,0,0,2.0,16.67
@@ -38109,7 +38118,7 @@ JNT Seales,"Providence Stadium, Guyana",Test,1,4,15,2,1,0,2.0,26.67
 JNT Seales,"Queen's Park Oval, Port of Spain",CPL,1,1,1,0,0,0,1.0,100.0
 JNT Seales,"Queen's Park Oval, Port of Spain, Trinidad",CPL,1,1,1,0,0,0,1.0,100.0
 JNT Seales,"Queen's Park Oval, Port of Spain, Trinidad",ODI,1,0,4,1,0,0,0.0,0.0
-JNT Seales,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,4,5,1,1,0,4.0,80.0
+JNT Seales,"Queen's Park Oval, Port of Spain, Trinidad",Test,2,12,25,3,2,0,4.0,48.0
 JNT Seales,"Sabina Park, Kingston, Jamaica",ODI,1,2,6,1,0,0,2.0,33.33
 JNT Seales,"Sabina Park, Kingston, Jamaica",Test,4,15,38,1,0,1,15.0,39.47
 JNT Seales,"Seddon Park, Hamilton",ODI,1,0,14,1,0,0,0.0,0.0
@@ -38637,6 +38646,7 @@ JP Greaves,"Narendra Modi Stadium, Ahmedabad",Test,1,57,100,2,8,0,28.5,57.0
 JP Greaves,"National Cricket Stadium, St George's, Grenada",Test,1,3,28,2,0,0,1.5,10.71
 JP Greaves,"Providence Stadium, Guyana",CPL,2,21,22,2,3,0,10.5,95.45
 JP Greaves,"Queen's Park Oval, Port of Spain, Trinidad",CPL,1,46,48,1,4,0,46.0,95.83
+JP Greaves,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,76,182,2,9,0,38.0,41.76
 JP Greaves,"Sabina Park, Kingston, Jamaica",ODI,4,74,123,4,7,1,18.5,60.16
 JP Greaves,"Sabina Park, Kingston, Jamaica",Test,2,51,109,4,5,0,12.75,46.79
 JP Greaves,"Seddon Park, Hamilton",ODI,1,1,9,1,0,0,1.0,11.11
@@ -41269,7 +41279,7 @@ KAJ Roach,"Punjab Cricket Association Stadium, Mohali",ODI,1,1,2,1,0,0,1.0,50.0
 KAJ Roach,"Queen's Park Oval, Port of Spain",CPL,1,7,7,1,1,0,7.0,100.0
 KAJ Roach,"Queen's Park Oval, Port of Spain",ODI,2,42,44,1,4,2,42.0,95.45
 KAJ Roach,"Queen's Park Oval, Port of Spain",Test,3,56,180,3,6,1,18.67,31.11
-KAJ Roach,"Queen's Park Oval, Port of Spain, Trinidad",Test,2,12,47,2,2,0,6.0,25.53
+KAJ Roach,"Queen's Park Oval, Port of Spain, Trinidad",Test,3,31,115,4,5,0,7.75,26.96
 KAJ Roach,"Queen's Park Oval, Trinidad",ODI,1,0,3,1,0,0,0.0,0.0
 KAJ Roach,Queens Sports Club,Test,2,0,22,3,0,0,0.0,0.0
 KAJ Roach,R Premadasa Stadium,Test,1,3,8,1,0,0,3.0,37.5
@@ -41322,7 +41332,7 @@ KAR Hodge,Melbourne Cricket Ground,ODI,1,11,18,1,1,0,11.0,61.11
 KAR Hodge,Multan Cricket Stadium,Test,2,40,81,4,3,0,10.0,49.38
 KAR Hodge,Providence Stadium,CPL,1,0,1,1,0,0,0.0,0.0
 KAR Hodge,"Providence Stadium, Guyana",Test,1,33,43,2,7,0,16.5,76.74
-KAR Hodge,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,54,147,2,5,0,27.0,36.73
+KAR Hodge,"Queen's Park Oval, Port of Spain, Trinidad",Test,2,98,262,4,10,0,24.5,37.4
 KAR Hodge,"Sabina Park, Kingston",CPL,1,21,8,1,3,1,21.0,262.5
 KAR Hodge,"Sabina Park, Kingston, Jamaica",Test,1,58,87,2,6,0,29.0,66.67
 KAR Hodge,Sharjah Cricket Stadium,ODI,2,26,29,2,4,0,13.0,89.66
@@ -56554,6 +56564,7 @@ Mohammad Ali,"McLean Park, Napier",ODI,1,0,2,0,0,0,0.0,0.0
 Mohammad Ali,Multan Cricket Stadium,PSL,1,1,4,0,0,0,1.0,25.0
 Mohammad Ali,Multan Cricket Stadium,Test,1,0,12,2,0,0,0.0,0.0
 Mohammad Ali,"National Stadium, Karachi",PSL,2,0,5,1,0,0,0.0,0.0
+Mohammad Ali,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,0,1,1,0,0,0.0,0.0
 Mohammad Ali,Rawalpindi Cricket Stadium,PSL,3,7,13,2,1,0,3.5,53.85
 Mohammad Ali,Rawalpindi Cricket Stadium,Test,3,2,54,3,0,0,0.67,3.7
 Mohammad Amin,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,2,50,50,1,2,2,50.0,100.0
@@ -57396,6 +57407,7 @@ Mohammad Rizwan,Perth Stadium,ODI,1,30,27,0,1,2,30.0,111.11
 Mohammad Rizwan,Perth Stadium,T20I,3,63,56,3,6,1,21.0,112.5
 Mohammad Rizwan,"Providence Stadium, Guyana",CPL,1,85,62,1,8,3,85.0,137.1
 Mohammad Rizwan,"Providence Stadium, Guyana",T20I,1,46,36,0,2,2,46.0,127.78
+Mohammad Rizwan,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,18,29,1,3,0,18.0,62.07
 Mohammad Rizwan,"Queens Sports Club, Bulawayo",ODI,2,56,90,1,5,1,56.0,62.22
 Mohammad Rizwan,R Premadasa Stadium,ODI,1,35,22,0,2,1,35.0,159.09
 Mohammad Rizwan,R Premadasa Stadium,T20I,1,17,18,1,1,0,17.0,94.44
@@ -69452,6 +69464,7 @@ RL Chase,"Queen's Park Oval, Port of Spain",CPL,3,55,53,1,5,0,55.0,103.77
 RL Chase,"Queen's Park Oval, Port of Spain",ODI,1,33,37,0,2,0,33.0,89.19
 RL Chase,"Queen's Park Oval, Port of Spain",Test,1,50,124,2,6,0,25.0,40.32
 RL Chase,"Queen's Park Oval, Port of Spain, Trinidad",CPL,1,7,9,1,1,0,7.0,77.78
+RL Chase,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,87,171,2,13,0,43.5,50.88
 RL Chase,"Queen's Park Oval, Trinidad",ODI,1,18,23,1,1,0,18.0,78.26
 RL Chase,Queens Sports Club,Test,2,158,248,3,14,2,52.67,63.71
 RL Chase,"Queens Sports Club, Bulawayo",Test,2,91,154,3,6,1,30.33,59.09
@@ -73327,6 +73340,7 @@ S Joseph,"Lord's, London",Test,1,3,11,2,0,0,1.5,27.27
 S Joseph,"National Cricket Stadium, St George's, Grenada",Test,1,53,64,2,0,5,26.5,82.81
 S Joseph,"Providence Stadium, Guyana",CPL,3,2,5,1,0,0,2.0,40.0
 S Joseph,"Providence Stadium, Guyana",Test,1,36,48,2,5,1,18.0,75.0
+S Joseph,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,17,15,2,3,0,8.5,113.33
 S Joseph,Rangiri Dambulla International Stadium,T20I,1,5,4,0,1,0,5.0,125.0
 S Joseph,"Sabina Park, Kingston, Jamaica",ODI,1,23,22,0,1,1,23.0,104.55
 S Joseph,"Sabina Park, Kingston, Jamaica",T20I,1,11,4,0,1,1,11.0,275.0
@@ -76125,6 +76139,7 @@ SD Hope,"Queen's Park Oval, Port of Spain",ODI,1,81,88,1,5,3,81.0,92.05
 SD Hope,"Queen's Park Oval, Port of Spain",Test,1,45,76,2,9,0,22.5,59.21
 SD Hope,"Queen's Park Oval, Port of Spain, Trinidad",CPL,2,56,45,2,3,3,28.0,124.44
 SD Hope,"Queen's Park Oval, Port of Spain, Trinidad",ODI,3,144,186,3,9,4,48.0,77.42
+SD Hope,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,44,131,2,4,1,22.0,33.59
 SD Hope,"Queen's Park Oval, Trinidad",ODI,2,29,62,2,1,0,14.5,46.77
 SD Hope,Queens Sports Club,ODI,3,140,174,2,8,4,70.0,80.46
 SD Hope,Queens Sports Club,Test,2,174,424,2,16,1,87.0,41.04
@@ -81040,6 +81055,7 @@ Sajid Khan,Harare Sports Club,Test,2,27,66,2,4,0,13.5,40.91
 Sajid Khan,La Manga Club Top Ground,T20I,3,5,15,1,0,0,5.0,33.33
 Sajid Khan,Multan Cricket Stadium,Test,3,70,118,6,5,1,11.67,59.32
 Sajid Khan,"National Stadium, Karachi",Test,1,14,26,2,3,0,7.0,53.85
+Sajid Khan,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,30,72,1,4,0,30.0,41.67
 Sajid Khan,Rawalpindi Cricket Stadium,Test,2,66,78,2,4,5,33.0,84.62
 Sajid Khan,Sydney Cricket Ground,Test,1,15,25,2,2,0,7.5,60.0
 Sajid Khan,Sylhet International Cricket Stadium,Test,1,66,64,2,7,4,33.0,103.12
@@ -84599,7 +84615,7 @@ T Chanderpaul,"Brisbane Cricket Ground, Woolloongabba, Brisbane",Test,1,25,74,2,
 T Chanderpaul,"Hagley Oval, Christchurch",Test,1,58,214,2,4,0,29.0,27.1
 T Chanderpaul,"Narendra Modi Stadium, Ahmedabad",Test,1,8,34,2,1,0,4.0,23.53
 T Chanderpaul,Perth Stadium,Test,1,96,205,2,11,1,48.0,46.83
-T Chanderpaul,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,57,193,1,6,0,57.0,29.53
+T Chanderpaul,"Queen's Park Oval, Port of Spain, Trinidad",Test,2,89,250,3,10,0,29.67,35.6
 T Chanderpaul,"Queens Sports Club, Bulawayo",Test,2,258,610,2,20,3,129.0,42.3
 T Chanderpaul,"SuperSport Park, Centurion",Test,1,32,79,2,5,0,16.0,40.51
 T Chanderpaul,"The Wanderers Stadium, Johannesburg",Test,1,3,44,1,0,0,3.0,6.82
@@ -88493,6 +88509,7 @@ Ubaid Minhas,Udayana Cricket Ground,T20I,2,14,12,1,1,0,14.0,116.67
 Ubaid Shah,"Gaddafi Stadium, Lahore",PSL,3,15,16,2,1,1,7.5,93.75
 Ubaid Shah,Multan Cricket Stadium,PSL,2,3,12,2,0,0,1.5,25.0
 Ubaid Shah,"National Stadium, Karachi",PSL,2,5,9,2,1,0,2.5,55.56
+Ubaid Shah,"Queen's Park Oval, Port of Spain, Trinidad",Test,1,0,2,1,0,0,0.0,0.0
 Ubaid Shah,Rawalpindi Cricket Stadium,PSL,2,3,11,0,0,0,3.0,27.27
 Ugyen Dorji,Gelephu International Cricket Ground,T20I,1,0,5,1,0,0,0.0,0.0
 Umaid Asif,Dubai International Cricket Stadium,PSL,2,32,22,2,1,3,16.0,145.45
