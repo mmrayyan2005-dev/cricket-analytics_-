@@ -138896,6 +138896,19 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1527257,N de Klerk,India,South Africa,"Willowmoore Park, Benoni",2026-04-27,T20I,18,25.0,2,5,3.0,8.33,2026
 1527257,Renuka Singh,South Africa,India,"Willowmoore Park, Benoni",2026-04-27,T20I,24,21.0,2,13,4.0,5.25,2026
 1527257,Shafali Verma,South Africa,India,"Willowmoore Park, Benoni",2026-04-27,T20I,6,8.0,0,1,1.0,8.0,2026
+1527273,BJ Webster,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,74,40.0,0,56,12.3,3.24,2026
+1527273,C Green,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,60,34.0,0,48,10.0,3.4,2026
+1527273,Ebadat Hossain,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,117,77.0,2,80,19.5,3.95,2026
+1527273,Hasan Mahmud,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,216,111.0,9,163,36.0,3.08,2026
+1527273,JR Hazlewood,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,189,94.0,7,139,31.5,2.98,2026
+1527273,M Labuschagne,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,24,4.0,0,20,4.0,1.0,2026
+1527273,MA Starc,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,182,94.0,2,137,30.3,3.1,2026
+1527273,Mehedi Hasan Miraz,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,223,78.0,5,164,37.2,2.1,2026
+1527273,NM Lyon,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,216,125.0,1,151,36.0,3.47,2026
+1527273,PJ Cummins,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,163,74.0,1,122,27.2,2.72,2026
+1527273,TM Head,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,12,3.0,0,9,2.0,1.5,2026
+1527273,Taijul Islam,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,132,75.0,1,86,22.0,3.41,2026
+1527273,Taskin Ahmed,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,209,121.0,3,151,34.8,3.47,2026
 1527277,Ajaz Patel,Botswana,Lesotho,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,12,7.0,1,6,2.0,3.5,2026
 1527277,B Kgosiemang,Lesotho,Botswana,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,24,10.0,1,17,4.0,2.5,2026
 1527277,B Khumalo,Lesotho,Botswana,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,25,11.0,1,17,4.2,2.64,2026
@@ -142681,6 +142694,110 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1534076,Rameen Shamim,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-15,T20I,24,10.0,1,17,4.0,2.5,2026
 1534076,Sadia Iqbal,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-15,T20I,18,20.0,3,10,3.0,6.67,2026
 1534076,Tuba Hassan,Zimbabwe,Pakistan,"National Stadium, Karachi",2026-05-15,T20I,18,7.0,2,14,3.0,2.33,2026
+1534179,AD Russell,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,31.0,2,11,4.0,7.75,2026
+1534179,AS Joseph,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,32.0,3,12,4.0,8.0,2026
+1534179,FA Allen,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,12,11.0,0,9,2.0,5.5,2026
+1534179,Hassan Khan,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,28.0,1,7,4.0,7.0,2026
+1534179,Hunain Shah,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,37.0,2,7,4.0,9.25,2026
+1534179,J Royal,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,12,18.0,0,5,2.0,9.0,2026
+1534179,JNT Seales,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,14.0,2,14,4.0,3.5,2026
+1534179,K Gore,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,6,28.0,0,1,1.0,28.0,2026
+1534179,KMA Paul,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,26.0,3,11,4.0,6.5,2026
+1534179,RRS Cornwall,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,6,14.0,0,1,1.0,14.0,2026
+1534179,SK Springer,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,34.0,1,5,4.0,8.5,2026
+1534179,Usama Mir,Jamaica Kingsmen,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,24,12.0,1,15,4.0,3.0,2026
+1534179,VO Lawes,Antigua and Barbuda Falcons,Jamaica Kingsmen,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-07,CPL,12,18.0,0,0,2.0,9.0,2026
+1534180,AJ Hosein,St Kitts and Nevis Patriots,Trinbago Knight Riders,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,24,22.0,0,15,4.0,5.5,2026
+1534180,AR Nedd,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,18,19.0,0,8,3.0,6.33,2026
+1534180,DC Drakes,St Kitts and Nevis Patriots,Trinbago Knight Riders,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,24,18.0,2,13,4.0,4.5,2026
+1534180,JO Holder,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,18,13.0,1,9,3.0,4.33,2026
+1534180,JU Goolie,St Kitts and Nevis Patriots,Trinbago Knight Riders,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,24,24.0,1,8,4.0,6.0,2026
+1534180,N Bidaisee,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,12,7.0,0,6,2.0,3.5,2026
+1534180,OC McCoy,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,12,19.0,1,2,2.0,9.5,2026
+1534180,SN Netravalkar,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,12,8.0,0,5,2.0,4.0,2026
+1534180,SP Narine,St Kitts and Nevis Patriots,Trinbago Knight Riders,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,24,6.0,3,21,4.0,1.5,2026
+1534180,T Hinds,St Kitts and Nevis Patriots,Trinbago Knight Riders,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,24,30.0,3,7,4.0,7.5,2026
+1534180,Waqar Salamkheil,Trinbago Knight Riders,St Kitts and Nevis Patriots,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-08,CPL,18,15.0,1,7,3.0,5.0,2026
+1534181,AS Joseph,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,32.0,3,11,4.0,8.0,2026
+1534181,FA Allen,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,18,25.0,1,12,3.0,8.33,2026
+1534181,J Bishop,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,18,37.0,1,4,3.0,12.33,2026
+1534181,JNT Seales,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,42.0,0,8,4.0,10.5,2026
+1534181,M Clarke,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,12,28.0,0,2,2.0,14.0,2026
+1534181,M Theekshana,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,18.0,2,13,4.0,4.5,2026
+1534181,MW Forde,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,45.0,2,7,4.0,11.25,2026
+1534181,RL Chase,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,15.0,2,12,4.0,3.75,2026
+1534181,RRS Cornwall,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,6,4.0,1,2,1.0,4.0,2026
+1534181,SC van Schalkwyk,Antigua and Barbuda Falcons,St Lucia Kings,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,18,27.0,0,6,3.0,9.0,2026
+1534181,SK Springer,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,39.0,2,6,4.0,9.75,2026
+1534181,Usama Mir,St Lucia Kings,Antigua and Barbuda Falcons,"Arnos Vale Ground, Kingstown, St Vincent",2026-08-09,CPL,24,40.0,1,8,4.0,10.0,2026
+1534182,AD Russell,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,50.0,1,7,4.0,12.5,2026
+1534182,CJ Green,Jamaica Kingsmen,Barbados Tridents,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,26.0,2,11,4.0,6.5,2026
+1534182,DR Sams,Jamaica Kingsmen,Barbados Tridents,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,17.0,4,13,4.0,4.25,2026
+1534182,G Motie,Jamaica Kingsmen,Barbados Tridents,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,50.0,1,9,4.0,12.5,2026
+1534182,Hassan Khan,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,18,19.0,1,3,3.0,6.33,2026
+1534182,Hunain Shah,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,29.0,0,7,4.0,7.25,2026
+1534182,J Blades,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,12,17.0,1,5,2.0,8.5,2026
+1534182,KMA Paul,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,36.0,0,9,4.0,9.0,2026
+1534182,Mujeeb Ur Rahman,Jamaica Kingsmen,Barbados Tridents,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,24,49.0,0,6,4.0,12.25,2026
+1534182,RR Simmonds,Jamaica Kingsmen,Barbados Tridents,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,25,44.0,2,10,4.2,10.56,2026
+1534182,VO Lawes,Barbados Tridents,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-11,CPL,18,41.0,0,3,3.0,13.67,2026
+1534183,J Bishop,St Kitts and Nevis Patriots,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,20.0,1,10,4.0,5.0,2026
+1534183,JO Holder,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,18.0,3,16,4.0,4.5,2026
+1534183,KR Mayers,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,12,15.0,1,3,2.0,7.5,2026
+1534183,M Theekshana,St Kitts and Nevis Patriots,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,22.0,2,16,4.0,5.5,2026
+1534183,MW Forde,St Kitts and Nevis Patriots,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,16,45.0,1,4,2.7,16.88,2026
+1534183,OC McCoy,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,33.0,1,10,4.0,8.25,2026
+1534183,PWH de Silva,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,31.0,0,9,4.0,7.75,2026
+1534183,RL Chase,St Kitts and Nevis Patriots,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,29.0,1,9,4.0,7.25,2026
+1534183,SC van Schalkwyk,St Kitts and Nevis Patriots,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,18,30.0,0,4,3.0,10.0,2026
+1534183,SN Netravalkar,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,24,32.0,3,13,4.0,8.0,2026
+1534183,Waqar Salamkheil,St Lucia Kings,St Kitts and Nevis Patriots,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-12,CPL,12,21.0,0,4,2.0,10.5,2026
+1534184,AD Russell,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,12,12.0,2,4,2.0,6.0,2026
+1534184,D Pretorius,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,12,16.0,0,5,2.0,8.0,2026
+1534184,GD Phillips,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,6,5.0,1,3,1.0,5.0,2026
+1534184,Hassan Khan,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,19,25.0,0,8,3.2,7.89,2026
+1534184,Hunain Shah,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,12,19.0,0,3,2.0,9.5,2026
+1534184,Imran Tahir,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,24,25.0,2,9,4.0,6.25,2026
+1534184,J Blades,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,12,20.0,1,5,2.0,10.0,2026
+1534184,K Pierre,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,24,16.0,1,13,4.0,4.0,2026
+1534184,KMA Paul,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,6,5.0,0,1,1.0,5.0,2026
+1534184,Mohammad Nabi,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,24,22.0,4,11,4.0,5.5,2026
+1534184,R Shepherd,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,12,6.0,0,7,2.0,3.0,2026
+1534184,S Joseph,Jamaica Kingsmen,Guyana Amazon Warriors,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,16,22.0,2,6,2.7,8.25,2026
+1534184,VO Lawes,Guyana Amazon Warriors,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-13,CPL,24,36.0,1,10,4.0,9.0,2026
+1534185,AS Joseph,St Lucia Kings,Antigua and Barbuda Falcons,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,12,16.0,1,4,2.0,8.0,2026
+1534185,J Bishop,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,24,16.0,2,11,4.0,4.0,2026
+1534185,JM James,St Lucia Kings,Antigua and Barbuda Falcons,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,10,12.0,2,6,1.7,7.2,2026
+1534185,JNT Seales,St Lucia Kings,Antigua and Barbuda Falcons,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,12,9.0,1,6,2.0,4.5,2026
+1534185,K Campbell,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,6,6.0,0,3,1.0,6.0,2026
+1534185,M Theekshana,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,24,27.0,0,13,4.0,6.75,2026
+1534185,MW Forde,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,24,27.0,4,10,4.0,6.75,2026
+1534185,RL Chase,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,24,6.0,3,18,4.0,1.5,2026
+1534185,SC van Schalkwyk,Antigua and Barbuda Falcons,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,12,12.0,0,4,2.0,6.0,2026
+1534185,SK Springer,St Lucia Kings,Antigua and Barbuda Falcons,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-14,CPL,12,11.0,3,9,2.0,5.5,2026
+1534186,AD Russell,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,32.0,2,13,4.0,8.0,2026
+1534186,AJ Hosein,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,39.0,0,7,4.0,9.75,2026
+1534186,Hassan Khan,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,12,5.0,0,7,2.0,2.5,2026
+1534186,Hunain Shah,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,31.0,2,9,4.0,7.75,2026
+1534186,KA Pollard,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,6,6.0,1,3,1.0,6.0,2026
+1534186,KMA Paul,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,20,28.0,1,8,3.3,8.4,2026
+1534186,N Edward,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,16,45.0,0,1,2.7,16.88,2026
+1534186,OF Smith,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,18,23.0,0,8,3.0,7.67,2026
+1534186,SP Narine,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,20.0,0,14,4.0,5.0,2026
+1534186,T Hinds,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,18,47.0,1,2,3.0,15.67,2026
+1534186,Usman Tariq,Jamaica Kingsmen,Trinbago Knight Riders,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,21.0,3,13,4.0,5.25,2026
+1534186,VO Lawes,Trinbago Knight Riders,Jamaica Kingsmen,"Sabina Park, Kingston, Jamaica",2026-08-15,CPL,24,51.0,1,7,4.0,12.75,2026
+1534187,CJ Green,St Lucia Kings,Barbados Tridents,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,24,39.0,0,11,4.0,9.75,2026
+1534187,DR Sams,St Lucia Kings,Barbados Tridents,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,18,28.0,1,7,3.0,9.33,2026
+1534187,G Motie,St Lucia Kings,Barbados Tridents,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,24,22.0,4,8,4.0,5.5,2026
+1534187,J Bishop,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,6,10.0,0,2,1.0,10.0,2026
+1534187,K Campbell,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,18,43.0,0,5,3.0,14.33,2026
+1534187,M Theekshana,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,24,26.0,0,8,4.0,6.5,2026
+1534187,MW Forde,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,18,37.0,1,5,3.0,12.33,2026
+1534187,Mujeeb Ur Rahman,St Lucia Kings,Barbados Tridents,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,24,26.0,2,11,4.0,6.5,2026
+1534187,RL Chase,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,24,30.0,2,10,4.0,7.5,2026
+1534187,RR Simmonds,St Lucia Kings,Barbados Tridents,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,18,48.0,1,7,3.0,16.0,2026
+1534187,SC van Schalkwyk,Barbados Tridents,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-16,CPL,18,25.0,2,4,3.0,8.33,2026
 1534321,Aisya Eleesa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,1.0,1,11,2.0,0.5,2026
 1534321,Cai Yuzhi,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,11.0,0,5,2.0,5.5,2026
 1534321,Jiaping Li,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,24,12.0,2,17,4.0,3.0,2026
@@ -145950,6 +146067,262 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1544612,SN Shihepo,Uganda,Namibia,"Namibia Cricket Ground, Windhoek",2026-07-30,T20I,6,14.0,0,1,1.0,14.0,2026
 1544612,V Hamunyela,Uganda,Namibia,"Namibia Cricket Ground, Windhoek",2026-07-30,T20I,24,24.0,0,12,4.0,6.0,2026
 1544612,W Mwatile,Uganda,Namibia,"Namibia Cricket Ground, Windhoek",2026-07-30,T20I,24,23.0,1,12,4.0,5.75,2026
+1545655,AK Ahir,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,12,13.0,2,5,2.0,6.5,2026
+1545655,Abdul Makda,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,12,19.0,0,4,2.0,9.5,2026
+1545655,Bhargav Narasimha,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,15.0,1,15,4.0,3.75,2026
+1545655,D Panda,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,20.0,0,14,4.0,5.0,2026
+1545655,Irfan Hafejee,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,25,18.0,1,13,4.2,4.32,2026
+1545655,J Byrappa,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,12,18.0,0,3,2.0,9.0,2026
+1545655,Lalu Bhai Ahir,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,16.0,1,14,4.0,4.0,2026
+1545655,M Noble,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,6,6.0,0,3,1.0,6.0,2026
+1545655,MY Bawa,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,14.0,1,17,4.0,3.5,2026
+1545655,Mohit Sharma,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,3,2.0,0,1,0.5,4.0,2026
+1545655,Pratik Singh Bais,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,28.0,2,14,4.0,7.0,2026
+1545655,Sufiyan Tarajia,Mexico,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,22.0,1,10,4.0,5.5,2026
+1545655,Y Jasti,Panama,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-06,T20I,24,22.0,2,15,4.0,5.5,2026
+1545656,Abdul Makda,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,6,13.0,0,2,1.0,13.0,2026
+1545656,G Oliveira,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,24,10.0,1,14,4.0,2.5,2026
+1545656,Irfan Hafejee,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,18,23.0,1,6,3.0,7.67,2026
+1545656,Kalpesh Ahir,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,3,5.0,0,1,0.5,10.0,2026
+1545656,LG Moras,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,18,13.0,1,14,3.0,4.33,2026
+1545656,LH Rodrigues,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,18,18.0,0,10,3.0,6.0,2026
+1545656,Lalu Bhai Ahir,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,12,10.0,0,6,2.0,5.0,2026
+1545656,MFI Assuncao,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,18,22.0,3,4,3.0,7.33,2026
+1545656,MY Bawa,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,24,11.0,1,16,4.0,2.75,2026
+1545656,RV Nascimento,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,19,9.0,3,10,3.2,2.84,2026
+1545656,Sarkar Ameji,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,12,17.0,1,5,2.0,8.5,2026
+1545656,Sufiyan Tarajia,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,6,8.0,0,2,1.0,8.0,2026
+1545656,Yasar Haroon,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-07,T20I,24,15.0,1,16,4.0,3.75,2026
+1545657,Bhargav Narasimha,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,19.0,3,14,4.0,4.75,2026
+1545657,D Panda,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,12,14.0,0,5,2.0,7.0,2026
+1545657,G Oliveira,Mexico,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,20.0,1,16,4.0,5.0,2026
+1545657,LG Moras,Mexico,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,16.0,3,18,4.0,4.0,2026
+1545657,LH Rodrigues,Mexico,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,12.0,3,15,4.0,3.0,2026
+1545657,Mohit Sharma,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,12,12.0,1,3,2.0,6.0,2026
+1545657,Pratik Singh Bais,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,26.0,0,12,4.0,6.5,2026
+1545657,Shashikant Laxman,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,17.0,1,12,4.0,4.25,2026
+1545657,Y Jasti,Brazil,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,13.0,2,13,4.0,3.25,2026
+1545657,Yasar Haroon,Mexico,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,23,13.0,3,17,3.8,3.39,2026
+1545658,Abdul Makda,Peru,Panama,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,23.0,0,12,4.0,5.75,2026
+1545658,HK Brahmbhatt,Panama,Peru,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,26.0,2,11,4.0,6.5,2026
+1545658,Irfan Hafejee,Peru,Panama,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,16.0,0,15,4.0,4.0,2026
+1545658,Lalu Bhai Ahir,Peru,Panama,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,14.0,3,17,4.0,3.5,2026
+1545658,MY Bawa,Peru,Panama,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,12.0,0,16,4.0,3.0,2026
+1545658,Nikhil Deshmukh,Panama,Peru,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,6,2.0,0,4,1.0,2.0,2026
+1545658,PH Shamdasani,Panama,Peru,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,11.0,0,16,4.0,2.75,2026
+1545658,R Chatterton,Panama,Peru,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,25,23.0,3,12,4.2,5.52,2026
+1545658,Sufiyan Tarajia,Peru,Panama,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,24,17.0,3,13,4.0,4.25,2026
+1545658,Suresh Kumar,Panama,Peru,"Los Pinos Polo Club 2, Cundinamarca",2026-08-08,T20I,25,21.0,2,15,4.2,5.04,2026
+1545659,Bhargav Narasimha,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,18,16.0,2,10,3.0,5.33,2026
+1545659,D Panda,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,6,5.0,0,4,1.0,5.0,2026
+1545659,GE Gutierrez Chavez,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,3,1.0,1,2,0.5,2.0,2026
+1545659,HK Brahmbhatt,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,18,23.0,1,8,3.0,7.67,2026
+1545659,J Byrappa,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,3,2.0,0,1,0.5,4.0,2026
+1545659,M Noble,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,13.0,0,15,4.0,3.25,2026
+1545659,Mohit Sharma,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,18,10.0,2,12,3.0,3.33,2026
+1545659,Nikhil Deshmukh,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,18,14.0,1,8,3.0,4.67,2026
+1545659,PH Shamdasani,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,21.0,2,12,4.0,5.25,2026
+1545659,Pratik Singh Bais,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,29.0,1,12,4.0,7.25,2026
+1545659,R Chatterton,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,31.0,1,10,4.0,7.75,2026
+1545659,RD Cespedes,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,12,23.0,0,1,2.0,11.5,2026
+1545659,Suresh Kumar,Mexico,Peru,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,24,40.0,3,11,4.0,10.0,2026
+1545659,Waseem Tabrez,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,12,19.0,0,4,2.0,9.5,2026
+1545659,Y Jasti,Peru,Mexico,"Los Pinos Polo Club 1, Cundinamarca",2026-08-08,T20I,12,3.0,0,10,2.0,1.5,2026
+1545660,Amjad Sher,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,24,18.0,0,16,4.0,4.5,2026
+1545660,Atif Mehmood,Finland,Spain,Kerava National Cricket Ground,2026-08-14,T20I,24,23.0,1,11,4.0,5.75,2026
+1545660,C Rumistrzewicz,Finland,Spain,Kerava National Cricket Ground,2026-08-14,T20I,24,17.0,3,11,4.0,4.25,2026
+1545660,Faraaz Mehti Abbas,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,4,13.0,0,1,0.7,19.5,2026
+1545660,Hammadullah Shinwari,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,18,34.0,0,7,3.0,11.33,2026
+1545660,Junaid Khan,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,6,10.0,0,2,1.0,10.0,2026
+1545660,LA Burns,Finland,Spain,Kerava National Cricket Ground,2026-08-14,T20I,24,26.0,4,11,4.0,6.5,2026
+1545660,MB Tambe,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,6,11.0,0,0,1.0,11.0,2026
+1545660,Mohammad Kamran,Finland,Spain,Kerava National Cricket Ground,2026-08-14,T20I,24,34.0,0,6,4.0,8.5,2026
+1545660,NM Salonen,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,18,20.0,0,7,3.0,6.67,2026
+1545660,PEA Karunarathna,Spain,Finland,Kerava National Cricket Ground,2026-08-14,T20I,24,22.0,2,13,4.0,5.5,2026
+1545660,Yasir Ali,Finland,Spain,Kerava National Cricket Ground,2026-08-14,T20I,24,23.0,1,14,4.0,5.75,2026
+1545661,AL Khunti,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,24,32.0,0,8,4.0,8.0,2026
+1545661,C De Freitas,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,6,3.0,0,3,1.0,3.0,2026
+1545661,Edward Fleming,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,24,11.0,3,13,4.0,2.75,2026
+1545661,Elan Talker,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,18,27.0,1,8,3.0,9.0,2026
+1545661,J Martins,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,18,7.0,2,11,3.0,2.33,2026
+1545661,Niv Nagavkar,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,18,23.0,0,8,3.0,7.67,2026
+1545661,R Hashu,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,12,8.0,2,7,2.0,4.0,2026
+1545661,SC de Oliveira,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,18,8.0,1,13,3.0,2.67,2026
+1545661,SF Mangoda,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,24,23.0,2,8,4.0,5.75,2026
+1545661,Sirajullah Khadim,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,24,17.0,1,12,4.0,4.25,2026
+1545661,U Shantu,Israel,Portugal,Tikkurila Cricket Ground,2026-08-14,T20I,18,11.0,0,11,3.0,3.67,2026
+1545661,WSLK Narayana,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,12,13.0,0,3,2.0,6.5,2026
+1545661,Yair Nagavkar,Portugal,Israel,Tikkurila Cricket Ground,2026-08-14,T20I,24,34.0,1,4,4.0,8.5,2026
+1545662,C Liebenberg,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,24,19.0,4,11,4.0,4.75,2026
+1545662,CJ Langford,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,19,26.0,0,3,3.2,8.21,2026
+1545662,D Jansen,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,14,21.0,1,3,2.3,9.0,2026
+1545662,G Newton,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,18,18.0,0,10,3.0,6.0,2026
+1545662,J Madan,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,12,18.0,0,5,2.0,9.0,2026
+1545662,Kamal Soukhiya,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,24,16.0,1,12,4.0,4.0,2026
+1545662,MJ Ansell,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,24,17.0,4,14,4.0,4.25,2026
+1545662,Mayank Nagayach,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,24,26.0,0,13,4.0,6.5,2026
+1545662,Milad Momend,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,12,16.0,0,2,2.0,8.0,2026
+1545662,N Knights,Luxembourg,Isle of Man,Kerava National Cricket Ground,2026-08-14,T20I,12,7.0,1,5,2.0,3.5,2026
+1545662,V Vijh,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,12,14.0,0,1,2.0,7.0,2026
+1545662,Vivek Dixit,Isle of Man,Luxembourg,Kerava National Cricket Ground,2026-08-14,T20I,18,22.0,1,4,3.0,7.33,2026
+1545663,D Ramani,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,24,48.0,2,6,4.0,12.0,2026
+1545663,Fayaz Khan,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,6,11.0,2,2,1.0,11.0,2026
+1545663,Muslim Yar,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,24,25.0,1,13,4.0,6.25,2026
+1545663,N Tyagi,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,24,29.0,2,6,4.0,7.25,2026
+1545663,PD Dabholkar,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,18,39.0,0,2,3.0,13.0,2026
+1545663,RM Magare,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,6,15.0,0,1,1.0,15.0,2026
+1545663,Ritik Tomar,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,13,26.0,0,1,2.2,12.0,2026
+1545663,S Davizi,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,24,35.0,1,7,4.0,8.75,2026
+1545663,Sajid Liaqat,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,24,29.0,1,14,4.0,7.25,2026
+1545663,Saqlain Mukhtar,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,12,18.0,0,5,2.0,9.0,2026
+1545663,Sazib Bhuiyan,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,9,17.0,0,1,1.5,11.33,2026
+1545663,Shahid Afridi,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,24,15.0,1,9,4.0,3.75,2026
+1545663,V Jatinder Kumar,Czech Republic,Germany,Tikkurila Cricket Ground,2026-08-14,T20I,24,29.0,2,11,4.0,7.25,2026
+1545663,V Marghashayam,Germany,Czech Republic,Tikkurila Cricket Ground,2026-08-14,T20I,15,24.0,0,2,2.5,9.6,2026
+1545664,AS Mehmi,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,24,24.0,0,7,4.0,6.0,2026
+1545664,BADL Faunce,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,24,28.0,2,13,4.0,7.0,2026
+1545664,BJ Konstas,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,24,37.0,1,7,4.0,9.25,2026
+1545664,D Ramani,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,24,25.0,4,12,4.0,6.25,2026
+1545664,D Triantafillithis,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,2,3.0,0,0,0.3,9.0,2026
+1545664,Emanuel,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,12,17.0,0,5,2.0,8.5,2026
+1545664,JR Cope,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,24,29.0,3,10,4.0,7.25,2026
+1545664,N Tyagi,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,12,15.0,0,5,2.0,7.5,2026
+1545664,S Davizi,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,7,11.0,0,3,1.2,9.43,2026
+1545664,S Wickramasekara,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,24,20.0,1,11,4.0,5.0,2026
+1545664,Sajid Khan Afridi,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,12,17.0,0,3,2.0,8.5,2026
+1545664,Samader Shadab,Czech Republic,Greece,Kerava National Cricket Ground,2026-08-15,T20I,12,13.0,1,3,2.0,6.5,2026
+1545664,Saqlain Mukhtar,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,18,18.0,0,4,3.0,6.0,2026
+1545664,Sazib Bhuiyan,Greece,Czech Republic,Kerava National Cricket Ground,2026-08-15,T20I,12,18.0,1,3,2.0,9.0,2026
+1545665,Atif Mehmood,Isle of Man,Spain,Tikkurila Cricket Ground,2026-08-15,T20I,24,17.0,3,15,4.0,4.25,2026
+1545665,C Liebenberg,Spain,Isle of Man,Tikkurila Cricket Ground,2026-08-15,T20I,12,20.0,1,3,2.0,10.0,2026
+1545665,C Rumistrzewicz,Isle of Man,Spain,Tikkurila Cricket Ground,2026-08-15,T20I,24,17.0,1,10,4.0,4.25,2026
+1545665,CJ Langford,Spain,Isle of Man,Tikkurila Cricket Ground,2026-08-15,T20I,18,27.0,0,5,3.0,9.0,2026
+1545665,D Jansen,Spain,Isle of Man,Tikkurila Cricket Ground,2026-08-15,T20I,3,5.0,0,1,0.5,10.0,2026
+1545665,G Newton,Spain,Isle of Man,Tikkurila Cricket Ground,2026-08-15,T20I,24,10.0,2,17,4.0,2.5,2026
+1545665,LA Burns,Isle of Man,Spain,Tikkurila Cricket Ground,2026-08-15,T20I,24,19.0,2,10,4.0,4.75,2026
+1545665,MJ Ansell,Spain,Isle of Man,Tikkurila Cricket Ground,2026-08-15,T20I,24,43.0,0,10,4.0,10.75,2026
+1545665,Mohammad Kamran,Isle of Man,Spain,Tikkurila Cricket Ground,2026-08-15,T20I,24,18.0,1,15,4.0,4.5,2026
+1545665,Yasir Ali,Isle of Man,Spain,Tikkurila Cricket Ground,2026-08-15,T20I,24,26.0,1,8,4.0,6.5,2026
+1545666,Ahmad Ullah,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,24,20.0,1,11,4.0,5.0,2026
+1545666,Edward Fleming,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,18,21.0,0,6,3.0,7.0,2026
+1545666,J Martins,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,24,30.0,2,11,4.0,7.5,2026
+1545666,J van Heerden,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,20,23.0,1,8,3.3,6.9,2026
+1545666,Muslim Yar,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,24,30.0,1,12,4.0,7.5,2026
+1545666,R Hashu,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,18,18.0,1,5,3.0,6.0,2026
+1545666,SC de Oliveira,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,24,19.0,3,14,4.0,4.75,2026
+1545666,Sajid Liaqat,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,18,23.0,1,8,3.0,7.67,2026
+1545666,Shahid Afridi,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,6,9.0,1,3,1.0,9.0,2026
+1545666,Sirajullah Khadim,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,24,27.0,2,11,4.0,6.75,2026
+1545666,U Shantu,Germany,Portugal,Kerava National Cricket Ground,2026-08-15,T20I,12,22.0,1,4,2.0,11.0,2026
+1545666,V Jatinder Kumar,Portugal,Germany,Kerava National Cricket Ground,2026-08-15,T20I,24,35.0,1,9,4.0,8.75,2026
+1545667,Ali Rasool,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,12,26.0,1,2,2.0,13.0,2026
+1545667,Amjad Sher,Bulgaria,Finland,Tikkurila Cricket Ground,2026-08-15,T20I,24,32.0,1,8,4.0,8.0,2026
+1545667,Danyal Raja,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,24,31.0,3,11,4.0,7.75,2026
+1545667,H Lakov,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,18,35.0,1,5,3.0,11.67,2026
+1545667,Hammadullah Shinwari,Bulgaria,Finland,Tikkurila Cricket Ground,2026-08-15,T20I,24,28.0,5,13,4.0,7.0,2026
+1545667,Jakob Gul,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,24,40.0,1,7,4.0,10.0,2026
+1545667,Junaid Khan,Bulgaria,Finland,Tikkurila Cricket Ground,2026-08-15,T20I,24,18.0,1,12,4.0,4.5,2026
+1545667,M Gogev,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,24,46.0,2,6,4.0,11.5,2026
+1545667,Madhawa Basnayaka,Bulgaria,Finland,Tikkurila Cricket Ground,2026-08-15,T20I,24,44.0,1,9,4.0,11.0,2026
+1545667,NM Salonen,Bulgaria,Finland,Tikkurila Cricket Ground,2026-08-15,T20I,18,16.0,1,10,3.0,5.33,2026
+1545667,P Mishra,Finland,Bulgaria,Tikkurila Cricket Ground,2026-08-15,T20I,19,39.0,1,3,3.2,12.32,2026
+1545668,AL Khunti,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,6,15.0,0,2,1.0,15.0,2026
+1545668,Ahmad Ullah,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,24,22.0,3,13,4.0,5.5,2026
+1545668,Ahmed Wardak,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,11,10.0,1,2,1.8,5.45,2026
+1545668,Elan Talker,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,12,16.0,1,5,2.0,8.0,2026
+1545668,JE Marks,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,6,10.0,0,3,1.0,10.0,2026
+1545668,Muslim Yar,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,24,10.0,1,15,4.0,2.5,2026
+1545668,Niv Nagavkar,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,6,13.0,0,1,1.0,13.0,2026
+1545668,PD Dabholkar,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,18,17.0,1,6,3.0,5.67,2026
+1545668,SF Mangoda,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,6,22.0,0,1,1.0,22.0,2026
+1545668,Shahid Afridi,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,18,11.0,1,9,3.0,3.67,2026
+1545668,V Jatinder Kumar,Israel,Germany,Kerava National Cricket Ground,2026-08-17,T20I,24,17.0,3,15,4.0,4.25,2026
+1545668,WSLK Narayana,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,3,3.0,0,1,0.5,6.0,2026
+1545668,Yair Nagavkar,Germany,Israel,Kerava National Cricket Ground,2026-08-17,T20I,6,15.0,0,0,1.0,15.0,2026
+1545669,C Liebenberg,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,18,13.0,1,8,3.0,4.33,2026
+1545669,CJ Langford,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,24,12.0,1,12,4.0,3.0,2026
+1545669,D Jansen,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,6,10.0,0,2,1.0,10.0,2026
+1545669,Danyal Raja,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,18,21.0,0,7,3.0,7.0,2026
+1545669,G Newton,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,24,17.0,0,15,4.0,4.25,2026
+1545669,H Lakov,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,24,42.0,2,11,4.0,10.5,2026
+1545669,JA Burrows,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,24,19.0,2,13,4.0,4.75,2026
+1545669,Jakob Gul,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,24,20.0,1,9,4.0,5.0,2026
+1545669,M Gogev,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,24,34.0,1,6,4.0,8.5,2026
+1545669,MJ Ansell,Bulgaria,Isle of Man,Tikkurila Cricket Ground,2026-08-17,T20I,24,12.0,4,15,4.0,3.0,2026
+1545669,O Duff,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,12,14.0,1,5,2.0,7.0,2026
+1545669,P Mishra,Isle of Man,Bulgaria,Tikkurila Cricket Ground,2026-08-17,T20I,18,42.0,2,4,3.0,14.0,2026
+1545670,AS Mehmi,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,12,13.0,1,3,2.0,6.5,2026
+1545670,BADL Faunce,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,18,14.0,0,7,3.0,4.67,2026
+1545670,C De Freitas,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,6,4.0,0,2,1.0,4.0,2026
+1545670,D Triantafillithis,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,6,24.0,0,2,1.0,24.0,2026
+1545670,Edward Fleming,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,24,23.0,0,12,4.0,5.75,2026
+1545670,Emanuel,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,18,16.0,1,10,3.0,5.33,2026
+1545670,J Martins,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,21,9.0,3,14,3.5,2.57,2026
+1545670,SC de Oliveira,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,24,22.0,4,15,4.0,5.5,2026
+1545670,Sajid Khan Afridi,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,19,23.0,0,5,3.2,7.26,2026
+1545670,Sinan Khan,Portugal,Greece,Kerava National Cricket Ground,2026-08-17,T20I,24,30.0,1,10,4.0,7.5,2026
+1545670,Sirajullah Khadim,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,18,22.0,2,11,3.0,7.33,2026
+1545670,U Shantu,Greece,Portugal,Kerava National Cricket Ground,2026-08-17,T20I,24,32.0,1,14,4.0,8.0,2026
+1545671,Hamza Dar,Luxembourg,Spain,Tikkurila Cricket Ground,2026-08-17,T20I,12,7.0,1,8,2.0,3.5,2026
+1545671,J Madan,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,24,26.0,3,16,4.0,6.5,2026
+1545671,Kamal Soukhiya,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,24,52.0,2,9,4.0,13.0,2026
+1545671,LA Burns,Luxembourg,Spain,Tikkurila Cricket Ground,2026-08-17,T20I,6,3.0,0,3,1.0,3.0,2026
+1545671,Mayank Nagayach,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,18,31.0,0,4,3.0,10.33,2026
+1545671,Milad Momend,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,18,33.0,0,5,3.0,11.0,2026
+1545671,Mohammad Atif,Luxembourg,Spain,Tikkurila Cricket Ground,2026-08-17,T20I,24,14.0,0,17,4.0,3.5,2026
+1545671,Mohammad Kamran,Luxembourg,Spain,Tikkurila Cricket Ground,2026-08-17,T20I,24,19.0,6,13,4.0,4.75,2026
+1545671,SJ Hughes-Pinan,Luxembourg,Spain,Tikkurila Cricket Ground,2026-08-17,T20I,24,17.0,3,17,4.0,4.25,2026
+1545671,V Vijh,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,18,30.0,0,3,3.0,10.0,2026
+1545671,Vivek Dixit,Spain,Luxembourg,Tikkurila Cricket Ground,2026-08-17,T20I,18,28.0,1,3,3.0,9.33,2026
+1546000,Ansh Patel,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,60,46.0,0,30,10.0,4.6,2026
+1546000,BJ McMullen,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,61,42.0,3,39,10.2,4.13,2026
+1546000,H Thaker,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,30,34.0,0,5,5.0,6.8,2026
+1546000,JJ Davidson,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,37,35.0,1,20,6.2,5.68,2026
+1546000,Kaleem Sana,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,60,61.0,2,33,10.0,6.1,2026
+1546000,MRJ Watt,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,60,38.0,1,33,10.0,3.8,2026
+1546000,Meet Patel,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,31,36.0,1,15,5.2,6.97,2026
+1546000,O Davidson,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,54,48.0,2,21,9.0,5.33,2026
+1546000,SM Sharif,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,50,39.0,1,27,8.3,4.68,2026
+1546000,Saad Bin Zafar,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,60,37.0,1,30,10.0,3.7,2026
+1546000,Zahid Shirzad,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,62,54.0,3,39,10.3,5.23,2026
+1546000,Zainullah Ihsan,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,36,45.0,2,14,6.0,7.5,2026
+1546001,AD Nath,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,42,32.0,2,16,7.0,4.57,2026
+1546001,Aayan Afzal Khan,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,48,42.0,0,22,8.0,5.25,2026
+1546001,BJ McMullen,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,48,25.0,3,34,8.0,3.12,2026
+1546001,D Parashar,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,12,18.0,0,3,2.0,9.0,2026
+1546001,J Jarvis,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,42,45.0,3,14,7.0,6.43,2026
+1546001,JJ Davidson,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,36,36.0,0,16,6.0,6.0,2026
+1546001,Junaid Siddique,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,48,39.0,1,29,8.0,4.88,2026
+1546001,MRJ Watt,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,48,52.0,1,27,8.0,6.5,2026
+1546001,Muhammad Arfan,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,41,48.0,3,19,6.8,7.02,2026
+1546001,Muhammad Jawadullah,Scotland,United Arab Emirates,"Forthill, Dundee",2026-08-09,ODI,48,47.0,3,23,8.0,5.88,2026
+1546001,O Jones,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,18,18.0,0,7,3.0,6.0,2026
+1546001,SM Sharif,United Arab Emirates,Scotland,"Forthill, Dundee",2026-08-09,ODI,48,42.0,1,23,8.0,5.25,2026
+1546002,AD Nath,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,36,52.0,1,18,6.0,8.67,2026
+1546002,Aayan Afzal Khan,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,46,20.0,1,35,7.7,2.61,2026
+1546002,Ali Khan,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,48,42.0,0,18,8.0,5.25,2026
+1546002,Ansh Patel,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,42,57.0,1,12,7.0,8.14,2026
+1546002,Junaid Siddique,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,36,36.0,1,22,6.0,6.0,2026
+1546002,Kaleem Sana,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,60,38.0,3,38,10.0,3.8,2026
+1546002,Muhammad Arfan,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,36,19.0,2,29,6.0,3.17,2026
+1546002,Muhammad Jawadullah,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,42,33.0,3,29,7.0,4.71,2026
+1546002,NR Kirton,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,30,31.0,0,14,5.0,6.2,2026
+1546002,R Chopra,Canada,United Arab Emirates,"Forthill, Dundee",2026-08-11,ODI,6,6.0,1,3,1.0,6.0,2026
+1546002,Saad Bin Zafar,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,60,47.0,0,29,10.0,4.7,2026
+1546002,Zahid Shirzad,United Arab Emirates,Canada,"Forthill, Dundee",2026-08-11,ODI,60,49.0,2,34,10.0,4.9,2026
+1546003,Ansh Patel,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,42,65.0,0,20,7.0,9.29,2026
+1546003,BJ McMullen,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,24,23.0,0,14,4.0,5.75,2026
+1546003,H Thaker,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,42,43.0,0,16,7.0,6.14,2026
+1546003,J Jarvis,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,36,30.0,2,17,6.0,5.0,2026
+1546003,Kaleem Sana,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,60,55.0,2,36,10.0,5.5,2026
+1546003,LJ Robertson,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,60,51.0,6,34,10.0,5.1,2026
+1546003,MRJ Watt,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,42,36.0,1,23,7.0,5.14,2026
+1546003,O Davidson,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,24,21.0,0,12,4.0,5.25,2026
+1546003,SM Sharif,Canada,Scotland,"Forthill, Dundee",2026-08-13,ODI,24,9.0,1,15,4.0,2.25,2026
+1546003,Saad Bin Zafar,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,60,50.0,0,35,10.0,5.0,2026
+1546003,Shivam Sharma,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,12,26.0,0,4,2.0,13.0,2026
+1546003,YS Samra,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,24,31.0,1,12,4.0,7.75,2026
+1546003,Zahid Shirzad,Scotland,Canada,"Forthill, Dundee",2026-08-13,ODI,60,56.0,4,38,10.0,5.6,2026
 1546377,Dawood Ahmadzai,Romania,France,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-25,T20I,17,32.0,0,5,2.8,11.29,2026
 1546377,Irfan Ringku,France,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-25,T20I,18,26.0,1,7,3.0,8.67,2026
 1546377,J Khadka,France,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-25,T20I,24,16.0,1,13,4.0,4.0,2026
@@ -146112,6 +146485,100 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1546389,T Sandaruwan,France,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-30,T20I,18,20.0,2,5,3.0,6.67,2026
 1546389,Usman Khan,Romania,France,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-30,T20I,18,28.0,0,5,3.0,9.33,2026
 1546389,V Saini,France,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-07-30,T20I,6,9.0,0,3,1.0,9.0,2026
+1547089,Ayaz Dadabhai,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,24,19.0,2,13,4.0,4.75,2026
+1547089,C Nzabarinda,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-11,T20I,24,35.0,1,10,4.0,8.75,2026
+1547089,E Rukiriza,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-11,T20I,24,23.0,2,15,4.0,5.75,2026
+1547089,I Ntirenganya,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-11,T20I,24,22.0,1,14,4.0,5.5,2026
+1547089,Ismail Kara,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,19,25.0,0,11,3.2,7.89,2026
+1547089,JV Chand,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,6,19.0,0,1,1.0,19.0,2026
+1547089,Javid Patel,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,18,21.0,1,7,3.0,7.0,2026
+1547089,M Akayezu,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-11,T20I,24,29.0,3,13,4.0,7.25,2026
+1547089,Muhammad Nadir,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-11,T20I,24,22.0,2,11,4.0,5.5,2026
+1547089,R Lungu,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,18,24.0,0,7,3.0,8.0,2026
+1547089,Soyeb Pendi,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,12,17.0,0,3,2.0,8.5,2026
+1547089,Zakir Husain Patel,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,12,12.0,0,6,2.0,6.0,2026
+1547090,Ayaz Dadabhai,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,18,14.0,1,10,3.0,4.67,2026
+1547090,B Balala,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,6,9.0,0,3,1.0,9.0,2026
+1547090,B Pondani,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,18,23.0,0,11,3.0,7.67,2026
+1547090,D Jakiel,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,23,8.0,4,16,3.8,2.09,2026
+1547090,Ismail Kara,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,24,39.0,3,10,4.0,9.75,2026
+1547090,Javid Patel,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,12,25.0,1,2,2.0,12.5,2026
+1547090,Joshep Zulu,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,18,19.0,2,9,3.0,6.33,2026
+1547090,K Thuchila,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,24,22.0,2,13,4.0,5.5,2026
+1547090,Matthew Mount,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,6,10.0,0,4,1.0,10.0,2026
+1547090,R Lungu,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,25,20.0,2,14,4.2,4.8,2026
+1547090,SZ Vayani,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-11,T20I,24,25.0,4,12,4.0,6.25,2026
+1547090,Zakir Husain Patel,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-11,T20I,24,20.0,0,12,4.0,5.0,2026
+1547091,B Pondani,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-12,T20I,18,10.0,1,8,3.0,3.33,2026
+1547091,D Jakiel,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-12,T20I,25,22.0,2,15,4.2,5.28,2026
+1547091,E Rukiriza,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,24,16.0,0,14,4.0,4.0,2026
+1547091,I Ntirenganya,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,25,31.0,1,10,4.2,7.44,2026
+1547091,JM Iradukunda,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,18,18.0,1,8,3.0,6.0,2026
+1547091,K Thuchila,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-12,T20I,24,27.0,1,10,4.0,6.75,2026
+1547091,M Akayezu,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,18,17.0,2,12,3.0,5.67,2026
+1547091,Muhammad Nadir,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,24,12.0,3,17,4.0,3.0,2026
+1547091,SZ Vayani,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-12,T20I,24,27.0,0,6,4.0,6.75,2026
+1547091,Sami Sohail,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-12,T20I,24,12.0,1,12,4.0,3.0,2026
+1547091,Yves Cyusa,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,12,6.0,1,6,2.0,3.0,2026
+1547092,Ayaz Dadabhai,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,18,31.0,2,5,3.0,10.33,2026
+1547092,E Rukiriza,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,24,21.0,4,15,4.0,5.25,2026
+1547092,I Mugisha,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,24,30.0,2,10,4.0,7.5,2026
+1547092,I Ntirenganya,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,18,16.0,2,13,3.0,5.33,2026
+1547092,Ismail Kara,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,24,17.0,2,14,4.0,4.25,2026
+1547092,Joshep Zulu,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,12,15.0,0,3,2.0,7.5,2026
+1547092,M Akayezu,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,12,30.0,0,4,2.0,15.0,2026
+1547092,Muhammad Nadir,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,24,22.0,0,15,4.0,5.5,2026
+1547092,R Lungu,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,24,18.0,3,15,4.0,4.5,2026
+1547092,Soyeb Pendi,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,24,31.0,0,10,4.0,7.75,2026
+1547092,Yves Cyusa,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-12,T20I,18,19.0,0,7,3.0,6.33,2026
+1547092,Zakir Husain Patel,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-12,T20I,18,21.0,1,3,3.0,7.0,2026
+1547094,B Pondani,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,12,14.0,1,6,2.0,7.0,2026
+1547094,C Nzabarinda,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-14,T20I,12,19.0,1,4,2.0,9.5,2026
+1547094,D Jakiel,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,12,9.0,5,9,2.0,4.5,2026
+1547094,E Rukiriza,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-14,T20I,12,18.0,1,5,2.0,9.0,2026
+1547094,I Ntirenganya,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-14,T20I,18,17.0,0,12,3.0,5.67,2026
+1547094,JM Iradukunda,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-14,T20I,18,14.0,1,8,3.0,4.67,2026
+1547094,K Thuchila,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,18,19.0,1,10,3.0,6.33,2026
+1547094,M Choamba,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,3,0.0,1,3,0.5,0.0,2026
+1547094,Muhammad Nadir,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-14,T20I,18,17.0,2,9,3.0,5.67,2026
+1547094,SZ Vayani,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,12,13.0,0,6,2.0,6.5,2026
+1547094,Sami Sohail,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-14,T20I,18,14.0,2,10,3.0,4.67,2026
+1547095,Ayaz Dadabhai,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,24,16.0,3,14,4.0,4.0,2026
+1547095,E Rukiriza,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,24,15.0,3,17,4.0,3.75,2026
+1547095,I Mugisha,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,6,10.0,0,2,1.0,10.0,2026
+1547095,I Ntirenganya,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,24,21.0,2,13,4.0,5.25,2026
+1547095,Ismail Kara,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,25,25.0,0,12,4.2,6.0,2026
+1547095,JM Iradukunda,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,12,26.0,0,4,2.0,13.0,2026
+1547095,Javid Patel,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,24,23.0,0,10,4.0,5.75,2026
+1547095,Joshep Zulu,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,12,11.0,0,7,2.0,5.5,2026
+1547095,M Akayezu,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,24,31.0,0,11,4.0,7.75,2026
+1547095,Muhammad Nadir,Zambia,Rwanda,"TCA Oval, Blantyre",2026-08-15,T20I,24,19.0,1,17,4.0,4.75,2026
+1547095,R Lungu,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,24,17.0,0,11,4.0,4.25,2026
+1547095,Zakir Husain Patel,Rwanda,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,12,18.0,2,5,2.0,9.0,2026
+1547096,Ayaz Dadabhai,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,18,16.0,1,8,3.0,5.33,2026
+1547096,B Pondani,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,25,38.0,2,10,4.2,9.12,2026
+1547096,D Jakiel,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,18,25.0,2,10,3.0,8.33,2026
+1547096,Ismail Kara,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,24,10.0,2,17,4.0,2.5,2026
+1547096,Javid Patel,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,24,22.0,2,11,4.0,5.5,2026
+1547096,K Thuchila,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,24,32.0,1,12,4.0,8.0,2026
+1547096,M Choamba,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,12,7.0,0,5,2.0,3.5,2026
+1547096,Matthew Mount,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,6,6.0,0,3,1.0,6.0,2026
+1547096,R Lungu,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,25,22.0,3,14,4.2,5.28,2026
+1547096,SZ Vayani,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,12,21.0,0,6,2.0,10.5,2026
+1547096,Sami Sohail,Zambia,Malawi,"TCA Oval, Blantyre",2026-08-15,T20I,24,34.0,4,11,4.0,8.5,2026
+1547096,Soyeb Pendi,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,18,26.0,1,8,3.0,8.67,2026
+1547096,Zakir Husain Patel,Malawi,Zambia,"TCA Oval, Blantyre",2026-08-15,T20I,12,24.0,0,3,2.0,12.0,2026
+1547097,B Balala,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,6,1.0,0,5,1.0,1.0,2026
+1547097,D Jakiel,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,24,35.0,1,12,4.0,8.75,2026
+1547097,E Rukiriza,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-16,T20I,24,18.0,3,12,4.0,4.5,2026
+1547097,I Ntirenganya,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-16,T20I,24,27.0,1,9,4.0,6.75,2026
+1547097,JM Iradukunda,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-16,T20I,24,20.0,1,12,4.0,5.0,2026
+1547097,K Thuchila,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,24,15.0,1,18,4.0,3.75,2026
+1547097,M Akayezu,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-16,T20I,24,17.0,1,10,4.0,4.25,2026
+1547097,M Choamba,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,24,19.0,4,17,4.0,4.75,2026
+1547097,Muhammad Nadir,Malawi,Rwanda,"TCA Oval, Blantyre",2026-08-16,T20I,24,11.0,1,18,4.0,2.75,2026
+1547097,SZ Vayani,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,24,18.0,2,13,4.0,4.5,2026
+1547097,Sami Sohail,Rwanda,Malawi,"TCA Oval, Blantyre",2026-08-16,T20I,6,6.0,0,3,1.0,6.0,2026
 1547107,A Vessik,Finland,Estonia,Estonian National Cricket and Rugby Field,2026-07-25,T20I,18,8.0,0,12,3.0,2.67,2026
 1547107,Aryaa Kulkarni,Finland,Estonia,Estonian National Cricket and Rugby Field,2026-07-25,T20I,17,8.0,1,10,2.8,2.82,2026
 1547107,Elina Rama,Estonia,Finland,Estonian National Cricket and Rugby Field,2026-07-25,T20I,12,6.0,0,7,2.0,3.0,2026
@@ -146149,3 +146616,88 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1548123,Rizwan Butt,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,26.0,2,11,4.0,6.5,2026
 1548123,S Gill,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,28.0,0,12,4.0,7.0,2026
 1548123,SO Ngoche,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,25.0,2,11,4.0,6.25,2026
+1549208,Chayanisa Phengpaen,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,12,5.0,1,8,2.0,2.5,2026
+1549208,GP Tom,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,12,16.0,0,6,2.0,8.0,2026
+1549208,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,24,25.0,1,11,4.0,6.25,2026
+1549208,HL Tau,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,18,15.0,0,7,3.0,5.0,2026
+1549208,I Toua,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,24,13.0,3,14,4.0,3.25,2026
+1549208,O Kamchomphu,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,24,11.0,1,16,4.0,2.75,2026
+1549208,P Maya,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,18,27.0,0,8,3.0,9.0,2026
+1549208,P Siaka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,18,18.0,0,6,3.0,6.0,2026
+1549208,S Chaturongrattana,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,24,19.0,2,15,4.0,4.75,2026
+1549208,S Jimmy,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,24,18.0,1,12,4.0,4.5,2026
+1549208,S Laomi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,18,17.0,0,9,3.0,5.67,2026
+1549208,T Putthawong,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,24,22.0,1,15,4.0,5.5,2026
+1549209,Chayanisa Phengpaen,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,6,6.0,0,1,1.0,6.0,2026
+1549209,GP Tom,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,6,15.0,0,0,1.0,15.0,2026
+1549209,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,24,18.0,2,13,4.0,4.5,2026
+1549209,HL Tau,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,20,12.0,0,11,3.3,3.6,2026
+1549209,I Toua,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,24,13.0,2,14,4.0,3.25,2026
+1549209,O Kamchomphu,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,24,10.0,1,16,4.0,2.5,2026
+1549209,P Maya,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,24,7.0,4,19,4.0,1.75,2026
+1549209,P Siaka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,18,8.0,0,11,3.0,2.67,2026
+1549209,S Chaturongrattana,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,18,19.0,0,7,3.0,6.33,2026
+1549209,S Jimmy,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-11,T20I,18,21.0,0,4,3.0,7.0,2026
+1549209,S Laomi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,24,13.0,2,13,4.0,3.25,2026
+1549209,T Putthawong,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-11,T20I,24,24.0,2,13,4.0,6.0,2026
+1549210,A Suwanchonrathi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,18,8.0,1,13,3.0,2.67,2026
+1549210,C Sutthiruang,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,24,10.0,0,17,4.0,2.5,2026
+1549210,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,60,31.0,4,37,10.0,3.1,2026
+1549210,HL Tau,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,55,53.0,2,22,9.2,5.78,2026
+1549210,I Toua,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,44,41.0,0,15,7.3,5.59,2026
+1549210,K Oala,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,6,10.0,0,2,1.0,10.0,2026
+1549210,O Kamchomphu,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,33,15.0,3,22,5.5,2.73,2026
+1549210,P Maya,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,30,15.0,0,23,5.0,3.0,2026
+1549210,P Siaka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,60,33.0,0,36,10.0,3.3,2026
+1549210,S Chaturongrattana,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,36,19.0,3,27,6.0,3.17,2026
+1549210,S Jimmy,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,18,20.0,0,5,3.0,6.67,2026
+1549210,S Laomi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,36,21.0,1,19,6.0,3.5,2026
+1549210,T Putthawong,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-13,ODI,36,15.0,2,25,6.0,2.5,2026
+1549210,V Buruka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-13,ODI,60,41.0,2,35,10.0,4.1,2026
+1549211,A Suwanchonrathi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,6,4.0,0,5,1.0,4.0,2026
+1549211,C Sutthiruang,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,30,10.0,1,22,5.0,2.0,2026
+1549211,D Lohia,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,19,28.0,1,7,3.2,8.84,2026
+1549211,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,60,50.0,1,26,10.0,5.0,2026
+1549211,I Toua,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,44,38.0,1,22,7.3,5.18,2026
+1549211,O Kamchomphu,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,60,31.0,2,39,10.0,3.1,2026
+1549211,P Maya,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,42,16.0,3,27,7.0,2.29,2026
+1549211,P Siaka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,57,18.0,4,44,9.5,1.89,2026
+1549211,S Chaturongrattana,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,60,23.0,1,43,10.0,2.3,2026
+1549211,S Jimmy,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,55,25.0,3,37,9.2,2.73,2026
+1549211,S Laomi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,30,21.0,0,14,5.0,4.2,2026
+1549211,T Putthawong,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-15,ODI,48,33.0,3,29,8.0,4.12,2026
+1549211,V Buruka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-15,ODI,54,28.0,0,32,9.0,3.11,2026
+1549212,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-17,ODI,36,28.0,4,24,6.0,4.67,2026
+1549212,HL Tau,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-17,ODI,12,10.0,0,5,2.0,5.0,2026
+1549212,O Kamchomphu,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-17,ODI,60,23.0,3,44,10.0,2.3,2026
+1549212,P Maya,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-17,ODI,54,20.0,1,40,9.0,2.22,2026
+1549212,P Siaka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-17,ODI,30,21.0,0,20,5.0,4.2,2026
+1549212,S Chaturongrattana,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-17,ODI,60,24.0,1,46,10.0,2.4,2026
+1549212,S Jimmy,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-17,ODI,48,34.0,0,28,8.0,4.25,2026
+1549212,S Laomi,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-17,ODI,60,27.0,3,40,10.0,2.7,2026
+1549212,T Putthawong,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-17,ODI,48,22.0,2,34,8.0,2.75,2026
+1549212,V Buruka,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-17,ODI,36,28.0,1,23,6.0,4.67,2026
+1549355,G Oliveira,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,12.0,1,13,4.0,3.0,2026
+1549355,Irfan Hafejee,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,31.0,0,7,4.0,7.75,2026
+1549355,LA Goncalves,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,6,10.0,0,1,1.0,10.0,2026
+1549355,LG Moras,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,24.0,0,11,4.0,6.0,2026
+1549355,LH Rodrigues,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,25,22.0,0,12,4.2,5.28,2026
+1549355,Lalu Bhai Ahir,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,23.0,3,14,4.0,5.75,2026
+1549355,MFI Assuncao,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,18,17.0,2,10,3.0,5.67,2026
+1549355,MY Bawa,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,9.0,2,18,4.0,2.25,2026
+1549355,Sarkar Ameji,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,28.0,0,10,4.0,7.0,2026
+1549355,Sufiyan Tarajia,Brazil,Panama,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,28.0,2,12,4.0,7.0,2026
+1549355,Yasar Haroon,Panama,Brazil,"Los Pinos Polo Club 1, Cundinamarca",2026-08-09,T20I,24,24.0,2,11,4.0,6.0,2026
+1549394,Amjad Sher,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,24,33.0,2,12,4.0,8.25,2026
+1549394,Fayaz Khan,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,6,10.0,0,1,1.0,10.0,2026
+1549394,Hammadullah Shinwari,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,24,14.0,1,19,4.0,3.5,2026
+1549394,Junaid Khan,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,18,17.0,2,7,3.0,5.67,2026
+1549394,MB Tambe,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,7,7.0,1,3,1.2,6.0,2026
+1549394,Muslim Yar,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,24,24.0,1,8,4.0,6.0,2026
+1549394,NM Salonen,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,6,12.0,0,1,1.0,12.0,2026
+1549394,PD Dabholkar,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,18,10.0,2,12,3.0,3.33,2026
+1549394,PUKK Arachchige,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,24,34.0,2,9,4.0,8.5,2026
+1549394,Sajid Liaqat,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,18,19.0,0,7,3.0,6.33,2026
+1549394,Shahid Afridi,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,6,5.0,1,2,1.0,5.0,2026
+1549394,V Jatinder Kumar,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,24,16.0,2,16,4.0,4.0,2026
+1549394,Zahidullah Kamal,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,6,11.0,0,2,1.0,11.0,2026
