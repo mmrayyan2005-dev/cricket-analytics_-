@@ -4129,7 +4129,7 @@ AL Fekete,Western Australia Cricket Association Ground,BBL,3,54,84.0,4,22,9.33,2
 AL Kandappah,Gymkhana Club Ground,ODI,1,1,4.0,0,0,24.0,4.0,0.0
 AL Kerai,Gahanga International Cricket Stadium. Rwanda,T20I,1,6,9.0,0,3,9.0,9.0,50.0
 AL Kerrison,Sydney Parade,T20I,2,30,39.0,0,12,7.8,39.0,40.0
-AL Khunti,Kerava National Cricket Ground,T20I,1,6,15.0,0,2,15.0,15.0,33.33
+AL Khunti,Kerava National Cricket Ground,T20I,2,30,52.0,2,15,10.4,26.0,50.0
 AL Khunti,Tikkurila Cricket Ground,T20I,1,24,33.0,0,8,8.25,33.0,33.33
 AL Mangue,"Botswana Cricket Association Oval 1, Gaborone",T20I,2,37,71.0,1,8,11.51,71.0,21.62
 AL Menaria,Eden Gardens,IPL,1,6,3.0,1,3,3.0,3.0,50.0
@@ -5079,7 +5079,7 @@ AS Kumaran,Happy Valley Ground,T20I,1,1,6.0,0,0,36.0,6.0,0.0
 AS Luseno,Gymkhana Club Ground,ODI,1,39,32.0,4,25,4.92,8.0,64.1
 AS Luseno,Sharjah Cricket Association Stadium,ODI,1,25,26.0,0,15,6.24,26.0,60.0
 AS Mehmi,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,1,6,11.0,1,1,11.0,11.0,16.67
-AS Mehmi,Kerava National Cricket Ground,T20I,3,60,78.0,2,16,7.8,39.0,26.67
+AS Mehmi,Kerava National Cricket Ground,T20I,4,66,91.0,2,18,8.27,45.5,27.27
 AS Mehmi,"King George V Sports Ground, Castel",T20I,2,39,42.0,1,17,6.46,42.0,43.59
 AS Mehmi,"National Sports Academy, Sofia",T20I,3,24,45.0,2,6,11.25,22.5,25.0
 AS Mehmi,Tikkurila Cricket Ground,T20I,2,42,32.0,1,20,4.57,32.0,47.62
@@ -6169,7 +6169,7 @@ Ahmad Raza,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),T20I,2,36,50.
 Ahmad Raza,"ICC Academy, Dubai",T20I,2,31,37.0,1,17,7.16,37.0,54.84
 Ahmad Raza,"West End Park International Cricket Stadium, Doha",T20I,1,12,14.0,0,6,7.0,14.0,50.0
 Ahmad Ullah,Bayer Uerdingen Cricket Ground,T20I,1,12,31.0,0,2,15.5,31.0,16.67
-Ahmad Ullah,Kerava National Cricket Ground,T20I,2,48,42.0,4,24,5.25,10.5,50.0
+Ahmad Ullah,Kerava National Cricket Ground,T20I,3,72,66.0,6,34,5.5,11.0,47.22
 Ahmadschah Ahmadzai,Bayer Uerdingen Cricket Ground,T20I,1,12,24.0,2,4,12.0,12.0,33.33
 Ahmadullah Shinwari,Bayer Uerdingen Cricket Ground,T20I,2,24,38.0,0,12,9.5,38.0,50.0
 Ahmadullah Shinwari,"Botkyrka Cricket Center, Stockholm",T20I,7,156,152.0,12,95,5.85,12.67,60.9
@@ -6399,6 +6399,7 @@ Aizaz Khan,"Zayed Cricket Stadium, Abu Dhabi",T20I,1,18,14.0,0,9,4.67,14.0,50.0
 Ajay Kumar,"Tribhuvan University International Cricket Ground, Kirtipur",ODI,4,221,169.0,11,137,4.59,15.36,61.99
 Ajay Kumar,"Tribhuvan University International Cricket Ground, Kirtipur",T20I,1,24,16.0,0,17,4.0,16.0,70.83
 Ajaz Patel,"Botswana Cricket Association Oval 1, Gaborone",T20I,2,30,25.0,2,12,5.0,12.5,40.0
+Ajhar Alam,Kerava National Cricket Ground,T20I,1,18,28.0,1,6,9.33,28.0,33.33
 Ajhar Alam,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,42,62.0,2,16,8.86,31.0,38.1
 Ajin Soman,Happy Valley Ground,T20I,2,9,23.0,0,2,15.33,23.0,22.22
 Ajin Soman,Happy Valley Ground 2,T20I,1,6,22.0,0,0,22.0,22.0,0.0
@@ -6457,6 +6458,7 @@ Akhil Arjunan,"Ishoj Cricket Club, Vejledalen",T20I,3,62,58.0,3,25,5.61,19.33,40
 Akhil Arjunan,Kerava National Cricket Ground,T20I,5,93,135.0,4,33,8.71,33.75,35.48
 Akhil Arjunan,"King George V Sports Ground, Castel",T20I,1,18,25.0,0,7,8.33,25.0,38.89
 Akhil Arjunan,"Svanholm Park, Brondby",T20I,2,42,61.0,2,11,8.71,30.5,26.19
+Akhil Arjunan,Tikkurila Cricket Ground,T20I,1,24,24.0,2,9,6.0,12.0,37.5
 Akhil Kumar,"Jimmy Powell Oval, Cayman Islands",T20I,5,78,110.0,2,22,8.46,55.0,28.21
 Akhil Kumar,"Maple Leaf North-West Ground, King City",ODI,9,350,296.0,10,183,5.07,29.6,52.29
 Akhil Kumar,"Maple Leaf North-West Ground, King City",T20I,3,52,64.0,5,29,7.38,12.8,55.77
@@ -6849,7 +6851,7 @@ Amjad Sher,Kerava National Cricket Ground,T20I,12,277,325.0,15,131,7.04,21.67,47
 Amjad Sher,"King George V Sports Ground, Castel",T20I,2,48,61.0,0,23,7.62,61.0,47.92
 Amjad Sher,"Solvangs Park, Glostrup",T20I,2,36,42.0,3,22,7.0,14.0,61.11
 Amjad Sher,"Svanholm Park, Brondby",T20I,4,97,109.0,5,46,6.74,21.8,47.42
-Amjad Sher,Tikkurila Cricket Ground,T20I,3,60,64.0,1,33,6.4,64.0,55.0
+Amjad Sher,Tikkurila Cricket Ground,T20I,4,78,75.0,2,45,5.77,37.5,57.69
 Amma Kashif,"Terdthai Cricket Ground, Bangkok",T20I,1,12,15.0,0,4,7.5,15.0,33.33
 Amma Kashif,"West End Park International Cricket Stadium, Doha",T20I,2,18,16.0,0,14,5.33,16.0,77.78
 Ammad Uddin,"West End Park International Cricket Stadium, Doha",T20I,1,6,10.0,0,2,10.0,10.0,33.33
@@ -7434,7 +7436,7 @@ Atif Mehmood,La Manga Club Top Ground,T20I,1,24,30.0,1,10,7.5,30.0,41.67
 Atif Mehmood,"Meersen, Gent",T20I,2,37,27.0,2,18,4.38,13.5,48.65
 Atif Mehmood,"Mladost Cricket Ground, Zagreb",T20I,3,60,32.0,3,45,3.2,10.67,75.0
 Atif Mehmood,"Royal Brussels Cricket Club Ground, Waterloo",T20I,2,48,54.0,2,22,6.75,27.0,45.83
-Atif Mehmood,Tikkurila Cricket Ground,T20I,1,24,17.0,3,15,4.25,5.67,62.5
+Atif Mehmood,Tikkurila Cricket Ground,T20I,2,36,35.0,3,19,5.83,11.67,52.78
 Atif Rasheed,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,3,42,38.0,6,26,5.43,6.33,61.9
 Atif Rasheed,Kerava National Cricket Ground,T20I,1,6,19.0,0,2,19.0,19.0,33.33
 Atif Rasheed,"Solvangs Park, Glostrup",T20I,1,6,6.0,0,4,6.0,6.0,66.67
@@ -8690,7 +8692,7 @@ BAD Manenti,"Sportpark Westvliet, Voorburg",T20I,3,72,76.0,2,23,6.33,38.0,31.94
 BAD Manenti,Sydney Cricket Ground,BBL,8,150,176.0,7,47,7.04,25.14,31.33
 BAD Manenti,Traeger Park,BBL,1,24,28.0,2,11,7.0,14.0,45.83
 BAD Manenti,"Wankhede Stadium, Mumbai",T20I,1,24,9.0,2,18,2.25,4.5,75.0
-BADL Faunce,Kerava National Cricket Ground,T20I,2,42,43.0,2,20,6.14,21.5,47.62
+BADL Faunce,Kerava National Cricket Ground,T20I,3,43,50.0,2,20,6.98,25.0,46.51
 BAW Mendis,Adelaide Oval,ODI,1,47,41.0,2,27,5.23,20.5,57.45
 BAW Mendis,Barabati Stadium,ODI,1,54,67.0,0,21,7.44,67.0,38.89
 BAW Mendis,"Beausejour Stadium, Gros Islet",T20I,1,24,19.0,0,11,4.75,19.0,45.83
@@ -9100,7 +9102,7 @@ BJ Hodge,St George's Park,IPL,2,30,42.0,2,8,8.4,21.0,26.67
 BJ Hodge,SuperSport Park,IPL,1,12,12.0,0,4,6.0,12.0,33.33
 BJ Hodge,Sydney Showground Stadium,BBL,1,6,8.0,0,1,8.0,8.0,16.67
 BJ Hodge,"Warner Park, Basseterre",ODI,1,36,17.0,1,23,2.83,17.0,63.89
-BJ Konstas,Kerava National Cricket Ground,T20I,1,24,37.0,1,7,9.25,37.0,29.17
+BJ Konstas,Kerava National Cricket Ground,T20I,2,30,49.0,1,8,9.8,49.0,26.67
 BJ McCarthy,"7he Sevens Stadium, Dubai",T20I,3,63,97.0,4,23,9.24,24.25,36.51
 BJ McCarthy,Adelaide Oval,T20I,1,24,46.0,0,4,11.5,46.0,16.67
 BJ McCarthy,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,2,46,53.0,2,22,6.91,26.5,47.83
@@ -10396,7 +10398,7 @@ C Rumistrzewicz,La Manga Club Top Ground,T20I,3,66,61.0,2,26,5.55,30.5,39.39
 C Rumistrzewicz,"Meersen, Gent",T20I,1,14,9.0,3,8,3.86,3.0,57.14
 C Rumistrzewicz,"Mladost Cricket Ground, Zagreb",T20I,1,6,17.0,0,1,17.0,17.0,16.67
 C Rumistrzewicz,"Royal Brussels Cricket Club Ground, Waterloo",T20I,1,18,21.0,1,5,7.0,21.0,27.78
-C Rumistrzewicz,Tikkurila Cricket Ground,T20I,1,24,18.0,1,10,4.5,18.0,41.67
+C Rumistrzewicz,Tikkurila Cricket Ground,T20I,2,42,26.0,4,20,3.71,6.5,47.62
 C Sakariya,"Arun Jaitley Stadium, Delhi",IPL,3,67,92.0,1,22,8.24,92.0,32.84
 C Sakariya,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",IPL,1,24,53.0,2,8,13.25,26.5,33.33
 C Sakariya,"Dr DY Patil Sports Academy, Mumbai",IPL,1,24,23.0,2,9,5.75,11.5,37.5
@@ -13504,7 +13506,7 @@ D Pretorius,"Warner Park, Basseterre, St Kitts",CPL,6,123,193.0,10,44,9.41,19.3,
 D Pretorius,Westpac Stadium,ODI,1,32,5.0,3,27,0.94,1.67,84.38
 D Pretorius,Willowmoore Park,ODI,1,30,19.0,1,18,3.8,19.0,60.0
 D Pretorius,"Zayed Cricket Stadium, Abu Dhabi",T20I,2,40,37.0,1,12,5.55,37.0,30.0
-D Ramani,Kerava National Cricket Ground,T20I,1,24,26.0,4,12,6.5,6.5,50.0
+D Ramani,Kerava National Cricket Ground,T20I,2,42,51.0,5,20,7.29,10.2,47.62
 D Ramani,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,48,54.0,3,21,6.75,18.0,43.75
 D Ramani,"Scott Page Field, Vinor",T20I,4,78,118.0,5,31,9.08,23.6,39.74
 D Ramani,Tikkurila Cricket Ground,T20I,1,24,53.0,2,6,13.25,26.5,25.0
@@ -17187,7 +17189,7 @@ Ehsan Nawaz,Sheikh Zayed Stadium,T20I,2,22,34.0,1,10,9.27,34.0,45.45
 Ehsan Nawaz,University of Doha for Science and Technology,T20I,1,18,24.0,2,10,8.0,12.0,55.56
 Ehsan Nawaz,Zahur Ahmed Chowdhury Stadium,T20I,1,6,10.0,0,2,10.0,10.0,33.33
 Ehsanul Haque,"Willowmoore Park, Benoni",ODI,1,60,34.0,2,32,3.4,17.0,53.33
-Elan Talker,Kerava National Cricket Ground,T20I,1,12,16.0,1,5,8.0,16.0,41.67
+Elan Talker,Kerava National Cricket Ground,T20I,2,24,28.0,2,14,7.0,14.0,58.33
 Elan Talker,"Meersen, Gent",T20I,1,12,14.0,1,7,7.0,14.0,58.33
 Elan Talker,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,4,66,110.0,2,29,10.0,55.0,43.94
 Elan Talker,Roma Cricket Ground,T20I,3,54,68.0,3,27,7.56,22.67,50.0
@@ -17214,7 +17216,7 @@ Elyza Wall,"Bayuemas Oval, Kuala Lumpur",T20I,1,24,42.0,1,6,10.5,42.0,25.0
 Elyza Wall,"YSD-UKM Cricket Oval, Bangi",T20I,3,48,44.0,3,25,5.5,14.67,52.08
 Emaan Ejaz,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,1,16,36.0,0,2,13.5,36.0,12.5
 Emaan Ejaz,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),T20I,2,47,104.0,2,10,13.28,52.0,21.28
-Emanuel,Kerava National Cricket Ground,T20I,2,30,33.0,1,15,6.6,33.0,50.0
+Emanuel,Kerava National Cricket Ground,T20I,3,36,45.0,2,17,7.5,22.5,47.22
 Emilia Toro,San Albano,T20I,1,19,29.0,0,1,9.16,29.0,5.26
 Emily Merrien,"Ekeberg Cricket Ground 1, Oslo",T20I,1,27,29.0,3,14,6.44,9.67,51.85
 Emily Merrien,"Grainville, St Saviour",T20I,2,38,34.0,3,20,5.37,11.33,52.63
@@ -18117,7 +18119,7 @@ Fawad Ali,"National Stadium, Karachi",PSL,2,31,49.0,0,6,9.48,49.0,19.35
 Fayaz Khan,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,2,30,47.0,3,9,9.4,15.67,30.0
 Fayaz Khan,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),T20I,2,42,40.0,1,17,5.71,40.0,40.48
 Fayaz Khan,Bayer Uerdingen Cricket Ground,T20I,6,84,133.0,8,26,9.5,16.62,30.95
-Fayaz Khan,Kerava National Cricket Ground,T20I,1,6,10.0,0,1,10.0,10.0,16.67
+Fayaz Khan,Kerava National Cricket Ground,T20I,2,12,20.0,0,3,10.0,20.0,25.0
 Fayaz Khan,"Sportpark Het Schootsveld, Deventer",T20I,2,49,42.0,3,27,5.14,14.0,55.1
 Fayaz Khan,"TCA Oval, Blantyre",T20I,4,78,86.0,4,43,6.62,21.5,55.13
 Fayaz Khan,Tikkurila Cricket Ground,T20I,1,6,11.0,2,2,11.0,5.5,33.33
@@ -18517,6 +18519,7 @@ G Venkateswaran,"GB Oval, Szodliget",T20I,4,78,130.0,4,24,10.0,32.5,30.77
 G Venkateswaran,Marsa Sports Club,T20I,2,24,46.0,0,4,11.5,46.0,16.67
 G Venkateswaran,Pierre Werner Cricket Ground,T20I,1,24,28.0,2,10,7.0,14.0,41.67
 G Venkateswaran,"Scott Page Field, Vinor",T20I,3,27,59.0,1,10,13.11,59.0,37.04
+G Venkateswaran,Tikkurila Cricket Ground,T20I,1,6,12.0,0,1,12.0,12.0,16.67
 G Voll,"Arnos Vale Ground, Kingstown, St Vincent",T20I,1,6,10.0,0,3,10.0,10.0,50.0
 G Voll,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",WPL,2,9,8.0,1,4,5.33,8.0,44.44
 G Voll,"Kotambi Stadium, Vadodara",WPL,1,7,12.0,0,1,10.29,12.0,14.29
@@ -18742,7 +18745,7 @@ GB Hogg,Western Australia Cricket Association Ground,ODI,2,120,91.0,2,58,4.55,45
 GB Hogg,Westpac Stadium,ODI,1,12,16.0,0,5,8.0,16.0,41.67
 GBK Roland,"Botswana Cricket Association Oval 1, Gaborone",T20I,2,30,78.0,0,5,15.6,78.0,16.67
 GC Galanis,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,48,44.0,2,23,5.5,22.0,47.92
-GC Galanis,Kerava National Cricket Ground,T20I,1,18,16.0,2,6,5.33,8.0,33.33
+GC Galanis,Kerava National Cricket Ground,T20I,2,24,25.0,2,8,6.25,12.5,33.33
 GC Galanis,"King George V Sports Ground, Castel",T20I,2,42,45.0,2,17,6.43,22.5,40.48
 GC Galanis,"National Sports Academy, Sofia",T20I,3,53,61.0,5,34,6.91,12.2,64.15
 GC Galanis,Tikkurila Cricket Ground,T20I,2,48,44.0,1,18,5.5,44.0,37.5
@@ -21322,7 +21325,7 @@ Hammad Azam,Shere Bangla National Stadium,ODI,2,42,41.0,1,17,5.86,41.0,40.48
 Hammadullah Shinwari,"Botkyrka Cricket Center, Stockholm",T20I,2,39,29.0,4,21,4.46,7.25,53.85
 Hammadullah Shinwari,Happy Valley Ground,T20I,2,48,37.0,6,29,4.62,6.17,60.42
 Hammadullah Shinwari,Kerava National Cricket Ground,T20I,4,91,109.0,2,46,7.19,54.5,50.55
-Hammadullah Shinwari,Tikkurila Cricket Ground,T20I,1,24,28.0,5,13,7.0,5.6,54.17
+Hammadullah Shinwari,Tikkurila Cricket Ground,T20I,2,38,42.0,6,19,6.63,7.0,50.0
 Hamza Dar,"Desert Springs Cricket Ground, Almeria",T20I,1,14,14.0,0,5,6.0,14.0,35.71
 Hamza Dar,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,1,7,9.0,0,1,7.71,9.0,14.29
 Hamza Dar,"King George V Sports Ground, Castel",T20I,2,12,18.0,0,6,9.0,18.0,50.0
@@ -23863,6 +23866,7 @@ J Danikula,"Mladost Cricket Ground, Zagreb",T20I,3,66,71.0,5,35,6.45,14.2,53.03
 J Dickinson,Dubai International Cricket Stadium,T20I,1,24,23.0,1,6,5.75,23.0,25.0
 J Dowling,Happy Valley Ground 2,T20I,3,51,63.0,3,23,7.41,21.0,45.1
 J Dowling,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,33,52.0,2,14,9.45,26.0,42.42
+J Dowling,Tikkurila Cricket Ground,T20I,1,12,23.0,1,4,11.5,23.0,33.33
 J Dowling,"Vassil Levski National Sports Academy, Sofia",T20I,2,18,20.0,3,12,6.67,6.67,66.67
 J Drysdale,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,3,54,82.0,6,24,9.11,13.67,44.44
 J Drysdale,"Grand Prairie Stadium, Dallas",T20I,1,24,31.0,1,11,7.75,31.0,45.83
@@ -24150,7 +24154,7 @@ J Louw,Senwes Park,ODI,1,42,50.0,0,23,7.14,50.0,54.76
 J Louw,SuperSport Park,T20I,1,25,36.0,2,10,8.64,18.0,40.0
 J Madan,Kerava National Cricket Ground,T20I,1,12,18.0,0,5,9.0,18.0,41.67
 J Madan,"Scott Page Field, Vinor",T20I,4,84,154.0,5,31,11.0,30.8,36.9
-J Madan,Tikkurila Cricket Ground,T20I,1,24,27.0,3,16,6.75,9.0,66.67
+J Madan,Tikkurila Cricket Ground,T20I,2,42,52.0,4,22,7.43,13.0,52.38
 J Maguire,"Boland Park, Paarl",T20I,1,6,16.0,0,1,16.0,16.0,16.67
 J Maguire,"Bready Cricket Club, Magheramason, Bready",ODI,2,96,106.0,4,53,6.62,26.5,55.21
 J Maguire,"Bready Cricket Club, Magheramason, Bready",T20I,2,35,43.0,2,18,7.37,21.5,51.43
@@ -24514,7 +24518,7 @@ J Yon,"Achimota Senior Secondary School B Field, Accra",T20I,1,18,38.0,0,4,12.67
 J Yon,"Nigeria Cricket Federation Oval 1, Abuja",T20I,2,30,15.0,4,22,3.0,3.75,73.33
 J van Heerden,"Desert Springs Cricket Ground, Almeria",T20I,1,18,17.0,2,9,5.67,8.5,50.0
 J van Heerden,"Grange Cricket Club Ground, Raeburn Place, Edinburgh",T20I,1,25,41.0,2,6,9.84,20.5,24.0
-J van Heerden,Kerava National Cricket Ground,T20I,1,20,23.0,1,8,6.9,23.0,40.0
+J van Heerden,Kerava National Cricket Ground,T20I,2,44,37.0,3,19,5.05,12.33,43.18
 J van Heerden,"Svanholm Park, Brondby",T20I,3,42,62.0,3,11,8.86,20.67,26.19
 JA Burns,Adelaide Oval,BBL,1,6,5.0,0,4,5.0,5.0,66.67
 JA Burns,Bellerive Oval,BBL,1,6,10.0,1,3,10.0,10.0,50.0
@@ -25400,7 +25404,7 @@ JDS Neesham,"Windsor Park, Roseau",T20I,2,42,45.0,0,16,6.43,45.0,38.1
 JDS Neesham,Zahur Ahmed Chowdhury Stadium,T20I,2,26,31.0,3,11,7.15,10.33,42.31
 JDS Neesham,"Zayed Cricket Stadium, Abu Dhabi",IPL,1,18,28.0,2,5,9.33,14.0,27.78
 JDS Neesham,"Zayed Cricket Stadium, Abu Dhabi",T20I,1,12,18.0,1,3,9.0,18.0,25.0
-JE Marks,Kerava National Cricket Ground,T20I,1,6,10.0,0,3,10.0,10.0,50.0
+JE Marks,Kerava National Cricket Ground,T20I,2,18,27.0,0,5,9.0,27.0,27.78
 JE Marks,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,4,60,84.0,4,25,8.4,21.0,41.67
 JE Pitcher,"Belgrano Athletic Club Ground, Buenos Aires",T20I,3,36,52.0,1,14,8.67,52.0,38.89
 JE Pitcher,"White Hill Field, Sandys Parish",T20I,3,42,50.0,2,19,7.14,25.0,45.24
@@ -27672,7 +27676,7 @@ JR Coleman,Manuka Oval,BBL,1,12,23.0,0,5,11.5,23.0,41.67
 JR Coleman,Melbourne Cricket Ground,BBL,4,56,74.0,2,27,7.93,37.0,48.21
 JR Coleman,Perth Stadium,BBL,1,18,16.0,4,6,5.33,4.0,33.33
 JR Coleman,Sydney Cricket Ground,BBL,1,18,18.0,3,8,6.0,6.0,44.44
-JR Cope,Kerava National Cricket Ground,T20I,1,24,32.0,3,10,8.0,10.67,41.67
+JR Cope,Kerava National Cricket Ground,T20I,2,42,54.0,3,19,7.71,18.0,45.24
 JR Cope,"Scott Page Field, Vinor",T20I,1,18,19.0,0,8,6.33,19.0,44.44
 JR Hazlewood,Adelaide Oval,BBL,2,48,35.0,4,24,4.38,8.75,50.0
 JR Hazlewood,Adelaide Oval,ODI,6,343,256.0,10,209,4.48,25.6,60.93
@@ -28566,7 +28570,7 @@ Junaid Khan,St George's Park,ODI,1,54,42.0,3,30,4.67,14.0,55.56
 Junaid Khan,SuperSport Park,ODI,1,36,29.0,2,26,4.83,14.5,72.22
 Junaid Khan,SuperSport Park,T20I,1,12,22.0,1,4,11.0,22.0,33.33
 Junaid Khan,Sydney Cricket Ground,ODI,1,61,82.0,0,20,8.07,82.0,32.79
-Junaid Khan,Tikkurila Cricket Ground,T20I,1,24,18.0,1,12,4.5,18.0,50.0
+Junaid Khan,Tikkurila Cricket Ground,T20I,2,48,36.0,3,24,4.5,12.0,50.0
 Junaid Khan,Trent Bridge,ODI,1,60,85.0,1,20,8.5,85.0,33.33
 Junaid Khan,Western Australia Cricket Association Ground,ODI,1,55,58.0,1,30,6.33,58.0,54.55
 Junaid Khan,Willowmoore Park,ODI,1,42,30.0,1,28,4.29,30.0,66.67
@@ -31715,7 +31719,7 @@ Kamal Soukhiya,"GB Oval, Szodliget",T20I,4,90,133.0,5,41,8.87,26.6,45.56
 Kamal Soukhiya,Kerava National Cricket Ground,T20I,1,24,18.0,1,12,4.5,18.0,50.0
 Kamal Soukhiya,Pierre Werner Cricket Ground,T20I,1,24,35.0,1,11,8.75,35.0,45.83
 Kamal Soukhiya,"Scott Page Field, Vinor",T20I,3,72,67.0,8,40,5.58,8.38,55.56
-Kamal Soukhiya,Tikkurila Cricket Ground,T20I,1,24,52.0,2,9,13.0,26.0,37.5
+Kamal Soukhiya,Tikkurila Cricket Ground,T20I,2,48,87.0,6,19,10.88,14.5,39.58
 Kamran Ahmadzai,Dreux Sport Cricket Club,T20I,3,50,68.0,4,28,8.16,17.0,56.0
 Kamran Ahmadzai,Happy Valley Ground 2,T20I,1,6,16.0,0,1,16.0,16.0,16.67
 Kamran Ahmadzai,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,5,60,62.0,2,31,6.2,31.0,51.67
@@ -39430,7 +39434,7 @@ Madeeha Zuberi,Johor Cricket Academy Oval,T20I,2,36,31.0,1,18,5.17,31.0,50.0
 Madeeha Zuberi,"YSD-UKM Cricket Oval, Bangi",T20I,1,6,7.0,0,2,7.0,7.0,33.33
 Madhawa Basnayaka,Estonian National Cricket and Rugby Field,T20I,2,31,37.0,2,9,7.16,18.5,29.03
 Madhawa Basnayaka,"Ishoj Cricket Club, Vejledalen",T20I,2,37,61.0,3,16,9.89,20.33,43.24
-Madhawa Basnayaka,Tikkurila Cricket Ground,T20I,1,24,44.0,1,9,11.0,44.0,37.5
+Madhawa Basnayaka,Tikkurila Cricket Ground,T20I,2,48,71.0,5,22,8.88,14.2,45.83
 Mah Noor,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,3,51,105.0,0,11,12.35,105.0,21.57
 Mah Noor,"YSD-UKM Cricket Oval, Bangi",T20I,2,28,41.0,3,8,8.79,13.67,28.57
 Mah Noor Amir,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,6,101,197.0,3,31,11.7,65.67,30.69
@@ -39892,7 +39896,7 @@ Mayank Dagar,"Wankhede Stadium, Mumbai",IPL,1,24,37.0,1,9,9.25,37.0,37.5
 Mayank Nagayach,"GB Oval, Szodliget",T20I,4,84,118.0,1,26,8.43,118.0,30.95
 Mayank Nagayach,Kerava National Cricket Ground,T20I,1,24,27.0,0,13,6.75,27.0,54.17
 Mayank Nagayach,Pierre Werner Cricket Ground,T20I,2,42,45.0,1,22,6.43,45.0,52.38
-Mayank Nagayach,Tikkurila Cricket Ground,T20I,1,18,33.0,0,4,11.0,33.0,22.22
+Mayank Nagayach,Tikkurila Cricket Ground,T20I,2,42,59.0,2,12,8.43,29.5,28.57
 Mazharul Islam,"Achimota Senior Secondary School A Field, Accra",T20I,2,36,25.0,3,16,4.17,8.33,44.44
 Mazharul Islam,"Achimota Senior Secondary School B Field, Accra",T20I,1,24,32.0,0,8,8.0,32.0,33.33
 Mazharul Islam,Gahanga International Cricket Stadium. Rwanda,T20I,1,5,5.0,0,1,6.0,5.0,20.0
@@ -40442,7 +40446,7 @@ Mohammad Atif,"King George V Sports Ground, Castel",T20I,1,24,44.0,0,6,11.0,44.0
 Mohammad Atif,La Manga Club Top Ground,T20I,2,48,22.0,4,38,2.75,5.5,79.17
 Mohammad Atif,"Meersen, Gent",T20I,1,18,22.0,1,5,7.33,22.0,27.78
 Mohammad Atif,"Mladost Cricket Ground, Zagreb",T20I,1,24,15.0,1,16,3.75,15.0,66.67
-Mohammad Atif,Tikkurila Cricket Ground,T20I,1,24,17.0,0,17,4.25,17.0,70.83
+Mohammad Atif,Tikkurila Cricket Ground,T20I,2,36,25.0,2,25,4.17,12.5,69.44
 Mohammad Ayaz,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),T20I,1,12,25.0,0,7,12.5,25.0,58.33
 Mohammad Azab,"Gaddafi Stadium, Lahore",PSL,1,14,23.0,0,3,9.86,23.0,21.43
 Mohammad Basit,"Gaddafi Stadium, Lahore",PSL,3,63,91.0,2,26,8.67,45.5,41.27
@@ -41886,7 +41890,7 @@ Muslim Yar,College Field,T20I,2,36,34.0,3,17,5.67,11.33,47.22
 Muslim Yar,"Desert Springs Cricket Ground, Almeria",T20I,7,168,141.0,13,85,5.04,10.85,50.6
 Muslim Yar,"Goldenacre, Edinburgh",T20I,2,42,48.0,2,21,6.86,24.0,50.0
 Muslim Yar,"Grange Cricket Club Ground, Raeburn Place, Edinburgh",T20I,3,72,83.0,3,23,6.92,27.67,31.94
-Muslim Yar,Kerava National Cricket Ground,T20I,3,72,65.0,3,35,5.42,21.67,48.61
+Muslim Yar,Kerava National Cricket Ground,T20I,4,84,78.0,4,42,5.57,19.5,50.0
 Muslim Yar,King George V Sports Ground,T20I,1,12,26.0,2,3,13.0,13.0,25.0
 Muslim Yar,"Sportpark Het Schootsveld, Deventer",T20I,4,84,71.0,6,39,5.07,11.83,46.43
 Muslim Yar,Sportpark Maarschalkerweerd,T20I,1,12,22.0,0,4,11.0,22.0,33.33
@@ -44894,7 +44898,7 @@ Nithish Kumar Reddy,"Sawai Mansingh Stadium, Jaipur",IPL,1,12,20.0,1,4,10.0,20.0
 Nithish Kumar Reddy,"Shrimant Madhavrao Scindia Cricket Stadium, Gwalior",T20I,1,12,17.0,0,2,8.5,17.0,16.67
 Nithish Kumar Reddy,Sydney Cricket Ground,Test,1,54,42.0,2,35,4.67,21.0,64.81
 Nithish Kumar Reddy,"Wankhede Stadium, Mumbai",IPL,3,42,82.0,1,14,11.71,82.0,33.33
-Niv Nagavkar,Kerava National Cricket Ground,T20I,1,6,13.0,0,1,13.0,13.0,16.67
+Niv Nagavkar,Kerava National Cricket Ground,T20I,2,30,53.0,2,11,10.6,26.5,36.67
 Niv Nagavkar,"Meersen, Gent",T20I,2,34,37.0,1,20,6.53,37.0,58.82
 Niv Nagavkar,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,4,73,117.0,1,33,9.62,117.0,45.21
 Niv Nagavkar,Roma Cricket Ground,T20I,3,60,74.0,3,28,7.4,24.67,46.67
@@ -45064,7 +45068,7 @@ O Davies,"Manuka Oval, Canberra",BBL,2,13,20.0,0,2,9.23,20.0,15.38
 O Davies,Sydney Showground Stadium,BBL,1,6,4.0,0,2,4.0,4.0,33.33
 O Duff,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,16,28.0,2,5,10.5,14.0,31.25
 O Duff,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,24,30.0,1,13,7.5,30.0,54.17
-O Duff,Tikkurila Cricket Ground,T20I,1,12,14.0,1,5,7.0,14.0,41.67
+O Duff,Tikkurila Cricket Ground,T20I,2,29,52.0,1,9,10.76,52.0,31.03
 O Duff,"Vassil Levski National Sports Academy, Sofia",T20I,1,6,17.0,0,2,17.0,17.0,33.33
 O Erdenebaatar,Sano International Cricket Ground,T20I,3,50,36.0,2,31,4.32,18.0,62.0
 O Erdenebaatar,Sano International Cricket Ground 2,T20I,1,21,18.0,0,10,5.14,18.0,47.62
@@ -46355,7 +46359,7 @@ PD Collingwood,Western Australia Cricket Association Ground,Test,1,48,6.0,1,44,0
 PD Collingwood,Westpac Stadium,ODI,1,24,15.0,0,15,3.75,15.0,62.5
 PD Collingwood,Zahur Ahmed Chowdhury Stadium,ODI,1,42,24.0,1,24,3.43,24.0,57.14
 PD Collingwood,Zohur Ahmed Chowdhury Stadium,ODI,1,60,51.0,0,24,5.1,51.0,40.0
-PD Dabholkar,Kerava National Cricket Ground,T20I,2,36,29.0,3,18,4.83,9.67,50.0
+PD Dabholkar,Kerava National Cricket Ground,T20I,3,48,44.0,3,24,5.5,14.67,50.0
 PD Dabholkar,Tikkurila Cricket Ground,T20I,1,18,42.0,0,2,14.0,42.0,11.11
 PD Hennessy,"Desert Springs Cricket Ground, Almeria",T20I,1,18,17.0,0,8,5.67,17.0,44.44
 PD Hennessy,La Manga Club Bottom Ground,T20I,1,12,12.0,2,8,6.0,6.0,66.67
@@ -50188,6 +50192,7 @@ RM Koda,Sano International Cricket Ground,T20I,5,78,72.0,5,44,5.54,14.4,56.41
 RM Koda,"Terdthai Cricket Ground, Bangkok",T20I,6,128,148.0,6,61,6.94,24.67,47.66
 RM Koda,Udayana Cricket Ground,T20I,37,676,787.0,28,337,6.99,28.11,49.85
 RM Koda,"Yeonhui Cricket Ground, Incheon",T20I,7,138,131.0,7,54,5.7,18.71,39.13
+RM Magare,Kerava National Cricket Ground,T20I,1,6,14.0,0,1,14.0,14.0,16.67
 RM Magare,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,42,45.0,0,13,6.43,45.0,30.95
 RM Magare,"Scott Page Field, Vinor",T20I,3,42,71.0,2,10,10.14,35.5,23.81
 RM Magare,Tikkurila Cricket Ground,T20I,1,6,15.0,0,1,15.0,15.0,16.67
@@ -51137,6 +51142,7 @@ Raja Adeel,La Manga Club Top Ground,T20I,2,32,41.0,5,19,7.69,8.2,59.38
 Raja Adeel,"Meersen, Gent",T20I,2,30,39.0,3,13,7.8,13.0,43.33
 Raja Adeel,"Mladost Cricket Ground, Zagreb",T20I,2,42,29.0,6,31,4.14,4.83,73.81
 Raja Adeel,"Royal Brussels Cricket Club Ground, Waterloo",T20I,1,18,27.0,2,9,9.0,13.5,50.0
+Raja Adeel,Tikkurila Cricket Ground,T20I,1,22,21.0,2,16,5.73,10.5,72.73
 Raja Farzan,Gaddafi Stadium,PSL,2,36,35.0,2,20,5.83,17.5,55.56
 Rajin Saleh,Arnos Vale Ground,ODI,1,12,11.0,1,6,5.5,11.0,50.0
 Rajin Saleh,Bangabandhu National Stadium,ODI,1,36,38.0,1,13,6.33,38.0,36.11
@@ -52070,7 +52076,7 @@ S Dabholkatr,Pierre Werner Cricket Ground,T20I,3,44,49.0,2,24,6.68,24.5,54.55
 S Dabholkatr,SSC Karlsruhe,T20I,2,30,26.0,2,16,5.2,13.0,53.33
 S Dabholkatr,"Stars Arena Hofstade, Zemst",T20I,1,25,20.0,1,15,4.8,20.0,60.0
 S Dadswell,"Gaddafi Stadium, Lahore",PSL,1,6,8.0,0,1,8.0,8.0,16.67
-S Davizi,Kerava National Cricket Ground,T20I,1,7,14.0,0,3,12.0,14.0,42.86
+S Davizi,Kerava National Cricket Ground,T20I,2,14,25.0,0,6,10.71,25.0,42.86
 S Davizi,Marsa Sports Club,T20I,3,36,49.0,2,10,8.17,24.5,27.78
 S Davizi,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,37,68.0,2,12,11.03,34.0,32.43
 S Davizi,"Scott Page Field, Vinor",T20I,2,42,30.0,4,21,4.29,7.5,50.0
@@ -53855,6 +53861,7 @@ S Vashisht,"National Sports Academy, Sofia",T20I,3,60,65.0,4,33,6.5,16.25,55.0
 S Vashisht,Roma Cricket Ground,T20I,1,12,12.0,0,9,6.0,12.0,75.0
 S Vashisht,Tikkurila Cricket Ground,T20I,3,48,44.0,4,34,5.5,11.0,70.83
 S Vasilakis,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,36,34.0,3,18,5.67,11.33,50.0
+S Vasilakis,Kerava National Cricket Ground,T20I,1,6,15.0,0,1,15.0,15.0,16.67
 S Vasilakis,"King George V Sports Ground, Castel",T20I,2,26,37.0,0,11,8.54,37.0,42.31
 S Vats,"GB Oval, Szodliget",T20I,1,18,54.0,3,5,18.0,18.0,27.78
 S Vats,Pierre Werner Cricket Ground,T20I,1,12,17.0,0,5,8.5,17.0,41.67
@@ -53914,7 +53921,7 @@ S Weleilakeba,"Independence Park, Port Vila",T20I,2,18,33.0,0,4,11.0,33.0,22.22
 S Wetoto,Gahanga International Cricket Stadium. Rwanda,T20I,6,103,86.0,16,53,5.01,5.38,51.46
 S Wetoto,Integrated Polytechnic Regional Centre,T20I,1,24,15.0,2,15,3.75,7.5,62.5
 S Wetoto,"Kinrara Academy Oval, Kuala Lumpur",T20I,4,66,74.0,2,21,6.73,37.0,31.82
-S Wickramasekara,Kerava National Cricket Ground,T20I,3,72,78.0,4,25,6.5,19.5,34.72
+S Wickramasekara,Kerava National Cricket Ground,T20I,4,96,111.0,4,29,6.94,27.75,30.21
 S Wickramasekara,Marsa Sports Club,T20I,4,60,69.0,2,23,6.9,34.5,38.33
 S Wickramasekara,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,1,12,9.0,1,6,4.5,9.0,50.0
 S Wickramasekara,Pierre Werner Cricket Ground,T20I,1,24,25.0,0,12,6.25,25.0,50.0
@@ -54838,7 +54845,7 @@ SF Jerome,Integrated Polytechnic Regional Centre,T20I,2,42,27.0,1,25,3.86,27.0,5
 SF Jerome,"Namibia Cricket Ground, Windhoek",T20I,4,48,55.0,0,15,6.88,55.0,31.25
 SF Jerome,"Terdthai Cricket Ground, Bangkok",T20I,2,48,38.0,2,24,4.75,19.0,50.0
 SF Jerome,University of Dar-es-Salaam Ground,T20I,1,6,4.0,0,2,4.0,4.0,33.33
-SF Mangoda,Kerava National Cricket Ground,T20I,1,6,22.0,0,1,22.0,22.0,16.67
+SF Mangoda,Kerava National Cricket Ground,T20I,2,30,47.0,1,10,9.4,47.0,33.33
 SF Mangoda,Tikkurila Cricket Ground,T20I,1,24,23.0,2,8,5.75,11.5,33.33
 SF Mire,Bready,T20I,1,24,33.0,0,10,8.25,33.0,41.67
 SF Mire,"Brisbane Cricket Ground, Woolloongabba",ODI,1,6,9.0,0,1,9.0,9.0,16.67
@@ -55278,7 +55285,7 @@ SJ Harmison,W.A.C.A. Ground,Test,1,258,164.0,5,181,3.81,32.8,70.16
 SJ Hughes-Pinan,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,48,41.0,2,26,5.12,20.5,54.17
 SJ Hughes-Pinan,La Manga Club Top Ground,T20I,2,48,32.0,1,28,4.0,32.0,58.33
 SJ Hughes-Pinan,"Mladost Cricket Ground, Zagreb",T20I,2,44,24.0,5,33,3.27,4.8,75.0
-SJ Hughes-Pinan,Tikkurila Cricket Ground,T20I,1,24,17.0,3,17,4.25,5.67,70.83
+SJ Hughes-Pinan,Tikkurila Cricket Ground,T20I,2,48,20.0,6,38,2.5,3.33,79.17
 SJ Modani,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),ODI,1,6,3.0,0,4,3.0,3.0,66.67
 SJ Modani,Bulawayo Athletic Club,T20I,1,6,2.0,1,4,2.0,2.0,66.67
 SJ Modani,"Moosa Cricket Stadium, Pearland",ODI,1,6,3.0,0,3,3.0,3.0,50.0
@@ -58155,7 +58162,7 @@ Sajid Khan,Sydney Cricket Ground,Test,1,222,122.0,3,157,3.3,40.67,70.72
 Sajid Khan,Sylhet International Cricket Stadium,Test,1,387,222.0,4,257,3.44,55.5,66.41
 Sajid Khan,"Zahur Ahmed Chowdhury Stadium, Chattogram",Test,1,242,112.0,4,175,2.78,28.0,72.31
 Sajid Khan Afridi,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,30,52.0,0,8,10.4,52.0,26.67
-Sajid Khan Afridi,Kerava National Cricket Ground,T20I,2,31,42.0,0,8,8.13,42.0,25.81
+Sajid Khan Afridi,Kerava National Cricket Ground,T20I,3,37,55.0,0,9,8.92,55.0,24.32
 Sajid Khan Afridi,"King George V Sports Ground, Castel",T20I,1,12,24.0,1,4,12.0,24.0,33.33
 Sajid Liaqat,Bayer Uerdingen Cricket Ground,T20I,8,149,271.0,11,63,10.91,24.64,42.28
 Sajid Liaqat,Kerava National Cricket Ground,T20I,2,36,42.0,1,15,7.0,42.0,41.67
@@ -58266,7 +58273,7 @@ Salvin Stanly,"Terdthai Cricket Ground, Bangkok",T20I,1,6,10.0,0,2,10.0,10.0,33.
 Salvin Stanly,Udayana Cricket Ground,T20I,1,12,15.0,0,6,7.5,15.0,50.0
 Salvin Stanly,"West End Park International Cricket Stadium, Doha",T20I,2,36,48.0,1,7,8.0,48.0,19.44
 Samader Shadab,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,1,24,36.0,2,9,9.0,18.0,37.5
-Samader Shadab,Kerava National Cricket Ground,T20I,1,12,17.0,1,3,8.5,17.0,25.0
+Samader Shadab,Kerava National Cricket Ground,T20I,2,18,25.0,1,5,8.33,25.0,27.78
 Samader Shadab,"King George V Sports Ground, Castel",T20I,2,24,49.0,1,10,12.25,49.0,41.67
 Samarth Shetty,"Botkyrka Cricket Center, Stockholm",T20I,2,18,24.0,1,5,8.0,24.0,27.78
 Samarth Shetty,"Ishoj Cricket Club, Vejledalen",T20I,1,12,11.0,2,4,5.5,5.5,33.33
@@ -58585,7 +58592,7 @@ Sayed Monib,"Mission Road Ground, Mong Kok, Hong Kong",T20I,4,90,141.0,10,41,9.4
 Sayed Monib,Mulpani Cricket Ground,T20I,3,51,99.0,5,13,11.65,19.8,25.49
 Sayed Monib,"West End Park International Cricket Stadium, Doha",T20I,10,203,236.0,18,84,6.98,13.11,41.38
 Sazib Bhuiyan,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,2,42,49.0,4,20,7.0,12.25,47.62
-Sazib Bhuiyan,Kerava National Cricket Ground,T20I,1,12,19.0,1,3,9.5,19.0,25.0
+Sazib Bhuiyan,Kerava National Cricket Ground,T20I,2,15,25.0,1,3,10.0,25.0,20.0
 Sazib Bhuiyan,"King George V Sports Ground, Castel",T20I,2,22,24.0,3,6,6.55,8.0,27.27
 Sazib Bhuiyan,Marsa Sports Club,T20I,6,121,160.0,9,33,7.93,17.78,27.27
 Sazib Bhuiyan,"Moara Vlasiei Cricket Ground, Ilfov County",T20I,2,48,57.0,4,18,7.12,14.25,37.5
@@ -59074,7 +59081,7 @@ Shahid Afridi,Kennington Oval,T20I,3,72,79.0,2,27,6.58,39.5,37.5
 Shahid Afridi,"Kensington Oval, Bridgetown",CPL,1,12,22.0,1,1,11.0,22.0,8.33
 Shahid Afridi,"Kensington Oval, Bridgetown",ODI,2,95,57.0,0,64,3.6,57.0,67.37
 Shahid Afridi,"Kensington Oval, Bridgetown",T20I,2,48,57.0,3,18,7.12,19.0,37.5
-Shahid Afridi,Kerava National Cricket Ground,T20I,3,30,25.0,3,14,5.0,8.33,46.67
+Shahid Afridi,Kerava National Cricket Ground,T20I,4,42,33.0,6,22,4.71,5.5,52.38
 Shahid Afridi,Khan Shaheb Osman Ali Stadium,ODI,1,60,56.0,2,24,5.6,28.0,40.0
 Shahid Afridi,Kingsmead,ODI,3,119,73.0,5,67,3.68,14.6,56.3
 Shahid Afridi,Kingsmead,T20I,2,48,56.0,6,19,7.0,9.33,39.58
@@ -60056,7 +60063,7 @@ Simon Sorensen,"Svanholm Park, Brondby",T20I,1,12,18.0,0,4,9.0,18.0,33.33
 Simrah Mirza,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),T20I,2,40,65.0,1,5,9.75,65.0,12.5
 Simrah Mirza,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2),T20I,1,11,19.0,0,2,10.36,19.0,18.18
 Sinan Khan,"Guernsey Rovers Athletic Club Ground, Port Soif",T20I,1,24,36.0,3,11,9.0,12.0,45.83
-Sinan Khan,Kerava National Cricket Ground,T20I,1,24,33.0,1,10,8.25,33.0,41.67
+Sinan Khan,Kerava National Cricket Ground,T20I,2,30,42.0,3,13,8.4,14.0,43.33
 Sinan Khan,"King George V Sports Ground, Castel",T20I,2,18,32.0,0,6,10.67,32.0,33.33
 Siow Tzin Yee,"Bayuemas Oval, Kuala Lumpur",T20I,4,78,71.0,3,36,5.46,23.67,46.15
 Siow Tzin Yee,"Indian Association Ground, Singapore",T20I,1,6,2.0,0,5,2.0,2.0,83.33
@@ -63676,7 +63683,7 @@ V Iriho,Gahanga International Cricket Stadium. Rwanda,T20I,2,30,13.0,2,19,2.6,6.
 V Iriho,Old Hararians,T20I,2,42,50.0,0,18,7.14,50.0,42.86
 V Iriho,Takashinga Sports Club,T20I,1,24,14.0,1,16,3.5,14.0,66.67
 V Jatinder Kumar,Bayer Uerdingen Cricket Ground,T20I,2,24,56.0,1,9,14.0,56.0,37.5
-V Jatinder Kumar,Kerava National Cricket Ground,T20I,3,72,68.0,6,40,5.67,11.33,55.56
+V Jatinder Kumar,Kerava National Cricket Ground,T20I,4,92,80.0,8,51,5.22,10.0,55.43
 V Jatinder Kumar,"Svanholm Park, Brondby",T20I,3,72,47.0,4,34,3.92,11.75,47.22
 V Jatinder Kumar,"TCA Oval, Blantyre",T20I,6,138,149.0,6,64,6.48,24.83,46.38
 V Jatinder Kumar,Tikkurila Cricket Ground,T20I,1,24,29.0,2,11,7.25,14.5,45.83
@@ -63780,6 +63787,7 @@ V Mansale,"Tolerance Oval, Abu Dhabi",T20I,2,47,51.0,0,22,6.51,51.0,46.81
 V Mansale,Vanuatu Cricket Ground,T20I,4,80,68.0,7,49,5.1,9.71,61.25
 V Mansale,Vanuatu Cricket Ground (Oval 2),T20I,2,33,17.0,4,25,3.09,4.25,75.76
 V Mansale,"Zayed Cricket Stadium, Abu Dhabi",T20I,2,37,34.0,1,21,5.51,34.0,56.76
+V Marghashayam,Kerava National Cricket Ground,T20I,1,7,13.0,1,1,11.14,13.0,14.29
 V Marghashayam,"Scott Page Field, Vinor",T20I,5,79,132.0,6,29,10.03,22.0,36.71
 V Marghashayam,Tikkurila Cricket Ground,T20I,1,15,24.0,0,2,9.6,24.0,13.33
 V Masekesa,"Queens Sports Club, Bulawayo",Test,3,384,347.0,5,204,5.42,69.4,53.12
@@ -64006,7 +64014,7 @@ V Vijh,Pierre Werner Cricket Ground,T20I,3,54,108.0,4,13,12.0,27.0,24.07
 V Vijh,Roma Cricket Ground,T20I,4,89,100.0,8,33,6.74,12.5,37.08
 V Vijh,"Scott Page Field, Vinor",T20I,9,192,252.0,10,72,7.88,25.2,37.5
 V Vijh,"Simar Cricket Ground, Rome",T20I,1,24,23.0,2,9,5.75,11.5,37.5
-V Vijh,Tikkurila Cricket Ground,T20I,4,88,98.0,4,34,6.68,24.5,38.64
+V Vijh,Tikkurila Cricket Ground,T20I,5,112,137.0,4,41,7.34,34.25,36.61
 V Vira,"Albert Park 1, Suva",T20I,3,55,45.0,3,36,4.91,15.0,65.45
 V Vira,"Albert Park 2, Suva",T20I,2,42,49.0,2,19,7.0,24.5,45.24
 V Vira,"Amini Park, Port Moresby",T20I,4,78,32.0,7,59,2.46,4.57,75.64
@@ -64417,7 +64425,7 @@ Vishil Patel,"Takashinga Sports Club, Highfield, Harare",T20I,1,18,24.0,0,8,8.0,
 Vishil Patel,"United Cricket Club Ground, Windhoek",T20I,1,24,24.0,1,12,6.0,24.0,50.0
 Vivek Dixit,Kerava National Cricket Ground,T20I,1,18,23.0,1,4,7.67,23.0,22.22
 Vivek Dixit,"Scott Page Field, Vinor",T20I,1,12,34.0,0,2,17.0,34.0,16.67
-Vivek Dixit,Tikkurila Cricket Ground,T20I,1,18,30.0,1,3,10.0,30.0,16.67
+Vivek Dixit,Tikkurila Cricket Ground,T20I,2,43,60.0,3,11,8.37,20.0,25.58
 Vivrant Sharma,"Sawai Mansingh Stadium, Jaipur",IPL,1,12,18.0,0,4,9.0,18.0,33.33
 Vivrant Sharma,"Wankhede Stadium, Mumbai",IPL,1,7,19.0,0,1,16.29,19.0,14.29
 Vraj Patel,Entebbe Cricket Oval,T20I,9,180,133.0,8,109,4.43,16.62,60.56
@@ -65915,7 +65923,7 @@ YYM Jakda,Gahanga International Cricket Stadium. Rwanda,T20I,1,24,32.0,2,9,8.0,1
 YYM Jakda,Integrated Polytechnic Regional Centre,T20I,6,90,130.0,6,34,8.67,21.67,37.78
 Yadwinder Singh,"GB Oval, Szodliget",T20I,1,12,2.0,0,10,1.0,2.0,83.33
 Yahya Suhail,Udayana Cricket Ground,T20I,4,52,72.0,2,18,8.31,36.0,34.62
-Yair Nagavkar,Kerava National Cricket Ground,T20I,1,6,15.0,0,0,15.0,15.0,0.0
+Yair Nagavkar,Kerava National Cricket Ground,T20I,2,31,35.0,0,11,6.77,35.0,35.48
 Yair Nagavkar,"Meersen, Gent",T20I,2,39,44.0,2,14,6.77,22.0,35.9
 Yair Nagavkar,Roma Cricket Ground,T20I,2,43,51.0,0,14,7.12,51.0,32.56
 Yair Nagavkar,"Royal Brussels Cricket Club Ground, Waterloo",T20I,1,24,17.0,2,15,4.25,8.5,62.5
