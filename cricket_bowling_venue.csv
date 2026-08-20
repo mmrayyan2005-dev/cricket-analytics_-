@@ -3299,7 +3299,7 @@ AD Russell,"Riverside Ground, Chester-le-Street",T20I,1,13,25.0,1,5,11.54,25.0,3
 AD Russell,"Sabina Park, Kingston",CPL,17,329,414.0,24,141,7.55,17.25,42.86
 AD Russell,"Sabina Park, Kingston",ODI,3,167,131.0,9,95,4.71,14.56,56.89
 AD Russell,"Sabina Park, Kingston",T20I,1,6,7.0,0,2,7.0,7.0,33.33
-AD Russell,"Sabina Park, Kingston, Jamaica",CPL,3,60,97.0,5,24,9.7,19.4,40.0
+AD Russell,"Sabina Park, Kingston, Jamaica",CPL,4,85,116.0,7,35,8.19,16.57,41.18
 AD Russell,"Sabina Park, Kingston, Jamaica",T20I,2,18,53.0,0,5,17.67,53.0,27.78
 AD Russell,"Sardar Patel Stadium, Motera",IPL,1,19,27.0,1,4,8.53,27.0,21.05
 AD Russell,"Sardar Patel Stadium, Motera",ODI,1,24,25.0,0,8,6.25,25.0,33.33
@@ -4257,7 +4257,7 @@ AM Fernando,"Basin Reserve, Wellington",ODI,1,36,33.0,0,20,5.5,33.0,55.56
 AM Fernando,"Basin Reserve, Wellington",Test,1,157,110.0,0,113,4.2,110.0,71.97
 AM Fernando,Dubai International Cricket Stadium,T20I,2,36,79.0,1,7,13.17,79.0,19.44
 AM Fernando,"Eden Park, Auckland",ODI,1,42,26.0,3,31,3.71,8.67,73.81
-AM Fernando,Galle International Stadium,Test,10,1031,572.0,16,740,3.33,35.75,71.77
+AM Fernando,Galle International Stadium,Test,11,1194,666.0,22,848,3.35,30.27,71.02
 AM Fernando,"Hagley Oval, Christchurch",Test,1,291,148.0,8,208,3.05,18.5,71.48
 AM Fernando,Harare Sports Club,ODI,2,114,117.0,5,53,6.16,23.4,46.49
 AM Fernando,"Kennington Oval, London",ODI,1,60,54.0,0,29,5.4,54.0,48.33
@@ -10942,7 +10942,7 @@ CBRLS Kumara,Eden Park,T20I,1,25,24.0,0,12,5.76,24.0,48.0
 CBRLS Kumara,"Eden Park, Auckland",ODI,1,60,46.0,2,32,4.6,23.0,53.33
 CBRLS Kumara,"GMHBA Stadium, South Geelong, Victoria",T20I,1,24,28.0,1,14,7.0,28.0,58.33
 CBRLS Kumara,Gaddafi Stadium,T20I,1,24,24.0,2,7,6.0,12.0,29.17
-CBRLS Kumara,Galle International Stadium,Test,5,585,418.0,7,375,4.29,59.71,64.1
+CBRLS Kumara,Galle International Stadium,Test,6,693,522.0,9,439,4.52,58.0,63.35
 CBRLS Kumara,"Greenfield International Stadium, Thiruvananthapuram",ODI,1,60,87.0,2,21,8.7,43.5,35.0
 CBRLS Kumara,Hagley Oval,Test,1,277,183.0,6,197,3.96,30.5,71.12
 CBRLS Kumara,"Hagley Oval, Christchurch",Test,1,240,137.0,4,164,3.42,34.25,68.33
@@ -13400,6 +13400,7 @@ D Olivier,SuperSport Park,Test,1,174,96.0,11,138,3.31,8.73,79.31
 D Olivier,The Wanderers Stadium,Test,1,169,125.0,8,124,4.44,15.62,73.37
 D Olivier,"The Wanderers Stadium, Johannesburg",Test,1,175,115.0,4,125,3.94,28.75,71.43
 D Olivier,Trent Bridge,Test,1,62,64.0,2,39,6.19,32.0,62.9
+D Padikkal,Galle International Stadium,Test,1,6,5.0,0,4,5.0,5.0,66.67
 D Panda,"Clayton Panama, Panama City",T20I,3,59,59.0,10,30,6.0,5.9,50.85
 D Panda,"Jimmy Powell Oval, Cayman Islands",T20I,6,132,167.0,6,46,7.59,27.83,34.85
 D Panda,"Los Pinos Polo Club 1, Cundinamarca",T20I,3,42,41.0,0,23,5.86,41.0,54.76
@@ -15324,7 +15325,7 @@ DM de Silva,Dubai International Cricket Stadium,ODI,1,42,38.0,2,19,5.43,19.0,45.
 DM de Silva,Dubai International Cricket Stadium,T20I,2,30,22.0,1,12,4.4,22.0,40.0
 DM de Silva,"Eden Gardens, Kolkata",ODI,1,18,9.0,1,12,3.0,9.0,66.67
 DM de Silva,"GMHBA Stadium, South Geelong, Victoria",T20I,1,6,5.0,0,1,5.0,5.0,16.67
-DM de Silva,Galle International Stadium,Test,15,841,398.0,11,586,2.84,36.18,69.68
+DM de Silva,Galle International Stadium,Test,16,871,417.0,11,603,2.87,37.91,69.23
 DM de Silva,"Grand Prairie Stadium, Dallas",T20I,1,12,11.0,1,3,5.5,11.0,25.0
 DM de Silva,"Grange Cricket Club, Raeburn Place",ODI,1,32,30.0,2,15,5.62,15.0,46.88
 DM de Silva,"Hagley Oval, Christchurch",Test,1,54,34.0,0,38,3.78,34.0,70.37
@@ -19586,6 +19587,7 @@ GRD Munasinghe,King George V Sports Ground,T20I,1,24,39.0,2,7,9.75,19.5,29.17
 GRD Munasinghe,Sportpark Maarschalkerweerd,T20I,1,24,27.0,0,9,6.75,27.0,37.5
 GS Ballance,The Rose Bowl,Test,1,6,5.0,0,4,5.0,5.0,66.67
 GS Ballance,Trent Bridge,Test,1,6,0.0,0,6,0.0,0.0,100.0
+GS Dinusha,Galle International Stadium,Test,1,24,17.0,0,14,4.25,17.0,58.33
 GS Dinusha,"Sinhalese Sports Club Ground, Colombo",Test,1,75,29.0,3,54,2.32,9.67,72.0
 GS Dinusha,"Sir Vivian Richards Stadium, North Sound, Antigua",Test,2,408,267.0,3,233,3.93,89.0,57.11
 GS Sandhu,Adelaide Oval,BBL,2,34,25.0,2,16,4.41,12.5,47.06
@@ -21928,7 +21930,7 @@ Hassan Khan,"National Stadium, Karachi",PSL,6,96,132.0,3,28,8.25,44.0,29.17
 Hassan Khan,Perth Stadium,BBL,1,24,26.0,3,7,6.5,8.67,29.17
 Hassan Khan,"Providence Stadium, Guyana",CPL,6,92,133.0,4,33,8.67,33.25,35.87
 Hassan Khan,"Queen's Park Oval, Port of Spain, Trinidad",CPL,1,12,22.0,0,5,11.0,22.0,41.67
-Hassan Khan,"Sabina Park, Kingston, Jamaica",CPL,3,49,49.0,1,18,6.0,49.0,36.73
+Hassan Khan,"Sabina Park, Kingston, Jamaica",CPL,4,67,71.0,3,24,6.36,23.67,35.82
 Hassan Khan,Sharjah Cricket Stadium,PSL,9,132,162.0,7,48,7.36,23.14,36.36
 Hassan Khan,"Sheikh Zayed Stadium, Abu Dhabi",PSL,3,42,70.0,1,11,10.0,70.0,26.19
 Hassan Khan,Sydney Cricket Ground,BBL,1,18,27.0,1,5,9.0,27.0,27.78
@@ -21986,7 +21988,7 @@ Hunain Shah,"Arnos Vale Ground, Kingstown, St Vincent",CPL,1,24,38.0,2,7,9.5,19.
 Hunain Shah,"Gaddafi Stadium, Lahore",PSL,6,104,156.0,7,39,9.0,22.29,37.5
 Hunain Shah,"National Stadium, Karachi",PSL,10,187,281.0,15,70,9.02,18.73,37.43
 Hunain Shah,Rawalpindi Cricket Stadium,PSL,4,78,114.0,5,37,8.77,22.8,47.44
-Hunain Shah,"Sabina Park, Kingston, Jamaica",CPL,3,60,79.0,2,19,7.9,39.5,31.67
+Hunain Shah,"Sabina Park, Kingston, Jamaica",CPL,4,78,95.0,3,25,7.31,31.67,32.05
 Hung Ying Ho,Asian Institute of Technology Ground,T20I,2,24,12.0,0,18,3.0,12.0,75.0
 Hussain Talat,"Brian Lara Stadium, Tarouba, Trinidad",ODI,1,24,26.0,0,10,6.5,26.0,41.67
 Hussain Talat,Dubai International Cricket Stadium,PSL,2,18,36.0,0,6,12.0,36.0,33.33
@@ -27260,6 +27262,7 @@ JO Holder,"Sabina Park, Jamaica",Test,1,263,97.0,6,221,2.21,16.17,84.03
 JO Holder,"Sabina Park, Kingston",CPL,4,86,84.0,5,44,5.86,16.8,51.16
 JO Holder,"Sabina Park, Kingston",ODI,2,102,69.0,3,63,4.06,23.0,61.76
 JO Holder,"Sabina Park, Kingston",Test,4,736,330.0,17,590,2.69,19.41,80.16
+JO Holder,"Sabina Park, Kingston, Jamaica",CPL,1,24,30.0,1,9,7.5,30.0,37.5
 JO Holder,"Sabina Park, Kingston, Jamaica",ODI,3,114,99.0,1,69,5.21,99.0,60.53
 JO Holder,"Sabina Park, Kingston, Jamaica",T20I,6,138,193.0,8,52,8.39,24.12,37.68
 JO Holder,"Sabina Park, Kingston, Jamaica",Test,2,376,135.0,8,305,2.15,16.88,81.12
@@ -29049,6 +29052,7 @@ K Nestor,La Manga Club Bottom Ground,T20I,1,18,18.0,0,4,6.0,18.0,22.22
 K Nestor,Marsa Sports Club,T20I,7,110,163.0,1,48,8.89,163.0,43.64
 K Nestor,"Vassil Levski National Sports Academy, Sofia",T20I,5,92,122.0,7,51,7.96,17.43,55.43
 K Nima,Tribhuvan University International Cricket Ground,T20I,1,18,22.0,1,5,7.33,22.0,27.78
+K Nuwantha,Galle International Stadium,Test,1,375,261.0,5,230,4.18,52.2,61.33
 K Oala,"Amini Park, Port Moresby",ODI,3,67,48.0,2,38,4.3,24.0,56.72
 K Oala,Forthill,T20I,3,30,35.0,1,13,7.0,35.0,43.33
 K Oala,Lochlands,T20I,2,42,28.0,3,20,4.0,9.33,47.62
@@ -30976,7 +30980,7 @@ KMA Paul,"Queen's Park Oval, Trinidad",ODI,1,30,39.0,0,10,7.8,39.0,33.33
 KMA Paul,Rajiv Gandhi International Stadium,IPL,1,25,17.0,3,10,4.08,5.67,40.0
 KMA Paul,"Sabina Park, Kingston",CPL,1,20,34.0,3,7,10.2,11.33,35.0
 KMA Paul,"Sabina Park, Kingston",Test,1,100,59.0,3,72,3.54,19.67,72.0
-KMA Paul,"Sabina Park, Kingston, Jamaica",CPL,3,50,73.0,1,18,8.76,73.0,36.0
+KMA Paul,"Sabina Park, Kingston, Jamaica",CPL,4,75,103.0,4,30,8.24,25.75,40.0
 KMA Paul,Saurashtra Cricket Association Stadium,Test,1,92,61.0,0,65,3.98,61.0,70.65
 KMA Paul,Sharjah Cricket Stadium,ODI,2,73,56.0,4,47,4.6,14.0,64.38
 KMA Paul,"Shere Bangla National Stadium, Mirpur",ODI,2,109,105.0,2,50,5.78,52.5,45.87
@@ -31277,6 +31281,7 @@ KR Mayers,"Queen's Park Oval, Port of Spain, Trinidad",ODI,3,64,73.0,2,25,6.84,3
 KR Mayers,"Queens Sports Club, Bulawayo",Test,1,66,28.0,0,54,2.55,28.0,81.82
 KR Mayers,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",IPL,1,7,11.0,0,3,9.43,11.0,42.86
 KR Mayers,"Sabina Park, Kingston",CPL,1,12,20.0,1,3,10.0,20.0,25.0
+KR Mayers,"Sabina Park, Kingston, Jamaica",CPL,1,6,9.0,0,2,9.0,9.0,33.33
 KR Mayers,"Sabina Park, Kingston, Jamaica",T20I,3,24,34.0,0,11,8.5,34.0,45.83
 KR Mayers,"Sabina Park, Kingston, Jamaica",Test,2,321,138.0,5,244,2.58,27.6,76.01
 KR Mayers,"Senwes Park, Potchefstroom",ODI,1,12,12.0,1,7,6.0,12.0,58.33
@@ -32162,6 +32167,7 @@ Kuldeep Yadav,"Eden Gardens, Kolkata",ODI,2,91,58.0,5,57,3.82,11.6,62.64
 Kuldeep Yadav,"Eden Gardens, Kolkata",Test,1,132,66.0,4,94,3.0,16.5,71.21
 Kuldeep Yadav,Edgbaston,ODI,1,60,72.0,1,25,7.2,72.0,41.67
 Kuldeep Yadav,Feroz Shah Kotla,IPL,2,42,64.0,3,14,9.14,21.33,33.33
+Kuldeep Yadav,Galle International Stadium,Test,1,150,103.0,1,94,4.12,103.0,62.67
 Kuldeep Yadav,Greenfield International Stadium,ODI,1,30,18.0,1,20,3.6,18.0,66.67
 Kuldeep Yadav,Greenfield International Stadium,T20I,1,6,10.0,2,2,10.0,5.0,33.33
 Kuldeep Yadav,"Greenfield International Stadium, Thiruvananthapuram",ODI,1,30,16.0,2,23,3.2,8.0,76.67
@@ -35566,6 +35572,7 @@ M Prasidh Krishna,Eden Gardens,IPL,10,231,383.0,7,84,9.95,54.71,36.36
 M Prasidh Krishna,"Eden Gardens, Kolkata",IPL,2,45,65.0,2,22,8.67,32.5,48.89
 M Prasidh Krishna,"Edgbaston, Birmingham",ODI,1,60,50.0,2,36,5.0,25.0,60.0
 M Prasidh Krishna,"Edgbaston, Birmingham",Test,1,163,111.0,1,116,4.09,111.0,71.17
+M Prasidh Krishna,Galle International Stadium,Test,1,144,63.0,3,111,2.62,21.0,77.08
 M Prasidh Krishna,"Greenfield International Stadium, Thiruvananthapuram",T20I,1,24,41.0,3,8,10.25,13.67,33.33
 M Prasidh Krishna,Harare Sports Club,ODI,2,85,78.0,5,54,5.51,15.6,63.53
 M Prasidh Krishna,"Headingley, Leeds",Test,1,211,220.0,5,118,6.26,44.0,55.92
@@ -37711,6 +37718,7 @@ MJ Santner,"Wankhede Stadium, Mumbai",ODI,1,60,51.0,0,29,5.1,51.0,48.33
 MJ Santner,Westpac Stadium,ODI,4,150,122.0,5,60,4.88,24.4,40.0
 MJ Santner,Westpac Stadium,T20I,7,150,142.0,11,72,5.68,12.91,48.0
 MJ Santner,"Zayed Cricket Stadium, Abu Dhabi",T20I,1,6,8.0,0,2,8.0,8.0,33.33
+MJ Suthar,Galle International Stadium,Test,1,273,131.0,10,196,2.88,13.1,71.79
 MJ Suthar,"M Chinnaswamy Stadium, Bengaluru",IPL,2,24,45.0,1,8,11.25,45.0,33.33
 MJ Suthar,"MA Chidambaram Stadium, Chepauk, Chennai",IPL,1,18,22.0,1,9,7.33,22.0,50.0
 MJ Suthar,"Narendra Modi Stadium, Ahmedabad",IPL,1,6,27.0,0,0,27.0,27.0,0.0
@@ -41345,6 +41353,7 @@ Mohammed Siraj,"Eden Gardens, Kolkata",ODI,2,58,41.0,4,42,4.24,10.25,72.41
 Mohammed Siraj,"Eden Gardens, Kolkata",Test,1,84,49.0,4,60,3.5,12.25,71.43
 Mohammed Siraj,"Edgbaston, Birmingham",Test,2,353,291.0,11,223,4.95,26.45,63.17
 Mohammed Siraj,Feroz Shah Kotla,IPL,1,24,41.0,2,7,10.25,20.5,29.17
+Mohammed Siraj,Galle International Stadium,Test,1,110,44.0,2,85,2.4,22.0,77.27
 Mohammed Siraj,Green Park,IPL,1,24,32.0,4,10,8.0,8.0,41.67
 Mohammed Siraj,"Green Park, Kanpur",Test,1,127,76.0,2,98,3.59,38.0,77.17
 Mohammed Siraj,"Greenfield International Stadium, Thiruvananthapuram",ODI,1,60,32.0,5,46,3.2,6.4,76.67
@@ -42070,6 +42079,7 @@ N Bidaisee,"Brian Lara Stadium, Tarouba, Trinidad",CPL,1,18,30.0,1,9,10.0,30.0,5
 N Bidaisee,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",CPL,1,12,34.0,0,3,17.0,34.0,25.0
 N Bidaisee,"Kensington Oval, Bridgetown, Barbados",CPL,1,24,24.0,2,10,6.0,12.0,41.67
 N Bidaisee,"Providence Stadium, Guyana",CPL,1,18,22.0,1,3,7.33,22.0,16.67
+N Bidaisee,"Sabina Park, Kingston, Jamaica",CPL,1,6,12.0,0,3,12.0,12.0,50.0
 N Bidaisee,Sharjah Cricket Stadium,T20I,3,48,62.0,3,17,7.75,20.67,35.42
 N Bidaisee,"Sir Vivian Richards Stadium, North Sound, Antigua",CPL,1,24,17.0,1,10,4.25,17.0,41.67
 N Bidaisee,"Warner Park, Basseterre, St Kitts",CPL,2,30,42.0,2,10,8.4,21.0,33.33
@@ -43009,7 +43019,7 @@ NG Smith,"Shere Bangla National Stadium, Mirpur",T20I,1,12,14.0,2,6,7.0,7.0,50.0
 NG Smith,"Sky Stadium, Wellington",ODI,1,36,40.0,0,23,6.67,40.0,63.89
 NG Smith,"Trent Bridge, Nottingham",Test,1,238,155.0,8,168,3.91,19.38,70.59
 NGRP Jayasuriya,"Basin Reserve, Wellington",Test,1,126,86.0,1,70,4.1,86.0,55.56
-NGRP Jayasuriya,Galle International Stadium,Test,11,4247,2157.0,85,3037,3.05,25.38,71.51
+NGRP Jayasuriya,Galle International Stadium,Test,12,4547,2309.0,92,3253,3.05,25.1,71.54
 NGRP Jayasuriya,"Hagley Oval, Christchurch",Test,1,175,138.0,3,103,4.73,46.0,58.86
 NGRP Jayasuriya,"Kingsmead, Durban",Test,1,270,156.0,4,187,3.47,39.0,69.26
 NGRP Jayasuriya,"Lord's, London",Test,1,294,201.0,3,182,4.1,67.0,61.9
@@ -44845,6 +44855,7 @@ Nikhil Chaudhary,"Brisbane Cricket Ground, Woolloongabba, Brisbane",BBL,2,24,42.
 Nikhil Chaudhary,"Docklands Stadium, Melbourne",BBL,1,12,16.0,1,3,8.0,16.0,25.0
 Nikhil Chaudhary,Melbourne Cricket Ground,BBL,2,36,59.0,1,12,9.83,59.0,33.33
 Nikhil Chaudhary,Perth Stadium,BBL,1,6,5.0,0,3,5.0,5.0,50.0
+Nikhil Chaudhary,"Sabina Park, Kingston, Jamaica",CPL,1,12,15.0,0,6,7.5,15.0,50.0
 Nikhil Chaudhary,Sydney Cricket Ground,BBL,1,24,18.0,0,7,4.5,18.0,29.17
 Nikhil Deshmukh,"Los Pinos Polo Club 1, Cundinamarca",T20I,1,18,18.0,1,8,6.0,18.0,44.44
 Nikhil Deshmukh,"Los Pinos Polo Club 2, Cundinamarca",T20I,1,6,4.0,0,4,4.0,4.0,66.67
@@ -45300,6 +45311,7 @@ OC McCoy,"Providence Stadium, Guyana",T20I,3,61,86.0,2,25,8.46,43.0,40.98
 OC McCoy,"Queen's Park Oval, Port of Spain",CPL,1,23,21.0,0,9,5.48,21.0,39.13
 OC McCoy,"Queen's Park Oval, Port of Spain, Trinidad",CPL,3,67,91.0,4,30,8.15,22.75,44.78
 OC McCoy,"Sabina Park, Kingston",CPL,3,71,87.0,3,36,7.35,29.0,50.7
+OC McCoy,"Sabina Park, Kingston, Jamaica",CPL,1,24,27.0,1,10,6.75,27.0,41.67
 OC McCoy,"Sabina Park, Kingston, Jamaica",T20I,5,102,165.0,9,40,9.71,18.33,39.22
 OC McCoy,"Sawai Mansingh Stadium, Jaipur",IPL,1,6,13.0,0,2,13.0,13.0,33.33
 OC McCoy,Sharjah Cricket Stadium,T20I,1,24,37.0,0,8,9.25,37.0,33.33
@@ -45380,7 +45392,7 @@ OF Smith,"Queen's Park Oval, Port of Spain",CPL,1,25,20.0,3,11,4.8,6.67,44.0
 OF Smith,"Queen's Park Oval, Port of Spain, Trinidad",CPL,2,36,49.0,3,9,8.17,16.33,25.0
 OF Smith,Rawalpindi Cricket Stadium,PSL,1,15,40.0,0,2,16.0,40.0,13.33
 OF Smith,"Sabina Park, Kingston",CPL,2,37,57.0,3,17,9.24,19.0,45.95
-OF Smith,"Sabina Park, Kingston, Jamaica",CPL,1,18,26.0,0,8,8.67,26.0,44.44
+OF Smith,"Sabina Park, Kingston, Jamaica",CPL,2,30,50.0,1,11,10.0,50.0,36.67
 OF Smith,"Sabina Park, Kingston, Jamaica",ODI,3,61,57.0,3,37,5.61,19.0,60.66
 OF Smith,"Sabina Park, Kingston, Jamaica",T20I,3,66,91.0,7,23,8.27,13.0,34.85
 OF Smith,"Senwes Park, Potchefstroom",ODI,1,14,32.0,0,4,13.71,32.0,28.57
@@ -47309,6 +47321,7 @@ PWH de Silva,Rangiri Dambulla International Stadium,T20I,7,156,183.0,16,66,7.04,
 PWH de Silva,Rawalpindi Cricket Stadium,ODI,2,120,89.0,3,62,4.45,29.67,51.67
 PWH de Silva,Rawalpindi Cricket Stadium,T20I,5,120,141.0,7,51,7.05,20.14,42.5
 PWH de Silva,"Riverside Ground, Chester-le-Street",ODI,1,42,26.0,0,21,3.71,26.0,50.0
+PWH de Silva,"Sabina Park, Kingston, Jamaica",CPL,1,24,36.0,2,9,9.0,18.0,37.5
 PWH de Silva,"Sabina Park, Kingston, Jamaica",ODI,1,60,43.0,1,33,4.3,43.0,55.0
 PWH de Silva,"Sabina Park, Kingston, Jamaica",T20I,3,72,87.0,7,31,7.25,12.43,43.06
 PWH de Silva,"Saurashtra Cricket Association Stadium, Rajkot",T20I,1,24,36.0,1,5,9.0,36.0,20.83
@@ -48970,7 +48983,7 @@ RA Jadeja,"Edgbaston, Birmingham",Test,2,318,175.0,2,225,3.3,87.5,70.75
 RA Jadeja,Feroz Shah Kotla,IPL,7,114,152.0,7,33,8.0,21.71,28.95
 RA Jadeja,Feroz Shah Kotla,ODI,4,210,142.0,7,122,4.06,20.29,58.1
 RA Jadeja,Feroz Shah Kotla,Test,2,618,154.0,14,528,1.5,11.0,85.44
-RA Jadeja,Galle International Stadium,Test,1,284,138.0,6,212,2.92,23.0,74.65
+RA Jadeja,Galle International Stadium,Test,2,552,266.0,10,408,2.89,26.6,73.91
 RA Jadeja,Green Park,IPL,4,60,82.0,0,17,8.2,82.0,28.33
 RA Jadeja,Green Park,ODI,1,60,49.0,1,29,4.9,49.0,48.33
 RA Jadeja,Green Park,Test,1,411,131.0,6,340,1.91,21.83,82.73
@@ -56188,6 +56201,7 @@ SN Netravalkar,National Stadium,T20I,1,12,10.0,0,6,5.0,10.0,50.0
 SN Netravalkar,Prairie View Cricket Complex,T20I,7,132,171.0,8,57,7.77,21.38,43.18
 SN Netravalkar,"Providence Stadium, Guyana",CPL,3,72,89.0,7,27,7.42,12.71,37.5
 SN Netravalkar,"Queens Sports Club, Bulawayo",T20I,1,24,27.0,1,8,6.75,27.0,33.33
+SN Netravalkar,"Sabina Park, Kingston, Jamaica",CPL,1,26,43.0,2,13,9.92,21.5,50.0
 SN Netravalkar,Sharjah Cricket Stadium,ODI,2,110,66.0,7,68,3.6,9.43,61.82
 SN Netravalkar,"Sinhalese Sports Club Ground, Colombo",T20I,1,25,40.0,3,12,9.6,13.33,48.0
 SN Netravalkar,"Sir Vivian Richards Stadium, North Sound, Antigua",T20I,2,42,49.0,2,19,7.0,24.5,45.24
@@ -64194,7 +64208,7 @@ VN Veetil,"UKM-YSD Cricket Oval, Bangi",T20I,7,124,165.0,4,35,7.98,41.25,28.23
 VO Lawes,"Arnos Vale Ground, Kingstown, St Vincent",CPL,1,12,19.0,0,0,9.5,19.0,0.0
 VO Lawes,"Kensington Oval, Bridgetown, Barbados",ODI,2,98,95.0,3,48,5.82,31.67,48.98
 VO Lawes,"Providence Stadium, Guyana",ODI,3,162,133.0,6,82,4.93,22.17,50.62
-VO Lawes,"Sabina Park, Kingston, Jamaica",CPL,3,66,129.0,2,20,11.73,64.5,30.3
+VO Lawes,"Sabina Park, Kingston, Jamaica",CPL,4,78,147.0,3,23,11.31,49.0,29.49
 VP Thamotharam,Dreux Sport Cricket Club,T20I,3,72,73.0,4,30,6.08,18.25,41.67
 VP Thamotharam,Europa Sports Complex,T20I,6,84,147.0,5,26,10.5,29.4,30.95
 VP Thamotharam,Gucherre Cricket Ground,T20I,2,19,33.0,0,5,10.42,33.0,26.32
