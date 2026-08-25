@@ -131772,6 +131772,15 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1496581,Prince Yadav,England,India,"Lord's, London",2026-07-19,ODI,60,68.0,1,28,10.0,6.8,2026
 1496581,SM Curran,India,England,"Lord's, London",2026-07-19,ODI,60,73.0,4,21,10.0,7.3,2026
 1496581,WG Jacks,India,England,"Lord's, London",2026-07-19,ODI,24,38.0,0,6,4.0,9.5,2026
+1496582,AAP Atkinson,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,120,51.0,1,94,20.0,2.55,2026
+1496582,Ali Usman,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,144,95.0,5,93,24.0,3.96,2026
+1496582,DW Lawrence,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,6,0.0,0,6,1.0,0.0,2026
+1496582,JC Archer,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,117,76.0,3,89,19.5,3.9,2026
+1496582,JC Tongue,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,97,89.0,8,58,16.2,5.51,2026
+1496582,Khurram Shahzad,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,136,133.0,3,84,22.7,5.87,2026
+1496582,Mohammad Abbas,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,151,78.0,1,117,25.2,3.1,2026
+1496582,Mohammad Ali,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,115,89.0,1,79,19.2,4.64,2026
+1496582,OE Robinson,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,175,80.0,8,136,29.2,2.74,2026
 1496821,A Dhabe,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,2,12,4.0,6.75,2025
 1496821,Abdul Naser Baluch,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,14.0,2,15,4.0,3.5,2025
 1496821,Aqib Iqbal,Sweden,Austria,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,3,10,4.0,6.75,2025
@@ -138909,6 +138918,16 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1527273,TM Head,Bangladesh,Australia,"Marrara Stadium, Darwin",2026-08-13,Test,12,3.0,0,9,2.0,1.5,2026
 1527273,Taijul Islam,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,132,75.0,1,86,22.0,3.41,2026
 1527273,Taskin Ahmed,Australia,Bangladesh,"Marrara Stadium, Darwin",2026-08-13,Test,209,121.0,3,151,34.8,3.47,2026
+1527274,BJ Webster,Bangladesh,Australia,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,19,8.0,0,16,3.2,2.53,2026
+1527274,Hasan Mahmud,Australia,Bangladesh,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,84,67.0,0,58,14.0,4.79,2026
+1527274,JR Hazlewood,Bangladesh,Australia,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,109,34.0,1,91,18.2,1.87,2026
+1527274,MA Starc,Bangladesh,Australia,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,122,51.0,10,101,20.3,2.51,2026
+1527274,Mehedi Hasan Miraz,Australia,Bangladesh,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,12,4.0,1,10,2.0,2.0,2026
+1527274,NM Lyon,Bangladesh,Australia,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,69,25.0,3,55,11.5,2.17,2026
+1527274,PJ Cummins,Bangladesh,Australia,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,120,35.0,6,102,20.0,1.75,2026
+1527274,Shoriful Islam,Australia,Bangladesh,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,91,48.0,7,70,15.2,3.16,2026
+1527274,Taijul Islam,Australia,Bangladesh,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,57,17.0,1,45,9.5,1.79,2026
+1527274,Taskin Ahmed,Australia,Bangladesh,"Great Barrier Reef Arena, Mackay",2026-08-22,Test,78,58.0,1,50,13.0,4.46,2026
 1527277,Ajaz Patel,Botswana,Lesotho,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,12,7.0,1,6,2.0,3.5,2026
 1527277,B Kgosiemang,Lesotho,Botswana,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,24,10.0,1,17,4.0,2.5,2026
 1527277,B Khumalo,Lesotho,Botswana,"Botswana Cricket Association Oval 1, Gaborone",2026-03-09,T20I,25,11.0,1,17,4.2,2.64,2026
@@ -142836,6 +142855,43 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1534190,SK Springer,St Kitts and Nevis Patriots,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-20,CPL,24,38.0,2,8,4.0,9.5,2026
 1534190,Shadab Khan,St Kitts and Nevis Patriots,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-20,CPL,24,20.0,1,13,4.0,5.0,2026
 1534190,Waqar Salamkheil,Antigua and Barbuda Falcons,St Kitts and Nevis Patriots,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-20,CPL,24,27.0,1,10,4.0,6.75,2026
+1534191,AD Russell,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,18,18.0,0,11,3.0,6.0,2026
+1534191,Hunain Shah,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,20,29.0,2,9,3.3,8.7,2026
+1534191,J Bishop,Jamaica Kingsmen,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,28.0,1,13,4.0,7.0,2026
+1534191,KMA Paul,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,34.0,0,8,4.0,8.5,2026
+1534191,M Theekshana,Jamaica Kingsmen,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,30.0,1,7,4.0,7.5,2026
+1534191,MW Forde,Jamaica Kingsmen,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,22.0,6,13,4.0,5.5,2026
+1534191,OF Smith,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,7,20.0,0,1,1.2,17.14,2026
+1534191,RL Chase,Jamaica Kingsmen,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,32.0,0,6,4.0,8.0,2026
+1534191,SC van Schalkwyk,Jamaica Kingsmen,St Lucia Kings,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,25,46.0,1,8,4.2,11.04,2026
+1534191,Saim Ayub,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,24,40.0,0,7,4.0,10.0,2026
+1534191,VO Lawes,St Lucia Kings,Jamaica Kingsmen,"Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",2026-08-21,CPL,18,22.0,2,8,3.0,7.33,2026
+1534192,AJ Hosein,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,25.0,0,6,4.0,6.25,2026
+1534192,AS Joseph,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,18,29.0,0,6,3.0,9.67,2026
+1534192,JM James,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,21.0,2,13,4.0,5.25,2026
+1534192,JNT Seales,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,12,24.0,0,4,2.0,12.0,2026
+1534192,KA Pollard,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,7,7.0,1,2,1.2,6.0,2026
+1534192,MM Ali,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,6,18.0,0,2,1.0,18.0,2026
+1534192,N Edward,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,19,35.0,1,10,3.2,11.05,2026
+1534192,RRS Cornwall,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,12,17.0,2,5,2.0,8.5,2026
+1534192,SK Springer,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,31.0,1,6,4.0,7.75,2026
+1534192,SP Narine,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,26.0,0,15,4.0,6.5,2026
+1534192,Shadab Khan,Trinbago Knight Riders,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,7.0,1,17,4.0,1.75,2026
+1534192,T Hinds,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,15,30.0,2,6,2.5,12.0,2026
+1534192,Usman Tariq,Antigua and Barbuda Falcons,Trinbago Knight Riders,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-22,CPL,24,32.0,1,9,4.0,8.0,2026
+1534193,AS Joseph,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,31.0,1,8,3.0,10.33,2026
+1534193,D Pretorius,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,17.0,0,9,3.0,5.67,2026
+1534193,GD Phillips,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,6,12.0,1,2,1.0,12.0,2026
+1534193,Imran Tahir,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,14.0,3,8,3.0,4.67,2026
+1534193,JM James,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,6,11.0,0,0,1.0,11.0,2026
+1534193,JNT Seales,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,19.0,1,8,3.0,6.33,2026
+1534193,K Pierre,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,12,19.0,2,6,2.0,9.5,2026
+1534193,MM Ali,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,6,16.0,0,1,1.0,16.0,2026
+1534193,Mohammad Nabi,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,12.0,0,6,3.0,4.0,2026
+1534193,R Shepherd,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,12,16.0,1,3,2.0,8.0,2026
+1534193,RRS Cornwall,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,6,15.0,0,1,1.0,15.0,2026
+1534193,S Joseph,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,21.0,3,9,3.0,7.0,2026
+1534193,SK Springer,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,5,22.0,1,1,0.8,26.4,2026
 1534321,Aisya Eleesa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,1.0,1,11,2.0,0.5,2026
 1534321,Cai Yuzhi,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,11.0,0,5,2.0,5.5,2026
 1534321,Jiaping Li,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,24,12.0,2,17,4.0,3.0,2026
@@ -146423,6 +146479,30 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1545681,S Wickramasekara,Bulgaria,Czech Republic,Tikkurila Cricket Ground,2026-08-21,T20I,17,36.0,3,7,2.8,12.71,2026
 1545681,Saqlain Mukhtar,Bulgaria,Czech Republic,Tikkurila Cricket Ground,2026-08-21,T20I,18,18.0,0,6,3.0,6.0,2026
 1545681,Sazib Bhuiyan,Bulgaria,Czech Republic,Tikkurila Cricket Ground,2026-08-21,T20I,6,7.0,0,0,1.0,7.0,2026
+1545682,AL Khunti,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,6,11.0,0,1,1.0,11.0,2026
+1545682,C Liebenberg,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,12,10.0,1,4,2.0,5.0,2026
+1545682,CJ Langford,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,18,22.0,1,7,3.0,7.33,2026
+1545682,D Jansen,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,12,7.0,1,6,2.0,3.5,2026
+1545682,Elan Talker,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,12,19.0,0,2,2.0,9.5,2026
+1545682,G Newton,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,24,13.0,3,13,4.0,3.25,2026
+1545682,JA Burrows,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,20,19.0,3,10,3.3,5.7,2026
+1545682,MJ Ansell,Israel,Isle of Man,Tikkurila Cricket Ground,2026-08-21,T20I,24,14.0,1,14,4.0,3.5,2026
+1545682,Niv Nagavkar,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,12,10.0,0,8,2.0,5.0,2026
+1545682,SF Mangoda,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,6,2.0,0,4,1.0,2.0,2026
+1545682,Snir Massil,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,1,4.0,0,0,0.2,24.0,2026
+1545682,WSLK Narayana,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,12,17.0,0,5,2.0,8.5,2026
+1545682,Yair Nagavkar,Isle of Man,Israel,Tikkurila Cricket Ground,2026-08-21,T20I,12,23.0,1,7,2.0,11.5,2026
+1545683,C Rumistrzewicz,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,18,21.0,1,6,3.0,7.0,2026
+1545683,Edward Fleming,Spain,Portugal,Kerava National Cricket Ground,2026-08-21,T20I,24,13.0,3,12,4.0,3.25,2026
+1545683,J Martins,Spain,Portugal,Kerava National Cricket Ground,2026-08-21,T20I,19,20.0,2,11,3.2,6.32,2026
+1545683,LA Burns,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,24,28.0,2,6,4.0,7.0,2026
+1545683,Mohammad Atif,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,24,39.0,0,7,4.0,9.75,2026
+1545683,Mohammad Kamran,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,18,19.0,1,9,3.0,6.33,2026
+1545683,R Hashu,Spain,Portugal,Kerava National Cricket Ground,2026-08-21,T20I,18,34.0,0,4,3.0,11.33,2026
+1545683,SC de Oliveira,Spain,Portugal,Kerava National Cricket Ground,2026-08-21,T20I,18,14.0,3,8,3.0,4.67,2026
+1545683,SJ Hughes-Pinan,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,12,20.0,0,5,2.0,10.0,2026
+1545683,Sirajullah Khadim,Spain,Portugal,Kerava National Cricket Ground,2026-08-21,T20I,24,19.0,2,11,4.0,4.75,2026
+1545683,Yasir Ali,Portugal,Spain,Kerava National Cricket Ground,2026-08-21,T20I,24,23.0,2,5,4.0,5.75,2026
 1546000,Ansh Patel,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,60,46.0,0,30,10.0,4.6,2026
 1546000,BJ McMullen,Canada,Scotland,"Forthill, Dundee",2026-08-07,ODI,61,42.0,3,39,10.2,4.13,2026
 1546000,H Thaker,Scotland,Canada,"Forthill, Dundee",2026-08-07,ODI,30,34.0,0,5,5.0,6.8,2026
@@ -146765,6 +146845,33 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1548123,Rizwan Butt,Kenya,Bahrain,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,26.0,2,11,4.0,6.5,2026
 1548123,S Gill,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,28.0,0,12,4.0,7.0,2026
 1548123,SO Ngoche,Bahrain,Kenya,"Gymkhana Club Ground, Nairobi",2026-08-01,T20I,24,25.0,2,11,4.0,6.25,2026
+1548522,A Ilahi,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,24,17.0,1,11,4.0,4.25,2026
+1548522,AC Brodin,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,27,32.0,0,12,4.5,7.11,2026
+1548522,Aarti Priya,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,26,27.0,2,12,4.3,6.23,2026
+1548522,Ankita Mehta,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,10,11.0,0,0,1.7,6.6,2026
+1548522,Attia Diwan Ali,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,20,13.0,2,10,3.3,3.9,2026
+1548522,B Pierre,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,27,32.0,0,7,4.5,7.11,2026
+1548522,E Gebhard,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,1,2.0,0,0,0.2,12.0,2026
+1548522,GEM Brealey,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,14,13.0,0,6,2.3,5.57,2026
+1548522,Jagrat Dubey,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,17,14.0,0,7,2.8,4.94,2026
+1548522,Kerry Fraser,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,21,15.0,1,10,3.5,4.29,2026
+1548522,P Neighbour,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,28,32.0,2,14,4.7,6.86,2026
+1548522,S Sinha,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-22,T20I,26,26.0,1,12,4.3,6.0,2026
+1548522,S Wykes-Templeman,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,16,20.0,0,0,2.7,7.5,2026
+1548522,Shivani Sati,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-22,T20I,18,25.0,1,6,3.0,8.33,2026
+1548524,A Ilahi,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,24,4.0,3,21,4.0,1.0,2026
+1548524,AC Brodin,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,5,5.0,0,0,0.8,6.0,2026
+1548524,Aarti Priya,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,24,11.0,3,14,4.0,2.75,2026
+1548524,Ankita Mehta,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,4,3.0,0,1,0.7,4.5,2026
+1548524,Attia Diwan Ali,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,27,24.0,1,10,4.5,5.33,2026
+1548524,B Pierre,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,27,29.0,0,14,4.5,6.44,2026
+1548524,GEM Brealey,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,24,14.0,3,16,4.0,3.5,2026
+1548524,Jagrat Dubey,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,24,20.0,1,10,4.0,5.0,2026
+1548524,Kerry Fraser,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,13,11.0,0,6,2.2,5.08,2026
+1548524,P Neighbour,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,18,19.0,0,9,3.0,6.33,2026
+1548524,S Sinha,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,25,16.0,2,14,4.2,3.84,2026
+1548524,S Yenamandra,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,15,18.0,0,3,2.5,7.2,2026
+1548524,Shivani Sati,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,22,15.0,0,9,3.7,4.09,2026
 1549208,Chayanisa Phengpaen,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,12,5.0,1,8,2.0,2.5,2026
 1549208,GP Tom,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,12,16.0,0,6,2.0,8.0,2026
 1549208,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,24,25.0,1,11,4.0,6.25,2026
