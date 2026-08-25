@@ -822,6 +822,7 @@ A Ikuzwe,Uganda,T20I,8,40,57,8,5,0,5.0,70.18
 A Ikuzwe,United States of America,T20I,1,16,22,0,1,0,16.0,72.73
 A Ikuzwe,Vanuatu,T20I,2,35,38,2,2,0,17.5,92.11
 A Ikuzwe,Zimbabwe,T20I,1,4,11,1,0,0,4.0,36.36
+A Ilahi,Luxembourg,T20I,2,25,33,3,3,0,8.33,75.76
 A Ilahi,Switzerland,T20I,2,1,8,2,0,0,0.5,12.5
 A Ilaoa,Cook Islands,T20I,1,2,5,1,0,0,2.0,40.0
 A Ilaoa,Fiji,T20I,1,1,2,0,0,0,1.0,50.0
@@ -1227,6 +1228,7 @@ A McAuley,Cyprus,T20I,3,104,91,2,7,2,52.0,114.29
 A McAuley,Estonia,T20I,2,43,51,3,3,0,14.33,84.31
 A McAuley,France,T20I,1,3,10,1,0,0,3.0,30.0
 A McAuley,Guernsey,T20I,3,97,103,3,10,0,32.33,94.17
+A McAuley,Israel,T20I,1,38,35,0,6,0,38.0,108.57
 A McAuley,Italy,T20I,1,1,5,1,0,0,1.0,20.0
 A McAuley,Luxembourg,T20I,2,52,45,2,6,0,26.0,115.56
 A McAuley,Portugal,T20I,1,0,2,1,0,0,0.0,0.0
@@ -2239,7 +2241,7 @@ AA Jangoo,Bangladesh,ODI,1,104,83,0,6,4,104.0,125.3
 AA Jangoo,Bangladesh,T20I,1,34,23,1,5,1,34.0,147.83
 AA Jangoo,Barbados Royals,CPL,3,82,68,3,10,3,27.33,120.59
 AA Jangoo,England,ODI,1,14,25,1,0,0,14.0,56.0
-AA Jangoo,Guyana Amazon Warriors,CPL,3,67,82,3,3,3,22.33,81.71
+AA Jangoo,Guyana Amazon Warriors,CPL,4,104,111,4,5,5,26.0,93.69
 AA Jangoo,Ireland,ODI,3,35,58,3,0,1,11.67,60.34
 AA Jangoo,Nepal,T20I,3,109,81,2,8,7,54.5,134.57
 AA Jangoo,New Zealand,ODI,2,75,114,2,5,0,37.5,65.79
@@ -2248,7 +2250,7 @@ AA Jangoo,Pakistan,Test,3,94,187,6,11,1,15.67,50.27
 AA Jangoo,Sri Lanka,Test,2,242,388,2,20,3,121.0,62.37
 AA Jangoo,St Kitts and Nevis Patriots,CPL,5,55,74,5,3,2,11.0,74.32
 AA Jangoo,St Lucia Kings,CPL,3,79,67,3,7,3,26.33,117.91
-AA Jangoo,Trinbago Knight Riders,CPL,4,76,83,4,4,4,19.0,91.57
+AA Jangoo,Trinbago Knight Riders,CPL,5,107,119,6,5,5,17.83,89.92
 AA Jasani,Cameroon,T20I,1,36,21,1,4,1,36.0,171.43
 AA Jasani,Kenya,T20I,2,91,55,1,7,4,91.0,165.45
 AA Jasani,Nigeria,T20I,1,21,25,1,1,1,21.0,84.0
@@ -2384,7 +2386,7 @@ AAP Atkinson,New Zealand,ODI,1,2,3,1,0,0,2.0,66.67
 AAP Atkinson,New Zealand,T20I,1,8,10,0,0,0,8.0,80.0
 AAP Atkinson,New Zealand,Test,5,159,288,8,18,3,19.88,55.21
 AAP Atkinson,Pakistan,ODI,1,0,1,1,0,0,0.0,0.0
-AAP Atkinson,Pakistan,Test,2,51,90,3,6,0,17.0,56.67
+AAP Atkinson,Pakistan,Test,3,54,105,4,6,0,13.5,51.43
 AAP Atkinson,South Africa,ODI,1,35,21,1,7,0,35.0,166.67
 AAP Atkinson,Sri Lanka,Test,3,158,218,5,17,4,31.6,72.48
 AAP Atkinson,West Indies,ODI,2,24,24,1,3,1,24.0,100.0
@@ -2643,6 +2645,7 @@ AC Botha,West Indies,T20I,1,4,11,0,0,0,4.0,36.36
 AC Botha,Zimbabwe,ODI,2,22,38,2,2,1,11.0,57.89
 AC Brodin,Germany,T20I,2,6,24,2,0,0,3.0,25.0
 AC Brodin,Ireland,T20I,1,1,9,1,0,0,1.0,11.11
+AC Brodin,Luxembourg,T20I,2,11,16,2,1,0,5.5,68.75
 AC Brodin,Netherlands,T20I,1,1,3,1,0,0,1.0,33.33
 AC Cummins,Bermuda,ODI,1,4,4,0,0,0,4.0,100.0
 AC Cummins,Kenya,ODI,1,8,11,1,1,0,8.0,72.73
@@ -2855,7 +2858,7 @@ AD Fofana,Ghana,T20I,1,2,13,1,0,0,2.0,15.38
 AD Fofana,Lesotho,T20I,1,0,4,1,0,0,0.0,0.0
 AD Fofana,Malawi,T20I,1,1,1,0,0,0,1.0,100.0
 AD Hales,Adelaide Strikers,BBL,11,314,222,9,28,15,34.89,141.44
-AD Hales,Antigua and Barbuda Falcons,CPL,3,114,96,1,9,3,114.0,118.75
+AD Hales,Antigua and Barbuda Falcons,CPL,4,116,100,2,9,3,58.0,116.0
 AD Hales,Australia,ODI,16,385,434,15,46,8,25.67,88.71
 AD Hales,Australia,T20I,12,311,212,12,43,7,25.92,146.7
 AD Hales,Bangladesh,ODI,2,122,120,2,15,2,61.0,101.67
@@ -3044,7 +3047,7 @@ AD Russell,Sri Lanka,ODI,1,41,24,1,3,3,41.0,170.83
 AD Russell,Sri Lanka,T20I,8,141,72,5,5,15,28.2,195.83
 AD Russell,Sri Lanka,Test,1,2,9,1,0,0,2.0,22.22
 AD Russell,St Kitts and Nevis Patriots,CPL,15,234,150,11,15,20,21.27,156.0
-AD Russell,St Lucia Kings,CPL,10,201,100,7,9,22,28.71,201.0
+AD Russell,St Lucia Kings,CPL,11,226,115,8,10,25,28.25,196.52
 AD Russell,St Lucia Stars,CPL,2,8,7,2,1,0,4.0,114.29
 AD Russell,St Lucia Zouks,CPL,7,114,67,6,14,5,19.0,170.15
 AD Russell,Sunrisers Hyderabad,IPL,17,306,180,13,19,26,23.54,170.0
@@ -3631,6 +3634,7 @@ AJ Parmar,Germany,T20I,1,0,1,0,0,0,0.0,0.0
 AJ Parmar,Jersey,T20I,1,1,2,0,0,0,1.0,50.0
 AJ Parmar,Portugal,T20I,1,1,2,0,0,0,1.0,50.0
 AJ Parmar,Sweden,T20I,1,0,1,0,0,0,0.0,0.0
+AJ Pienaar,Jamaica Kingsmen,CPL,1,34,14,0,4,2,34.0,242.86
 AJ Prajapati,Botswana,T20I,1,0,3,1,0,0,0.0,0.0
 AJ Prajapati,Cameroon,T20I,1,0,5,1,0,0,0.0,0.0
 AJ Prajapati,Ivory Coast,T20I,1,15,17,1,0,1,15.0,88.24
@@ -3885,6 +3889,7 @@ AL Kerai,Nigeria,T20I,4,24,48,4,0,1,6.0,50.0
 AL Kerai,Tanzania,T20I,1,8,16,1,0,0,8.0,50.0
 AL Khunti,Germany,T20I,1,13,23,1,0,1,13.0,56.52
 AL Khunti,Greece,T20I,1,1,3,0,0,0,1.0,33.33
+AL Khunti,Isle of Man,T20I,1,7,6,1,0,1,7.0,116.67
 AL Khunti,Portugal,T20I,1,1,5,1,0,0,1.0,20.0
 AL Mangue,Botswana,T20I,1,4,5,1,1,0,4.0,80.0
 AL Mangue,Rwanda,T20I,1,0,3,1,0,0,0.0,0.0
@@ -4728,7 +4733,7 @@ AS Joseph,Chennai Super Kings,IPL,1,0,1,1,0,0,0.0,0.0
 AS Joseph,England,ODI,6,101,83,4,10,4,25.25,121.69
 AS Joseph,England,T20I,1,21,19,0,3,0,21.0,110.53
 AS Joseph,England,Test,12,217,431,18,23,5,12.06,50.35
-AS Joseph,Guyana Amazon Warriors,CPL,7,70,57,4,3,5,17.5,122.81
+AS Joseph,Guyana Amazon Warriors,CPL,8,70,60,5,3,5,14.0,116.67
 AS Joseph,Hyderabad Kingsmen,PSL,1,0,1,1,0,0,0.0,0.0
 AS Joseph,India,ODI,7,83,139,4,3,5,20.75,59.71
 AS Joseph,India,T20I,3,21,29,0,0,1,21.0,72.41
@@ -4891,7 +4896,7 @@ ASS Fletcher,Sri Lanka,ODI,6,56,69,6,4,0,9.33,81.16
 ASS Fletcher,Sri Lanka,T20I,3,19,19,2,1,0,9.5,100.0
 AT Carey,Bangladesh,ODI,4,79,103,3,8,0,26.33,76.7
 AT Carey,Bangladesh,T20I,5,35,40,4,3,1,8.75,87.5
-AT Carey,Bangladesh,Test,1,49,115,2,7,0,24.5,42.61
+AT Carey,Bangladesh,Test,2,54,123,3,7,0,18.0,43.9
 AT Carey,Brisbane Heat,BBL,7,225,171,7,21,8,32.14,131.58
 AT Carey,Chennai Super Kings,IPL,1,4,7,1,0,0,4.0,57.14
 AT Carey,England,ODI,15,579,583,13,57,7,44.54,99.31
@@ -5241,6 +5246,7 @@ Aaron Jones,Zimbabwe,ODI,1,8,11,0,1,0,8.0,72.73
 Aaron Jones,Zimbabwe,T20I,1,7,10,1,1,0,7.0,70.0
 Aarsheya Sharma,Philippines,T20I,1,0,2,1,0,0,0.0,0.0
 Aarti Priya,Austria,T20I,1,5,10,1,0,0,5.0,50.0
+Aarti Priya,Belgium,T20I,2,19,28,2,0,0,9.5,67.86
 Aarti Priya,Denmark,T20I,1,0,4,1,0,0,0.0,0.0
 Aarti Priya,Norway,T20I,3,8,17,3,1,0,2.67,47.06
 Aarti Priya,Switzerland,T20I,2,23,38,2,0,0,11.5,60.53
@@ -5537,7 +5543,7 @@ Abdullah Shafique,Australia,Test,6,507,1253,10,50,4,50.7,40.46
 Abdullah Shafique,Bangladesh,ODI,1,68,69,1,9,2,68.0,98.55
 Abdullah Shafique,Bangladesh,Test,4,192,461,7,15,4,27.43,41.65
 Abdullah Shafique,England,ODI,1,0,2,1,0,0,0.0,0.0
-Abdullah Shafique,England,Test,6,345,695,11,39,7,31.36,49.64
+Abdullah Shafique,England,Test,7,421,828,13,49,7,32.38,50.85
 Abdullah Shafique,Hyderabad Kingsmen,PSL,1,4,5,0,0,0,4.0,80.0
 Abdullah Shafique,India,ODI,1,20,24,1,3,0,20.0,83.33
 Abdullah Shafique,Islamabad United,PSL,9,293,191,9,26,13,32.56,153.4
@@ -5939,7 +5945,7 @@ Agha Salman,Bangladesh,T20I,7,133,122,5,15,2,26.6,109.02
 Agha Salman,Bangladesh,Test,4,296,489,7,25,5,42.29,60.53
 Agha Salman,England,ODI,1,51,45,1,6,1,51.0,113.33
 Agha Salman,England,T20I,1,5,6,1,1,0,5.0,83.33
-Agha Salman,England,Test,6,446,674,10,49,5,44.6,66.17
+Agha Salman,England,Test,7,471,711,12,54,5,39.25,66.24
 Agha Salman,Hyderabad Kingsmen,PSL,1,24,16,1,2,2,24.0,150.0
 Agha Salman,India,ODI,2,42,56,2,2,0,21.0,75.0
 Agha Salman,India,T20I,4,32,36,4,1,1,8.0,88.89
@@ -6566,6 +6572,7 @@ Ali Saleem,Switzerland,T20I,1,53,37,0,3,4,53.0,143.24
 Ali Sheikh,Canada,T20I,1,17,14,1,1,0,17.0,121.43
 Ali Sheikh,Cayman Islands,T20I,1,2,2,0,0,0,2.0,100.0
 Ali Sheikh,Oman,T20I,1,3,4,1,0,0,3.0,75.0
+Ali Usman,England,Test,1,7,23,2,1,0,3.5,30.43
 Ali Usman,West Indies,Test,2,12,39,3,2,0,4.0,30.77
 Ali Waqar,Austria,T20I,1,15,17,1,2,0,15.0,88.24
 Ali Waqar,Luxembourg,T20I,1,4,7,1,0,0,4.0,57.14
@@ -7032,6 +7039,7 @@ Ankit Sharma,Royal Challengers Bangalore,IPL,2,10,8,0,1,0,10.0,125.0
 Ankit Soni,Mumbai Indians,IPL,1,7,2,0,0,1,7.0,350.0
 Ankit Soni,Rising Pune Supergiant,IPL,1,0,1,1,0,0,0.0,0.0
 Ankit Soni,Sunrisers Hyderabad,IPL,1,0,6,1,0,0,0.0,0.0
+Ankita Mehta,Luxembourg,T20I,2,8,6,0,1,0,8.0,133.33
 Ankur Sharma,United Arab Emirates,ODI,1,16,31,1,1,0,16.0,51.61
 Ankush Singh,Brazil,T20I,1,36,27,1,3,3,36.0,133.33
 Ankush Singh,Costa Rica,T20I,1,0,2,1,0,0,0.0,0.0
@@ -7713,6 +7721,7 @@ Atif Rasheed,Sweden,T20I,1,1,3,1,0,0,1.0,33.33
 Atif-Ur-Rehman,Bahrain,T20I,3,9,10,1,0,0,9.0,90.0
 Atif-Ur-Rehman,Kuwait,T20I,1,1,2,0,0,0,1.0,50.0
 Atif-Ur-Rehman,Oman,T20I,2,8,8,0,0,0,8.0,100.0
+Attia Diwan Ali,Luxembourg,T20I,1,0,2,1,0,0,0.0,0.0
 Attia Diwan Ali,Switzerland,T20I,1,2,8,1,0,0,2.0,25.0
 Aue Oru,Samoa,T20I,1,4,11,1,0,0,4.0,36.36
 Aung Ko Ko,Bhutan,T20I,1,2,6,0,0,0,2.0,33.33
@@ -7924,6 +7933,7 @@ Azam Khan,St Lucia Kings,CPL,6,110,72,6,8,9,18.33,152.78
 Azam Khan,Trinbago Knight Riders,CPL,6,142,99,4,10,9,35.5,143.43
 Azam Khan,United States of America,T20I,1,0,1,1,0,0,0.0,0.0
 Azan Awais,Bangladesh,Test,2,152,281,4,20,0,38.0,54.09
+Azan Awais,England,Test,1,9,15,2,1,0,4.5,60.0
 Azan Awais,West Indies,Test,2,76,143,4,12,0,19.0,53.15
 Azeem Nazir,Czech Republic,T20I,1,0,2,1,0,0,0.0,0.0
 Azeem Nazir,Luxembourg,T20I,1,36,40,1,5,0,36.0,90.0
@@ -8498,6 +8508,7 @@ B Phelenyane,Malawi,T20I,4,9,42,4,0,0,2.25,21.43
 B Phelenyane,Mozambique,T20I,5,22,55,3,1,0,7.33,40.0
 B Phelenyane,Rwanda,T20I,2,1,5,2,0,0,0.5,20.0
 B Phelenyane,Zambia,T20I,1,0,2,1,0,0,0.0,0.0
+B Pierre,Luxembourg,T20I,2,53,87,2,3,0,26.5,60.92
 B Pondani,Germany,T20I,1,1,1,0,0,0,1.0,100.0
 B Pondani,Ghana,T20I,2,1,4,0,0,0,1.0,25.0
 B Pondani,Rwanda,T20I,3,3,6,1,0,0,3.0,50.0
@@ -9422,6 +9433,7 @@ BJ Lazarus,Austria,T20I,1,7,14,1,0,0,7.0,50.0
 BJ Lazarus,France,T20I,1,32,36,1,5,0,32.0,88.89
 BJ Lazarus,Germany,T20I,1,7,12,1,0,0,7.0,58.33
 BJ Lazarus,Greece,T20I,1,4,7,1,0,0,4.0,57.14
+BJ Lazarus,Isle of Man,T20I,1,7,8,1,1,0,7.0,87.5
 BJ Lazarus,Portugal,T20I,1,11,21,1,0,0,11.0,52.38
 BJ Lazarus,Romania,T20I,1,24,29,1,2,0,24.0,82.76
 BJ Lazarus,Turkey,T20I,1,21,20,1,3,0,21.0,105.0
@@ -9525,7 +9537,7 @@ BJ Watling,West Indies,Test,8,376,906,10,32,1,37.6,41.5
 BJ Watling,Zimbabwe,ODI,1,19,17,0,3,0,19.0,111.76
 BJ Watling,Zimbabwe,Test,4,334,581,3,39,0,111.33,57.49
 BJ Webster,Adelaide Strikers,BBL,10,289,241,6,22,7,48.17,119.92
-BJ Webster,Bangladesh,Test,1,17,31,2,3,0,8.5,54.84
+BJ Webster,Bangladesh,Test,2,17,32,3,3,0,5.67,53.12
 BJ Webster,Brisbane Heat,BBL,10,239,210,6,16,7,39.83,113.81
 BJ Webster,England,Test,1,71,87,0,7,0,71.0,81.61
 BJ Webster,Hobart Hurricanes,BBL,9,283,231,7,19,7,40.43,122.51
@@ -9664,7 +9676,7 @@ BM Duckett,Multan Sultans,PSL,1,47,32,1,6,1,47.0,146.88
 BM Duckett,New Zealand,ODI,2,9,17,2,0,1,4.5,52.94
 BM Duckett,New Zealand,Test,8,577,653,15,77,3,38.47,88.36
 BM Duckett,Pakistan,T20I,8,242,153,6,32,2,40.33,158.17
-BM Duckett,Pakistan,Test,6,619,678,10,76,3,61.9,91.3
+BM Duckett,Pakistan,Test,7,634,706,11,76,3,57.64,89.8
 BM Duckett,Perth Scorchers,BBL,2,7,17,2,0,0,3.5,41.18
 BM Duckett,Peshawar Zalmi,PSL,1,0,3,1,0,0,0.0,0.0
 BM Duckett,South Africa,ODI,7,97,137,7,13,0,13.86,70.8
@@ -10708,6 +10720,7 @@ C De Freitas,Germany,T20I,1,65,46,1,5,4,65.0,141.3
 C De Freitas,Greece,T20I,1,37,24,1,0,5,37.0,154.17
 C De Freitas,Israel,T20I,1,0,3,1,0,0,0.0,0.0
 C De Freitas,Norway,T20I,2,71,44,2,6,4,35.5,161.36
+C De Freitas,Spain,T20I,1,39,36,1,2,1,39.0,108.33
 C Dickson,Fiji,T20I,3,27,35,3,1,0,9.0,77.14
 C Dickson,Indonesia,T20I,1,24,16,1,1,1,24.0,150.0
 C Dickson,Japan,T20I,4,36,52,4,2,1,9.0,69.23
@@ -10737,7 +10750,7 @@ C Forshaw,Netherlands,T20I,1,0,2,0,0,0,0.0,0.0
 C Fortuin,New Zealand,Test,2,23,96,4,3,0,5.75,23.96
 C Green,Adelaide Strikers,BBL,1,9,10,1,0,0,9.0,90.0
 C Green,Bangladesh,ODI,3,104,151,2,6,4,52.0,68.87
-C Green,Bangladesh,Test,1,117,214,2,4,2,58.5,54.67
+C Green,Bangladesh,Test,2,184,319,3,14,2,61.33,57.68
 C Green,Brisbane Heat,BBL,1,3,2,0,0,0,3.0,150.0
 C Green,Chennai Super Kings,IPL,5,74,55,4,6,3,18.5,134.55
 C Green,Delhi Capitals,IPL,4,84,62,3,2,5,28.0,135.48
@@ -10785,6 +10798,7 @@ C Hartmann,Bulgaria,T20I,1,32,19,1,3,2,32.0,168.42
 C Hartmann,Cyprus,T20I,3,40,33,0,2,2,40.0,121.21
 C Hartmann,Estonia,T20I,2,50,37,0,2,3,50.0,135.14
 C Hartmann,Guernsey,T20I,3,57,76,3,5,0,19.0,75.0
+C Hartmann,Israel,T20I,1,34,18,1,1,4,34.0,188.89
 C Hartmann,Italy,T20I,2,33,34,3,3,0,11.0,97.06
 C Hartmann,Luxembourg,T20I,2,25,22,2,2,1,12.5,113.64
 C Hartmann,Portugal,T20I,1,20,16,1,1,1,20.0,125.0
@@ -10968,9 +10982,9 @@ C Munoz-Mills,Italy,T20I,2,34,18,1,4,1,34.0,188.89
 C Munoz-Mills,Jersey,T20I,1,11,10,0,1,0,11.0,110.0
 C Munoz-Mills,Luxembourg,T20I,1,6,2,0,1,0,6.0,300.0
 C Munoz-Mills,Norway,T20I,1,5,5,0,0,0,5.0,100.0
-C Munoz-Mills,Portugal,T20I,2,29,17,1,2,3,29.0,170.59
+C Munoz-Mills,Portugal,T20I,3,31,22,2,2,3,15.5,140.91
 C Munro,Adelaide Strikers,BBL,8,151,116,8,12,7,18.88,130.17
-C Munro,Antigua and Barbuda Falcons,CPL,3,67,40,3,11,1,22.33,167.5
+C Munro,Antigua and Barbuda Falcons,CPL,4,113,73,4,13,5,28.25,154.79
 C Munro,Australia,ODI,5,85,124,5,6,2,17.0,68.55
 C Munro,Australia,T20I,4,131,76,4,11,8,32.75,172.37
 C Munro,Bangladesh,ODI,7,224,202,6,20,7,37.33,110.89
@@ -11063,6 +11077,7 @@ C Nunes,France,T20I,4,52,35,3,5,3,17.33,148.57
 C Nunes,Germany,T20I,1,31,28,0,4,0,31.0,110.71
 C Nunes,Israel,T20I,1,0,1,1,0,0,0.0,0.0
 C Nunes,Norway,T20I,1,1,4,1,0,0,1.0,25.0
+C Nunes,Spain,T20I,1,15,9,0,0,1,15.0,166.67
 C Nunes,Sweden,T20I,2,113,69,1,11,4,113.0,163.77
 C Nzabarinda,Malawi,T20I,1,1,2,0,0,0,1.0,50.0
 C Ostergaard,Germany,T20I,1,4,14,1,0,0,4.0,28.57
@@ -11159,6 +11174,7 @@ C Rumistrzewicz,Germany,T20I,1,8,7,0,0,0,8.0,114.29
 C Rumistrzewicz,Guernsey,T20I,1,0,2,1,0,0,0.0,0.0
 C Rumistrzewicz,Italy,T20I,1,2,4,0,0,0,2.0,50.0
 C Rumistrzewicz,Norway,T20I,1,1,1,1,0,0,1.0,100.0
+C Rumistrzewicz,Portugal,T20I,1,1,4,1,0,0,1.0,25.0
 C Sakariya,Chennai Super Kings,IPL,1,0,2,0,0,0,0.0,0.0
 C Sakariya,Kolkata Knight Riders,IPL,1,1,5,0,0,0,1.0,20.0
 C Sakariya,Lucknow Super Giants,IPL,1,4,4,1,1,0,4.0,100.0
@@ -11856,6 +11872,7 @@ CD Shekleton,Czech Republic,T20I,1,2,3,1,0,0,2.0,66.67
 CD Shekleton,Germany,T20I,1,4,13,1,0,0,4.0,30.77
 CD Shekleton,Greece,T20I,1,52,34,0,7,0,52.0,152.94
 CD Shekleton,Israel,T20I,1,30,22,1,3,1,30.0,136.36
+CD Shekleton,Spain,T20I,1,12,10,1,1,0,12.0,120.0
 CD Wallace,Hong Kong,ODI,4,124,140,5,10,3,24.8,88.57
 CD Wallace,Hong Kong,T20I,1,0,1,0,0,0,0.0,0.0
 CD Wallace,Ireland,ODI,3,44,49,3,3,0,14.67,89.8
@@ -13501,6 +13518,7 @@ Constanza Oyarce,Argentina,T20I,2,0,5,2,0,0,0.0,0.0
 Constanza Vergara,Argentina,T20I,1,0,7,1,0,0,0.0,0.0
 Craig Cachopa,Czech Republic,T20I,1,18,23,1,0,1,18.0,78.26
 Craig Cachopa,Greece,T20I,1,2,4,0,0,0,2.0,50.0
+Craig Cachopa,Spain,T20I,1,25,21,1,2,1,25.0,119.05
 Cynthia Konadu,Rwanda,T20I,1,0,15,1,0,0,0.0,0.0
 D Abeyrathna,Austria,T20I,4,31,38,4,2,0,7.75,81.58
 D Abeyrathna,Czech Republic,T20I,2,47,34,1,4,1,47.0,138.24
@@ -13685,7 +13703,7 @@ D Doyle-Calle,Italy,T20I,2,45,35,2,6,1,22.5,128.57
 D Doyle-Calle,Jersey,T20I,1,46,31,1,3,2,46.0,148.39
 D Doyle-Calle,Luxembourg,T20I,1,62,27,1,1,6,62.0,229.63
 D Doyle-Calle,Norway,T20I,2,45,44,2,2,2,22.5,102.27
-D Doyle-Calle,Portugal,T20I,1,28,18,1,2,2,28.0,155.56
+D Doyle-Calle,Portugal,T20I,2,57,46,2,3,2,28.5,123.91
 D Dzimau,Sierra Leone,T20I,1,1,2,0,0,0,1.0,50.0
 D Ebersohn,Argentina,T20I,1,10,21,1,0,0,10.0,47.62
 D Ebersohn,Brazil,T20I,2,2,4,1,0,0,2.0,50.0
@@ -13885,6 +13903,7 @@ D Jansen,Barbados Royals,CPL,2,8,6,1,1,0,8.0,133.33
 D Jansen,Bulgaria,T20I,1,86,48,1,8,5,86.0,179.17
 D Jansen,Guernsey,T20I,2,82,60,2,7,3,41.0,136.67
 D Jansen,Guyana Amazon Warriors,CPL,1,23,15,0,2,1,23.0,153.33
+D Jansen,Israel,T20I,1,14,8,0,0,1,14.0,175.0
 D Jansen,Italy,T20I,1,2,4,1,0,0,2.0,50.0
 D Jansen,Jamaica Tallawahs,CPL,1,8,8,1,1,0,8.0,100.0
 D Jansen,Luxembourg,T20I,1,31,33,0,3,0,31.0,93.94
@@ -14165,6 +14184,7 @@ D Norotam,Greece,T20I,1,12,11,1,1,0,12.0,109.09
 D Norotam,Israel,T20I,1,46,46,1,1,2,46.0,100.0
 D Norotam,Malta,T20I,2,33,23,2,1,3,16.5,143.48
 D Norotam,Norway,T20I,5,98,77,6,8,4,16.33,127.27
+D Norotam,Spain,T20I,1,23,14,1,4,0,23.0,164.29
 D Norotam,Sweden,T20I,2,45,31,2,9,0,22.5,145.16
 D Olivier,Bangladesh,Test,2,12,41,2,1,1,6.0,29.27
 D Olivier,England,Test,2,4,14,2,1,0,2.0,28.57
@@ -16624,6 +16644,7 @@ DW Lawrence,India,Test,4,174,362,8,21,1,21.75,48.07
 DW Lawrence,Melbourne Renegades,BBL,3,17,17,3,3,0,5.67,100.0
 DW Lawrence,Melbourne Stars,BBL,1,8,7,1,1,0,8.0,114.29
 DW Lawrence,New Zealand,Test,2,81,128,2,13,0,40.5,63.28
+DW Lawrence,Pakistan,Test,1,51,79,1,9,0,51.0,64.56
 DW Lawrence,Sri Lanka,Test,5,219,415,9,17,3,24.33,52.77
 DW Lawrence,Sydney Sixers,BBL,2,50,47,2,2,3,25.0,106.38
 DW Lawrence,Sydney Thunder,BBL,1,20,19,1,1,1,20.0,105.26
@@ -16897,6 +16918,7 @@ E Beukes,Singapore,T20I,1,9,6,0,0,1,9.0,150.0
 E Beukes,Thailand,T20I,1,20,13,1,0,2,20.0,153.85
 E Beukes,United Arab Emirates,T20I,2,20,17,1,2,1,20.0,117.65
 E Bhonkar,Austria,T20I,1,3,7,1,0,0,3.0,42.86
+E Bhonkar,Isle of Man,T20I,1,0,3,1,0,0,0.0,0.0
 E Bhonkar,Luxembourg,T20I,1,2,4,1,0,0,2.0,50.0
 E Bhonkar,Portugal,T20I,1,3,5,1,0,0,3.0,60.0
 E Bisht,Australia,ODI,1,8,20,0,0,0,8.0,40.0
@@ -17022,6 +17044,7 @@ E Ernest,Tanzania,T20I,1,0,1,1,0,0,0.0,0.0
 E Frimpong,Malawi,T20I,1,0,1,1,0,0,0.0,0.0
 E Frimpong,Tanzania,T20I,1,6,3,0,1,0,6.0,200.0
 E Gebhard,Austria,T20I,1,2,2,0,0,0,2.0,100.0
+E Gebhard,Belgium,T20I,2,45,54,2,4,0,22.5,83.33
 E Gebhard,Norway,T20I,2,72,85,3,10,0,24.0,84.71
 E Gebhard,Switzerland,T20I,2,29,57,4,0,0,7.25,50.88
 E Gouge,France,T20I,1,1,2,1,0,0,1.0,50.0
@@ -17182,7 +17205,7 @@ E Lewis,St Lucia Kings,CPL,11,312,195,9,25,24,34.67,160.0
 E Lewis,St Lucia Stars,CPL,2,105,58,2,6,8,52.5,181.03
 E Lewis,St Lucia Zouks,CPL,10,324,207,10,33,20,32.4,156.52
 E Lewis,Sunrisers Hyderabad,IPL,5,42,41,5,5,2,8.4,102.44
-E Lewis,Trinbago Knight Riders,CPL,19,515,359,18,32,43,28.61,143.45
+E Lewis,Trinbago Knight Riders,CPL,20,525,373,19,32,44,27.63,140.75
 E Lewis,Trinidad & Tobago Red Steel,CPL,2,50,38,2,4,5,25.0,131.58
 E Lewis,United Arab Emirates,ODI,1,31,49,1,3,0,31.0,63.27
 E Lewis,Zimbabwe,ODI,3,91,101,3,13,1,30.33,90.1
@@ -17803,6 +17826,7 @@ EMKNH Senavirathna,West Indies,T20I,2,7,7,2,1,0,3.5,100.0
 EN Gay,Guernsey,T20I,1,8,4,1,2,0,8.0,200.0
 EN Gay,Netherlands,T20I,1,6,5,1,1,0,6.0,120.0
 EN Gay,New Zealand,Test,3,139,259,7,22,0,19.86,53.67
+EN Gay,Pakistan,Test,1,33,31,1,7,0,33.0,106.45
 EN Gay,Scotland,T20I,1,50,21,1,6,2,50.0,238.1
 EN Lynch,Ireland,ODI,3,17,44,3,1,0,5.67,38.64
 EN Lynch,Ireland,T20I,6,9,15,5,1,0,1.8,60.0
@@ -17954,6 +17978,7 @@ Ehsanul Haque,South Africa,ODI,1,3,30,1,0,0,3.0,10.0
 Ehsanul Haque,West Indies,ODI,1,12,24,1,2,0,12.0,50.0
 Elan Talker,Austria,T20I,2,4,9,1,0,0,4.0,44.44
 Elan Talker,Germany,T20I,1,5,4,0,0,0,5.0,125.0
+Elan Talker,Isle of Man,T20I,1,0,3,0,0,0,0.0,0.0
 Elan Talker,Portugal,T20I,1,2,3,0,0,0,2.0,66.67
 Elan Talker,Romania,T20I,1,22,26,0,1,0,22.0,84.62
 Elan Talker,Turkey,T20I,1,3,3,2,0,0,1.5,100.0
@@ -20180,6 +20205,7 @@ GD McGrath,South Africa,ODI,2,2,7,1,0,0,2.0,28.57
 GD McGrath,South Africa,Test,2,12,68,0,0,0,12.0,17.65
 GD McGrath,West Indies,ODI,1,3,3,0,0,0,3.0,100.0
 GD McGrath,West Indies,Test,2,33,55,2,1,0,16.5,60.0
+GD Phillips,Antigua and Barbuda Falcons,CPL,1,11,8,1,2,0,11.0,137.5
 GD Phillips,Australia,ODI,2,59,69,3,3,2,19.67,85.51
 GD Phillips,Australia,T20I,10,217,151,7,17,13,31.0,143.71
 GD Phillips,Australia,Test,3,142,250,6,21,1,23.67,56.8
@@ -20263,6 +20289,7 @@ GEF Barnett,Netherlands,T20I,1,36,20,1,6,0,36.0,180.0
 GEF Barnett,New Zealand,ODI,1,40,72,1,5,0,40.0,55.56
 GEF Barnett,Scotland,ODI,1,21,37,1,2,0,21.0,56.76
 GEM Brealey,Austria,T20I,2,23,31,2,1,0,11.5,74.19
+GEM Brealey,Belgium,T20I,2,34,34,1,2,0,34.0,100.0
 GEM Brealey,Denmark,T20I,1,4,9,1,0,0,4.0,44.44
 GEM Brealey,Norway,T20I,1,0,2,1,0,0,0.0,0.0
 GEM Brealey,Switzerland,T20I,1,10,17,1,0,0,10.0,58.82
@@ -20816,6 +20843,7 @@ GS Bajwa,Croatia,T20I,2,59,41,1,4,4,59.0,143.9
 GS Bajwa,Finland,T20I,1,14,17,1,2,0,14.0,82.35
 GS Bajwa,Isle of Man,T20I,1,10,8,1,2,0,10.0,125.0
 GS Bajwa,Luxembourg,T20I,1,36,26,1,1,3,36.0,138.46
+GS Bajwa,Portugal,T20I,1,6,3,1,0,1,6.0,200.0
 GS Ballance,Australia,ODI,5,142,200,5,11,0,28.4,71.0
 GS Ballance,Australia,Test,3,123,298,6,17,0,20.5,41.28
 GS Ballance,Bangladesh,Test,2,24,64,4,3,0,6.0,37.5
@@ -21896,7 +21924,7 @@ HC Brook,New Zealand,T20I,8,253,155,7,18,17,36.14,163.23
 HC Brook,New Zealand,Test,8,896,928,14,107,19,64.0,96.55
 HC Brook,Pakistan,ODI,1,30,17,1,2,2,30.0,176.47
 HC Brook,Pakistan,T20I,10,376,236,6,31,18,62.67,159.32
-HC Brook,Pakistan,Test,6,841,907,11,87,15,76.45,92.72
+HC Brook,Pakistan,Test,7,932,1000,12,100,15,77.67,93.2
 HC Brook,Perth Scorchers,BBL,2,3,7,2,0,0,1.5,42.86
 HC Brook,Peshawar Zalmi,PSL,1,5,8,1,0,0,5.0,62.5
 HC Brook,Punjab Kings,IPL,1,13,14,1,3,0,13.0,92.86
@@ -23019,6 +23047,7 @@ Hamza Dar,Italy,T20I,2,33,31,2,1,1,16.5,106.45
 Hamza Dar,Jersey,T20I,1,4,3,1,1,0,4.0,133.33
 Hamza Dar,Luxembourg,T20I,1,10,3,1,1,1,10.0,333.33
 Hamza Dar,Norway,T20I,2,35,27,2,3,1,17.5,129.63
+Hamza Dar,Portugal,T20I,1,8,8,1,0,0,8.0,100.0
 Hamza Khan,Botswana,T20I,1,23,23,1,3,0,23.0,100.0
 Hamza Khan,Cameroon,T20I,1,60,54,0,4,1,60.0,111.11
 Hamza Khan,Ghana,T20I,2,60,55,2,3,2,30.0,109.09
@@ -23302,7 +23331,7 @@ Hasan Ali,West Indies,Test,3,91,91,3,7,5,30.33,100.0
 Hasan Ali,Zimbabwe,ODI,1,0,2,1,0,0,0.0,0.0
 Hasan Ali,Zimbabwe,Test,2,30,34,2,3,2,15.0,88.24
 Hasan Cakir,Cyprus,T20I,1,0,2,1,0,0,0.0,0.0
-Hasan Mahmud,Australia,Test,1,14,92,1,2,0,14.0,15.22
+Hasan Mahmud,Australia,Test,2,26,139,3,3,0,8.67,18.71
 Hasan Mahmud,India,ODI,1,0,2,1,0,0,0.0,0.0
 Hasan Mahmud,India,Test,2,21,49,4,4,0,5.25,42.86
 Hasan Mahmud,Ireland,ODI,2,5,7,0,0,0,5.0,71.43
@@ -23373,7 +23402,7 @@ Hassan Khan,Peshawar Zalmi,PSL,8,39,42,7,3,1,5.57,92.86
 Hassan Khan,Quetta Gladiators,PSL,1,31,19,1,3,1,31.0,163.16
 Hassan Khan,Rawalpindiz,PSL,1,16,4,0,1,2,16.0,400.0
 Hassan Khan,St Kitts and Nevis Patriots,CPL,2,18,13,1,2,0,18.0,138.46
-Hassan Khan,St Lucia Kings,CPL,2,8,6,2,0,1,4.0,133.33
+Hassan Khan,St Lucia Kings,CPL,3,20,16,3,0,2,6.67,125.0
 Hassan Khan,Sydney Sixers,BBL,2,45,33,2,2,3,22.5,136.36
 Hassan Khan,Sydney Thunder,BBL,1,46,31,3,1,4,15.33,148.39
 Hassan Khan,Tanzania,T20I,2,1,4,2,0,0,0.5,25.0
@@ -23385,6 +23414,7 @@ Hassan Mehmood,Denmark,T20I,2,12,11,1,0,1,12.0,109.09
 Hassan Mehmood,Finland,T20I,1,5,7,1,0,0,5.0,71.43
 Hassan Nasir,Brazil,T20I,1,3,3,0,0,0,3.0,100.0
 Hassan Nawaz,Bangladesh,T20I,6,154,88,5,7,12,30.8,175.0
+Hassan Nawaz,Guyana Amazon Warriors,CPL,1,20,16,1,4,0,20.0,125.0
 Hassan Nawaz,Hyderabad Kingsmen,PSL,1,53,40,0,2,3,53.0,132.5
 Hassan Nawaz,India,T20I,1,5,7,1,0,0,5.0,71.43
 Hassan Nawaz,Islamabad United,PSL,4,236,126,2,12,17,118.0,187.3
@@ -23399,6 +23429,7 @@ Hassan Nawaz,Rawalpindiz,PSL,1,39,16,1,0,5,39.0,243.75
 Hassan Nawaz,South Africa,ODI,1,1,3,1,0,0,1.0,33.33
 Hassan Nawaz,South Africa,T20I,2,8,12,2,1,0,4.0,66.67
 Hassan Nawaz,St Kitts and Nevis Patriots,CPL,1,33,28,1,1,2,33.0,117.86
+Hassan Nawaz,Trinbago Knight Riders,CPL,1,1,8,1,0,0,1.0,12.5
 Hassan Nawaz,United Arab Emirates,T20I,3,63,36,3,2,6,21.0,175.0
 Hassan Nawaz,West Indies,ODI,3,112,124,1,5,6,112.0,90.32
 Hassan Nawaz,West Indies,T20I,3,79,48,3,2,8,26.33,164.58
@@ -23948,6 +23979,7 @@ I Udana,Sunrisers Hyderabad,IPL,1,0,1,1,0,0,0.0,0.0
 I Udana,West Indies,ODI,4,22,25,3,2,0,7.33,88.0
 I Udana,West Indies,T20I,1,3,5,1,0,0,3.0,60.0
 I Vrignaud,Germany,T20I,1,0,4,1,0,0,0.0,0.0
+I Vrignaud,Luxembourg,T20I,2,21,35,4,2,0,5.25,60.0
 I Vrignaud,Scotland,T20I,1,1,9,1,0,0,1.0,11.11
 I Waqavakatoga,Cook Islands,T20I,1,14,19,1,2,0,14.0,73.68
 I Waqavakatoga,France,T20I,1,10,20,1,0,0,10.0,50.0
@@ -24737,7 +24769,7 @@ Imam-ul-Haq,Bangladesh,ODI,3,261,289,3,15,5,87.0,90.31
 Imam-ul-Haq,Bangladesh,Test,1,47,77,2,6,0,23.5,61.04
 Imam-ul-Haq,England,ODI,8,335,397,7,34,2,47.86,84.38
 Imam-ul-Haq,England,T20I,1,7,10,1,0,0,7.0,70.0
-Imam-ul-Haq,England,Test,4,285,510,7,38,2,40.71,55.88
+Imam-ul-Haq,England,Test,5,327,589,9,44,2,36.33,55.52
 Imam-ul-Haq,Hong Kong,ODI,1,50,69,0,3,1,50.0,72.46
 Imam-ul-Haq,India,ODI,6,74,127,6,10,0,12.33,58.27
 Imam-ul-Haq,Ireland,Test,1,81,147,2,9,0,40.5,55.1
@@ -25935,6 +25967,7 @@ J Martins,Germany,T20I,1,1,3,1,0,0,1.0,33.33
 J Martins,Israel,T20I,1,10,9,0,0,1,10.0,111.11
 J Martins,Malta,T20I,1,4,3,0,1,0,4.0,133.33
 J Martins,Norway,T20I,2,26,23,3,1,2,8.67,113.04
+J Martins,Spain,T20I,1,18,8,1,1,1,18.0,225.0
 J Martins,Sweden,T20I,1,15,9,1,3,0,15.0,166.67
 J Masquater,Bahrain,T20I,1,0,2,1,0,0,0.0,0.0
 J Masquater,Kuwait,T20I,1,2,9,1,0,0,2.0,22.22
@@ -26712,7 +26745,7 @@ JC Archer,New Zealand,ODI,4,19,24,2,2,0,9.5,79.17
 JC Archer,New Zealand,Test,4,67,142,7,9,1,9.57,47.18
 JC Archer,Pakistan,ODI,1,1,2,1,0,0,1.0,50.0
 JC Archer,Pakistan,T20I,2,17,6,0,2,1,17.0,283.33
-JC Archer,Pakistan,Test,1,16,33,1,1,0,16.0,48.48
+JC Archer,Pakistan,Test,2,39,58,1,3,1,39.0,67.24
 JC Archer,Perth Scorchers,BBL,1,3,4,0,0,0,3.0,75.0
 JC Archer,Punjab Kings,IPL,1,1,2,0,0,0,1.0,50.0
 JC Archer,Royal Challengers Bangalore,IPL,3,18,17,2,1,1,9.0,105.88
@@ -26826,6 +26859,7 @@ JC Tongue,Australia,Test,4,35,70,5,2,0,7.0,50.0
 JC Tongue,India,ODI,1,0,2,1,0,0,0.0,0.0
 JC Tongue,India,Test,3,13,68,4,2,0,3.25,19.12
 JC Tongue,New Zealand,Test,3,20,73,5,3,0,4.0,27.4
+JC Tongue,Pakistan,Test,1,8,10,1,2,0,8.0,80.0
 JC Tredwell,Australia,ODI,6,25,39,2,2,0,12.5,64.1
 JC Tredwell,Australia,T20I,1,0,1,1,0,0,0.0,0.0
 JC Tredwell,Bangladesh,ODI,1,2,7,0,0,0,2.0,28.57
@@ -26866,6 +26900,7 @@ JD Campbell,England,Test,9,372,680,15,42,3,24.8,54.71
 JD Campbell,India,T20I,1,0,2,1,0,0,0.0,0.0
 JD Campbell,India,Test,4,195,362,8,24,3,24.38,53.87
 JD Campbell,Ireland,ODI,1,179,137,1,15,6,179.0,130.66
+JD Campbell,Jamaica Kingsmen,CPL,1,23,19,1,2,1,23.0,121.05
 JD Campbell,Jamaica Tallawahs,CPL,1,0,3,1,0,0,0.0,0.0
 JD Campbell,New Zealand,ODI,6,94,123,6,10,2,15.67,76.42
 JD Campbell,New Zealand,Test,5,245,548,10,33,1,24.5,44.71
@@ -27125,7 +27160,7 @@ JE Root,New Zealand,T20I,2,95,68,1,11,1,95.0,139.71
 JE Root,New Zealand,Test,24,2096,3621,41,236,11,51.12,57.88
 JE Root,Pakistan,ODI,16,835,906,16,67,5,52.19,92.16
 JE Root,Pakistan,T20I,4,105,89,4,10,2,26.25,117.98
-JE Root,Pakistan,Test,18,1487,2410,28,147,0,53.11,61.7
+JE Root,Pakistan,Test,19,1553,2522,29,157,0,53.55,61.58
 JE Root,Perth Scorchers,BBL,1,5,4,1,1,0,5.0,125.0
 JE Root,Royal Challengers Bangalore,IPL,1,10,15,1,1,0,10.0,66.67
 JE Root,Scotland,ODI,2,18,9,2,4,0,9.0,200.0
@@ -27234,6 +27269,7 @@ JF Chester,Rwanda,T20I,1,0,3,0,0,0,0.0,0.0
 JF Chester,Uganda,T20I,1,0,1,1,0,0,0.0,0.0
 JF Jeremiah,Barbados Tridents,CPL,1,11,10,1,2,0,11.0,110.0
 JF Jeremiah,Guyana Amazon Warriors,CPL,1,1,3,0,0,0,1.0,33.33
+JF Jeremiah,Jamaica Kingsmen,CPL,1,1,4,1,0,0,1.0,25.0
 JF Jimenez,Costa Rica,T20I,1,19,23,1,3,0,19.0,82.61
 JF Kloppenburg,England,ODI,1,10,30,1,1,0,10.0,33.33
 JF Kloppenburg,India,ODI,1,0,4,1,0,0,0.0,0.0
@@ -27881,7 +27917,7 @@ JL Smith,India,Test,5,434,544,7,47,11,62.0,79.78
 JL Smith,Ireland,ODI,1,9,10,1,0,0,9.0,90.0
 JL Smith,New Zealand,ODI,2,18,23,2,2,1,9.0,78.26
 JL Smith,New Zealand,Test,2,101,161,5,14,1,20.2,62.73
-JL Smith,Pakistan,Test,3,150,224,5,10,7,30.0,66.96
+JL Smith,Pakistan,Test,4,175,276,6,12,7,29.17,63.41
 JL Smith,South Africa,ODI,4,116,100,5,19,1,23.2,116.0
 JL Smith,Sri Lanka,Test,3,280,368,6,31,3,46.67,76.09
 JL Smith,West Indies,ODI,3,101,56,3,17,3,33.67,180.36
@@ -27992,6 +28028,7 @@ JM Cox,Melbourne Stars,BBL,2,13,8,2,3,0,6.5,162.5
 JM Cox,Multan Sultans,PSL,1,41,28,1,2,2,41.0,146.43
 JM Cox,New Zealand,T20I,1,16,18,1,2,0,16.0,88.89
 JM Cox,New Zealand,Test,1,52,100,2,5,1,26.0,52.0
+JM Cox,Pakistan,Test,1,73,100,1,14,0,73.0,73.0
 JM Cox,Peshawar Zalmi,PSL,2,39,30,1,3,1,39.0,130.0
 JM Cox,Quetta Gladiators,PSL,1,19,21,1,1,0,19.0,90.48
 JM Cox,Sydney Sixers,BBL,2,10,15,2,0,0,5.0,66.67
@@ -28049,7 +28086,7 @@ JM Iradukunda,Sierra Leone,T20I,1,14,7,1,0,2,14.0,200.0
 JM Iradukunda,Tanzania,T20I,1,1,1,0,0,0,1.0,100.0
 JM Iradukunda,Uganda,T20I,1,0,2,1,0,0,0.0,0.0
 JM Iradukunda,Zambia,T20I,1,2,2,1,0,0,2.0,100.0
-JM James,Guyana Amazon Warriors,CPL,1,15,6,1,2,1,15.0,250.0
+JM James,Guyana Amazon Warriors,CPL,2,25,9,2,3,2,12.5,277.78
 JM James,St Kitts and Nevis Patriots,CPL,1,3,3,0,0,0,3.0,100.0
 JM James,St Lucia Kings,CPL,2,4,14,1,0,0,4.0,28.57
 JM Joao,Eswatini,T20I,4,47,44,4,8,0,11.75,106.82
@@ -28306,7 +28343,7 @@ JNT Seales,Barbados Royals,CPL,2,2,2,0,0,0,2.0,100.0
 JNT Seales,Barbados Tridents,CPL,1,1,1,0,0,0,1.0,100.0
 JNT Seales,England,ODI,1,29,14,0,2,3,29.0,207.14
 JNT Seales,England,Test,6,43,140,6,5,1,7.17,30.71
-JNT Seales,Guyana Amazon Warriors,CPL,1,0,1,0,0,0,0.0,0.0
+JNT Seales,Guyana Amazon Warriors,CPL,2,0,3,1,0,0,0.0,0.0
 JNT Seales,India,ODI,3,1,16,3,0,0,0.33,6.25
 JNT Seales,India,Test,2,73,120,3,5,3,24.33,60.83
 JNT Seales,New Zealand,ODI,4,13,34,2,2,0,6.5,38.24
@@ -28700,7 +28737,7 @@ JR Doran,Melbourne Stars,BBL,1,7,8,1,0,0,7.0,87.5
 JR Doran,Sydney Sixers,BBL,1,0,2,1,0,0,0.0,0.0
 JR Hazlewood,Adelaide Strikers,BBL,1,12,3,0,3,0,12.0,400.0
 JR Hazlewood,Bangladesh,T20I,1,2,3,0,0,0,2.0,66.67
-JR Hazlewood,Bangladesh,Test,2,9,36,2,0,0,4.5,25.0
+JR Hazlewood,Bangladesh,Test,3,15,54,3,1,0,5.0,27.78
 JR Hazlewood,Chennai Super Kings,IPL,1,7,7,0,0,0,7.0,100.0
 JR Hazlewood,England,ODI,6,13,34,1,1,0,13.0,38.24
 JR Hazlewood,England,T20I,1,2,5,0,0,0,2.0,40.0
@@ -28951,6 +28988,7 @@ JT Smuts,Sri Lanka,T20I,3,36,30,3,5,1,12.0,120.0
 JT Smuts,St Lucia Zouks,CPL,1,30,18,1,1,3,30.0,166.67
 JT Smuts,Trinbago Knight Riders,CPL,1,16,14,1,1,1,16.0,114.29
 JT Smuts,West Indies,T20I,1,24,27,1,3,0,24.0,88.89
+JU Goolie,Antigua and Barbuda Falcons,CPL,1,12,18,1,1,0,12.0,66.67
 JU Goolie,Barbados Royals,CPL,2,33,27,1,5,0,33.0,122.22
 JU Goolie,Guyana Amazon Warriors,CPL,1,24,15,0,2,1,24.0,160.0
 JU Goolie,Jamaica Kingsmen,CPL,1,14,9,0,1,1,14.0,155.56
@@ -29079,6 +29117,7 @@ JY Masaya,Oman,T20I,1,6,12,0,0,0,6.0,50.0
 JY Masaya,United Arab Emirates,T20I,1,0,3,0,0,0,0.0,0.0
 Jabran Khan,Germany,T20I,1,1,4,1,0,0,1.0,25.0
 Jagrat Dubey,Austria,T20I,1,0,3,1,0,0,0.0,0.0
+Jagrat Dubey,Belgium,T20I,1,33,48,0,4,0,33.0,68.75
 Jagrat Dubey,Denmark,T20I,1,5,15,1,0,0,5.0,33.33
 Jagrat Dubey,Norway,T20I,2,14,22,1,0,0,14.0,63.64
 Jagrat Dubey,Switzerland,T20I,2,1,9,2,0,0,0.5,11.11
@@ -29851,7 +29890,7 @@ K Goel,Royal Challengers Bangalore,IPL,2,39,48,2,3,0,19.5,81.25
 K Gore,Barbados Royals,CPL,2,65,57,1,3,2,65.0,114.04
 K Gore,Bermuda,T20I,2,16,13,1,1,0,16.0,123.08
 K Gore,Canada,T20I,1,31,15,2,3,2,15.5,206.67
-K Gore,Guyana Amazon Warriors,CPL,2,31,15,2,3,1,15.5,206.67
+K Gore,Guyana Amazon Warriors,CPL,3,39,21,3,3,2,13.0,185.71
 K Gore,Jamaica Kingsmen,CPL,1,12,8,1,2,0,12.0,150.0
 K Gore,Namibia,ODI,1,3,7,1,0,0,3.0,42.86
 K Gore,Nepal,ODI,2,26,34,2,1,0,13.0,76.47
@@ -30303,6 +30342,7 @@ K Piet,Uganda,T20I,6,25,38,4,2,0,6.25,65.79
 K Piet,Zimbabwe,T20I,1,3,6,1,0,0,3.0,50.0
 K Pooran,Antigua and Barbuda Falcons,CPL,1,14,6,1,3,0,14.0,233.33
 K Pooran,Guyana Amazon Warriors,CPL,1,19,9,1,1,2,19.0,211.11
+K Pooran,Jamaica Kingsmen,CPL,1,81,49,0,6,5,81.0,165.31
 K Pooran,St Kitts and Nevis Patriots,CPL,1,54,30,1,7,3,54.0,180.0
 K Rabada,Australia,ODI,8,64,91,4,0,4,16.0,70.33
 K Rabada,Australia,T20I,6,65,58,4,5,4,16.25,112.07
@@ -30674,7 +30714,7 @@ KA Maharaj,West Indies,Test,5,29,111,8,1,0,3.62,26.13
 KA Maharaj,Zimbabwe,Test,2,77,105,3,6,3,25.67,73.33
 KA Pollard,Adelaide Strikers,BBL,2,43,33,1,2,1,43.0,130.3
 KA Pollard,Antigua Hawksbills,CPL,3,39,32,3,2,3,13.0,121.88
-KA Pollard,Antigua and Barbuda Falcons,CPL,3,120,80,2,7,10,60.0,150.0
+KA Pollard,Antigua and Barbuda Falcons,CPL,4,129,96,3,7,10,43.0,134.38
 KA Pollard,Australia,ODI,23,692,779,20,45,31,34.6,88.83
 KA Pollard,Australia,T20I,9,203,132,10,16,11,20.3,153.79
 KA Pollard,Bangladesh,ODI,10,294,273,10,18,18,29.4,107.69
@@ -31770,7 +31810,7 @@ KMA Paul,Pakistan,T20I,3,28,24,1,4,0,28.0,116.67
 KMA Paul,Scotland,ODI,1,5,11,1,1,0,5.0,45.45
 KMA Paul,Sri Lanka,ODI,2,53,44,1,7,1,53.0,120.45
 KMA Paul,St Kitts and Nevis Patriots,CPL,11,230,152,9,12,18,25.56,151.32
-KMA Paul,St Lucia Kings,CPL,6,68,64,4,4,4,17.0,106.25
+KMA Paul,St Lucia Kings,CPL,7,79,78,5,5,4,15.8,101.28
 KMA Paul,St Lucia Zouks,CPL,3,60,45,3,4,4,20.0,133.33
 KMA Paul,Sunrisers Hyderabad,IPL,2,12,8,1,1,1,12.0,150.0
 KMA Paul,Trinbago Knight Riders,CPL,11,102,86,6,6,4,17.0,118.6
@@ -32201,7 +32241,7 @@ KSA McKenzie,England,Test,3,33,82,6,6,0,5.5,40.24
 KSA McKenzie,Guyana Amazon Warriors,CPL,6,77,82,5,5,4,15.4,93.9
 KSA McKenzie,India,Test,1,32,61,2,4,1,16.0,52.46
 KSA McKenzie,St Kitts and Nevis Patriots,CPL,4,43,54,4,5,1,10.75,79.63
-KSA McKenzie,St Lucia Kings,CPL,3,39,33,3,5,1,13.0,118.18
+KSA McKenzie,St Lucia Kings,CPL,4,40,35,4,5,1,10.0,114.29
 KSA McKenzie,Trinbago Knight Riders,CPL,2,73,35,2,6,6,36.5,208.57
 KT Kasuza,Bangladesh,Test,1,12,58,2,0,0,6.0,20.69
 KT Kasuza,Pakistan,Test,2,54,176,4,5,1,13.5,30.68
@@ -32273,7 +32313,7 @@ KU Carty,Pakistan,Test,1,6,7,2,1,0,3.0,85.71
 KU Carty,South Africa,Test,2,116,219,4,16,1,29.0,52.97
 KU Carty,Sri Lanka,ODI,4,157,205,4,9,2,39.25,76.59
 KU Carty,St Kitts and Nevis Patriots,CPL,4,102,61,2,11,3,51.0,167.21
-KU Carty,St Lucia Kings,CPL,3,26,39,3,1,0,8.67,66.67
+KU Carty,St Lucia Kings,CPL,4,76,84,4,4,1,19.0,90.48
 KU Carty,Trinbago Knight Riders,CPL,2,16,25,2,1,0,8.0,64.0
 KU Carty,United Arab Emirates,ODI,3,59,89,2,2,2,29.5,66.29
 KV Jain,England,ODI,3,58,111,3,5,0,19.33,52.25
@@ -32732,6 +32772,7 @@ Kazim Somani,Uganda,T20I,1,7,11,0,0,0,7.0,63.64
 Kelly Ndiraya,Pakistan,ODI,3,19,31,3,4,0,6.33,61.29
 Kelly Ndiraya,Pakistan,T20I,1,0,1,1,0,0,0.0,0.0
 Kerry Fraser,Austria,T20I,1,12,26,1,0,0,12.0,46.15
+Kerry Fraser,Belgium,T20I,1,14,14,1,3,0,14.0,100.0
 Kerry Fraser,Denmark,T20I,1,3,17,1,0,0,3.0,17.65
 Kerry Fraser,Switzerland,T20I,2,4,17,0,0,0,4.0,23.53
 Keziah Miriam Sabin,Namibia,T20I,2,10,8,1,1,0,10.0,125.0
@@ -33002,6 +33043,7 @@ Khurram Nawaz,Scotland,T20I,3,47,51,4,3,2,11.75,92.16
 Khurram Shahzad,Australia,Test,1,7,21,2,1,0,3.5,33.33
 Khurram Shahzad,Bahrain,T20I,1,1,7,1,0,0,1.0,14.29
 Khurram Shahzad,Bangladesh,Test,3,27,92,4,2,1,6.75,29.35
+Khurram Shahzad,England,Test,1,22,21,2,5,0,11.0,104.76
 Khurram Shahzad,Islamabad United,PSL,3,16,22,0,2,0,16.0,72.73
 Khurram Shahzad,Karachi Kings,PSL,1,1,3,1,0,0,1.0,33.33
 Khurram Shahzad,Lahore Qalandars,PSL,1,2,3,0,0,0,2.0,66.67
@@ -34209,6 +34251,7 @@ LA Burns,Guernsey,T20I,1,13,8,2,2,0,6.5,162.5
 LA Burns,Isle of Man,T20I,1,9,7,0,1,0,9.0,128.57
 LA Burns,Italy,T20I,2,6,7,2,1,0,3.0,85.71
 LA Burns,Norway,T20I,2,16,12,2,1,1,8.0,133.33
+LA Burns,Portugal,T20I,1,6,7,2,0,0,3.0,85.71
 LA Carseldine,Chennai Super Kings,IPL,1,9,8,0,1,0,9.0,112.5
 LA Carseldine,Deccan Chargers,IPL,2,47,43,2,7,0,23.5,109.3
 LA Carseldine,Kings XI Punjab,IPL,1,16,9,0,2,0,16.0,177.78
@@ -35291,7 +35334,7 @@ Likitha Yadav,Isle of Man,T20I,1,8,26,1,1,0,8.0,30.77
 Lily Rani Biswas,Sri Lanka,T20I,1,0,2,1,0,0,0.0,0.0
 Liton Das,Australia,ODI,5,142,167,4,15,2,35.5,85.03
 Liton Das,Australia,T20I,2,16,26,2,2,0,8.0,61.54
-Liton Das,Australia,Test,1,0,12,1,0,0,0.0,0.0
+Liton Das,Australia,Test,2,0,27,3,0,0,0.0,0.0
 Liton Das,Delhi Capitals,IPL,1,4,4,1,1,0,4.0,100.0
 Liton Das,England,ODI,4,83,85,4,7,3,20.75,97.65
 Liton Das,England,T20I,4,103,84,4,15,1,25.75,122.62
@@ -36125,7 +36168,7 @@ M Kyriacou,Estonia,T20I,2,54,69,1,1,2,54.0,78.26
 M Kyriacou,Isle of Man,T20I,2,3,7,1,0,0,3.0,42.86
 M Labuschagne,Adelaide Strikers,BBL,3,80,63,4,7,0,20.0,126.98
 M Labuschagne,Bangladesh,ODI,3,85,136,2,4,0,42.5,62.5
-M Labuschagne,Bangladesh,Test,1,32,79,2,2,0,16.0,40.51
+M Labuschagne,Bangladesh,Test,2,36,88,3,3,0,12.0,40.91
 M Labuschagne,England,ODI,12,377,415,9,30,3,41.89,90.84
 M Labuschagne,England,Test,19,1275,2491,34,156,7,37.5,51.18
 M Labuschagne,Hobart Hurricanes,BBL,5,116,89,5,11,2,23.2,130.34
@@ -36499,6 +36542,7 @@ M Mwatile,Zimbabwe,T20I,7,77,65,6,7,1,12.83,118.46
 M Nanayakkara,New Zealand,ODI,2,1,11,2,0,0,0.5,9.09
 M Nanayakkara,New Zealand,T20I,1,35,32,1,4,0,35.0,109.38
 M Nanayakkara,South Africa,ODI,1,13,22,1,1,0,13.0,59.09
+M Nandu,Antigua and Barbuda Falcons,CPL,1,1,5,1,0,0,1.0,20.0
 M Nandu,Jamaica Tallawahs,CPL,1,37,35,1,4,0,37.0,105.71
 M Nandu,St Lucia Kings,CPL,1,3,11,0,0,0,3.0,27.27
 M Ndhambi,Nigeria,T20I,1,24,31,0,3,0,24.0,77.42
@@ -37406,7 +37450,7 @@ MA Sherry,Samoa,T20I,1,21,22,1,2,0,21.0,95.45
 MA Sherry,Saudi Arabia,T20I,2,4,11,1,0,0,4.0,36.36
 MA Sherry,Thailand,T20I,2,13,19,1,1,0,13.0,68.42
 MA Starc,Bangladesh,T20I,2,27,24,1,2,0,27.0,112.5
-MA Starc,Bangladesh,Test,1,19,45,2,2,0,9.5,42.22
+MA Starc,Bangladesh,Test,2,20,51,3,2,0,6.67,39.22
 MA Starc,Chennai Super Kings,IPL,5,13,19,2,1,0,6.5,68.42
 MA Starc,Delhi Capitals,IPL,1,1,1,0,0,0,1.0,100.0
 MA Starc,England,ODI,15,86,105,10,3,3,8.6,81.9
@@ -37634,6 +37678,7 @@ MC Henriques,Rajasthan Royals,IPL,3,51,53,3,6,1,17.0,96.23
 MC Henriques,Rising Pune Supergiant,IPL,2,59,34,1,6,2,59.0,173.53
 MC Henriques,Rising Pune Supergiants,IPL,2,11,12,2,1,0,5.5,91.67
 MC Henriques,Royal Challengers Bangalore,IPL,6,175,110,5,11,10,35.0,159.09
+MC Henriques,Spain,T20I,1,18,22,1,2,0,18.0,81.82
 MC Henriques,Sri Lanka,ODI,5,24,45,4,0,0,6.0,53.33
 MC Henriques,Sri Lanka,T20I,4,76,53,2,2,3,38.0,143.4
 MC Henriques,Sri Lanka,Test,1,8,28,2,0,0,4.0,28.57
@@ -37860,6 +37905,7 @@ MDKJ Perera,Delhi Daredevils,IPL,1,14,12,1,3,0,14.0,116.67
 MDKJ Perera,England,ODI,19,338,433,16,34,2,21.12,78.06
 MDKJ Perera,England,T20I,7,87,97,8,3,2,10.88,89.69
 MDKJ Perera,England,Test,3,144,249,5,17,1,28.8,57.83
+MDKJ Perera,Guyana Amazon Warriors,CPL,1,16,21,1,1,0,16.0,76.19
 MDKJ Perera,Hong Kong,T20I,1,20,16,2,1,1,10.0,125.0
 MDKJ Perera,India,ODI,9,139,168,9,14,2,15.44,82.74
 MDKJ Perera,India,T20I,11,339,237,14,29,15,24.21,143.04
@@ -37887,6 +37933,7 @@ MDKJ Perera,South Africa,ODI,15,391,419,14,50,5,27.93,93.32
 MDKJ Perera,South Africa,T20I,8,173,151,8,17,4,21.62,114.57
 MDKJ Perera,South Africa,Test,5,378,494,8,46,7,47.25,76.52
 MDKJ Perera,St Kitts and Nevis Patriots,CPL,1,1,1,1,0,0,1.0,100.0
+MDKJ Perera,Trinbago Knight Riders,CPL,1,34,24,0,3,1,34.0,141.67
 MDKJ Perera,West Indies,ODI,9,324,330,7,28,6,46.29,98.18
 MDKJ Perera,West Indies,T20I,9,273,180,8,31,8,34.12,151.67
 MDKJ Perera,West Indies,Test,5,136,209,8,16,0,17.0,65.07
@@ -39037,6 +39084,7 @@ MM Ali,Chennai Super Kings,IPL,3,36,26,3,5,1,12.0,138.46
 MM Ali,Delhi Capitals,IPL,7,116,91,7,10,5,16.57,127.47
 MM Ali,Delhi Daredevils,IPL,1,1,3,1,0,0,1.0,33.33
 MM Ali,Gujarat Titans,IPL,6,110,79,5,8,8,22.0,139.24
+MM Ali,Guyana Amazon Warriors,CPL,1,4,8,1,0,0,4.0,50.0
 MM Ali,Hyderabad Kingsmen,PSL,1,44,16,1,1,5,44.0,275.0
 MM Ali,India,ODI,15,392,427,16,30,12,24.5,91.8
 MM Ali,India,T20I,8,88,67,7,8,4,12.57,131.34
@@ -39077,7 +39125,7 @@ MM Ali,Sri Lanka,Test,8,429,849,12,49,4,35.75,50.53
 MM Ali,St Kitts and Nevis Patriots,CPL,4,73,70,3,6,2,24.33,104.29
 MM Ali,St Lucia Kings,CPL,7,39,59,5,1,1,7.8,66.1
 MM Ali,Sunrisers Hyderabad,IPL,8,163,116,6,13,8,27.17,140.52
-MM Ali,Trinbago Knight Riders,CPL,5,34,37,5,4,0,6.8,91.89
+MM Ali,Trinbago Knight Riders,CPL,6,45,42,6,5,1,7.5,107.14
 MM Ali,West Indies,ODI,11,317,284,9,23,11,35.22,111.62
 MM Ali,West Indies,T20I,13,184,138,11,9,12,16.73,133.33
 MM Ali,West Indies,Test,8,252,434,11,37,2,22.91,58.06
@@ -39380,6 +39428,7 @@ MP Biddappa,Germany,T20I,1,0,8,1,0,0,0.0,0.0
 MP Biddappa,Oman,T20I,1,2,13,1,0,0,2.0,15.38
 MP Biddappa,Papua New Guinea,T20I,1,13,25,1,0,0,13.0,52.0
 MP Biddappa,Vanuatu,T20I,1,22,22,0,1,1,22.0,100.0
+MP Breetzke,Antigua and Barbuda Falcons,CPL,1,2,7,1,0,0,2.0,28.57
 MP Breetzke,Australia,ODI,2,145,134,2,15,3,72.5,108.21
 MP Breetzke,Australia,T20I,1,5,7,1,1,0,5.0,71.43
 MP Breetzke,Bangladesh,Test,1,0,4,1,0,0,0.0,0.0
@@ -40036,7 +40085,7 @@ MT Jacob,United Arab Emirates,T20I,1,8,24,1,1,0,8.0,33.33
 MT Renshaw,Adelaide Strikers,BBL,10,345,233,7,30,14,49.29,148.07
 MT Renshaw,Bangladesh,ODI,3,2,11,3,0,0,0.67,18.18
 MT Renshaw,Bangladesh,T20I,2,95,58,0,4,5,95.0,163.79
-MT Renshaw,Bangladesh,Test,2,76,161,4,8,1,19.0,47.2
+MT Renshaw,Bangladesh,Test,3,84,171,5,9,1,16.8,49.12
 MT Renshaw,Brisbane Heat,BBL,4,66,62,3,3,1,22.0,106.45
 MT Renshaw,Hobart Hurricanes,BBL,13,288,213,13,23,8,22.15,135.21
 MT Renshaw,India,ODI,3,107,112,2,4,2,53.5,95.54
@@ -40829,7 +40878,7 @@ Mehboob Ali,Slovenia,T20I,1,22,13,1,2,2,22.0,169.23
 Mehboob Ali,Sweden,T20I,1,17,12,1,1,1,17.0,141.67
 Mehboob Ali,Switzerland,T20I,1,1,3,1,0,0,1.0,33.33
 Mehedi Hasan Miraz,Australia,ODI,5,74,87,4,6,1,18.5,85.06
-Mehedi Hasan Miraz,Australia,Test,3,134,326,4,12,1,33.5,41.1
+Mehedi Hasan Miraz,Australia,Test,4,146,388,6,13,1,24.33,37.63
 Mehedi Hasan Miraz,England,ODI,5,39,54,5,4,0,7.8,72.22
 Mehedi Hasan Miraz,England,T20I,1,20,16,1,0,2,20.0,125.0
 Mehedi Hasan Miraz,England,Test,2,5,27,4,0,0,1.25,18.52
@@ -41157,7 +41206,7 @@ Mohammad Aadil Alam,United States of America,ODI,2,40,34,3,3,2,13.33,117.65
 Mohammad Aadil Alam,West Indies,T20I,2,14,10,1,1,1,14.0,140.0
 Mohammad Abbas,Australia,Test,3,41,139,3,4,2,13.67,29.5
 Mohammad Abbas,Bangladesh,Test,3,12,52,0,2,0,12.0,23.08
-Mohammad Abbas,England,Test,5,13,87,4,1,0,3.25,14.94
+Mohammad Abbas,England,Test,6,21,111,6,2,0,3.5,18.92
 Mohammad Abbas,Ireland,Test,1,4,13,0,1,0,4.0,30.77
 Mohammad Abbas,New Zealand,Test,3,9,131,3,1,0,3.0,6.87
 Mohammad Abbas,Quetta Gladiators,PSL,1,1,1,0,0,0,1.0,100.0
@@ -41279,6 +41328,7 @@ Mohammad Asif,Rajasthan Royals,IPL,1,3,5,1,0,0,3.0,60.0
 Mohammad Asif,South Africa,ODI,3,7,34,3,0,0,2.33,20.59
 Mohammad Asif,South Africa,Test,4,33,97,5,3,0,6.6,34.02
 Mohammad Asif,Sri Lanka,ODI,1,0,2,1,0,0,0.0,0.0
+Mohammad Atif,Portugal,T20I,1,1,2,0,0,0,1.0,50.0
 Mohammad Ayaz,Saudi Arabia,T20I,1,0,2,1,0,0,0.0,0.0
 Mohammad Ayub,Sri Lanka,Test,1,47,168,2,4,0,23.5,27.98
 Mohammad Azab,Peshawar Zalmi,PSL,1,0,2,1,0,0,0.0,0.0
@@ -41422,6 +41472,7 @@ Mohammad Ihsan,Isle of Man,T20I,4,128,73,4,16,7,32.0,175.34
 Mohammad Ihsan,Italy,T20I,2,6,8,1,0,0,6.0,75.0
 Mohammad Ihsan,Jersey,T20I,1,41,19,0,1,4,41.0,215.79
 Mohammad Ihsan,Luxembourg,T20I,1,12,10,1,1,1,12.0,120.0
+Mohammad Ihsan,Portugal,T20I,1,0,1,1,0,0,0.0,0.0
 Mohammad Ilyas,Islamabad United,PSL,1,3,3,0,0,0,3.0,100.0
 Mohammad Ilyas,Karachi Kings,PSL,3,8,10,1,0,0,8.0,80.0
 Mohammad Ilyas,Lahore Qalandars,PSL,2,13,13,1,1,0,13.0,100.0
@@ -41465,7 +41516,7 @@ Mohammad Kamran,Isle of Man,T20I,1,6,5,0,0,0,6.0,120.0
 Mohammad Kamran,Italy,T20I,1,52,33,1,5,2,52.0,157.58
 Mohammad Kamran,Luxembourg,T20I,1,8,6,1,2,0,8.0,133.33
 Mohammad Kamran,Norway,T20I,2,8,9,1,1,0,8.0,88.89
-Mohammad Kamran,Portugal,T20I,1,9,11,0,1,0,9.0,81.82
+Mohammad Kamran,Portugal,T20I,2,28,26,1,3,1,28.0,107.69
 Mohammad Kashif,Bermuda,ODI,1,1,11,1,0,0,1.0,9.09
 Mohammad Khalil,Australia,Test,1,5,23,2,1,0,2.5,21.74
 Mohammad Khan Rafah,Croatia,T20I,1,0,1,0,0,0,0.0,0.0
@@ -41689,7 +41740,7 @@ Mohammad Rizwan,Brisbane Heat,BBL,1,4,10,1,0,0,4.0,40.0
 Mohammad Rizwan,Canada,T20I,1,53,53,0,2,1,53.0,100.0
 Mohammad Rizwan,England,ODI,9,197,225,9,20,1,21.89,87.56
 Mohammad Rizwan,England,T20I,14,560,420,12,47,16,46.67,133.33
-Mohammad Rizwan,England,Test,9,401,815,17,41,4,23.59,49.2
+Mohammad Rizwan,England,Test,10,454,873,19,47,4,23.89,52.0
 Mohammad Rizwan,Guyana Amazon Warriors,CPL,1,85,62,1,8,3,85.0,137.1
 Mohammad Rizwan,Hobart Hurricanes,BBL,2,48,38,2,8,0,24.0,126.32
 Mohammad Rizwan,Hong Kong,T20I,1,78,57,0,6,1,78.0,136.84
@@ -41993,7 +42044,7 @@ Moin Khan,Sri Lanka,ODI,2,17,36,2,1,0,8.5,47.22
 Moin Khan,West Indies,ODI,1,0,2,1,0,0,0.0,0.0
 Moin Khan,Zimbabwe,ODI,1,7,15,1,0,0,7.0,46.67
 Mokbul Ahammed,Hong Kong,T20I,1,5,16,1,0,0,5.0,31.25
-Mominul Haque,Australia,Test,2,139,262,3,14,0,46.33,53.05
+Mominul Haque,Australia,Test,3,148,279,5,16,0,29.6,53.05
 Mominul Haque,England,Test,2,94,163,4,14,0,23.5,57.67
 Mominul Haque,India,ODI,2,29,46,2,4,0,14.5,63.04
 Mominul Haque,India,Test,7,324,659,13,48,2,24.92,49.17
@@ -42621,7 +42672,7 @@ Musfirah Nur Ainaa,Hong Kong,T20I,2,2,5,1,0,0,2.0,40.0
 Musheer Khan,Royal Challengers Bengaluru,IPL,1,0,3,1,0,0,0.0,0.0
 Mushfiqur Rahim,Australia,ODI,7,260,286,3,19,4,86.67,90.91
 Mushfiqur Rahim,Australia,T20I,5,90,76,3,9,2,30.0,118.42
-Mushfiqur Rahim,Australia,Test,3,194,488,4,14,1,48.5,39.75
+Mushfiqur Rahim,Australia,Test,4,228,610,5,17,1,45.6,37.38
 Mushfiqur Rahim,England,ODI,16,626,706,16,46,5,39.12,88.67
 Mushfiqur Rahim,England,T20I,1,29,30,1,3,0,29.0,96.67
 Mushfiqur Rahim,England,Test,6,347,864,13,45,1,26.69,40.16
@@ -43380,7 +43431,7 @@ N Pokana,Scotland,ODI,3,12,24,1,0,0,12.0,50.0
 N Pokana,Scotland,T20I,2,2,2,0,0,0,2.0,100.0
 N Pokana,United States of America,ODI,3,14,29,1,1,1,14.0,48.28
 N Pooran,Antigua Hawksbills,CPL,2,10,11,2,1,0,5.0,90.91
-N Pooran,Antigua and Barbuda Falcons,CPL,5,137,96,3,5,10,45.67,142.71
+N Pooran,Antigua and Barbuda Falcons,CPL,6,180,113,4,11,12,45.0,159.29
 N Pooran,Australia,ODI,4,102,120,3,7,3,34.0,85.0
 N Pooran,Australia,T20I,10,141,118,8,10,10,17.62,119.49
 N Pooran,Bangladesh,ODI,4,116,164,4,9,3,29.0,70.73
@@ -44362,7 +44413,7 @@ NM Hauritz,Sydney Sixers,BBL,1,16,7,0,2,0,16.0,228.57
 NM Hauritz,West Indies,ODI,4,17,15,1,1,0,17.0,113.33
 NM Hauritz,West Indies,Test,3,80,172,2,9,0,40.0,46.51
 NM Lyon,Adelaide Strikers,BBL,1,4,4,1,0,0,4.0,100.0
-NM Lyon,Bangladesh,Test,3,34,75,5,3,0,6.8,45.33
+NM Lyon,Bangladesh,Test,4,66,137,5,7,1,13.2,48.18
 NM Lyon,Brisbane Heat,BBL,2,7,5,1,1,0,7.0,140.0
 NM Lyon,England,ODI,3,9,19,1,0,0,9.0,47.37
 NM Lyon,England,Test,27,353,636,24,48,7,14.71,55.5
@@ -45446,7 +45497,7 @@ Nazmul Hossain,West Indies,T20I,1,3,12,1,0,0,3.0,25.0
 Nazmul Hossain,Zimbabwe,ODI,3,5,18,0,0,0,5.0,27.78
 Nazmul Hossain Shanto,Australia,ODI,4,178,246,4,23,1,44.5,72.36
 Nazmul Hossain Shanto,Australia,T20I,1,41,36,1,5,1,41.0,113.89
-Nazmul Hossain Shanto,Australia,Test,1,84,126,1,7,1,84.0,66.67
+Nazmul Hossain Shanto,Australia,Test,2,115,173,3,13,1,38.33,66.47
 Nazmul Hossain Shanto,England,ODI,4,111,155,4,11,0,27.75,71.61
 Nazmul Hossain Shanto,England,T20I,3,144,113,1,12,2,144.0,127.43
 Nazmul Hossain Shanto,India,ODI,5,36,69,5,3,0,7.2,52.17
@@ -45652,6 +45703,7 @@ Niv Nagavkar,France,T20I,1,1,4,1,0,0,1.0,25.0
 Niv Nagavkar,Germany,T20I,1,21,21,2,1,1,10.5,100.0
 Niv Nagavkar,Greece,T20I,1,39,22,1,4,0,39.0,177.27
 Niv Nagavkar,Hungary,T20I,1,20,15,1,1,0,20.0,133.33
+Niv Nagavkar,Isle of Man,T20I,1,42,44,1,2,0,42.0,95.45
 Niv Nagavkar,Luxembourg,T20I,1,25,17,1,3,0,25.0,147.06
 Niv Nagavkar,Malta,T20I,1,1,3,1,0,0,1.0,33.33
 Niv Nagavkar,Portugal,T20I,2,17,18,2,3,0,8.5,94.44
@@ -46265,7 +46317,7 @@ OE Newey,Norway,T20I,2,29,32,2,1,0,14.5,90.62
 OE Robinson,Australia,Test,7,97,192,10,10,0,9.7,50.52
 OE Robinson,India,Test,5,103,224,8,14,1,12.88,45.98
 OE Robinson,New Zealand,Test,4,146,239,6,18,0,24.33,61.09
-OE Robinson,Pakistan,Test,3,74,90,4,9,1,18.5,82.22
+OE Robinson,Pakistan,Test,4,74,91,5,9,1,14.8,81.32
 OE Robinson,South Africa,Test,2,20,25,2,2,0,10.0,80.0
 OE Taylor,Fiji,T20I,2,12,20,2,0,0,6.0,60.0
 OE Taylor,Indonesia,T20I,1,0,2,1,0,0,0.0,0.0
@@ -46305,7 +46357,7 @@ OF Smith,Scotland,T20I,1,5,8,1,0,0,5.0,62.5
 OF Smith,South Africa,ODI,2,18,20,2,3,0,9.0,90.0
 OF Smith,South Africa,T20I,2,16,10,1,1,1,16.0,160.0
 OF Smith,St Kitts and Nevis Patriots,CPL,6,41,44,3,2,2,13.67,93.18
-OF Smith,St Lucia Kings,CPL,3,60,47,0,3,6,60.0,127.66
+OF Smith,St Lucia Kings,CPL,4,87,64,0,3,9,87.0,135.94
 OF Smith,St Lucia Zouks,CPL,1,1,3,0,0,0,1.0,33.33
 OF Smith,Sunrisers Hyderabad,IPL,1,13,15,1,0,1,13.0,86.67
 OF Smith,Trinbago Knight Riders,CPL,8,124,95,6,9,8,20.67,130.53
@@ -47007,6 +47059,7 @@ P Negi,Rising Pune Supergiant,IPL,2,13,14,2,0,1,6.5,92.86
 P Negi,Rising Pune Supergiants,IPL,1,19,12,1,1,1,19.0,158.33
 P Negi,Royal Challengers Bangalore,IPL,4,37,29,2,2,2,18.5,127.59
 P Negi,Sunrisers Hyderabad,IPL,1,15,11,1,1,1,15.0,136.36
+P Neighbour,Belgium,T20I,2,39,58,2,2,0,19.5,67.24
 P Nissanka,Australia,ODI,8,293,353,8,33,3,36.62,83.0
 P Nissanka,Australia,T20I,11,400,329,12,36,9,33.33,121.58
 P Nissanka,Australia,Test,3,62,127,5,8,0,12.4,48.82
@@ -47800,7 +47853,7 @@ PI Walter,Perth Scorchers,BBL,3,16,21,3,2,0,5.33,76.19
 PI Walter,Sydney Sixers,BBL,4,51,38,3,6,1,17.0,134.21
 PI Walter,Sydney Thunder,BBL,2,7,4,2,0,1,3.5,175.0
 PJ Cummins,Adelaide Strikers,BBL,1,3,6,1,0,0,3.0,50.0
-PJ Cummins,Bangladesh,Test,3,79,204,4,6,3,19.75,38.73
+PJ Cummins,Bangladesh,Test,4,79,206,5,6,3,15.8,38.35
 PJ Cummins,Brisbane Heat,BBL,1,6,6,1,1,0,6.0,100.0
 PJ Cummins,Chennai Super Kings,IPL,4,88,52,4,6,7,22.0,169.23
 PJ Cummins,Delhi Capitals,IPL,5,23,28,3,3,0,7.67,82.14
@@ -48123,6 +48176,7 @@ PM Weerakkody,South Africa,T20I,4,53,56,4,6,0,13.25,94.64
 PM Weerakkody,West Indies,ODI,2,43,82,1,5,0,43.0,52.44
 PM Weerakkody,West Indies,T20I,2,32,53,2,3,0,16.0,60.38
 PN Agarwal,Austria,T20I,1,2,6,1,0,0,2.0,33.33
+PN Agarwal,Belgium,T20I,2,12,15,2,0,0,6.0,80.0
 PN Agarwal,Denmark,T20I,1,2,12,0,0,0,2.0,16.67
 PN Agarwal,Norway,T20I,3,50,55,2,6,0,25.0,90.91
 PN Agarwal,Switzerland,T20I,2,2,4,1,0,0,2.0,50.0
@@ -48852,7 +48906,7 @@ Q Joseph,South Africa,T20I,5,34,54,4,5,1,8.5,62.96
 Q Joseph,Sri Lanka,ODI,4,42,61,4,6,1,10.5,68.85
 Q Joseph,Sri Lanka,T20I,4,38,38,4,5,2,9.5,100.0
 Q Joseph,Thailand,ODI,1,26,12,1,4,1,26.0,216.67
-Q Sampson,Antigua and Barbuda Falcons,CPL,1,19,15,1,3,0,19.0,126.67
+Q Sampson,Antigua and Barbuda Falcons,CPL,2,25,16,1,3,1,25.0,156.25
 Q Sampson,Barbados Royals,CPL,2,83,56,1,5,6,83.0,148.21
 Q Sampson,Jamaica Kingsmen,CPL,1,13,9,0,1,1,13.0,144.44
 Q Sampson,St Kitts and Nevis Patriots,CPL,1,14,7,0,2,0,14.0,200.0
@@ -49860,7 +49914,7 @@ R Powell,South Africa,T20I,10,178,131,8,7,14,22.25,135.88
 R Powell,Sri Lanka,ODI,2,54,42,2,3,3,27.0,128.57
 R Powell,Sri Lanka,T20I,8,180,146,8,11,11,22.5,123.29
 R Powell,St Kitts and Nevis Patriots,CPL,19,550,349,16,45,35,34.38,157.59
-R Powell,St Lucia Kings,CPL,9,129,107,8,10,9,16.12,120.56
+R Powell,St Lucia Kings,CPL,10,129,108,9,10,9,14.33,119.44
 R Powell,St Lucia Stars,CPL,4,122,71,2,4,10,61.0,171.83
 R Powell,St Lucia Zouks,CPL,5,102,72,5,4,9,20.4,141.67
 R Powell,Sunrisers Hyderabad,IPL,3,100,62,2,6,7,50.0,161.29
@@ -50378,6 +50432,7 @@ RA Lewis,Bangladesh,ODI,1,0,3,1,0,0,0.0,0.0
 RA Lewis,Bangladesh,T20I,1,4,4,1,0,0,4.0,100.0
 RA Lewis,South Africa,T20I,1,1,3,1,0,0,1.0,33.33
 RA Lewis,Sri Lanka,ODI,1,2,10,1,0,0,2.0,20.0
+RA Lister,Luxembourg,T20I,1,1,3,0,0,0,1.0,33.33
 RA Lister,Switzerland,T20I,2,10,45,2,0,0,5.0,22.22
 RA Mair,Australia,ODI,7,22,39,4,0,0,5.5,56.41
 RA Mair,Australia,T20I,4,12,12,2,1,0,6.0,100.0
@@ -51214,6 +51269,7 @@ RL Chase,India,T20I,3,56,42,3,7,1,18.67,133.33
 RL Chase,India,Test,9,512,1010,17,53,4,30.12,50.69
 RL Chase,Ireland,ODI,9,186,262,7,16,2,26.57,70.99
 RL Chase,Italy,T20I,1,24,25,1,2,0,24.0,96.0
+RL Chase,Jamaica Kingsmen,CPL,1,11,12,1,2,0,11.0,91.67
 RL Chase,Jamaica Tallawahs,CPL,9,228,181,8,17,10,28.5,125.97
 RL Chase,New Zealand,ODI,3,56,73,3,3,2,18.67,76.71
 RL Chase,New Zealand,T20I,4,72,68,4,5,2,18.0,105.88
@@ -51978,7 +52034,7 @@ RRS Cornwall,Bangladesh,Test,2,7,28,2,0,0,3.5,25.0
 RRS Cornwall,Barbados Royals,CPL,2,50,35,2,7,2,25.0,142.86
 RRS Cornwall,Barbados Tridents,CPL,8,177,101,8,18,12,22.12,175.25
 RRS Cornwall,England,Test,1,12,19,2,1,0,6.0,63.16
-RRS Cornwall,Guyana Amazon Warriors,CPL,15,278,192,13,22,22,21.38,144.79
+RRS Cornwall,Guyana Amazon Warriors,CPL,16,287,198,14,23,22,20.5,144.95
 RRS Cornwall,India,Test,2,38,81,3,6,0,12.67,46.91
 RRS Cornwall,Jamaica Kingsmen,CPL,1,24,21,1,2,2,24.0,114.29
 RRS Cornwall,Jamaica Tallawahs,CPL,12,268,176,12,19,24,22.33,152.27
@@ -51987,7 +52043,7 @@ RRS Cornwall,Sri Lanka,Test,3,186,281,4,26,4,46.5,66.19
 RRS Cornwall,St Kitts and Nevis Patriots,CPL,14,334,207,11,23,30,30.36,161.35
 RRS Cornwall,St Lucia Kings,CPL,7,108,79,7,10,8,15.43,136.71
 RRS Cornwall,St Lucia Zouks,CPL,1,8,5,0,0,0,8.0,160.0
-RRS Cornwall,Trinbago Knight Riders,CPL,17,184,140,17,21,10,10.82,131.43
+RRS Cornwall,Trinbago Knight Riders,CPL,18,198,146,17,23,11,11.65,135.62
 RRS Cornwall,Trinidad & Tobago Red Steel,CPL,2,13,9,2,0,1,6.5,144.44
 RS Bopara,Adelaide Strikers,BBL,1,23,19,0,2,0,23.0,121.05
 RS Bopara,Australia,ODI,25,636,864,23,48,3,27.65,73.61
@@ -53346,6 +53402,7 @@ S Bandeva,Cyprus,T20I,3,0,15,1,0,0,0.0,0.0
 S Bangera,Austria,T20I,1,12,22,1,0,0,12.0,54.55
 S Bangera,Germany,T20I,1,2,9,2,0,0,1.0,22.22
 S Bangera,Hungary,T20I,1,2,5,1,0,0,2.0,40.0
+S Bangera,Isle of Man,T20I,1,1,5,1,0,0,1.0,20.0
 S Bangera,Luxembourg,T20I,1,3,6,1,0,0,3.0,50.0
 S Bangera,Portugal,T20I,2,12,10,1,2,0,12.0,120.0
 S Bangera,Romania,T20I,1,13,20,1,0,0,13.0,65.0
@@ -55327,6 +55384,7 @@ S Singh,Tanzania,T20I,2,44,40,2,5,0,22.0,110.0
 S Singh,Uganda,T20I,8,51,77,6,6,0,8.5,66.23
 S Singh,United Arab Emirates,T20I,1,2,6,1,0,0,2.0,33.33
 S Singh,Zimbabwe,T20I,3,33,40,3,4,0,11.0,82.5
+S Sinha,Luxembourg,T20I,2,93,84,1,12,0,93.0,110.71
 S Siriotis,Romania,T20I,1,0,1,1,0,0,0.0,0.0
 S Smale,Ireland,T20I,2,35,29,2,5,0,17.5,120.69
 S Smith,Canada,T20I,4,10,25,4,0,0,2.5,40.0
@@ -56343,7 +56401,7 @@ SD Heazlett,Perth Scorchers,BBL,7,112,85,7,8,5,16.0,131.76
 SD Heazlett,Sydney Sixers,BBL,9,72,88,9,5,2,8.0,81.82
 SD Heazlett,Sydney Thunder,BBL,6,154,118,4,15,3,38.5,130.51
 SD Hope,Adelaide Strikers,BBL,2,48,34,2,3,2,24.0,141.18
-SD Hope,Antigua and Barbuda Falcons,CPL,4,164,121,5,12,8,32.8,135.54
+SD Hope,Antigua and Barbuda Falcons,CPL,5,211,147,5,14,12,42.2,143.54
 SD Hope,Australia,ODI,6,165,270,7,15,1,23.57,61.11
 SD Hope,Australia,T20I,7,201,134,6,19,9,33.5,150.0
 SD Hope,Australia,Test,6,202,409,11,24,0,18.36,49.39
@@ -56622,6 +56680,7 @@ SF Jerome,Zimbabwe,T20I,1,3,6,1,0,0,3.0,50.0
 SF Mangoda,Czech Republic,T20I,1,23,14,1,3,1,23.0,164.29
 SF Mangoda,Germany,T20I,1,1,4,1,0,0,1.0,25.0
 SF Mangoda,Greece,T20I,1,3,3,1,0,0,3.0,100.0
+SF Mangoda,Isle of Man,T20I,1,9,9,1,1,0,9.0,100.0
 SF Mangoda,Portugal,T20I,1,6,7,1,1,0,6.0,85.71
 SF Mire,Adelaide Strikers,BBL,1,1,2,1,0,0,1.0,50.0
 SF Mire,Australia,T20I,2,91,71,3,10,3,30.33,128.17
@@ -56964,6 +57023,7 @@ SJ Harmison,West Indies,Test,8,141,207,7,13,5,20.14,68.12
 SJ Hate,Oman,T20I,1,2,3,0,0,0,2.0,66.67
 SJ Hughes-Pinan,Croatia,T20I,1,6,10,0,1,0,6.0,60.0
 SJ Hughes-Pinan,Czech Republic,T20I,1,1,1,0,0,0,1.0,100.0
+SJ Hughes-Pinan,Portugal,T20I,1,1,1,0,0,0,1.0,100.0
 SJ Massiah,Australia,ODI,1,23,42,1,3,0,23.0,54.76
 SJ Massiah,New Zealand,ODI,1,0,2,1,0,0,0.0,0.0
 SJ McGlashan,Australia,ODI,6,111,165,5,13,2,22.2,67.27
@@ -57173,7 +57233,7 @@ SK Shetty,China,T20I,1,0,8,1,0,0,0.0,0.0
 SK Sonpethkar,Malaysia,T20I,1,0,5,1,0,0,0.0,0.0
 SK Springer,Barbados Royals,CPL,3,19,14,1,1,1,19.0,135.71
 SK Springer,Barbados Tridents,CPL,1,7,16,1,0,0,7.0,43.75
-SK Springer,Guyana Amazon Warriors,CPL,4,20,29,4,1,0,5.0,68.97
+SK Springer,Guyana Amazon Warriors,CPL,5,21,31,5,1,0,4.2,67.74
 SK Springer,Jamaica Kingsmen,CPL,1,7,5,0,0,0,7.0,140.0
 SK Springer,New Zealand,ODI,2,18,26,2,1,1,9.0,69.23
 SK Springer,New Zealand,T20I,2,48,30,1,3,3,48.0,160.0
@@ -57770,7 +57830,7 @@ SO Dowrich,Sri Lanka,Test,3,288,655,5,30,1,57.6,43.97
 SO Dowrich,St Lucia Zouks,CPL,4,49,33,4,6,2,12.25,148.48
 SO Dowrich,Trinidad & Tobago Red Steel,CPL,3,62,62,3,6,1,20.67,100.0
 SO Dowrich,Zimbabwe,Test,2,126,267,3,14,1,42.0,47.19
-SO Hetmyer,Antigua and Barbuda Falcons,CPL,4,97,54,3,7,8,32.33,179.63
+SO Hetmyer,Antigua and Barbuda Falcons,CPL,5,146,73,4,8,14,36.5,200.0
 SO Hetmyer,Australia,ODI,3,38,50,2,6,0,19.0,76.0
 SO Hetmyer,Australia,T20I,8,237,161,9,11,14,26.33,147.2
 SO Hetmyer,Bangladesh,ODI,7,277,268,8,14,11,34.62,103.36
@@ -57960,7 +58020,7 @@ SP Krishnamurthi,Pakistan,T20I,1,0,2,1,0,0,0.0,0.0
 SP Krishnamurthi,Scotland,ODI,1,49,54,1,7,0,49.0,90.74
 SP Narine,Adelaide Strikers,BBL,1,2,4,1,0,0,2.0,50.0
 SP Narine,Antigua Hawksbills,CPL,2,18,11,0,1,1,18.0,163.64
-SP Narine,Antigua and Barbuda Falcons,CPL,2,4,7,2,1,0,2.0,57.14
+SP Narine,Antigua and Barbuda Falcons,CPL,3,23,22,2,3,1,11.5,104.55
 SP Narine,Australia,ODI,11,94,96,10,11,4,9.4,97.92
 SP Narine,Australia,T20I,2,6,5,1,1,0,6.0,120.0
 SP Narine,Bangladesh,ODI,6,76,85,4,6,1,19.0,89.41
@@ -58037,7 +58097,7 @@ SP de Alwis,India,ODI,2,28,51,2,6,0,14.0,54.9
 SPD Smith,Adelaide Strikers,BBL,4,219,139,2,12,12,109.5,157.55
 SPD Smith,Bangladesh,ODI,5,92,103,3,6,1,30.67,89.32
 SPD Smith,Bangladesh,T20I,2,41,31,1,1,3,41.0,132.26
-SPD Smith,Bangladesh,Test,3,234,415,6,27,1,39.0,56.39
+SPD Smith,Bangladesh,Test,4,276,489,7,33,1,39.43,56.44
 SPD Smith,Brisbane Heat,BBL,4,83,63,3,8,0,27.67,131.75
 SPD Smith,Chennai Super Kings,IPL,12,317,272,11,21,10,28.82,116.54
 SPD Smith,Deccan Chargers,IPL,2,73,40,1,3,5,73.0,182.5
@@ -59390,7 +59450,7 @@ Saim Ayub,South Africa,Test,1,41,71,2,8,0,20.5,57.75
 Saim Ayub,Sri Lanka,ODI,2,39,39,2,5,1,19.5,100.0
 Saim Ayub,Sri Lanka,T20I,6,115,95,6,18,2,19.17,121.05
 Saim Ayub,St Kitts and Nevis Patriots,CPL,2,52,30,2,6,3,26.0,173.33
-Saim Ayub,St Lucia Kings,CPL,2,40,36,2,6,1,20.0,111.11
+Saim Ayub,St Lucia Kings,CPL,3,41,39,3,6,1,13.67,105.13
 Saim Ayub,Trinbago Knight Riders,CPL,4,200,147,3,15,13,66.67,136.05
 Saim Ayub,United Arab Emirates,T20I,3,80,50,3,7,5,26.67,160.0
 Saim Ayub,United States of America,T20I,1,19,17,1,1,2,19.0,111.76
@@ -59986,7 +60046,7 @@ Saud Shakeel,Australia,ODI,2,33,39,2,5,0,16.5,84.62
 Saud Shakeel,Australia,Test,3,92,209,7,10,0,13.14,44.02
 Saud Shakeel,Bangladesh,Test,4,188,388,8,15,0,23.5,48.45
 Saud Shakeel,England,ODI,4,93,130,3,9,0,31.0,71.54
-Saud Shakeel,England,Test,6,626,1261,11,62,0,56.91,49.64
+Saud Shakeel,England,Test,7,645,1310,13,66,0,49.62,49.24
 Saud Shakeel,Hyderabad Kingsmen,PSL,1,4,4,1,0,0,4.0,100.0
 Saud Shakeel,India,ODI,2,68,86,2,5,0,34.0,79.07
 Saud Shakeel,Islamabad United,PSL,6,86,71,6,9,3,14.33,121.13
@@ -60102,6 +60162,7 @@ Shadab Khan,Brisbane Heat,BBL,1,8,9,1,1,0,8.0,88.89
 Shadab Khan,England,ODI,5,65,75,4,6,1,16.25,86.67
 Shadab Khan,England,T20I,8,106,70,7,10,4,15.14,151.43
 Shadab Khan,England,Test,3,172,242,5,21,0,34.4,71.07
+Shadab Khan,Guyana Amazon Warriors,CPL,1,6,6,0,0,0,6.0,100.0
 Shadab Khan,Hobart Hurricanes,BBL,1,34,24,1,2,1,34.0,141.67
 Shadab Khan,Hyderabad Kingsmen,PSL,2,26,25,1,2,0,26.0,104.0
 Shadab Khan,India,ODI,6,60,80,4,2,1,15.0,75.0
@@ -60135,13 +60196,14 @@ Shadab Khan,St Lucia Stars,CPL,1,30,33,0,1,1,30.0,90.91
 Shadab Khan,St Lucia Zouks,CPL,1,0,1,1,0,0,0.0,0.0
 Shadab Khan,Sydney Sixers,BBL,2,55,42,2,3,3,27.5,130.95
 Shadab Khan,Sydney Thunder,BBL,1,1,3,1,0,0,1.0,33.33
+Shadab Khan,Trinbago Knight Riders,CPL,1,52,20,0,2,5,52.0,260.0
 Shadab Khan,United States of America,T20I,2,73,40,2,5,4,36.5,182.5
 Shadab Khan,West Indies,ODI,4,114,110,4,5,4,28.5,103.64
 Shadab Khan,West Indies,T20I,4,49,28,1,2,3,49.0,175.0
 Shadab Khan,West Indies,Test,1,17,40,2,2,0,8.5,42.5
 Shadab Khan,Zimbabwe,ODI,1,2,3,0,0,0,2.0,66.67
 Shadab Khan,Zimbabwe,T20I,1,17,14,1,0,1,17.0,121.43
-Shadman Islam,Australia,Test,1,45,72,1,6,0,45.0,62.5
+Shadman Islam,Australia,Test,2,46,76,3,6,0,15.33,60.53
 Shadman Islam,India,Test,4,152,316,8,23,0,19.0,48.1
 Shadman Islam,Ireland,Test,2,193,267,3,22,1,64.33,72.28
 Shadman Islam,New Zealand,Test,4,170,321,8,20,0,21.25,52.96
@@ -60752,7 +60814,7 @@ Shan Masood,Australia,Test,5,337,627,10,34,2,33.7,53.75
 Shan Masood,Bangladesh,T20I,2,55,36,1,6,1,55.0,152.78
 Shan Masood,Bangladesh,Test,5,308,475,9,32,0,34.22,64.84
 Shan Masood,England,T20I,7,194,147,6,12,6,32.33,131.97
-Shan Masood,England,Test,11,587,1071,20,63,7,29.35,54.81
+Shan Masood,England,Test,12,621,1147,22,68,7,28.23,54.14
 Shan Masood,Hyderabad Kingsmen,PSL,3,99,64,2,6,6,49.5,154.69
 Shan Masood,India,T20I,1,52,42,0,5,0,52.0,123.81
 Shan Masood,Islamabad United,PSL,12,343,274,13,42,7,26.38,125.18
@@ -61027,6 +61089,7 @@ Shivang Kumar,Kolkata Knight Riders,IPL,2,5,4,2,1,0,2.5,125.0
 Shivang Kumar,Lucknow Super Giants,IPL,1,5,4,1,1,0,5.0,125.0
 Shivang Kumar,Rajasthan Royals,IPL,1,27,24,1,3,0,27.0,112.5
 Shivani Sati,Austria,T20I,1,5,14,1,0,0,5.0,35.71
+Shivani Sati,Belgium,T20I,1,5,10,0,0,0,5.0,50.0
 Shivani Sati,Denmark,T20I,1,2,4,1,0,0,2.0,50.0
 Shivani Sati,Norway,T20I,2,1,13,2,0,0,0.5,7.69
 Shivani Sati,Switzerland,T20I,2,2,4,1,0,0,2.0,50.0
@@ -61165,6 +61228,7 @@ Shorifa Khatun,Pakistan,T20I,2,19,12,1,3,0,19.0,158.33
 Shorifa Khatun,South Africa,T20I,1,1,1,0,0,0,1.0,100.0
 Shorifa Khatun,Sri Lanka,T20I,1,5,13,1,0,0,5.0,38.46
 Shoriful Islam,Australia,T20I,3,7,17,3,0,0,2.33,41.18
+Shoriful Islam,Australia,Test,1,14,21,2,3,0,7.0,66.67
 Shoriful Islam,England,ODI,1,12,14,1,2,0,12.0,85.71
 Shoriful Islam,India,ODI,1,7,3,0,0,1,7.0,233.33
 Shoriful Islam,India,T20I,1,0,2,1,0,0,0.0,0.0
@@ -61515,6 +61579,7 @@ Snigdha Paul,Ireland,T20I,1,1,2,1,0,0,1.0,50.0
 Snigdha Paul,Papua New Guinea,T20I,1,2,6,1,0,0,2.0,33.33
 Snigdha Paul,Scotland,T20I,1,3,8,1,0,0,3.0,37.5
 Snigdha Paul,United Arab Emirates,T20I,2,31,47,2,3,0,15.5,65.96
+Snir Massil,Isle of Man,T20I,1,1,3,1,0,0,1.0,33.33
 Sobu George,Austria,T20I,1,27,21,1,4,0,27.0,128.57
 Sobu George,Hungary,T20I,1,26,20,1,0,2,26.0,130.0
 Sofia Araya,Argentina,T20I,1,0,2,1,0,0,0.0,0.0
@@ -62315,7 +62380,7 @@ T Henderson,Kolkata Knight Riders,IPL,1,0,1,0,0,0,0.0,0.0
 T Henderson,Royal Challengers Bangalore,IPL,1,11,15,1,0,1,11.0,73.33
 T Hewa,Bahamas,T20I,1,0,1,1,0,0,0.0,0.0
 T Hewa,Bermuda,T20I,1,0,1,0,0,0,0.0,0.0
-T Hinds,Antigua and Barbuda Falcons,CPL,1,4,4,1,0,0,4.0,100.0
+T Hinds,Antigua and Barbuda Falcons,CPL,2,18,14,1,1,1,18.0,128.57
 T Hinds,Barbados Royals,CPL,2,23,9,0,1,2,23.0,255.56
 T Hinds,England,T20I,1,5,3,0,1,0,5.0,166.67
 T Hinds,Guyana Amazon Warriors,CPL,2,5,5,2,1,0,2.5,100.0
@@ -63743,6 +63808,7 @@ TL Seifert,Guyana Amazon Warriors,CPL,13,184,205,12,15,3,15.33,89.76
 TL Seifert,Hobart Hurricanes,BBL,4,121,77,3,11,6,40.33,157.14
 TL Seifert,India,T20I,16,485,316,14,42,26,34.64,153.48
 TL Seifert,Islamabad United,PSL,4,90,82,4,11,1,22.5,109.76
+TL Seifert,Jamaica Kingsmen,CPL,1,12,13,1,3,0,12.0,92.31
 TL Seifert,Jamaica Tallawahs,CPL,4,85,71,3,4,4,28.33,119.72
 TL Seifert,Lahore Qalandars,PSL,4,94,73,3,12,1,31.33,128.77
 TL Seifert,Lucknow Super Giants,IPL,1,0,3,1,0,0,0.0,0.0
@@ -63895,7 +63961,7 @@ TM Faimalo,Indonesia,T20I,1,6,29,0,0,0,6.0,20.69
 TM Faimalo,Papua New Guinea,T20I,1,0,1,1,0,0,0.0,0.0
 TM Head,Bangladesh,ODI,1,10,11,1,2,0,10.0,90.91
 TM Head,Bangladesh,T20I,1,31,21,1,3,2,31.0,147.62
-TM Head,Bangladesh,Test,1,39,74,2,6,0,19.5,52.7
+TM Head,Bangladesh,Test,2,61,101,3,10,0,20.33,60.4
 TM Head,Brisbane Heat,BBL,8,189,154,7,10,8,27.0,122.73
 TM Head,Chennai Super Kings,IPL,5,92,73,5,12,3,18.4,126.03
 TM Head,Delhi Capitals,IPL,3,148,70,4,17,8,37.0,211.43
@@ -64429,7 +64495,7 @@ Taher Muhammad,Malta,T20I,1,10,18,1,1,0,10.0,55.56
 Taher Muhammad,Norway,T20I,1,2,6,1,0,0,2.0,33.33
 Taher Muhammad,Serbia,T20I,2,20,19,1,3,0,20.0,105.26
 Taher Muhammad,Sweden,T20I,2,13,23,2,1,0,6.5,56.52
-Taijul Islam,Australia,Test,3,38,99,5,3,2,7.6,38.38
+Taijul Islam,Australia,Test,4,56,149,6,5,2,9.33,37.58
 Taijul Islam,England,ODI,3,13,29,2,1,0,6.5,44.83
 Taijul Islam,England,Test,2,29,60,2,4,0,14.5,48.33
 Taijul Islam,India,Test,7,64,214,11,10,0,5.82,29.91
@@ -64556,7 +64622,7 @@ Tanzeel Sheikh,Uganda,T20I,2,7,7,2,1,0,3.5,100.0
 Tanzeel Sheikh,United Arab Emirates,T20I,1,4,6,1,0,0,4.0,66.67
 Tanzid Hasan,Australia,ODI,4,109,100,4,15,2,27.25,109.0
 Tanzid Hasan,Australia,T20I,3,35,20,2,5,1,17.5,175.0
-Tanzid Hasan,Australia,Test,1,101,202,2,8,1,50.5,50.0
+Tanzid Hasan,Australia,Test,2,110,238,4,9,1,27.5,46.22
 Tanzid Hasan,England,ODI,1,1,2,1,0,0,1.0,50.0
 Tanzid Hasan,Hong Kong,T20I,1,14,18,1,1,0,14.0,77.78
 Tanzid Hasan,India,ODI,3,89,80,3,12,3,29.67,111.25
@@ -64673,7 +64739,7 @@ Tashi Phuntsho,Thailand,T20I,2,18,27,1,1,0,18.0,66.67
 Tashiba Mirza,Norway,T20I,1,5,11,0,1,0,5.0,45.45
 Taskin Ahmed,Australia,ODI,2,20,17,1,2,1,20.0,117.65
 Taskin Ahmed,Australia,T20I,3,21,21,0,1,0,21.0,100.0
-Taskin Ahmed,Australia,Test,1,14,32,0,2,0,14.0,43.75
+Taskin Ahmed,Australia,Test,2,23,50,2,2,1,11.5,46.0
 Taskin Ahmed,England,ODI,4,51,68,4,5,2,12.75,75.0
 Taskin Ahmed,England,T20I,1,8,3,0,2,0,8.0,266.67
 Taskin Ahmed,India,ODI,5,32,43,2,1,2,16.0,74.42
@@ -65403,6 +65469,7 @@ Usman Khan,Romania,T20I,3,70,60,2,5,2,35.0,116.67
 Usman Khan,South Africa,T20I,4,30,32,3,2,0,10.0,93.75
 Usman Khan,Sri Lanka,T20I,6,57,54,3,3,2,19.0,105.56
 Usman Khan,St Kitts and Nevis Patriots,CPL,1,13,17,1,0,1,13.0,76.47
+Usman Khan,St Lucia Kings,CPL,1,28,11,1,3,2,28.0,254.55
 Usman Khan,Sweden,T20I,1,13,11,1,2,0,13.0,118.18
 Usman Khan,Switzerland,T20I,2,63,40,0,11,0,63.0,157.5
 Usman Khan,Turkey,T20I,1,13,12,1,2,0,13.0,108.33
@@ -66262,6 +66329,7 @@ VN Veetil,Singapore,T20I,2,3,8,0,0,0,3.0,37.5
 VO Lawes,Barbados Tridents,CPL,1,32,20,0,0,4,32.0,160.0
 VO Lawes,Guyana Amazon Warriors,CPL,1,14,11,1,1,1,14.0,127.27
 VO Lawes,New Zealand,ODI,3,2,25,2,0,0,1.0,8.0
+VO Lawes,St Lucia Kings,CPL,1,2,3,1,0,0,2.0,66.67
 VP Thamotharam,Austria,T20I,2,70,43,2,5,5,35.0,162.79
 VP Thamotharam,Belgium,T20I,7,84,73,7,4,6,12.0,115.07
 VP Thamotharam,Bulgaria,T20I,1,31,20,1,2,2,31.0,155.0
@@ -67267,6 +67335,7 @@ WSLK Narayana,Austria,T20I,1,5,8,1,1,0,5.0,62.5
 WSLK Narayana,Czech Republic,T20I,1,5,4,1,1,0,5.0,125.0
 WSLK Narayana,Germany,T20I,1,4,8,0,0,0,4.0,50.0
 WSLK Narayana,Greece,T20I,1,7,6,1,1,0,7.0,116.67
+WSLK Narayana,Isle of Man,T20I,1,10,17,1,1,0,10.0,58.82
 WSLK Narayana,Luxembourg,T20I,1,32,19,1,4,1,32.0,168.42
 WSLK Narayana,Portugal,T20I,2,4,7,2,1,0,2.0,57.14
 WSLK Narayana,Romania,T20I,1,25,24,1,4,0,25.0,104.17
@@ -68160,6 +68229,7 @@ Yair Nagavkar,Czech Republic,T20I,1,7,5,0,1,0,7.0,140.0
 Yair Nagavkar,Germany,T20I,1,16,12,1,0,1,16.0,133.33
 Yair Nagavkar,Greece,T20I,1,7,7,1,1,0,7.0,100.0
 Yair Nagavkar,Hungary,T20I,1,7,14,1,0,0,7.0,50.0
+Yair Nagavkar,Isle of Man,T20I,1,8,10,1,0,0,8.0,80.0
 Yair Nagavkar,Malta,T20I,1,4,3,0,0,0,4.0,133.33
 Yair Nagavkar,Portugal,T20I,2,37,44,2,2,0,18.5,84.09
 Yair Nagavkar,Romania,T20I,1,0,1,1,0,0,0.0,0.0
@@ -68236,7 +68306,7 @@ Yasir Ali,Italy,T20I,2,46,45,2,2,2,23.0,102.22
 Yasir Ali,Jersey,T20I,1,1,2,1,0,0,1.0,50.0
 Yasir Ali,Luxembourg,T20I,1,64,45,1,7,1,64.0,142.22
 Yasir Ali,Norway,T20I,2,62,67,2,3,1,31.0,92.54
-Yasir Ali,Portugal,T20I,2,51,50,1,4,2,51.0,102.0
+Yasir Ali,Portugal,T20I,3,78,79,2,6,3,39.0,98.73
 Yasir Ali Chowdhury,India,ODI,1,25,30,1,2,1,25.0,83.33
 Yasir Ali Chowdhury,India,T20I,1,1,3,1,0,0,1.0,33.33
 Yasir Ali Chowdhury,India,Test,1,9,29,2,1,0,4.5,31.03
@@ -68351,6 +68421,7 @@ Ying King To,Croatia,T20I,1,5,6,0,0,0,5.0,83.33
 Yogev Nagavkar,Czech Republic,T20I,1,38,35,1,4,0,38.0,108.57
 Yogev Nagavkar,Germany,T20I,1,7,11,1,0,0,7.0,63.64
 Yogev Nagavkar,Hungary,T20I,2,26,35,2,3,0,13.0,74.29
+Yogev Nagavkar,Isle of Man,T20I,1,0,2,1,0,0,0.0,0.0
 Yogev Nagavkar,Luxembourg,T20I,1,3,3,1,0,0,3.0,100.0
 Yogev Nagavkar,Malta,T20I,1,39,41,2,5,0,19.5,95.12
 Yogev Nagavkar,Portugal,T20I,2,30,56,2,3,0,15.0,53.57
