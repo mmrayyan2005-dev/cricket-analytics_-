@@ -131653,6 +131653,18 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1496551,S Rana,England,India,"Lord's, London",2026-07-10,Test,202,83.0,6,156,33.7,2.47,2026
 1496551,SG Satghare,England,India,"Lord's, London",2026-07-10,Test,139,64.0,4,110,23.2,2.76,2026
 1496551,Shafali Verma,England,India,"Lord's, London",2026-07-10,Test,6,1.0,0,5,1.0,1.0,2026
+1496552,AN Kelly,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,36,38.0,1,19,6.0,6.33,2026
+1496552,C Murray,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,54,58.0,3,20,9.0,6.44,2026
+1496552,CE Dean,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,60,35.0,2,31,10.0,3.5,2026
+1496552,DR Gibson,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,30,32.0,0,14,5.0,6.4,2026
+1496552,IECM Wong,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,60,52.0,2,32,10.0,5.2,2026
+1496552,J Maguire,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,36,54.0,0,14,6.0,9.0,2026
+1496552,KJ McCartney,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,36,43.0,0,12,6.0,7.17,2026
+1496552,L Filer,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,60,33.0,0,39,10.0,3.3,2026
+1496552,L Little,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,31,41.0,0,13,5.2,7.94,2026
+1496552,MK Villiers,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,48,44.0,1,21,8.0,5.5,2026
+1496552,MR Corteen-Coleman,Ireland,England,"Grace Road, Leicester",2026-09-01,ODI,43,53.0,0,18,7.2,7.4,2026
+1496552,O Prendergast,England,Ireland,"Grace Road, Leicester",2026-09-01,ODI,36,30.0,0,22,6.0,5.0,2026
 1496571,AAP Atkinson,New Zealand,England,"Lord's, London",2026-06-04,Test,100,39.0,7,81,16.7,2.34,2026
 1496571,BA Stokes,New Zealand,England,"Lord's, London",2026-06-04,Test,44,34.0,1,29,7.3,4.64,2026
 1496571,JC Tongue,New Zealand,England,"Lord's, London",2026-06-04,Test,139,88.0,5,101,23.2,3.8,2026
@@ -131781,6 +131793,15 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1496582,Mohammad Abbas,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,151,78.0,1,117,25.2,3.1,2026
 1496582,Mohammad Ali,England,Pakistan,"Headingley, Leeds",2026-08-19,Test,115,89.0,1,79,19.2,4.64,2026
 1496582,OE Robinson,Pakistan,England,"Headingley, Leeds",2026-08-19,Test,175,80.0,8,136,29.2,2.74,2026
+1496583,AAP Atkinson,Pakistan,England,"Lord's, London",2026-08-27,Test,108,74.0,0,76,18.0,4.11,2026
+1496583,Ali Usman,England,Pakistan,"Lord's, London",2026-08-27,Test,70,56.0,2,45,11.7,4.8,2026
+1496583,DW Lawrence,Pakistan,England,"Lord's, London",2026-08-27,Test,12,0.0,0,12,2.0,0.0,2026
+1496583,JC Archer,Pakistan,England,"Lord's, London",2026-08-27,Test,160,98.0,5,112,26.7,3.68,2026
+1496583,JC Tongue,Pakistan,England,"Lord's, London",2026-08-27,Test,89,68.0,5,68,14.8,4.58,2026
+1496583,Khurram Shahzad,England,Pakistan,"Lord's, London",2026-08-27,Test,180,135.0,3,124,30.0,4.5,2026
+1496583,Mohammad Abbas,England,Pakistan,"Lord's, London",2026-08-27,Test,252,130.0,9,188,42.0,3.1,2026
+1496583,Mohammad Ali,England,Pakistan,"Lord's, London",2026-08-27,Test,239,151.0,6,173,39.8,3.79,2026
+1496583,OE Robinson,Pakistan,England,"Lord's, London",2026-08-27,Test,163,35.0,8,137,27.2,1.29,2026
 1496821,A Dhabe,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,2,12,4.0,6.75,2025
 1496821,Abdul Naser Baluch,Austria,Sweden,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,14.0,2,15,4.0,3.5,2025
 1496821,Aqib Iqbal,Sweden,Austria,"Botkyrka Cricket Center, Stockholm",2025-08-08,T20I,24,27.0,3,10,4.0,6.75,2025
@@ -142892,6 +142913,78 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1534193,RRS Cornwall,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,6,15.0,0,1,1.0,15.0,2026
 1534193,S Joseph,Antigua and Barbuda Falcons,Guyana Amazon Warriors,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,18,21.0,3,9,3.0,7.0,2026
 1534193,SK Springer,Guyana Amazon Warriors,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-23,CPL,5,22.0,1,1,0.8,26.4,2026
+1534194,AS Joseph,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,12,12.0,2,8,2.0,6.0,2026
+1534194,CJ Green,Antigua and Barbuda Falcons,Barbados Tridents,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,17.0,0,11,4.0,4.25,2026
+1534194,DR Sams,Antigua and Barbuda Falcons,Barbados Tridents,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,39.0,1,12,4.0,9.75,2026
+1534194,G Motie,Antigua and Barbuda Falcons,Barbados Tridents,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,25.0,1,6,4.0,6.25,2026
+1534194,JM James,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,18,17.0,3,7,3.0,5.67,2026
+1534194,JNT Seales,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,12,13.0,0,7,2.0,6.5,2026
+1534194,Mujeeb Ur Rahman,Antigua and Barbuda Falcons,Barbados Tridents,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,32.0,2,8,4.0,8.0,2026
+1534194,RR Simmonds,Antigua and Barbuda Falcons,Barbados Tridents,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,29.0,1,8,4.0,7.25,2026
+1534194,RRS Cornwall,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,18,19.0,1,10,3.0,6.33,2026
+1534194,Shadab Khan,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,23.0,2,9,4.0,5.75,2026
+1534194,Sufiyan Muqeem,Barbados Tridents,Antigua and Barbuda Falcons,"Sir Vivian Richards Stadium, North Sound, Antigua",2026-08-25,CPL,24,30.0,2,8,4.0,7.5,2026
+1534195,AJ Hosein,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,39.0,0,8,4.0,9.75,2026
+1534195,ASIH Toppin,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,12,27.0,0,2,2.0,13.5,2026
+1534195,DC Drakes,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,18,52.0,0,3,3.0,17.33,2026
+1534195,J Bishop,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,18,25.0,1,9,3.0,8.33,2026
+1534195,K Gaston,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,18,23.0,1,8,3.0,7.67,2026
+1534195,KA Pollard,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,18,23.0,2,6,3.0,7.67,2026
+1534195,KIC Asalanka,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,12,19.0,0,2,2.0,9.5,2026
+1534195,M Theekshana,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,49.0,0,6,4.0,12.25,2026
+1534195,MW Forde,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,30.0,1,9,4.0,7.5,2026
+1534195,RL Chase,Trinbago Knight Riders,St Lucia Kings,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,23.0,3,16,4.0,5.75,2026
+1534195,SP Narine,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,27.0,1,11,4.0,6.75,2026
+1534195,Usman Tariq,St Lucia Kings,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-26,CPL,24,30.0,1,7,4.0,7.5,2026
+1534196,Hunain Shah,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,22.0,2,10,4.0,5.5,2026
+1534196,J Blades,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,40.0,2,11,4.0,10.0,2026
+1534196,JO Holder,Jamaica Kingsmen,St Kitts and Nevis Patriots,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,37.0,0,8,4.0,9.25,2026
+1534196,KMA Paul,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,30.0,1,11,4.0,7.5,2026
+1534196,Maaz Sadaqat,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,6,3.0,0,4,1.0,3.0,2026
+1534196,Naseem Shah,Jamaica Kingsmen,St Kitts and Nevis Patriots,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,34.0,2,10,4.0,8.5,2026
+1534196,OC McCoy,Jamaica Kingsmen,St Kitts and Nevis Patriots,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,43.0,2,8,4.0,10.75,2026
+1534196,OF Smith,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,6,19.0,0,2,1.0,19.0,2026
+1534196,PWH de Silva,Jamaica Kingsmen,St Kitts and Nevis Patriots,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,18.0,2,9,4.0,4.5,2026
+1534196,Saim Ayub,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,19.0,1,11,4.0,4.75,2026
+1534196,VO Lawes,St Kitts and Nevis Patriots,Jamaica Kingsmen,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,12,24.0,0,4,2.0,12.0,2026
+1534196,Waqar Salamkheil,Jamaica Kingsmen,St Kitts and Nevis Patriots,"Warner Park, Basseterre, St Kitts",2026-08-27,CPL,24,45.0,0,8,4.0,11.25,2026
+1534197,AJ Hosein,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,18,27.0,1,8,3.0,9.0,2026
+1534197,ASIH Toppin,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,12,22.0,1,4,2.0,11.0,2026
+1534197,CJ Green,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,24,20.0,1,10,4.0,5.0,2026
+1534197,DR Sams,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,12,17.0,0,3,2.0,8.5,2026
+1534197,G Motie,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,6,10.0,0,1,1.0,10.0,2026
+1534197,JU Goolie,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,24,30.0,1,10,4.0,7.5,2026
+1534197,KA Pollard,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,18,19.0,3,9,3.0,6.33,2026
+1534197,Mujeeb Ur Rahman,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,24,39.0,1,14,4.0,9.75,2026
+1534197,RA Clarke,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,6,16.0,0,0,1.0,16.0,2026
+1534197,RR Simmonds,Trinbago Knight Riders,Barbados Tridents,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,17,20.0,1,5,2.8,7.06,2026
+1534197,SP Narine,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,24,14.0,2,16,4.0,3.5,2026
+1534197,Usman Tariq,Barbados Tridents,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-28,CPL,24,10.0,1,18,4.0,2.5,2026
+1534198,AJ Hosein,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,12,16.0,0,1,2.0,8.0,2026
+1534198,ASIH Toppin,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,12,20.0,0,1,2.0,10.0,2026
+1534198,DC Drakes,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,6,7.0,0,3,1.0,7.0,2026
+1534198,Hunain Shah,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,24,27.0,2,9,4.0,6.75,2026
+1534198,J Blades,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,18,15.0,0,9,3.0,5.0,2026
+1534198,JU Goolie,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,24,29.0,2,10,4.0,7.25,2026
+1534198,KMA Paul,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,18,45.0,1,6,3.0,15.0,2026
+1534198,OF Smith,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,12,24.0,0,1,2.0,12.0,2026
+1534198,SP Narine,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,16,19.0,0,9,2.7,7.12,2026
+1534198,Saim Ayub,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,24,34.0,0,8,4.0,8.5,2026
+1534198,Usman Tariq,Jamaica Kingsmen,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,18,22.0,1,8,3.0,7.33,2026
+1534198,VO Lawes,Trinbago Knight Riders,Jamaica Kingsmen,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-29,CPL,24,29.0,3,10,4.0,7.25,2026
+1534200,AJ Hosein,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,12,11.0,1,6,2.0,5.5,2026
+1534200,CBRLS Kumara,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,18,55.0,1,4,3.0,18.33,2026
+1534200,D Pretorius,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,12,20.0,1,4,2.0,10.0,2026
+1534200,DC Drakes,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,13,40.0,0,1,2.2,18.46,2026
+1534200,Imran Tahir,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,24,37.0,1,6,4.0,9.25,2026
+1534200,JP Greaves,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,6,17.0,0,1,1.0,17.0,2026
+1534200,JU Goolie,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,6,16.0,0,1,1.0,16.0,2026
+1534200,K Pierre,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,12,25.0,1,4,2.0,12.5,2026
+1534200,Mohammad Nabi,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,18,20.0,3,11,3.0,6.67,2026
+1534200,R Shepherd,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,12,29.0,0,3,2.0,14.5,2026
+1534200,S Joseph,Trinbago Knight Riders,Guyana Amazon Warriors,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,18,36.0,1,8,3.0,12.0,2026
+1534200,SP Narine,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,24,25.0,1,12,4.0,6.25,2026
+1534200,Usman Tariq,Guyana Amazon Warriors,Trinbago Knight Riders,"Queen's Park Oval, Port of Spain, Trinidad",2026-08-31,CPL,18,17.0,2,6,3.0,5.67,2026
 1534321,Aisya Eleesa,China,Malaysia,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,1.0,1,11,2.0,0.5,2026
 1534321,Cai Yuzhi,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,12,11.0,0,5,2.0,5.5,2026
 1534321,Jiaping Li,Malaysia,China,"Mission Road Ground, Mong Kok, Hong Kong",2026-05-07,T20I,24,12.0,2,17,4.0,3.0,2026
@@ -145807,6 +145900,21 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1544001,Mohammed Siraj,Sri Lanka,India,Galle International Stadium,2026-08-15,Test,110,43.0,2,85,18.3,2.35,2026
 1544001,NGRP Jayasuriya,India,Sri Lanka,Galle International Stadium,2026-08-15,Test,300,152.0,7,216,50.0,3.04,2026
 1544001,RA Jadeja,Sri Lanka,India,Galle International Stadium,2026-08-15,Test,268,128.0,4,196,44.7,2.87,2026
+1544002,AM Fernando,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,175,105.0,4,121,29.2,3.6,2026
+1544002,CBRLS Kumara,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,120,67.0,1,83,20.0,3.35,2026
+1544002,DM de Silva,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,12,8.0,0,7,2.0,4.0,2026
+1544002,Dhruv Jurel,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,6,1.0,0,5,1.0,1.0,2026
+1544002,GS Dinusha,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,18,8.0,0,13,3.0,2.67,2026
+1544002,K Mishara,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,24,16.0,0,15,4.0,4.0,2026
+1544002,K Nuwantha,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,230,153.0,2,141,38.3,3.99,2026
+1544002,M Prasidh Krishna,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,207,106.0,4,156,34.5,3.07,2026
+1544002,MJ Suthar,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,379,206.0,6,269,63.2,3.26,2026
+1544002,Mohammed Siraj,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,157,57.0,2,126,26.2,2.18,2026
+1544002,NGRP Jayasuriya,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,252,128.0,2,181,42.0,3.05,2026
+1544002,RA Jadeja,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,355,139.0,4,268,59.2,2.35,2026
+1544002,Saransh Jain,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,353,167.0,3,255,58.8,2.84,2026
+1544002,Shubman Gill,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,12,8.0,0,9,2.0,4.0,2026
+1544002,YBK Jaiswal,Sri Lanka,India,"Sinhalese Sports Club Ground, Colombo",2026-08-23,Test,6,9.0,0,3,1.0,9.0,2026
 1544120,Ahmad Khalid Ahmadzai,Hungary,Belgium,"Svanholm Park, Brondby",2026-07-14,T20I,24,15.0,4,16,4.0,3.75,2026
 1544120,Amal Jacob,Belgium,Hungary,"Svanholm Park, Brondby",2026-07-14,T20I,6,13.0,0,2,1.0,13.0,2026
 1544120,Aziz Mohammad,Hungary,Belgium,"Svanholm Park, Brondby",2026-07-14,T20I,3,2.0,1,2,0.5,4.0,2026
@@ -146872,6 +146980,266 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1548524,S Sinha,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,25,16.0,2,14,4.2,3.84,2026
 1548524,S Yenamandra,Luxembourg,Belgium,Pierre Werner Cricket Ground,2026-08-23,T20I,15,18.0,0,3,2.5,7.2,2026
 1548524,Shivani Sati,Belgium,Luxembourg,Pierre Werner Cricket Ground,2026-08-23,T20I,22,15.0,0,9,3.7,4.09,2026
+1548658,A Kohli,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,1,0.0,0,1,0.2,0.0,2026
+1548658,A Vaidya,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,11.0,0,3,1.0,11.0,2026
+1548658,Ashwini Balaji,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,12,15.0,0,7,2.0,7.5,2026
+1548658,DB Chhetri,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,4.0,1,3,1.0,4.0,2026
+1548658,H Chamto,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,12,14.0,0,6,2.0,7.0,2026
+1548658,H Shreya,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,19,16.0,4,10,3.2,5.05,2026
+1548658,I Edwards,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,13.0,0,1,1.0,13.0,2026
+1548658,Kanchan Rana,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,12,23.0,1,3,2.0,11.5,2026
+1548658,Malyun Yusuf,Germany,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,12,12.0,0,6,2.0,6.0,2026
+1548658,Rameesha Shahid,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,19,15.0,1,10,3.2,4.74,2026
+1548658,ST Kannan,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,11.0,0,2,1.0,11.0,2026
+1548659,A Vaidya,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,7,6.0,1,2,1.2,5.14,2026
+1548659,AB Slebsager,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,13,22.0,0,3,2.2,10.15,2026
+1548659,C Ostergaard,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,12,21.0,0,4,2.0,10.5,2026
+1548659,D Golechha,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,18,12.0,1,12,3.0,4.0,2026
+1548659,Frida Larsen,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,11.0,0,2,1.0,11.0,2026
+1548659,H Chamto,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,24,9.0,1,16,4.0,2.25,2026
+1548659,H Shreya,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,24,19.0,6,10,4.0,4.75,2026
+1548659,Jayasooriya,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,18,12.0,0,8,3.0,4.0,2026
+1548659,Kanchan Rana,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,6,4.0,0,3,1.0,4.0,2026
+1548659,L Ostergaard,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,18,24.0,0,4,3.0,8.0,2026
+1548659,Malyun Yusuf,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,24,8.0,1,18,4.0,2.0,2026
+1548659,NP Dalgaard,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,18,20.0,1,9,3.0,6.67,2026
+1548659,Thea Larsen,Sweden,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,24,27.0,2,11,4.0,6.75,2026
+1548659,Zara Mohammad,Denmark,Sweden,"GelsenTrabPark, Gelsenkirchen",2026-08-28,T20I,7,2.0,0,5,1.2,1.71,2026
+1548660,A Kanukuntla,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,16.0,2,15,4.0,4.0,2026
+1548660,A Kohli,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,18.0,2,13,4.0,4.5,2026
+1548660,A Meyenborg,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,23,25.0,1,10,3.8,6.52,2026
+1548660,AB Slebsager,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,12,12.0,0,2,2.0,6.0,2026
+1548660,D Golechha,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,22.0,1,10,4.0,5.5,2026
+1548660,Frida Larsen,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,25,16.0,2,15,4.2,3.84,2026
+1548660,Meghana Lakayil,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,20.0,2,12,4.0,5.0,2026
+1548660,NP Dalgaard,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,22.0,1,11,4.0,5.5,2026
+1548660,S Munagala,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,18,11.0,4,10,3.0,3.67,2026
+1548660,Thea Larsen,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,18,10.0,1,9,3.0,3.33,2026
+1548660,W Hornero-Garcia,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,14,14.0,1,5,2.3,6.0,2026
+1548661,A Kanukuntla,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,32.0,2,9,4.0,8.0,2026
+1548661,A Kohli,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,22.0,0,10,4.0,5.5,2026
+1548661,A Meyenborg,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,19,22.0,0,10,3.2,6.95,2026
+1548661,Meghana Lakayil,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,20.0,1,11,4.0,5.0,2026
+1548661,Rameesha Shahid,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,6,9.0,0,3,1.0,9.0,2026
+1548661,ST Kannan,Sweden,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-29,T20I,24,21.0,2,10,4.0,5.25,2026
+1548663,A Kanukuntla,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,18,7.0,2,13,3.0,2.33,2026
+1548663,A Kohli,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,19.0,0,13,4.0,4.75,2026
+1548663,Ashwini Balaji,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,19,18.0,0,7,3.2,5.68,2026
+1548663,C Ostergaard,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,6,7.0,0,3,1.0,7.0,2026
+1548663,D Golechha,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,25.0,1,8,4.0,6.25,2026
+1548663,Frida Larsen,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,15.0,3,16,4.0,3.75,2026
+1548663,L Ostergaard,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,6,4.0,1,2,1.0,4.0,2026
+1548663,Meghana Lakayil,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,7.0,2,17,4.0,1.75,2026
+1548663,NP Dalgaard,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,18,13.0,1,6,3.0,4.33,2026
+1548663,Rameesha Shahid,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,12,5.0,1,8,2.0,2.5,2026
+1548663,S Munagala,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,18,20.0,2,6,3.0,6.67,2026
+1548663,ST Kannan,Denmark,Germany,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,11.0,2,13,4.0,2.75,2026
+1548663,Thea Larsen,Germany,Denmark,"GelsenTrabPark, Gelsenkirchen",2026-08-30,T20I,24,23.0,1,9,4.0,5.75,2026
+1548891,Joyleen Kaur,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,12,12.0,0,6,2.0,6.0,2026
+1548891,KY Chan,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,24,17.0,2,12,4.0,4.25,2026
+1548891,M Bibi,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,18,14.0,0,9,3.0,4.67,2026
+1548891,M Wai Siu,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,25,33.0,3,8,4.2,7.92,2026
+1548891,MBA Lamplough,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,24,11.0,4,15,4.0,2.75,2026
+1548891,O Kamchomphu,Hong Kong,Thailand,Dubai International Cricket Stadium,2026-08-28,T20I,24,27.0,3,11,4.0,6.75,2026
+1548891,P Maya,Hong Kong,Thailand,Dubai International Cricket Stadium,2026-08-28,T20I,24,22.0,2,11,4.0,5.5,2026
+1548891,Ruchitha Venkatesh,Thailand,Hong Kong,Dubai International Cricket Stadium,2026-08-28,T20I,18,22.0,0,7,3.0,7.33,2026
+1548891,S Chaturongrattana,Hong Kong,Thailand,Dubai International Cricket Stadium,2026-08-28,T20I,24,18.0,0,9,4.0,4.5,2026
+1548891,S Laomi,Hong Kong,Thailand,Dubai International Cricket Stadium,2026-08-28,T20I,24,24.0,1,9,4.0,6.0,2026
+1548891,T Putthawong,Hong Kong,Thailand,Dubai International Cricket Stadium,2026-08-28,T20I,24,23.0,1,12,4.0,5.75,2026
+1548892,AC Jayangani,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,18,9.0,1,13,3.0,3.0,2026
+1548892,AGC Vimukthi,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,24,15.0,3,15,4.0,3.75,2026
+1548892,ATS Silva,Sri Lanka,United Arab Emirates,Dubai International Cricket Stadium,2026-08-29,T20I,6,12.0,0,0,1.0,12.0,2026
+1548892,BMSM Kumari,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,24,18.0,2,11,4.0,4.5,2026
+1548892,C Praboda,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,18,12.0,0,9,3.0,4.0,2026
+1548892,ER Oza,Sri Lanka,United Arab Emirates,Dubai International Cricket Stadium,2026-08-29,T20I,17,25.0,1,9,2.8,8.82,2026
+1548892,I Nandakumar,Sri Lanka,United Arab Emirates,Dubai International Cricket Stadium,2026-08-29,T20I,12,15.0,0,6,2.0,7.5,2026
+1548892,M Ayodhya,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,23,14.0,3,13,3.8,3.65,2026
+1548892,S Dharnidharka,Sri Lanka,United Arab Emirates,Dubai International Cricket Stadium,2026-08-29,T20I,6,14.0,0,1,1.0,14.0,2026
+1548892,S Kotte,Sri Lanka,United Arab Emirates,Dubai International Cricket Stadium,2026-08-29,T20I,6,12.0,0,0,1.0,12.0,2026
+1548892,WK Dilhari,United Arab Emirates,Sri Lanka,Dubai International Cricket Stadium,2026-08-29,T20I,12,9.0,1,6,2.0,4.5,2026
+1548893,C Sutthiruang,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,18,14.0,2,11,3.0,4.67,2026
+1548893,DB Sharma,Thailand,India,Dubai International Cricket Stadium,2026-08-30,T20I,7,0.0,3,7,1.2,0.0,2026
+1548893,K Goud,Thailand,India,Dubai International Cricket Stadium,2026-08-30,T20I,24,26.0,2,14,4.0,6.5,2026
+1548893,N Shree Charani,Thailand,India,Dubai International Cricket Stadium,2026-08-30,T20I,18,10.0,2,11,3.0,3.33,2026
+1548893,NSS Sharma,Thailand,India,Dubai International Cricket Stadium,2026-08-30,T20I,24,17.0,3,13,4.0,4.25,2026
+1548893,O Kamchomphu,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,18,19.0,0,9,3.0,6.33,2026
+1548893,P Maya,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,18,31.0,1,4,3.0,10.33,2026
+1548893,P Rawat,Thailand,India,Dubai International Cricket Stadium,2026-08-30,T20I,24,11.0,0,15,4.0,2.75,2026
+1548893,S Chaturongrattana,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,18,29.0,2,8,3.0,9.67,2026
+1548893,S Laomi,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,24,26.0,3,10,4.0,6.5,2026
+1548893,T Putthawong,India,Thailand,Dubai International Cricket Stadium,2026-08-30,T20I,24,37.0,1,9,4.0,9.25,2026
+1548894,DAL Paramitha,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,19,18.0,0,10,3.2,5.68,2026
+1548894,Fahima Khatun,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,18,9.0,1,10,3.0,3.0,2026
+1548894,Marufa Akter,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,18,6.0,2,15,3.0,2.0,2026
+1548894,NK Ariani,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,24,27.0,3,9,4.0,6.75,2026
+1548894,NLKWR Dewi,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,18,21.0,3,6,3.0,7.0,2026
+1548894,NMP Suwandewi,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,18,13.0,1,12,3.0,4.33,2026
+1548894,Nahida Akter,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,24,14.0,4,16,4.0,3.5,2026
+1548894,Rabeya Khan,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,15,10.0,1,9,2.5,4.0,2026
+1548894,SAN Maypriani,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,24,26.0,0,10,4.0,6.5,2026
+1548894,Sanjida Akter Meghla,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,18,11.0,1,12,3.0,3.67,2026
+1548894,Shorna Akter,Indonesia,Bangladesh,Dubai International Cricket Stadium,2026-08-31,T20I,12,3.0,1,9,2.0,1.5,2026
+1548894,Sofia Velic,Bangladesh,Indonesia,Dubai International Cricket Stadium,2026-08-31,T20I,18,19.0,1,2,3.0,6.33,2026
+1548895,Ayesha Zafar,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,6,8.0,1,1,1.0,8.0,2026
+1548895,Fatima Sana,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,24,22.0,1,11,4.0,5.5,2026
+1548895,Nashra Sandhu,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,24,6.0,1,19,4.0,1.5,2026
+1548895,O Kamchomphu,Pakistan,Thailand,Dubai International Cricket Stadium,2026-09-01,T20I,24,29.0,0,6,4.0,7.25,2026
+1548895,P Maya,Pakistan,Thailand,Dubai International Cricket Stadium,2026-09-01,T20I,24,34.0,2,10,4.0,8.5,2026
+1548895,S Chaturongrattana,Pakistan,Thailand,Dubai International Cricket Stadium,2026-09-01,T20I,24,23.0,1,11,4.0,5.75,2026
+1548895,S Laomi,Pakistan,Thailand,Dubai International Cricket Stadium,2026-09-01,T20I,24,14.0,3,11,4.0,3.5,2026
+1548895,Sadia Iqbal,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,24,11.0,3,16,4.0,2.75,2026
+1548895,T Putthawong,Pakistan,Thailand,Dubai International Cricket Stadium,2026-09-01,T20I,24,18.0,3,15,4.0,4.5,2026
+1548895,Tuba Hassan,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,24,17.0,2,12,4.0,4.25,2026
+1548895,Umm-e-Hani,Thailand,Pakistan,Dubai International Cricket Stadium,2026-09-01,T20I,18,13.0,0,13,3.0,4.33,2026
+1549194,Ashi Chopla,Turkey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,4,2.0,0,2,0.7,3.0,2026
+1549194,Ezgi Nur Kilic,Austria,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,5.0,1,7,2.0,2.5,2026
+1549194,G Ayan,Austria,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,7,1.0,1,6,1.2,0.86,2026
+1549194,H Celik,Austria,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,5.0,4,8,2.0,2.5,2026
+1549194,K Canavarci,Austria,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,5.0,4,8,2.0,2.5,2026
+1549194,MPM Pathirannehelage,Turkey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,6.0,2,9,2.0,3.0,2026
+1549194,P Sabu,Turkey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,3,8.0,0,1,0.5,16.0,2026
+1549194,S Bhardwaj,Turkey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,10,15.0,0,2,1.7,9.0,2026
+1549194,S Ozkunduz,Austria,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,6,0.0,0,6,1.0,0.0,2026
+1549194,SK Reddy,Turkey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,7,5.0,0,4,1.2,4.29,2026
+1549195,A Lupascu,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,13,22.0,1,5,2.2,10.15,2026
+1549195,A Thorpe,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,7.0,0,5,2.0,3.5,2026
+1549195,Amelia Griffiths,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,24,22.0,0,4,4.0,5.5,2026
+1549195,C Cirlig,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,9,6.0,1,3,1.5,4.0,2026
+1549195,D Tanase,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,16.0,0,5,2.0,8.0,2026
+1549195,G Ford,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,24,26.0,0,10,4.0,6.5,2026
+1549195,I Muntean,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,16.0,2,9,3.0,5.33,2026
+1549195,Isabella Clarke,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,25,20.0,2,9,4.2,4.8,2026
+1549195,J Hicks,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,14.0,0,8,3.0,4.67,2026
+1549195,L Barnett,Romania,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,14.0,0,10,3.0,4.67,2026
+1549195,M Kearvell,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,8.0,1,8,2.0,4.0,2026
+1549195,Maria Ababi,Isle of Man,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,20,28.0,2,6,3.3,8.4,2026
+1549196,A Le Ray,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,24,11.0,1,17,4.0,2.75,2026
+1549196,Ashi Chopla,Guernsey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,9.0,1,7,2.0,4.5,2026
+1549196,C Elmore,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,19,5.0,2,15,3.2,1.58,2026
+1549196,E Bourgaize,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,16.0,0,9,3.0,5.33,2026
+1549196,E Millington,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,24,17.0,2,12,4.0,4.25,2026
+1549196,K Robert,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,9.0,1,10,3.0,3.0,2026
+1549196,M Watson,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,18,3.0,2,15,3.0,1.0,2026
+1549196,MPM Pathirannehelage,Guernsey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,12,3.0,3,9,2.0,1.5,2026
+1549196,P Sabu,Guernsey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,6,2.0,2,4,1.0,2.0,2026
+1549196,PJ Stahelin,Austria,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,2,1.0,0,1,0.3,3.0,2026
+1549196,SK Reddy,Guernsey,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-26,T20I,11,2.0,4,9,1.8,1.09,2026
+1549197,A Makri,Isle of Man,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,12,18.0,1,5,2.0,9.0,2026
+1549197,Amelia Griffiths,Greece,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,6,3.0,1,4,1.0,3.0,2026
+1549197,G Ford,Greece,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,18,6.0,2,12,3.0,2.0,2026
+1549197,J Hicks,Greece,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,24,9.0,6,16,4.0,2.25,2026
+1549197,L Barnett,Greece,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,24,8.0,1,19,4.0,2.0,2026
+1549197,M Vervitsioti,Isle of Man,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,7,9.0,0,2,1.2,7.71,2026
+1549197,R Overman,Greece,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,20,15.0,0,8,3.3,4.5,2026
+1549197,S Georgota,Isle of Man,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,19,22.0,0,8,3.2,6.95,2026
+1549198,D Marikova-Moodley,Turkey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,7,8.0,0,2,1.2,6.86,2026
+1549198,E Kuncova,Turkey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,6,11.0,0,2,1.0,11.0,2026
+1549198,Ezgi Nur Kilic,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,18,5.0,3,14,3.0,1.67,2026
+1549198,H Celik,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,19,10.0,3,10,3.2,3.16,2026
+1549198,K Canavarci,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,22,15.0,3,11,3.7,4.09,2026
+1549198,R Pavlickova,Turkey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,5,12.0,0,0,0.8,14.4,2026
+1549198,Reyyan Aliusta,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,7,5.0,0,4,1.2,4.29,2026
+1549198,S Ozkunduz,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,7,3.0,0,5,1.2,2.57,2026
+1549198,S Talamarla,Turkey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,12,9.0,2,6,2.0,4.5,2026
+1549198,Suheda Hancer,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,6,2.0,0,4,1.0,2.0,2026
+1549198,Viola Komeda,Turkey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,7,13.0,0,2,1.2,11.14,2026
+1549198,ZB Ender,Czech Republic,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-27,T20I,6,3.0,1,3,1.0,3.0,2026
+1549200,A Kourkoulou,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,20.0,0,2,2.0,10.0,2026
+1549200,A Lupascu,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,13.0,1,4,2.0,6.5,2026
+1549200,A Makri,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,12.0,0,3,2.0,6.0,2026
+1549200,A Savvani,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,6,10.0,0,0,1.0,10.0,2026
+1549200,C Cirlig,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,7,8.0,0,2,1.2,6.86,2026
+1549200,D Tanase,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,4.0,1,8,2.0,2.0,2026
+1549200,HM Bandara,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,7.0,0,7,2.0,3.5,2026
+1549200,I Muntean,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,4.0,0,9,2.0,2.0,2026
+1549200,Lydia Katsimari,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,6,5.0,0,2,1.0,5.0,2026
+1549200,M Vervitsioti,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,13,13.0,0,5,2.2,6.0,2026
+1549200,Maria Ababi,Greece,Romania,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,7,4.0,1,5,1.2,3.43,2026
+1549200,S Georgota,Romania,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,18.0,0,5,2.0,9.0,2026
+1549201,A Le Ray,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,21.0,2,14,4.0,5.25,2026
+1549201,C Elmore,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,7.0,1,6,2.0,3.5,2026
+1549201,E Bourgaize,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,12,5.0,0,7,2.0,2.5,2026
+1549201,E Millington,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,4.0,1,21,4.0,1.0,2026
+1549201,Ezgi Nur Kilic,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,12.0,1,18,4.0,3.0,2026
+1549201,G Ayan,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,20,12.0,0,11,3.3,3.6,2026
+1549201,H Celik,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,20,20.0,1,7,3.3,6.0,2026
+1549201,K Canavarci,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,25,10.0,3,19,4.2,2.4,2026
+1549201,K Robert,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,26,26.0,4,15,4.3,6.0,2026
+1549201,M Watson,Turkey,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,25,23.0,0,11,4.2,5.52,2026
+1549201,S Ozkunduz,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,18,18.0,1,7,3.0,6.0,2026
+1549201,Suheda Hancer,Guernsey,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,18,14.0,0,8,3.0,4.67,2026
+1549202,AM Zepeda,Czech Republic,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,7.0,2,18,4.0,1.75,2026
+1549202,D Marikova-Moodley,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,4,7.0,0,0,0.7,10.5,2026
+1549202,E Kuncova,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,10.0,2,16,4.0,2.5,2026
+1549202,Farwa Baber,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,18,11.0,1,11,3.0,3.67,2026
+1549202,MPM Pathirannehelage,Czech Republic,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,7.0,2,18,4.0,1.75,2026
+1549202,P Sabu,Czech Republic,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,12.0,2,17,4.0,3.0,2026
+1549202,R Pavlickova,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,6,8.0,0,1,1.0,8.0,2026
+1549202,S Bhardwaj,Czech Republic,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,20,9.0,3,13,3.3,2.7,2026
+1549202,S Talamarla,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,11.0,0,19,4.0,2.75,2026
+1549202,SK Reddy,Czech Republic,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,16.0,1,15,4.0,4.0,2026
+1549202,Viola Komeda,Austria,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-28,T20I,24,6.0,2,18,4.0,1.5,2026
+1549203,A Kourkoulou,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,6,8.0,0,1,1.0,8.0,2026
+1549203,A Makri,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,5.0,0,19,4.0,1.25,2026
+1549203,A Savvani,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,25,26.0,1,6,4.2,6.24,2026
+1549203,AS Gorad,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,18.0,1,11,4.0,4.5,2026
+1549203,Alina Aslam,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,8.0,0,10,3.0,2.67,2026
+1549203,L Stanfergin,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,14,10.0,0,5,2.3,4.29,2026
+1549203,Lopamudra,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,13,11.0,1,6,2.2,5.08,2026
+1549203,Lydia Katsimari,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,13,15.0,1,6,2.2,6.92,2026
+1549203,M Vervitsioti,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,16.0,0,8,3.0,5.33,2026
+1549203,Mirab Razwan,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,18.0,1,3,2.0,9.0,2026
+1549203,R Immadi,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,17.0,0,11,4.0,4.25,2026
+1549203,S Georgota,Norway,Greece,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,26,21.0,2,14,4.3,4.85,2026
+1549203,VB Viyala,Greece,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,6.0,2,13,3.0,2.0,2026
+1549204,A Le Ray,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,28.0,0,11,4.0,7.0,2026
+1549204,D Marikova-Moodley,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,4,8.0,0,0,0.7,12.0,2026
+1549204,E Bourgaize,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,13.0,1,6,2.0,6.5,2026
+1549204,E Kuncova,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,23.0,0,11,4.0,5.75,2026
+1549204,E Millington,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,15.0,0,15,4.0,3.75,2026
+1549204,F Bulpitt,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,20,19.0,1,6,3.3,5.7,2026
+1549204,Farwa Baber,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,28.0,0,10,4.0,7.0,2026
+1549204,K Robert,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,5.0,2,13,3.0,1.67,2026
+1549204,M Watson,Czech Republic,Guernsey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,24.0,1,10,4.0,6.0,2026
+1549204,R Pavlickova,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,13,7.0,0,9,2.2,3.23,2026
+1549204,S Talamarla,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,13.0,1,14,4.0,3.25,2026
+1549204,Viola Komeda,Guernsey,Czech Republic,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,30.0,4,7,4.0,7.5,2026
+1549205,AS Gorad,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,15.0,0,3,2.0,7.5,2026
+1549205,Alina Aslam,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,18.0,1,6,2.0,9.0,2026
+1549205,Amelia Griffiths,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,15.0,0,8,3.0,5.0,2026
+1549205,G Ford,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,7.0,0,7,2.0,3.5,2026
+1549205,Grace Cottier,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,27,24.0,2,10,4.5,5.33,2026
+1549205,Isabella Clarke,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,9.0,3,12,3.0,3.0,2026
+1549205,J Hicks,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,30.0,1,8,4.0,7.5,2026
+1549205,L Barnett,Norway,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,11.0,1,18,4.0,2.75,2026
+1549205,Lopamudra,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,19,28.0,0,6,3.2,8.84,2026
+1549205,Mirab Razwan,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,19.0,3,11,4.0,4.75,2026
+1549205,Prachi Kumari,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,24,29.0,1,8,4.0,7.25,2026
+1549205,R Immadi,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,12,10.0,1,8,2.0,5.0,2026
+1549205,VB Viyala,Isle of Man,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-29,T20I,18,29.0,0,6,3.0,9.67,2026
+1549206,AM Zepeda,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,12.0,4,19,4.0,3.0,2026
+1549206,Alina Aslam,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,25,17.0,1,16,4.2,4.08,2026
+1549206,Hadia Siddiqui,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,10.0,2,11,3.0,3.33,2026
+1549206,L Stanfergin,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,4,5.0,0,2,0.7,7.5,2026
+1549206,MPM Pathirannehelage,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,10.0,1,12,3.0,3.33,2026
+1549206,Mirab Razwan,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,26.0,1,11,4.0,6.5,2026
+1549206,P Sabu,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,16,7.0,2,12,2.7,2.62,2026
+1549206,Prachi Kumari,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,6,5.0,0,1,1.0,5.0,2026
+1549206,R Immadi,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,14.0,0,14,4.0,3.5,2026
+1549206,S Bhardwaj,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,6,8.0,0,2,1.0,8.0,2026
+1549206,SK Reddy,Norway,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,15.0,1,12,4.0,3.75,2026
+1549206,VB Viyala,Austria,Norway,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,8.0,1,13,3.0,2.67,2026
+1549207,Amelia Griffiths,Turkey,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,26.0,0,4,3.0,8.67,2026
+1549207,Ezgi Nur Kilic,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,7.0,2,19,4.0,1.75,2026
+1549207,Grace Cottier,Turkey,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,13,22.0,1,4,2.2,10.15,2026
+1549207,H Celik,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,27,22.0,3,16,4.5,4.89,2026
+1549207,Isabella Clarke,Turkey,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,21.0,0,5,3.0,7.0,2026
+1549207,J Hicks,Turkey,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,18.0,1,8,3.0,6.0,2026
+1549207,K Canavarci,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,25,28.0,1,11,4.2,6.72,2026
+1549207,L Barnett,Turkey,Isle of Man,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,22.0,2,10,4.0,5.5,2026
+1549207,Reyyan Aliusta,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,18,12.0,3,12,3.0,4.0,2026
+1549207,S Ozkunduz,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,6,12.0,0,2,1.0,12.0,2026
+1549207,Suzan Turan,Isle of Man,Turkey,"Moara Vlasiei Cricket Ground, Ilfov County",2026-08-30,T20I,24,7.0,0,17,4.0,1.75,2026
 1549208,Chayanisa Phengpaen,Papua New Guinea,Thailand,"Amini Park, Port Moresby",2026-08-10,T20I,12,5.0,1,8,2.0,2.5,2026
 1549208,GP Tom,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,12,16.0,0,6,2.0,8.0,2026
 1549208,HJ Thomas,Thailand,Papua New Guinea,"Amini Park, Port Moresby",2026-08-10,T20I,24,25.0,1,11,4.0,6.25,2026
@@ -146957,3 +147325,63 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1549394,Shahid Afridi,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,6,5.0,1,2,1.0,5.0,2026
 1549394,V Jatinder Kumar,Finland,Germany,Kerava National Cricket Ground,2026-08-11,T20I,24,16.0,2,16,4.0,4.0,2026
 1549394,Zahidullah Kamal,Germany,Finland,Kerava National Cricket Ground,2026-08-11,T20I,6,11.0,0,2,1.0,11.0,2026
+1549524,BC Fortuin,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,17.0,2,12,4.0,4.25,2026
+1549524,BM Scholtz,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,12,25.0,0,2,2.0,12.5,2026
+1549524,D Brevis,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,12,22.0,1,2,2.0,11.0,2026
+1549524,D Jansen,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,30.0,2,10,4.0,7.5,2026
+1549524,J Hermann,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,3,3.0,0,0,0.5,6.0,2026
+1549524,JJ Smit,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,31.0,3,10,4.0,7.75,2026
+1549524,JT Brassell,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,27.0,1,9,4.0,6.75,2026
+1549524,L Sipamla,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,9,16.0,0,3,1.5,10.67,2026
+1549524,M Heingo,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,27.0,1,11,4.0,6.75,2026
+1549524,MG Erasmus,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,12,7.0,1,6,2.0,3.5,2026
+1549524,N Mokoena,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,37.0,1,7,4.0,9.25,2026
+1549524,P Subrayen,Namibia,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,31.0,3,6,4.0,7.75,2026
+1549524,R Trumpelmann,South Africa,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-28,T20I,24,24.0,3,7,4.0,6.0,2026
+1549525,AG Cremer,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,12,31.0,0,4,2.0,15.5,2026
+1549525,B Evans,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,16,19.0,1,7,2.7,7.12,2026
+1549525,B Muzarabani,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,18,30.0,1,6,3.0,10.0,2026
+1549525,BC Fortuin,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,24,25.0,1,8,4.0,6.25,2026
+1549525,D Jansen,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,24,44.0,3,8,4.0,11.0,2026
+1549525,E Bosch,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,24,19.0,1,14,4.0,4.75,2026
+1549525,KT Maphaka,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,24,22.0,1,13,4.0,5.5,2026
+1549525,NT Nyamhuri,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,12,29.0,1,4,2.0,14.5,2026
+1549525,P Subrayen,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,24,27.0,2,11,4.0,6.75,2026
+1549525,Sikandar Raza,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,18,27.0,0,5,3.0,9.0,2026
+1549525,W Madhevere,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-29,T20I,6,7.0,0,2,1.0,7.0,2026
+1549526,B Evans,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,25,41.0,5,6,4.2,9.84,2026
+1549526,B Muzarabani,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,25,37.0,1,10,4.2,8.88,2026
+1549526,BJ Bennett,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,6,8.0,2,3,1.0,8.0,2026
+1549526,BM Scholtz,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,18,27.0,1,6,3.0,9.0,2026
+1549526,JJ Smit,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,12,27.0,1,1,2.0,13.5,2026
+1549526,JT Brassell,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,18,28.0,0,5,3.0,9.33,2026
+1549526,M Heingo,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,24,25.0,1,6,4.0,6.25,2026
+1549526,MG Erasmus,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,24,44.0,3,9,4.0,11.0,2026
+1549526,NT Nyamhuri,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,24,37.0,0,8,4.0,9.25,2026
+1549526,R Trumpelmann,Zimbabwe,Namibia,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,24,35.0,0,7,4.0,8.75,2026
+1549526,Sikandar Raza,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,24,30.0,1,8,4.0,7.5,2026
+1549526,W Madhevere,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,6,9.0,0,0,1.0,9.0,2026
+1549526,WP Masakadza,Namibia,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-08-31,T20I,12,24.0,1,4,2.0,12.0,2026
+1549527,B Evans,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,24,33.0,2,8,4.0,8.25,2026
+1549527,BC Fortuin,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,22,24.0,4,14,3.7,6.55,2026
+1549527,D Jansen,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,24,19.0,4,10,4.0,4.75,2026
+1549527,E Bosch,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,12,11.0,0,6,2.0,5.5,2026
+1549527,K Matigimu,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,12,29.0,0,3,2.0,14.5,2026
+1549527,KT Maphaka,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,24,30.0,0,10,4.0,7.5,2026
+1549527,N Peter,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,12,29.0,1,3,2.0,14.5,2026
+1549527,NT Nyamhuri,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,24,28.0,2,9,4.0,7.0,2026
+1549527,P Subrayen,Zimbabwe,South Africa,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,12,19.0,1,4,2.0,9.5,2026
+1549527,Sikandar Raza,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,24,35.0,0,3,4.0,8.75,2026
+1549527,W Madhevere,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,18,18.0,3,10,3.0,6.0,2026
+1549527,WP Masakadza,South Africa,Zimbabwe,"Namibia Cricket Ground, Windhoek",2026-09-01,T20I,18,31.0,0,5,3.0,10.33,2026
+1549973,AG Baldie,Netherlands,Scotland,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,36,22.0,0,21,6.0,3.67,2026
+1549973,AH Maqsood,Netherlands,Scotland,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,42,19.0,3,27,7.0,2.71,2026
+1549973,C de Lange,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,20,21.0,0,9,3.3,6.3,2026
+1549973,DEM Carter,Netherlands,Scotland,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,36,17.0,2,23,6.0,2.83,2026
+1549973,HWA Landheer,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,6,7.0,0,3,1.0,7.0,2026
+1549973,K Fraser,Netherlands,Scotland,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,42,27.0,1,21,7.0,3.86,2026
+1549973,L Leemhuis,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,18,20.0,0,9,3.0,6.67,2026
+1549973,MG Maceira,Netherlands,Scotland,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,36,37.0,3,14,6.0,6.17,2026
+1549973,MIW van den Raad,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,14,11.0,1,9,2.3,4.71,2026
+1549973,S Khurana,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,18,17.0,0,8,3.0,5.67,2026
+1549973,S Siegers,Scotland,Netherlands,"New Williamfield No1 Oval, Stirling",2026-08-30,ODI,24,37.0,0,6,4.0,9.25,2026
