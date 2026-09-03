@@ -3087,7 +3087,7 @@ ADS Fletcher,Australia,T20I,6,90,80,5,10,3,18.0,112.5
 ADS Fletcher,Bangladesh,ODI,3,79,68,3,12,3,26.33,116.18
 ADS Fletcher,Bangladesh,T20I,6,64,74,6,4,3,10.67,86.49
 ADS Fletcher,Barbados Royals,CPL,10,309,233,11,34,11,28.09,132.62
-ADS Fletcher,Barbados Tridents,CPL,14,391,278,14,29,24,27.93,140.65
+ADS Fletcher,Barbados Tridents,CPL,15,413,286,14,29,27,29.5,144.41
 ADS Fletcher,Brisbane Heat,BBL,2,27,24,2,3,1,13.5,112.5
 ADS Fletcher,England,T20I,3,18,18,2,2,0,9.0,100.0
 ADS Fletcher,Guyana Amazon Warriors,CPL,23,499,428,22,36,27,22.68,116.59
@@ -8863,7 +8863,7 @@ BA King,South Africa,T20I,9,316,187,9,31,21,35.11,168.98
 BA King,Sri Lanka,ODI,4,56,80,4,8,0,14.0,70.0
 BA King,Sri Lanka,T20I,8,222,151,8,28,9,27.75,147.02
 BA King,Sri Lanka,Test,2,99,207,2,12,1,49.5,47.83
-BA King,St Kitts and Nevis Patriots,CPL,14,409,277,13,44,22,31.46,147.65
+BA King,St Kitts and Nevis Patriots,CPL,15,411,281,14,44,22,29.36,146.26
 BA King,St Lucia Kings,CPL,8,296,223,8,31,12,37.0,132.74
 BA King,St Lucia Stars,CPL,2,28,24,2,3,2,14.0,116.67
 BA King,St Lucia Zouks,CPL,5,94,82,4,4,6,23.5,114.63
@@ -12301,7 +12301,7 @@ CJ Green,Multan Sultans,PSL,1,5,2,0,1,0,5.0,250.0
 CJ Green,Perth Scorchers,BBL,11,99,84,5,12,1,19.8,117.86
 CJ Green,Peshawar Zalmi,PSL,2,11,10,1,1,0,11.0,110.0
 CJ Green,Rawalpindiz,PSL,1,29,16,1,2,2,29.0,181.25
-CJ Green,St Kitts and Nevis Patriots,CPL,8,53,45,3,3,1,17.67,117.78
+CJ Green,St Kitts and Nevis Patriots,CPL,9,71,52,3,3,3,23.67,136.54
 CJ Green,St Lucia Kings,CPL,8,107,70,6,9,4,17.83,152.86
 CJ Green,St Lucia Zouks,CPL,3,40,28,3,2,2,13.33,142.86
 CJ Green,Sydney Sixers,BBL,16,200,144,14,13,6,14.29,138.89
@@ -25581,7 +25581,7 @@ J Charles,Australia,ODI,11,336,438,11,33,7,30.55,76.71
 J Charles,Australia,T20I,10,246,171,10,31,8,24.6,143.86
 J Charles,Bangladesh,T20I,3,57,42,2,8,3,28.5,135.71
 J Charles,Barbados Royals,CPL,7,201,148,7,18,12,28.71,135.81
-J Charles,Barbados Tridents,CPL,11,265,217,11,25,12,24.09,122.12
+J Charles,Barbados Tridents,CPL,12,343,262,13,31,19,26.38,130.92
 J Charles,England,T20I,11,285,257,11,27,12,25.91,110.89
 J Charles,Guyana Amazon Warriors,CPL,26,720,504,24,66,37,30.0,142.86
 J Charles,India,ODI,6,267,257,6,33,9,44.5,103.89
@@ -28500,6 +28500,7 @@ JO Holder,Bangladesh,ODI,9,162,146,7,11,6,23.14,110.96
 JO Holder,Bangladesh,T20I,2,19,9,1,1,2,19.0,211.11
 JO Holder,Bangladesh,Test,2,67,98,2,4,4,33.5,68.37
 JO Holder,Barbados Royals,CPL,2,91,51,1,5,7,91.0,178.43
+JO Holder,Barbados Tridents,CPL,1,18,11,1,0,2,18.0,163.64
 JO Holder,Chennai Super Kings,IPL,2,5,6,2,0,0,2.5,83.33
 JO Holder,Delhi Capitals,IPL,2,21,24,2,1,1,10.5,87.5
 JO Holder,Delhi Daredevils,IPL,1,0,1,1,0,0,0.0,0.0
@@ -32180,7 +32181,7 @@ KR Mayers,Bangladesh,ODI,5,78,151,4,10,1,19.5,51.66
 KR Mayers,Bangladesh,T20I,2,72,47,2,4,6,36.0,153.19
 KR Mayers,Bangladesh,Test,4,414,641,5,48,9,82.8,64.59
 KR Mayers,Barbados Royals,CPL,4,49,42,4,1,3,12.25,116.67
-KR Mayers,Barbados Tridents,CPL,4,31,36,2,2,1,15.5,86.11
+KR Mayers,Barbados Tridents,CPL,5,60,63,2,5,2,30.0,95.24
 KR Mayers,Chennai Super Kings,IPL,2,67,39,2,10,2,33.5,171.79
 KR Mayers,Delhi Capitals,IPL,1,73,38,1,2,7,73.0,192.11
 KR Mayers,England,T20I,6,135,87,6,8,12,22.5,155.17
@@ -37996,6 +37997,7 @@ MD Shanaka,Australia,ODI,6,58,73,5,7,0,11.6,79.45
 MD Shanaka,Australia,T20I,13,218,200,11,16,10,19.82,109.0
 MD Shanaka,Bangladesh,ODI,6,100,133,4,5,3,25.0,75.19
 MD Shanaka,Bangladesh,T20I,14,294,201,8,23,17,36.75,146.27
+MD Shanaka,Barbados Tridents,CPL,1,36,22,1,2,2,36.0,163.64
 MD Shanaka,Chennai Super Kings,IPL,1,17,16,1,1,1,17.0,106.25
 MD Shanaka,Delhi Capitals,IPL,1,10,8,1,0,1,10.0,125.0
 MD Shanaka,England,ODI,11,272,309,8,18,12,34.0,88.03
@@ -48751,6 +48753,7 @@ PWH de Silva,Bangladesh,ODI,11,212,191,9,14,9,23.56,110.99
 PWH de Silva,Bangladesh,T20I,5,25,24,5,2,1,5.0,104.17
 PWH de Silva,Bangladesh,Test,1,43,55,1,3,0,43.0,78.18
 PWH de Silva,Barbados Royals,CPL,2,50,33,2,5,2,25.0,151.52
+PWH de Silva,Barbados Tridents,CPL,1,18,4,0,3,1,18.0,450.0
 PWH de Silva,Chennai Super Kings,IPL,5,14,12,3,0,1,4.67,116.67
 PWH de Silva,England,ODI,4,109,152,4,11,1,27.25,71.71
 PWH de Silva,England,T20I,6,66,64,6,6,1,11.0,103.12
@@ -49178,7 +49181,7 @@ Q de Kock,Royal Challengers Bengaluru,IPL,2,85,61,2,9,5,42.5,139.34
 Q de Kock,Sri Lanka,ODI,25,1219,1167,24,163,16,50.79,104.46
 Q de Kock,Sri Lanka,T20I,12,292,264,10,38,3,29.2,110.61
 Q de Kock,Sri Lanka,Test,11,697,918,21,78,1,33.19,75.93
-Q de Kock,St Kitts and Nevis Patriots,CPL,4,115,83,3,7,7,38.33,138.55
+Q de Kock,St Kitts and Nevis Patriots,CPL,5,221,140,4,18,13,55.25,157.86
 Q de Kock,St Lucia Kings,CPL,6,87,64,6,6,6,14.5,135.94
 Q de Kock,Sunrisers Hyderabad,IPL,15,413,327,14,41,14,29.5,126.3
 Q de Kock,Trinbago Knight Riders,CPL,8,193,144,7,18,7,27.57,134.03
@@ -50597,6 +50600,7 @@ RA Birch,Australia,Test,1,12,66,1,1,0,12.0,18.18
 RA Birch,India,Test,1,22,38,2,5,0,11.0,57.89
 RA Clarke,Antigua and Barbuda Falcons,CPL,1,27,26,1,4,0,27.0,103.85
 RA Clarke,Guyana Amazon Warriors,CPL,3,77,59,2,10,1,38.5,130.51
+RA Clarke,St Kitts and Nevis Patriots,CPL,1,0,0,0,0,0,0.0,0.0
 RA Clarke,St Lucia Kings,CPL,2,27,40,2,1,0,13.5,67.5
 RA Clarke,Trinbago Knight Riders,CPL,2,33,31,2,4,0,16.5,106.45
 RA Herman,Islamabad United,PSL,1,4,14,1,0,0,4.0,28.57
@@ -56885,7 +56889,7 @@ SE Rutherford,Scotland,T20I,1,26,13,1,4,1,26.0,200.0
 SE Rutherford,South Africa,T20I,5,104,62,4,9,7,26.0,167.74
 SE Rutherford,Sri Lanka,ODI,4,209,202,2,16,10,104.5,103.47
 SE Rutherford,Sri Lanka,T20I,5,102,84,3,7,5,34.0,121.43
-SE Rutherford,St Kitts and Nevis Patriots,CPL,3,43,36,3,2,3,14.33,119.44
+SE Rutherford,St Kitts and Nevis Patriots,CPL,4,69,52,4,5,4,17.25,132.69
 SE Rutherford,St Lucia Kings,CPL,9,153,126,9,7,10,17.0,121.43
 SE Rutherford,St Lucia Stars,CPL,2,31,33,0,0,1,31.0,93.94
 SE Rutherford,St Lucia Zouks,CPL,2,25,16,2,3,1,12.5,156.25
@@ -69114,6 +69118,7 @@ ZM Tribe,Spain,T20I,1,23,12,1,1,2,23.0,191.67
 ZM Tribe,Switzerland,T20I,1,7,6,1,1,0,7.0,116.67
 ZN Carter,Antigua and Barbuda Falcons,CPL,1,17,10,1,1,2,17.0,170.0
 ZN Carter,Jamaica Kingsmen,CPL,1,27,15,1,4,1,27.0,180.0
+ZN Carter,St Kitts and Nevis Patriots,CPL,1,57,36,1,1,7,57.0,158.33
 ZN Carter,St Lucia Kings,CPL,1,2,4,1,0,0,2.0,50.0
 ZN Carter,Trinbago Knight Riders,CPL,1,28,27,1,0,3,28.0,103.7
 ZN Shabalala,Botswana,T20I,2,20,40,3,1,0,6.67,50.0
