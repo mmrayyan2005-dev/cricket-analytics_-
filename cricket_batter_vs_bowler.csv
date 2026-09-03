@@ -5596,7 +5596,7 @@ ADS Fletcher,FA Allen,CPL,21,27,2,4,0,8,128.57,13.5
 ADS Fletcher,FH Edwards,CPL,21,14,0,2,0,13,66.67,14.0
 ADS Fletcher,Faheem Ashraf,T20I,10,12,0,1,1,6,120.0,12.0
 ADS Fletcher,Fawad Ahmed,CPL,13,14,1,0,1,4,107.69,14.0
-ADS Fletcher,G Motie,CPL,37,40,3,1,3,15,108.11,13.33
+ADS Fletcher,G Motie,CPL,38,46,3,1,4,15,121.05,15.33
 ADS Fletcher,GA Lamb,ODI,10,2,1,0,0,8,20.0,2.0
 ADS Fletcher,GE Mathurin,CPL,22,30,1,3,1,7,136.36,30.0
 ADS Fletcher,GF Linde,T20I,15,7,0,0,0,9,46.67,7.0
@@ -5684,7 +5684,7 @@ ADS Fletcher,RL Chase,CPL,35,48,0,2,3,10,137.14,48.0
 ADS Fletcher,RP Meredith,BBL,10,20,1,4,0,4,200.0,20.0
 ADS Fletcher,RR Beaton,CPL,41,62,2,8,2,14,151.22,31.0
 ADS Fletcher,RR Emrit,CPL,38,46,2,3,1,11,121.05,23.0
-ADS Fletcher,RR Simmonds,CPL,17,29,1,4,1,5,170.59,29.0
+ADS Fletcher,RR Simmonds,CPL,21,38,1,4,2,6,180.95,38.0
 ADS Fletcher,RRS Cornwall,CPL,33,46,2,2,3,13,139.39,23.0
 ADS Fletcher,Rubel Hossain,T20I,10,12,0,2,0,4,120.0,12.0
 ADS Fletcher,S Badree,CPL,83,66,1,7,1,44,79.52,66.0
@@ -15439,7 +15439,7 @@ BA King,JC Archer,ODI,48,32,0,5,0,32,66.67,32.0
 BA King,JG Bethell,ODI,16,22,0,4,0,6,137.5,22.0
 BA King,JL Jaggesar,CPL,17,33,0,2,3,7,194.12,33.0
 BA King,JNT Seales,CPL,36,33,1,1,3,23,91.67,33.0
-BA King,JO Holder,CPL,102,125,4,11,7,49,122.55,31.25
+BA King,JO Holder,CPL,104,125,5,11,7,51,120.19,25.0
 BA King,JP Behrendorff,T20I,10,19,0,4,0,3,190.0,19.0
 BA King,JP Duminy,CPL,16,22,0,0,2,5,137.5,22.0
 BA King,JR Hazlewood,T20I,17,10,2,1,0,11,58.82,5.0
@@ -15498,7 +15498,7 @@ BA King,NGRP Jayasuriya,Test,65,26,0,3,1,54,40.0,26.0
 BA King,NLTC Perera,T20I,12,14,0,1,1,6,116.67,14.0
 BA King,NM Lyon,Test,26,27,1,3,2,18,103.85,27.0
 BA King,Nahid Rana,ODI,16,12,1,1,0,8,75.0,12.0
-BA King,Naseem Shah,CPL,12,19,1,2,1,5,158.33,19.0
+BA King,Naseem Shah,CPL,14,21,1,2,1,5,150.0,21.0
 BA King,Nasum Ahmed,ODI,35,25,3,3,1,26,71.43,8.33
 BA King,Nasum Ahmed,T20I,15,13,2,1,1,10,86.67,6.5
 BA King,O Thomas,CPL,23,40,2,3,4,12,173.91,20.0
@@ -50535,7 +50535,7 @@ J Charles,CB Mpofu,ODI,37,47,1,4,2,16,127.03,47.0
 J Charles,CB Mpofu,T20I,11,7,1,1,0,7,63.64,7.0
 J Charles,CH Morris,ODI,24,12,0,1,0,16,50.0,12.0
 J Charles,CJ Anderson,ODI,10,2,0,0,0,8,20.0,2.0
-J Charles,CJ Green,CPL,62,68,3,6,3,29,109.68,22.67
+J Charles,CJ Green,CPL,72,87,3,7,5,33,120.83,29.0
 J Charles,CJ Jordan,CPL,19,25,1,2,1,6,131.58,25.0
 J Charles,CJ McKay,ODI,73,64,2,10,1,47,87.67,32.0
 J Charles,CJ McKay,T20I,17,27,0,4,0,6,158.82,27.0
@@ -50557,7 +50557,7 @@ J Charles,Faheem Ashraf,PSL,11,12,2,1,0,4,109.09,6.0
 J Charles,Fawad Ahmed,CPL,21,25,2,2,1,8,119.05,12.5
 J Charles,Fawad Ahmed,PSL,13,17,0,1,0,2,130.77,17.0
 J Charles,Fazalhaq Farooqi,CPL,10,19,0,3,1,5,190.0,19.0
-J Charles,G Motie,CPL,54,84,1,5,7,21,155.56,84.0
+J Charles,G Motie,CPL,59,99,1,5,9,21,167.8,99.0
 J Charles,GE Mathurin,CPL,25,38,3,6,1,10,152.0,12.67
 J Charles,GP Swann,T20I,18,30,0,2,2,5,166.67,30.0
 J Charles,H Masakadza,ODI,19,26,0,5,0,9,136.84,26.0
@@ -50629,6 +50629,7 @@ J Charles,Mohammad Nawaz,T20I,11,8,1,0,0,5,72.73,8.0
 J Charles,Mohammad Nawaz (3),PSL,15,26,1,4,1,6,173.33,26.0
 J Charles,Mohammad Wasim,PSL,13,28,2,3,2,4,215.38,14.0
 J Charles,Mohammed Shami,T20I,14,34,1,4,2,3,242.86,34.0
+J Charles,Mujeeb Ur Rahman,CPL,11,16,2,2,1,6,145.45,8.0
 J Charles,N M'shangwe,ODI,21,25,0,1,1,6,119.05,25.0
 J Charles,NL McCullum,ODI,10,9,0,1,0,5,90.0,9.0
 J Charles,NL McCullum,T20I,14,7,0,0,0,8,50.0,7.0
@@ -56670,7 +56671,7 @@ JO Holder,DJ Bravo,CPL,39,67,2,5,4,11,171.79,33.5
 JO Holder,DJ Mitchell,Test,12,4,1,0,0,9,33.33,4.0
 JO Holder,DL Vettori,ODI,12,11,1,0,1,6,91.67,11.0
 JO Holder,DM de Silva,Test,41,23,1,1,1,26,56.1,23.0
-JO Holder,DR Sams,CPL,10,15,0,0,1,2,150.0,15.0
+JO Holder,DR Sams,CPL,14,22,1,0,2,4,157.14,22.0
 JO Holder,DW Lawrence,Test,18,1,0,0,0,17,5.56,1.0
 JO Holder,DW Steyn,ODI,17,15,2,1,1,11,88.24,7.5
 JO Holder,DW Steyn,Test,26,12,1,2,0,20,46.15,12.0
@@ -56678,7 +56679,7 @@ JO Holder,Faheem Ashraf,Test,41,17,1,2,0,32,41.46,17.0
 JO Holder,Fawad Ahmed,CPL,11,8,0,0,0,3,72.73,8.0
 JO Holder,G Coetzee,ODI,21,23,0,3,0,9,109.52,23.0
 JO Holder,G Coetzee,Test,33,29,1,6,0,23,87.88,29.0
-JO Holder,G Motie,CPL,17,14,2,0,1,8,82.35,7.0
+JO Holder,G Motie,CPL,19,15,2,0,1,9,78.95,7.5
 JO Holder,GH Dockrell,ODI,35,27,0,1,0,14,77.14,27.0
 JO Holder,GJ Maxwell,ODI,28,13,1,2,0,21,46.43,13.0
 JO Holder,HH Pandya,ODI,19,20,0,1,1,9,105.26,20.0
@@ -56767,7 +56768,7 @@ JO Holder,Mohammad Nawaz (3),Test,40,11,0,0,0,32,27.5,11.0
 JO Holder,Mohammed Shami,ODI,44,47,2,3,1,15,106.82,23.5
 JO Holder,Mohammed Shami,Test,96,79,2,12,1,66,82.29,39.5
 JO Holder,Mohammed Siraj,Test,49,20,2,2,0,38,40.82,10.0
-JO Holder,Mujeeb Ur Rahman,CPL,14,21,0,3,1,8,150.0,21.0
+JO Holder,Mujeeb Ur Rahman,CPL,16,23,0,3,1,8,143.75,23.0
 JO Holder,Mustafizur Rahman,ODI,20,15,1,1,0,10,75.0,15.0
 JO Holder,N Burger,Test,16,12,0,1,0,10,75.0,12.0
 JO Holder,N Pradeep,ODI,20,26,2,2,1,7,130.0,13.0
@@ -56796,7 +56797,7 @@ JO Holder,RA Jadeja,Test,159,69,2,8,0,123,43.4,34.5
 JO Holder,RAS Lakmal,ODI,18,22,0,1,1,6,122.22,22.0
 JO Holder,RAS Lakmal,Test,130,66,1,9,0,99,50.77,66.0
 JO Holder,RL Chase,CPL,23,28,3,1,2,10,121.74,9.33
-JO Holder,RR Simmonds,CPL,12,17,1,1,1,4,141.67,17.0
+JO Holder,RR Simmonds,CPL,15,25,1,1,2,4,166.67,25.0
 JO Holder,RTM Mendis,Test,32,22,2,2,1,21,68.75,11.0
 JO Holder,S Lamichhane,CPL,17,22,1,1,1,5,129.41,22.0
 JO Holder,SA Abbott,T20I,13,18,1,1,1,5,138.46,18.0
@@ -64243,7 +64244,7 @@ KR Mayers,B Muzarabani,ODI,18,14,0,3,0,14,77.78,14.0
 KR Mayers,BA Stokes,Test,12,6,1,1,0,9,50.0,6.0
 KR Mayers,BFW de Leede,ODI,13,20,0,2,1,5,153.85,20.0
 KR Mayers,C Overton,Test,10,9,0,2,0,7,90.0,9.0
-KR Mayers,CJ Green,CPL,56,37,4,4,2,41,66.07,9.25
+KR Mayers,CJ Green,CPL,64,48,4,6,2,45,75.0,12.0
 KR Mayers,CR Brathwaite,CPL,11,36,0,2,4,1,327.27,36.0
 KR Mayers,CR Woakes,T20I,17,19,1,2,1,9,111.76,19.0
 KR Mayers,CR Woakes,Test,13,11,0,1,1,10,84.62,11.0
@@ -64255,6 +64256,7 @@ KR Mayers,DJ Hooda,ODI,13,8,1,0,0,5,61.54,8.0
 KR Mayers,DL Chahar,IPL,20,34,0,7,0,9,170.0,34.0
 KR Mayers,DL Chahar,T20I,17,17,1,3,0,10,100.0,17.0
 KR Mayers,DM de Silva,Test,113,49,1,4,2,90,43.36,49.0
+KR Mayers,DR Sams,CPL,14,12,0,1,0,5,85.71,12.0
 KR Mayers,DS Airee,T20I,15,6,0,1,0,12,40.0,6.0
 KR Mayers,Ebadat Hossain,Test,24,29,0,5,0,12,120.83,29.0
 KR Mayers,FA Allen,CPL,13,13,2,2,0,6,100.0,6.5
@@ -64309,7 +64311,7 @@ KR Mayers,Mohammad Amir,CPL,26,33,1,4,2,15,126.92,33.0
 KR Mayers,Mohammad Nabi,CPL,16,10,1,0,0,7,62.5,10.0
 KR Mayers,Mohammed Shami,IPL,10,14,0,1,1,5,140.0,14.0
 KR Mayers,Mohammed Siraj,ODI,18,13,1,2,0,11,72.22,13.0
-KR Mayers,Mujeeb Ur Rahman,CPL,13,5,0,0,0,9,38.46,5.0
+KR Mayers,Mujeeb Ur Rahman,CPL,20,8,0,0,0,14,40.0,8.0
 KR Mayers,Mukesh Kumar,ODI,16,16,1,3,0,11,100.0,16.0
 KR Mayers,Mustafizur Rahman,ODI,23,8,0,1,0,18,34.78,8.0
 KR Mayers,Mustafizur Rahman,Test,34,49,0,6,2,15,144.12,49.0
@@ -97070,6 +97072,7 @@ Q de Kock,JM Mennie,ODI,16,18,0,2,0,7,112.5,18.0
 Q de Kock,JM Mennie,Test,34,32,0,5,0,20,94.12,32.0
 Q de Kock,JNT Seales,CPL,17,22,0,2,0,3,129.41,22.0
 Q de Kock,JNT Seales,Test,43,39,0,1,2,22,90.7,39.0
+Q de Kock,JO Holder,CPL,16,33,0,3,2,3,206.25,33.0
 Q de Kock,JO Holder,ODI,39,30,2,5,0,24,76.92,15.0
 Q de Kock,JO Holder,T20I,47,99,0,9,6,13,210.64,99.0
 Q de Kock,JO Holder,Test,67,52,1,6,2,45,77.61,52.0
@@ -97080,6 +97083,7 @@ Q de Kock,JR Hazlewood,IPL,11,16,2,3,0,5,145.45,8.0
 Q de Kock,JR Hazlewood,ODI,173,126,8,18,3,121,72.83,15.75
 Q de Kock,JR Hazlewood,T20I,17,26,1,4,1,9,152.94,26.0
 Q de Kock,JR Hazlewood,Test,176,115,4,16,0,122,65.34,28.75
+Q de Kock,JS Louis,CPL,11,22,0,3,1,3,200.0,22.0
 Q de Kock,JS Patel,Test,100,70,2,8,2,69,70.0,35.0
 Q de Kock,JT Ball,ODI,38,31,1,4,0,21,81.58,31.0
 Q de Kock,JW Hastings,ODI,34,42,1,3,2,12,123.53,42.0
@@ -97101,7 +97105,7 @@ Q de Kock,KJ O'Brien,ODI,11,13,1,0,1,4,118.18,13.0
 Q de Kock,KK Ahmed,IPL,30,46,1,4,3,13,153.33,46.0
 Q de Kock,KMDN Kulasekara,ODI,49,47,0,6,1,27,95.92,47.0
 Q de Kock,KMDN Kulasekara,T20I,19,28,0,5,1,11,147.37,28.0
-Q de Kock,KR Mayers,CPL,18,21,1,1,1,6,116.67,21.0
+Q de Kock,KR Mayers,CPL,24,31,1,1,2,7,129.17,31.0
 Q de Kock,KR Mayers,Test,43,27,1,3,1,32,62.79,27.0
 Q de Kock,KS Williamson,ODI,20,22,0,1,1,8,110.0,22.0
 Q de Kock,KW Richardson,ODI,16,30,0,2,2,6,187.5,30.0
@@ -97205,6 +97209,7 @@ Q de Kock,NM Coulter-Nile,T20I,23,34,2,4,2,10,147.83,17.0
 Q de Kock,NM Lyon,ODI,19,13,1,1,0,10,68.42,13.0
 Q de Kock,NM Lyon,Test,244,169,4,21,3,168,69.26,42.25
 Q de Kock,NT Ellis,ODI,40,26,2,2,0,23,65.0,13.0
+Q de Kock,Naseem Shah,CPL,20,33,1,4,2,9,165.0,33.0
 Q de Kock,Naseem Shah,ODI,30,7,1,0,0,23,23.33,7.0
 Q de Kock,Nasir Hossain,ODI,26,21,1,2,0,11,80.77,21.0
 Q de Kock,Nasum Ahmed,ODI,12,11,0,1,0,4,91.67,11.0
@@ -97224,6 +97229,7 @@ Q de Kock,PP Chawla,IPL,14,9,2,1,0,8,64.29,4.5
 Q de Kock,PV Tambe,IPL,10,13,1,2,0,4,130.0,13.0
 Q de Kock,PVD Chameera,T20I,24,22,1,4,0,12,91.67,22.0
 Q de Kock,PVD Chameera,Test,15,8,0,0,0,8,53.33,8.0
+Q de Kock,PWH de Silva,CPL,14,15,0,0,1,5,107.14,15.0
 Q de Kock,PWH de Silva,T20I,36,43,2,4,0,10,119.44,21.5
 Q de Kock,Parvez Rasool,IPL,18,28,0,4,0,5,155.56,28.0
 Q de Kock,R Ashwin,IPL,76,85,4,9,2,29,111.84,21.25
@@ -110977,7 +110983,7 @@ SE Rutherford,JC Archer,T20I,10,27,0,0,3,0,270.0,27.0
 SE Rutherford,JDF Vandersay,ODI,28,27,0,2,1,15,96.43,27.0
 SE Rutherford,JDS Neesham,T20I,11,14,0,0,1,3,127.27,14.0
 SE Rutherford,JNT Seales,CPL,14,19,1,0,2,6,135.71,19.0
-SE Rutherford,JO Holder,CPL,30,51,3,3,4,11,170.0,17.0
+SE Rutherford,JO Holder,CPL,35,58,3,4,4,12,165.71,19.33
 SE Rutherford,JP Behrendorff,T20I,10,14,0,1,1,5,140.0,14.0
 SE Rutherford,JR Lennox,ODI,21,11,1,1,0,14,52.38,11.0
 SE Rutherford,KA Jamieson,ODI,20,18,1,1,1,11,90.0,18.0
@@ -136319,6 +136325,7 @@ ZM Tribe,M Dale-Bradley,T20I,32,51,0,3,4,12,159.38,51.0
 ZM Tribe,MWR Stokes,T20I,21,21,0,1,0,5,100.0,21.0
 ZM Tribe,SVE Bharathi,T20I,12,9,0,0,0,5,75.0,9.0
 ZN Carter,JU Goolie,CPL,10,16,0,0,2,4,160.0,16.0
+ZN Carter,PWH de Silva,CPL,11,6,1,0,1,10,54.55,6.0
 ZN Shabalala,A Salomao,T20I,25,6,1,0,0,20,24.0,6.0
 ZN Shabalala,AL Mundundo,T20I,13,3,2,0,0,10,23.08,1.5
 ZN Shabalala,G Matome,T20I,12,0,0,0,0,12,0.0,0.0
