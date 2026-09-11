@@ -1364,6 +1364,9 @@ A Ikuzwe,V Abuga,T20I,13,8.0,2,9,1,0,3.69,6.5,69.23
 A Ikuzwe,V Ooko,T20I,41,42.0,2,20,3,0,6.15,20.5,48.78
 A Ilahi,E Gebhard,T20I,10,3.0,1,8,0,0,1.8,10.0,80.0
 A Ilahi,F Kuenburg,T20I,22,21.0,1,10,1,0,5.73,22.0,45.45
+A Ilahi,K Sequiera,T20I,18,25.0,1,3,2,0,8.33,18.0,16.67
+A Ilahi,NT Raghunandan,T20I,28,26.0,0,11,2,0,5.57,28.0,39.29
+A Ilahi,SG Luijke,T20I,13,9.0,0,7,0,0,4.15,13.0,53.85
 A Johnson,Shakeel Ahmed,ODI,15,6.0,0,9,0,0,2.4,15.0,60.0
 A Joshi,EAS Ferrary,T20I,11,22.0,0,1,1,0,12.0,11.0,9.09
 A Joshi,LJ Payas,T20I,10,20.0,0,2,2,0,12.0,10.0,20.0
@@ -5427,6 +5430,8 @@ AC Botha,T Taibu,ODI,18,15.0,0,7,1,0,5.0,18.0,38.89
 AC Botha,Tamim Iqbal,ODI,14,3.0,2,12,0,0,1.29,7.0,85.71
 AC Botha,V Sibanda,ODI,22,12.0,0,15,1,0,3.27,22.0,68.18
 AC Brodin,E Gebhard,T20I,17,24.0,0,7,2,0,8.47,17.0,41.18
+AC Brodin,J Kominkova,T20I,11,2.0,0,10,0,0,1.09,11.0,90.91
+AC Brodin,K Sequiera,T20I,12,21.0,0,1,0,0,10.5,12.0,8.33
 AC Cummins,EC Joyce,ODI,23,27.0,0,14,4,0,7.04,23.0,60.87
 AC Cummins,L Vincent,ODI,34,28.0,0,23,2,1,4.94,34.0,67.65
 AC Cummins,MA Ouma,ODI,11,4.0,1,8,0,0,2.18,11.0,72.73
@@ -5565,6 +5570,7 @@ AC Jayangani,DB Sharma,ODI,52,44.0,1,28,6,0,5.08,52.0,53.85
 AC Jayangani,DJS Dottin,ODI,12,15.0,1,7,1,0,7.5,12.0,58.33
 AC Jayangani,DN Wyatt,T20I,34,46.0,2,13,5,1,8.12,17.0,38.24
 AC Jayangani,DP Vaidya,ODI,25,22.0,0,12,2,0,5.28,25.0,48.0
+AC Jayangani,Dilara Akter,T20I,13,10.0,1,7,1,0,4.62,13.0,53.85
 AC Jayangani,EA Perry,ODI,23,18.0,0,10,1,0,4.7,23.0,43.48
 AC Jayangani,EJ Villani,T20I,10,9.0,0,7,2,0,5.4,10.0,70.0
 AC Jayangani,EMA McLeod,T20I,11,8.0,0,4,0,0,4.36,11.0,36.36
@@ -5627,14 +5633,14 @@ AC Jayangani,RL Haynes,ODI,14,8.0,1,6,0,0,3.43,14.0,42.86
 AC Jayangani,RL Haynes,T20I,19,19.0,1,5,1,0,6.0,19.0,26.32
 AC Jayangani,RM Ghosh,ODI,14,4.0,1,10,0,0,1.71,14.0,71.43
 AC Jayangani,Ritu Moni,ODI,16,14.0,1,8,2,0,5.25,16.0,50.0
-AC Jayangani,Ritu Moni,T20I,30,28.0,3,11,2,0,5.6,10.0,36.67
+AC Jayangani,Ritu Moni,T20I,31,28.0,4,12,2,0,5.42,7.75,38.71
 AC Jayangani,S Hector,ODI,13,13.0,0,5,1,0,6.0,13.0,38.46
 AC Jayangani,S Luus,ODI,13,11.0,1,6,1,0,5.08,13.0,46.15
 AC Jayangani,S Mandhana,ODI,37,47.0,2,18,7,1,7.62,18.5,48.65
 AC Jayangani,S Mandhana,T20I,43,73.0,1,13,11,1,10.19,43.0,30.23
 AC Jayangani,S Mandhana,WPL,13,26.0,0,5,4,1,12.0,13.0,38.46
 AC Jayangani,S Mostary,ODI,19,13.0,1,13,2,0,4.11,19.0,68.42
-AC Jayangani,S Mostary,T20I,16,10.0,2,8,0,0,3.75,8.0,50.0
+AC Jayangani,S Mostary,T20I,24,15.0,2,12,0,0,3.75,12.0,50.0
 AC Jayangani,SA Campbelle,T20I,20,28.0,2,8,3,1,8.4,10.0,40.0
 AC Jayangani,SFM Devine,ODI,23,24.0,0,9,3,0,6.26,23.0,39.13
 AC Jayangani,SFM Devine,T20I,12,22.0,0,2,1,1,11.0,12.0,16.67
@@ -5651,7 +5657,7 @@ AC Jayangani,Sharmin Akhter,ODI,30,24.0,0,21,4,0,4.8,30.0,70.0
 AC Jayangani,Sharmin Akhter,T20I,13,14.0,1,5,2,0,6.46,13.0,38.46
 AC Jayangani,Shawaal Zulfiqar,T20I,25,24.0,0,15,4,0,5.76,25.0,60.0
 AC Jayangani,Shorna Akter,ODI,17,9.0,1,9,0,0,3.18,17.0,52.94
-AC Jayangani,Shorna Akter,T20I,13,16.0,0,1,1,0,7.38,13.0,7.69
+AC Jayangani,Shorna Akter,T20I,14,17.0,0,1,1,0,7.29,14.0,7.14
 AC Jayangani,Sidra Ameen,ODI,56,43.0,1,32,5,0,4.61,56.0,57.14
 AC Jayangani,T Bhatia,ODI,18,18.0,0,6,1,0,6.0,18.0,33.33
 AC Jayangani,T Brits,ODI,24,21.0,0,7,1,0,5.25,24.0,29.17
@@ -7401,7 +7407,7 @@ AJ Hall,Z Khan,Test,30,25.0,1,22,3,1,5.0,30.0,73.33
 AJ Hosein,A Balbirnie,ODI,27,18.0,0,17,2,0,4.0,27.0,62.96
 AJ Hosein,A Raghuvanshi,IPL,11,15.0,1,5,1,1,8.18,11.0,45.45
 AJ Hosein,A Zampa,ODI,21,7.0,0,17,0,0,2.0,21.0,80.95
-AJ Hosein,AA Jangoo,CPL,26,27.0,1,11,2,1,6.23,26.0,42.31
+AJ Hosein,AA Jangoo,CPL,29,30.0,1,11,2,1,6.21,29.0,37.93
 AJ Hosein,AC Agar,ODI,15,6.0,0,13,1,0,2.4,15.0,86.67
 AJ Hosein,AD Hales,PSL,16,25.0,2,8,2,2,9.38,8.0,50.0
 AJ Hosein,ADS Fletcher,CPL,88,93.0,2,48,6,6,6.34,44.0,54.55
@@ -7451,7 +7457,7 @@ AJ Hosein,DP Conway,ODI,26,21.0,1,12,2,0,4.85,26.0,46.15
 AJ Hosein,DP Conway,T20I,17,25.0,1,5,1,2,8.82,17.0,29.41
 AJ Hosein,DS Airee,ODI,13,20.0,1,6,2,1,9.23,13.0,46.15
 AJ Hosein,DS Airee,T20I,10,11.0,0,3,1,0,6.6,10.0,30.0
-AJ Hosein,E Lewis,CPL,47,68.0,2,24,3,6,8.68,23.5,51.06
+AJ Hosein,E Lewis,CPL,51,77.0,3,25,3,7,9.06,17.0,49.02
 AJ Hosein,EJG Morgan,T20I,15,8.0,0,8,0,0,3.2,15.0,53.33
 AJ Hosein,F du Plessis,CPL,69,82.0,0,29,5,4,7.13,69.0,42.03
 AJ Hosein,FDM Karunaratne,ODI,32,37.0,1,8,3,0,6.94,32.0,25.0
@@ -7474,6 +7480,7 @@ AJ Hosein,HT Tector,ODI,41,30.0,0,22,2,0,4.39,41.0,53.66
 AJ Hosein,HWR Cartwright,BBL,14,11.0,0,7,1,0,4.71,14.0,50.0
 AJ Hosein,Haider Ali,T20I,16,7.0,0,9,0,0,2.62,16.0,56.25
 AJ Hosein,Hassan Khan,CPL,11,3.0,1,8,0,0,1.64,11.0,72.73
+AJ Hosein,Hassan Nawaz,CPL,16,8.0,0,11,1,0,3.0,16.0,68.75
 AJ Hosein,Hassan Nawaz,T20I,12,11.0,1,7,0,1,5.5,12.0,58.33
 AJ Hosein,Imad Wasim,CPL,15,9.0,0,6,0,0,3.6,15.0,40.0
 AJ Hosein,Imam-ul-Haq,ODI,29,27.0,2,11,2,0,5.59,14.5,37.93
@@ -7575,7 +7582,7 @@ AJ Hosein,RL Chase,CPL,31,37.0,3,9,2,1,7.16,10.33,29.03
 AJ Hosein,RP Burl,ODI,17,21.0,1,7,1,1,7.41,17.0,41.18
 AJ Hosein,RR Hendricks,T20I,47,58.0,2,21,4,4,7.4,23.5,44.68
 AJ Hosein,RR Pant,T20I,17,26.0,1,5,2,1,9.18,17.0,29.41
-AJ Hosein,RRS Cornwall,CPL,32,44.0,4,21,6,2,8.25,8.0,65.62
+AJ Hosein,RRS Cornwall,CPL,37,60.0,4,22,10,2,9.73,9.25,59.46
 AJ Hosein,RS Primus,CPL,13,7.0,0,8,0,0,3.23,13.0,61.54
 AJ Hosein,Rahmanullah Gurbaz,CPL,20,31.0,0,5,1,2,9.3,20.0,25.0
 AJ Hosein,S Dhawan,ODI,27,17.0,0,10,0,0,3.78,27.0,37.04
@@ -7583,7 +7590,7 @@ AJ Hosein,SA Edwards,ODI,31,43.0,0,11,5,1,8.32,31.0,35.48
 AJ Hosein,SA Yadav,ODI,46,42.0,1,23,4,1,5.48,46.0,50.0
 AJ Hosein,SA Yadav,T20I,52,61.0,1,20,5,2,7.04,52.0,38.46
 AJ Hosein,SD Hope,CPL,89,85.0,4,42,7,2,5.73,22.25,47.19
-AJ Hosein,SE Rutherford,CPL,12,17.0,0,6,1,1,8.5,12.0,50.0
+AJ Hosein,SE Rutherford,CPL,19,24.0,0,9,2,1,7.58,19.0,47.37
 AJ Hosein,SO Hetmyer,CPL,25,32.0,2,9,1,2,7.68,12.5,36.0
 AJ Hosein,SS Iyer,ODI,39,46.0,1,9,2,0,7.08,39.0,23.08
 AJ Hosein,SV Samson,ODI,22,23.0,0,10,0,2,6.27,22.0,45.45
@@ -7626,6 +7633,7 @@ AJ Hosein,V Kohli,T20I,19,28.0,0,5,4,0,8.84,19.0,26.32
 AJ Hosein,Vikramjit Singh,ODI,34,22.0,1,23,2,0,3.88,34.0,67.65
 AJ Hosein,WG Jacks,T20I,40,66.0,2,14,6,4,9.9,20.0,35.0
 AJ Hosein,YBK Jaiswal,T20I,16,19.0,1,5,1,1,7.12,16.0,31.25
+AJ Hosein,ZN Carter,CPL,10,10.0,0,6,0,1,6.0,10.0,60.0
 AJ Ireland,CH Gayle,ODI,40,45.0,0,23,7,1,6.75,40.0,57.5
 AJ Ireland,HH Dippenaar,ODI,40,32.0,1,23,3,0,4.8,40.0,57.5
 AJ Ireland,JM Kemp,ODI,16,19.0,0,11,3,1,7.12,16.0,68.75
@@ -8766,6 +8774,7 @@ AN Kelly,M McColl,T20I,19,26.0,1,4,3,0,8.21,19.0,21.05
 AN Kelly,M Musonda,ODI,12,9.0,0,9,2,0,4.5,12.0,75.0
 AN Kelly,M Musonda,T20I,25,34.0,0,6,2,0,8.16,25.0,24.0
 AN Kelly,M Smit,ODI,10,3.0,0,7,0,0,1.8,10.0,70.0
+AN Kelly,ME Bouchier,ODI,17,17.0,1,8,2,0,6.0,17.0,47.06
 AN Kelly,MM Dekeling,T20I,15,3.0,3,12,0,0,1.2,5.0,80.0
 AN Kelly,MM Lanning,T20I,20,34.0,1,6,3,2,10.2,20.0,30.0
 AN Kelly,Muneeba Ali,ODI,27,16.0,0,15,1,0,3.56,27.0,55.56
@@ -8797,7 +8806,7 @@ AN Kelly,S Luus,T20I,15,14.0,1,8,1,0,5.6,15.0,53.33
 AN Kelly,S Mandhana,ODI,37,66.0,0,13,8,3,10.7,37.0,35.14
 AN Kelly,S Mostary,T20I,23,40.0,1,4,1,3,10.43,23.0,17.39
 AN Kelly,SA Campbelle,T20I,14,21.0,2,6,2,0,9.0,7.0,42.86
-AN Kelly,SIR Dunkley,ODI,12,12.0,0,7,2,0,6.0,12.0,58.33
+AN Kelly,SIR Dunkley,ODI,29,31.0,0,17,6,0,6.41,29.0,58.62
 AN Kelly,SJ Bryce,ODI,14,10.0,0,7,0,0,4.29,14.0,50.0
 AN Kelly,SJ Bryce,T20I,28,30.0,2,11,4,0,6.43,14.0,39.29
 AN Kelly,SR Taylor,ODI,42,45.0,0,17,6,0,6.43,42.0,40.48
@@ -9146,12 +9155,13 @@ AR Nedd,J Charles,CPL,16,14.0,1,11,3,0,5.25,16.0,68.75
 AR Nedd,J Da Silva,CPL,13,19.0,0,3,2,0,8.77,13.0,23.08
 AR Nedd,K Gore,CPL,15,22.0,0,6,0,2,8.8,15.0,40.0
 AR Nedd,KHM James,CPL,13,4.0,1,9,0,0,1.85,13.0,69.23
-AR Nedd,Mohammad Nabi,CPL,10,8.0,0,4,0,0,4.8,10.0,40.0
+AR Nedd,Mohammad Nabi,CPL,17,15.0,0,7,1,0,5.29,17.0,41.18
 AR Nedd,Q de Kock,CPL,14,20.0,1,6,2,1,8.57,14.0,42.86
 AR Nedd,R Powell,CPL,13,11.0,1,4,0,0,5.08,13.0,30.77
-AR Nedd,RL Chase,CPL,12,11.0,1,4,0,0,5.5,12.0,33.33
+AR Nedd,RL Chase,CPL,14,16.0,1,4,1,0,6.86,14.0,28.57
+AR Nedd,SD Hope,CPL,16,15.0,0,5,1,0,5.62,16.0,31.25
 AR Nedd,SW Billings,CPL,13,22.0,0,2,3,0,10.15,13.0,15.38
-AR Nedd,TL Seifert,CPL,16,36.0,0,5,1,4,13.5,16.0,31.25
+AR Nedd,TL Seifert,CPL,28,51.0,1,10,3,4,10.93,28.0,35.71
 AR Nurse,A Balbirnie,ODI,19,19.0,0,7,0,1,6.0,19.0,36.84
 AR Nurse,A Vala,ODI,11,10.0,0,5,1,0,5.45,11.0,45.45
 AR Nurse,AD Hales,ODI,35,43.0,1,19,5,2,7.37,35.0,54.29
@@ -9932,7 +9942,7 @@ AS Joseph,RP Burl,ODI,14,7.0,0,11,1,0,3.0,14.0,78.57
 AS Joseph,RR Pant,ODI,46,39.0,0,29,3,2,5.09,46.0,63.04
 AS Joseph,RR Pant,T20I,10,10.0,0,4,1,0,6.0,10.0,40.0
 AS Joseph,RRS Cornwall,CPL,22,8.0,4,19,0,1,2.18,5.5,86.36
-AS Joseph,Rahmanullah Gurbaz,CPL,17,19.0,0,7,2,0,6.71,17.0,41.18
+AS Joseph,Rahmanullah Gurbaz,CPL,25,42.0,1,12,2,3,10.08,25.0,48.0
 AS Joseph,Rashid Khan,CPL,19,21.0,0,11,2,1,6.63,19.0,57.89
 AS Joseph,S Dhawan,IPL,20,30.0,0,6,3,1,9.0,20.0,30.0
 AS Joseph,S Dhawan,ODI,83,89.0,2,45,11,3,6.43,41.5,54.22
@@ -9946,13 +9956,13 @@ AS Joseph,SA Edwards,ODI,29,24.0,0,11,1,0,4.97,29.0,37.93
 AS Joseph,SA Yadav,IPL,16,40.0,0,4,2,4,15.0,16.0,25.0
 AS Joseph,SA Yadav,ODI,30,26.0,1,17,2,1,5.2,30.0,56.67
 AS Joseph,SA Yadav,T20I,44,87.0,2,17,4,8,11.86,22.0,38.64
-AS Joseph,SD Hope,CPL,41,53.0,1,17,4,2,7.76,41.0,41.46
+AS Joseph,SD Hope,CPL,44,54.0,2,20,4,2,7.36,22.0,45.45
 AS Joseph,SD Parris,CPL,10,12.0,1,6,1,0,7.2,10.0,60.0
 AS Joseph,SE Rutherford,CPL,13,9.0,2,7,1,0,4.15,6.5,53.85
 AS Joseph,SM Curran,ODI,21,20.0,1,9,2,0,5.71,21.0,42.86
 AS Joseph,SM Curran,T20I,26,47.0,1,7,4,2,10.85,26.0,26.92
 AS Joseph,SN Thakur,ODI,11,8.0,3,6,1,0,4.36,3.67,54.55
-AS Joseph,SO Hetmyer,CPL,47,75.0,2,24,9,3,9.57,23.5,51.06
+AS Joseph,SO Hetmyer,CPL,51,79.0,2,25,9,3,9.29,25.5,49.02
 AS Joseph,SO Hetmyer,IPL,10,30.0,0,0,1,3,18.0,10.0,0.0
 AS Joseph,SP Narine,CPL,24,23.0,2,15,4,0,5.75,12.0,62.5
 AS Joseph,SPD Smith,Test,164,100.0,3,117,12,1,3.66,54.67,71.34
@@ -10952,10 +10962,11 @@ Aayan Afzal Khan,Gulsan Jha,ODI,23,31.0,0,12,0,4,8.09,23.0,52.17
 Aayan Afzal Khan,H Carlyon,ODI,25,15.0,0,15,1,0,3.6,25.0,60.0
 Aayan Afzal Khan,H Hiri,ODI,31,15.0,1,22,1,0,2.9,31.0,70.97
 Aayan Afzal Khan,H Thaker,ODI,27,14.0,1,16,1,0,3.11,27.0,59.26
-Aayan Afzal Khan,Hammad Mirza,ODI,20,11.0,1,14,1,0,3.3,20.0,70.0
+Aayan Afzal Khan,Hammad Mirza,ODI,34,19.0,2,25,2,0,3.35,17.0,73.53
 Aayan Afzal Khan,Imran Ali Butt,T20I,11,3.0,0,8,0,0,1.64,11.0,72.73
 Aayan Afzal Khan,J Charles,ODI,17,14.0,0,11,1,1,4.94,17.0,64.71
 Aayan Afzal Khan,J Jarvis,T20I,17,7.0,1,11,0,0,2.47,17.0,64.71
+Aayan Afzal Khan,J Ramanandi,ODI,16,7.0,0,9,0,0,2.62,16.0,56.25
 Aayan Afzal Khan,JAD Lawrenson,ODI,10,7.0,0,4,0,0,4.2,10.0,40.0
 Aayan Afzal Khan,JW Jenner,ODI,13,7.0,0,8,0,0,3.23,13.0,61.54
 Aayan Afzal Khan,Jatinder Singh,ODI,28,13.0,1,20,1,0,2.79,28.0,71.43
@@ -12019,6 +12030,7 @@ Adam Senn,Saghar Manzoor,T20I,11,11.0,0,6,1,0,6.0,11.0,54.55
 Adama Kamara,Adri van der Merwe,T20I,11,8.0,0,4,0,0,4.36,11.0,36.36
 Adama Kamara,F Najjumba,T20I,11,9.0,0,4,0,0,4.91,11.0,36.36
 Adama Kamara,T Kobeli,T20I,10,9.0,1,6,1,0,5.4,10.0,60.0
+Adeeb Usmani,J Ramanandi,ODI,10,2.0,1,8,0,0,1.2,10.0,80.0
 Adeel Raja,BJ Hodge,ODI,22,35.0,0,6,3,2,9.55,22.0,27.27
 Adeel Raja,D Keulder,ODI,21,18.0,0,9,1,0,5.14,21.0,42.86
 Adeel Raja,D Mongia,ODI,19,13.0,0,8,0,0,4.11,19.0,42.11
@@ -12089,6 +12101,9 @@ Afif Hossain,KU Carty,ODI,19,7.0,1,15,1,0,2.21,19.0,78.95
 Afif Hossain,Syed Aziz,T20I,10,3.0,0,7,0,0,1.8,10.0,70.0
 Afif Hossain,W Madhevere,ODI,12,18.0,0,6,0,2,9.0,12.0,50.0
 Afif Khattak,Jaspal Singh,T20I,11,14.0,0,7,1,1,7.64,11.0,63.64
+Afsheen Ahmed,A Ilahi,T20I,11,7.0,1,6,0,0,3.82,11.0,54.55
+Afsheen Ahmed,E Kuncova,T20I,11,14.0,0,0,0,0,7.64,11.0,0.0
+Afsheen Ahmed,J Souckova,T20I,12,16.0,0,4,2,0,8.0,12.0,33.33
 Aftab Ahmed,AJ Strauss,ODI,13,14.0,0,4,1,0,6.46,13.0,30.77
 Aftab Ahmed,CD Cumming,Test,28,11.0,0,24,2,0,2.36,28.0,85.71
 Aftab Ahmed,DL Vettori,Test,11,9.0,1,6,1,0,4.91,11.0,54.55
@@ -14397,6 +14412,8 @@ Atif-Ur-Rehman,KH Prajapati,T20I,12,17.0,0,6,1,1,8.5,12.0,50.0
 Atif-Ur-Rehman,Sarfaraz Ali,T20I,12,5.0,2,10,1,0,2.5,6.0,83.33
 Attia Diwan Ali,Jagrat Dubey,T20I,14,14.0,0,5,1,0,6.0,14.0,35.71
 Attia Diwan Ali,P Neighbour,T20I,14,23.0,0,4,1,0,9.86,14.0,28.57
+Attia Diwan Ali,SG Luijke,T20I,10,14.0,0,4,2,0,8.4,10.0,40.0
+Attia Diwan Ali,SV Collyer,T20I,14,21.0,0,2,2,0,9.0,14.0,14.29
 Aung Ko Ko,K Ghalley,T20I,13,9.0,1,6,0,0,4.15,13.0,46.15
 Aung Ko Ko,O Lutbayar,T20I,13,5.0,0,9,0,0,2.31,13.0,69.23
 Auqib Nabi,P Simran Singh,IPL,14,36.0,0,4,1,4,15.43,14.0,28.57
@@ -14838,7 +14855,7 @@ B Etim,KA Green,T20I,12,20.0,0,5,4,0,10.0,12.0,41.67
 B Etim,MD Bimenyimana,T20I,12,6.0,1,10,1,0,3.0,12.0,83.33
 B Etim,Yasmeen Khan,T20I,14,16.0,0,4,1,0,6.86,14.0,28.57
 B Evans,A Balbirnie,ODI,37,26.0,1,28,4,1,4.22,37.0,75.68
-B Evans,A Busing-Volschenk,T20I,17,32.0,3,3,2,1,11.29,5.67,17.65
+B Evans,A Busing-Volschenk,T20I,23,35.0,4,6,2,1,9.13,5.75,26.09
 B Evans,AT Carey,ODI,11,8.0,1,9,2,0,4.36,11.0,81.82
 B Evans,Amite Hasan,Test,17,20.0,0,11,4,0,7.06,17.0,64.71
 B Evans,Anamul Haque,ODI,23,36.0,0,10,3,2,9.39,23.0,43.48
@@ -14846,15 +14863,16 @@ B Evans,BKG Mendis,ODI,28,12.0,1,20,1,0,2.57,28.0,71.43
 B Evans,BKG Mendis,T20I,21,19.0,1,9,2,0,5.43,21.0,42.86
 B Evans,Babar Azam,T20I,16,21.0,2,9,2,1,7.88,8.0,56.25
 B Evans,CN Ackermann,ODI,13,13.0,0,4,1,0,6.0,13.0,30.77
-B Evans,D Brevis,T20I,15,21.0,1,6,2,1,8.4,15.0,40.0
+B Evans,D Brevis,T20I,20,28.0,2,7,3,1,8.4,10.0,35.0
 B Evans,DA Warner,ODI,41,58.0,0,19,9,1,8.49,41.0,46.34
 B Evans,DJ Hooda,ODI,19,13.0,1,14,2,0,4.11,19.0,73.68
 B Evans,G Singh,ODI,11,8.0,2,9,0,1,4.36,5.5,81.82
 B Evans,GR Adair,T20I,10,20.0,0,1,0,1,12.0,10.0,10.0
 B Evans,HT Tector,ODI,33,49.0,0,13,5,2,8.91,33.0,39.39
 B Evans,Ishan Kishan,T20I,21,41.0,0,4,4,2,11.71,21.0,19.05
+B Evans,J Hermann,T20I,14,21.0,1,7,2,1,9.0,14.0,50.0
 B Evans,J Liyanage,ODI,11,12.0,0,3,1,0,6.55,11.0,27.27
-B Evans,JN Loftie-Eaton,T20I,17,23.0,0,5,3,0,8.12,17.0,29.41
+B Evans,JN Loftie-Eaton,T20I,18,24.0,0,5,3,0,8.0,18.0,27.78
 B Evans,K Mishara,T20I,20,30.0,2,9,4,1,9.0,10.0,45.0
 B Evans,KC Brathwaite,Test,61,41.0,0,35,3,0,4.03,61.0,57.38
 B Evans,KIC Asalanka,ODI,17,21.0,0,3,1,0,7.41,17.0,17.65
@@ -14862,7 +14880,7 @@ B Evans,KL Rahul,ODI,12,13.0,1,7,1,1,6.5,12.0,58.33
 B Evans,LG Pretorius,T20I,15,20.0,2,5,3,0,8.0,7.5,33.33
 B Evans,M van Lingen,T20I,15,19.0,1,7,3,0,7.6,15.0,46.67
 B Evans,MB Kruger,T20I,13,23.0,0,5,1,2,10.62,13.0,38.46
-B Evans,MG Erasmus,T20I,21,20.0,1,8,1,0,5.71,21.0,38.1
+B Evans,MG Erasmus,T20I,33,43.0,1,10,5,0,7.82,33.0,30.3
 B Evans,MP O'Dowd,ODI,23,14.0,0,12,1,0,3.65,23.0,52.17
 B Evans,Mahedi Hasan,T20I,17,28.0,0,8,4,1,9.88,17.0,47.06
 B Evans,Mahmudullah,ODI,19,20.0,0,9,1,1,6.32,19.0,47.37
@@ -14947,7 +14965,8 @@ B Kasinja,RMAM Avery,T20I,12,11.0,0,5,0,0,5.5,12.0,41.67
 B Kasinja,S Etim,T20I,10,4.0,0,8,0,0,2.4,10.0,80.0
 B Keganne,LM Gabriel,T20I,11,12.0,0,5,1,0,6.55,11.0,45.45
 B Kgosiemang,CO Obuya,T20I,12,18.0,1,7,4,0,9.0,12.0,58.33
-B Kgosiemang,D Ndikubwimana,T20I,20,26.0,0,7,1,1,7.8,20.0,35.0
+B Kgosiemang,D Ndikubwimana,T20I,30,39.0,0,10,3,1,7.8,30.0,33.33
+B Kgosiemang,Hamza Khan,T20I,10,15.0,0,4,3,0,9.0,10.0,40.0
 B Kgosiemang,I Danladi,T20I,12,9.0,1,6,1,0,4.5,12.0,50.0
 B Kgosiemang,Mohammed Jamadar,T20I,20,24.0,1,10,3,0,7.2,20.0,50.0
 B Kgosiemang,O Manishimwe,T20I,22,23.0,1,10,1,1,6.27,22.0,45.45
@@ -15993,7 +16012,7 @@ B Muzarabani,CA Young,Test,10,3.0,2,7,0,0,1.8,5.0,70.0
 B Muzarabani,CM McBride,ODI,16,13.0,0,10,2,0,4.88,16.0,62.5
 B Muzarabani,CN Ackermann,ODI,21,22.0,0,12,4,0,6.29,21.0,57.14
 B Muzarabani,Codi Yusuf,Test,19,17.0,1,14,4,0,5.37,19.0,73.68
-B Muzarabani,D Brevis,T20I,12,26.0,0,3,4,1,13.0,12.0,25.0
+B Muzarabani,D Brevis,T20I,14,28.0,0,3,4,1,12.0,14.0,21.43
 B Muzarabani,D Brevis,Test,30,20.0,1,19,3,0,4.0,30.0,63.33
 B Muzarabani,D Elgar,Test,21,14.0,0,16,3,0,4.0,21.0,76.19
 B Muzarabani,DG Bedingham,Test,32,30.0,0,15,2,0,5.62,32.0,46.88
@@ -16028,8 +16047,8 @@ B Muzarabani,JA Duffy,Test,19,19.0,0,11,3,0,6.0,19.0,57.89
 B Muzarabani,JDF Vandersay,ODI,10,10.0,1,4,0,0,6.0,10.0,40.0
 B Muzarabani,JE Root,Test,10,10.0,1,4,1,0,6.0,10.0,40.0
 B Muzarabani,JJ Smit,T20I,10,5.0,0,5,0,0,3.0,10.0,50.0
-B Muzarabani,JN Frylinck,T20I,15,27.0,0,8,3,2,10.8,15.0,53.33
-B Muzarabani,JN Loftie-Eaton,T20I,14,23.0,0,7,5,0,9.86,14.0,50.0
+B Muzarabani,JN Frylinck,T20I,21,32.0,1,12,4,2,9.14,21.0,57.14
+B Muzarabani,JN Loftie-Eaton,T20I,17,28.0,0,8,5,0,9.88,17.0,47.06
 B Muzarabani,Jaker Ali,Test,38,33.0,1,25,6,0,5.21,38.0,65.79
 B Muzarabani,K Bhurtel,ODI,13,12.0,0,7,2,0,5.54,13.0,53.85
 B Muzarabani,K Mishara,T20I,13,18.0,0,5,3,0,8.31,13.0,38.46
@@ -16044,7 +16063,7 @@ B Muzarabani,KT Maphaka,Test,15,7.0,1,14,0,1,2.8,15.0,93.33
 B Muzarabani,Kamran Akmal,PSL,14,14.0,1,7,2,0,6.0,14.0,50.0
 B Muzarabani,Kamran Ghulam,ODI,23,15.0,0,14,1,0,3.91,23.0,60.87
 B Muzarabani,L Senokwane,Test,18,0.0,0,18,0,0,0.0,18.0,100.0
-B Muzarabani,L Steenkamp,T20I,13,16.0,1,7,3,0,7.38,13.0,53.85
+B Muzarabani,L Steenkamp,T20I,17,23.0,1,8,4,0,8.12,17.0,47.06
 B Muzarabani,L Tucker,ODI,36,38.0,3,14,3,1,6.33,12.0,38.89
 B Muzarabani,L Tucker,Test,62,50.0,2,44,10,0,4.84,31.0,70.97
 B Muzarabani,LD Chandimal,ODI,46,35.0,1,23,3,0,4.57,46.0,50.0
@@ -16057,6 +16076,7 @@ B Muzarabani,MA Leask,ODI,13,24.0,0,4,5,0,11.08,13.0,30.77
 B Muzarabani,MD Shanaka,ODI,15,12.0,1,9,0,0,4.8,15.0,60.0
 B Muzarabani,MDKJ Perera,ODI,25,27.0,1,11,2,1,6.48,25.0,44.0
 B Muzarabani,MDKJ Perera,T20I,13,20.0,2,6,3,0,9.23,6.5,46.15
+B Muzarabani,MG Erasmus,T20I,13,25.0,0,2,1,2,11.54,13.0,15.38
 B Muzarabani,MH Cross,ODI,14,11.0,0,8,1,0,4.71,14.0,57.14
 B Muzarabani,MJ Guptill,CPL,10,11.0,0,4,1,0,6.6,10.0,40.0
 B Muzarabani,MJ Humphreys,Test,19,16.0,0,15,2,1,5.05,19.0,78.95
@@ -16103,6 +16123,7 @@ B Muzarabani,PVD Chameera,ODI,21,16.0,1,10,0,0,4.57,21.0,47.62
 B Muzarabani,PWA Mulder,Test,112,92.0,1,67,14,0,4.93,112.0,59.82
 B Muzarabani,R Ravindra,Test,21,18.0,0,16,4,0,5.14,21.0,76.19
 B Muzarabani,R Trumpelmann,T20I,15,22.0,1,8,1,2,8.8,15.0,53.33
+B Muzarabani,RA Herman,T20I,12,15.0,0,5,2,0,7.5,12.0,41.67
 B Muzarabani,RD Berrington,T20I,12,15.0,0,4,0,1,7.5,12.0,33.33
 B Muzarabani,RD Gaikwad,T20I,18,11.0,2,11,1,0,3.67,9.0,61.11
 B Muzarabani,RK Singh,T20I,18,37.0,0,6,1,4,12.33,18.0,33.33
@@ -16154,7 +16175,7 @@ B Muzarabani,Wahab Riaz,ODI,13,16.0,1,7,1,1,7.38,13.0,53.85
 B Muzarabani,YBK Jaiswal,T20I,16,13.0,0,8,1,0,4.88,16.0,50.0
 B Muzarabani,Yasir Ali Chowdhury,T20I,11,13.0,0,4,2,0,7.09,11.0,36.36
 B Muzarabani,Z Crawley,Test,50,26.0,0,38,3,0,3.12,50.0,76.0
-B Muzarabani,ZE Green,T20I,13,26.0,1,5,3,1,12.0,13.0,38.46
+B Muzarabani,ZE Green,T20I,15,27.0,1,6,3,1,10.8,15.0,40.0
 B Namuunzul,NPAN Sakarini,T20I,15,26.0,0,4,3,0,10.4,15.0,26.67
 B Niaz,Amar Sharma,T20I,12,7.0,0,5,0,0,3.5,12.0,41.67
 B Niaz,Aqib Iqbal,T20I,14,21.0,1,4,1,1,9.0,14.0,28.57
@@ -17277,16 +17298,20 @@ BC Fortuin,GI Hume,ODI,24,21.0,2,17,1,2,5.25,12.0,70.83
 BC Fortuin,Ishan Kishan,ODI,19,20.0,2,10,2,1,6.32,9.5,52.63
 BC Fortuin,J Charles,T20I,13,8.0,1,10,0,1,3.69,13.0,76.92
 BC Fortuin,JC Buttler,T20I,12,32.0,1,2,2,3,16.0,12.0,16.67
+BC Fortuin,JJ Smit,ODI,10,24.0,0,4,2,2,14.4,10.0,40.0
+BC Fortuin,JN Frylinck,T20I,13,23.0,0,2,2,1,10.62,13.0,15.38
 BC Fortuin,KIC Asalanka,T20I,11,5.0,0,6,0,0,2.73,11.0,54.55
+BC Fortuin,L Steenkamp,T20I,15,13.0,1,6,1,0,5.2,15.0,40.0
 BC Fortuin,LD Chandimal,T20I,17,18.0,0,8,1,1,6.35,17.0,47.06
-BC Fortuin,MG Erasmus,T20I,15,16.0,2,8,2,0,6.4,7.5,53.33
+BC Fortuin,MB Kruger,ODI,10,11.0,0,4,0,0,6.6,10.0,40.0
+BC Fortuin,MG Erasmus,T20I,17,19.0,2,8,2,0,6.71,8.5,47.06
 BC Fortuin,MR Marsh,T20I,12,25.0,0,4,4,1,12.5,12.0,33.33
 BC Fortuin,Mohammad Nawaz,ODI,10,10.0,0,5,0,1,6.0,10.0,50.0
 BC Fortuin,Mohammad Rizwan,ODI,79,59.0,1,41,4,1,4.48,79.0,51.9
 BC Fortuin,Mohammad Rizwan,T20I,20,24.0,1,9,3,0,7.2,20.0,45.0
 BC Fortuin,N Pooran,ODI,27,35.0,0,11,3,2,7.78,27.0,40.74
 BC Fortuin,N Pooran,T20I,11,34.0,0,4,0,5,18.55,11.0,36.36
-BC Fortuin,NT Nyamhuri,T20I,12,17.0,1,6,1,1,8.5,12.0,50.0
+BC Fortuin,NT Nyamhuri,T20I,17,22.0,2,8,1,1,7.76,8.5,47.06
 BC Fortuin,PR Stirling,ODI,18,20.0,0,6,1,1,6.67,18.0,33.33
 BC Fortuin,PR Stirling,T20I,20,25.0,0,11,2,2,7.5,20.0,55.0
 BC Fortuin,R Powell,ODI,12,8.0,1,7,1,0,4.0,12.0,58.33
@@ -17297,6 +17322,7 @@ BC Fortuin,SD Hope,T20I,15,11.0,0,7,1,0,4.4,15.0,46.67
 BC Fortuin,SS Iyer,ODI,28,32.0,0,12,5,0,6.86,28.0,42.86
 BC Fortuin,Saim Ayub,ODI,51,56.0,2,17,6,0,6.59,25.5,33.33
 BC Fortuin,Shubman Gill,ODI,10,5.0,0,5,0,0,3.0,10.0,50.0
+BC Fortuin,Sikandar Raza,T20I,12,11.0,2,6,0,1,5.5,6.0,50.0
 BC Fortuin,TM Head,T20I,14,26.0,1,6,1,3,11.14,14.0,42.86
 BC Fortuin,V Kohli,T20I,13,16.0,0,2,0,1,7.38,13.0,15.38
 BC Fortuin,WIA Fernando,T20I,11,16.0,0,4,1,0,8.73,11.0,36.36
@@ -18157,6 +18183,7 @@ BM Scholtz,BJ Bennett,T20I,19,26.0,1,4,1,1,8.21,19.0,21.05
 BM Scholtz,BJ McMullen,ODI,84,44.0,1,60,1,3,3.14,84.0,71.43
 BM Scholtz,BJ McMullen,T20I,10,14.0,0,2,2,0,8.4,10.0,20.0
 BM Scholtz,Basil Hameed,ODI,22,17.0,2,15,3,0,4.64,11.0,68.18
+BM Scholtz,C Bosch,ODI,13,20.0,0,4,1,1,9.23,13.0,30.77
 BM Scholtz,C Madande,T20I,10,7.0,1,7,1,0,4.2,10.0,70.0
 BM Scholtz,CA Soper,ODI,27,8.0,1,21,0,0,1.78,27.0,77.78
 BM Scholtz,CJA Amini,ODI,33,12.0,0,24,1,0,2.18,33.0,72.73
@@ -18168,6 +18195,7 @@ BM Scholtz,CP Rizwan,ODI,39,14.0,0,28,0,0,2.15,39.0,71.79
 BM Scholtz,CR Ervine,T20I,30,35.0,0,10,1,1,7.0,30.0,33.33
 BM Scholtz,CS MacLeod,T20I,10,13.0,0,3,0,1,7.8,10.0,30.0
 BM Scholtz,Chirag Suri,ODI,25,17.0,1,10,0,0,4.08,25.0,40.0
+BM Scholtz,D Brevis,ODI,13,21.0,0,4,2,1,9.69,13.0,30.77
 BM Scholtz,D Brevis,T20I,10,23.0,0,2,1,2,13.8,10.0,20.0
 BM Scholtz,D Khanal,ODI,17,5.0,0,12,0,0,1.76,17.0,70.59
 BM Scholtz,D Myers,T20I,10,7.0,2,3,0,0,4.2,5.0,30.0
@@ -18189,6 +18217,7 @@ BM Scholtz,Hashir Dafedar,ODI,20,7.0,0,17,1,0,2.1,20.0,85.0
 BM Scholtz,I Danladi,T20I,19,14.0,1,12,2,0,4.42,19.0,63.16
 BM Scholtz,I Kaia,T20I,17,11.0,2,8,0,0,3.88,8.5,47.06
 BM Scholtz,IG Holland,ODI,20,17.0,2,8,1,0,5.1,10.0,40.0
+BM Scholtz,J Hermann,ODI,17,23.0,0,4,3,0,8.12,17.0,23.53
 BM Scholtz,JF Smith,T20I,13,9.0,0,5,0,0,4.15,13.0,38.46
 BM Scholtz,JS Malhotra,ODI,17,3.0,2,14,0,0,1.06,8.5,82.35
 BM Scholtz,JW Jenner,ODI,35,27.0,0,22,2,1,4.63,35.0,62.86
@@ -18269,6 +18298,7 @@ BM Scholtz,Steven Ryan Taylor,ODI,15,25.0,0,7,0,2,10.0,15.0,46.67
 BM Scholtz,Suraj Kumar,ODI,31,22.0,0,16,2,0,4.26,31.0,51.61
 BM Scholtz,T Marumani,T20I,30,41.0,1,8,1,2,8.2,30.0,26.67
 BM Scholtz,T Munyonga,T20I,13,9.0,1,5,0,0,4.15,13.0,38.46
+BM Scholtz,T de Zorzi,ODI,10,9.0,0,2,0,0,5.4,10.0,20.0
 BM Scholtz,TP Ura,ODI,20,12.0,1,15,0,1,3.6,20.0,75.0
 BM Scholtz,TP Ura,T20I,11,22.0,0,0,0,2,12.0,11.0,0.0
 BM Scholtz,TS Kamunhukamwe,T20I,13,9.0,0,9,0,1,4.15,13.0,69.23
@@ -18481,11 +18511,12 @@ BMSM Kumari,DEM Carter,T20I,12,15.0,2,6,3,0,7.5,6.0,50.0
 BMSM Kumari,DJS Dottin,ODI,13,14.0,0,5,0,1,6.46,13.0,38.46
 BMSM Kumari,DJS Dottin,T20I,30,42.0,1,13,5,1,8.4,30.0,43.33
 BMSM Kumari,DN Wyatt,T20I,24,48.0,0,7,4,2,12.0,24.0,29.17
-BMSM Kumari,Dilara Akter,T20I,13,15.0,0,8,2,0,6.92,13.0,61.54
+BMSM Kumari,Dilara Akter,T20I,20,25.0,0,11,4,0,7.5,20.0,55.0
 BMSM Kumari,EJ Villani,T20I,15,15.0,0,6,2,0,6.0,15.0,40.0
 BMSM Kumari,EMA McLeod,T20I,15,16.0,0,6,1,0,6.4,15.0,40.0
 BMSM Kumari,ER Oza,T20I,14,7.0,1,7,0,0,3.0,14.0,50.0
 BMSM Kumari,Eman Naseer,T20I,13,11.0,1,7,0,1,5.08,13.0,53.85
+BMSM Kumari,Fahima Khatun,T20I,10,10.0,1,6,2,0,6.0,10.0,60.0
 BMSM Kumari,Fargana Hoque,ODI,10,5.0,0,5,0,0,3.0,10.0,50.0
 BMSM Kumari,Fargana Hoque,T20I,16,9.0,0,7,0,0,3.38,16.0,43.75
 BMSM Kumari,Fatima Sana,T20I,11,9.0,0,5,1,0,4.91,11.0,45.45
@@ -18504,7 +18535,7 @@ BMSM Kumari,JI Rodrigues,ODI,18,18.0,1,7,1,0,6.0,18.0,38.89
 BMSM Kumari,JI Rodrigues,T20I,32,49.0,0,8,7,0,9.19,32.0,25.0
 BMSM Kumari,JKC Claxton,T20I,10,14.0,0,5,1,1,8.4,10.0,50.0
 BMSM Kumari,Javeria Khan,ODI,48,34.0,0,27,3,0,4.25,48.0,56.25
-BMSM Kumari,Juairiya Ferdous,T20I,11,15.0,0,5,2,0,8.18,11.0,45.45
+BMSM Kumari,Juairiya Ferdous,T20I,15,16.0,1,8,2,0,6.4,15.0,53.33
 BMSM Kumari,L Delany,T20I,11,16.0,1,2,1,0,8.73,11.0,18.18
 BMSM Kumari,L Goodall,ODI,31,17.0,0,21,2,0,3.29,31.0,67.74
 BMSM Kumari,L Winfield,ODI,30,16.0,0,19,1,0,3.2,30.0,63.33
@@ -18546,7 +18577,7 @@ BMSM Kumari,S Luus,ODI,13,8.0,1,8,1,0,3.69,13.0,61.54
 BMSM Kumari,S Mandhana,ODI,38,32.0,0,20,3,1,5.05,38.0,52.63
 BMSM Kumari,S Mandhana,T20I,55,60.0,1,25,7,1,6.55,55.0,45.45
 BMSM Kumari,S Meghana,T20I,12,10.0,1,8,2,0,5.0,12.0,66.67
-BMSM Kumari,S Mostary,T20I,23,23.0,1,14,4,0,6.0,23.0,60.87
+BMSM Kumari,S Mostary,T20I,24,23.0,1,15,4,0,5.75,24.0,62.5
 BMSM Kumari,SA Campbelle,ODI,22,8.0,1,18,1,0,2.18,22.0,81.82
 BMSM Kumari,SA Campbelle,T20I,12,3.0,0,9,0,0,1.5,12.0,75.0
 BMSM Kumari,SFM Devine,ODI,28,45.0,0,10,5,2,9.64,28.0,35.71
@@ -19560,6 +19591,7 @@ C Beckford,M Patel,T20I,17,5.0,1,15,1,0,1.76,17.0,88.24
 C Beckford,Saniyah Zia,T20I,12,9.0,1,7,0,0,4.5,12.0,58.33
 C Bevin,AA Senn,T20I,10,10.0,0,4,1,0,6.0,10.0,40.0
 C Bevin,Adam Senn,T20I,15,25.0,1,6,0,3,10.0,15.0,40.0
+C Bosch,A Busing-Volschenk,ODI,14,7.0,0,10,1,0,3.0,14.0,71.43
 C Bosch,AT Carey,ODI,18,23.0,0,7,3,0,7.67,18.0,38.89
 C Bosch,Aamer Jamal,Test,20,19.0,1,12,2,1,5.7,20.0,60.0
 C Bosch,Agha Salman,ODI,41,55.0,1,19,6,2,8.05,41.0,46.34
@@ -19592,6 +19624,7 @@ C Bosch,KH Pandya,IPL,11,18.0,0,4,0,2,9.82,11.0,36.36
 C Bosch,KL Rahul,ODI,22,33.0,0,7,3,1,9.0,22.0,31.82
 C Bosch,KL Rahul,Test,16,0.0,0,16,0,0,0.0,16.0,100.0
 C Bosch,Kamran Ghulam,Test,10,11.0,0,7,1,1,6.6,10.0,70.0
+C Bosch,MB Kruger,ODI,10,7.0,0,6,0,0,4.2,10.0,60.0
 C Bosch,MR Marsh,ODI,14,10.0,0,9,1,0,4.29,14.0,64.29
 C Bosch,Mohammad Abbas,Test,25,6.0,1,23,1,0,1.44,25.0,92.0
 C Bosch,Mohammad Nawaz,ODI,12,15.0,1,6,1,1,7.5,12.0,50.0
@@ -20154,7 +20187,7 @@ C Munro,V Kohli,T20I,10,18.0,0,0,2,0,10.8,10.0,0.0
 C Munro,V Shankar,ODI,11,6.0,1,5,0,0,3.27,11.0,45.45
 C Murray,A Aitken-Drummond,T20I,10,3.0,3,7,0,0,1.8,3.33,70.0
 C Murray,A Bosch,T20I,31,36.0,0,13,4,1,6.97,31.0,41.94
-C Murray,A Capsey,ODI,12,12.0,0,5,0,1,6.0,12.0,41.67
+C Murray,A Capsey,ODI,17,17.0,0,6,0,1,6.0,17.0,35.29
 C Murray,A Gardner,ODI,15,39.0,0,1,3,3,15.6,15.0,6.67
 C Murray,A Kanukuntla,T20I,12,3.0,1,9,0,0,1.5,12.0,75.0
 C Murray,A Lister,ODI,36,28.0,2,18,3,0,4.67,18.0,50.0
@@ -20181,8 +20214,10 @@ C Murray,CT Dhururu,ODI,37,28.0,3,24,3,0,4.54,12.33,64.86
 C Murray,CT Dhururu,T20I,22,17.0,2,13,1,0,4.64,11.0,59.09
 C Murray,DEM Carter,T20I,14,5.0,0,9,0,0,2.14,14.0,64.29
 C Murray,DJS Dottin,T20I,10,4.0,0,8,0,0,2.4,10.0,80.0
+C Murray,DR Gibson,ODI,19,29.0,0,7,2,2,9.16,19.0,36.84
 C Murray,EA Perry,ODI,19,33.0,0,3,0,3,10.42,19.0,15.79
 C Murray,F Overdijk,ODI,38,31.0,1,23,4,0,4.89,38.0,60.53
+C Murray,FG Kemp,ODI,36,42.0,2,18,5,1,7.0,18.0,50.0
 C Murray,Fargana Hoque,ODI,12,9.0,0,4,0,0,4.5,12.0,33.33
 C Murray,Fargana Hoque,T20I,12,15.0,0,2,1,0,7.5,12.0,16.67
 C Murray,H Hotchandani,T20I,14,9.0,0,8,0,0,3.86,14.0,57.14
@@ -20190,6 +20225,7 @@ C Murray,HC Knight,T20I,13,10.0,1,6,0,0,4.62,13.0,46.15
 C Murray,HK Matthews,ODI,45,57.0,0,16,5,2,7.6,45.0,35.56
 C Murray,HK Matthews,T20I,30,51.0,1,7,4,2,10.2,30.0,23.33
 C Murray,IJR Zwilling,ODI,23,10.0,1,18,1,0,2.61,23.0,78.26
+C Murray,J Grewcock,ODI,17,8.0,3,9,0,0,2.82,5.67,52.94
 C Murray,J Nkomo,ODI,44,31.0,1,24,2,0,4.23,44.0,54.55
 C Murray,J van Vliet,ODI,14,10.0,0,6,0,0,4.29,14.0,42.86
 C Murray,Javeria Khan,T20I,12,7.0,0,6,0,0,3.5,12.0,50.0
@@ -20241,7 +20277,7 @@ C Murray,S Luus,ODI,56,61.0,0,18,7,0,6.54,56.0,32.14
 C Murray,SA Campbelle,ODI,17,19.0,1,5,1,0,6.71,17.0,29.41
 C Murray,SA Campbelle,T20I,14,14.0,0,4,1,0,6.0,14.0,28.57
 C Murray,SFM Devine,ODI,13,31.0,1,4,4,2,14.31,13.0,30.77
-C Murray,SIR Dunkley,ODI,11,10.0,1,6,1,0,5.45,11.0,54.55
+C Murray,SIR Dunkley,ODI,37,34.0,1,17,2,0,5.51,37.0,45.95
 C Murray,SJ Bryce,T20I,28,51.0,2,7,5,2,10.93,14.0,25.0
 C Murray,SR Taylor,ODI,51,55.0,1,21,6,0,6.47,51.0,41.18
 C Murray,Sadaf Shamas,ODI,21,17.0,0,12,2,0,4.86,21.0,57.14
@@ -20345,6 +20381,7 @@ C Perry,M Syrioti,T20I,18,13.0,1,14,0,0,4.33,18.0,77.78
 C Praboda,Ayesha Zafar,T20I,12,19.0,0,3,3,0,9.5,12.0,25.0
 C Praboda,Eman Naseer,T20I,15,14.0,0,5,1,0,5.6,15.0,33.33
 C Praboda,S Dharnidharka,T20I,14,9.0,0,8,1,0,3.86,14.0,57.14
+C Praboda,S Mostary,T20I,12,9.0,1,6,1,0,4.5,12.0,50.0
 C Praboda,Shawaal Zulfiqar,T20I,23,30.0,2,9,5,0,7.83,11.5,39.13
 C Prasad,B Biza,ODI,10,9.0,0,5,0,0,5.4,10.0,50.0
 C Prasad,CS Mugeri-Tiripano,ODI,14,10.0,0,4,0,0,4.29,14.0,28.57
@@ -21948,7 +21985,7 @@ CE Dean,A Bosch,ODI,15,7.0,0,11,1,0,2.8,15.0,73.33
 CE Dean,A Dercksen,ODI,30,35.0,2,15,6,0,7.0,15.0,50.0
 CE Dean,A Gardner,ODI,58,53.0,0,27,6,0,5.48,58.0,46.55
 CE Dean,A Gardner,Test,15,13.0,0,8,2,0,5.2,15.0,53.33
-CE Dean,A Hunter,ODI,17,12.0,1,9,0,0,4.24,17.0,52.94
+CE Dean,A Hunter,ODI,49,33.0,1,25,0,0,4.04,49.0,51.02
 CE Dean,A Sutherland,ODI,46,27.0,2,31,4,0,3.52,23.0,67.39
 CE Dean,AA Alleyne,ODI,14,9.0,1,9,1,0,3.86,14.0,64.29
 CE Dean,AC Jayangani,T20I,19,29.0,1,11,5,1,9.16,19.0,57.89
@@ -22006,7 +22043,7 @@ CE Dean,Kycia A Knight,ODI,15,13.0,0,8,1,0,5.2,15.0,53.33
 CE Dean,Kycia A Knight,T20I,10,9.0,2,7,2,0,5.4,5.0,70.0
 CE Dean,Kyshona A Knight,ODI,17,6.0,0,13,0,0,2.12,17.0,76.47
 CE Dean,L Goodall,ODI,31,21.0,1,21,2,0,4.06,31.0,67.74
-CE Dean,L Paul,ODI,13,11.0,1,8,0,0,5.08,13.0,61.54
+CE Dean,L Paul,ODI,30,24.0,1,15,0,0,4.8,30.0,50.0
 CE Dean,L Wolvaardt,ODI,120,108.0,3,51,9,1,5.4,40.0,42.5
 CE Dean,L Wolvaardt,T20I,32,45.0,2,10,4,1,8.44,16.0,31.25
 CE Dean,LM Kasperek,ODI,14,4.0,1,11,0,0,1.71,14.0,78.57
@@ -22025,6 +22062,7 @@ CE Dean,N de Klerk,ODI,24,36.0,1,8,6,0,9.0,24.0,33.33
 CE Dean,N de Klerk,T20I,14,15.0,1,5,1,0,6.43,14.0,35.71
 CE Dean,Najiha Alvi,ODI,21,15.0,0,13,1,0,4.29,21.0,61.9
 CE Dean,Nigar Sultana,ODI,20,19.0,0,10,2,0,5.7,20.0,50.0
+CE Dean,O Prendergast,ODI,32,19.0,0,18,0,0,3.56,32.0,56.25
 CE Dean,OU Ranasinghe,ODI,17,4.0,0,13,0,0,1.41,17.0,76.47
 CE Dean,P Litchfield,T20I,19,23.0,2,12,3,1,7.26,9.5,63.16
 CE Dean,P Vastrakar,ODI,18,15.0,2,11,2,0,5.0,9.0,61.11
@@ -22843,7 +22881,7 @@ CJ Green,C Bosch,CPL,18,10.0,0,10,0,0,3.33,18.0,55.56
 CJ Green,C Connolly,BBL,16,11.0,0,8,1,0,4.12,16.0,50.0
 CJ Green,C Hemraj,CPL,12,16.0,2,5,1,1,8.0,6.0,41.67
 CJ Green,C Munro,BBL,61,74.0,1,19,3,3,7.28,61.0,31.15
-CJ Green,C Munro,CPL,97,123.0,5,44,8,8,7.61,19.4,45.36
+CJ Green,C Munro,CPL,110,138.0,5,51,9,9,7.53,22.0,46.36
 CJ Green,CA Ingram,BBL,26,29.0,0,11,1,2,6.69,26.0,42.31
 CJ Green,CA Lynn,BBL,39,64.0,2,9,4,3,9.85,19.5,23.08
 CJ Green,CAK Walton,CPL,13,6.0,1,10,0,0,2.77,13.0,76.92
@@ -22882,6 +22920,7 @@ CJ Green,JP Duminy,CPL,11,10.0,2,4,1,0,5.45,5.5,36.36
 CJ Green,JR Philippe,BBL,37,63.0,2,6,3,2,10.22,18.5,16.22
 CJ Green,JS Lehmann,BBL,16,11.0,0,7,0,0,4.12,16.0,43.75
 CJ Green,JW Wells,BBL,26,24.0,1,9,1,0,5.54,26.0,34.62
+CJ Green,K Pooran,CPL,10,13.0,0,6,1,1,7.8,10.0,60.0
 CJ Green,KA Pollard,CPL,13,12.0,0,4,0,0,5.54,13.0,30.77
 CJ Green,KMA Paul,CPL,18,29.0,0,8,4,0,9.67,18.0,44.44
 CJ Green,KP Pietersen,BBL,21,34.0,2,4,1,2,9.71,10.5,19.05
@@ -22911,7 +22950,7 @@ CJ Green,MW Short,BBL,38,42.0,0,14,2,2,6.63,38.0,36.84
 CJ Green,Mohammad Nabi,BBL,14,20.0,0,6,0,2,8.57,14.0,42.86
 CJ Green,Mohammad Rizwan,CPL,13,6.0,1,8,0,0,2.77,13.0,61.54
 CJ Green,Mohammad Rizwan,PSL,12,12.0,0,4,1,0,6.0,12.0,33.33
-CJ Green,N Pooran,CPL,72,55.0,0,38,4,1,4.58,72.0,52.78
+CJ Green,N Pooran,CPL,78,56.0,0,43,4,1,4.31,78.0,55.13
 CJ Green,NA McSweeney,BBL,22,23.0,1,6,1,0,6.27,22.0,27.27
 CJ Green,NCR Larkin,BBL,35,37.0,0,12,2,1,6.34,35.0,34.29
 CJ Green,NE Bonner,CPL,10,7.0,1,7,1,0,4.2,10.0,70.0
@@ -22927,7 +22966,7 @@ CJ Green,Q de Kock,CPL,37,55.0,0,11,6,1,8.92,37.0,29.73
 CJ Green,Q de Kock,IPL,10,13.0,0,4,2,0,7.8,10.0,40.0
 CJ Green,R Powell,CPL,17,20.0,1,7,1,1,7.06,17.0,41.18
 CJ Green,RA Reifer,CPL,23,18.0,1,10,0,1,4.7,23.0,43.48
-CJ Green,RL Chase,CPL,44,67.0,2,16,6,4,9.14,22.0,36.36
+CJ Green,RL Chase,CPL,46,68.0,2,17,6,4,8.87,23.0,36.96
 CJ Green,RRS Cornwall,CPL,40,64.0,2,16,3,6,9.6,20.0,40.0
 CJ Green,SA Abbott,BBL,11,6.0,0,5,0,0,3.27,11.0,45.45
 CJ Green,SB Harper,BBL,16,12.0,2,7,1,0,4.5,8.0,43.75
@@ -22936,7 +22975,7 @@ CJ Green,SD Hope,CPL,82,100.0,4,31,5,6,7.32,20.5,37.8
 CJ Green,SE Marsh,BBL,37,57.0,0,8,5,1,9.24,37.0,21.62
 CJ Green,SE Rutherford,CPL,21,18.0,1,8,0,1,5.14,21.0,38.1
 CJ Green,SO Hetmyer,CPL,62,33.0,2,43,4,0,3.19,31.0,69.35
-CJ Green,SP Narine,CPL,29,30.0,3,15,1,2,6.21,9.67,51.72
+CJ Green,SP Narine,CPL,34,31.0,3,19,1,2,5.47,11.33,55.88
 CJ Green,SPD Smith,BBL,18,22.0,0,3,1,0,7.33,18.0,16.67
 CJ Green,SPD Smith,CPL,11,12.0,0,2,1,0,6.55,11.0,18.18
 CJ Green,SSJ Brooks,CPL,14,16.0,1,4,1,0,6.86,14.0,28.57
@@ -22951,7 +22990,7 @@ CJ Green,T Webster,CPL,18,13.0,2,13,1,1,4.33,9.0,72.22
 CJ Green,TF Rogers,BBL,14,16.0,0,4,1,0,6.86,14.0,28.57
 CJ Green,TH David,BBL,16,17.0,0,6,0,1,6.38,16.0,37.5
 CJ Green,TK Curran,BBL,12,15.0,1,5,2,0,7.5,12.0,41.67
-CJ Green,TL Seifert,CPL,12,10.0,2,5,0,0,5.0,6.0,41.67
+CJ Green,TL Seifert,CPL,14,11.0,2,6,0,0,4.71,7.0,42.86
 CJ Green,TLW Cooper,BBL,14,13.0,1,4,1,0,5.57,14.0,28.57
 CJ Green,TLW Cooper,CPL,11,8.0,0,6,1,0,4.36,11.0,54.55
 CJ Green,TM Head,BBL,15,8.0,1,8,0,0,3.2,15.0,53.33
@@ -26111,9 +26150,11 @@ D Jansen,BA King,CPL,19,20.0,0,11,2,1,6.32,19.0,57.89
 D Jansen,F du Plessis,CPL,15,23.0,1,6,4,0,9.2,15.0,40.0
 D Jansen,K Lewis,CPL,14,15.0,0,10,2,1,6.43,14.0,71.43
 D Jansen,KR Mayers,CPL,12,21.0,0,2,0,2,10.5,12.0,16.67
+D Jansen,MB Kruger,ODI,21,6.0,0,17,0,0,1.71,21.0,80.95
 D Jansen,Maidul Islam,T20I,11,15.0,0,4,1,1,8.18,11.0,36.36
 D Jansen,R Satheesan,T20I,10,14.0,0,4,2,0,8.4,10.0,40.0
 D Jansen,RRS Cornwall,CPL,19,14.0,1,12,2,0,4.42,19.0,63.16
+D Jansen,Sikandar Raza,T20I,10,9.0,1,3,0,0,5.4,10.0,30.0
 D Johnson,AA Senn,T20I,10,5.0,0,6,0,0,3.0,10.0,60.0
 D Johnson,Ali Nadeem,T20I,13,27.0,0,1,1,2,12.46,13.0,7.69
 D Johnson,Aqib Iqbal,T20I,14,19.0,2,7,2,1,8.14,7.0,50.0
@@ -26245,6 +26286,8 @@ D Maisuria,Arun Yadav,T20I,10,27.0,0,2,2,2,16.2,10.0,20.0
 D Maisuria,BRM Taylor,T20I,12,21.0,0,3,4,0,10.5,12.0,25.0
 D Maisuria,C Rububagumya,T20I,16,17.0,1,8,2,0,6.38,16.0,50.0
 D Maisuria,CO Obuya,T20I,13,34.0,1,4,1,4,15.69,13.0,30.77
+D Maisuria,D Ndikubwimana,T20I,11,5.0,1,7,0,0,2.73,11.0,63.64
+D Maisuria,D Uwimana,T20I,11,14.0,1,5,0,1,7.64,11.0,45.45
 D Maisuria,F Damiao Couana,T20I,10,9.0,1,7,2,0,5.4,10.0,70.0
 D Maisuria,JO Adedeji,T20I,13,10.0,1,6,1,0,4.62,13.0,46.15
 D Maisuria,Jitin Singh,T20I,10,3.0,1,7,0,0,1.8,10.0,70.0
@@ -26265,6 +26308,11 @@ D Maisuria,SK Awiah,T20I,10,9.0,1,5,0,0,5.4,10.0,50.0
 D Maisuria,SL Verma,T20I,11,9.0,0,6,1,0,4.91,11.0,54.55
 D Maisuria,W Niyitanga,T20I,26,17.0,0,17,1,0,3.92,26.0,65.38
 D Maisuria,Waseem Yaqoob,T20I,17,9.0,3,14,2,0,3.18,5.67,82.35
+D Marikova-Moodley,Isabel Walker,T20I,12,10.0,0,7,1,0,5.0,12.0,58.33
+D Marikova-Moodley,K Sequiera,T20I,14,17.0,1,3,1,0,7.29,14.0,21.43
+D Marikova-Moodley,NT Raghunandan,T20I,11,12.0,1,5,1,0,6.55,11.0,45.45
+D Marikova-Moodley,S Sinha,T20I,13,8.0,0,9,1,0,3.69,13.0,69.23
+D Marikova-Moodley,SV Collyer,T20I,12,13.0,1,7,1,0,6.5,12.0,58.33
 D Marks,A Raza,T20I,11,19.0,2,4,4,0,10.36,5.5,36.36
 D Marks,ARA Chambers,T20I,13,18.0,0,8,3,0,8.31,13.0,61.54
 D Marks,B Niaz,T20I,12,20.0,0,2,1,1,10.0,12.0,16.67
@@ -26550,7 +26598,7 @@ D Pretorius,DJ Malan,T20I,10,15.0,1,4,1,1,9.0,10.0,40.0
 D Pretorius,DM de Silva,ODI,17,14.0,0,8,1,0,4.94,17.0,47.06
 D Pretorius,DM de Silva,T20I,11,8.0,1,4,0,0,4.36,11.0,36.36
 D Pretorius,DP Sibley,Test,93,44.0,0,77,8,0,2.84,93.0,82.8
-D Pretorius,E Lewis,CPL,20,12.0,2,11,0,0,3.6,10.0,55.0
+D Pretorius,E Lewis,CPL,21,13.0,2,11,0,0,3.71,10.5,52.38
 D Pretorius,EJG Morgan,ODI,24,13.0,1,14,1,0,3.25,24.0,58.33
 D Pretorius,EJG Morgan,T20I,18,26.0,1,7,1,2,8.67,18.0,38.89
 D Pretorius,F du Plessis,CPL,22,27.0,1,6,2,0,7.36,22.0,27.27
@@ -26562,7 +26610,7 @@ D Pretorius,Imad Wasim,CPL,19,27.0,1,7,2,1,8.53,19.0,36.84
 D Pretorius,Imam-ul-Haq,ODI,25,22.0,0,10,0,1,5.28,25.0,40.0
 D Pretorius,Imrul Kayes,ODI,20,20.0,1,10,1,1,6.0,20.0,50.0
 D Pretorius,Ishan Kishan,T20I,24,31.0,1,7,2,1,7.75,24.0,29.17
-D Pretorius,J Charles,CPL,48,86.0,2,17,10,4,10.75,24.0,35.42
+D Pretorius,J Charles,CPL,50,87.0,2,18,10,4,10.44,25.0,36.0
 D Pretorius,JC Buttler,ODI,14,12.0,0,6,1,0,5.14,14.0,42.86
 D Pretorius,JC Buttler,Test,46,17.0,1,40,3,0,2.22,46.0,86.96
 D Pretorius,JDS Neesham,ODI,32,33.0,0,16,3,1,6.19,32.0,50.0
@@ -26574,14 +26622,15 @@ D Pretorius,JM Bairstow,T20I,13,20.0,0,1,2,0,9.23,13.0,7.69
 D Pretorius,JO Holder,CPL,12,12.0,1,4,1,0,6.0,12.0,33.33
 D Pretorius,JP Greaves,CPL,13,17.0,0,4,2,0,7.85,13.0,30.77
 D Pretorius,K Alleyne,CPL,17,21.0,2,9,2,1,7.41,8.5,52.94
+D Pretorius,K Gore,CPL,17,24.0,0,8,1,1,8.47,17.0,47.06
 D Pretorius,KA Pollard,CPL,18,30.0,1,5,5,0,10.0,18.0,27.78
 D Pretorius,KD Karthik,IPL,10,20.0,1,3,0,2,12.0,10.0,30.0
 D Pretorius,KD Karthik,T20I,12,36.0,1,2,2,4,18.0,12.0,16.67
 D Pretorius,KHM James,CPL,11,26.0,0,1,3,1,14.18,11.0,9.09
 D Pretorius,KJ O'Brien,ODI,14,10.0,0,10,2,0,4.29,14.0,71.43
-D Pretorius,KR Mayers,CPL,24,39.0,1,11,5,1,9.75,24.0,45.83
+D Pretorius,KR Mayers,CPL,34,53.0,1,17,8,1,9.35,34.0,50.0
 D Pretorius,KS Williamson,ODI,26,16.0,0,17,2,0,3.69,26.0,65.38
-D Pretorius,KU Carty,CPL,13,17.0,0,2,1,0,7.85,13.0,15.38
+D Pretorius,KU Carty,CPL,18,22.0,1,4,1,0,7.33,18.0,22.22
 D Pretorius,LD Madushanka,ODI,11,6.0,1,8,1,0,3.27,11.0,72.73
 D Pretorius,LRPL Taylor,ODI,33,24.0,1,17,1,1,4.36,33.0,51.52
 D Pretorius,LS Livingstone,ODI,10,7.0,0,4,0,0,4.2,10.0,40.0
@@ -26676,7 +26725,8 @@ D Robson,J Chialoufas,T20I,13,8.0,0,8,0,0,3.69,13.0,61.54
 D Robson,S Austin,T20I,12,19.0,1,5,1,1,9.5,12.0,41.67
 D Robson,S Burdekin,T20I,11,7.0,0,5,0,0,3.82,11.0,45.45
 D Ruynekova,M Nikolic,T20I,10,5.0,0,5,0,0,3.0,10.0,50.0
-D Ruynekova,N Nojic,T20I,11,9.0,1,4,0,0,4.91,11.0,36.36
+D Ruynekova,M Stevanovic,T20I,19,14.0,0,11,1,0,4.42,19.0,57.89
+D Ruynekova,N Nojic,T20I,21,30.0,1,7,2,0,8.57,21.0,33.33
 D Ruynekova,RL Blake,T20I,13,18.0,0,4,2,0,8.31,13.0,30.77
 D Ruynekova,S Matijevic,T20I,26,31.0,0,14,3,0,7.15,26.0,53.85
 D Ruynekova,S Yildirim,T20I,17,24.0,0,8,3,0,8.47,17.0,47.06
@@ -30619,6 +30669,8 @@ DR Brown,SO Tikolo,ODI,13,8.0,1,8,0,0,3.69,13.0,61.54
 DR Brown,T Mishra,ODI,21,17.0,0,9,1,0,4.86,21.0,42.86
 DR Brown,TM Odoyo,ODI,12,6.0,0,7,0,0,3.0,12.0,58.33
 DR Gibson,A Gardner,T20I,13,18.0,0,4,1,1,8.31,13.0,30.77
+DR Gibson,A Hunter,ODI,27,23.0,0,13,2,0,5.11,27.0,48.15
+DR Gibson,A Tector,ODI,14,10.0,0,7,0,0,4.29,14.0,50.0
 DR Gibson,AC Kerr,ODI,10,7.0,0,4,0,0,4.2,10.0,40.0
 DR Gibson,AC Kerr,T20I,30,36.0,3,13,5,0,7.2,10.0,43.33
 DR Gibson,Aliya Riaz,T20I,14,23.0,0,4,3,0,9.86,14.0,28.57
@@ -30633,9 +30685,11 @@ DR Gibson,IC Gaze,ODI,10,8.0,1,6,1,0,4.8,10.0,60.0
 DR Gibson,IC Gaze,T20I,19,28.0,0,6,4,0,8.84,19.0,31.58
 DR Gibson,JI Rodrigues,T20I,15,29.0,0,1,4,0,11.6,15.0,6.67
 DR Gibson,JM Kerr,T20I,10,8.0,0,4,0,0,4.8,10.0,40.0
+DR Gibson,L Paul,ODI,14,9.0,0,8,1,0,3.86,14.0,57.14
 DR Gibson,ML Green,ODI,25,21.0,1,12,2,0,5.04,25.0,48.0
 DR Gibson,ML Green,T20I,36,35.0,1,18,3,1,5.83,36.0,50.0
 DR Gibson,NR Sciver-Brunt,WPL,12,32.0,1,3,4,2,16.0,12.0,25.0
+DR Gibson,R Stokell,ODI,13,17.0,0,6,3,0,7.85,13.0,46.15
 DR Gibson,SFM Devine,T20I,39,56.0,4,14,9,0,8.62,9.75,35.9
 DR Gibson,SW Bates,T20I,20,28.0,0,9,5,0,8.4,20.0,45.0
 DR Gibson,TM McGrath,T20I,12,14.0,1,7,3,0,7.0,12.0,58.33
@@ -30668,7 +30722,7 @@ DR Sams,BM Duckett,BBL,14,28.0,1,3,3,0,12.0,14.0,21.43
 DR Sams,BR McDermott,BBL,56,88.0,3,24,10,4,9.43,18.67,42.86
 DR Sams,Babar Azam,PSL,23,41.0,0,8,6,0,10.7,23.0,34.78
 DR Sams,C Munro,BBL,37,50.0,1,14,4,0,8.11,37.0,37.84
-DR Sams,C Munro,CPL,11,18.0,0,1,2,0,9.82,11.0,9.09
+DR Sams,C Munro,CPL,17,25.0,0,4,3,0,8.82,17.0,23.53
 DR Sams,CA Ingram,BBL,10,13.0,0,4,2,0,7.8,10.0,40.0
 DR Sams,CA Lynn,BBL,21,25.0,1,4,0,1,7.14,21.0,19.05
 DR Sams,CL White,BBL,21,25.0,2,7,3,0,7.14,10.5,33.33
@@ -30699,6 +30753,7 @@ DR Sams,JR Philippe,BBL,62,80.0,3,26,9,1,7.74,20.67,41.94
 DR Sams,JR Philippe,IPL,10,9.0,0,6,1,0,5.4,10.0,60.0
 DR Sams,JW Wells,BBL,37,56.0,2,5,3,1,9.08,18.5,13.51
 DR Sams,K Gore,CPL,23,28.0,0,11,3,1,7.3,23.0,47.83
+DR Sams,KIC Asalanka,CPL,11,9.0,0,2,0,0,4.91,11.0,18.18
 DR Sams,KIC Asalanka,T20I,10,17.0,0,4,1,1,10.2,10.0,40.0
 DR Sams,KL Rahul,IPL,33,56.0,0,12,2,4,10.18,33.0,36.36
 DR Sams,KL Rahul,T20I,10,8.0,1,6,0,0,4.8,10.0,60.0
@@ -30723,7 +30778,7 @@ DR Sams,MT Renshaw,BBL,16,17.0,2,7,2,0,6.38,8.0,43.75
 DR Sams,MW Harvey,BBL,15,16.0,2,7,2,0,6.4,7.5,46.67
 DR Sams,MW Short,BBL,40,74.0,1,9,7,4,11.1,40.0,22.5
 DR Sams,N Bidaisee,CPL,10,10.0,1,4,1,0,6.0,10.0,40.0
-DR Sams,N Pooran,CPL,15,23.0,0,1,0,1,9.2,15.0,6.67
+DR Sams,N Pooran,CPL,19,24.0,0,4,0,1,7.58,19.0,21.05
 DR Sams,NA McSweeney,BBL,11,20.0,1,2,0,2,10.91,11.0,18.18
 DR Sams,NCR Larkin,BBL,43,72.0,2,10,7,2,10.05,21.5,23.26
 DR Sams,NJ Maddinson,BBL,20,10.0,1,14,1,0,3.0,20.0,70.0
@@ -30732,12 +30787,14 @@ DR Sams,PD Salt,BBL,11,5.0,3,9,1,0,2.73,3.67,81.82
 DR Sams,PK Garg,IPL,10,19.0,0,3,2,1,11.4,10.0,30.0
 DR Sams,PP Shaw,IPL,21,29.0,0,8,3,1,8.29,21.0,38.1
 DR Sams,Q de Kock,IPL,12,19.0,0,4,3,0,9.5,12.0,33.33
+DR Sams,RL Chase,CPL,10,11.0,1,4,1,0,6.6,10.0,40.0
 DR Sams,RR Hendricks,PSL,15,19.0,0,3,1,0,7.6,15.0,20.0
 DR Sams,S Milenko,BBL,16,27.0,1,4,3,1,10.12,16.0,25.0
 DR Sams,SB Harper,BBL,21,38.0,1,5,4,1,10.86,21.0,23.81
 DR Sams,SD Heazlett,BBL,23,33.0,2,12,7,0,8.61,11.5,52.17
 DR Sams,SD Hope,CPL,21,31.0,0,3,2,1,8.86,21.0,14.29
 DR Sams,SE Marsh,BBL,25,50.0,0,5,2,3,12.0,25.0,20.0
+DR Sams,SP Narine,CPL,10,11.0,0,4,0,1,6.6,10.0,40.0
 DR Sams,SPD Smith,BBL,17,39.0,1,4,1,4,13.76,17.0,23.53
 DR Sams,Sahibzada Farhan,PSL,11,22.0,0,2,1,2,12.0,11.0,18.18
 DR Sams,T Banton,BBL,10,32.0,0,3,3,3,19.2,10.0,30.0
@@ -32137,6 +32194,7 @@ Damini Ramesh,Dok Da Nit,T20I,11,3.0,0,11,0,0,1.64,11.0,100.0
 Damini Ramesh,KM Myat,T20I,14,10.0,0,10,0,0,4.29,14.0,71.43
 Damini Ramesh,LL Htun,T20I,13,7.0,0,8,0,0,3.23,13.0,61.54
 Damini Ramesh,MPP San,T20I,10,9.0,0,8,2,0,5.4,10.0,80.0
+Danaya Ilieva,N Nojic,T20I,19,27.0,0,3,2,0,8.53,19.0,15.79
 Danish Aziz,HE van der Dussen,ODI,17,18.0,0,8,3,0,6.35,17.0,47.06
 Danish Jasnaik,Muhammad Tanveer,T20I,12,24.0,1,4,1,2,12.0,12.0,33.33
 Danish Jasnaik,Virandeep Singh,T20I,12,30.0,0,2,3,2,15.0,12.0,16.67
@@ -32330,6 +32388,11 @@ Dewald Pretorius,MA Butcher,Test,68,40.0,0,52,6,0,3.53,68.0,76.47
 Dewald Pretorius,ME Trescothick,Test,74,35.0,0,59,5,0,2.84,74.0,79.73
 Dewald Pretorius,MP Vaughan,Test,77,64.0,1,48,7,0,4.99,77.0,62.34
 Dewald Pretorius,N Hussain,Test,65,36.0,0,52,7,0,3.32,65.0,80.0
+Deya Stefanova,D Demic,T20I,10,12.0,1,4,1,0,7.2,10.0,40.0
+Deya Stefanova,H Leko,T20I,11,12.0,0,4,1,0,6.55,11.0,36.36
+Deya Stefanova,M Perisic,T20I,12,11.0,0,4,0,0,5.5,12.0,33.33
+Deya Stefanova,M Stevanovic,T20I,11,14.0,1,4,2,0,7.64,11.0,36.36
+Deya Stefanova,N Nojic,T20I,21,20.0,0,9,1,0,5.71,21.0,42.86
 Dhananjay Rao,Adnan Mirza,T20I,13,18.0,2,7,4,0,8.31,6.5,53.85
 Dhananjay Rao,Amir Farooq,T20I,12,9.0,1,7,1,0,4.5,12.0,58.33
 Dhananjay Rao,Muhammad Tanveer,T20I,10,13.0,0,5,1,1,7.8,10.0,50.0
@@ -32468,6 +32531,7 @@ Dolar Mahmud,Mohammad Tauqir,ODI,10,14.0,1,5,2,0,8.4,10.0,50.0
 Dolar Mahmud,RG Sharma,ODI,14,12.0,0,10,1,1,5.14,14.0,71.43
 Dolar Mahmud,S Matsikenyeri,ODI,10,11.0,0,4,1,0,6.6,10.0,40.0
 Dolar Mahmud,ST Jayasuriya,ODI,11,27.0,0,4,4,1,14.73,11.0,36.36
+Dunja Miskovic,V Nikolova,T20I,17,26.0,0,6,4,0,9.18,17.0,35.29
 E Anyipo,A van der Merwe,T20I,16,22.0,0,8,3,0,8.25,16.0,50.0
 E Anyipo,B Rawal,T20I,21,12.0,0,14,1,0,3.43,21.0,66.67
 E Anyipo,CS Mugeri-Tiripano,T20I,14,23.0,0,7,5,0,9.86,14.0,50.0
@@ -32571,11 +32635,13 @@ E Bisht,T Chetty,ODI,74,30.0,5,53,2,0,2.43,14.8,71.62
 E Bisht,TS Sekhukhune,ODI,11,2.0,0,9,0,0,1.09,11.0,81.82
 E Bisht,TT Beaumont,ODI,80,60.0,0,48,8,0,4.5,80.0,60.0
 E Bosch,AGS Gous,CPL,12,16.0,0,4,0,1,8.0,12.0,33.33
-E Bosch,BJ Bennett,T20I,10,15.0,0,5,1,1,9.0,10.0,50.0
+E Bosch,BJ Bennett,T20I,13,20.0,0,6,2,1,9.23,13.0,46.15
 E Bosch,C Munro,CPL,17,20.0,1,7,1,1,7.06,17.0,41.18
 E Bosch,DP Conway,ODI,18,17.0,0,10,1,0,5.67,18.0,55.56
+E Bosch,I Kaia,T20I,10,7.0,1,6,0,0,4.2,10.0,60.0
+E Bosch,L Steenkamp,T20I,12,28.0,0,5,1,2,14.0,12.0,41.67
 E Bosch,N Pooran,CPL,18,27.0,0,6,2,1,9.0,18.0,33.33
-E Bosch,Sikandar Raza,T20I,14,8.0,1,10,1,0,3.43,14.0,71.43
+E Bosch,Sikandar Raza,T20I,17,16.0,1,11,1,1,5.65,17.0,64.71
 E Bosch,WA Young,ODI,17,11.0,1,11,1,0,3.88,17.0,64.71
 E Bourgaize,SK Reddy,T20I,15,23.0,0,8,1,0,9.2,15.0,53.33
 E Chance,A Doddaballapur,T20I,19,15.0,0,12,1,0,4.74,19.0,63.16
@@ -32777,6 +32843,8 @@ E Kuncova,Bijeyata Kumari,T20I,18,18.0,0,8,1,0,6.0,18.0,44.44
 E Kuncova,E Vukusic,T20I,17,35.0,0,1,3,0,12.35,17.0,5.88
 E Kuncova,EAS Ferrary,T20I,14,22.0,0,4,3,0,9.43,14.0,28.57
 E Kuncova,I Chathurani,T20I,16,17.0,0,7,2,0,6.38,16.0,43.75
+E Kuncova,Isabel Walker,T20I,19,21.0,1,9,1,0,6.63,19.0,47.37
+E Kuncova,K Sequiera,T20I,15,13.0,1,10,1,0,5.2,15.0,66.67
 E Kuncova,L Krvaric,T20I,12,16.0,0,2,1,0,8.0,12.0,16.67
 E Kuncova,N Caruana,T20I,29,33.0,1,9,2,0,6.83,29.0,31.03
 E Kuncova,Ragne Hallik,T20I,13,14.0,0,7,2,0,6.46,13.0,53.85
@@ -32928,7 +32996,7 @@ E Packard,Luka Woods,T20I,13,29.0,1,2,4,1,13.38,13.0,15.38
 E Packard,S Davizi,T20I,19,36.0,1,4,4,1,11.37,19.0,21.05
 E Packard,Yasir Ali,T20I,10,18.0,0,3,0,2,10.8,10.0,30.0
 E Packard,Zeeshan Khan,T20I,11,14.0,0,5,2,0,7.64,11.0,45.45
-E Prokic,D Ruynekova,T20I,14,13.0,0,4,0,0,5.57,14.0,28.57
+E Prokic,D Ruynekova,T20I,22,26.0,0,7,2,0,7.09,22.0,31.82
 E Prokic,G Ilarionova,T20I,16,29.0,0,4,3,0,10.88,16.0,25.0
 E Prokic,M Abadjieva,T20I,11,4.0,0,7,0,0,2.18,11.0,63.64
 E Prokic,M Syrioti,T20I,13,10.0,0,6,0,0,4.62,13.0,46.15
@@ -32943,6 +33011,7 @@ E Rukiriza,AR Ramjani,T20I,27,29.0,0,10,3,0,6.44,27.0,37.04
 E Rukiriza,Ayaz Dadabhai,T20I,13,21.0,1,4,2,1,9.69,13.0,30.77
 E Rukiriza,D Ajekun,T20I,21,18.0,2,11,1,0,5.14,10.5,52.38
 E Rukiriza,D Kansonkho,T20I,33,24.0,1,16,2,0,4.36,33.0,48.48
+E Rukiriza,DM Gondaria,T20I,14,23.0,0,6,3,1,9.86,14.0,42.86
 E Rukiriza,DM Nakrani,T20I,12,14.0,0,5,0,1,7.0,12.0,41.67
 E Rukiriza,Fiaz Ahmed,T20I,19,21.0,0,4,0,1,6.63,19.0,21.05
 E Rukiriza,I Danladi,T20I,52,54.0,1,24,1,2,6.23,52.0,46.15
@@ -32965,7 +33034,7 @@ E Rukiriza,N Mugabe,T20I,12,14.0,0,6,1,1,7.0,12.0,50.0
 E Rukiriza,NM Odhiambo,T20I,11,10.0,0,4,1,0,5.45,11.0,36.36
 E Rukiriza,O Olaleye,T20I,11,16.0,0,5,1,1,8.73,11.0,45.45
 E Rukiriza,OH Agbomadzie,T20I,18,11.0,0,12,1,0,3.67,18.0,66.67
-E Rukiriza,P Silas,T20I,15,20.0,1,5,1,1,8.0,15.0,33.33
+E Rukiriza,P Silas,T20I,20,21.0,1,9,1,1,6.3,20.0,45.0
 E Rukiriza,R Abdulkareem,T20I,11,8.0,2,8,1,0,4.36,5.5,72.73
 E Rukiriza,R Coker,T20I,25,15.0,2,17,1,0,3.6,12.5,68.0
 E Rukiriza,R Lungu,T20I,20,13.0,2,16,3,0,3.9,10.0,80.0
@@ -32973,7 +33042,7 @@ E Rukiriza,R Lutaaya,T20I,30,31.0,2,15,0,2,6.2,15.0,50.0
 E Rukiriza,R Nehonde,T20I,22,23.0,2,11,2,1,6.27,11.0,50.0
 E Rukiriza,RB Patel,T20I,10,13.0,0,0,1,0,7.8,10.0,0.0
 E Rukiriza,RG Mukasa,T20I,15,25.0,0,4,4,0,10.0,15.0,26.67
-E Rukiriza,RR Patel,T20I,10,9.0,0,5,1,0,5.4,10.0,50.0
+E Rukiriza,RR Patel,T20I,17,23.0,0,7,3,0,8.12,17.0,41.18
 E Rukiriza,Riazat Ali Shah,T20I,29,39.0,0,12,4,2,8.07,29.0,41.38
 E Rukiriza,S Singh,T20I,18,18.0,1,6,0,0,6.0,18.0,33.33
 E Rukiriza,S Thakor,T20I,12,37.0,1,4,4,3,18.5,12.0,33.33
@@ -32987,7 +33056,7 @@ E Rukiriza,Selim Salau,T20I,17,34.0,1,3,1,3,12.0,17.0,17.65
 E Rukiriza,Sohail Ahmed,T20I,13,6.0,0,7,0,0,2.77,13.0,53.85
 E Rukiriza,Sulaimon Runsewe,T20I,18,26.0,2,9,3,1,8.67,9.0,50.0
 E Rukiriza,T Perera,T20I,11,20.0,1,4,2,1,10.91,11.0,36.36
-E Rukiriza,V Balakrishnan,T20I,10,16.0,1,3,1,1,9.6,10.0,30.0
+E Rukiriza,V Balakrishnan,T20I,17,31.0,1,4,4,1,10.94,17.0,23.53
 E Rukiriza,V Mbazo,T20I,21,15.0,2,12,0,1,4.29,10.5,57.14
 E Schiferli,AJ Burger,ODI,15,18.0,0,7,3,0,7.2,15.0,46.67
 E Schiferli,CB Wishart,ODI,12,10.0,0,9,2,0,5.0,12.0,75.0
@@ -33708,11 +33777,12 @@ ER Oza,N Chaiwai,T20I,10,15.0,0,2,2,0,9.0,10.0,20.0
 ER Oza,N Chantam,T20I,34,35.0,2,15,4,0,6.18,17.0,44.12
 ER Oza,N Joshi,T20I,13,10.0,3,11,0,0,4.62,4.33,84.62
 ER Oza,N Koncharoenkai,T20I,21,17.0,0,8,1,0,4.86,21.0,38.1
+ER Oza,NPAN Sakarini,T20I,10,7.0,1,6,1,0,4.2,10.0,60.0
 ER Oza,P Maya,T20I,15,21.0,0,5,3,0,8.4,15.0,33.33
 ER Oza,P Siaka,ODI,11,8.0,0,6,1,0,4.36,11.0,54.55
 ER Oza,PE Mendonca,T20I,12,10.0,1,8,2,0,5.0,12.0,66.67
 ER Oza,R Kanoh,T20I,10,11.0,1,4,1,0,6.6,10.0,40.0
-ER Oza,RD Pangestuti,T20I,11,10.0,0,6,1,0,5.45,11.0,54.55
+ER Oza,RD Pangestuti,T20I,16,11.0,1,10,1,0,4.12,16.0,62.5
 ER Oza,S Khiaoto,T20I,12,5.0,1,7,0,0,2.5,12.0,58.33
 ER Oza,S Tippoch,T20I,10,9.0,0,4,0,0,5.4,10.0,40.0
 ER Oza,SA Wittmann,T20I,11,12.0,0,6,2,0,6.55,11.0,54.55
@@ -33720,6 +33790,7 @@ ER Oza,SD Hussein,T20I,12,4.0,0,9,0,0,2.0,12.0,75.0
 ER Oza,SL Kalis,T20I,14,19.0,1,2,1,0,8.14,14.0,14.29
 ER Oza,SN Shihepo,T20I,10,9.0,0,2,0,0,5.4,10.0,20.0
 ER Oza,Sana Butt,T20I,11,0.0,1,11,0,0,0.0,11.0,100.0
+ER Oza,Sharmin Akhter,T20I,10,15.0,0,2,2,0,9.0,10.0,20.0
 ER Oza,T Ruma,T20I,11,5.0,0,6,0,0,2.73,11.0,54.55
 ER Oza,W Mwatile,T20I,35,40.0,0,15,3,1,6.86,35.0,42.86
 ER Oza,WA Duraisingam,T20I,17,9.0,0,11,0,0,3.18,17.0,64.71
@@ -34325,6 +34396,8 @@ F Khaliq,R Satheesan,T20I,12,21.0,0,5,2,1,10.5,12.0,41.67
 F Khaliq,Zaheer Zahiri,T20I,10,18.0,1,3,1,1,10.8,10.0,30.0
 F Khaliq,Zeeshan Khan,T20I,10,14.0,0,5,1,1,8.4,10.0,50.0
 F Martin,M Syrioti,T20I,17,15.0,0,9,1,0,5.29,17.0,52.94
+F Mutua,AB Kamara,T20I,11,12.0,0,6,2,0,6.55,11.0,54.55
+F Mutua,G Sesay,T20I,18,20.0,0,10,2,0,6.67,18.0,55.56
 F Mutua,IO Okpe,T20I,11,13.0,4,6,2,0,7.09,2.75,54.55
 F Mutua,Mohameed Taiwo,T20I,11,12.0,2,5,1,0,6.55,5.5,45.45
 F Mutua,O Olaleye,T20I,11,27.0,0,2,2,1,14.73,11.0,18.18
@@ -35336,7 +35409,7 @@ Fahima Khatun,H Deol,ODI,38,35.0,0,13,2,0,5.53,38.0,34.21
 Fahima Khatun,H Kaur,ODI,25,18.0,0,10,0,0,4.32,25.0,40.0
 Fahima Khatun,H Kaur,T20I,49,58.0,2,18,7,1,7.1,24.5,36.73
 Fahima Khatun,H Madavi,ODI,18,11.0,0,7,0,0,3.67,18.0,38.89
-Fahima Khatun,H Madavi,T20I,34,33.0,0,12,3,0,5.82,34.0,35.29
+Fahima Khatun,H Madavi,T20I,39,36.0,0,14,3,0,5.54,39.0,35.9
 Fahima Khatun,HC Knight,ODI,16,5.0,0,12,0,0,1.88,16.0,75.0
 Fahima Khatun,HK Matthews,ODI,14,14.0,0,6,2,0,6.0,14.0,42.86
 Fahima Khatun,HK Matthews,T20I,17,30.0,0,2,4,0,10.59,17.0,11.76
@@ -35357,7 +35430,7 @@ Fahima Khatun,M du Preez,ODI,23,15.0,0,14,2,0,3.91,23.0,60.87
 Fahima Khatun,Muneeba Ali,ODI,42,30.0,1,23,3,0,4.29,42.0,54.76
 Fahima Khatun,N Koncharoenkai,ODI,11,3.0,1,8,0,0,1.64,11.0,72.73
 Fahima Khatun,N de Klerk,ODI,10,17.0,0,3,3,0,10.2,10.0,30.0
-Fahima Khatun,NND de Silva,T20I,49,55.0,1,17,5,0,6.73,49.0,34.69
+Fahima Khatun,NND de Silva,T20I,56,63.0,1,19,6,0,6.75,56.0,33.93
 Fahima Khatun,Najiha Alvi,ODI,18,8.0,0,10,0,0,2.67,18.0,55.56
 Fahima Khatun,Nida Dar,ODI,37,23.0,0,21,2,0,3.73,37.0,56.76
 Fahima Khatun,Nida Dar,T20I,15,13.0,0,3,0,0,5.2,15.0,20.0
@@ -35542,6 +35615,7 @@ Fatima Sana,CL Tryon,T20I,12,14.0,0,3,1,0,7.0,12.0,25.0
 Fatima Sana,CN Nation,ODI,22,29.0,0,6,4,0,7.91,22.0,27.27
 Fatima Sana,CN Nation,T20I,22,15.0,3,16,2,0,4.09,7.33,72.73
 Fatima Sana,DB Sharma,ODI,21,20.0,0,11,2,0,5.71,21.0,52.38
+Fatima Sana,DB Sharma,T20I,12,9.0,0,5,0,0,4.5,12.0,41.67
 Fatima Sana,DJS Dottin,ODI,54,60.0,2,30,10,0,6.67,27.0,55.56
 Fatima Sana,DN Wyatt,ODI,17,25.0,0,9,5,0,8.82,17.0,52.94
 Fatima Sana,DN Wyatt,T20I,19,31.0,0,7,5,0,9.79,19.0,36.84
@@ -35554,7 +35628,7 @@ Fatima Sana,GH Lewis,T20I,49,50.0,3,27,8,0,6.12,16.33,55.1
 Fatima Sana,GWHM Perera,ODI,25,12.0,1,18,1,0,2.88,25.0,72.0
 Fatima Sana,H Deol,ODI,15,8.0,0,12,1,0,3.2,15.0,80.0
 Fatima Sana,H Karunaratne,ODI,17,1.0,0,17,0,0,0.35,17.0,100.0
-Fatima Sana,H Kaur,T20I,14,23.0,1,2,3,0,9.86,14.0,14.29
+Fatima Sana,H Kaur,T20I,19,24.0,1,6,3,0,7.58,19.0,31.58
 Fatima Sana,H Madavi,ODI,63,51.0,0,34,5,0,4.86,63.0,53.97
 Fatima Sana,H Madavi,T20I,13,14.0,1,5,2,0,6.46,13.0,38.46
 Fatima Sana,HC Knight,T20I,13,16.0,0,5,2,0,7.38,13.0,38.46
@@ -35614,7 +35688,7 @@ Fatima Sana,S Ismail,ODI,10,9.0,2,4,0,0,5.4,5.0,40.0
 Fatima Sana,S Luus,ODI,75,43.0,2,52,4,0,3.44,37.5,69.33
 Fatima Sana,S Luus,T20I,25,23.0,2,10,1,1,5.52,12.5,40.0
 Fatima Sana,S Mandhana,ODI,23,14.0,1,14,1,0,3.65,23.0,60.87
-Fatima Sana,S Mandhana,T20I,28,33.0,0,12,4,1,7.07,28.0,42.86
+Fatima Sana,S Mandhana,T20I,31,37.0,1,14,5,1,7.16,31.0,45.16
 Fatima Sana,S Rana,ODI,13,17.0,1,5,2,0,7.85,13.0,38.46
 Fatima Sana,SA Campbelle,ODI,39,34.0,1,21,4,0,5.23,39.0,53.85
 Fatima Sana,SA Campbelle,T20I,24,21.0,0,10,1,0,5.25,24.0,41.67
@@ -35623,7 +35697,7 @@ Fatima Sana,SR Taylor,ODI,65,50.0,0,31,3,0,4.62,65.0,47.69
 Fatima Sana,SR Taylor,T20I,22,16.0,1,11,1,0,4.36,22.0,50.0
 Fatima Sana,SW Bates,ODI,75,72.0,0,41,10,0,5.76,75.0,54.67
 Fatima Sana,SW Bates,T20I,26,28.0,2,13,3,0,6.46,13.0,50.0
-Fatima Sana,Shafali Verma,T20I,15,19.0,0,8,2,0,7.6,15.0,53.33
+Fatima Sana,Shafali Verma,T20I,18,23.0,1,10,3,0,7.67,18.0,55.56
 Fatima Sana,Shamima Sultana,ODI,19,15.0,0,14,3,0,4.74,19.0,73.68
 Fatima Sana,Sharmin Akhter,ODI,40,28.0,0,27,4,0,4.2,40.0,67.5
 Fatima Sana,T Brits,ODI,106,119.0,1,48,17,0,6.74,106.0,45.28
@@ -36312,7 +36386,7 @@ G Motie,JT Smuts,T20I,10,7.0,1,4,0,0,4.2,10.0,40.0
 G Motie,Jaker Ali,ODI,25,10.0,1,19,1,0,2.4,25.0,76.0
 G Motie,Jaker Ali,T20I,21,27.0,0,7,0,2,7.71,21.0,33.33
 G Motie,K Verreynne,Test,27,18.0,0,17,2,0,4.0,27.0,62.96
-G Motie,KA Pollard,CPL,15,18.0,2,6,1,1,7.2,7.5,40.0
+G Motie,KA Pollard,CPL,17,24.0,3,7,1,2,8.47,5.67,41.18
 G Motie,KHM James,CPL,16,11.0,3,9,1,0,4.12,5.33,56.25
 G Motie,KIC Asalanka,ODI,22,21.0,1,11,3,0,5.73,22.0,50.0
 G Motie,KNM Fernando,ODI,29,24.0,1,15,3,0,4.97,29.0,51.72
@@ -36341,7 +36415,7 @@ G Motie,Mohammad Rizwan,ODI,38,27.0,1,22,3,0,4.26,38.0,57.89
 G Motie,Mohammad Rizwan,T20I,10,14.0,0,4,1,1,8.4,10.0,40.0
 G Motie,Mohammad Rizwan,Test,53,20.0,0,40,1,0,2.26,53.0,75.47
 G Motie,N Burger,Test,22,10.0,1,17,1,0,2.73,22.0,77.27
-G Motie,N Pooran,CPL,11,14.0,1,3,0,1,7.64,11.0,27.27
+G Motie,N Pooran,CPL,16,32.0,2,5,0,4,12.0,8.0,31.25
 G Motie,NF Kelly,ODI,21,19.0,1,9,2,0,5.43,21.0,42.86
 G Motie,NG Smith,ODI,13,5.0,0,8,0,0,2.31,13.0,61.54
 G Motie,Nazmul Hossain Shanto,ODI,43,27.0,2,24,2,0,3.77,21.5,55.81
@@ -36363,7 +36437,7 @@ G Motie,RA Reifer,CPL,18,27.0,0,5,1,2,9.0,18.0,27.78
 G Motie,RD Rickelton,T20I,19,34.0,1,7,2,3,10.74,19.0,36.84
 G Motie,RD Rickelton,Test,17,11.0,0,9,1,0,3.88,17.0,52.94
 G Motie,RG Sharma,ODI,14,6.0,0,11,1,0,2.57,14.0,78.57
-G Motie,RL Chase,CPL,35,36.0,3,12,1,1,6.17,11.67,34.29
+G Motie,RL Chase,CPL,39,46.0,3,12,1,2,7.08,13.0,30.77
 G Motie,RR Hendricks,T20I,11,20.0,0,2,2,1,10.91,11.0,18.18
 G Motie,RRS Cornwall,CPL,13,18.0,0,5,0,2,8.31,13.0,38.46
 G Motie,S Bau,T20I,12,20.0,0,4,2,1,10.0,12.0,33.33
@@ -36396,7 +36470,7 @@ G Motie,T de Zorzi,Test,95,74.0,1,59,8,2,4.67,95.0,62.11
 G Motie,TC Bruce,T20I,12,14.0,1,5,0,1,7.0,12.0,41.67
 G Motie,TE Tsiga,Test,44,4.0,2,41,0,0,0.55,22.0,93.18
 G Motie,TL Chivanga,Test,11,9.0,1,9,0,1,4.91,11.0,81.82
-G Motie,TL Seifert,CPL,10,5.0,1,5,0,0,3.0,10.0,50.0
+G Motie,TL Seifert,CPL,16,11.0,2,9,1,0,4.12,8.0,56.25
 G Motie,TM Head,Test,13,16.0,0,3,2,0,7.38,13.0,23.08
 G Motie,TWM Latham,ODI,50,30.0,1,32,2,0,3.6,50.0,64.0
 G Motie,Tamim Iqbal,ODI,31,22.0,1,22,4,0,4.26,31.0,70.97
@@ -36482,8 +36556,10 @@ G Sanjeewa,Mustafa Balkis,T20I,12,13.0,0,7,2,0,6.5,12.0,58.33
 G Sanjeewa,Niv Nagavkar,T20I,10,5.0,0,6,0,0,3.0,10.0,60.0
 G Sesay,AJ Prajapati,T20I,10,2.0,1,8,0,0,1.2,10.0,80.0
 G Sesay,Adil Butt,T20I,12,24.0,1,6,4,1,12.0,12.0,50.0
+G Sesay,C Musemez,T20I,11,9.0,1,8,2,0,4.91,11.0,72.73
 G Sesay,D Ajekun,T20I,10,7.0,1,6,1,0,4.2,10.0,60.0
 G Sesay,D Ndikubwimana,T20I,14,8.0,1,10,0,0,3.43,14.0,71.43
+G Sesay,DM Gondaria,T20I,14,16.0,1,7,1,1,6.86,14.0,50.0
 G Sesay,Hamza Khan,T20I,12,16.0,1,7,1,1,8.0,12.0,58.33
 G Sesay,II Selemani,T20I,13,27.0,1,4,2,2,12.46,13.0,30.77
 G Sesay,IO Okpe,T20I,15,21.0,0,5,1,1,8.4,15.0,33.33
@@ -39135,7 +39211,9 @@ H Hotchandani,N Chaiwai,T20I,11,10.0,2,4,1,0,5.45,5.5,36.36
 H Hotchandani,N Chantam,T20I,19,18.0,2,9,1,0,5.68,9.5,47.37
 H Hotchandani,N Joshi,T20I,12,4.0,0,9,0,0,2.0,12.0,75.0
 H Hotchandani,N Koncharoenkai,T20I,44,25.0,2,27,2,0,3.41,22.0,61.36
-H Hotchandani,NKF Rada Rani,T20I,11,4.0,0,8,0,0,2.18,11.0,72.73
+H Hotchandani,NKF Rada Rani,T20I,17,5.0,1,13,0,0,1.76,17.0,76.47
+H Hotchandani,NPAN Sakarini,T20I,12,3.0,0,9,0,0,1.5,12.0,75.0
+H Hotchandani,Nigar Sultana,T20I,12,9.0,0,9,2,0,4.5,12.0,75.0
 H Hotchandani,RMVD Gunaratne,T20I,11,6.0,0,5,0,0,3.27,11.0,45.45
 H Hotchandani,SA Wittmann,T20I,33,34.0,1,16,4,0,6.18,33.0,48.48
 H Hotchandani,SL Kalis,T20I,22,30.0,0,5,1,1,8.18,22.0,22.73
@@ -39344,6 +39422,9 @@ H Lakov,Taranjeet Singh,T20I,13,33.0,0,4,6,1,15.23,13.0,30.77
 H Lakov,WAE Burton,T20I,18,14.0,1,10,2,0,4.67,18.0,55.56
 H Lakov,WJ Cope,T20I,17,16.0,0,9,2,0,5.65,17.0,52.94
 H Leko,AIV Benatar,T20I,14,13.0,0,9,1,0,5.57,14.0,64.29
+H Leko,D Demic,T20I,14,8.0,1,10,0,0,3.43,14.0,71.43
+H Leko,S Sarandeva,T20I,10,4.0,0,8,0,0,2.4,10.0,80.0
+H Leko,S Yordanova,T20I,12,1.0,0,12,0,0,0.5,12.0,100.0
 H Leko,T Kolcunova,T20I,15,12.0,0,7,0,0,4.8,15.0,46.67
 H Leko,Z Franova,T20I,19,13.0,0,10,0,0,4.11,19.0,52.63
 H Lin Aung,Ahmed Faiz,T20I,10,23.0,0,2,1,2,13.8,10.0,20.0
@@ -41788,7 +41869,7 @@ Haider Ali,HT Tector,T20I,11,11.0,1,6,2,0,6.0,11.0,54.55
 Haider Ali,Hammad Mirza,ODI,28,19.0,0,16,2,0,4.07,28.0,57.14
 Haider Ali,Hassan Nawaz,T20I,10,23.0,2,3,0,3,13.8,5.0,30.0
 Haider Ali,I Danladi,T20I,17,12.0,1,13,0,1,4.24,17.0,76.47
-Haider Ali,J Ramanandi,ODI,14,26.0,0,4,2,2,11.14,14.0,28.57
+Haider Ali,J Ramanandi,ODI,27,43.0,0,8,3,3,9.56,27.0,29.63
 Haider Ali,Jaker Ali,T20I,11,6.0,0,5,0,0,3.27,11.0,45.45
 Haider Ali,Karan KC,ODI,13,2.0,0,12,0,0,0.92,13.0,92.31
 Haider Ali,L Tucker,T20I,10,13.0,1,6,1,1,7.8,10.0,60.0
@@ -41800,12 +41881,13 @@ Haider Ali,RK Paudel,ODI,46,30.0,0,27,1,1,3.91,46.0,58.7
 Haider Ali,Raghav Dhawan,T20I,18,23.0,1,9,1,2,7.67,18.0,50.0
 Haider Ali,SG Mangela,T20I,14,13.0,0,6,1,0,5.57,14.0,42.86
 Haider Ali,SR Mukkamalla,ODI,37,22.0,1,23,2,0,3.57,37.0,62.16
+Haider Ali,Shakeel Ahmed,ODI,11,10.0,0,6,0,1,5.45,11.0,54.55
 Haider Ali,Shayan Jahangir,ODI,11,6.0,0,8,1,0,3.27,11.0,72.73
 Haider Ali,Shubham Ranjane,ODI,10,3.0,0,7,0,0,1.8,10.0,70.0
 Haider Ali,TL Seifert,T20I,12,20.0,0,3,2,1,10.0,12.0,25.0
 Haider Ali,Tanzid Hasan,T20I,13,18.0,0,6,2,1,8.31,13.0,46.15
 Haider Ali,Towhid Hridoy,T20I,12,11.0,1,6,0,1,5.5,12.0,50.0
-Haider Ali,V Shukla,ODI,14,7.0,0,7,0,0,3.0,14.0,50.0
+Haider Ali,V Shukla,ODI,22,10.0,0,12,0,0,2.73,22.0,54.55
 Haider Butt,G Chohan,T20I,10,8.0,0,5,1,0,4.8,10.0,50.0
 Hala Azmat,S Sriharsha,T20I,14,21.0,1,5,2,1,9.0,14.0,35.71
 Hala Azmat,SK Chandhrasekar,T20I,11,7.0,0,5,0,0,3.82,11.0,45.45
@@ -43324,7 +43406,7 @@ Hassan Khan,Mohammad Rizwan,CPL,11,12.0,0,5,2,0,6.55,11.0,45.45
 Hassan Khan,Mohammad Rizwan,PSL,10,4.0,1,6,0,0,2.4,10.0,60.0
 Hassan Khan,Q de Kock,CPL,11,12.0,1,3,1,0,6.55,11.0,27.27
 Hassan Khan,SB Harper,BBL,12,10.0,0,3,0,0,5.0,12.0,25.0
-Hassan Khan,SD Hope,CPL,11,16.0,0,3,1,1,8.73,11.0,27.27
+Hassan Khan,SD Hope,CPL,19,19.0,0,8,1,1,6.0,19.0,42.11
 Hassan Khan,SPD Smith,PSL,15,16.0,2,6,2,0,6.4,7.5,40.0
 Hassan Khan,SW Billings,PSL,16,18.0,1,3,0,1,6.75,16.0,18.75
 Hassan Khan,Sahibzada Farhan,PSL,13,19.0,0,5,2,1,8.77,13.0,38.46
@@ -43339,11 +43421,13 @@ Hassan Khan Mohammad,Meet Bhavsar,T20I,17,16.0,0,8,2,0,5.65,17.0,47.06
 Hassan Khan Mohammad,Virandeep Singh,T20I,12,17.0,1,5,2,0,8.5,12.0,41.67
 Hassan Mehmood,T Bharaj,T20I,16,28.0,1,7,2,2,10.5,16.0,43.75
 Hassnain Shah,A Sharma,ODI,11,10.0,0,5,1,0,5.45,11.0,45.45
+Hassnain Shah,AD Nath,ODI,15,12.0,0,10,2,0,4.8,15.0,66.67
 Hassnain Shah,AGS Gous,ODI,18,26.0,1,7,2,1,8.67,18.0,38.89
-Hassnain Shah,Adeeb Usmani,ODI,13,11.0,0,7,1,0,5.08,13.0,53.85
+Hassnain Shah,Adeeb Usmani,ODI,16,12.0,1,9,1,0,4.5,16.0,56.25
 Hassnain Shah,Arjun Kumal,ODI,11,8.0,1,6,0,0,4.36,11.0,54.55
 Hassnain Shah,DO Leicher,ODI,14,24.0,0,4,2,1,10.29,14.0,28.57
 Hassnain Shah,Harmeet Singh,ODI,11,16.0,0,5,3,0,8.73,11.0,45.45
+Hassnain Shah,Harpreet Singh,ODI,12,12.0,0,6,2,0,6.0,12.0,50.0
 Hassnain Shah,JN Frylinck,ODI,37,22.0,1,26,1,1,3.57,37.0,70.27
 Hassnain Shah,MD Patel,ODI,10,4.0,0,7,0,0,2.4,10.0,70.0
 Hassnain Shah,MG Erasmus,ODI,10,9.0,0,4,0,0,5.4,10.0,40.0
@@ -43351,6 +43435,7 @@ Hassnain Shah,Milind Kumar,ODI,18,25.0,0,7,1,1,8.33,18.0,38.89
 Hassnain Shah,NS Dhaliwal,ODI,23,14.0,1,14,1,0,3.65,23.0,60.87
 Hassnain Shah,SK Patel,ODI,18,20.0,0,10,3,0,6.67,18.0,55.56
 Hassnain Shah,SR Mukkamalla,ODI,15,16.0,0,7,2,0,6.4,15.0,46.67
+Hassnain Shah,T Suri,ODI,12,26.0,0,7,3,2,13.0,12.0,58.33
 Hassnain Shah,WP Myburgh,ODI,26,15.0,0,15,0,0,3.46,26.0,57.69
 Hassnain Shah,Waseem Muhammad,T20I,11,16.0,1,4,1,1,8.73,11.0,36.36
 Hassnain Shah,ZE Green,ODI,29,40.0,1,14,5,2,8.28,29.0,48.28
@@ -43417,6 +43502,7 @@ Hunain Shah,MG Bracewell,PSL,11,17.0,0,6,2,1,9.27,11.0,54.55
 Hunain Shah,MS Chapman,PSL,18,39.0,1,6,4,3,13.0,18.0,33.33
 Hunain Shah,N Pooran,CPL,17,26.0,1,5,1,2,9.18,17.0,29.41
 Hunain Shah,PI Walter,PSL,13,22.0,1,4,2,0,10.15,13.0,30.77
+Hunain Shah,SD Hope,CPL,15,22.0,0,4,1,1,8.8,15.0,26.67
 Hunain Shah,SPD Smith,PSL,15,46.0,0,3,6,3,18.4,15.0,20.0
 Hunain Shah,Shan Masood,PSL,14,18.0,1,6,1,1,7.71,14.0,42.86
 Hung Ying Ho,Apsari Begam,T20I,10,4.0,0,9,1,0,2.4,10.0,90.0
@@ -43697,6 +43783,7 @@ I Ntirenganya,P Silas,T20I,10,13.0,1,4,1,0,7.8,10.0,40.0
 I Ntirenganya,R Lungu,T20I,14,10.0,0,10,1,0,4.29,14.0,71.43
 I Ntirenganya,R Lutaaya,T20I,16,15.0,0,7,1,0,5.62,16.0,43.75
 I Ntirenganya,R Obuya,T20I,26,18.0,1,15,1,0,4.15,26.0,57.69
+I Ntirenganya,RN Patel,T20I,14,26.0,0,6,2,2,11.14,14.0,42.86
 I Ntirenganya,RR Patel,T20I,10,8.0,0,7,1,0,4.8,10.0,70.0
 I Ntirenganya,Raghav Dhawan,T20I,10,12.0,1,3,1,0,7.2,10.0,30.0
 I Ntirenganya,S Sesazi,T20I,19,20.0,2,10,3,0,6.32,9.5,52.63
@@ -43707,6 +43794,7 @@ I Ntirenganya,Sami Sohail,T20I,50,68.0,0,24,5,4,8.16,50.0,48.0
 I Ntirenganya,Selim Salau,T20I,33,35.0,1,19,2,2,6.36,33.0,57.58
 I Ntirenganya,Subham Patel,T20I,14,14.0,0,9,1,1,6.0,14.0,64.29
 I Ntirenganya,Sulaimon Runsewe,T20I,22,16.0,1,10,0,0,4.36,22.0,45.45
+I Ntirenganya,V Balakrishnan,T20I,14,9.0,1,10,1,0,3.86,14.0,71.43
 I Ntirenganya,VD Adewoye,T20I,17,17.0,2,9,0,1,6.0,8.5,52.94
 I Ntirenganya,Vasmiakram Chand,T20I,12,7.0,2,9,1,0,3.5,6.0,75.0
 I Ntirenganya,Y Jalloh,T20I,10,9.0,1,5,1,0,5.4,10.0,50.0
@@ -44709,13 +44797,14 @@ IE O'Brien,Yuvraj Singh,T20I,10,16.0,1,6,2,1,9.6,10.0,60.0
 IE O'Brien,Yuvraj Singh,Test,42,31.0,0,31,5,1,4.43,42.0,73.81
 IE O'Brien,Z Khan,Test,21,25.0,2,12,5,0,7.14,10.5,57.14
 IECM Wong,A Bosch,T20I,12,7.0,0,6,0,0,3.5,12.0,50.0
-IECM Wong,A Hunter,ODI,17,17.0,0,10,2,0,6.0,17.0,58.82
-IECM Wong,A Tector,ODI,13,10.0,1,10,2,0,4.62,13.0,76.92
+IECM Wong,A Hunter,ODI,34,31.0,1,19,4,0,5.47,34.0,55.88
+IECM Wong,A Tector,ODI,17,10.0,2,14,2,0,3.53,8.5,82.35
 IECM Wong,AJ Healy,WPL,14,11.0,3,10,2,0,4.71,4.67,71.43
 IECM Wong,CL Tryon,ODI,15,14.0,1,10,1,1,5.6,15.0,66.67
 IECM Wong,CS Fraser,T20I,10,5.0,0,7,0,0,3.0,10.0,70.0
 IECM Wong,DB Sharma,WPL,10,13.0,0,4,2,0,7.8,10.0,40.0
 IECM Wong,EA Perry,WPL,10,9.0,0,5,1,0,5.4,10.0,50.0
+IECM Wong,GH Lewis,ODI,20,15.0,2,11,1,0,4.5,10.0,55.0
 IECM Wong,H Kaur,T20I,18,21.0,1,8,2,0,7.0,18.0,44.44
 IECM Wong,H Kaur,Test,25,9.0,0,20,1,0,2.16,25.0,80.0
 IECM Wong,HK Matthews,T20I,19,31.0,1,7,6,0,9.79,19.0,36.84
@@ -44734,6 +44823,7 @@ IECM Wong,M Kapp,Test,41,43.0,0,25,8,0,6.29,41.0,60.98
 IECM Wong,M Kapp,WPL,11,6.0,1,6,0,0,3.27,11.0,54.55
 IECM Wong,ML Green,T20I,14,18.0,0,3,2,0,7.71,14.0,21.43
 IECM Wong,MM Lanning,WPL,15,12.0,0,9,0,1,4.8,15.0,60.0
+IECM Wong,O Prendergast,ODI,10,4.0,0,7,0,0,2.4,10.0,70.0
 IECM Wong,O Prendergast,T20I,14,22.0,0,5,2,0,9.43,14.0,35.71
 IECM Wong,RM Ghosh,T20I,17,28.0,1,4,4,0,9.88,17.0,23.53
 IECM Wong,RM Ghosh,Test,21,19.0,0,12,3,0,5.43,21.0,57.14
@@ -44984,6 +45074,11 @@ IJR Zwilling,T Ruma,ODI,21,12.0,2,15,1,0,3.43,10.5,71.43
 IJR Zwilling,V Araa,ODI,20,11.0,1,15,1,0,3.3,20.0,75.0
 IJR Zwilling,W Hornero-Garcia,T20I,26,18.0,1,21,3,0,4.15,26.0,80.77
 IJR Zwilling,Yasmeen Khan,T20I,27,31.0,1,14,5,0,6.89,27.0,51.85
+IK Cheema,A Ilahi,T20I,16,10.0,0,8,0,0,3.75,16.0,50.0
+IK Cheema,AC Brodin,T20I,10,10.0,1,6,2,0,6.0,10.0,60.0
+IK Cheema,E Kuncova,T20I,10,6.0,0,5,0,0,3.6,10.0,50.0
+IK Cheema,Farwa Baber,T20I,11,10.0,0,5,0,0,5.45,11.0,45.45
+IK Cheema,I Vrignaud,T20I,18,7.0,0,12,0,0,2.33,18.0,66.67
 IK Gamantika,AP Yadav,T20I,15,15.0,2,8,1,1,6.0,7.5,53.33
 IK Gamantika,AS Samra,T20I,11,29.0,0,2,1,3,15.82,11.0,18.18
 IK Gamantika,AV Lazarus,T20I,26,23.0,1,7,0,0,5.31,26.0,26.92
@@ -45744,6 +45839,7 @@ Ibrahim Rizan,S Tobgay,T20I,10,7.0,0,4,0,0,4.2,10.0,40.0
 Ibrahim Rizan,T Jamtsho,T20I,30,39.0,2,13,4,2,7.8,15.0,43.33
 Ibrahim Rizan,Tashi Phuntsho,T20I,14,9.0,0,5,0,0,3.86,14.0,35.71
 Ibrahim Rizan,Zubaidi Zulkifle,T20I,19,32.0,0,3,2,1,10.11,19.0,15.79
+Ibrar Ahmad,J Ramanandi,ODI,11,20.0,0,6,3,0,10.91,11.0,54.55
 Ibtisam Sheikh,CA Ingram,PSL,12,21.0,1,3,2,1,10.5,12.0,25.0
 Ibtisam Sheikh,JP Duminy,PSL,12,25.0,1,4,2,2,12.5,12.0,33.33
 Ibtisam Sheikh,KC Sangakkara,PSL,12,20.0,0,2,1,1,10.0,12.0,16.67
@@ -46435,11 +46531,11 @@ Imran Khan (2),TWM Latham,Test,62,31.0,0,48,5,0,3.0,62.0,77.42
 Imran Khan (2),Tamim Iqbal,Test,15,17.0,1,10,4,0,6.8,15.0,66.67
 Imran Khan (2),UT Khawaja,Test,31,5.0,0,26,0,0,0.97,31.0,83.87
 Imran Khan (2),WU Tharanga,Test,32,9.0,0,26,0,0,1.69,32.0,81.25
-Imran Tahir,A Athanaze,CPL,27,17.0,2,16,2,0,3.78,13.5,59.26
+Imran Tahir,A Athanaze,CPL,38,29.0,2,19,3,0,4.58,19.0,50.0
 Imran Tahir,A Balbirnie,ODI,14,13.0,0,7,2,0,5.57,14.0,50.0
 Imran Tahir,A Mishra,Test,19,15.0,1,11,2,0,4.74,19.0,57.89
 Imran Tahir,A Zampa,ODI,11,3.0,1,8,0,0,1.64,11.0,72.73
-Imran Tahir,AA Jangoo,CPL,21,21.0,0,11,2,1,6.0,21.0,52.38
+Imran Tahir,AA Jangoo,CPL,29,27.0,0,14,2,1,5.59,29.0,48.28
 Imran Tahir,AB de Villiers,IPL,40,60.0,3,10,3,3,9.0,13.33,25.0
 Imran Tahir,AD Hales,CPL,37,58.0,3,10,0,6,9.41,12.33,27.03
 Imran Tahir,AD Hales,ODI,90,82.0,1,39,7,0,5.47,90.0,43.33
@@ -46551,7 +46647,7 @@ Imran Tahir,DR Smith,PSL,12,15.0,1,7,1,1,7.5,12.0,58.33
 Imran Tahir,DS Weerakkody,ODI,13,13.0,1,6,2,0,6.0,13.0,46.15
 Imran Tahir,DT Tiripano,ODI,18,24.0,0,12,5,0,8.0,18.0,66.67
 Imran Tahir,E Chigumbura,ODI,40,24.0,0,23,1,0,3.6,40.0,57.5
-Imran Tahir,E Lewis,CPL,53,96.0,3,26,4,11,10.87,17.67,49.06
+Imran Tahir,E Lewis,CPL,55,96.0,4,28,4,11,10.47,13.75,50.91
 Imran Tahir,E Lewis,IPL,16,32.0,0,6,2,3,12.0,16.0,37.5
 Imran Tahir,EJG Morgan,ODI,62,59.0,3,29,4,2,5.71,20.67,46.77
 Imran Tahir,EJG Morgan,T20I,23,21.0,2,9,0,1,5.48,11.5,39.13
@@ -46581,6 +46677,8 @@ Imran Tahir,HH Pandya,IPL,20,16.0,1,7,1,0,4.8,20.0,35.0
 Imran Tahir,HMRKB Herath,Test,72,39.0,0,48,4,0,3.25,72.0,66.67
 Imran Tahir,Haider Ali,PSL,11,16.0,0,1,1,0,8.73,11.0,9.09
 Imran Tahir,Harbhajan Singh,ODI,10,7.0,0,6,1,0,4.2,10.0,60.0
+Imran Tahir,Hassan Khan,CPL,10,23.0,2,2,0,3,13.8,5.0,20.0
+Imran Tahir,Hassan Nawaz,CPL,17,19.0,1,7,2,0,6.71,17.0,41.18
 Imran Tahir,Hussain Talat,PSL,30,39.0,1,11,6,0,7.8,30.0,36.67
 Imran Tahir,I Udana,ODI,15,3.0,0,12,0,0,1.2,15.0,80.0
 Imran Tahir,IJL Trott,ODI,13,3.0,1,10,0,0,1.38,13.0,76.92
@@ -46612,7 +46710,7 @@ Imran Tahir,JM Anderson,Test,18,6.0,2,16,1,0,2.0,9.0,88.89
 Imran Tahir,JM Bairstow,IPL,10,5.0,0,5,0,0,3.0,10.0,50.0
 Imran Tahir,JM Bairstow,Test,48,39.0,1,28,6,0,4.88,48.0,58.33
 Imran Tahir,JM Clarke,PSL,16,21.0,1,5,0,2,7.88,16.0,31.25
-Imran Tahir,JO Holder,CPL,52,49.0,3,26,0,3,5.65,17.33,50.0
+Imran Tahir,JO Holder,CPL,56,52.0,3,27,0,3,5.57,18.67,48.21
 Imran Tahir,JO Holder,ODI,48,47.0,1,24,2,3,5.88,48.0,50.0
 Imran Tahir,JW Hastings,ODI,20,17.0,0,11,1,1,5.1,20.0,55.0
 Imran Tahir,JWA Taylor,Test,24,20.0,0,14,3,0,5.0,24.0,58.33
@@ -46904,6 +47002,7 @@ Iqra Sahar,Priyada Murali,T20I,12,10.0,0,7,1,0,5.0,12.0,58.33
 Iqra Sahar,Puja Mahato,T20I,28,18.0,1,17,2,0,3.86,28.0,60.71
 Iqra Sahar,RD Pangestuti,T20I,10,5.0,0,9,1,0,3.0,10.0,90.0
 Iqra Sahar,S Khiaoto,T20I,19,12.0,0,14,1,0,3.79,19.0,73.68
+Iqra Sahar,S Mandhana,T20I,16,20.0,0,6,1,1,7.5,16.0,37.5
 Iqra Sahar,S Miyaji,T20I,16,13.0,0,10,1,0,4.88,16.0,62.5
 Iqra Sahar,S Mtae,T20I,28,51.0,1,9,8,1,10.93,28.0,32.14
 Iqra Sahar,S Nampiina,T20I,10,10.0,1,6,2,0,6.0,10.0,60.0
@@ -46953,6 +47052,11 @@ Irfan Ringku,Virk Ali,T20I,11,13.0,1,7,1,1,7.09,11.0,63.64
 Irfan Safi,A Shahi,T20I,10,16.0,1,5,1,1,9.6,10.0,50.0
 Irfan Safi,Chaudhary Akram,T20I,10,20.0,1,2,3,0,12.0,10.0,20.0
 Irfan Safi,MPGT Ketiyage,T20I,10,9.0,0,4,0,0,5.4,10.0,40.0
+Isabel Walker,A Ilahi,T20I,12,9.0,1,7,1,0,4.5,12.0,58.33
+Isabel Walker,B Pierre,T20I,14,12.0,0,9,2,0,5.14,14.0,64.29
+Isabel Walker,E Kuncova,T20I,29,19.0,2,18,2,0,3.93,14.5,62.07
+Isabel Walker,K Tesarikova,T20I,16,7.0,1,10,0,0,2.62,16.0,62.5
+Isabel Walker,S Sinha,T20I,21,11.0,2,16,0,0,3.14,10.5,76.19
 Isabella Clarke,G Keles,T20I,10,16.0,0,3,2,0,9.6,10.0,30.0
 Isabella Clarke,M Kearvell,T20I,13,9.0,1,5,0,0,4.15,13.0,38.46
 Isabella Clarke,RL Blake,T20I,11,15.0,0,3,1,0,8.18,11.0,27.27
@@ -47056,13 +47160,14 @@ J Batinibulu,AJ Michael,T20I,12,7.0,0,5,0,0,3.5,12.0,41.67
 J Batinibulu,C Dickson,T20I,11,7.0,0,5,0,0,3.82,11.0,45.45
 J Batinibulu,DP Michael,T20I,12,13.0,0,2,1,0,6.5,12.0,16.67
 J Bishop,AA Jangoo,CPL,14,14.0,0,6,2,0,6.0,14.0,42.86
-J Bishop,ADS Fletcher,CPL,37,29.0,2,19,1,0,4.7,18.5,51.35
+J Bishop,ADS Fletcher,CPL,47,46.0,2,24,1,2,5.87,23.5,51.06
 J Bishop,BA King,CPL,15,35.0,0,3,6,1,14.0,15.0,20.0
 J Bishop,C Munro,CPL,12,14.0,1,3,0,1,7.0,12.0,25.0
 J Bishop,E Lewis,CPL,10,21.0,1,5,2,2,12.6,10.0,50.0
 J Bishop,F du Plessis,CPL,28,62.0,0,6,5,4,13.29,28.0,21.43
 J Bishop,GD Phillips,CPL,12,9.0,2,4,0,0,4.5,6.0,33.33
 J Bishop,J Blackwood,CPL,16,25.0,0,6,1,2,9.38,16.0,37.5
+J Bishop,J Charles,CPL,12,13.0,0,6,2,0,6.5,12.0,50.0
 J Bishop,K Lewis,CPL,10,12.0,0,4,2,0,7.2,10.0,40.0
 J Bishop,KMA Paul,CPL,13,15.0,1,8,1,1,6.92,13.0,61.54
 J Bishop,KU Carty,CPL,10,10.0,0,5,1,0,6.0,10.0,50.0
@@ -47101,6 +47206,7 @@ J Blades,MR Marsh,T20I,11,17.0,1,6,4,0,9.27,11.0,54.55
 J Blades,Mehedi Hasan Miraz,ODI,16,33.0,0,4,5,1,12.38,16.0,25.0
 J Blades,Mohammad Rizwan,ODI,16,7.0,0,10,0,0,2.62,16.0,62.5
 J Blades,S Jora,T20I,11,16.0,2,6,0,2,8.73,5.5,54.55
+J Blades,SD Hope,CPL,10,9.0,0,3,0,0,5.4,10.0,30.0
 J Blades,Saim Ayub,ODI,14,14.0,0,10,1,1,6.0,14.0,71.43
 J Blades,Soumya Sarkar,ODI,16,24.0,0,6,4,0,9.0,16.0,37.5
 J Botha,A Flintoff,ODI,35,30.0,0,15,1,1,5.14,35.0,42.86
@@ -47907,7 +48013,7 @@ J Maguire,CT Dhururu,ODI,78,35.0,0,60,5,0,2.69,78.0,76.92
 J Maguire,D van Niekerk,ODI,14,33.0,1,2,7,0,14.14,14.0,14.29
 J Maguire,DJS Dottin,ODI,10,9.0,0,7,2,0,5.4,10.0,70.0
 J Maguire,E Mbofana,ODI,10,6.0,0,5,0,0,3.6,10.0,50.0
-J Maguire,FG Kemp,ODI,19,28.0,1,9,3,1,8.84,19.0,47.37
+J Maguire,FG Kemp,ODI,26,33.0,1,13,3,1,7.62,26.0,50.0
 J Maguire,GWHM Perera,ODI,11,10.0,0,6,0,1,5.45,11.0,54.55
 J Maguire,H Madavi,ODI,21,22.0,0,10,3,0,6.29,21.0,47.62
 J Maguire,H Madavi,T20I,11,12.0,1,7,1,1,6.55,11.0,63.64
@@ -47930,7 +48036,7 @@ J Maguire,L Wolvaardt,T20I,22,44.0,0,8,8,1,12.0,22.0,36.36
 J Maguire,M McColl,T20I,11,12.0,0,4,1,0,6.55,11.0,36.36
 J Maguire,M Mupachikwa,ODI,29,19.0,1,18,2,0,3.93,29.0,62.07
 J Maguire,M Musonda,ODI,31,19.0,0,23,3,0,3.68,31.0,74.19
-J Maguire,ME Bouchier,ODI,21,33.0,0,7,5,0,9.43,21.0,33.33
+J Maguire,ME Bouchier,ODI,32,57.0,0,12,11,0,10.69,32.0,37.5
 J Maguire,Muneeba Ali,ODI,56,38.0,1,41,4,0,4.07,56.0,73.21
 J Maguire,Muneeba Ali,T20I,29,41.0,0,13,5,1,8.48,29.0,44.83
 J Maguire,N Navaika,T20I,11,10.0,0,7,2,0,5.45,11.0,63.64
@@ -47940,7 +48046,7 @@ J Maguire,RMAU Grimmond,ODI,20,21.0,1,11,3,0,6.3,20.0,55.0
 J Maguire,RMVD Gunaratne,ODI,22,23.0,0,13,2,1,6.27,22.0,59.09
 J Maguire,Ritu Moni,ODI,11,13.0,0,4,1,0,7.09,11.0,36.36
 J Maguire,S Luus,ODI,24,25.0,0,9,0,0,6.25,24.0,37.5
-J Maguire,SIR Dunkley,ODI,12,19.0,0,6,4,0,9.5,12.0,50.0
+J Maguire,SIR Dunkley,ODI,19,22.0,0,11,4,0,6.95,19.0,57.89
 J Maguire,SM Mayers,T20I,12,9.0,0,6,1,0,4.5,12.0,50.0
 J Maguire,SR Taylor,ODI,24,20.0,1,12,1,0,5.0,24.0,50.0
 J Maguire,Sharmin Akhter,ODI,11,3.0,0,10,0,0,1.64,11.0,90.91
@@ -48249,7 +48355,7 @@ J Proctor,SR Mukkamalla,T20I,15,36.0,0,6,3,3,14.4,15.0,40.0
 J Ramanandi,A Sharafu,T20I,10,10.0,1,4,1,0,6.0,10.0,40.0
 J Ramanandi,A Sharma,ODI,41,32.0,0,18,2,0,4.68,41.0,43.9
 J Ramanandi,Aasif Sheikh,ODI,13,13.0,0,6,0,1,6.0,13.0,46.15
-J Ramanandi,Adeeb Usmani,ODI,31,26.0,0,10,0,1,5.03,31.0,32.26
+J Ramanandi,Adeeb Usmani,ODI,50,40.0,0,20,1,1,4.8,50.0,40.0
 J Ramanandi,Arjun Kumal,ODI,26,14.0,0,20,2,0,3.23,26.0,76.92
 J Ramanandi,B Sharki,ODI,14,6.0,0,8,0,0,2.57,14.0,57.14
 J Ramanandi,D Parashar,T20I,10,9.0,0,2,0,0,5.4,10.0,20.0
@@ -48261,6 +48367,7 @@ J Ramanandi,MG Erasmus,ODI,17,17.0,0,8,1,1,6.0,17.0,47.06
 J Ramanandi,Muhammad Shahdad,ODI,24,21.0,0,8,0,1,5.25,24.0,33.33
 J Ramanandi,RK Paudel,ODI,12,7.0,0,5,0,0,3.5,12.0,41.67
 J Ramanandi,SV Samson,T20I,10,11.0,1,4,1,0,6.6,10.0,40.0
+J Ramanandi,T Suri,ODI,11,5.0,0,7,0,0,2.73,11.0,63.64
 J Ramanandi,WP Myburgh,ODI,21,11.0,1,14,0,0,3.14,21.0,66.67
 J Ramanandi,Waseem Muhammad,T20I,10,8.0,0,3,0,0,4.8,10.0,30.0
 J Rasu,A Parima,T20I,22,53.0,0,8,4,4,14.45,22.0,36.36
@@ -49440,9 +49547,10 @@ JC Balt,BJ Bennett,T20I,10,10.0,0,3,0,0,6.0,10.0,30.0
 JC Balt,BJ McMullen,T20I,18,15.0,1,7,1,0,5.0,18.0,38.89
 JC Balt,HG Munsey,T20I,19,28.0,0,8,0,3,8.84,19.0,42.11
 JC Balt,J Campbell,T20I,14,17.0,0,4,0,1,7.29,14.0,28.57
+JC Balt,LG Pretorius,T20I,12,18.0,0,5,0,2,9.0,12.0,41.67
 JC Balt,OGT Gould,T20I,16,16.0,0,7,0,1,6.0,16.0,43.75
 JC Balt,SA Okpe,T20I,12,14.0,1,3,0,1,7.0,12.0,25.0
-JC Balt,T Marumani,T20I,12,24.0,0,3,0,3,12.0,12.0,25.0
+JC Balt,T Marumani,T20I,20,29.0,0,7,0,3,8.7,20.0,35.0
 JC Carmichael,F du Plessis,CPL,19,47.0,0,5,2,5,14.84,19.0,26.32
 JC Carmichael,J Blackwood,CPL,10,10.0,0,5,1,0,6.0,10.0,50.0
 JC Carmichael,K Lewis,CPL,19,28.0,1,12,2,3,8.84,19.0,63.16
@@ -51959,6 +52067,7 @@ JJ Nyambo,E Dusingizimana,T20I,14,24.0,1,7,4,1,10.29,14.0,50.0
 JJ Nyambo,K Waiswa,T20I,14,15.0,0,8,1,1,6.43,14.0,57.14
 JJ Nyambo,O Tuyisenge,T20I,24,24.0,0,12,3,0,6.0,24.0,50.0
 JJ Nyambo,P Murungi,T20I,10,8.0,0,5,1,0,4.8,10.0,50.0
+JJ Pollard,JD Campbell,CPL,11,11.0,0,6,0,1,6.0,11.0,54.55
 JJ Smit,A Otwani,T20I,11,9.0,2,8,2,0,4.91,5.5,72.73
 JJ Smit,A Saud,ODI,47,15.0,0,39,1,0,1.91,47.0,82.98
 JJ Smit,A Vala,ODI,41,35.0,0,19,3,0,5.12,41.0,46.34
@@ -51977,9 +52086,10 @@ JJ Smit,Asif Khan,ODI,14,7.0,1,10,1,0,3.0,14.0,71.43
 JJ Smit,Ayan Khan,ODI,10,5.0,0,8,1,0,3.0,10.0,80.0
 JJ Smit,BFW de Leede,ODI,43,17.0,1,30,0,0,2.37,43.0,69.77
 JJ Smit,BFW de Leede,T20I,16,18.0,0,6,2,0,6.75,16.0,37.5
-JJ Smit,BJ Bennett,T20I,23,38.0,1,5,6,0,9.91,23.0,21.74
+JJ Smit,BJ Bennett,T20I,28,46.0,1,5,7,0,9.86,28.0,17.86
 JJ Smit,BJ McMullen,ODI,33,32.0,0,19,5,0,5.82,33.0,57.58
 JJ Smit,Basil Hameed,ODI,20,27.0,0,7,1,1,8.1,20.0,35.0
+JJ Smit,C Esterhuizen,T20I,10,18.0,1,4,0,2,10.8,10.0,40.0
 JJ Smit,C de Lange,ODI,15,9.0,1,11,1,0,3.6,15.0,73.33
 JJ Smit,CM McBride,ODI,16,6.0,1,11,0,0,2.25,16.0,68.75
 JJ Smit,CN Ackermann,T20I,15,14.0,1,4,0,0,5.6,15.0,26.67
@@ -51994,10 +52104,11 @@ JJ Smit,G Singh,ODI,16,16.0,0,9,3,0,6.0,16.0,56.25
 JJ Smit,Gulsan Jha,ODI,12,18.0,1,3,2,0,9.0,12.0,25.0
 JJ Smit,HG Munsey,ODI,16,16.0,0,6,1,0,6.0,16.0,37.5
 JJ Smit,Hammad Mirza,ODI,31,38.0,0,13,4,0,7.35,31.0,41.94
-JJ Smit,I Kaia,T20I,14,19.0,2,6,3,0,8.14,7.0,42.86
+JJ Smit,I Kaia,T20I,22,34.0,2,7,4,1,9.27,11.0,31.82
 JJ Smit,I Pandey,ODI,16,7.0,1,13,0,0,2.62,16.0,81.25
 JJ Smit,IG Holland,ODI,13,9.0,0,5,0,0,4.15,13.0,38.46
 JJ Smit,Ishan Kishan,T20I,10,37.0,0,2,3,4,22.2,10.0,20.0
+JJ Smit,J Hermann,ODI,20,14.0,0,11,1,0,4.2,20.0,55.0
 JJ Smit,JS Malhotra,ODI,11,11.0,0,7,2,0,6.0,11.0,63.64
 JJ Smit,Jatinder Singh,ODI,85,42.0,1,61,4,0,2.96,85.0,71.76
 JJ Smit,K Bhurtel,ODI,22,10.0,3,19,0,1,2.73,7.33,86.36
@@ -52007,6 +52118,7 @@ JJ Smit,KH Prajapati,ODI,22,14.0,0,13,1,0,3.82,22.0,59.09
 JJ Smit,Kaleemullah,ODI,10,3.0,1,7,0,0,1.8,10.0,70.0
 JJ Smit,Kashif Daud,ODI,21,9.0,0,12,0,0,2.57,21.0,57.14
 JJ Smit,Khawar Ali,ODI,56,44.0,2,31,4,0,4.71,28.0,55.36
+JJ Smit,LG Pretorius,T20I,15,29.0,0,2,3,1,11.6,15.0,13.33
 JJ Smit,MA Leask,ODI,16,9.0,0,12,0,1,3.38,16.0,75.0
 JJ Smit,MD Patel,ODI,39,22.0,1,25,2,0,3.38,39.0,64.1
 JJ Smit,MD Patel,T20I,11,29.0,0,2,2,2,15.82,11.0,18.18
@@ -52021,11 +52133,12 @@ JJ Smit,N Vanua,T20I,10,16.0,1,3,0,1,9.6,10.0,30.0
 JJ Smit,NR Welch,T20I,11,7.0,2,8,1,0,3.82,5.5,72.73
 JJ Smit,NS Dhaliwal,ODI,38,22.0,0,30,3,1,3.47,38.0,78.95
 JJ Smit,R Rohan,T20I,10,15.0,1,5,2,0,9.0,10.0,50.0
+JJ Smit,RA Herman,T20I,10,11.0,0,5,2,0,6.6,10.0,50.0
 JJ Smit,RD Berrington,ODI,27,13.0,0,23,3,0,2.89,27.0,85.19
 JJ Smit,RD Berrington,T20I,10,17.0,0,3,0,2,10.2,10.0,30.0
 JJ Smit,RE van der Merwe,ODI,10,4.0,0,7,0,0,2.4,10.0,70.0
 JJ Smit,RK Paudel,ODI,25,14.0,0,13,0,0,3.36,25.0,52.0
-JJ Smit,RP Burl,T20I,30,57.0,0,7,3,3,11.4,30.0,23.33
+JJ Smit,RP Burl,T20I,31,63.0,0,7,3,4,12.19,31.0,22.58
 JJ Smit,Rohan Mustafa,ODI,29,21.0,0,17,1,0,4.34,29.0,58.62
 JJ Smit,S Bau,ODI,22,9.0,1,15,0,0,2.45,22.0,68.18
 JJ Smit,S Mathur,T20I,11,6.0,2,7,0,0,3.27,5.5,63.64
@@ -52044,8 +52157,9 @@ JJ Smit,Sandeep Goud,ODI,18,10.0,2,12,0,0,3.33,9.0,66.67
 JJ Smit,Shakeel Ahmed,ODI,15,10.0,1,10,0,1,4.0,15.0,66.67
 JJ Smit,Shayan Jahangir,ODI,10,2.0,1,8,0,0,1.2,10.0,80.0
 JJ Smit,Shoaib Khan,ODI,43,43.0,1,23,5,0,6.0,43.0,53.49
-JJ Smit,Sikandar Raza,T20I,27,38.0,1,12,2,2,8.44,27.0,44.44
+JJ Smit,Sikandar Raza,T20I,31,43.0,1,13,2,2,8.32,31.0,41.94
 JJ Smit,T Marumani,T20I,28,31.0,1,12,3,0,6.64,28.0,42.86
+JJ Smit,T de Zorzi,ODI,19,17.0,0,10,2,0,5.37,19.0,52.63
 JJ Smit,TP Ura,ODI,25,17.0,1,17,3,0,4.08,25.0,68.0
 JJ Smit,TP Ura,T20I,19,23.0,2,9,1,2,7.26,9.5,47.37
 JJ Smit,V Aravind,ODI,30,42.0,4,13,7,0,8.4,7.5,43.33
@@ -53419,6 +53533,9 @@ JM Iradukunda,Sami Sohail,T20I,10,10.0,0,4,1,0,6.0,10.0,40.0
 JM Iradukunda,Selim Salau,T20I,19,22.0,1,6,1,0,6.95,19.0,31.58
 JM Iradukunda,Sulaimon Runsewe,T20I,10,5.0,1,5,0,0,3.0,10.0,50.0
 JM Iradukunda,Y Jalloh,T20I,11,5.0,0,7,0,0,2.73,11.0,63.64
+JM James,KA Pollard,CPL,12,9.0,2,9,1,0,4.5,6.0,75.0
+JM James,N Pooran,CPL,11,22.0,2,2,0,2,12.0,5.5,18.18
+JM James,T Hinds,CPL,10,12.0,1,6,1,1,7.2,10.0,60.0
 JM Kemp,Abdul Razzaq,ODI,13,5.0,0,9,0,0,2.31,13.0,69.23
 JM Kemp,BG Rogers,ODI,14,7.0,0,8,0,0,3.0,14.0,57.14
 JM Kemp,BRM Taylor,ODI,12,6.0,1,7,0,0,3.0,12.0,58.33
@@ -53829,7 +53946,7 @@ JN Loftie-Eaton,B Balala,T20I,11,3.0,0,9,0,0,1.64,11.0,81.82
 JN Loftie-Eaton,B Sharki,ODI,16,17.0,0,5,2,0,6.38,16.0,31.25
 JN Loftie-Eaton,BFW de Leede,ODI,31,32.0,1,12,3,0,6.19,31.0,38.71
 JN Loftie-Eaton,BFW de Leede,T20I,10,25.0,0,1,2,2,15.0,10.0,10.0
-JN Loftie-Eaton,BJ Bennett,T20I,15,15.0,0,6,0,1,6.0,15.0,40.0
+JN Loftie-Eaton,BJ Bennett,T20I,19,21.0,1,8,1,1,6.63,19.0,42.11
 JN Loftie-Eaton,BJ McMullen,ODI,10,18.0,0,3,2,1,10.8,10.0,30.0
 JN Loftie-Eaton,BJ McMullen,T20I,11,19.0,0,3,2,1,10.36,11.0,27.27
 JN Loftie-Eaton,Basil Hameed,ODI,18,18.0,1,6,0,1,6.0,18.0,33.33
@@ -53886,7 +54003,7 @@ JN Mohammed,PWH de Silva,ODI,21,21.0,1,8,0,1,6.0,21.0,38.1
 JN Mohammed,Shakib Al Hasan,ODI,42,28.0,0,21,1,0,4.0,42.0,50.0
 JN Mohammed,Tamim Iqbal,ODI,53,38.0,1,30,3,1,4.3,53.0,56.6
 JNT Seales,AAP Atkinson,Test,10,8.0,0,6,1,0,4.8,10.0,60.0
-JNT Seales,AD Hales,CPL,25,35.0,0,6,5,0,8.4,25.0,24.0
+JNT Seales,AD Hales,CPL,28,42.0,0,6,6,0,9.0,28.0,21.43
 JNT Seales,ADS Fletcher,CPL,42,62.0,1,18,5,3,8.86,42.0,42.86
 JNT Seales,AK Markram,T20I,11,19.0,0,3,2,1,10.36,11.0,27.27
 JNT Seales,AK Markram,Test,74,49.0,1,51,6,0,3.97,74.0,68.92
@@ -53915,7 +54032,7 @@ JNT Seales,Babar Azam,ODI,52,39.0,2,32,3,1,4.5,26.0,61.54
 JNT Seales,Babar Azam,Test,145,73.0,2,109,11,0,3.02,72.5,75.17
 JNT Seales,C Carmichael,ODI,11,11.0,0,6,2,0,6.0,11.0,54.55
 JNT Seales,C Green,Test,102,36.0,2,87,4,0,2.12,51.0,85.29
-JNT Seales,C Munro,CPL,35,66.0,0,11,8,3,11.31,35.0,31.43
+JNT Seales,C Munro,CPL,41,80.0,0,14,10,4,11.71,41.0,34.15
 JNT Seales,C Overton,Test,13,7.0,1,9,0,0,3.23,13.0,69.23
 JNT Seales,CAK Rajitha,Test,13,5.0,1,11,1,0,2.31,13.0,84.62
 JNT Seales,CR Woakes,Test,57,45.0,4,32,6,0,4.74,14.25,56.14
@@ -53949,6 +54066,7 @@ JNT Seales,Imam-ul-Haq,Test,35,14.0,1,28,1,0,2.4,35.0,80.0
 JNT Seales,Imran Butt,Test,30,16.0,1,24,3,0,3.2,30.0,80.0
 JNT Seales,Ishan Kishan,ODI,19,18.0,0,10,2,0,5.68,19.0,52.63
 JNT Seales,J Charles,CPL,47,88.0,5,19,7,7,11.23,9.4,40.43
+JNT Seales,J Da Silva,CPL,11,24.0,0,1,2,1,13.09,11.0,9.09
 JNT Seales,J Liyanage,ODI,15,28.0,0,6,3,1,11.2,15.0,40.0
 JNT Seales,JA Duffy,Test,14,8.0,1,12,2,0,3.43,14.0,85.71
 JNT Seales,JE Root,ODI,39,42.0,1,16,5,0,6.46,39.0,41.03
@@ -53980,6 +54098,7 @@ JNT Seales,LU Igalagamage,Test,46,31.0,0,36,3,2,4.04,46.0,78.26
 JNT Seales,Liton Das,ODI,15,5.0,1,10,0,0,2.0,15.0,66.67
 JNT Seales,Liton Das,T20I,14,21.0,0,6,4,0,9.0,14.0,42.86
 JNT Seales,Liton Das,Test,80,53.0,2,57,8,0,3.97,40.0,71.25
+JNT Seales,M Dindyal,CPL,10,20.0,0,4,1,2,12.0,10.0,40.0
 JNT Seales,M Labuschagne,Test,72,59.0,0,46,8,0,4.92,72.0,63.89
 JNT Seales,MA Wood,Test,15,2.0,2,13,0,0,0.8,7.5,86.67
 JNT Seales,MG Bracewell,ODI,17,23.0,0,8,3,1,8.12,17.0,47.06
@@ -54001,7 +54120,7 @@ JNT Seales,Mohammad Rizwan,ODI,23,23.0,1,9,2,0,6.0,23.0,39.13
 JNT Seales,Mohammad Rizwan,Test,76,60.0,0,54,10,1,4.74,76.0,71.05
 JNT Seales,Mominul Haque,Test,43,10.0,2,38,1,0,1.4,21.5,88.37
 JNT Seales,N Burger,Test,10,4.0,1,9,1,0,2.4,10.0,90.0
-JNT Seales,N Pooran,CPL,20,30.0,1,6,1,2,9.0,20.0,30.0
+JNT Seales,N Pooran,CPL,23,42.0,1,6,2,3,10.96,23.0,26.09
 JNT Seales,NF Kelly,ODI,13,6.0,0,10,1,0,2.77,13.0,76.92
 JNT Seales,NG Smith,Test,18,12.0,0,14,2,0,4.0,18.0,77.78
 JNT Seales,NM Lyon,Test,32,11.0,0,26,1,0,2.06,32.0,81.25
@@ -54033,7 +54152,7 @@ JNT Seales,SA Yadav,ODI,24,28.0,0,14,2,2,7.0,24.0,58.33
 JNT Seales,SD Hope,CPL,31,46.0,1,12,3,3,8.9,31.0,38.71
 JNT Seales,SE Rutherford,CPL,14,19.0,1,6,0,2,8.14,14.0,42.86
 JNT Seales,SM Curran,ODI,16,17.0,0,5,2,0,6.38,16.0,31.25
-JNT Seales,SO Hetmyer,CPL,20,41.0,2,7,3,3,12.3,10.0,35.0
+JNT Seales,SO Hetmyer,CPL,22,42.0,2,8,3,3,11.45,11.0,36.36
 JNT Seales,SPD Smith,Test,64,46.0,0,41,5,0,4.31,64.0,64.06
 JNT Seales,SS Iyer,ODI,10,15.0,0,3,2,0,9.0,10.0,30.0
 JNT Seales,SV Samson,ODI,26,26.0,0,13,2,1,6.0,26.0,50.0
@@ -54478,6 +54597,7 @@ JO Holder,RRS Cornwall,CPL,19,32.0,0,8,3,2,10.11,19.0,42.11
 JO Holder,RTM Mendis,Test,14,3.0,0,12,0,0,1.29,14.0,85.71
 JO Holder,RV Uthappa,IPL,17,24.0,0,7,2,1,8.47,17.0,41.18
 JO Holder,RW Chakabva,Test,23,5.0,0,19,0,0,1.3,23.0,82.61
+JO Holder,Rahmanullah Gurbaz,CPL,19,26.0,0,9,3,1,8.21,19.0,47.37
 JO Holder,Rameez Shahzad,ODI,14,14.0,0,6,2,0,6.0,14.0,42.86
 JO Holder,S Dhawan,IPL,52,70.0,1,17,6,2,8.08,52.0,32.69
 JO Holder,S Dhawan,ODI,166,177.0,1,94,28,2,6.4,166.0,56.63
@@ -54555,7 +54675,7 @@ JO Holder,TD Astle,ODI,14,11.0,0,8,1,0,4.71,14.0,57.14
 JO Holder,TH David,CPL,18,48.0,2,4,2,5,16.0,9.0,22.22
 JO Holder,TH David,IPL,13,38.0,0,3,1,5,17.54,13.0,23.08
 JO Holder,TH David,T20I,23,55.0,1,6,5,4,14.35,23.0,26.09
-JO Holder,TL Seifert,CPL,24,28.0,0,12,3,1,7.0,24.0,50.0
+JO Holder,TL Seifert,CPL,30,39.0,0,14,5,1,7.8,30.0,46.67
 JO Holder,TM Dilshan,ODI,13,31.0,0,1,4,1,14.31,13.0,7.69
 JO Holder,TM Head,Test,53,50.0,0,26,7,0,5.66,53.0,49.06
 JO Holder,TP Ura,ODI,12,13.0,0,6,1,0,6.5,12.0,50.0
@@ -55223,6 +55343,7 @@ JP Greaves,DP Conway,Test,114,62.0,2,87,9,0,3.26,57.0,76.32
 JP Greaves,Dhruv Jurel,Test,26,26.0,0,13,3,0,6.0,26.0,50.0
 JP Greaves,GS Dinusha,Test,49,25.0,0,37,4,0,3.06,49.0,75.51
 JP Greaves,HC Brook,ODI,12,19.0,0,3,0,2,9.5,12.0,25.0
+JP Greaves,Hassan Nawaz,CPL,11,23.0,0,2,4,0,12.55,11.0,18.18
 JP Greaves,Imam-ul-Haq,Test,22,16.0,0,13,0,0,4.36,22.0,59.09
 JP Greaves,JC Buttler,ODI,11,13.0,0,7,1,1,7.09,11.0,63.64
 JP Greaves,JE Root,ODI,47,48.0,0,20,5,1,6.13,47.0,42.55
@@ -56155,13 +56276,16 @@ JT Brassell,B Sharki,ODI,20,3.0,1,18,0,0,0.9,20.0,90.0
 JT Brassell,BFW de Leede,ODI,36,31.0,1,21,1,1,5.17,36.0,58.33
 JT Brassell,BJ Bennett,T20I,25,55.0,1,6,8,1,13.2,25.0,24.0
 JT Brassell,BJ McMullen,ODI,40,38.0,1,22,5,0,5.7,40.0,55.0
+JT Brassell,C Esterhuizen,T20I,10,37.0,0,2,3,4,22.2,10.0,20.0
 JT Brassell,DS Airee,ODI,15,11.0,0,9,1,0,4.4,15.0,60.0
 JT Brassell,FDW McCreath,T20I,11,3.0,2,8,0,0,1.64,5.5,72.73
 JT Brassell,HC Brook,T20I,10,30.0,0,2,3,2,18.0,10.0,20.0
 JT Brassell,HG Munsey,ODI,19,43.0,0,4,7,1,13.58,19.0,21.05
 JT Brassell,HG Munsey,T20I,23,45.0,1,8,4,2,11.74,23.0,34.78
 JT Brassell,Hammad Mirza,ODI,48,23.0,0,31,1,0,2.88,48.0,64.58
+JT Brassell,I Kaia,T20I,11,18.0,1,5,2,1,9.82,11.0,45.45
 JT Brassell,I Pandey,ODI,17,8.0,1,13,1,0,2.82,17.0,76.47
+JT Brassell,J Hermann,ODI,26,41.0,0,9,5,1,9.46,26.0,34.62
 JT Brassell,K Bhurtel,ODI,17,17.0,1,9,2,0,6.0,17.0,52.94
 JT Brassell,Khalid Kail,ODI,25,33.0,0,13,6,0,7.92,25.0,52.0
 JT Brassell,MD Patel,ODI,16,15.0,0,7,1,0,5.62,16.0,43.75
@@ -56173,6 +56297,7 @@ JT Brassell,RD Berrington,ODI,20,8.0,0,13,0,0,2.4,20.0,65.0
 JT Brassell,RE van der Merwe,ODI,10,10.0,1,6,1,0,6.0,10.0,60.0
 JT Brassell,RG Mukasa,T20I,12,13.0,0,5,1,0,6.5,12.0,41.67
 JT Brassell,RK Paudel,ODI,28,22.0,2,17,2,0,4.71,14.0,60.71
+JT Brassell,RP Burl,T20I,11,17.0,0,3,2,0,9.27,11.0,27.27
 JT Brassell,SA Edwards,ODI,36,29.0,0,20,2,0,4.83,36.0,55.56
 JT Brassell,SR Mukkamalla,T20I,10,13.0,0,3,0,1,7.8,10.0,30.0
 JT Brassell,Sahibzada Farhan,T20I,13,30.0,0,3,4,1,13.85,13.0,23.08
@@ -56180,7 +56305,8 @@ JT Brassell,Selim Salau,T20I,11,7.0,1,7,0,0,3.82,11.0,63.64
 JT Brassell,Shoaib Khan,ODI,19,13.0,0,12,1,0,4.11,19.0,63.16
 JT Brassell,Sompal Kami,ODI,14,9.0,0,9,0,0,3.86,14.0,64.29
 JT Brassell,Sulaimon Runsewe,T20I,12,8.0,0,7,1,0,4.0,12.0,58.33
-JT Brassell,T Marumani,T20I,17,24.0,0,7,2,1,8.47,17.0,41.18
+JT Brassell,T Marumani,T20I,21,34.0,0,8,2,2,9.71,21.0,38.1
+JT Brassell,T de Zorzi,ODI,18,11.0,0,13,2,0,3.67,18.0,72.22
 JT Brassell,V Shukla,ODI,16,7.0,0,11,0,0,2.62,16.0,68.75
 JT Brassell,V Sukumaran,ODI,14,20.0,0,8,3,0,8.57,14.0,57.14
 JT Brassell,Waseem Muhammad,ODI,10,11.0,0,6,2,0,6.6,10.0,60.0
@@ -56205,7 +56331,7 @@ JT Smuts,Mohammad Rizwan,T20I,22,22.0,0,11,2,1,6.0,22.0,50.0
 JT Smuts,PR Stirling,T20I,19,21.0,1,10,3,0,6.63,19.0,52.63
 JU Goolie,KO Wickham,CPL,12,17.0,0,3,0,1,8.5,12.0,25.0
 JU Goolie,KSA McKenzie,CPL,10,14.0,1,4,1,1,8.4,10.0,40.0
-JU Goolie,ZN Carter,CPL,10,16.0,0,4,0,2,9.6,10.0,40.0
+JU Goolie,ZN Carter,CPL,12,20.0,1,5,1,2,10.0,12.0,41.67
 JV Chand,AB Kamara,T20I,20,24.0,0,5,0,1,7.2,20.0,25.0
 JV Chand,D Gumyusenge,T20I,10,9.0,0,4,1,0,5.4,10.0,40.0
 JV Chand,Hamza Khan,T20I,14,27.0,0,3,3,1,11.57,14.0,21.43
@@ -56552,6 +56678,11 @@ Jamshid Nasiri,B Niaz,T20I,11,10.0,1,4,1,0,5.45,11.0,36.36
 Jamshid Nasiri,C Greenshields,T20I,11,10.0,0,6,1,0,5.45,11.0,54.55
 Jamshid Nasiri,MP Ainsworth,T20I,11,4.0,0,7,0,0,2.18,11.0,63.64
 Jamshid Nasiri,Sheraz Sheikh,T20I,10,17.0,0,4,0,2,10.2,10.0,40.0
+Jana Majski,D Ruynekova,T20I,15,4.0,0,14,0,0,1.6,15.0,93.33
+Jana Majski,H Leko,T20I,10,3.0,1,7,0,0,1.8,10.0,70.0
+Jana Majski,M Durdevac,T20I,10,12.0,1,5,1,0,7.2,10.0,50.0
+Jana Majski,S Sarandeva,T20I,13,1.0,2,13,0,0,0.46,6.5,100.0
+Jana Majski,V Nikolova,T20I,10,11.0,0,6,0,0,6.6,10.0,60.0
 Janak Prakash,Aarif Sheikh,T20I,12,5.0,0,9,0,0,2.5,12.0,75.0
 Janak Prakash,Ahmed Faiz,T20I,35,62.0,3,11,8,2,10.63,11.67,31.43
 Janak Prakash,Aslam Khan,T20I,16,29.0,0,8,1,3,10.88,16.0,50.0
@@ -56764,6 +56895,7 @@ Jaweed Sadran,V Ganesan,T20I,11,15.0,0,4,2,0,8.18,11.0,36.36
 Jay Odedra,A Vala,ODI,11,11.0,1,7,0,1,6.0,11.0,63.64
 Jay Odedra,AGS Gous,ODI,14,15.0,0,10,1,1,6.43,14.0,71.43
 Jay Odedra,AT Nidamanuru,ODI,13,9.0,0,8,0,0,4.15,13.0,61.54
+Jay Odedra,Aayan Afzal Khan,ODI,15,4.0,0,11,0,0,1.6,15.0,73.33
 Jay Odedra,Ali Naseer,ODI,16,6.0,2,13,0,0,2.25,8.0,81.25
 Jay Odedra,Aryan Lakra,ODI,15,5.0,0,10,0,0,2.0,15.0,66.67
 Jay Odedra,Asif Ali,T20I,13,11.0,0,7,0,1,5.08,13.0,53.85
@@ -57462,7 +57594,8 @@ K Fubler,J Baker,T20I,21,17.0,0,7,0,0,4.86,21.0,33.33
 K Fubler,Mahmud Jasat,T20I,10,10.0,0,6,1,0,6.0,10.0,60.0
 K Fubler,RA Sealy,T20I,17,18.0,2,9,1,1,6.35,8.5,52.94
 K Fubler,ROC Dunka,T20I,10,19.0,0,4,0,2,11.4,10.0,40.0
-K Gaston,ADS Fletcher,CPL,10,30.0,0,3,6,1,18.0,10.0,30.0
+K Gaston,ADS Fletcher,CPL,17,45.0,0,4,9,1,15.88,17.0,23.53
+K Gaston,MD Shanaka,CPL,13,45.0,0,2,3,5,20.77,13.0,15.38
 K Gaston,SD Hope,CPL,10,11.0,0,2,1,0,6.6,10.0,20.0
 K Gilham,Abhijeet Ahuja,T20I,13,8.0,0,10,1,0,3.69,13.0,76.92
 K Goel,ML Hayden,IPL,10,9.0,0,5,1,0,5.4,10.0,50.0
@@ -57528,6 +57661,7 @@ K Goud,L Wolvaardt,T20I,29,45.0,1,10,7,0,9.31,29.0,34.48
 K Goud,LK Hamilton,Test,18,10.0,0,14,2,0,3.33,18.0,77.78
 K Goud,ME Bouchier,Test,19,7.0,1,16,1,0,2.21,19.0,84.21
 K Goud,MK Villiers,Test,16,8.0,0,13,1,0,3.0,16.0,81.25
+K Goud,Muneeba Ali,T20I,10,14.0,0,5,2,0,8.4,10.0,50.0
 K Goud,N Koncharoenkai,T20I,14,21.0,1,6,4,0,9.0,14.0,42.86
 K Goud,N de Klerk,ODI,13,30.0,0,3,2,2,13.85,13.0,23.08
 K Goud,NND de Silva,ODI,11,12.0,0,7,2,0,6.55,11.0,63.64
@@ -57797,6 +57931,7 @@ K Mahekdeep,A Kato-Stafford,T20I,14,8.0,0,7,0,0,3.43,14.0,50.0
 K Mahekdeep,H Goto,T20I,14,11.0,0,5,0,0,4.71,14.0,35.71
 K Mahekdeep,S Kato,T20I,10,9.0,0,3,0,0,5.4,10.0,30.0
 K Mahekdeep,Zi Mei,T20I,11,8.0,0,7,0,0,4.36,11.0,63.64
+K Matigimu,A Busing-Volschenk,T20I,11,11.0,0,7,2,0,6.0,11.0,63.64
 K Matigimu,DG Bedingham,Test,11,13.0,0,7,3,0,7.09,11.0,63.64
 K Matigimu,K Verreynne,Test,28,24.0,0,18,4,0,5.14,28.0,64.29
 K Matigimu,L Senokwane,Test,15,2.0,0,14,0,0,0.8,15.0,93.33
@@ -57981,6 +58116,7 @@ K Phillip,KR Mayers,ODI,12,2.0,1,10,0,0,1.0,12.0,83.33
 K Phillip,L Louwrens,ODI,23,19.0,0,13,2,0,4.96,23.0,56.52
 K Phillip,RL Chase,ODI,10,14.0,0,5,2,0,8.4,10.0,50.0
 K Phillip,SD Hope,ODI,12,16.0,0,7,2,0,8.0,12.0,58.33
+K Pierre,AA Jangoo,CPL,15,23.0,0,5,0,2,9.2,15.0,33.33
 K Pierre,AD Hales,CPL,34,47.0,3,17,4,3,8.29,11.33,50.0
 K Pierre,AD Russell,CPL,16,28.0,1,10,2,3,10.5,16.0,62.5
 K Pierre,ADS Fletcher,CPL,60,60.0,1,28,6,1,6.0,60.0,46.67
@@ -57997,13 +58133,13 @@ K Pierre,CR Brathwaite,CPL,19,17.0,0,8,0,0,5.37,19.0,42.11
 K Pierre,CS Delport,CPL,14,13.0,0,8,2,0,5.57,14.0,57.14
 K Pierre,DJ Mitchell,ODI,32,12.0,2,24,1,0,2.25,16.0,75.0
 K Pierre,Dhruv Jurel,Test,61,35.0,1,42,5,0,3.44,61.0,68.85
-K Pierre,E Lewis,CPL,24,22.0,2,17,2,1,5.5,12.0,70.83
+K Pierre,E Lewis,CPL,31,34.0,2,20,3,2,6.58,15.5,64.52
 K Pierre,GD Phillips,CPL,33,42.0,2,9,4,0,7.64,16.5,27.27
 K Pierre,GH Worker,CPL,13,22.0,0,3,0,2,10.15,13.0,23.08
 K Pierre,HM Nicholls,ODI,49,27.0,0,31,1,0,3.31,49.0,63.27
 K Pierre,Imad Wasim,CPL,27,31.0,0,11,2,1,6.89,27.0,40.74
 K Pierre,J Andrew,CPL,19,23.0,0,8,2,1,7.26,19.0,42.11
-K Pierre,J Charles,CPL,58,43.0,3,31,4,0,4.45,19.33,53.45
+K Pierre,J Charles,CPL,64,53.0,3,35,5,1,4.97,21.33,54.69
 K Pierre,JL Carter,CPL,15,11.0,0,8,1,0,4.4,15.0,53.33
 K Pierre,JN Mohammed,CPL,43,32.0,0,22,3,0,4.47,43.0,51.16
 K Pierre,JO Holder,CPL,21,16.0,0,14,1,1,4.57,21.0,66.67
@@ -58012,7 +58148,7 @@ K Pierre,KD Karthik,T20I,12,6.0,0,6,0,0,3.0,12.0,50.0
 K Pierre,KL Rahul,ODI,44,41.0,0,19,1,2,5.59,44.0,43.18
 K Pierre,KL Rahul,T20I,29,54.0,2,11,3,3,11.17,14.5,37.93
 K Pierre,KL Rahul,Test,88,62.0,0,57,6,2,4.23,88.0,64.77
-K Pierre,KMA Paul,CPL,14,12.0,0,8,2,0,5.14,14.0,57.14
+K Pierre,KMA Paul,CPL,20,15.0,0,11,2,0,4.5,20.0,55.0
 K Pierre,KR Mayers,CPL,16,26.0,2,8,4,1,9.75,8.0,50.0
 K Pierre,Kamran Akmal,CPL,10,16.0,1,5,1,1,9.6,10.0,50.0
 K Pierre,L Ronchi,CPL,18,21.0,2,10,2,1,7.0,9.0,55.56
@@ -58061,8 +58197,9 @@ K Piet,A Augastin,T20I,15,5.0,0,11,0,0,2.0,15.0,73.33
 K Piet,A Turay,T20I,10,0.0,1,10,0,0,0.0,10.0,100.0
 K Piet,AK Roger,T20I,12,4.0,1,11,1,0,2.0,12.0,91.67
 K Piet,D Gumyusenge,T20I,11,7.0,1,8,1,0,3.82,11.0,72.73
-K Piet,D Ndikubwimana,T20I,34,20.0,1,21,2,0,3.53,34.0,61.76
+K Piet,D Ndikubwimana,T20I,40,28.0,1,24,2,1,4.2,40.0,60.0
 K Piet,DM Nakrani,T20I,13,15.0,1,7,1,1,6.92,13.0,53.85
+K Piet,Hamza Khan,T20I,11,9.0,0,5,1,0,4.91,11.0,45.45
 K Piet,I Danladi,T20I,17,38.0,0,5,6,1,13.41,17.0,29.41
 K Piet,Inshaf Farook,T20I,19,20.0,0,7,2,0,6.32,19.0,36.84
 K Piet,O Manishimwe,T20I,21,20.0,1,9,1,0,5.71,21.0,42.86
@@ -58690,6 +58827,10 @@ K Senamontree,RM Dorji,T20I,13,11.0,1,6,1,0,5.08,13.0,46.15
 K Senamontree,Tenjin Rabgey,T20I,12,14.0,1,7,3,0,7.0,12.0,58.33
 K Senamontree,Umar Adam,T20I,13,24.0,0,6,5,0,11.08,13.0,46.15
 K Senamontree,Virandeep Singh,T20I,18,20.0,0,11,4,0,6.67,18.0,61.11
+K Sequiera,A Ilahi,T20I,19,17.0,0,9,0,0,5.37,19.0,47.37
+K Sequiera,E Kuncova,T20I,14,14.0,0,6,0,0,6.0,14.0,42.86
+K Sequiera,I Vrignaud,T20I,29,21.0,0,18,1,0,4.34,29.0,62.07
+K Sequiera,R Pavlickova,T20I,12,7.0,0,8,1,0,3.5,12.0,66.67
 K Sinclair,ADS Fletcher,CPL,11,34.0,1,5,2,4,18.55,11.0,45.45
 K Sinclair,AK Markram,T20I,10,14.0,0,4,0,1,8.4,10.0,40.0
 K Sinclair,AT Carey,Test,15,29.0,0,5,4,1,11.6,15.0,33.33
@@ -58740,7 +58881,10 @@ K Sinclair,TL Seifert,CPL,15,13.0,0,7,0,1,5.2,15.0,46.67
 K Sinclair,TWM Latham,ODI,23,22.0,1,8,2,0,5.74,23.0,34.78
 K Sinclair,UT Khawaja,Test,14,11.0,1,9,2,0,4.71,14.0,64.29
 K Srandeva,A Makri,T20I,18,29.0,0,9,5,0,9.67,18.0,50.0
-K Srandeva,M Perisic,T20I,30,38.0,1,13,2,0,7.6,30.0,43.33
+K Srandeva,D Demic,T20I,11,11.0,2,6,2,0,6.0,5.5,54.55
+K Srandeva,H Leko,T20I,11,14.0,0,5,2,0,7.64,11.0,45.45
+K Srandeva,M Perisic,T20I,40,58.0,1,15,4,0,8.7,40.0,37.5
+K Srandeva,N Nojic,T20I,11,9.0,0,5,1,0,4.91,11.0,45.45
 K Srandeva,S Yildirim,T20I,16,21.0,1,5,2,0,7.88,16.0,31.25
 K Srandeva,T Trajkovic,T20I,13,14.0,0,5,0,0,6.46,13.0,38.46
 K Tari,PV Vuniwaqa,T20I,12,18.0,0,7,2,0,9.0,12.0,58.33
@@ -61094,9 +61238,13 @@ KJ Garth,YH Bhatia,ODI,10,6.0,1,8,1,0,3.6,10.0,80.0
 KJ Harding,Mahmudullah,ODI,13,34.0,0,3,1,3,15.69,13.0,23.08
 KJ Harding,Mushfiqur Rahim,ODI,11,12.0,0,5,1,0,6.55,11.0,45.45
 KJ Harding,Nazmul Hossain Shanto,ODI,20,14.0,0,13,2,0,4.2,20.0,65.0
-KJ McCartney,ME Bouchier,ODI,23,29.0,0,7,2,0,7.57,23.0,30.43
+KJ McCartney,A Capsey,ODI,12,12.0,1,4,1,0,6.0,12.0,33.33
+KJ McCartney,DR Gibson,ODI,18,23.0,0,8,2,1,7.67,18.0,44.44
+KJ McCartney,J Grewcock,ODI,26,25.0,0,14,1,0,5.77,26.0,53.85
+KJ McCartney,ME Bouchier,ODI,38,47.0,3,13,4,0,7.42,12.67,34.21
 KJ McCartney,N Chaiwai,ODI,13,13.0,0,5,0,0,6.0,13.0,38.46
 KJ McCartney,P Maya,ODI,15,24.0,0,6,2,1,9.6,15.0,40.0
+KJ McCartney,SIR Dunkley,ODI,30,29.0,1,14,3,0,5.8,30.0,46.67
 KJ McCartney,SR Taylor,ODI,17,19.0,0,6,2,0,6.71,17.0,35.29
 KJ McCartney,T Putthawong,ODI,10,15.0,0,6,2,0,9.0,10.0,60.0
 KJ O'Brien,A Bagai,ODI,14,11.0,0,9,2,0,4.71,14.0,64.29
@@ -61953,7 +62101,7 @@ KMA Paul,Rameez Shahzad,ODI,11,8.0,0,8,1,0,4.36,11.0,72.73
 KMA Paul,S Dhawan,ODI,37,31.0,1,23,4,0,5.03,37.0,62.16
 KMA Paul,S Dhawan,T20I,25,30.0,1,6,0,1,7.2,25.0,24.0
 KMA Paul,SC Williams,ODI,13,12.0,1,10,3,0,5.54,13.0,76.92
-KMA Paul,SD Hope,CPL,15,18.0,2,4,0,1,7.2,7.5,26.67
+KMA Paul,SD Hope,CPL,20,25.0,2,5,1,1,7.5,10.0,25.0
 KMA Paul,SE Rutherford,CPL,14,35.0,0,4,3,2,15.0,14.0,28.57
 KMA Paul,SJ Modani,ODI,12,11.0,0,7,1,0,5.5,12.0,58.33
 KMA Paul,SP Narine,CPL,21,46.0,1,5,4,2,13.14,21.0,23.81
@@ -62857,6 +63005,7 @@ KT Maphaka,CR Ervine,Test,17,15.0,0,8,1,0,5.29,17.0,47.06
 KT Maphaka,D Myers,T20I,13,12.0,0,8,2,0,5.54,13.0,61.54
 KT Maphaka,DP Conway,T20I,19,23.0,1,9,4,0,7.26,19.0,47.37
 KT Maphaka,GJ Maxwell,T20I,14,24.0,1,6,2,2,10.29,14.0,42.86
+KT Maphaka,MB Kruger,ODI,16,11.0,0,9,1,0,4.12,16.0,56.25
 KT Maphaka,Mohammad Rizwan,ODI,22,28.0,1,13,5,0,7.64,22.0,59.09
 KT Maphaka,Mohammad Rizwan,T20I,15,25.0,1,5,1,2,10.0,15.0,33.33
 KT Maphaka,Mohammad Rizwan,Test,19,19.0,0,6,0,0,6.0,19.0,31.58
@@ -62870,7 +63019,7 @@ KT Maphaka,Saim Ayub,ODI,33,35.0,1,20,4,1,6.36,33.0,60.61
 KT Maphaka,Saim Ayub,T20I,18,39.0,0,6,3,3,13.0,18.0,33.33
 KT Maphaka,Saud Shakeel,Test,13,5.0,0,8,0,0,2.31,13.0,61.54
 KT Maphaka,Shan Masood,Test,29,11.0,1,20,0,0,2.28,29.0,68.97
-KT Maphaka,Sikandar Raza,T20I,17,20.0,1,9,1,1,7.06,17.0,52.94
+KT Maphaka,Sikandar Raza,T20I,21,23.0,1,11,1,1,6.57,21.0,52.38
 KT Maphaka,T Kaitano,Test,12,3.0,0,10,0,0,1.5,12.0,83.33
 KT Maphaka,TH David,T20I,19,37.0,1,6,4,2,11.68,19.0,31.58
 KT Maphaka,TL Chivanga,Test,12,0.0,0,12,0,0,0.0,12.0,100.0
@@ -63340,6 +63489,7 @@ KY Chan,R Rijke,T20I,11,22.0,0,2,2,1,12.0,11.0,18.18
 KY Chan,RC Belbashi,T20I,26,23.0,2,14,3,0,5.31,13.0,53.85
 KY Chan,S Chaturongrattana,T20I,13,10.0,0,7,1,0,4.62,13.0,53.85
 KY Chan,S Choden,T20I,20,11.0,2,12,0,0,3.3,10.0,60.0
+KY Chan,S Mandhana,T20I,10,17.0,0,3,1,1,10.2,10.0,30.0
 KY Chan,S Mtae,T20I,12,17.0,0,5,3,0,8.5,12.0,41.67
 KY Chan,S Nampiina,T20I,17,5.0,1,14,0,0,1.76,17.0,82.35
 KY Chan,S Paldon,T20I,17,6.0,0,12,0,0,2.12,17.0,70.59
@@ -64363,7 +64513,8 @@ Khushi Sharma,Zeefa Jilani,T20I,14,9.0,1,12,1,0,3.86,14.0,85.71
 Khuzaima Tanveer,B Sharki,ODI,11,1.0,1,11,0,0,0.55,11.0,100.0
 Khuzaima Tanveer,DS Airee,ODI,29,23.0,0,15,2,0,4.76,29.0,51.72
 Khuzaima Tanveer,DS Airee,T20I,12,5.0,0,7,0,0,2.5,12.0,58.33
-Khuzaima Tanveer,Hammad Mirza,ODI,14,10.0,0,10,2,0,4.29,14.0,71.43
+Khuzaima Tanveer,Hammad Mirza,ODI,26,19.0,0,19,3,0,4.38,26.0,73.08
+Khuzaima Tanveer,Jatinder Singh,ODI,11,19.0,1,5,2,1,10.36,11.0,45.45
 Khuzaima Tanveer,K Bhurtel,T20I,21,46.0,0,8,7,2,13.14,21.0,38.1
 Kim Daeyeon,AS Samra,T20I,15,15.0,0,6,1,0,6.0,15.0,40.0
 Kim Daeyeon,Ahmad Ramdoni,T20I,13,18.0,0,6,3,0,8.31,13.0,46.15
@@ -65187,10 +65338,11 @@ L Filer,A Bosch,Test,22,10.0,1,19,2,0,2.73,22.0,86.36
 L Filer,A Dercksen,Test,24,7.0,1,20,1,0,1.75,24.0,83.33
 L Filer,A Gardner,ODI,21,21.0,0,10,2,0,6.0,21.0,47.62
 L Filer,A Gardner,Test,24,18.0,0,18,3,0,4.5,24.0,75.0
-L Filer,A Hunter,ODI,38,19.0,0,27,2,0,3.0,38.0,71.05
+L Filer,A Hunter,ODI,42,21.0,0,29,2,0,3.0,42.0,69.05
 L Filer,A King,ODI,14,10.0,0,8,1,0,4.29,14.0,57.14
 L Filer,A King,Test,21,7.0,0,18,1,0,2.0,21.0,85.71
 L Filer,A Sutherland,Test,70,60.0,0,44,9,0,5.14,70.0,62.86
+L Filer,A Tector,ODI,21,20.0,0,12,3,0,5.71,21.0,57.14
 L Filer,AC Jayangani,ODI,17,5.0,0,14,0,0,1.76,17.0,82.35
 L Filer,AC Kerr,ODI,57,39.0,0,32,3,0,4.11,57.0,56.14
 L Filer,AC Kerr,T20I,19,16.0,0,12,3,0,5.05,19.0,63.16
@@ -65205,7 +65357,7 @@ L Filer,EA Perry,ODI,23,20.0,0,12,3,0,5.22,23.0,52.17
 L Filer,EA Perry,Test,46,36.0,2,27,5,0,4.7,23.0,58.7
 L Filer,F Tunnicliffe,T20I,14,13.0,0,10,1,0,5.57,14.0,71.43
 L Filer,GE Plimmer,ODI,38,29.0,0,24,4,0,4.58,38.0,63.16
-L Filer,GH Lewis,ODI,40,32.0,2,29,5,0,4.8,20.0,72.5
+L Filer,GH Lewis,ODI,49,37.0,3,36,6,0,4.53,16.33,73.47
 L Filer,GWHM Perera,ODI,28,14.0,1,22,2,0,3.0,28.0,78.57
 L Filer,H Deol,ODI,28,27.0,0,13,3,0,5.79,28.0,46.43
 L Filer,H Kaur,ODI,24,32.0,0,8,4,0,8.0,24.0,33.33
@@ -65215,17 +65367,17 @@ L Filer,IC Gaze,ODI,16,18.0,0,8,2,0,6.75,16.0,50.0
 L Filer,JI Rodrigues,T20I,16,24.0,1,8,4,0,9.0,16.0,50.0
 L Filer,JI Rodrigues,Test,28,29.0,0,17,5,0,6.21,28.0,60.71
 L Filer,JL Jonassen,Test,21,11.0,0,15,1,0,3.14,21.0,71.43
-L Filer,L Paul,ODI,16,9.0,2,8,0,0,3.38,8.0,50.0
+L Filer,L Paul,ODI,17,9.0,3,9,0,0,3.18,5.67,52.94
 L Filer,L Wolvaardt,ODI,23,19.0,0,16,3,0,4.96,23.0,69.57
 L Filer,L Wolvaardt,Test,34,10.0,0,30,2,0,1.76,34.0,88.24
 L Filer,M Kapp,Test,11,17.0,0,6,4,0,9.27,11.0,54.55
 L Filer,ML Green,ODI,31,35.0,0,14,3,0,6.77,31.0,45.16
-L Filer,O Prendergast,ODI,18,20.0,0,8,2,0,6.67,18.0,44.44
+L Filer,O Prendergast,ODI,26,23.0,0,14,2,0,5.31,26.0,53.85
 L Filer,P Litchfield,ODI,27,19.0,2,19,3,0,4.22,13.5,70.37
 L Filer,P Litchfield,Test,39,17.0,0,28,1,0,2.62,39.0,71.79
 L Filer,Pratika Rawal,ODI,15,12.0,0,6,0,0,4.8,15.0,40.0
 L Filer,Q Joseph,ODI,10,10.0,0,6,2,0,6.0,10.0,60.0
-L Filer,R Stokell,ODI,30,12.0,1,21,1,0,2.4,30.0,70.0
+L Filer,R Stokell,ODI,38,14.0,1,27,1,0,2.21,38.0,71.05
 L Filer,RMAU Grimmond,ODI,24,13.0,0,17,1,0,3.25,24.0,70.83
 L Filer,S Luus,Test,25,8.0,1,21,1,0,1.92,25.0,84.0
 L Filer,S Mandhana,ODI,15,13.0,0,9,2,0,5.2,15.0,60.0
@@ -65328,6 +65480,7 @@ L Klusener,SP Fleming,ODI,23,26.0,0,9,3,0,6.78,23.0,39.13
 L Klusener,ST Jayasuriya,ODI,12,15.0,0,3,1,0,7.5,12.0,25.0
 L Klusener,TM Odoyo,ODI,14,4.0,0,10,0,0,1.71,14.0,71.43
 L Klusener,VC Drakes,ODI,10,2.0,0,8,0,0,1.2,10.0,80.0
+L Krvaric,K Ivanova,T20I,11,4.0,0,10,0,0,2.18,11.0,90.91
 L Krvaric,Z Franova,T20I,22,12.0,0,15,1,0,3.27,22.0,68.18
 L Lamin,D Ndikubwimana,T20I,10,11.0,0,3,1,0,6.6,10.0,30.0
 L Lamin,Hamza Khan,T20I,10,12.0,0,4,2,0,7.2,10.0,40.0
@@ -65342,15 +65495,19 @@ L Little,B Bezuidenhout,ODI,10,15.0,0,4,2,0,9.0,10.0,40.0
 L Little,B Cooper,T20I,12,21.0,0,5,4,0,10.5,12.0,41.67
 L Little,CS Mugeri-Tiripano,ODI,12,17.0,0,6,3,0,8.5,12.0,50.0
 L Little,CS Mugeri-Tiripano,T20I,11,13.0,0,5,1,0,7.09,11.0,45.45
+L Little,FG Kemp,ODI,11,14.0,0,3,2,0,7.64,11.0,27.27
 L Little,HK Matthews,ODI,27,17.0,1,16,2,0,3.78,27.0,59.26
 L Little,HK Matthews,T20I,22,36.0,0,9,4,2,9.82,22.0,40.91
+L Little,J Grewcock,ODI,14,12.0,0,5,1,0,5.14,14.0,35.71
 L Little,KE Bryce,ODI,19,19.0,0,7,2,0,6.0,19.0,36.84
 L Little,L Lee,ODI,14,12.0,0,6,1,0,5.14,14.0,42.86
 L Little,L Wolvaardt,ODI,21,18.0,0,9,1,0,5.14,21.0,42.86
 L Little,M du Preez,ODI,13,25.0,0,3,4,0,11.54,13.0,23.08
+L Little,ME Bouchier,ODI,11,17.0,0,4,2,0,9.27,11.0,36.36
 L Little,P Maya,ODI,15,6.0,1,12,1,0,2.4,15.0,80.0
 L Little,RMAU Grimmond,ODI,12,10.0,1,5,1,0,5.0,12.0,41.67
 L Little,SFM Devine,ODI,17,27.0,0,8,4,1,9.53,17.0,47.06
+L Little,SIR Dunkley,ODI,23,26.0,0,13,4,0,6.78,23.0,56.52
 L Little,SJ Bryce,T20I,16,22.0,0,7,3,0,8.25,16.0,43.75
 L Little,SR Taylor,ODI,26,24.0,0,9,2,0,5.54,26.0,34.62
 L Little,Sidra Ameen,ODI,15,9.0,0,7,0,0,3.6,15.0,46.67
@@ -66263,7 +66420,9 @@ LA McBride,B de Leede,T20I,10,20.0,0,1,3,0,12.0,10.0,10.0
 LA McBride,BM Halliday,T20I,11,10.0,0,3,0,0,5.45,11.0,27.27
 LA McBride,CS Mugeri-Tiripano,ODI,27,15.0,0,14,0,0,3.33,27.0,51.85
 LA McBride,CS Mugeri-Tiripano,T20I,15,16.0,1,5,1,0,6.4,15.0,33.33
+LA McBride,DR Gibson,ODI,12,14.0,0,3,1,0,7.0,12.0,25.0
 LA McBride,IG Sharp,T20I,10,14.0,0,3,2,0,8.4,10.0,30.0
+LA McBride,J Grewcock,ODI,12,13.0,0,3,1,0,6.5,12.0,25.0
 LA McBride,K Ndlovu,T20I,19,23.0,1,7,2,0,7.26,19.0,36.84
 LA McBride,L Wolvaardt,T20I,13,36.0,0,1,4,2,16.62,13.0,7.69
 LA McBride,M Mupachikwa,ODI,31,21.0,1,20,2,0,4.06,31.0,64.52
@@ -66272,6 +66431,7 @@ LA McBride,Muneeba Ali,T20I,12,14.0,1,4,1,0,7.0,12.0,33.33
 LA McBride,Natalia Pervaiz,T20I,13,20.0,1,2,3,0,9.23,13.0,15.38
 LA McBride,RP Singh,T20I,10,12.0,0,6,1,1,7.2,10.0,60.0
 LA McBride,S Luus,ODI,15,12.0,0,7,1,0,4.8,15.0,46.67
+LA McBride,SIR Dunkley,ODI,21,21.0,1,8,2,0,6.0,21.0,38.1
 LA McBride,W Mwatile,T20I,10,9.0,1,5,1,0,5.4,10.0,50.0
 LA Musiani,Garret Banner,T20I,13,13.0,0,5,0,1,6.0,13.0,38.46
 LA Simango,B Masaba,T20I,11,5.0,1,8,0,0,2.73,11.0,72.73
@@ -67615,7 +67775,7 @@ LN Oluoch,B Masaba,T20I,11,8.0,2,4,0,0,4.36,5.5,36.36
 LN Oluoch,BJ Bennett,T20I,12,32.0,1,3,7,0,16.0,12.0,25.0
 LN Oluoch,C Madande,T20I,10,24.0,1,3,2,2,14.4,10.0,30.0
 LN Oluoch,C Rububagumya,T20I,11,16.0,1,4,1,1,8.73,11.0,36.36
-LN Oluoch,D Ndikubwimana,T20I,14,11.0,0,3,0,0,4.71,14.0,21.43
+LN Oluoch,D Ndikubwimana,T20I,20,16.0,0,7,1,0,4.8,20.0,35.0
 LN Oluoch,DM Nakrani,T20I,37,77.0,1,13,4,6,12.49,37.0,35.14
 LN Oluoch,E Dusingizimana,T20I,12,2.0,0,11,0,0,1.0,12.0,91.67
 LN Oluoch,Fiaz Ahmed,T20I,29,56.0,0,4,7,1,11.59,29.0,13.79
@@ -67629,7 +67789,7 @@ LN Oluoch,JJ Tucker,T20I,10,6.0,0,7,1,0,3.6,10.0,70.0
 LN Oluoch,JN Frylinck,T20I,11,14.0,0,4,2,0,7.64,11.0,36.36
 LN Oluoch,K Waiswa,T20I,10,11.0,0,5,0,1,6.6,10.0,50.0
 LN Oluoch,MG Erasmus,T20I,11,14.0,0,5,1,1,7.64,11.0,45.45
-LN Oluoch,O Manishimwe,T20I,32,41.0,2,18,4,1,7.69,16.0,56.25
+LN Oluoch,O Manishimwe,T20I,34,43.0,2,18,4,1,7.59,17.0,52.94
 LN Oluoch,O Olaleye,T20I,11,8.0,0,6,1,0,4.36,11.0,54.55
 LN Oluoch,O Tuyisenge,T20I,14,24.0,0,5,3,1,10.29,14.0,35.71
 LN Oluoch,P Kurup,T20I,10,9.0,0,6,1,0,5.4,10.0,60.0
@@ -67648,7 +67808,7 @@ LN Oluoch,Sulaimon Runsewe,T20I,28,47.0,0,7,7,0,10.07,28.0,25.0
 LN Oluoch,T Marumani,T20I,17,7.0,0,12,0,0,2.47,17.0,70.59
 LN Oluoch,T Musekiwa,T20I,13,36.0,1,4,3,3,16.62,13.0,30.77
 LN Oluoch,V Balakrishnan,T20I,11,4.0,0,8,0,0,2.18,11.0,72.73
-LN Oluoch,Yves Cyusa,T20I,14,22.0,1,7,2,1,9.43,14.0,50.0
+LN Oluoch,Yves Cyusa,T20I,18,25.0,1,9,2,1,8.33,18.0,50.0
 LN Onyango,AL Kandappah,ODI,32,16.0,0,19,1,0,3.0,32.0,59.38
 LN Onyango,Abdul Jabbar,ODI,13,10.0,1,9,2,0,4.62,13.0,69.23
 LN Onyango,CD McMillan,ODI,16,25.0,0,6,1,2,9.38,16.0,37.5
@@ -68175,6 +68335,7 @@ M Akayezu,Asif Ali,T20I,27,48.0,0,12,4,3,10.67,27.0,44.44
 M Akayezu,CO Obuya,T20I,10,17.0,0,6,3,0,10.2,10.0,60.0
 M Akayezu,D Ajekun,T20I,16,15.0,1,9,1,0,5.62,16.0,56.25
 M Akayezu,D Kansonkho,T20I,44,47.0,1,18,2,0,6.41,44.0,40.91
+M Akayezu,D Maisuria,T20I,11,10.0,1,5,1,0,5.45,11.0,45.45
 M Akayezu,D Myers,T20I,13,35.0,0,4,5,2,16.15,13.0,30.77
 M Akayezu,G Kansonkho,T20I,13,28.0,0,4,4,1,12.92,13.0,30.77
 M Akayezu,G Ngegba,T20I,10,7.0,0,5,0,0,4.2,10.0,50.0
@@ -68194,12 +68355,13 @@ M Akayezu,N Davin,T20I,10,18.0,1,2,3,0,10.8,10.0,20.0
 M Akayezu,N Mugabe,T20I,19,28.0,1,8,3,1,8.84,19.0,42.11
 M Akayezu,OH Agbomadzie,T20I,29,36.0,4,15,5,0,7.45,7.25,51.72
 M Akayezu,P Kurup,T20I,13,11.0,1,6,1,0,5.08,13.0,46.15
-M Akayezu,P Silas,T20I,11,13.0,1,4,2,0,7.09,11.0,36.36
+M Akayezu,P Silas,T20I,16,15.0,1,8,2,0,5.62,16.0,50.0
 M Akayezu,R Abdulkareem,T20I,12,18.0,0,6,2,1,9.0,12.0,50.0
 M Akayezu,R Lutaaya,T20I,26,31.0,1,12,4,0,7.15,26.0,46.15
 M Akayezu,R Nehonde,T20I,17,25.0,2,8,1,2,8.82,8.5,47.06
 M Akayezu,R Obuya,T20I,20,40.0,1,10,5,2,12.0,20.0,50.0
 M Akayezu,RG Mukasa,T20I,22,35.0,0,8,1,0,9.55,22.0,36.36
+M Akayezu,RN Patel,T20I,15,12.0,0,9,0,1,4.8,15.0,60.0
 M Akayezu,RR Patel,T20I,14,22.0,0,3,1,1,9.43,14.0,21.43
 M Akayezu,Raghav Dhawan,T20I,10,9.0,1,7,2,0,5.4,10.0,70.0
 M Akayezu,Riazat Ali Shah,T20I,24,44.0,1,8,7,1,11.0,24.0,33.33
@@ -68208,7 +68370,7 @@ M Akayezu,S Singh,T20I,13,20.0,0,5,0,0,9.23,13.0,38.46
 M Akayezu,S Thakor,T20I,22,32.0,2,10,4,1,8.73,11.0,45.45
 M Akayezu,SA Jumbe,T20I,17,29.0,2,5,0,2,10.24,8.5,29.41
 M Akayezu,SK Awiah,T20I,15,16.0,2,7,1,0,6.4,7.5,46.67
-M Akayezu,SO Ngoche,T20I,12,13.0,0,5,2,0,6.5,12.0,41.67
+M Akayezu,SO Ngoche,T20I,14,14.0,0,6,2,0,6.0,14.0,42.86
 M Akayezu,SR Bhudia,T20I,11,28.0,1,3,5,0,15.27,11.0,27.27
 M Akayezu,SY Nihute,T20I,20,17.0,2,11,1,0,5.1,10.0,55.0
 M Akayezu,SZ Vayani,T20I,18,27.0,0,8,4,0,9.0,18.0,44.44
@@ -68218,6 +68380,7 @@ M Akayezu,T Marumani,T20I,10,18.0,0,4,2,1,10.8,10.0,40.0
 M Akayezu,T Perera,T20I,31,27.0,0,14,0,0,5.23,31.0,45.16
 M Akayezu,T Tshose,T20I,12,10.0,2,6,0,0,5.0,6.0,50.0
 M Akayezu,TK Joseph,T20I,10,9.0,1,6,1,0,5.4,10.0,60.0
+M Akayezu,V Balakrishnan,T20I,11,26.0,0,2,2,1,14.18,11.0,18.18
 M Akayezu,Vasmiakram Chand,T20I,10,18.0,0,4,4,0,10.8,10.0,40.0
 M Akhigbe,J Taanyanda,T20I,13,19.0,0,6,3,0,8.77,13.0,46.15
 M Ansari,Aizaz Khan,T20I,10,9.0,1,4,1,0,5.4,10.0,40.0
@@ -68311,6 +68474,7 @@ M Bibi,R Musamali,T20I,14,12.0,0,4,0,0,5.14,14.0,28.57
 M Bibi,RC Belbashi,T20I,14,24.0,1,7,4,0,10.29,14.0,50.0
 M Bibi,S Choden,T20I,34,26.0,0,18,1,0,4.59,34.0,52.94
 M Bibi,S Kato,T20I,21,17.0,0,14,2,0,4.86,21.0,66.67
+M Bibi,S Mandhana,T20I,10,27.0,0,3,3,2,16.2,10.0,30.0
 M Bibi,S Paldon,T20I,14,18.0,0,3,2,0,7.71,14.0,21.43
 M Bibi,SL Gomez,T20I,26,14.0,2,19,1,0,3.23,13.0,73.08
 M Bibi,SM Dhanusri,T20I,10,4.0,0,9,1,0,2.4,10.0,90.0
@@ -68517,6 +68681,8 @@ M Dlamini,O Batisani,T20I,10,11.0,0,5,1,0,6.6,10.0,50.0
 M Dlamini,O Kgeresi,T20I,17,11.0,0,9,0,0,3.88,17.0,52.94
 M Dlamini,O Mondlane,T20I,29,19.0,2,19,2,0,3.93,14.5,65.52
 M Dlamini,P Cuinica,T20I,13,19.0,0,11,1,0,8.77,13.0,84.62
+M Durdevac,D Demic,T20I,10,16.0,1,4,2,0,9.6,10.0,40.0
+M Durdevac,M Stevanovic,T20I,10,1.0,0,10,0,0,0.6,10.0,100.0
 M Elikana,NPAN Sakarini,T20I,10,3.0,1,9,0,0,1.8,10.0,90.0
 M Enkhzul,KM Myat,T20I,12,17.0,0,6,2,0,8.5,12.0,50.0
 M Enkhzul,NLKWR Dewi,T20I,12,18.0,0,3,1,0,9.0,12.0,25.0
@@ -68540,6 +68706,7 @@ M Faraz Akram,Tanzid Hasan,T20I,12,18.0,1,5,1,1,9.0,12.0,41.67
 M Faraz Akram,YBK Jaiswal,T20I,11,22.0,0,1,2,0,12.0,11.0,9.09
 M Fru,F Damiao Couana,T20I,11,25.0,0,1,3,1,13.64,11.0,9.09
 M Fru,J Bulele,T20I,10,15.0,0,4,0,0,9.0,10.0,40.0
+M Fumba,D Ndikubwimana,T20I,11,16.0,0,7,0,2,8.73,11.0,63.64
 M Gaur,AC Jayangani,ODI,11,8.0,1,8,1,0,4.36,11.0,72.73
 M Gaur,AC Jayangani,T20I,13,19.0,2,7,1,2,8.77,6.5,53.85
 M Gaur,Amna Tariq,T20I,16,3.0,0,13,0,0,1.12,16.0,81.25
@@ -68593,14 +68760,18 @@ M Hayward,Waqar Younis,Test,18,21.0,2,11,4,0,7.0,9.0,61.11
 M Hayward,Younis Khan,Test,20,17.0,0,13,3,0,5.1,20.0,65.0
 M Hayward,Yousuf Youhana,Test,10,14.0,2,5,3,0,8.4,5.0,50.0
 M Heingo,BJ McMullen,ODI,13,16.0,0,6,0,1,7.38,13.0,46.15
-M Heingo,D Brevis,T20I,14,19.0,0,6,0,2,8.14,14.0,42.86
+M Heingo,D Brevis,T20I,15,20.0,0,6,0,2,8.0,15.0,40.0
 M Heingo,FDW McCreath,T20I,11,14.0,0,4,2,0,7.64,11.0,36.36
 M Heingo,HG Munsey,T20I,16,39.0,1,4,1,4,14.62,16.0,25.0
 M Heingo,Hammad Mirza,ODI,15,16.0,0,8,1,1,6.4,15.0,53.33
+M Heingo,J Hermann,ODI,19,28.0,0,9,3,1,8.84,19.0,47.37
+M Heingo,LG Pretorius,T20I,13,24.0,1,4,1,2,11.08,13.0,30.77
 M Heingo,MRJ Watt,ODI,19,17.0,0,12,1,1,5.37,19.0,63.16
+M Heingo,RA Herman,T20I,11,22.0,0,2,2,1,12.0,11.0,18.18
 M Heingo,RP Burl,T20I,11,17.0,0,1,2,0,9.27,11.0,9.09
 M Heingo,SA Okpe,T20I,10,15.0,1,3,2,0,9.0,10.0,30.0
 M Heingo,Shakeel Ahmed,ODI,11,10.0,0,7,1,0,5.45,11.0,63.64
+M Heingo,T de Zorzi,ODI,12,11.0,0,5,1,0,5.5,12.0,41.67
 M Hill,A Chandel,T20I,23,13.0,3,14,0,0,3.39,7.67,60.87
 M Hill,A Kano,T20I,18,18.0,1,5,1,0,6.0,18.0,27.78
 M Hill,B Shanti,T20I,13,7.0,1,8,0,0,3.23,13.0,61.54
@@ -69635,10 +69806,11 @@ M Mooketsi,AJ Ayannaike,T20I,13,11.0,0,8,2,0,5.08,13.0,61.54
 M Mooketsi,AR Ramjani,T20I,16,10.0,1,7,0,0,3.75,16.0,43.75
 M Mooketsi,CG Williams,T20I,11,16.0,0,4,1,1,8.73,11.0,36.36
 M Mooketsi,CO Obuya,T20I,16,36.0,0,7,5,2,13.5,16.0,43.75
-M Mooketsi,D Ndikubwimana,T20I,38,32.0,1,22,2,1,5.05,38.0,57.89
+M Mooketsi,D Ndikubwimana,T20I,46,34.0,2,28,2,1,4.43,23.0,60.87
 M Mooketsi,DM Nakrani,T20I,11,4.0,1,7,0,0,2.18,11.0,63.64
 M Mooketsi,E Dusingizimana,T20I,19,31.0,1,6,4,1,9.79,19.0,31.58
 M Mooketsi,F Damiao Couana,T20I,21,15.0,0,13,2,0,4.29,21.0,61.9
+M Mooketsi,Hamza Khan,T20I,12,23.0,0,3,1,2,11.5,12.0,25.0
 M Mooketsi,I Danladi,T20I,29,45.0,0,9,2,3,9.31,29.0,31.03
 M Mooketsi,JP Kotze,T20I,21,45.0,1,9,2,5,12.86,21.0,42.86
 M Mooketsi,LM Gabriel,T20I,12,4.0,1,9,0,0,2.0,12.0,75.0
@@ -70495,6 +70667,7 @@ M Muralitharan,Yuvraj Singh,ODI,117,101.0,3,54,6,1,5.18,39.0,46.15
 M Muralitharan,Yuvraj Singh,Test,126,83.0,4,84,11,1,3.95,31.5,66.67
 M Muralitharan,Z Khan,ODI,42,30.0,2,25,0,2,4.29,21.0,59.52
 M Muralitharan,Z Khan,Test,91,28.0,2,80,2,1,1.85,45.5,87.91
+M Musinguzi,A Turay,T20I,17,21.0,0,11,3,1,7.41,17.0,64.71
 M Mwangi,E Iloku,T20I,12,5.0,1,9,0,0,2.5,12.0,75.0
 M Mwangi,I Nakisuuyi,T20I,12,17.0,0,7,2,1,8.5,12.0,58.33
 M Mwatile,Ainna Hamizah Hashim,T20I,20,10.0,1,14,1,0,3.0,20.0,70.0
@@ -71170,9 +71343,11 @@ M Stanikzai,Anoop Orsu,T20I,11,22.0,0,3,2,1,12.0,11.0,27.27
 M Stanikzai,CM Carroll,T20I,16,30.0,0,3,2,2,11.25,16.0,18.75
 M Stanikzai,Karanbir Singh,T20I,16,26.0,0,8,2,2,9.75,16.0,50.0
 M Stanikzai,Md Ariyan,T20I,13,37.0,0,5,2,4,17.08,13.0,38.46
-M Stevanovic,D Ruynekova,T20I,14,5.0,1,12,0,0,2.14,14.0,85.71
+M Stevanovic,D Ruynekova,T20I,29,25.0,1,19,2,0,5.17,29.0,65.52
 M Stevanovic,G Ilarionova,T20I,18,13.0,1,14,1,0,4.33,18.0,77.78
-M Stevanovic,V Nikolova,T20I,17,23.0,1,8,3,0,8.12,17.0,47.06
+M Stevanovic,H Bosnic,T20I,18,5.0,0,14,0,0,1.67,18.0,77.78
+M Stevanovic,K Eftimova,T20I,10,10.0,0,4,0,0,6.0,10.0,40.0
+M Stevanovic,V Nikolova,T20I,29,40.0,2,12,4,0,8.28,14.5,41.38
 M Strano,AE Satterthwaite,T20I,11,12.0,0,6,2,0,6.55,11.0,54.55
 M Strano,DN Wyatt,T20I,17,27.0,0,4,4,0,9.53,17.0,23.53
 M Strano,NR Sciver,T20I,13,20.0,0,1,2,0,9.23,13.0,7.69
@@ -71219,7 +71394,7 @@ M Theekshana,A Raghuvanshi,IPL,11,18.0,0,3,1,1,9.82,11.0,27.27
 M Theekshana,A Zampa,ODI,16,16.0,0,11,1,0,6.0,16.0,68.75
 M Theekshana,AC Agar,T20I,18,17.0,1,9,1,1,5.67,18.0,50.0
 M Theekshana,AD Russell,CPL,14,27.0,2,6,1,3,11.57,7.0,42.86
-M Theekshana,ADS Fletcher,CPL,11,12.0,0,5,1,0,6.55,11.0,45.45
+M Theekshana,ADS Fletcher,CPL,18,31.0,1,7,4,1,10.33,18.0,38.89
 M Theekshana,AJ Finch,ODI,34,22.0,1,18,1,0,3.88,34.0,52.94
 M Theekshana,AJ Finch,T20I,64,47.0,1,37,5,0,4.41,64.0,57.81
 M Theekshana,AK Markram,IPL,31,44.0,1,10,5,1,8.52,31.0,32.26
@@ -71240,6 +71415,7 @@ M Theekshana,Anamul Haque,ODI,12,8.0,0,7,1,0,4.0,12.0,58.33
 M Theekshana,Ayan Khan,ODI,19,19.0,0,11,1,0,6.0,19.0,57.89
 M Theekshana,Azhar Ali,Test,16,3.0,0,13,0,0,1.12,16.0,81.25
 M Theekshana,B Sai Sudharsan,IPL,28,48.0,1,9,4,2,10.29,28.0,32.14
+M Theekshana,BA King,CPL,10,12.0,0,2,1,0,7.2,10.0,20.0
 M Theekshana,BA King,ODI,18,17.0,1,8,2,0,5.67,18.0,44.44
 M Theekshana,BA King,T20I,25,44.0,1,9,5,2,10.56,25.0,36.0
 M Theekshana,BA Stokes,ODI,22,5.0,0,18,0,0,1.36,22.0,81.82
@@ -71284,7 +71460,7 @@ M Theekshana,Hussain Talat,ODI,42,34.0,1,24,3,1,4.86,42.0,57.14
 M Theekshana,Iftikhar Ahmed,ODI,13,20.0,0,3,3,0,9.23,13.0,23.08
 M Theekshana,Imam-ul-Haq,Test,16,9.0,0,11,1,0,3.38,16.0,68.75
 M Theekshana,Ishan Kishan,IPL,12,25.0,0,3,5,0,12.5,12.0,25.0
-M Theekshana,J Charles,CPL,12,16.0,0,7,1,1,8.0,12.0,58.33
+M Theekshana,J Charles,CPL,15,22.0,0,7,2,1,8.8,15.0,46.67
 M Theekshana,J Charles,ODI,13,10.0,0,8,1,0,4.62,13.0,61.54
 M Theekshana,J Gumbie,ODI,15,12.0,1,10,2,0,4.8,15.0,66.67
 M Theekshana,JC Buttler,IPL,38,56.0,1,9,6,1,8.84,38.0,23.68
@@ -71300,6 +71476,7 @@ M Theekshana,KA Pollard,CPL,18,33.0,1,5,3,2,11.0,18.0,27.78
 M Theekshana,KD Karthik,IPL,21,41.0,0,5,4,2,11.71,21.0,23.81
 M Theekshana,KL Rahul,IPL,12,20.0,0,4,2,1,10.0,12.0,33.33
 M Theekshana,KL Rahul,ODI,16,10.0,0,7,0,0,3.75,16.0,43.75
+M Theekshana,KR Mayers,CPL,12,2.0,2,10,0,0,1.0,6.0,83.33
 M Theekshana,KS Williamson,IPL,19,16.0,0,7,1,0,5.05,19.0,36.84
 M Theekshana,KU Carty,ODI,27,13.0,1,15,0,0,2.89,27.0,55.56
 M Theekshana,Kuldeep Yadav,ODI,10,3.0,0,7,0,0,1.8,10.0,70.0
@@ -71311,6 +71488,7 @@ M Theekshana,M Jansen,IPL,10,7.0,1,6,0,0,4.2,10.0,60.0
 M Theekshana,M Labuschagne,ODI,52,30.0,1,31,0,0,3.46,52.0,59.62
 M Theekshana,M Labuschagne,Test,20,11.0,0,9,0,0,3.3,20.0,45.0
 M Theekshana,M Shumba,ODI,16,6.0,1,12,0,0,2.25,16.0,75.0
+M Theekshana,MD Shanaka,CPL,11,30.0,0,3,2,3,16.36,11.0,27.27
 M Theekshana,MD Shanaka,IPL,10,15.0,0,4,1,1,9.0,10.0,40.0
 M Theekshana,MG Bracewell,ODI,12,5.0,1,10,1,0,2.5,12.0,83.33
 M Theekshana,MG Erasmus,T20I,10,11.0,0,1,0,0,6.6,10.0,10.0
@@ -71347,12 +71525,13 @@ M Theekshana,Nazmul Hossain Shanto,ODI,89,58.0,2,49,4,0,3.91,44.5,55.06
 M Theekshana,Nazmul Hossain Shanto,T20I,21,22.0,0,8,2,0,6.29,21.0,38.1
 M Theekshana,PD Salt,T20I,18,31.0,0,5,2,2,10.33,18.0,27.78
 M Theekshana,Parvez Hossain Emon,ODI,28,18.0,0,18,0,1,3.86,28.0,64.29
+M Theekshana,Q de Kock,CPL,14,20.0,0,8,1,2,8.57,14.0,57.14
 M Theekshana,Q de Kock,IPL,15,20.0,0,8,1,1,8.0,15.0,53.33
 M Theekshana,Q de Kock,T20I,40,48.0,0,15,6,0,7.2,40.0,37.5
 M Theekshana,R Powell,T20I,21,13.0,3,14,2,0,3.71,7.0,66.67
 M Theekshana,R Ravindra,ODI,37,30.0,1,20,3,0,4.86,37.0,54.05
 M Theekshana,R Ravindra,T20I,19,30.0,1,5,3,1,9.47,19.0,26.32
-M Theekshana,RA Clarke,CPL,11,8.0,0,4,0,0,4.36,11.0,36.36
+M Theekshana,RA Clarke,CPL,16,10.0,0,7,0,0,3.75,16.0,43.75
 M Theekshana,RD Gaikwad,IPL,11,19.0,0,1,2,0,10.36,11.0,9.09
 M Theekshana,RG Sharma,ODI,17,29.0,0,6,4,1,10.24,17.0,35.29
 M Theekshana,RK Singh,IPL,15,13.0,0,3,0,0,5.2,15.0,20.0
@@ -71428,6 +71607,7 @@ M Theekshana,Washington Sundar,ODI,11,11.0,1,8,1,1,6.0,11.0,72.73
 M Theekshana,YBK Jaiswal,IPL,18,18.0,0,9,1,1,6.0,18.0,50.0
 M Theekshana,YBK Jaiswal,T20I,15,27.0,1,6,4,1,10.8,15.0,40.0
 M Theekshana,Yasir Shah,Test,21,6.0,1,16,0,0,1.71,21.0,76.19
+M Theekshana,ZN Carter,CPL,10,20.0,0,6,2,2,12.0,10.0,60.0
 M Tiwari,Dhruv Jurel,IPL,11,16.0,0,3,2,0,8.73,11.0,27.27
 M Tiwari,SS Iyer,IPL,13,28.0,0,4,2,2,12.92,13.0,30.77
 M Tom,A Chilia,T20I,10,12.0,0,5,2,0,7.2,10.0,50.0
@@ -73691,6 +73871,7 @@ MG Erasmus,H Thaker,ODI,20,15.0,1,10,1,0,4.5,20.0,50.0
 MG Erasmus,Hammad Mirza,ODI,44,43.0,1,22,6,0,5.86,44.0,50.0
 MG Erasmus,Hashir Dafedar,ODI,13,11.0,1,9,2,0,5.08,13.0,69.23
 MG Erasmus,IG Holland,ODI,10,7.0,0,7,1,0,4.2,10.0,70.0
+MG Erasmus,J Hermann,ODI,18,22.0,0,6,2,0,7.33,18.0,33.33
 MG Erasmus,JS Malhotra,ODI,18,8.0,0,12,0,0,2.67,18.0,66.67
 MG Erasmus,JW Jenner,ODI,17,12.0,0,9,1,0,4.24,17.0,52.94
 MG Erasmus,Jatinder Singh,ODI,19,16.0,0,11,2,0,5.05,19.0,57.89
@@ -73701,6 +73882,7 @@ MG Erasmus,Khalid Kail,ODI,24,14.0,0,14,1,0,3.5,24.0,58.33
 MG Erasmus,Khalid Kail,T20I,21,17.0,2,8,1,0,4.86,10.5,38.1
 MG Erasmus,Kushal Malla,ODI,27,13.0,2,22,1,1,2.89,13.5,81.48
 MG Erasmus,L Siaka,ODI,25,9.0,0,19,0,0,2.16,25.0,76.0
+MG Erasmus,LG Pretorius,T20I,15,28.0,1,2,0,3,11.2,15.0,13.33
 MG Erasmus,LM Jongwe,T20I,16,8.0,0,10,0,0,3.0,16.0,62.5
 MG Erasmus,M Levitt,ODI,18,12.0,1,12,2,0,4.0,18.0,66.67
 MG Erasmus,M Shumba,T20I,10,7.0,1,6,1,0,4.2,10.0,60.0
@@ -73744,6 +73926,7 @@ MG Erasmus,Sikandar Raza,T20I,18,35.0,3,7,1,4,11.67,6.0,38.89
 MG Erasmus,Sompal Kami,ODI,10,6.0,3,8,1,0,3.6,3.33,80.0
 MG Erasmus,Sufyan Mehmood,ODI,13,8.0,2,10,1,0,3.69,6.5,76.92
 MG Erasmus,T Marumani,T20I,28,56.0,2,8,2,4,12.0,14.0,28.57
+MG Erasmus,T de Zorzi,ODI,15,15.0,1,8,0,1,6.0,15.0,53.33
 MG Erasmus,V Mbazo,T20I,12,5.0,0,7,0,0,2.5,12.0,58.33
 MG Erasmus,V Shukla,ODI,15,27.0,1,5,2,2,10.8,15.0,33.33
 MG Erasmus,V Sukumaran,ODI,20,12.0,0,11,1,0,3.6,20.0,55.0
@@ -74372,6 +74555,9 @@ MH Yardy,Umar Akmal,ODI,18,15.0,0,6,0,0,5.0,18.0,33.33
 MH Yardy,Umar Akmal,T20I,22,13.0,0,12,0,0,3.55,22.0,54.55
 MH Yardy,Younis Khan,ODI,22,13.0,0,13,1,0,3.55,22.0,59.09
 MH Yardy,Yuvraj Singh,ODI,25,22.0,1,12,2,0,5.28,25.0,48.0
+MHS James,A Ilahi,T20I,13,10.0,0,8,0,0,4.62,13.0,61.54
+MHS James,E Kuncova,T20I,24,17.0,0,12,0,0,4.25,24.0,50.0
+MHS James,J Souckova,T20I,10,13.0,0,5,2,0,7.8,10.0,50.0
 MI Khagoitsa,A Ndiraya,T20I,10,10.0,0,6,2,0,6.0,10.0,60.0
 MI Khagoitsa,B Murekatete,T20I,16,10.0,0,12,2,0,3.75,16.0,75.0
 MI Khagoitsa,C Uwase,T20I,16,10.0,0,9,1,0,3.75,16.0,56.25
@@ -76106,7 +76292,7 @@ MK Tiwary,CS Baugh,ODI,10,3.0,0,7,0,0,1.8,10.0,70.0
 MK Tiwary,HDRL Thirimanne,ODI,26,30.0,0,9,0,2,6.92,26.0,34.62
 MK Tiwary,KA Pollard,ODI,14,27.0,0,6,2,2,11.57,14.0,42.86
 MK Tiwary,SR Patel,ODI,17,10.0,0,11,1,0,3.53,17.0,64.71
-MK Villiers,A Hunter,ODI,13,12.0,0,5,1,0,5.54,13.0,38.46
+MK Villiers,A Hunter,ODI,35,22.0,1,17,1,0,3.77,35.0,48.57
 MK Villiers,AA Alleyne,T20I,12,16.0,1,7,1,1,8.0,12.0,58.33
 MK Villiers,AE Satterthwaite,T20I,10,21.0,0,2,4,0,12.6,10.0,20.0
 MK Villiers,DB Sharma,Test,49,36.0,0,29,5,0,4.41,49.0,59.18
@@ -76116,10 +76302,10 @@ MK Villiers,H Kaur,T20I,11,16.0,0,5,0,2,8.73,11.0,45.45
 MK Villiers,H Kaur,Test,22,14.0,1,15,2,0,3.82,22.0,68.18
 MK Villiers,Iram Javed,T20I,16,20.0,0,10,1,2,7.5,16.0,62.5
 MK Villiers,KJ Martin,T20I,13,16.0,1,3,2,0,7.38,13.0,23.08
-MK Villiers,L Paul,ODI,30,26.0,1,13,1,0,5.2,30.0,43.33
-MK Villiers,O Prendergast,ODI,29,28.0,2,14,2,1,5.79,14.5,48.28
+MK Villiers,L Paul,ODI,53,42.0,1,24,2,0,4.75,53.0,45.28
+MK Villiers,O Prendergast,ODI,50,38.0,4,26,2,1,4.56,12.5,52.0
 MK Villiers,O Prendergast,T20I,12,13.0,0,4,1,0,6.5,12.0,33.33
-MK Villiers,R Stokell,ODI,16,14.0,0,8,1,0,5.25,16.0,50.0
+MK Villiers,R Stokell,ODI,30,27.0,1,14,1,1,5.4,30.0,46.67
 MK Villiers,RM Ghosh,Test,10,12.0,0,5,2,0,7.2,10.0,50.0
 MK Villiers,S Mandhana,Test,35,18.0,0,21,1,0,3.09,35.0,60.0
 MK Villiers,S Rana,Test,17,9.0,1,10,0,0,3.18,17.0,58.82
@@ -78027,10 +78213,13 @@ MR Adair,WP Masakadza,ODI,22,22.0,0,10,2,0,6.0,22.0,45.45
 MR Adair,Waseem Muhammad,ODI,19,24.0,1,13,4,1,7.58,19.0,68.42
 MR Adair,Waseem Muhammad,T20I,41,43.0,1,23,7,0,6.29,41.0,56.1
 MR Adair,Z Crawley,Test,27,50.0,0,11,10,0,11.11,27.0,40.74
-MR Corteen-Coleman,A Hunter,ODI,19,17.0,0,8,1,0,5.37,19.0,42.11
+MR Corteen-Coleman,A Hunter,ODI,56,46.0,0,20,2,0,4.93,56.0,35.71
+MR Corteen-Coleman,A Tector,ODI,12,6.0,1,6,0,0,3.0,12.0,50.0
 MR Corteen-Coleman,AC Kerr,ODI,20,17.0,0,8,1,0,5.1,20.0,40.0
-MR Corteen-Coleman,GH Lewis,ODI,12,14.0,0,4,2,0,7.0,12.0,33.33
+MR Corteen-Coleman,GH Lewis,ODI,16,19.0,0,6,3,0,7.12,16.0,37.5
+MR Corteen-Coleman,L Little,ODI,10,3.0,1,7,0,0,1.8,10.0,70.0
 MR Corteen-Coleman,ML Green,ODI,28,27.0,1,11,3,0,5.79,28.0,39.29
+MR Corteen-Coleman,O Prendergast,ODI,26,29.0,0,12,2,1,6.69,26.0,46.15
 MR Gillespie,A Nel,ODI,13,24.0,0,3,3,1,11.08,13.0,23.08
 MR Gillespie,A Nel,Test,11,18.0,0,5,1,1,9.82,11.0,45.45
 MR Gillespie,A Symonds,ODI,44,46.0,1,24,6,0,6.27,44.0,54.55
@@ -79082,10 +79271,10 @@ MW Dixon,JH Kallis,BBL,13,29.0,0,4,5,1,13.38,13.0,30.77
 MW Edwards,AJ Finch,BBL,27,48.0,0,10,6,2,10.67,27.0,37.04
 MW Forde,A Balbirnie,ODI,31,34.0,0,18,4,1,6.58,31.0,58.06
 MW Forde,AD Hales,CPL,17,36.0,0,6,4,1,12.71,17.0,35.29
-MW Forde,ADS Fletcher,CPL,16,15.0,2,9,0,1,5.62,8.0,56.25
+MW Forde,ADS Fletcher,CPL,22,23.0,2,12,0,2,6.27,11.0,54.55
 MW Forde,AK Markram,T20I,32,51.0,2,16,8,1,9.56,16.0,50.0
 MW Forde,AU Rashid,ODI,12,15.0,0,6,3,0,7.5,12.0,50.0
-MW Forde,BA King,CPL,28,34.0,1,14,5,1,7.29,28.0,50.0
+MW Forde,BA King,CPL,40,42.0,1,22,6,1,6.3,40.0,55.0
 MW Forde,BKG Mendis,T20I,17,36.0,1,6,2,3,12.71,17.0,35.29
 MW Forde,BM Duckett,ODI,26,16.0,1,17,2,0,3.69,26.0,65.38
 MW Forde,C Carmichael,ODI,12,1.0,1,11,0,0,0.5,12.0,91.67
@@ -79111,7 +79300,7 @@ MW Forde,JP Inglis,ODI,28,50.0,0,11,9,0,10.71,28.0,39.29
 MW Forde,K Mishara,T20I,12,26.0,0,4,2,2,13.0,12.0,33.33
 MW Forde,KA Pollard,CPL,10,32.0,1,3,0,5,19.2,10.0,30.0
 MW Forde,KMA Paul,CPL,11,9.0,0,4,0,0,4.91,11.0,36.36
-MW Forde,KR Mayers,CPL,26,52.0,1,12,3,5,12.0,26.0,46.15
+MW Forde,KR Mayers,CPL,27,52.0,2,13,3,5,11.56,13.5,48.15
 MW Forde,LS Livingstone,ODI,22,20.0,0,9,0,1,5.45,22.0,40.91
 MW Forde,M Dindyal,CPL,13,7.0,0,9,1,0,3.23,13.0,69.23
 MW Forde,MG Bracewell,ODI,11,9.0,1,5,1,0,4.91,11.0,45.45
@@ -79823,7 +80012,7 @@ Marufa Akter,A Hunter,ODI,30,28.0,1,18,5,0,5.6,30.0,60.0
 Marufa Akter,A Hunter,T20I,12,14.0,0,6,2,0,7.0,12.0,50.0
 Marufa Akter,AB Kaur,ODI,13,16.0,1,10,2,0,7.38,13.0,76.92
 Marufa Akter,AC Jayangani,ODI,24,28.0,1,14,4,1,7.0,24.0,58.33
-Marufa Akter,AC Jayangani,T20I,15,12.0,1,9,2,0,4.8,15.0,60.0
+Marufa Akter,AC Jayangani,T20I,17,13.0,2,10,2,0,4.59,8.5,58.82
 Marufa Akter,AJ Healy,ODI,24,13.0,1,18,2,0,3.25,24.0,75.0
 Marufa Akter,AJ Healy,T20I,18,14.0,0,11,2,0,4.67,18.0,61.11
 Marufa Akter,B de Leede,T20I,14,23.0,1,5,4,0,9.86,14.0,35.71
@@ -79842,12 +80031,12 @@ Marufa Akter,H Deol,ODI,25,27.0,0,12,4,0,6.48,25.0,48.0
 Marufa Akter,H Karunaratne,ODI,12,3.0,0,9,0,0,1.5,12.0,75.0
 Marufa Akter,H Kaur,ODI,15,13.0,0,8,2,0,5.2,15.0,53.33
 Marufa Akter,H Madavi,ODI,15,12.0,0,7,1,0,4.8,15.0,46.67
-Marufa Akter,H Madavi,T20I,14,29.0,1,2,4,0,12.43,14.0,14.29
+Marufa Akter,H Madavi,T20I,16,30.0,1,3,4,0,11.25,16.0,18.75
 Marufa Akter,HC Knight,ODI,13,5.0,0,12,1,0,2.31,13.0,92.31
 Marufa Akter,HDJ Siegers,T20I,14,6.0,0,9,0,0,2.57,14.0,64.29
 Marufa Akter,HK Matthews,ODI,54,37.0,1,35,5,0,4.11,54.0,64.81
 Marufa Akter,I Dulani,ODI,19,15.0,1,14,2,0,4.74,19.0,73.68
-Marufa Akter,I Dulani,T20I,10,23.0,0,2,5,0,13.8,10.0,20.0
+Marufa Akter,I Dulani,T20I,19,35.0,1,6,7,0,11.05,19.0,31.58
 Marufa Akter,JI Rodrigues,ODI,22,19.0,0,10,2,0,5.18,22.0,45.45
 Marufa Akter,JI Rodrigues,T20I,21,16.0,0,14,3,0,4.57,21.0,66.67
 Marufa Akter,K Fraser,T20I,10,1.0,2,9,0,0,0.6,5.0,90.0
@@ -79861,14 +80050,15 @@ Marufa Akter,Muneeba Ali,ODI,39,25.0,0,28,4,0,3.85,39.0,71.79
 Marufa Akter,Muneeba Ali,T20I,24,12.0,0,17,1,0,3.0,24.0,70.83
 Marufa Akter,N Boochatham,ODI,19,10.0,0,15,2,0,3.16,19.0,78.95
 Marufa Akter,N Koncharoenkai,T20I,10,14.0,0,4,2,0,8.4,10.0,40.0
-Marufa Akter,NND de Silva,T20I,10,11.0,0,4,1,0,6.6,10.0,40.0
+Marufa Akter,NND de Silva,T20I,12,11.0,1,6,1,0,5.5,12.0,50.0
 Marufa Akter,O Prendergast,ODI,18,10.0,0,13,1,0,3.33,18.0,72.22
 Marufa Akter,P Molkenboer,T20I,20,26.0,2,13,6,0,7.8,10.0,65.0
 Marufa Akter,PN Sproul,ODI,11,6.0,0,7,0,0,3.27,11.0,63.64
 Marufa Akter,PS Punia,ODI,15,7.0,2,11,1,0,2.8,7.5,73.33
 Marufa Akter,Q Joseph,ODI,44,17.0,2,36,3,0,2.32,22.0,81.82
 Marufa Akter,R Rijke,T20I,12,23.0,1,2,2,1,11.5,12.0,16.67
-Marufa Akter,RMVD Gunaratne,T20I,19,11.0,1,14,2,0,3.47,19.0,73.68
+Marufa Akter,RMVD Gunaratne,T20I,22,13.0,1,15,2,0,3.55,22.0,68.18
+Marufa Akter,S Dharnidharka,T20I,12,2.0,1,11,0,0,1.0,12.0,91.67
 Marufa Akter,S Forbes,ODI,39,18.0,0,30,3,0,2.77,39.0,76.92
 Marufa Akter,S Luus,ODI,21,15.0,0,12,1,0,4.29,21.0,57.14
 Marufa Akter,S Mandhana,ODI,47,38.0,2,27,5,0,4.85,23.5,57.45
@@ -80875,6 +81065,8 @@ Mohamed Turay,D Ndikubwimana,T20I,17,17.0,0,9,3,0,6.0,17.0,52.94
 Mohamed Turay,I Niyomugabo,T20I,15,19.0,0,5,2,0,7.6,15.0,33.33
 Mohamed Turay,JV Chand,T20I,17,15.0,0,4,0,0,5.29,17.0,23.53
 Mohamed Turay,Jakir Patel,T20I,17,19.0,0,6,1,1,6.71,17.0,35.29
+Mohamed Turay,Olipa Gerald,T20I,11,22.0,0,3,1,2,12.0,11.0,27.27
+Mohamed Turay,RR Patel,T20I,10,14.0,0,2,2,0,8.4,10.0,20.0
 Mohamed Turay,SR Bhudia,T20I,15,21.0,0,4,2,0,8.4,15.0,26.67
 Mohamed Turay,VF Bomnyuy,T20I,11,1.0,1,10,0,0,0.55,11.0,90.91
 Mohameed Taiwo,D Ndikubwimana,T20I,15,11.0,2,10,0,1,4.4,7.5,66.67
@@ -82334,6 +82526,7 @@ Mohammad Mohsin,MM English,ODI,10,11.0,0,4,0,1,6.6,10.0,40.0
 Mohammad Mohsin,RK Singh,T20I,10,2.0,1,8,0,0,1.2,10.0,80.0
 Mohammad Mohsin,SA Yadav,T20I,12,13.0,0,4,1,0,6.5,12.0,33.33
 Mohammad Mohsin,Sahibzada Farhan,T20I,11,19.0,0,3,0,2,10.36,11.0,27.27
+Mohammad Nabi,AA Jangoo,CPL,14,9.0,1,5,0,0,3.86,14.0,35.71
 Mohammad Nabi,AJ Hose,CPL,10,3.0,1,7,0,0,1.8,10.0,70.0
 Mohammad Nabi,AT Carey,BBL,18,18.0,0,8,1,1,6.0,18.0,44.44
 Mohammad Nabi,Abdullah Shafique,PSL,21,29.0,1,6,1,2,8.29,21.0,28.57
@@ -82357,6 +82550,7 @@ Mohammad Nabi,DJ Malan,PSL,16,27.0,0,2,2,1,10.12,16.0,12.5
 Mohammad Nabi,DJ Willey,BBL,19,20.0,0,10,1,1,6.32,19.0,52.63
 Mohammad Nabi,DJM Short,BBL,12,12.0,0,5,1,0,6.0,12.0,41.67
 Mohammad Nabi,DM Bravo,CPL,22,13.0,1,14,0,1,3.55,22.0,63.64
+Mohammad Nabi,E Lewis,CPL,13,9.0,1,9,0,1,4.15,13.0,69.23
 Mohammad Nabi,EJG Morgan,IPL,14,18.0,2,4,0,1,7.71,7.0,28.57
 Mohammad Nabi,Faheem Ashraf,PSL,13,4.0,0,9,0,0,1.85,13.0,69.23
 Mohammad Nabi,Fakhar Zaman,PSL,40,59.0,0,12,3,4,8.85,40.0,30.0
@@ -82374,6 +82568,7 @@ Mohammad Nabi,JC Silk,BBL,10,12.0,0,1,1,0,7.2,10.0,10.0
 Mohammad Nabi,JJ Peirson,BBL,10,11.0,0,3,1,0,6.6,10.0,30.0
 Mohammad Nabi,JM Vince,PSL,12,21.0,1,3,2,1,10.5,12.0,25.0
 Mohammad Nabi,JN Mohammed,CPL,15,9.0,0,6,0,0,3.6,15.0,40.0
+Mohammad Nabi,JO Holder,CPL,10,9.0,1,5,1,0,5.4,10.0,50.0
 Mohammad Nabi,JS Lehmann,BBL,11,9.0,0,4,0,0,4.91,11.0,36.36
 Mohammad Nabi,JW Wells,BBL,26,37.0,1,2,2,0,8.54,26.0,7.69
 Mohammad Nabi,KA Pollard,CPL,17,10.0,0,9,0,0,3.53,17.0,52.94
@@ -82401,7 +82596,7 @@ Mohammad Nabi,PA Patel,IPL,10,14.0,1,3,2,0,8.4,10.0,30.0
 Mohammad Nabi,PP Shaw,IPL,17,19.0,0,5,0,1,6.71,17.0,29.41
 Mohammad Nabi,PSP Handscomb,BBL,12,6.0,1,7,0,0,3.0,12.0,58.33
 Mohammad Nabi,Q de Kock,IPL,19,13.0,0,7,0,0,4.11,19.0,36.84
-Mohammad Nabi,R Powell,CPL,13,10.0,0,7,1,0,4.62,13.0,53.85
+Mohammad Nabi,R Powell,CPL,14,10.0,1,8,1,0,4.29,14.0,57.14
 Mohammad Nabi,RG Sharma,IPL,15,11.0,1,7,1,0,4.4,15.0,46.67
 Mohammad Nabi,RR Pant,IPL,12,20.0,1,3,0,2,10.0,12.0,25.0
 Mohammad Nabi,RS Bopara,PSL,13,16.0,0,3,1,0,7.38,13.0,23.08
@@ -84364,8 +84559,9 @@ Muhammad Jawadullah,Fakhar Zaman,T20I,11,31.0,0,2,7,0,16.91,11.0,18.18
 Muhammad Jawadullah,H Thaker,T20I,11,7.0,1,6,0,0,3.82,11.0,54.55
 Muhammad Jawadullah,HG Munsey,ODI,33,34.0,1,19,2,2,6.18,33.0,57.58
 Muhammad Jawadullah,Haider Butt,T20I,16,16.0,2,6,0,1,6.0,8.0,37.5
+Muhammad Jawadullah,Hammad Mirza,ODI,11,5.0,0,6,0,0,2.73,11.0,54.55
 Muhammad Jawadullah,Ikramullah Khan,T20I,19,24.0,1,11,3,1,7.58,19.0,57.89
-Muhammad Jawadullah,J Ramanandi,ODI,21,22.0,1,13,3,1,6.29,21.0,61.9
+Muhammad Jawadullah,J Ramanandi,ODI,41,32.0,1,29,5,1,4.68,41.0,70.73
 Muhammad Jawadullah,JJ Smit,T20I,13,7.0,1,9,1,0,3.23,13.0,69.23
 Muhammad Jawadullah,JN Frylinck,T20I,11,10.0,1,6,1,0,5.45,11.0,54.55
 Muhammad Jawadullah,JP Kotze,ODI,13,22.0,1,7,4,0,10.15,13.0,53.85
@@ -84467,8 +84663,10 @@ Muhammad Nadir,R Coker,T20I,24,8.0,1,17,0,0,2.0,24.0,70.83
 Muhammad Nadir,R Lungu,T20I,18,11.0,0,15,1,1,3.67,18.0,83.33
 Muhammad Nadir,R Obuya,T20I,12,9.0,2,8,0,1,4.5,6.0,66.67
 Muhammad Nadir,RB Patel,T20I,13,14.0,0,9,3,0,6.46,13.0,69.23
-Muhammad Nadir,RR Patel,T20I,14,13.0,3,7,2,0,5.57,4.67,50.0
+Muhammad Nadir,RR Patel,T20I,19,15.0,4,10,2,0,4.74,4.75,52.63
 Muhammad Nadir,Riazat Ali Shah,T20I,20,16.0,0,12,1,1,4.8,20.0,60.0
+Muhammad Nadir,S Gill,T20I,14,14.0,1,5,1,0,6.0,14.0,35.71
+Muhammad Nadir,S Singh,T20I,10,4.0,0,6,0,0,2.4,10.0,60.0
 Muhammad Nadir,SA Okpe,T20I,17,9.0,1,9,0,0,3.18,17.0,52.94
 Muhammad Nadir,SR Bhudia,T20I,21,17.0,3,15,3,0,4.86,7.0,71.43
 Muhammad Nadir,SY Nihute,T20I,43,35.0,1,20,0,1,4.88,43.0,46.51
@@ -84481,7 +84679,7 @@ Muhammad Nadir,Sulaimon Runsewe,T20I,38,23.0,3,23,2,0,3.63,12.67,60.53
 Muhammad Nadir,T Marumani,T20I,10,11.0,1,2,0,0,6.6,10.0,20.0
 Muhammad Nadir,T Perera,T20I,18,19.0,0,9,0,2,6.33,18.0,50.0
 Muhammad Nadir,TK Joseph,T20I,12,9.0,0,7,0,0,4.5,12.0,58.33
-Muhammad Nadir,V Balakrishnan,T20I,14,10.0,1,9,0,1,4.29,14.0,64.29
+Muhammad Nadir,V Balakrishnan,T20I,24,20.0,1,15,2,1,5.0,24.0,62.5
 Muhammad Rohid,Aasif Sheikh,ODI,21,10.0,0,16,1,0,2.86,21.0,76.19
 Muhammad Rohid,Aasif Sheikh,T20I,11,15.0,0,4,1,1,8.18,11.0,36.36
 Muhammad Rohid,Agha Salman,T20I,13,15.0,1,8,3,0,6.92,13.0,61.54
@@ -84603,7 +84801,7 @@ Mujeeb Ur Rahman,BA Stokes,IPL,10,14.0,2,4,1,1,8.4,5.0,40.0
 Mujeeb Ur Rahman,BCJ Cutting,BBL,10,5.0,0,5,0,0,3.0,10.0,50.0
 Mujeeb Ur Rahman,BJ Webster,BBL,20,10.0,1,13,1,0,3.0,20.0,65.0
 Mujeeb Ur Rahman,BR McDermott,BBL,22,26.0,1,9,4,0,7.09,22.0,40.91
-Mujeeb Ur Rahman,C Munro,CPL,24,29.0,0,14,4,1,7.25,24.0,58.33
+Mujeeb Ur Rahman,C Munro,CPL,28,30.0,1,17,4,1,6.43,28.0,60.71
 Mujeeb Ur Rahman,CA Lynn,IPL,13,13.0,0,4,1,0,6.0,13.0,30.77
 Mujeeb Ur Rahman,CJ Ferguson,BBL,15,18.0,1,7,1,1,7.2,15.0,46.67
 Mujeeb Ur Rahman,CP Jewell,BBL,20,27.0,0,11,2,2,8.1,20.0,55.0
@@ -84635,7 +84833,7 @@ Mujeeb Ur Rahman,JP Inglis,BBL,21,24.0,0,6,1,0,6.86,21.0,28.57
 Mujeeb Ur Rahman,JR Philippe,BBL,29,40.0,0,11,2,3,8.28,29.0,37.93
 Mujeeb Ur Rahman,JW Wells,BBL,33,33.0,0,13,1,1,6.0,33.0,39.39
 Mujeeb Ur Rahman,K Gore,CPL,16,18.0,1,7,2,0,6.75,16.0,43.75
-Mujeeb Ur Rahman,KA Pollard,CPL,12,14.0,1,6,1,1,7.0,12.0,50.0
+Mujeeb Ur Rahman,KA Pollard,CPL,15,14.0,1,9,1,1,5.6,15.0,60.0
 Mujeeb Ur Rahman,KD Karthik,IPL,13,33.0,0,2,2,3,15.23,13.0,15.38
 Mujeeb Ur Rahman,KR Mayers,CPL,20,9.0,0,14,0,0,2.7,20.0,70.0
 Mujeeb Ur Rahman,KR Patterson,BBL,16,20.0,1,3,1,0,7.5,16.0,18.75
@@ -84653,7 +84851,7 @@ Mujeeb Ur Rahman,MW Harvey,BBL,17,14.0,0,9,0,1,4.94,17.0,52.94
 Mujeeb Ur Rahman,MW Short,BBL,14,11.0,1,9,1,0,4.71,14.0,64.29
 Mujeeb Ur Rahman,Mirza Baig,PSL,15,20.0,0,7,2,1,8.0,15.0,46.67
 Mujeeb Ur Rahman,Mohammad Hafeez,PSL,10,12.0,0,4,2,0,7.2,10.0,40.0
-Mujeeb Ur Rahman,N Pooran,CPL,11,10.0,3,6,0,1,5.45,3.67,54.55
+Mujeeb Ur Rahman,N Pooran,CPL,22,31.0,3,11,0,4,8.45,7.33,50.0
 Mujeeb Ur Rahman,NCR Larkin,BBL,10,6.0,0,4,0,0,3.6,10.0,40.0
 Mujeeb Ur Rahman,NJ Maddinson,BBL,18,14.0,1,7,0,0,4.67,18.0,38.89
 Mujeeb Ur Rahman,Naveen-ul-Haq,CPL,10,6.0,0,7,0,0,3.6,10.0,70.0
@@ -84664,7 +84862,7 @@ Mujeeb Ur Rahman,Q de Kock,IPL,17,12.0,1,9,1,0,4.24,17.0,52.94
 Mujeeb Ur Rahman,R Powell,CPL,10,11.0,0,4,0,0,6.6,10.0,40.0
 Mujeeb Ur Rahman,RA Tripathi,IPL,15,11.0,1,8,0,0,4.4,15.0,53.33
 Mujeeb Ur Rahman,RG Sharma,IPL,12,26.0,0,4,1,3,13.0,12.0,33.33
-Mujeeb Ur Rahman,RL Chase,CPL,10,8.0,1,4,0,0,4.8,10.0,40.0
+Mujeeb Ur Rahman,RL Chase,CPL,19,22.0,1,7,2,0,6.95,19.0,36.84
 Mujeeb Ur Rahman,RR Pant,IPL,11,17.0,2,4,3,0,9.27,5.5,36.36
 Mujeeb Ur Rahman,Rahmanullah Gurbaz,PSL,16,24.0,0,8,2,2,9.0,16.0,50.0
 Mujeeb Ur Rahman,SA Abbott,BBL,11,4.0,0,7,0,0,2.18,11.0,63.64
@@ -84698,6 +84896,9 @@ Mujeeb-ur-Rehman,Usman Khalid,T20I,11,19.0,0,3,2,1,10.36,11.0,27.27
 Mujeeb-ur-Rehman,Virandeep Singh,T20I,13,6.0,0,7,0,0,2.77,13.0,53.85
 Mujeeb-ur-Rehman,Zain Ul Abidin,T20I,12,12.0,0,6,0,1,6.0,12.0,50.0
 Mujibur Ali,A Sharma,ODI,19,21.0,0,9,3,0,6.63,19.0,47.37
+Mujibur Ali,AD Nath,ODI,10,10.0,0,3,1,0,6.0,10.0,30.0
+Mujibur Ali,Aayan Afzal Khan,ODI,15,9.0,1,10,1,0,3.6,15.0,66.67
+Mujibur Ali,Adeeb Usmani,ODI,10,4.0,0,6,0,0,2.4,10.0,60.0
 Mujibur Ali,JN Frylinck,ODI,12,11.0,0,6,1,0,5.5,12.0,50.0
 Mujibur Ali,L Steenkamp,ODI,22,9.0,0,15,0,0,2.45,22.0,68.18
 Mujibur Ali,MD Patel,ODI,11,8.0,0,3,0,0,4.36,11.0,27.27
@@ -85271,6 +85472,7 @@ N Benjamin,N Koncharoenkai,T20I,10,5.0,1,8,1,0,3.0,10.0,80.0
 N Bidaisee,K Gore,CPL,11,11.0,0,3,1,0,6.0,11.0,27.27
 N Bidaisee,R Powell,CPL,18,35.0,0,7,4,2,11.67,18.0,38.89
 N Bidaisee,S Jora,T20I,10,19.0,0,1,1,1,11.4,10.0,10.0
+N Bidaisee,SD Hope,CPL,17,14.0,1,5,0,0,4.94,17.0,29.41
 N Bidaisee,SE Rutherford,CPL,13,12.0,2,7,0,1,5.54,6.5,53.85
 N Boje,A Flintoff,ODI,10,8.0,0,5,1,0,4.8,10.0,50.0
 N Boje,A Flintoff,Test,15,1.0,0,14,0,0,0.4,15.0,93.33
@@ -85883,6 +86085,8 @@ N Mlaba,Tuba Hassan,T20I,11,8.0,1,7,1,0,4.36,11.0,63.64
 N Mlaba,Umaima Sohail,ODI,27,17.0,1,17,2,0,3.78,27.0,62.96
 N Mlaba,Umm-e-Hani,ODI,12,9.0,0,8,0,0,4.5,12.0,66.67
 N Mlaba,WK Dilhari,ODI,36,39.0,2,20,2,1,6.5,18.0,55.56
+N Mokoena,JN Frylinck,T20I,12,17.0,0,3,2,0,8.5,12.0,25.0
+N Mokoena,L Steenkamp,T20I,12,21.0,0,4,0,2,10.5,12.0,33.33
 N Mutasa,B Nwobodo,T20I,11,3.0,1,10,0,0,1.64,11.0,90.91
 N Mutasa,Yasmeen Khan,T20I,10,7.0,0,7,1,0,4.2,10.0,70.0
 N Naranbaatar,Aasif Sheikh,T20I,10,16.0,0,3,2,0,9.6,10.0,30.0
@@ -85964,11 +86168,15 @@ N Niranjana,TT Beaumont,ODI,99,32.0,3,79,3,0,1.94,33.0,79.8
 N Niranjana,TT Beaumont,Test,18,10.0,0,13,1,0,3.33,18.0,72.22
 N Nojic,A Argyropoulou,T20I,12,7.0,1,7,0,0,3.5,12.0,58.33
 N Nojic,B Shotorova,T20I,19,9.0,2,14,1,0,2.84,9.5,73.68
-N Nojic,D Ruynekova,T20I,32,21.0,2,22,2,0,3.94,16.0,68.75
+N Nojic,D Ruynekova,T20I,37,29.0,3,24,3,0,4.7,12.33,64.86
 N Nojic,G Ilarionova,T20I,26,26.0,1,13,0,0,6.0,26.0,50.0
+N Nojic,H Bosnic,T20I,10,2.0,0,9,0,0,1.2,10.0,90.0
+N Nojic,H Leko,T20I,14,8.0,1,7,0,0,3.43,14.0,50.0
+N Nojic,K Srandeva,T20I,16,9.0,1,8,0,0,3.38,16.0,50.0
+N Nojic,M Durdevac,T20I,10,5.0,0,6,0,0,3.0,10.0,60.0
 N Nojic,S Sarandeva,T20I,25,13.0,3,20,1,0,3.12,8.33,80.0
 N Nojic,T Gedarage,T20I,12,3.0,0,10,0,0,1.5,12.0,83.33
-N Nojic,V Nikolova,T20I,15,20.0,0,8,2,0,8.0,15.0,53.33
+N Nojic,V Nikolova,T20I,28,30.0,0,15,3,0,6.43,28.0,53.57
 N Nuntarach,F Banunaek,T20I,15,14.0,0,8,1,0,5.6,15.0,53.33
 N Nuntarach,KD Kesuma,T20I,17,26.0,1,8,2,1,9.18,17.0,47.06
 N Nuntarach,PR Surve,T20I,12,13.0,0,5,1,0,6.5,12.0,41.67
@@ -87446,6 +87654,7 @@ NK Aneesh Kumar,SKS Gill,T20I,12,21.0,0,4,2,1,10.5,12.0,33.33
 NK Aneesh Kumar,Usman Khan,T20I,11,10.0,0,5,1,0,5.45,11.0,45.45
 NK Aneesh Kumar,VP Thamotharam,T20I,21,19.0,1,12,0,2,5.43,21.0,57.14
 NK Ariani,ABY Smith,T20I,10,3.0,1,7,0,0,1.8,10.0,70.0
+NK Ariani,ER Oza,T20I,11,4.0,1,8,0,0,2.18,11.0,72.73
 NK Ariani,I Barma,T20I,11,12.0,0,5,2,0,6.55,11.0,45.45
 NK Ariani,M Yanagida,T20I,11,12.0,0,6,2,0,6.55,11.0,54.55
 NK Ariani,Mas Elysa,T20I,11,10.0,0,5,1,0,5.45,11.0,45.45
@@ -87453,7 +87662,7 @@ NK Ariani,N Chaiwai,T20I,16,14.0,1,7,1,0,5.25,16.0,43.75
 NK Ariani,N Navaika,T20I,11,4.0,1,7,0,0,2.18,11.0,63.64
 NK Ariani,R Andrew,T20I,13,20.0,0,5,2,1,9.23,13.0,38.46
 NK Ariani,RR Seth,T20I,18,7.0,2,14,1,0,2.33,9.0,77.78
-NK Ariani,S Dharnidharka,T20I,12,16.0,0,4,2,0,8.0,12.0,33.33
+NK Ariani,S Dharnidharka,T20I,18,19.0,0,7,2,0,6.33,18.0,38.89
 NK Ariani,S Vaia,T20I,23,15.0,1,12,0,0,3.91,23.0,52.17
 NK Ariani,TC Mataora,T20I,11,9.0,1,8,1,0,4.91,11.0,72.73
 NK Ariani,VS D'Souza,T20I,10,1.0,1,9,0,0,0.6,10.0,90.0
@@ -89395,12 +89604,14 @@ NT Nyamhuri,DP Conway,Test,28,20.0,1,17,3,0,4.29,28.0,60.71
 NT Nyamhuri,HM Nicholls,Test,26,26.0,0,18,5,0,6.0,26.0,69.23
 NT Nyamhuri,HT Tector,ODI,17,12.0,0,11,0,0,4.24,17.0,64.71
 NT Nyamhuri,Ishan Kishan,T20I,22,40.0,1,10,5,1,10.91,22.0,45.45
+NT Nyamhuri,J Hermann,T20I,11,22.0,1,2,2,1,12.0,11.0,18.18
 NT Nyamhuri,JN Frylinck,T20I,10,7.0,0,6,1,0,4.2,10.0,60.0
 NT Nyamhuri,L Tucker,Test,10,6.0,0,7,1,0,3.6,10.0,70.0
 NT Nyamhuri,LG Pretorius,T20I,13,24.0,0,5,5,0,11.08,13.0,38.46
 NT Nyamhuri,Mominul Haque,Test,39,38.0,1,26,8,0,5.85,39.0,66.67
 NT Nyamhuri,Mushfiqur Rahim,Test,31,19.0,0,21,2,0,3.68,31.0,67.74
 NT Nyamhuri,Nazmul Hossain Shanto,Test,31,19.0,1,21,2,0,3.68,31.0,67.74
+NT Nyamhuri,RA Herman,T20I,10,17.0,1,4,3,0,10.2,10.0,40.0
 NT Nyamhuri,SS Iyer,T20I,10,18.0,0,3,3,0,10.8,10.0,30.0
 NT Nyamhuri,Tanzid Hasan,ODI,11,11.0,0,6,1,0,6.0,11.0,54.55
 NT Nyamhuri,Towhid Hridoy,ODI,25,20.0,1,16,1,0,4.8,25.0,64.0
@@ -89414,6 +89625,11 @@ NT Pascal,AN Petersen,Test,18,6.0,0,13,0,0,2.0,18.0,72.22
 NT Pascal,GC Smith,Test,24,12.0,0,16,1,0,3.0,24.0,66.67
 NT Pascal,JH Kallis,Test,17,16.0,0,10,3,0,5.65,17.0,58.82
 NT Pascal,MV Boucher,Test,15,11.0,0,9,0,0,4.4,15.0,60.0
+NT Raghunandan,A Ilahi,T20I,16,18.0,0,8,1,0,6.75,16.0,50.0
+NT Raghunandan,B Pierre,T20I,12,12.0,2,9,1,0,6.0,6.0,75.0
+NT Raghunandan,I Vrignaud,T20I,15,8.0,0,10,0,0,3.2,15.0,66.67
+NT Raghunandan,K Tesarikova,T20I,12,17.0,1,5,2,0,8.5,12.0,41.67
+NT Raghunandan,S Sinha,T20I,11,14.0,1,4,1,0,7.64,11.0,36.36
 NT Rajendran,Anshuman Rath,T20I,14,25.0,0,2,2,1,10.71,14.0,14.29
 NT Rajendran,Babar Hayat,T20I,11,4.0,2,7,0,0,2.18,5.5,63.64
 NT Rajendran,Basir Ahamad,T20I,12,19.0,0,2,3,0,9.5,12.0,16.67
@@ -89619,16 +89835,19 @@ Nadeem Ahmed,Zeeshan Siddiqui,T20I,12,14.0,0,3,1,0,7.0,12.0,25.0
 Nadeem Khan,A Sharma,ODI,18,13.0,1,10,0,1,4.33,18.0,55.56
 Nadeem Khan,Aarif Sheikh,ODI,18,12.0,1,7,0,0,4.0,18.0,38.89
 Nadeem Khan,Aasif Sheikh,ODI,21,18.0,1,9,2,0,5.14,21.0,42.86
-Nadeem Khan,Adeeb Usmani,ODI,25,17.0,0,12,1,0,4.08,25.0,48.0
+Nadeem Khan,Aayan Afzal Khan,ODI,21,12.0,0,14,1,0,3.43,21.0,66.67
+Nadeem Khan,Adeeb Usmani,ODI,43,28.0,0,23,2,0,3.91,43.0,53.49
 Nadeem Khan,Arjun Kumal,ODI,14,7.0,0,7,0,0,3.0,14.0,50.0
 Nadeem Khan,B Sharki,ODI,11,10.0,0,5,1,0,5.45,11.0,45.45
 Nadeem Khan,BKG Mendis,T20I,11,14.0,0,2,1,0,7.64,11.0,18.18
 Nadeem Khan,DS Airee,ODI,33,28.0,1,15,3,0,5.09,33.0,45.45
 Nadeem Khan,Gulsan Jha,ODI,11,6.0,0,8,1,0,3.27,11.0,72.73
+Nadeem Khan,Harpreet Singh,ODI,11,10.0,0,5,1,0,5.45,11.0,45.45
 Nadeem Khan,K Bhurtel,T20I,12,16.0,0,3,2,0,8.0,12.0,25.0
 Nadeem Khan,L Tucker,T20I,15,16.0,0,7,1,1,6.4,15.0,46.67
 Nadeem Khan,LRPL Taylor,T20I,12,8.0,0,7,1,0,4.0,12.0,58.33
 Nadeem Khan,Muhammad Umar,T20I,13,10.0,0,7,1,0,4.62,13.0,53.85
+Nadeem Khan,T Suri,ODI,12,13.0,1,6,2,0,6.5,12.0,50.0
 Nader Zahadiafzal,Bilal Tahir,T20I,12,7.0,0,8,1,0,3.5,12.0,66.67
 Naeem Islam,AB de Villiers,ODI,14,14.0,1,3,1,0,6.0,14.0,21.43
 Naeem Islam,AJ Strauss,ODI,13,6.0,1,10,1,0,2.77,13.0,76.92
@@ -89834,12 +90053,12 @@ Nahida Akter,H Karunaratne,ODI,28,21.0,1,17,3,0,4.5,28.0,60.71
 Nahida Akter,H Kaur,ODI,37,18.0,2,26,2,0,2.92,18.5,70.27
 Nahida Akter,H Kaur,T20I,67,74.0,1,27,11,0,6.63,67.0,40.3
 Nahida Akter,H Madavi,ODI,41,37.0,1,22,6,0,5.41,41.0,53.66
-Nahida Akter,H Madavi,T20I,60,78.0,2,17,8,0,7.8,30.0,28.33
+Nahida Akter,H Madavi,T20I,68,88.0,2,20,8,1,7.76,34.0,29.41
 Nahida Akter,HC Knight,ODI,15,12.0,0,9,2,0,4.8,15.0,60.0
 Nahida Akter,HK Matthews,ODI,34,24.0,3,18,2,0,4.24,11.33,52.94
 Nahida Akter,HK Matthews,T20I,14,19.0,1,5,2,0,8.14,14.0,35.71
 Nahida Akter,I Dulani,ODI,55,23.0,0,39,2,0,2.51,55.0,70.91
-Nahida Akter,I Dulani,T20I,19,22.0,1,7,3,0,6.95,19.0,36.84
+Nahida Akter,I Dulani,T20I,21,23.0,1,8,3,0,6.57,21.0,38.1
 Nahida Akter,IMHC Joyce,T20I,17,19.0,1,7,1,0,6.71,17.0,41.18
 Nahida Akter,Iram Javed,T20I,15,16.0,2,5,1,0,6.4,7.5,33.33
 Nahida Akter,J Glasgow,ODI,10,1.0,0,9,0,0,0.6,10.0,90.0
@@ -89880,7 +90099,7 @@ Nahida Akter,N Chantam,T20I,35,27.0,1,23,4,0,4.63,35.0,65.71
 Nahida Akter,N Koncharoenkai,T20I,17,10.0,1,11,1,0,3.53,17.0,64.71
 Nahida Akter,N de Klerk,ODI,13,15.0,1,6,1,1,6.92,13.0,46.15
 Nahida Akter,NND de Silva,ODI,18,7.0,1,11,0,0,2.33,18.0,61.11
-Nahida Akter,NND de Silva,T20I,29,40.0,1,5,1,2,8.28,29.0,17.24
+Nahida Akter,NND de Silva,T20I,33,44.0,1,6,1,2,8.0,33.0,18.18
 Nahida Akter,NR Sciver,ODI,19,10.0,0,10,0,0,3.16,19.0,52.63
 Nahida Akter,NR Sciver-Brunt,ODI,11,3.0,0,9,0,0,1.64,11.0,81.82
 Nahida Akter,Nahida Khan,ODI,13,12.0,0,8,2,0,5.54,13.0,61.54
@@ -89898,7 +90117,7 @@ Nahida Akter,R Rijke,T20I,12,9.0,1,5,0,0,4.5,12.0,41.67
 Nahida Akter,R Slater,ODI,10,5.0,0,5,0,0,3.0,10.0,50.0
 Nahida Akter,R Stokell,T20I,10,8.0,2,6,1,0,4.8,5.0,60.0
 Nahida Akter,RM Ghosh,T20I,27,32.0,0,14,4,1,7.11,27.0,51.85
-Nahida Akter,RMVD Gunaratne,T20I,12,4.0,1,8,0,0,2.0,12.0,66.67
+Nahida Akter,RMVD Gunaratne,T20I,14,6.0,1,8,0,0,2.57,14.0,57.14
 Nahida Akter,Rameen Shamim,ODI,15,4.0,1,12,0,0,1.6,15.0,80.0
 Nahida Akter,S Forbes,ODI,16,10.0,1,9,0,0,3.75,16.0,56.25
 Nahida Akter,S Luus,ODI,46,52.0,1,15,5,0,6.78,46.0,32.61
@@ -90146,7 +90365,9 @@ Naseem Shah,Rahmanullah Gurbaz,PSL,10,11.0,2,5,2,0,6.6,5.0,50.0
 Naseem Shah,S Samarawickrama,Test,15,12.0,0,9,2,0,4.8,15.0,60.0
 Naseem Shah,SA Abbott,ODI,19,16.0,0,13,1,1,5.05,19.0,68.42
 Naseem Shah,SA Edwards,ODI,17,10.0,1,8,0,0,3.53,17.0,47.06
+Naseem Shah,SD Hope,CPL,11,10.0,0,3,0,0,5.45,11.0,27.27
 Naseem Shah,SD Hope,ODI,15,25.0,0,3,4,0,10.0,15.0,20.0
+Naseem Shah,SO Hetmyer,CPL,11,7.0,2,6,0,0,3.82,5.5,54.55
 Naseem Shah,SPD Smith,ODI,18,18.0,0,13,3,0,6.0,18.0,72.22
 Naseem Shah,SPD Smith,Test,60,20.0,2,50,2,0,2.0,30.0,83.33
 Naseem Shah,Sahibzada Farhan,PSL,16,10.0,0,11,1,0,3.75,16.0,68.75
@@ -90169,6 +90390,7 @@ Naseem Shah,TA Blundell,ODI,15,14.0,0,10,3,0,5.6,15.0,66.67
 Naseem Shah,TA Blundell,Test,56,28.0,0,38,3,0,3.0,56.0,67.86
 Naseem Shah,TB Robinson,T20I,12,25.0,1,5,5,0,12.5,12.0,41.67
 Naseem Shah,TG Southee,ODI,10,12.0,1,4,1,0,7.2,10.0,40.0
+Naseem Shah,TL Seifert,CPL,14,14.0,1,7,2,0,6.0,14.0,50.0
 Naseem Shah,TLW Cooper,ODI,19,17.0,0,11,1,1,5.37,19.0,57.89
 Naseem Shah,TM Head,Test,15,7.0,1,12,1,0,2.8,15.0,80.0
 Naseem Shah,TWM Latham,ODI,54,48.0,0,20,1,1,5.33,54.0,37.04
@@ -90235,7 +90457,7 @@ Nashra Sandhu,GH Lewis,T20I,18,25.0,1,5,4,0,8.33,18.0,27.78
 Nashra Sandhu,GWHM Perera,ODI,42,14.0,1,32,1,0,2.0,42.0,76.19
 Nashra Sandhu,H Deol,ODI,18,18.0,0,6,2,0,6.0,18.0,33.33
 Nashra Sandhu,H Kaur,ODI,22,26.0,0,11,3,1,7.09,22.0,50.0
-Nashra Sandhu,H Kaur,T20I,34,26.0,1,18,2,0,4.59,34.0,52.94
+Nashra Sandhu,H Kaur,T20I,40,39.0,1,20,3,1,5.85,40.0,50.0
 Nashra Sandhu,H Madavi,ODI,60,35.0,0,37,3,0,3.5,60.0,61.67
 Nashra Sandhu,H Madavi,T20I,30,20.0,2,15,1,0,4.0,15.0,50.0
 Nashra Sandhu,HASD Siriwardene,ODI,11,3.0,0,9,0,0,1.64,11.0,81.82
@@ -91637,7 +91859,7 @@ O Prendergast,M McColl,T20I,16,23.0,0,7,4,0,8.62,16.0,43.75
 O Prendergast,M Mupachikwa,ODI,12,4.0,0,8,0,0,2.0,12.0,66.67
 O Prendergast,M Mupachikwa,T20I,14,10.0,2,12,2,0,4.29,7.0,85.71
 O Prendergast,M Musonda,T20I,11,13.0,2,4,2,0,7.09,5.5,36.36
-O Prendergast,ME Bouchier,ODI,22,13.0,0,16,1,0,3.55,22.0,72.73
+O Prendergast,ME Bouchier,ODI,43,37.0,0,28,5,0,5.16,43.0,65.12
 O Prendergast,MM Dekeling,T20I,13,5.0,0,9,0,0,2.31,13.0,69.23
 O Prendergast,Muneeba Ali,ODI,53,47.0,1,33,5,0,5.32,53.0,62.26
 O Prendergast,Muneeba Ali,T20I,46,58.0,2,19,8,0,7.57,23.0,41.3
@@ -91665,7 +91887,7 @@ O Prendergast,S Luus,ODI,24,36.0,0,8,6,0,9.0,24.0,33.33
 O Prendergast,S Mandhana,ODI,34,47.0,2,17,5,2,8.29,17.0,50.0
 O Prendergast,S Mandhana,T20I,12,13.0,1,8,2,0,6.5,12.0,66.67
 O Prendergast,S Mostary,T20I,16,14.0,2,11,1,0,5.25,8.0,68.75
-O Prendergast,SIR Dunkley,ODI,11,17.0,0,5,3,0,9.27,11.0,45.45
+O Prendergast,SIR Dunkley,ODI,42,55.0,0,22,9,1,7.86,42.0,52.38
 O Prendergast,SJ Bryce,ODI,12,3.0,0,9,0,0,1.5,12.0,75.0
 O Prendergast,SJ Bryce,T20I,79,75.0,2,48,8,2,5.7,39.5,60.76
 O Prendergast,SL Kalis,T20I,14,20.0,1,8,3,0,8.57,14.0,57.14
@@ -92455,12 +92677,13 @@ P Khadka,Waqas Barkat,T20I,11,8.0,0,6,1,0,4.36,11.0,54.55
 P Khadka,Zeeshan Maqsood,ODI,31,17.0,0,23,3,0,3.29,31.0,74.19
 P Koech,Ameer Saiyed,T20I,11,11.0,1,7,2,0,6.0,11.0,63.64
 P Koech,Asif Ali,T20I,12,9.0,1,10,2,0,4.5,12.0,83.33
-P Koech,D Ndikubwimana,T20I,15,20.0,0,5,3,0,8.0,15.0,33.33
+P Koech,D Ndikubwimana,T20I,24,36.0,0,9,6,0,9.0,24.0,37.5
 P Koech,DM Nakrani,T20I,20,27.0,0,6,2,0,8.1,20.0,30.0
 P Koech,Fiaz Ahmed,T20I,11,11.0,0,3,1,0,6.0,11.0,27.27
+P Koech,G Sesay,T20I,11,17.0,0,4,1,1,9.27,11.0,36.36
 P Koech,JJ Smit,T20I,10,36.0,0,2,3,3,21.6,10.0,20.0
 P Koech,Mohameed Taiwo,T20I,18,15.0,1,12,1,1,5.0,18.0,66.67
-P Koech,O Manishimwe,T20I,26,28.0,0,15,2,1,6.46,26.0,57.69
+P Koech,O Manishimwe,T20I,28,30.0,0,15,2,1,6.43,28.0,53.57
 P Koech,O Olaleye,T20I,12,13.0,1,6,2,0,6.5,12.0,50.0
 P Koech,O Tuyisenge,T20I,13,14.0,1,4,1,0,6.46,13.0,30.77
 P Koech,P Kurup,T20I,10,9.0,1,5,0,0,5.4,10.0,50.0
@@ -93028,6 +93251,7 @@ P Subrayen,BJ Bennett,T20I,10,9.0,1,6,0,1,5.4,10.0,60.0
 P Subrayen,Babar Azam,Test,30,20.0,0,19,2,0,4.0,30.0,63.33
 P Subrayen,CR Ervine,Test,22,3.0,0,19,0,0,0.82,22.0,86.36
 P Subrayen,Imam-ul-Haq,Test,29,20.0,0,15,1,0,4.14,29.0,51.72
+P Subrayen,MG Erasmus,ODI,11,7.0,1,5,0,0,3.82,11.0,45.45
 P Subrayen,MR Marsh,ODI,24,18.0,0,11,1,0,4.5,24.0,45.83
 P Subrayen,Mohammad Rizwan,Test,25,14.0,0,12,0,0,3.36,25.0,48.0
 P Subrayen,NR Welch,Test,32,15.0,0,23,1,0,2.81,32.0,71.88
@@ -96198,6 +96422,7 @@ PWH de Silva,SA Yadav,ODI,16,31.0,0,4,5,0,11.62,16.0,25.0
 PWH de Silva,SA Yadav,T20I,46,75.0,2,9,7,2,9.78,23.0,19.57
 PWH de Silva,SC Williams,ODI,25,27.0,0,8,2,0,6.48,25.0,32.0
 PWH de Silva,SC Williams,T20I,11,7.0,1,4,0,0,3.82,11.0,36.36
+PWH de Silva,SD Hope,CPL,15,10.0,0,9,1,0,4.0,15.0,60.0
 PWH de Silva,SD Hope,ODI,143,84.0,1,78,0,2,3.52,143.0,54.55
 PWH de Silva,SD Hope,T20I,18,15.0,2,8,0,1,5.0,9.0,44.44
 PWH de Silva,SE Rutherford,ODI,20,11.0,1,13,1,0,3.3,20.0,65.0
@@ -96231,6 +96456,7 @@ PWH de Silva,T Banton,T20I,19,41.0,0,4,3,3,12.95,19.0,21.05
 PWH de Silva,T Bavuma,Test,61,31.0,0,43,3,0,3.05,61.0,70.49
 PWH de Silva,T Shamsi,ODI,15,2.0,0,13,0,0,0.8,15.0,86.67
 PWH de Silva,TK Musakanda,ODI,19,20.0,0,10,3,0,6.32,19.0,52.63
+PWH de Silva,TL Seifert,CPL,10,16.0,0,3,3,0,9.6,10.0,30.0
 PWH de Silva,TL Seifert,T20I,28,44.0,1,7,3,2,9.43,28.0,25.0
 PWH de Silva,TM Head,ODI,10,3.0,0,8,0,0,1.8,10.0,80.0
 PWH de Silva,TWM Latham,T20I,13,14.0,0,3,1,0,6.46,13.0,23.08
@@ -96438,6 +96664,10 @@ Pavandeep Singh,Wei Guo Lei,T20I,10,4.0,0,7,0,0,2.4,10.0,70.0
 Pavandeep Singh,Y Saranonnakkun,T20I,11,1.0,2,11,0,0,0.55,5.5,100.0
 Pavandeep Singh,Yasin Patel,T20I,12,9.0,0,6,1,0,4.5,12.0,50.0
 Pavandeep Singh,Zeeshan Ali,T20I,34,45.0,1,16,2,3,7.94,34.0,47.06
+Payal Kothar,Isabel Walker,T20I,10,12.0,2,5,2,0,7.2,5.0,50.0
+Payal Kothar,NT Raghunandan,T20I,14,20.0,1,4,3,0,8.57,14.0,28.57
+Payal Kothar,SV Collyer,T20I,13,14.0,1,4,1,0,6.46,13.0,30.77
+Peher Modi,SV Collyer,T20I,12,7.0,0,7,0,0,3.5,12.0,58.33
 Phoup Srey Pheak,DA Galia,T20I,16,7.0,1,14,0,0,2.62,16.0,87.5
 Phoup Srey Pheak,GK Diviya,T20I,21,34.0,0,6,4,0,9.71,21.0,28.57
 Phoup Srey Pheak,Shafina Mahesh,T20I,30,34.0,1,20,2,1,6.8,30.0,66.67
@@ -97622,6 +97852,7 @@ R Coker,Muhammed Manga,T20I,13,13.0,1,7,0,1,6.0,13.0,53.85
 R Coker,O Manishimwe,T20I,17,15.0,0,6,0,0,5.29,17.0,35.29
 R Coker,OH Agbomadzie,T20I,13,10.0,0,7,1,0,4.62,13.0,53.85
 R Coker,R Abdulkareem,T20I,10,6.0,1,5,0,0,3.6,10.0,50.0
+R Coker,RR Patel,T20I,20,45.0,0,7,6,2,13.5,20.0,35.0
 R Coker,SA Okpe,T20I,12,14.0,0,4,1,0,7.0,12.0,33.33
 R Coker,Sulaimon Runsewe,T20I,18,20.0,0,6,1,0,6.67,18.0,33.33
 R Coker,VD Adewoye,T20I,14,13.0,0,7,0,1,5.57,14.0,50.0
@@ -97830,13 +98061,15 @@ R Lungu,M Akayezu,T20I,10,5.0,0,7,0,0,3.0,10.0,70.0
 R Lungu,Sami Sohail,T20I,12,8.0,1,7,1,0,4.0,12.0,58.33
 R MacDonald-Gay,A Dercksen,Test,19,9.0,0,16,2,0,2.84,19.0,84.21
 R MacDonald-Gay,A Gardner,Test,12,10.0,0,9,2,0,5.0,12.0,75.0
+R MacDonald-Gay,A Hunter,ODI,29,28.0,0,15,4,0,5.79,29.0,51.72
 R MacDonald-Gay,A Sutherland,Test,41,32.0,1,29,5,0,4.68,41.0,70.73
+R MacDonald-Gay,A Tector,ODI,27,10.0,0,22,0,0,2.22,27.0,81.48
 R MacDonald-Gay,AJ Healy,Test,13,8.0,0,8,1,0,3.69,13.0,61.54
 R MacDonald-Gay,BL Mooney,Test,45,17.0,0,33,1,0,2.27,45.0,73.33
-R MacDonald-Gay,GH Lewis,ODI,12,17.0,0,3,2,0,8.5,12.0,25.0
-R MacDonald-Gay,L Paul,ODI,19,9.0,0,12,0,0,2.84,19.0,63.16
+R MacDonald-Gay,GH Lewis,ODI,34,36.0,0,19,4,1,6.35,34.0,55.88
+R MacDonald-Gay,L Paul,ODI,35,18.0,0,22,1,0,3.09,35.0,62.86
 R MacDonald-Gay,L Wolvaardt,Test,26,13.0,0,20,2,0,3.0,26.0,76.92
-R MacDonald-Gay,O Prendergast,ODI,10,5.0,0,6,0,0,3.0,10.0,60.0
+R MacDonald-Gay,O Prendergast,ODI,11,6.0,0,6,0,0,3.27,11.0,54.55
 R MacDonald-Gay,S Luus,Test,28,11.0,0,20,0,0,2.36,28.0,71.43
 R Mahajan,A Vala,T20I,14,26.0,0,2,3,1,11.14,14.0,14.29
 R Mahajan,TP Ura,T20I,14,16.0,1,4,1,0,6.86,14.0,28.57
@@ -98226,9 +98459,11 @@ R Pavlickova,A Dirannehelage,T20I,11,7.0,0,9,1,0,3.82,11.0,81.82
 R Pavlickova,Bijeyata Kumari,T20I,12,15.0,2,4,0,0,7.5,6.0,33.33
 R Pavlickova,E Vukusic,T20I,11,15.0,0,3,0,0,8.18,11.0,27.27
 R Pavlickova,I Chathurani,T20I,18,21.0,0,8,1,0,7.0,18.0,44.44
+R Pavlickova,Isabel Walker,T20I,13,24.0,0,3,3,0,11.08,13.0,23.08
 R Pavlickova,K De La Mare,T20I,11,13.0,0,8,1,0,7.09,11.0,72.73
 R Pavlickova,L Krvaric,T20I,11,12.0,0,6,1,0,6.55,11.0,54.55
 R Pavlickova,S Jayakodi,T20I,10,1.0,0,9,0,0,0.6,10.0,90.0
+R Pavlickova,SS Ilahi,T20I,11,9.0,1,6,0,0,4.91,11.0,54.55
 R Powell,ADS Fletcher,CPL,25,41.0,2,6,1,3,9.84,12.5,24.0
 R Powell,BB McCullum,CPL,14,21.0,0,3,1,1,9.0,14.0,21.43
 R Powell,BRM Taylor,ODI,15,15.0,0,7,2,0,6.0,15.0,46.67
@@ -98685,12 +98920,12 @@ R Sharma,V Kohli,IPL,34,46.0,1,7,1,3,8.12,34.0,20.59
 R Sharma,V Sehwag,IPL,31,43.0,0,10,4,2,8.32,31.0,32.26
 R Sharma,YK Pathan,IPL,18,38.0,0,5,3,3,12.67,18.0,27.78
 R Sharma,Yuvraj Singh,IPL,15,20.0,0,6,0,2,8.0,15.0,40.0
-R Shepherd,A Athanaze,CPL,11,10.0,2,5,1,0,5.45,5.5,45.45
+R Shepherd,A Athanaze,CPL,14,18.0,2,5,1,1,7.71,7.0,35.71
 R Shepherd,A Badoni,IPL,14,32.0,1,5,3,2,13.71,14.0,35.71
 R Shepherd,A Balbirnie,ODI,25,18.0,1,16,3,0,4.32,25.0,64.0
 R Shepherd,AA Jangoo,CPL,11,13.0,1,4,2,0,7.09,11.0,36.36
 R Shepherd,AD Hales,CPL,23,25.0,3,11,4,0,6.52,7.67,47.83
-R Shepherd,ADS Fletcher,CPL,24,38.0,3,11,3,2,9.5,8.0,45.83
+R Shepherd,ADS Fletcher,CPL,25,38.0,3,12,3,2,9.12,8.33,48.0
 R Shepherd,AK Markram,T20I,31,49.0,2,8,4,1,9.48,15.5,25.81
 R Shepherd,AR McBrine,ODI,40,23.0,1,24,1,0,3.45,40.0,60.0
 R Shepherd,AR Nurse,CPL,17,23.0,2,6,1,1,8.12,8.5,35.29
@@ -98729,6 +98964,7 @@ R Shepherd,DP Conway,ODI,31,26.0,0,19,4,0,5.03,31.0,61.29
 R Shepherd,DP Conway,T20I,37,62.0,0,8,4,3,10.05,37.0,21.62
 R Shepherd,E Lewis,CPL,24,35.0,2,14,3,3,8.75,12.0,58.33
 R Shepherd,F du Plessis,CPL,34,60.0,1,14,10,1,10.59,34.0,41.18
+R Shepherd,FA Allen,CPL,11,14.0,1,2,0,1,7.64,11.0,18.18
 R Shepherd,FDM Karunaratne,ODI,29,32.0,0,14,4,0,6.62,29.0,48.28
 R Shepherd,Fakhar Zaman,ODI,12,8.0,0,8,1,0,4.0,12.0,66.67
 R Shepherd,Fakhar Zaman,T20I,13,21.0,2,4,3,0,9.69,6.5,30.77
@@ -98745,14 +98981,14 @@ R Shepherd,Imam-ul-Haq,ODI,37,32.0,0,21,4,0,5.19,37.0,56.76
 R Shepherd,Ishan Kishan,IPL,17,32.0,0,2,2,1,11.29,17.0,11.76
 R Shepherd,Ishan Kishan,ODI,27,39.0,1,12,4,2,8.67,27.0,44.44
 R Shepherd,Ishan Kishan,T20I,10,20.0,1,4,3,1,12.0,10.0,40.0
-R Shepherd,J Charles,CPL,35,60.0,4,17,12,1,10.29,8.75,48.57
+R Shepherd,J Charles,CPL,40,61.0,5,21,12,1,9.15,8.0,52.5
 R Shepherd,JA McCollum,ODI,14,8.0,0,12,2,0,3.43,14.0,85.71
 R Shepherd,JC Buttler,T20I,32,59.0,2,5,6,1,11.06,16.0,15.62
 R Shepherd,JG Bethell,T20I,24,39.0,0,6,4,1,9.75,24.0,25.0
 R Shepherd,JL Carter,CPL,11,28.0,1,3,2,2,15.27,11.0,27.27
 R Shepherd,JL Smith,T20I,14,44.0,1,2,3,4,18.86,14.0,14.29
 R Shepherd,JM Vince,T20I,12,17.0,0,3,2,0,8.5,12.0,25.0
-R Shepherd,JO Holder,CPL,29,23.0,4,14,0,1,4.76,7.25,48.28
+R Shepherd,JO Holder,CPL,33,23.0,4,18,0,1,4.18,8.25,54.55
 R Shepherd,JP Duminy,CPL,10,22.0,0,4,2,2,13.2,10.0,40.0
 R Shepherd,JP Inglis,IPL,13,28.0,0,1,3,1,12.92,13.0,7.69
 R Shepherd,JP Inglis,T20I,15,29.0,2,5,4,1,11.6,7.5,33.33
@@ -98763,7 +98999,7 @@ R Shepherd,KA Pollard,CPL,49,81.0,6,17,7,5,9.92,8.17,34.69
 R Shepherd,KH Prajapati,ODI,15,13.0,0,10,1,0,5.2,15.0,66.67
 R Shepherd,KIC Asalanka,ODI,24,31.0,0,12,4,1,7.75,24.0,50.0
 R Shepherd,KNA Bandara,ODI,10,9.0,0,4,1,0,5.4,10.0,40.0
-R Shepherd,KR Mayers,CPL,13,27.0,3,6,1,3,12.46,4.33,46.15
+R Shepherd,KR Mayers,CPL,15,33.0,4,7,1,4,13.2,3.75,46.67
 R Shepherd,KSA McKenzie,CPL,10,11.0,0,5,2,0,6.6,10.0,50.0
 R Shepherd,KU Carty,CPL,25,46.0,0,6,6,1,11.04,25.0,24.0
 R Shepherd,Khushdil Shah,ODI,12,35.0,0,2,1,4,17.5,12.0,16.67
@@ -98958,10 +99194,11 @@ R Trumpelmann,Asif Khan,ODI,11,22.0,0,3,2,1,12.0,11.0,27.27
 R Trumpelmann,B Evans,T20I,10,12.0,0,4,1,0,7.2,10.0,40.0
 R Trumpelmann,B Sharki,ODI,24,7.0,0,17,0,0,1.75,24.0,70.83
 R Trumpelmann,BFW de Leede,ODI,18,31.0,0,7,1,2,10.33,18.0,38.89
-R Trumpelmann,BJ Bennett,T20I,27,64.0,2,6,6,4,14.22,13.5,22.22
+R Trumpelmann,BJ Bennett,T20I,32,67.0,2,8,6,4,12.56,16.0,25.0
 R Trumpelmann,BJ McMullen,ODI,44,45.0,1,26,4,2,6.14,44.0,59.09
 R Trumpelmann,BJ McMullen,T20I,10,17.0,0,1,0,1,10.2,10.0,10.0
 R Trumpelmann,Basil Hameed,ODI,15,9.0,0,8,0,0,3.6,15.0,53.33
+R Trumpelmann,C Esterhuizen,ODI,10,11.0,1,6,1,0,6.6,10.0,60.0
 R Trumpelmann,CJA Amini,ODI,35,22.0,0,26,2,0,3.77,35.0,74.29
 R Trumpelmann,CM McBride,ODI,24,10.0,1,20,2,0,2.5,24.0,83.33
 R Trumpelmann,CN Greaves,ODI,13,18.0,1,7,0,2,8.31,13.0,53.85
@@ -98979,9 +99216,10 @@ R Trumpelmann,H Hiri,ODI,31,20.0,1,21,2,0,3.87,31.0,67.74
 R Trumpelmann,HG Munsey,ODI,50,45.0,5,33,5,2,5.4,10.0,66.0
 R Trumpelmann,HG Munsey,T20I,39,46.0,1,21,3,1,7.08,39.0,53.85
 R Trumpelmann,Hammad Mirza,ODI,19,12.0,1,10,1,0,3.79,19.0,52.63
-R Trumpelmann,I Kaia,T20I,20,15.0,0,12,2,0,4.5,20.0,60.0
+R Trumpelmann,I Kaia,T20I,30,40.0,0,14,5,1,8.0,30.0,46.67
 R Trumpelmann,I Pandey,ODI,20,8.0,0,16,0,0,2.4,20.0,80.0
 R Trumpelmann,IG Holland,ODI,11,8.0,0,6,1,0,4.36,11.0,54.55
+R Trumpelmann,J Hermann,ODI,26,30.0,1,17,3,1,6.92,26.0,65.38
 R Trumpelmann,Jasdeep Singh,ODI,12,16.0,0,5,1,1,8.0,12.0,41.67
 R Trumpelmann,Jatinder Singh,ODI,69,47.0,2,51,7,0,4.09,34.5,73.91
 R Trumpelmann,K Bhurtel,ODI,68,67.0,2,39,6,0,5.91,34.0,57.35
@@ -98996,6 +99234,7 @@ R Trumpelmann,Kashif Daud,ODI,11,14.0,0,2,0,1,7.64,11.0,18.18
 R Trumpelmann,Khawar Ali,ODI,39,31.0,0,23,3,0,4.77,39.0,58.97
 R Trumpelmann,Kushal Malla,ODI,21,28.0,2,10,4,1,8.0,10.5,47.62
 R Trumpelmann,Kushal Malla,T20I,11,19.0,0,3,2,1,10.36,11.0,27.27
+R Trumpelmann,LG Pretorius,T20I,17,20.0,1,4,1,0,7.06,17.0,23.53
 R Trumpelmann,LR Naylor,ODI,11,6.0,1,8,1,0,3.27,11.0,72.73
 R Trumpelmann,M Levitt,ODI,22,11.0,1,18,2,0,3.0,22.0,81.82
 R Trumpelmann,M Levitt,T20I,15,29.0,1,6,1,3,11.6,15.0,40.0
@@ -99014,11 +99253,12 @@ R Trumpelmann,NRJ Croes,ODI,14,16.0,0,6,2,0,6.86,14.0,42.86
 R Trumpelmann,NS Dhaliwal,ODI,23,7.0,0,20,0,0,1.83,23.0,86.96
 R Trumpelmann,NS Dhaliwal,T20I,12,15.0,0,6,2,0,7.5,12.0,50.0
 R Trumpelmann,Pargat Singh,ODI,33,16.0,0,24,2,0,2.91,33.0,72.73
+R Trumpelmann,RA Herman,T20I,13,8.0,3,7,0,0,3.69,4.33,53.85
 R Trumpelmann,RD Berrington,ODI,34,20.0,1,22,1,0,3.53,34.0,64.71
 R Trumpelmann,RD Berrington,T20I,22,32.0,1,7,3,0,8.73,22.0,31.82
 R Trumpelmann,RE van der Merwe,ODI,11,13.0,0,4,1,0,7.09,11.0,36.36
 R Trumpelmann,RK Paudel,ODI,61,42.0,4,36,3,0,4.13,15.25,59.02
-R Trumpelmann,RP Burl,T20I,17,36.0,1,0,5,0,12.71,17.0,0.0
+R Trumpelmann,RP Burl,T20I,18,37.0,1,0,5,0,12.33,18.0,0.0
 R Trumpelmann,Ravinderpal Singh,ODI,15,7.0,0,13,1,0,2.8,15.0,86.67
 R Trumpelmann,Rohan Mustafa,ODI,17,12.0,1,11,0,1,4.24,17.0,64.71
 R Trumpelmann,S Bau,ODI,10,7.0,0,7,1,0,4.2,10.0,70.0
@@ -99037,13 +99277,15 @@ R Trumpelmann,Sahibzada Farhan,T20I,11,19.0,0,4,4,0,10.36,11.0,36.36
 R Trumpelmann,Shayan Jahangir,ODI,14,15.0,2,7,2,0,6.43,7.0,50.0
 R Trumpelmann,Shivam Sharma,ODI,15,11.0,0,9,1,0,4.4,15.0,60.0
 R Trumpelmann,Shoaib Khan,ODI,35,34.0,0,16,3,0,5.83,35.0,45.71
+R Trumpelmann,Sikandar Raza,T20I,13,17.0,2,4,2,0,7.85,6.5,30.77
 R Trumpelmann,Sompal Kami,ODI,26,18.0,0,20,2,1,4.15,26.0,76.92
 R Trumpelmann,T Marumani,T20I,25,31.0,0,9,2,1,7.44,25.0,36.0
 R Trumpelmann,T Munyonga,T20I,10,9.0,0,3,0,0,5.4,10.0,30.0
+R Trumpelmann,T de Zorzi,ODI,10,13.0,0,4,2,0,7.8,10.0,40.0
 R Trumpelmann,TP Ura,ODI,23,22.0,2,14,4,0,5.74,11.5,60.87
 R Trumpelmann,V Aravind,ODI,66,70.0,1,34,6,2,6.36,66.0,51.52
 R Trumpelmann,Vikramjit Singh,ODI,29,19.0,1,22,2,0,3.93,29.0,75.86
-R Trumpelmann,W Madhevere,T20I,22,32.0,0,8,5,0,8.73,22.0,36.36
+R Trumpelmann,W Madhevere,T20I,23,32.0,1,9,5,0,8.35,23.0,39.13
 R Trumpelmann,Waseem Muhammad,ODI,51,30.0,1,35,3,0,3.53,51.0,68.63
 R Trumpelmann,Waseem Muhammad,T20I,10,8.0,0,5,0,0,4.8,10.0,50.0
 R Trumpelmann,YS Samra,ODI,36,13.0,0,30,2,0,2.17,36.0,83.33
@@ -101329,7 +101571,7 @@ RL Chase,A Mishra,Test,17,9.0,1,12,1,0,3.18,17.0,70.59
 RL Chase,AA Jangoo,CPL,18,17.0,0,7,2,0,5.67,18.0,38.89
 RL Chase,AD Hales,CPL,22,40.0,1,6,1,4,10.91,22.0,27.27
 RL Chase,AD Mathews,Test,51,24.0,1,36,3,0,2.82,51.0,70.59
-RL Chase,ADS Fletcher,CPL,35,51.0,0,10,2,3,8.74,35.0,28.57
+RL Chase,ADS Fletcher,CPL,43,57.0,0,12,2,3,7.95,43.0,27.91
 RL Chase,AG Cremer,Test,52,11.0,0,41,0,0,1.27,52.0,78.85
 RL Chase,AK Markram,T20I,19,32.0,0,3,0,3,10.11,19.0,15.79
 RL Chase,AK Markram,Test,56,37.0,0,34,4,0,3.96,56.0,60.71
@@ -101351,7 +101593,7 @@ RL Chase,Azan Awais,Test,12,7.0,0,9,1,0,3.5,12.0,75.0
 RL Chase,Azhar Ali,Test,237,123.0,1,165,6,4,3.11,237.0,69.62
 RL Chase,B Mavuta,Test,27,13.0,1,21,2,0,2.89,27.0,77.78
 RL Chase,B Sai Sudharsan,Test,70,39.0,2,49,4,0,3.34,35.0,70.0
-RL Chase,BA King,CPL,30,46.0,1,6,2,3,9.2,30.0,20.0
+RL Chase,BA King,CPL,31,46.0,2,7,2,3,8.9,15.5,22.58
 RL Chase,BA Stokes,Test,231,136.0,3,157,11,2,3.53,77.0,67.97
 RL Chase,BKG Mendis,ODI,73,81.0,0,29,6,2,6.66,73.0,39.73
 RL Chase,BKG Mendis,T20I,18,19.0,0,7,0,1,6.33,18.0,38.89
@@ -101415,7 +101657,7 @@ RL Chase,I Wijesundera,Test,14,15.0,0,9,1,1,6.43,14.0,64.29
 RL Chase,Imad Wasim,CPL,31,18.0,1,15,0,0,3.48,31.0,48.39
 RL Chase,Imrul Kayes,Test,13,4.0,0,9,0,0,1.85,13.0,69.23
 RL Chase,Ishan Kishan,T20I,28,19.0,2,14,1,0,4.07,14.0,50.0
-RL Chase,J Charles,CPL,10,7.0,1,4,0,0,4.2,10.0,40.0
+RL Chase,J Charles,CPL,14,9.0,2,6,0,0,3.86,7.0,42.86
 RL Chase,J Da Silva,CPL,10,11.0,1,6,2,0,6.6,10.0,60.0
 RL Chase,J Liyanage,ODI,16,7.0,0,9,0,0,2.62,16.0,56.25
 RL Chase,JA Raval,Test,48,34.0,0,37,7,0,4.25,48.0,77.08
@@ -101464,6 +101706,7 @@ RL Chase,Liton Das,ODI,24,19.0,0,15,3,0,4.75,24.0,62.5
 RL Chase,M Labuschagne,Test,123,98.0,0,56,5,1,4.78,123.0,45.53
 RL Chase,M Shumba,Test,23,2.0,0,21,0,0,0.52,23.0,91.3
 RL Chase,MA Agarwal,Test,28,7.0,1,25,1,0,1.5,28.0,89.29
+RL Chase,MD Shanaka,CPL,12,24.0,0,4,0,3,12.0,12.0,33.33
 RL Chase,MD Shanaka,T20I,20,32.0,1,8,1,3,9.6,20.0,40.0
 RL Chase,MD Stoneman,Test,43,14.0,0,37,2,0,1.95,43.0,86.05
 RL Chase,MDKJ Perera,ODI,30,24.0,0,11,1,0,4.8,30.0,36.67
@@ -101515,14 +101758,14 @@ RL Chase,PHKD Mendis,Test,20,16.0,0,13,3,0,4.8,20.0,65.0
 RL Chase,PJ Moor,Test,26,9.0,1,20,1,0,2.08,26.0,76.92
 RL Chase,PP Shaw,Test,34,34.0,0,15,4,0,6.0,34.0,44.12
 RL Chase,PWA Mulder,Test,28,13.0,0,21,2,0,2.79,28.0,75.0
-RL Chase,Q de Kock,CPL,15,22.0,2,5,2,1,8.8,7.5,33.33
+RL Chase,Q de Kock,CPL,20,32.0,2,5,2,2,9.6,10.0,25.0
 RL Chase,Q de Kock,T20I,34,63.0,1,13,7,4,11.12,34.0,38.24
 RL Chase,Q de Kock,Test,61,26.0,0,45,2,0,2.56,61.0,73.77
 RL Chase,R Ashwin,Test,193,56.0,0,157,2,1,1.74,193.0,81.35
 RL Chase,R Powell,CPL,10,14.0,0,5,1,0,8.4,10.0,50.0
 RL Chase,R Ravindra,T20I,16,23.0,1,2,1,1,8.62,16.0,12.5
 RL Chase,R Ravindra,Test,112,105.0,0,65,7,6,5.62,112.0,58.04
-RL Chase,RA Clarke,CPL,12,7.0,0,6,0,0,3.5,12.0,50.0
+RL Chase,RA Clarke,CPL,25,22.0,0,10,1,0,5.28,25.0,40.0
 RL Chase,RA Jadeja,Test,85,68.0,0,55,8,2,4.8,85.0,64.71
 RL Chase,RA Reifer,CPL,38,38.0,1,15,3,1,6.0,38.0,39.47
 RL Chase,RD Rickelton,T20I,45,57.0,1,15,2,4,7.6,45.0,33.33
@@ -102135,7 +102378,7 @@ RP Burl,KJ O'Brien,ODI,13,16.0,0,6,3,0,7.38,13.0,46.15
 RP Burl,KJ O'Brien,T20I,14,14.0,1,3,1,0,6.0,14.0,21.43
 RP Burl,L Tucker,ODI,13,9.0,0,9,1,0,4.15,13.0,69.23
 RP Burl,Liton Das,ODI,15,24.0,0,3,3,0,9.6,15.0,20.0
-RP Burl,MG Erasmus,T20I,29,37.0,0,11,4,1,7.66,29.0,37.93
+RP Burl,MG Erasmus,T20I,31,40.0,0,11,4,1,7.74,31.0,35.48
 RP Burl,MH Cross,T20I,11,20.0,0,2,2,1,10.91,11.0,18.18
 RP Burl,MP O'Dowd,ODI,17,13.0,0,9,0,1,4.59,17.0,52.94
 RP Burl,MP Stoinis,ODI,11,17.0,1,6,2,1,9.27,11.0,54.55
@@ -102860,7 +103103,7 @@ RR Watson,NJ O'Brien,ODI,16,4.0,0,12,0,0,1.5,16.0,75.0
 RR Watson,SD Outerbridge,T20I,10,15.0,0,3,0,1,9.0,10.0,30.0
 RR Watson,WTS Porterfield,ODI,28,22.0,0,14,1,1,4.71,28.0,50.0
 RRS Cornwall,A Athanaze,CPL,10,13.0,0,5,1,1,7.8,10.0,50.0
-RRS Cornwall,AD Hales,CPL,10,22.0,1,3,0,3,13.2,10.0,30.0
+RRS Cornwall,AD Hales,CPL,15,24.0,1,6,0,3,9.6,15.0,40.0
 RRS Cornwall,AD Mathews,Test,18,21.0,0,7,0,2,7.0,18.0,38.89
 RRS Cornwall,ADS Fletcher,CPL,33,49.0,2,13,2,3,8.91,16.5,39.39
 RRS Cornwall,AK Markram,Test,23,21.0,0,13,2,0,5.48,23.0,56.52
@@ -102872,7 +103115,7 @@ RRS Cornwall,BB McCullum,CPL,19,46.0,0,7,1,6,14.53,19.0,36.84
 RRS Cornwall,BOP Fernando,Test,126,64.0,0,91,8,0,3.05,126.0,72.22
 RRS Cornwall,BR Dunk,CPL,10,6.0,1,5,0,0,3.6,10.0,50.0
 RRS Cornwall,C Hemraj,CPL,21,20.0,1,12,2,1,5.71,21.0,57.14
-RRS Cornwall,C Munro,CPL,35,38.0,2,16,2,2,6.51,17.5,45.71
+RRS Cornwall,C Munro,CPL,38,42.0,3,18,3,2,6.63,12.67,47.37
 RRS Cornwall,CA Pujara,Test,40,23.0,1,31,2,0,3.45,40.0,77.5
 RRS Cornwall,CH Gayle,CPL,16,24.0,1,7,0,3,9.0,16.0,43.75
 RRS Cornwall,CS Delport,CPL,10,5.0,0,6,0,0,3.0,10.0,60.0
@@ -102896,7 +103139,7 @@ RRS Cornwall,JE Root,Test,28,30.0,0,12,2,1,6.43,28.0,42.86
 RRS Cornwall,JL Carter,CPL,10,16.0,0,4,0,2,9.6,10.0,40.0
 RRS Cornwall,JM Anderson,Test,10,3.0,0,8,0,0,1.8,10.0,80.0
 RRS Cornwall,JN Mohammed,CPL,17,21.0,0,8,1,1,7.41,17.0,47.06
-RRS Cornwall,KA Pollard,CPL,15,20.0,2,5,1,0,8.0,7.5,33.33
+RRS Cornwall,KA Pollard,CPL,18,26.0,2,7,1,1,8.67,9.0,38.89
 RRS Cornwall,KL Rahul,Test,12,0.0,0,12,0,0,0.0,12.0,100.0
 RRS Cornwall,LD Chandimal,Test,63,22.0,0,48,1,0,2.1,63.0,76.19
 RRS Cornwall,LRPL Taylor,CPL,14,17.0,1,4,2,0,7.29,14.0,28.57
@@ -102909,7 +103152,7 @@ RRS Cornwall,Mohammad Mithun,Test,29,12.0,2,25,1,1,2.48,14.5,86.21
 RRS Cornwall,Mominul Haque,Test,165,54.0,1,129,4,0,1.96,165.0,78.18
 RRS Cornwall,Mushfiqur Rahim,Test,63,33.0,2,43,3,0,3.14,31.5,68.25
 RRS Cornwall,N Dickwella,Test,69,39.0,0,44,2,0,3.39,69.0,63.77
-RRS Cornwall,N Pooran,CPL,57,89.0,1,20,2,8,9.37,57.0,35.09
+RRS Cornwall,N Pooran,CPL,62,93.0,2,24,3,8,9.0,31.0,38.71
 RRS Cornwall,Nayeem Hasan,Test,38,17.0,1,28,1,0,2.68,38.0,73.68
 RRS Cornwall,Nazmul Hossain Shanto,Test,28,11.0,2,21,1,0,2.36,14.0,75.0
 RRS Cornwall,OJ Pope,Test,43,22.0,0,31,2,0,3.07,43.0,72.09
@@ -102926,7 +103169,7 @@ RRS Cornwall,RR Pant,Test,10,0.0,0,10,0,0,0.0,10.0,100.0
 RRS Cornwall,SD Hope,CPL,31,77.0,0,6,4,8,14.9,31.0,19.35
 RRS Cornwall,SE Rutherford,CPL,25,28.0,1,15,0,3,6.72,25.0,60.0
 RRS Cornwall,SO Hetmyer,CPL,23,30.0,1,9,0,3,7.83,23.0,39.13
-RRS Cornwall,SP Narine,CPL,13,13.0,1,6,0,1,6.0,13.0,46.15
+RRS Cornwall,SP Narine,CPL,15,14.0,2,7,0,1,5.6,7.5,46.67
 RRS Cornwall,Shadman Islam,Test,51,20.0,0,39,2,0,2.35,51.0,76.47
 RRS Cornwall,Shakib Al Hasan,Test,45,21.0,1,33,2,0,2.8,45.0,73.33
 RRS Cornwall,Shoaib Malik,CPL,18,19.0,0,9,1,1,6.33,18.0,50.0
@@ -104425,6 +104668,7 @@ Reon King,Yasir Hameed,ODI,16,11.0,1,8,0,0,4.12,16.0,50.0
 Reon King,Yousuf Youhana,ODI,21,26.0,0,6,2,0,7.43,21.0,28.57
 Rhys Burinaga,Muhammad Haziq Aiman,T20I,11,17.0,0,7,1,2,9.27,11.0,63.64
 Riaz Afridi,HAM Shah,T20I,11,26.0,0,2,2,1,14.18,11.0,18.18
+Riazat Ali Shah,A Turay,T20I,11,21.0,0,6,2,2,11.45,11.0,54.55
 Riazat Ali Shah,AA Obanda,T20I,11,14.0,1,6,2,0,7.64,11.0,54.55
 Riazat Ali Shah,AR Patwa,T20I,10,8.0,0,8,0,1,4.8,10.0,80.0
 Riazat Ali Shah,Ameer Saiyed,T20I,10,6.0,0,6,0,0,3.6,10.0,60.0
@@ -104542,6 +104786,9 @@ Rishad Hossain,TH David,T20I,10,18.0,0,2,0,2,10.8,10.0,20.0
 Rishad Hossain,TWM Latham,ODI,36,40.0,0,9,4,0,6.67,36.0,25.0
 Rishad Hossain,V Kohli,ODI,11,5.0,1,6,0,0,2.73,11.0,54.55
 Rishad Hossain,WA Young,ODI,21,17.0,1,9,0,1,4.86,21.0,42.86
+Rithika Rajesh,K Sequiera,T20I,27,29.0,0,9,2,0,6.44,27.0,33.33
+Rithika Rajesh,NT Raghunandan,T20I,18,18.0,1,6,0,0,6.0,18.0,33.33
+Rithika Rajesh,SG Luijke,T20I,13,14.0,1,4,0,0,6.46,13.0,30.77
 Rithika Sriram,MA Nyabela,T20I,10,8.0,1,4,0,0,4.8,10.0,40.0
 Rithika Sriram,P Cuinica,T20I,13,14.0,0,5,1,0,6.46,13.0,38.46
 Rithika Sriram,T Khabo,T20I,11,13.0,0,3,0,0,7.09,11.0,27.27
@@ -104566,7 +104813,7 @@ Ritu Moni,H Karunaratne,ODI,21,19.0,0,11,3,0,5.43,21.0,52.38
 Ritu Moni,H Kaur,ODI,10,0.0,0,10,0,0,0.0,10.0,100.0
 Ritu Moni,H Kaur,T20I,11,21.0,0,3,4,0,11.45,11.0,27.27
 Ritu Moni,H Madavi,ODI,36,32.0,1,22,2,1,5.33,36.0,61.11
-Ritu Moni,H Madavi,T20I,32,53.0,0,11,6,2,9.94,32.0,34.38
+Ritu Moni,H Madavi,T20I,44,75.0,0,16,9,3,10.23,44.0,36.36
 Ritu Moni,I Dulani,ODI,39,29.0,1,23,4,0,4.46,39.0,58.97
 Ritu Moni,K Fraser,T20I,12,11.0,0,6,1,0,5.5,12.0,50.0
 Ritu Moni,KE Bryce,T20I,16,28.0,0,3,3,1,10.5,16.0,18.75
@@ -104585,6 +104832,7 @@ Ritu Moni,Muneeba Ali,ODI,10,11.0,1,5,2,0,6.6,10.0,50.0
 Ritu Moni,N Chantam,T20I,10,16.0,0,1,2,0,9.6,10.0,10.0
 Ritu Moni,N Koncharoenkai,T20I,11,7.0,0,7,0,0,3.82,11.0,63.64
 Ritu Moni,NND de Silva,ODI,20,20.0,0,8,1,1,6.0,20.0,40.0
+Ritu Moni,NND de Silva,T20I,16,10.0,0,7,0,0,3.75,16.0,43.75
 Ritu Moni,NR Sciver,ODI,19,16.0,0,8,1,0,5.05,19.0,42.11
 Ritu Moni,Nahida Khan,ODI,13,7.0,0,8,0,0,3.23,13.0,61.54
 Ritu Moni,Nida Dar,ODI,20,8.0,0,13,0,0,2.4,20.0,65.0
@@ -105745,6 +105993,7 @@ S Cholasseri,RL Blake,T20I,12,28.0,0,3,6,0,14.0,12.0,25.0
 S Cholasseri,S Georgota,T20I,12,10.0,0,6,0,0,5.0,12.0,50.0
 S Conteh,AA Onikoyi,T20I,12,7.0,1,7,0,0,3.5,12.0,58.33
 S Conteh,AR Patwa,T20I,10,9.0,0,6,1,0,5.4,10.0,60.0
+S Conteh,C Musemez,T20I,12,15.0,0,5,2,0,7.5,12.0,41.67
 S Conteh,CM Akachukwu,T20I,11,14.0,2,5,2,0,7.64,5.5,45.45
 S Conteh,IO Okpe,T20I,34,31.0,0,13,1,0,5.47,34.0,38.24
 S Conteh,JO Adedeji,T20I,16,15.0,1,6,1,0,5.62,16.0,37.5
@@ -105756,6 +106005,7 @@ S Conteh,R Bakum,T20I,20,14.0,0,10,1,0,4.2,20.0,50.0
 S Conteh,R Nehonde,T20I,12,9.0,1,5,0,0,4.5,12.0,41.67
 S Conteh,RA Abolarin,T20I,11,15.0,2,4,1,0,8.18,5.5,36.36
 S Conteh,S Mba,T20I,10,10.0,1,6,2,0,6.0,10.0,60.0
+S Conteh,S Singh,T20I,11,16.0,0,4,1,1,8.73,11.0,36.36
 S Conteh,SK Awiah,T20I,17,10.0,0,12,1,0,3.53,17.0,70.59
 S Conteh,Sulaimon Runsewe,T20I,22,31.0,1,11,2,2,8.45,22.0,50.0
 S Conteh,VF Bomnyuy,T20I,11,9.0,0,9,2,0,4.91,11.0,81.82
@@ -105833,6 +106083,7 @@ S Dharnidharka,CS Mugeri-Tiripano,ODI,17,16.0,0,11,2,0,5.65,17.0,64.71
 S Dharnidharka,CS Mugeri-Tiripano,T20I,17,25.0,0,5,2,0,8.82,17.0,29.41
 S Dharnidharka,CT Dhururu,ODI,17,9.0,0,12,1,0,3.18,17.0,70.59
 S Dharnidharka,CT Dhururu,T20I,19,18.0,2,10,2,0,5.68,9.5,52.63
+S Dharnidharka,D Wulandari,T20I,12,8.0,1,8,1,0,4.0,12.0,66.67
 S Dharnidharka,DEM Carter,T20I,14,16.0,0,7,2,0,6.86,14.0,50.0
 S Dharnidharka,Fiza,T20I,22,11.0,1,17,1,0,3.0,22.0,77.27
 S Dharnidharka,GP Tom,ODI,16,10.0,1,12,2,0,3.75,16.0,75.0
@@ -106167,14 +106418,15 @@ S Georgota,Suzan Turan,T20I,17,8.0,1,13,1,0,2.82,17.0,76.47
 S Georgota,W Hornero-Garcia,T20I,10,23.0,0,3,2,0,13.8,10.0,30.0
 S Gill,A Limdawala,T20I,12,11.0,0,7,1,0,5.5,12.0,58.33
 S Gill,BJ Bennett,T20I,16,19.0,0,8,2,1,7.12,16.0,50.0
+S Gill,D Ndikubwimana,T20I,11,8.0,1,6,1,0,4.36,11.0,54.55
 S Gill,Fiaz Ahmed,T20I,11,9.0,1,7,1,0,4.91,11.0,63.64
 S Gill,I Danladi,T20I,16,7.0,1,11,0,0,2.62,16.0,68.75
 S Gill,Mazharul Islam,T20I,12,5.0,1,10,1,0,2.5,12.0,83.33
 S Gill,Muhammad Zohaib,T20I,10,12.0,0,6,1,1,7.2,10.0,60.0
-S Gill,O Manishimwe,T20I,13,2.0,0,12,0,0,0.92,13.0,92.31
+S Gill,O Manishimwe,T20I,18,7.0,0,15,1,0,2.33,18.0,83.33
 S Gill,P Kurup,T20I,12,17.0,0,5,3,0,8.5,12.0,41.67
 S Gill,R Obuya,T20I,15,7.0,1,12,1,0,2.8,15.0,80.0
-S Gill,S Conteh,T20I,10,5.0,0,9,1,0,3.0,10.0,90.0
+S Gill,S Conteh,T20I,16,11.0,0,13,2,0,4.12,16.0,81.25
 S Gill,Sulaimon Runsewe,T20I,14,10.0,0,9,1,0,4.29,14.0,64.29
 S Gill,T Horpinitch,T20I,12,8.0,0,9,1,0,4.0,12.0,75.0
 S Gill,T Marumani,T20I,18,25.0,0,8,4,0,8.33,18.0,44.44
@@ -106624,8 +106876,11 @@ S Jimmy,R Rijke,ODI,19,19.0,1,9,2,0,6.0,19.0,47.37
 S Jimmy,S Chaturongrattana,ODI,20,7.0,0,15,0,0,2.1,20.0,75.0
 S Jimmy,S Horley,ODI,47,39.0,1,23,5,0,4.98,47.0,48.94
 S Jimmy,Shamima Sultana,T20I,13,13.0,0,6,2,0,6.0,13.0,46.15
+S Joseph,A Athanaze,CPL,19,19.0,1,13,1,2,6.0,19.0,68.42
 S Joseph,A Balbirnie,ODI,14,8.0,0,6,0,0,3.43,14.0,42.86
+S Joseph,AA Jangoo,CPL,10,16.0,0,3,1,1,9.6,10.0,30.0
 S Joseph,AD Hales,CPL,19,21.0,2,9,1,1,6.63,9.5,47.37
+S Joseph,ADS Fletcher,CPL,11,16.0,1,5,1,1,8.73,11.0,45.45
 S Joseph,AK Markram,Test,34,13.0,1,25,1,0,2.29,34.0,73.53
 S Joseph,AT Carey,Test,97,87.0,3,60,13,0,5.38,32.33,61.86
 S Joseph,Abdullah Shafique,ODI,24,18.0,1,18,3,0,4.5,24.0,75.0
@@ -106893,6 +107148,7 @@ S Kotte,N Joshi,T20I,12,2.0,2,10,0,0,1.0,6.0,83.33
 S Kotte,N Koncharoenkai,T20I,23,14.0,0,13,1,0,3.65,23.0,56.52
 S Kotte,N Vare,ODI,39,10.0,2,33,0,0,1.54,19.5,84.62
 S Kotte,NKF Rada Rani,T20I,12,9.0,0,8,1,0,4.5,12.0,66.67
+S Kotte,NPAN Sakarini,T20I,15,8.0,0,13,2,0,3.2,15.0,86.67
 S Kotte,Nimra Ghazanfar,T20I,10,2.0,1,8,0,0,1.2,10.0,80.0
 S Kotte,P Siaka,ODI,20,14.0,0,11,1,0,4.2,20.0,55.0
 S Kotte,Priyada Murali,T20I,12,1.0,1,11,0,0,0.5,12.0,91.67
@@ -108379,7 +108635,10 @@ S Sandeep Warrier,RG Sharma,IPL,26,33.0,0,14,4,1,7.62,26.0,53.85
 S Sandeep Warrier,SA Yadav,IPL,12,27.0,0,2,4,1,13.5,12.0,16.67
 S Sarandeva,AM Zepeda,T20I,12,9.0,0,8,1,0,4.5,12.0,66.67
 S Sarandeva,G Cengiz,T20I,16,21.0,1,4,2,0,7.88,16.0,25.0
+S Sarandeva,M Perisic,T20I,10,14.0,0,3,0,0,8.4,10.0,30.0
+S Sarandeva,M Stevanovic,T20I,22,32.0,0,11,4,1,8.73,22.0,50.0
 S Sarandeva,M Syrioti,T20I,11,19.0,0,3,2,0,10.36,11.0,27.27
+S Sarandeva,N Nojic,T20I,27,21.0,1,13,0,0,4.67,27.0,48.15
 S Sarandeva,RL Blake,T20I,22,44.0,0,6,6,0,12.0,22.0,27.27
 S Sarandeva,S Matijevic,T20I,17,15.0,0,10,1,0,5.29,17.0,58.82
 S Sarandeva,S Yildirim,T20I,17,22.0,0,5,2,0,7.76,17.0,29.41
@@ -108592,8 +108851,12 @@ S Sigaiwasa,A Iopu,T20I,11,10.0,0,5,0,0,5.45,11.0,45.45
 S Sigaiwasa,JY Masaya,T20I,16,4.0,0,16,0,0,1.5,16.0,100.0
 S Sigaiwasa,N Ihmeling,T20I,14,3.0,0,11,0,0,1.29,14.0,78.57
 S Sigaiwasa,S Solman,T20I,10,14.0,0,1,0,0,8.4,10.0,10.0
+S Simic,D Ruynekova,T20I,19,17.0,0,9,2,0,5.37,19.0,47.37
 S Sinha,E Gebhard,T20I,13,10.0,0,8,0,0,4.62,13.0,61.54
 S Sinha,GEM Brealey,T20I,14,21.0,0,6,1,0,9.0,14.0,42.86
+S Sinha,K Sequiera,T20I,17,29.0,0,4,3,0,10.24,17.0,23.53
+S Sinha,NT Raghunandan,T20I,10,5.0,1,5,0,0,3.0,10.0,50.0
+S Sinha,SG Luijke,T20I,13,12.0,0,7,1,0,5.54,13.0,53.85
 S Snater,DJ Malan,ODI,18,16.0,0,5,1,0,5.33,18.0,27.78
 S Snater,HG Munsey,T20I,16,44.0,0,2,1,5,16.5,16.0,12.5
 S Snater,HT Tector,T20I,10,11.0,1,2,1,0,6.6,10.0,20.0
@@ -108826,6 +109089,11 @@ S Talamarla,Bijeyata Kumari,T20I,15,10.0,0,8,0,0,4.0,15.0,53.33
 S Talamarla,E Millington,T20I,11,10.0,1,5,0,0,5.45,11.0,45.45
 S Talamarla,F Bulpitt,T20I,13,6.0,0,9,0,0,2.77,13.0,69.23
 S Talamarla,Hadia Siddiqui,T20I,17,10.0,0,14,0,0,3.53,17.0,82.35
+S Talamarla,Isabel Walker,T20I,13,13.0,0,6,0,0,6.0,13.0,46.15
+S Talamarla,K Sequiera,T20I,11,10.0,0,4,0,0,5.45,11.0,36.36
+S Talamarla,NT Raghunandan,T20I,11,13.0,1,3,1,0,7.09,11.0,27.27
+S Talamarla,S Sinha,T20I,10,12.0,1,5,1,0,7.2,10.0,50.0
+S Talamarla,SG Luijke,T20I,20,22.0,1,10,3,0,6.6,20.0,50.0
 S Talamarla,SK Reddy,T20I,11,7.0,0,7,1,0,3.82,11.0,63.64
 S Tarawally,A Shreshta,T20I,22,28.0,0,9,4,0,7.64,22.0,40.91
 S Tarawally,IO Okpe,T20I,11,18.0,0,3,0,2,9.82,11.0,27.27
@@ -109101,6 +109369,7 @@ S Wickramasekara,Saim Hussain,T20I,11,14.0,1,5,0,1,7.64,11.0,45.45
 S Wickramasekara,T Whiteman,T20I,22,23.0,0,12,4,0,6.27,22.0,54.55
 S Wickramasekara,V Vijh,T20I,20,27.0,0,5,3,0,8.1,20.0,25.0
 S Williams,A Shreshta,T20I,27,30.0,1,11,1,1,6.67,27.0,40.74
+S Williams,C Musemez,T20I,10,19.0,0,4,2,1,11.4,10.0,40.0
 S Williams,D Gim,T20I,12,7.0,0,7,0,0,3.5,12.0,58.33
 S Williams,I Niyomugabo,T20I,10,16.0,0,5,2,1,9.6,10.0,50.0
 S Williams,JO Adedeji,T20I,18,7.0,0,12,0,0,2.33,18.0,66.67
@@ -112157,11 +112426,12 @@ SK Sonpethkar,Mas Elysa,T20I,11,9.0,1,5,0,0,4.91,11.0,45.45
 SK Sonpethkar,WA Duraisingam,T20I,11,17.0,0,2,2,0,9.27,11.0,18.18
 SK Springer,ADS Fletcher,CPL,11,10.0,0,3,0,0,5.45,11.0,27.27
 SK Springer,AGS Gous,CPL,14,15.0,1,5,0,1,6.43,14.0,35.71
+SK Springer,AJ Hosein,CPL,12,14.0,0,3,0,0,7.0,12.0,25.0
 SK Springer,Azam Khan,CPL,13,20.0,2,6,4,0,9.23,6.5,46.15
 SK Springer,DJ Mitchell,ODI,25,22.0,0,11,2,0,5.28,25.0,44.0
 SK Springer,DJG Sammy,CPL,10,19.0,0,2,0,2,11.4,10.0,20.0
 SK Springer,DP Conway,ODI,11,11.0,1,5,1,0,6.0,11.0,45.45
-SK Springer,KA Pollard,CPL,19,31.0,1,6,4,0,9.79,19.0,31.58
+SK Springer,KA Pollard,CPL,23,36.0,1,7,4,0,9.39,23.0,30.43
 SK Springer,KR Mayers,CPL,14,39.0,0,1,3,3,16.71,14.0,7.14
 SK Springer,KU Carty,CPL,10,8.0,1,4,0,0,4.8,10.0,40.0
 SK Springer,MD Shanaka,T20I,10,26.0,0,2,3,1,15.6,10.0,20.0
@@ -114373,7 +114643,7 @@ SO Ngoche,CN Kakuru,T20I,14,10.0,2,7,1,0,4.29,7.0,50.0
 SO Ngoche,CN Onwuzulike,T20I,15,2.0,0,14,0,0,0.8,15.0,93.33
 SO Ngoche,D Ajekun,T20I,14,12.0,0,6,1,0,5.14,14.0,42.86
 SO Ngoche,D Muhumuza,T20I,18,19.0,0,7,2,0,6.33,18.0,38.89
-SO Ngoche,D Ndikubwimana,T20I,40,32.0,2,21,3,0,4.8,20.0,52.5
+SO Ngoche,D Ndikubwimana,T20I,42,32.0,3,23,3,0,4.57,14.0,54.76
 SO Ngoche,DM Nakrani,T20I,42,64.0,1,19,0,8,9.14,42.0,45.24
 SO Ngoche,DS Airee,T20I,14,16.0,1,7,1,1,6.86,14.0,50.0
 SO Ngoche,E Dusingizimana,T20I,14,9.0,1,11,0,1,3.86,14.0,78.57
@@ -114395,10 +114665,11 @@ SO Ngoche,K Waiswa,T20I,23,20.0,1,12,0,1,5.22,23.0,52.17
 SO Ngoche,KJ O'Brien,ODI,19,18.0,0,10,3,0,5.68,19.0,52.63
 SO Ngoche,KJ O'Brien,T20I,11,12.0,1,6,2,0,6.55,11.0,54.55
 SO Ngoche,Kamran Akmal,ODI,12,9.0,1,5,0,0,4.5,12.0,41.67
+SO Ngoche,L Lamin,T20I,16,6.0,1,10,0,0,2.25,16.0,62.5
 SO Ngoche,MR Swart,T20I,22,36.0,1,5,1,2,9.82,22.0,22.73
 SO Ngoche,Mazharul Islam,T20I,11,12.0,0,3,1,0,6.55,11.0,27.27
 SO Ngoche,Misbah-ul-Haq,ODI,21,20.0,0,8,1,0,5.71,21.0,38.1
-SO Ngoche,O Manishimwe,T20I,25,32.0,1,12,1,2,7.68,25.0,48.0
+SO Ngoche,O Manishimwe,T20I,31,34.0,1,16,1,2,6.58,31.0,51.61
 SO Ngoche,O Olaleye,T20I,20,14.0,2,11,1,0,4.2,10.0,55.0
 SO Ngoche,O Tuyisenge,T20I,20,20.0,1,10,1,1,6.0,20.0,50.0
 SO Ngoche,P Kurup,T20I,15,13.0,1,4,0,0,5.2,15.0,26.67
@@ -114425,6 +114696,7 @@ SO Ngoche,VD Adewoye,T20I,10,7.0,0,6,1,0,4.2,10.0,60.0
 SO Ngoche,W Niyitanga,T20I,16,23.0,1,8,0,2,8.62,16.0,50.0
 SO Ngoche,WU Tharanga,ODI,14,24.0,0,6,5,0,10.29,14.0,42.86
 SO Ngoche,Younis Khan,ODI,24,14.0,0,11,0,0,3.5,24.0,45.83
+SO Ngoche,Yves Cyusa,T20I,12,5.0,0,8,0,0,2.5,12.0,66.67
 SO Tikolo,A Bagai,ODI,19,13.0,0,14,2,0,4.11,19.0,73.68
 SO Tikolo,A Bagai,T20I,17,17.0,0,5,1,0,6.0,17.0,29.41
 SO Tikolo,AL Kandappah,ODI,41,20.0,1,22,0,0,2.93,41.0,53.66
@@ -114513,7 +114785,7 @@ SP Jones,Tushar Imran,ODI,10,8.0,0,6,0,0,4.8,10.0,60.0
 SP Krishnamurthi,K Bhurtel,ODI,19,14.0,0,10,1,0,4.42,19.0,52.63
 SP Krishnamurthi,RK Paudel,ODI,18,9.0,0,12,0,0,3.0,18.0,66.67
 SP Narine,A Badoni,IPL,48,43.0,3,20,3,1,5.38,16.0,41.67
-SP Narine,AA Jangoo,CPL,23,20.0,1,11,0,1,5.22,23.0,47.83
+SP Narine,AA Jangoo,CPL,24,21.0,1,11,0,1,5.25,24.0,45.83
 SP Narine,AB de Villiers,CPL,15,24.0,0,3,3,0,9.6,15.0,20.0
 SP Narine,AB de Villiers,IPL,39,54.0,4,15,5,2,8.31,9.75,38.46
 SP Narine,AB de Villiers,ODI,22,14.0,0,11,0,0,3.82,22.0,50.0
@@ -114549,7 +114821,7 @@ SP Narine,Azhar Ali,ODI,22,12.0,0,12,0,0,3.27,22.0,54.55
 SP Narine,B Kumar,IPL,10,4.0,0,7,0,0,2.4,10.0,70.0
 SP Narine,B Lee,ODI,16,13.0,1,12,1,1,4.88,16.0,75.0
 SP Narine,B Sai Sudharsan,IPL,29,35.0,2,11,3,1,7.24,14.5,37.93
-SP Narine,BA King,CPL,34,29.0,2,18,2,1,5.12,17.0,52.94
+SP Narine,BA King,CPL,44,38.0,3,25,4,1,5.18,14.67,56.82
 SP Narine,BA Stokes,IPL,17,17.0,1,6,1,0,6.0,17.0,35.29
 SP Narine,BB McCullum,IPL,29,37.0,3,13,4,0,7.66,9.67,44.83
 SP Narine,BB McCullum,ODI,41,29.0,3,26,3,1,4.24,13.67,63.41
@@ -114578,7 +114850,7 @@ SP Narine,CJ Anderson,IPL,14,9.0,2,7,0,0,3.86,7.0,50.0
 SP Narine,CJ Anderson,ODI,30,51.0,0,12,2,5,10.2,30.0,40.0
 SP Narine,CJ Anderson,Test,31,23.0,0,23,5,0,4.45,31.0,74.19
 SP Narine,CJ Chibhabha,ODI,11,3.0,1,8,0,0,1.64,11.0,72.73
-SP Narine,CJ Green,CPL,17,13.0,0,7,0,0,4.59,17.0,41.18
+SP Narine,CJ Green,CPL,18,14.0,0,7,0,0,4.67,18.0,38.89
 SP Narine,CR Brathwaite,CPL,60,67.0,1,32,5,4,6.7,60.0,53.33
 SP Narine,CR Ervine,T20I,13,5.0,1,9,0,0,2.31,13.0,69.23
 SP Narine,CS Baugh,CPL,14,6.0,0,11,1,0,2.57,14.0,78.57
@@ -114612,7 +114884,7 @@ SP Narine,DR Flynn,Test,29,13.0,2,23,2,0,2.69,14.5,79.31
 SP Narine,DR Smith,CPL,16,12.0,2,11,0,1,4.5,8.0,68.75
 SP Narine,DR Smith,IPL,16,10.0,1,10,1,0,3.75,16.0,62.5
 SP Narine,DT Christian,ODI,15,15.0,1,7,0,1,6.0,15.0,46.67
-SP Narine,E Lewis,CPL,82,69.0,4,51,3,5,5.05,20.5,62.2
+SP Narine,E Lewis,CPL,93,73.0,4,61,4,5,4.71,23.25,65.59
 SP Narine,EC Joyce,T20I,17,13.0,2,8,1,0,4.59,8.5,47.06
 SP Narine,EJG Morgan,IPL,11,14.0,0,4,2,0,7.64,11.0,36.36
 SP Narine,EJG Morgan,T20I,21,22.0,2,13,2,1,6.29,10.5,61.9
@@ -114737,6 +115009,7 @@ SP Narine,MK Lomror,IPL,11,24.0,1,2,1,2,13.09,11.0,18.18
 SP Narine,MK Pandey,IPL,28,28.0,0,9,2,0,6.0,28.0,32.14
 SP Narine,MK Tiwary,IPL,18,27.0,0,6,5,0,9.0,18.0,33.33
 SP Narine,MK Tiwary,ODI,28,21.0,1,18,2,1,4.5,28.0,64.29
+SP Narine,MM Ali,CPL,12,14.0,1,7,1,1,7.0,12.0,58.33
 SP Narine,MM Ali,IPL,11,20.0,2,2,2,1,10.91,5.5,18.18
 SP Narine,MM Ali,ODI,26,15.0,0,15,0,0,3.46,26.0,57.69
 SP Narine,MN Samuels,CPL,40,22.0,2,22,1,0,3.3,20.0,55.0
@@ -114791,7 +115064,7 @@ SP Narine,PK Garg,IPL,10,6.0,0,4,0,0,3.6,10.0,40.0
 SP Narine,PP Chawla,IPL,15,14.0,1,5,1,0,5.6,15.0,33.33
 SP Narine,PP Shaw,IPL,31,48.0,0,5,3,2,9.29,31.0,16.13
 SP Narine,Priyansh Arya,IPL,10,11.0,0,4,0,1,6.6,10.0,40.0
-SP Narine,Q de Kock,CPL,19,14.0,2,9,1,0,4.42,9.5,47.37
+SP Narine,Q de Kock,CPL,20,14.0,3,10,1,0,4.2,6.67,50.0
 SP Narine,Q de Kock,IPL,50,49.0,2,24,4,2,5.88,25.0,48.0
 SP Narine,Q de Kock,ODI,18,12.0,0,9,1,0,4.0,18.0,50.0
 SP Narine,R Ashwin,ODI,21,7.0,1,15,0,0,2.0,21.0,71.43
@@ -114801,6 +115074,7 @@ SP Narine,R Powell,CPL,78,61.0,3,45,3,1,4.69,26.0,57.69
 SP Narine,R Powell,IPL,13,20.0,2,7,1,2,9.23,6.5,53.85
 SP Narine,R Shepherd,CPL,25,22.0,2,11,0,1,5.28,12.5,44.0
 SP Narine,R Tewatia,IPL,16,23.0,1,6,1,2,8.62,16.0,37.5
+SP Narine,RA Clarke,CPL,12,5.0,1,8,0,0,2.5,12.0,66.67
 SP Narine,RA Jadeja,IPL,53,50.0,4,25,1,3,5.66,13.25,47.17
 SP Narine,RA Jadeja,ODI,20,12.0,0,12,1,0,3.6,20.0,60.0
 SP Narine,RA Reifer,CPL,18,17.0,2,9,2,0,5.67,9.0,50.0
@@ -117665,7 +117939,7 @@ Sadia Iqbal,GH Lewis,T20I,27,28.0,0,15,4,0,6.22,27.0,55.56
 Sadia Iqbal,H Deol,ODI,11,6.0,0,5,0,0,3.27,11.0,45.45
 Sadia Iqbal,H Karunaratne,ODI,24,11.0,0,19,2,0,2.75,24.0,79.17
 Sadia Iqbal,H Kaur,ODI,15,3.0,0,12,0,0,1.2,15.0,80.0
-Sadia Iqbal,H Kaur,T20I,11,20.0,0,0,2,0,10.91,11.0,0.0
+Sadia Iqbal,H Kaur,T20I,16,22.0,0,3,2,0,8.25,16.0,18.75
 Sadia Iqbal,H Madavi,T20I,14,9.0,0,8,0,0,3.86,14.0,57.14
 Sadia Iqbal,HC Knight,T20I,21,23.0,0,7,2,0,6.57,21.0,33.33
 Sadia Iqbal,HK Matthews,ODI,96,60.0,2,64,8,0,3.75,48.0,66.67
@@ -117677,6 +117951,7 @@ Sadia Iqbal,K Joshi,T20I,10,11.0,0,6,2,0,6.6,10.0,60.0
 Sadia Iqbal,K Ndlovu,T20I,11,17.0,2,6,4,0,9.27,5.5,54.55
 Sadia Iqbal,KE Bryce,ODI,21,23.0,0,11,2,1,6.57,21.0,52.38
 Sadia Iqbal,KJ Garth,ODI,17,2.0,0,16,0,0,0.71,17.0,94.12
+Sadia Iqbal,KY Chan,T20I,11,8.0,0,9,2,0,4.36,11.0,81.82
 Sadia Iqbal,Kycia A Knight,ODI,16,12.0,3,8,1,0,4.5,5.33,50.0
 Sadia Iqbal,L Goodall,ODI,46,40.0,1,22,2,0,5.22,46.0,47.83
 Sadia Iqbal,L Lee,ODI,16,18.0,1,10,4,0,6.75,16.0,62.5
@@ -117716,7 +117991,7 @@ Sadia Iqbal,S Forbes,ODI,16,5.0,0,12,0,0,1.88,16.0,75.0
 Sadia Iqbal,S Jafta,ODI,16,14.0,2,9,2,0,5.25,8.0,56.25
 Sadia Iqbal,S Luus,ODI,73,62.0,1,45,6,2,5.1,73.0,61.64
 Sadia Iqbal,S Luus,T20I,24,31.0,3,9,5,0,7.75,8.0,37.5
-Sadia Iqbal,S Mandhana,T20I,24,28.0,1,13,2,1,7.0,24.0,54.17
+Sadia Iqbal,S Mandhana,T20I,32,33.0,1,19,3,1,6.19,32.0,59.38
 Sadia Iqbal,S Mostary,ODI,26,14.0,1,21,3,0,3.23,26.0,80.77
 Sadia Iqbal,S Mostary,T20I,11,7.0,0,7,1,0,3.82,11.0,63.64
 Sadia Iqbal,S Rani,T20I,11,10.0,0,7,2,0,5.45,11.0,63.64
@@ -117726,7 +118001,7 @@ Sadia Iqbal,SFM Devine,ODI,11,9.0,1,7,0,1,4.91,11.0,63.64
 Sadia Iqbal,SR Taylor,ODI,89,77.0,2,48,8,1,5.19,44.5,53.93
 Sadia Iqbal,SW Bates,ODI,34,11.0,1,26,1,0,1.94,34.0,76.47
 Sadia Iqbal,SW Bates,T20I,30,30.0,0,10,2,0,6.0,30.0,33.33
-Sadia Iqbal,Shafali Verma,T20I,24,36.0,1,11,6,1,9.0,24.0,45.83
+Sadia Iqbal,Shafali Verma,T20I,27,44.0,1,11,6,2,9.78,27.0,40.74
 Sadia Iqbal,Shamima Sultana,ODI,10,3.0,1,8,0,0,1.8,10.0,80.0
 Sadia Iqbal,Shamima Sultana,T20I,24,19.0,1,13,2,0,4.75,24.0,54.17
 Sadia Iqbal,Sharmin Akhter,ODI,13,2.0,0,11,0,0,0.92,13.0,84.62
@@ -119200,7 +119475,7 @@ Shadab Khan,JR Philippe,BBL,18,38.0,1,2,3,1,12.67,18.0,11.11
 Shadab Khan,JR Philippe,PSL,13,18.0,1,2,2,0,8.31,13.0,15.38
 Shadab Khan,JW Wells,PSL,11,25.0,0,4,1,3,13.64,11.0,36.36
 Shadab Khan,K Rabada,Test,18,6.0,0,15,1,0,2.0,18.0,83.33
-Shadab Khan,KA Pollard,CPL,16,3.0,1,13,0,0,1.12,16.0,81.25
+Shadab Khan,KA Pollard,CPL,27,16.0,1,16,0,1,3.56,27.0,59.26
 Shadab Khan,KA Pollard,PSL,45,79.0,0,16,3,8,10.53,45.0,35.56
 Shadab Khan,KA Pollard,T20I,20,15.0,1,9,0,0,4.5,20.0,45.0
 Shadab Khan,KC Sangakkara,PSL,15,12.0,1,9,1,0,4.8,15.0,60.0
@@ -120566,6 +120841,7 @@ Shakeel Ahmed,A Johnson,ODI,19,19.0,2,14,1,2,6.0,9.5,73.68
 Shakeel Ahmed,A Sharafu,T20I,23,18.0,1,14,1,1,4.7,23.0,60.87
 Shakeel Ahmed,A Sharma,ODI,53,38.0,0,34,4,1,4.3,53.0,64.15
 Shakeel Ahmed,A Vala,T20I,10,6.0,2,7,1,0,3.6,5.0,70.0
+Shakeel Ahmed,AD Nath,ODI,16,7.0,1,10,0,0,2.62,16.0,62.5
 Shakeel Ahmed,AE Paraam,T20I,11,17.0,0,4,3,0,9.27,11.0,36.36
 Shakeel Ahmed,AGS Gous,ODI,29,7.0,2,22,0,0,1.45,14.5,75.86
 Shakeel Ahmed,AT Nidamanuru,T20I,13,13.0,0,7,1,0,6.0,13.0,53.85
@@ -120573,8 +120849,8 @@ Shakeel Ahmed,Aarif Sheikh,ODI,12,11.0,1,6,0,1,5.5,12.0,50.0
 Shakeel Ahmed,Aaron Jones,T20I,11,6.0,0,5,0,0,3.27,11.0,45.45
 Shakeel Ahmed,Aasif Sheikh,ODI,65,31.0,1,51,4,1,2.86,65.0,78.46
 Shakeel Ahmed,Aasif Sheikh,T20I,15,18.0,0,8,2,1,7.2,15.0,53.33
-Shakeel Ahmed,Aayan Afzal Khan,ODI,11,3.0,1,8,0,0,1.64,11.0,72.73
-Shakeel Ahmed,Adeeb Usmani,ODI,28,29.0,0,14,3,1,6.21,28.0,50.0
+Shakeel Ahmed,Aayan Afzal Khan,ODI,16,6.0,1,10,0,0,2.25,16.0,62.5
+Shakeel Ahmed,Adeeb Usmani,ODI,48,44.0,0,29,3,3,5.5,48.0,60.42
 Shakeel Ahmed,Ahmer Bin Nisar,T20I,10,7.0,0,4,0,0,4.2,10.0,40.0
 Shakeel Ahmed,Arjun Kumal,ODI,10,7.0,0,6,1,0,4.2,10.0,60.0
 Shakeel Ahmed,Asif Khan,T20I,17,26.0,0,5,3,1,9.18,17.0,29.41
@@ -120617,7 +120893,7 @@ Shakeel Ahmed,NRJ Croes,ODI,28,9.0,0,20,0,0,1.93,28.0,71.43
 Shakeel Ahmed,NRJ Croes,T20I,15,20.0,1,4,2,0,8.0,15.0,26.67
 Shakeel Ahmed,NS Dhaliwal,ODI,44,6.0,1,38,0,0,0.82,44.0,86.36
 Shakeel Ahmed,Pargat Singh,ODI,62,49.0,0,45,7,2,4.74,62.0,72.58
-Shakeel Ahmed,R Chopra,ODI,13,1.0,0,13,0,0,0.46,13.0,100.0
+Shakeel Ahmed,R Chopra,ODI,16,1.0,0,16,0,0,0.38,16.0,100.0
 Shakeel Ahmed,R Chopra,T20I,10,6.0,1,7,1,0,3.6,10.0,70.0
 Shakeel Ahmed,R Trumpelmann,ODI,14,7.0,1,11,1,0,3.0,14.0,78.57
 Shakeel Ahmed,RK Paudel,ODI,23,7.0,1,18,0,0,1.83,23.0,78.26
@@ -120633,6 +120909,7 @@ Shakeel Ahmed,SR Mukkamalla,T20I,15,18.0,0,7,1,1,7.2,15.0,46.67
 Shakeel Ahmed,Sarfaraz Ali,T20I,14,12.0,2,10,1,1,5.14,7.0,71.43
 Shakeel Ahmed,Shayan Jahangir,ODI,14,11.0,1,9,2,0,4.71,14.0,64.29
 Shakeel Ahmed,Shivam Sharma,ODI,16,4.0,0,12,0,0,1.5,16.0,75.0
+Shakeel Ahmed,T Suri,ODI,11,5.0,0,9,1,0,2.73,11.0,81.82
 Shakeel Ahmed,T van der Gugten,ODI,12,0.0,0,12,0,0,0.0,12.0,100.0
 Shakeel Ahmed,Usman Patel,T20I,12,7.0,4,6,0,0,3.5,3.0,50.0
 Shakeel Ahmed,V Aravind,ODI,16,13.0,1,12,2,0,4.88,16.0,75.0
@@ -122183,6 +122460,7 @@ Sidhant Singh,MG Erasmus,T20I,11,34.0,0,1,1,4,18.55,11.0,9.09
 Sidhant Singh,P Khadka,T20I,12,23.0,0,4,3,1,11.5,12.0,33.33
 Sidhant Singh,T Munyonga,T20I,18,30.0,0,3,2,1,10.0,18.0,16.67
 Sikandar Raza,A Balbirnie,ODI,97,83.0,0,40,4,1,5.13,97.0,41.24
+Sikandar Raza,A Busing-Volschenk,T20I,11,14.0,0,3,0,1,7.64,11.0,27.27
 Sikandar Raza,AA Paradkar,ODI,11,7.0,0,6,0,0,3.82,11.0,54.55
 Sikandar Raza,AD Mathews,ODI,38,33.0,0,20,3,1,5.21,38.0,52.63
 Sikandar Raza,AD Mathews,T20I,24,16.0,0,12,1,0,4.0,24.0,50.0
@@ -122224,7 +122502,7 @@ Sikandar Raza,CN Ackermann,ODI,17,8.0,0,11,0,0,2.82,17.0,64.71
 Sikandar Raza,CP Rizwan,ODI,33,22.0,0,18,1,0,4.0,33.0,54.55
 Sikandar Raza,CS MacLeod,ODI,42,27.0,1,29,4,0,3.86,42.0,69.05
 Sikandar Raza,D Bishoo,Test,30,11.0,1,24,1,0,2.2,30.0,80.0
-Sikandar Raza,D Brevis,T20I,26,46.0,1,7,2,4,10.62,26.0,26.92
+Sikandar Raza,D Brevis,T20I,34,58.0,1,11,3,5,10.24,34.0,32.35
 Sikandar Raza,D Wiese,T20I,10,7.0,1,6,1,0,4.2,10.0,60.0
 Sikandar Raza,DA Warner,ODI,18,24.0,1,8,3,1,8.0,18.0,44.44
 Sikandar Raza,DAS Gunaratne,ODI,15,9.0,0,8,0,0,3.6,15.0,53.33
@@ -122262,13 +122540,13 @@ Sikandar Raza,Imrul Kayes,Test,102,44.0,1,72,4,0,2.59,102.0,70.59
 Sikandar Raza,Ishan Kishan,ODI,22,14.0,0,14,2,0,3.82,22.0,63.64
 Sikandar Raza,Ishan Kishan,T20I,25,47.0,2,5,5,2,11.28,12.5,20.0
 Sikandar Raza,J Blackwood,Test,14,5.0,1,12,1,0,2.14,14.0,85.71
-Sikandar Raza,J Hermann,T20I,12,17.0,0,3,2,0,8.5,12.0,25.0
+Sikandar Raza,J Hermann,T20I,15,19.0,0,4,2,0,7.6,15.0,26.67
 Sikandar Raza,J Liyanage,ODI,31,25.0,0,14,2,0,4.84,31.0,45.16
 Sikandar Raza,JE Root,Test,20,8.0,0,12,0,0,2.4,20.0,60.0
-Sikandar Raza,JJ Smit,T20I,10,22.0,0,3,0,3,13.2,10.0,30.0
+Sikandar Raza,JJ Smit,T20I,11,23.0,0,3,0,3,12.55,11.0,27.27
 Sikandar Raza,JL Carter,ODI,16,14.0,1,9,2,0,5.25,16.0,56.25
 Sikandar Raza,JM Vince,PSL,13,13.0,0,3,0,0,6.0,13.0,23.08
-Sikandar Raza,JN Frylinck,T20I,60,58.0,2,24,2,1,5.8,30.0,40.0
+Sikandar Raza,JN Frylinck,T20I,64,59.0,2,27,2,1,5.53,32.0,42.19
 Sikandar Raza,JN Loftie-Eaton,T20I,23,32.0,2,7,3,1,8.35,11.5,30.43
 Sikandar Raza,JO Holder,Test,55,33.0,0,36,2,1,3.6,55.0,65.45
 Sikandar Raza,JP Duminy,ODI,19,20.0,0,5,1,0,6.32,19.0,26.32
@@ -122317,7 +122595,7 @@ Sikandar Raza,MDKJ Perera,ODI,37,47.0,1,13,5,1,7.62,37.0,35.14
 Sikandar Raza,MDKJ Perera,T20I,16,27.0,0,2,2,1,10.12,16.0,12.5
 Sikandar Raza,MG Bracewell,PSL,18,19.0,0,6,2,0,6.33,18.0,33.33
 Sikandar Raza,MG Bracewell,Test,15,7.0,0,13,1,0,2.8,15.0,86.67
-Sikandar Raza,MG Erasmus,T20I,59,69.0,2,16,4,2,7.02,29.5,27.12
+Sikandar Raza,MG Erasmus,T20I,69,85.0,2,18,5,3,7.39,34.5,26.09
 Sikandar Raza,MK Tiwary,ODI,10,7.0,0,4,0,0,4.2,10.0,40.0
 Sikandar Raza,MN Samuels,ODI,48,45.0,0,25,2,2,5.62,48.0,52.08
 Sikandar Raza,MP O'Dowd,ODI,56,51.0,2,26,5,0,5.46,28.0,46.43
@@ -122363,7 +122641,7 @@ Sikandar Raza,PR Stirling,ODI,44,40.0,1,20,5,0,5.45,44.0,45.45
 Sikandar Raza,PWH de Silva,ODI,15,11.0,1,7,1,0,4.4,15.0,46.67
 Sikandar Raza,R Ravindra,T20I,11,15.0,0,3,2,0,8.18,11.0,27.27
 Sikandar Raza,R Ravindra,Test,48,29.0,1,34,4,0,3.62,48.0,70.83
-Sikandar Raza,RA Herman,T20I,12,22.0,0,2,1,1,11.0,12.0,16.67
+Sikandar Raza,RA Herman,T20I,18,32.0,0,4,1,2,10.67,18.0,22.22
 Sikandar Raza,RA Reifer,CPL,11,15.0,0,3,0,1,8.18,11.0,27.27
 Sikandar Raza,RAS Lakmal,Test,19,8.0,2,14,0,0,2.53,9.5,73.68
 Sikandar Raza,RD Berrington,ODI,50,33.0,0,30,2,1,3.96,50.0,60.0
@@ -122560,6 +122838,8 @@ Snigdha Malhotra,M Lollo,T20I,13,10.0,1,6,0,0,4.62,13.0,46.15
 Snigdha Paul,Shamima Sultana,T20I,10,4.0,1,9,1,0,2.4,10.0,90.0
 Snigdha Paul,Theertha Satish,T20I,11,10.0,0,5,1,0,5.45,11.0,45.45
 Sofia Mardones,M Castineiras,T20I,25,40.0,0,11,3,0,9.6,25.0,44.0
+Sofia Velic,NND de Silva,T20I,10,10.0,0,2,0,0,6.0,10.0,20.0
+Sofia Velic,Rinitha Rajith,T20I,11,16.0,1,4,3,0,8.73,11.0,36.36
 Sohag Gazi,AD Mathews,ODI,15,18.0,0,4,0,1,7.2,15.0,26.67
 Sohag Gazi,AD Mathews,Test,113,53.0,2,73,3,0,2.81,56.5,64.6
 Sohag Gazi,AG Cremer,Test,64,16.0,1,52,0,0,1.5,64.0,81.25
@@ -123362,7 +123642,7 @@ Sultana Khatun,H Karunaratne,ODI,17,21.0,0,7,2,0,7.41,17.0,41.18
 Sultana Khatun,H Kaur,ODI,14,7.0,1,7,0,0,3.0,14.0,50.0
 Sultana Khatun,H Kaur,T20I,17,19.0,1,5,1,0,6.71,17.0,29.41
 Sultana Khatun,H Madavi,ODI,40,31.0,0,30,3,0,4.65,40.0,75.0
-Sultana Khatun,H Madavi,T20I,31,26.0,1,13,0,1,5.03,31.0,41.94
+Sultana Khatun,H Madavi,T20I,36,32.0,1,14,0,1,5.33,36.0,38.89
 Sultana Khatun,HK Matthews,T20I,18,28.0,0,4,3,0,9.33,18.0,22.22
 Sultana Khatun,I Dulani,ODI,35,17.0,1,22,1,0,2.91,35.0,62.86
 Sultana Khatun,I Dulani,T20I,14,25.0,1,1,3,0,10.71,14.0,7.14
@@ -123377,13 +123657,14 @@ Sultana Khatun,PM Weerakkody,ODI,11,5.0,1,8,0,0,2.73,11.0,72.73
 Sultana Khatun,PS Punia,ODI,20,9.0,0,14,1,0,2.7,20.0,70.0
 Sultana Khatun,Q Joseph,ODI,15,14.0,0,9,2,0,5.6,15.0,60.0
 Sultana Khatun,Q Joseph,T20I,21,25.0,0,9,4,0,7.14,21.0,42.86
-Sultana Khatun,RMVD Gunaratne,T20I,18,29.0,0,8,4,1,9.67,18.0,44.44
+Sultana Khatun,RMVD Gunaratne,T20I,27,33.0,0,13,4,1,7.33,27.0,48.15
 Sultana Khatun,S Forbes,ODI,47,17.0,1,37,2,0,2.17,47.0,78.72
 Sultana Khatun,S Luus,ODI,12,11.0,0,4,1,0,5.5,12.0,33.33
 Sultana Khatun,S Mandhana,ODI,41,30.0,0,26,5,0,4.39,41.0,63.41
 Sultana Khatun,S Mandhana,T20I,29,40.0,2,10,5,1,8.28,14.5,34.48
 Sultana Khatun,Shafali Verma,T20I,27,30.0,3,11,2,1,6.67,9.0,40.74
 Sultana Khatun,T Brits,ODI,38,27.0,0,19,2,0,4.26,38.0,50.0
+Sultana Khatun,Theertha Satish,T20I,11,2.0,1,9,0,0,1.09,11.0,81.82
 Sultana Khatun,WK Dilhari,ODI,17,12.0,0,7,0,0,4.24,17.0,41.18
 Sultana Khatun,YH Bhatia,ODI,22,18.0,1,16,2,0,4.91,22.0,72.73
 Sultana Khatun,YH Bhatia,T20I,17,16.0,0,7,2,0,5.65,17.0,41.18
@@ -123728,6 +124009,7 @@ T Henderson,R Dravid,IPL,16,23.0,0,5,3,0,8.62,16.0,31.25
 T Hinds,D Pretorius,CPL,14,16.0,0,3,1,0,6.86,14.0,21.43
 T Hinds,DA Miller,CPL,16,41.0,0,4,3,4,15.38,16.0,25.0
 T Hinds,DC Drakes,CPL,10,18.0,0,5,3,0,10.8,10.0,50.0
+T Hinds,Hassan Nawaz,CPL,13,26.0,1,5,1,2,12.0,13.0,38.46
 T Hinds,JO Holder,CPL,12,20.0,1,1,3,0,10.0,12.0,8.33
 T Hinds,OF Smith,CPL,17,15.0,1,11,1,1,5.29,17.0,64.71
 T Hinds,Q de Kock,CPL,12,33.0,0,2,4,2,16.5,12.0,16.67
@@ -124808,6 +125090,7 @@ T Tshose,AR Patwa,T20I,15,9.0,0,10,1,0,3.6,15.0,66.67
 T Tshose,BN Toube,T20I,10,14.0,0,6,3,0,8.4,10.0,60.0
 T Tshose,BRM Taylor,T20I,16,34.0,0,5,3,2,12.75,16.0,31.25
 T Tshose,CO Obuya,T20I,13,27.0,1,4,1,3,12.46,13.0,30.77
+T Tshose,D Ndikubwimana,T20I,13,23.0,0,5,4,0,10.62,13.0,38.46
 T Tshose,I Danladi,T20I,27,41.0,2,10,2,2,9.11,13.5,37.04
 T Tshose,IA Karim,T20I,11,17.0,0,2,2,0,9.27,11.0,18.18
 T Tshose,IO Okpe,T20I,11,10.0,0,3,0,0,5.45,11.0,27.27
@@ -128877,6 +129160,7 @@ Tuba Hassan,HC Knight,T20I,17,18.0,1,8,2,0,6.35,17.0,47.06
 Tuba Hassan,HK Matthews,ODI,59,42.0,0,31,1,1,4.27,59.0,52.54
 Tuba Hassan,HK Matthews,T20I,29,39.0,1,13,6,0,8.07,29.0,44.83
 Tuba Hassan,KKN Egodage,T20I,13,8.0,0,7,0,0,3.69,13.0,53.85
+Tuba Hassan,KY Chan,T20I,14,12.0,0,8,1,0,5.14,14.0,57.14
 Tuba Hassan,L Delany,T20I,18,20.0,1,9,3,0,6.67,18.0,50.0
 Tuba Hassan,L Wolvaardt,T20I,29,45.0,3,10,5,1,9.31,9.67,34.48
 Tuba Hassan,MAA Sanjeewani,T20I,13,14.0,1,4,0,1,6.46,13.0,30.77
@@ -130313,7 +130597,7 @@ Usman Shinwari,Sohail Akhtar,PSL,18,26.0,2,8,3,1,8.67,9.0,44.44
 Usman Shinwari,TK Musakanda,ODI,23,29.0,1,11,3,1,7.57,23.0,47.83
 Usman Shinwari,UT Khawaja,ODI,44,19.0,2,32,2,0,2.59,22.0,72.73
 Usman Shinwari,Zeeshan Ashraf,PSL,11,10.0,0,6,0,1,5.45,11.0,54.55
-Usman Tariq,AA Jangoo,CPL,16,8.0,2,9,0,0,3.0,8.0,56.25
+Usman Tariq,AA Jangoo,CPL,24,9.0,2,16,0,0,2.25,12.0,66.67
 Usman Tariq,ADS Fletcher,CPL,12,13.0,1,5,0,1,6.5,12.0,41.67
 Usman Tariq,AGS Gous,CPL,12,12.0,1,7,0,1,6.0,12.0,58.33
 Usman Tariq,Abdullah Shafique,PSL,12,11.0,2,5,1,0,5.5,6.0,41.67
@@ -130332,13 +130616,13 @@ Usman Tariq,J Charles,PSL,10,27.0,0,3,3,2,16.2,10.0,30.0
 Usman Tariq,JM Vince,PSL,12,4.0,1,9,0,0,2.0,12.0,75.0
 Usman Tariq,KU Carty,CPL,15,16.0,1,8,1,0,6.4,15.0,53.33
 Usman Tariq,MJ Guptill,PSL,13,17.0,0,4,1,1,7.85,13.0,30.77
-Usman Tariq,MM Ali,CPL,11,15.0,1,6,1,1,8.18,11.0,54.55
+Usman Tariq,MM Ali,CPL,14,18.0,1,7,1,1,7.71,14.0,50.0
 Usman Tariq,Mohammad Rizwan,PSL,14,20.0,0,2,2,0,8.57,14.0,14.29
 Usman Tariq,Q de Kock,CPL,17,11.0,1,11,1,0,3.88,17.0,64.71
 Usman Tariq,RL Chase,CPL,19,26.0,1,7,4,0,8.21,19.0,36.84
 Usman Tariq,RR Hendricks,PSL,24,22.0,0,7,1,0,5.5,24.0,29.17
 Usman Tariq,SA Yadav,T20I,11,13.0,1,4,1,0,7.09,11.0,36.36
-Usman Tariq,SE Rutherford,CPL,10,8.0,0,5,0,0,4.8,10.0,50.0
+Usman Tariq,SE Rutherford,CPL,20,13.0,0,11,0,0,3.9,20.0,55.0
 Usman Tariq,SO Hetmyer,CPL,20,32.0,1,5,2,2,9.6,20.0,25.0
 Usman Tariq,SPD Smith,PSL,10,6.0,0,4,0,0,3.6,10.0,40.0
 Usman Tariq,Sahibzada Farhan,PSL,11,19.0,1,2,3,0,10.36,11.0,18.18
@@ -130350,6 +130634,7 @@ Usman Tariq,Sikandar Raza,PSL,10,7.0,2,4,0,0,4.2,5.0,40.0
 Usman Tariq,TH David,CPL,11,20.0,0,4,1,2,10.91,11.0,36.36
 Usman Tariq,TL Seifert,CPL,20,21.0,2,7,2,0,6.3,10.0,35.0
 Usman Tariq,Tayyab Tahir,PSL,14,26.0,1,5,0,3,11.14,14.0,35.71
+Usman Tariq,ZN Carter,CPL,10,2.0,1,8,0,0,1.2,10.0,80.0
 Uswa Syed,A Aikenhead,T20I,10,13.0,0,4,2,0,7.8,10.0,40.0
 Uswa Syed,A Savvani,T20I,12,3.0,0,9,0,0,1.5,12.0,75.0
 Uswa Syed,C Mahamalage,T20I,12,6.0,0,9,0,0,3.0,12.0,75.0
@@ -130620,6 +130905,9 @@ V Nigam,Tilak Varma,IPL,16,24.0,0,4,2,1,9.0,16.0,25.0
 V Nigam,V Kohli,IPL,11,13.0,1,4,0,1,7.09,11.0,36.36
 V Nigam,V Shankar,IPL,10,9.0,0,4,1,0,5.4,10.0,40.0
 V Nikolova,D Demic,T20I,10,11.0,0,5,1,0,6.6,10.0,50.0
+V Nikolova,M Modric,T20I,10,8.0,0,6,1,0,4.8,10.0,60.0
+V Nikolova,M Stevanovic,T20I,12,15.0,0,3,2,0,7.5,12.0,25.0
+V Nikolova,N Nojic,T20I,20,23.0,0,7,1,0,6.9,20.0,35.0
 V Permaul,AB Barath,CPL,11,8.0,1,4,0,0,4.36,11.0,36.36
 V Permaul,AC Voges,CPL,17,16.0,0,6,1,0,5.65,17.0,35.29
 V Permaul,AC Voges,Test,27,16.0,0,20,1,1,3.56,27.0,74.07
@@ -131447,7 +131735,7 @@ VO Lawes,MG Bracewell,ODI,22,19.0,1,12,3,0,5.18,22.0,54.55
 VO Lawes,MS Chapman,ODI,39,44.0,3,18,2,3,6.77,13.0,46.15
 VO Lawes,N Pooran,CPL,19,25.0,0,6,1,1,7.89,19.0,31.58
 VO Lawes,NF Kelly,ODI,18,20.0,0,9,0,1,6.67,18.0,50.0
-VO Lawes,SD Hope,CPL,11,18.0,0,4,0,2,9.82,11.0,36.36
+VO Lawes,SD Hope,CPL,19,33.0,0,5,1,3,10.42,19.0,26.32
 VO Lawes,TWM Latham,ODI,71,62.0,1,31,5,0,5.24,71.0,43.66
 VO Lawes,WA Young,ODI,29,25.0,2,15,1,1,5.17,14.5,51.72
 VP Thamotharam,Amir Zaib,T20I,12,20.0,1,2,1,1,10.0,12.0,16.67
@@ -131682,6 +131970,7 @@ Vaishnave Mahesh,N Chaiwai,T20I,18,12.0,1,7,0,0,4.0,18.0,38.89
 Vaishnave Mahesh,N Chantam,T20I,25,21.0,1,12,1,0,5.04,25.0,48.0
 Vaishnave Mahesh,N Koncharoenkai,T20I,40,36.0,2,15,1,0,5.4,20.0,37.5
 Vaishnave Mahesh,NND de Silva,T20I,11,7.0,1,5,0,0,3.82,11.0,45.45
+Vaishnave Mahesh,NPAN Sakarini,T20I,19,22.0,1,10,2,1,6.95,19.0,52.63
 Vaishnave Mahesh,NT Miles,T20I,11,14.0,0,4,2,0,7.64,11.0,36.36
 Vaishnave Mahesh,P Siaka,ODI,14,17.0,0,5,1,0,7.29,14.0,35.71
 Vaishnave Mahesh,PZ Kamunya,T20I,11,4.0,1,8,0,0,2.18,11.0,72.73
@@ -131814,6 +132103,8 @@ Vinu Kumar,ZT Kyaw,T20I,13,13.0,1,6,1,0,6.0,13.0,46.15
 Vinu Kumar,Zeefa Jilani,T20I,12,6.0,1,7,0,0,3.0,12.0,58.33
 Vinu Kumar,Zon Lin,T20I,16,18.0,1,6,2,0,6.75,16.0,37.5
 Viola Komeda,Bijeyata Kumari,T20I,16,11.0,0,9,0,0,4.12,16.0,56.25
+Viola Komeda,IK Cheema,T20I,15,15.0,2,8,1,0,6.0,7.5,53.33
+Viola Komeda,Isabel Walker,T20I,21,18.0,0,10,1,0,5.14,21.0,47.62
 Viola Komeda,Nayab Razwan,T20I,13,18.0,3,5,2,0,8.31,4.33,38.46
 Virandeep Singh,AA Rahayu,T20I,15,8.0,1,10,1,0,3.2,15.0,66.67
 Virandeep Singh,AE Paraam,T20I,20,30.0,0,4,2,1,9.0,20.0,20.0
@@ -131876,8 +132167,9 @@ Virendra Kumar,SKS Gill,T20I,11,6.0,0,9,1,0,3.27,11.0,81.82
 Vishaul Singh,Lucas Rossi,T20I,10,11.0,0,5,2,0,6.6,10.0,50.0
 Vishil Patel,D Ndikubwimana,T20I,14,15.0,0,8,2,0,6.43,14.0,57.14
 Vishil Patel,Fiaz Ahmed,T20I,16,42.0,0,6,2,5,15.75,16.0,37.5
+Vishil Patel,G Sesay,T20I,10,7.0,0,5,0,0,4.2,10.0,50.0
 Vishil Patel,I Danladi,T20I,12,7.0,0,8,1,0,3.5,12.0,66.67
-Vishil Patel,L Lamin,T20I,10,8.0,1,7,0,1,4.8,10.0,70.0
+Vishil Patel,L Lamin,T20I,15,20.0,1,10,0,3,8.0,15.0,66.67
 Vishil Patel,S Sesazi,T20I,10,12.0,0,3,1,0,7.2,10.0,30.0
 Vishil Patel,SA Okpe,T20I,13,9.0,1,9,1,0,4.15,13.0,69.23
 Vishil Patel,V Balakrishnan,T20I,11,13.0,0,2,0,0,7.09,11.0,18.18
@@ -131955,8 +132247,8 @@ W Madhevere,HT Tector,Test,22,9.0,0,16,1,0,2.45,22.0,72.73
 W Madhevere,Haris Sohail,ODI,14,6.0,0,8,0,0,2.57,14.0,57.14
 W Madhevere,IA Karim,T20I,14,17.0,0,4,2,0,7.29,14.0,28.57
 W Madhevere,Imam-ul-Haq,ODI,22,18.0,0,11,1,0,4.91,22.0,50.0
-W Madhevere,J Hermann,T20I,12,12.0,1,8,1,1,6.0,12.0,66.67
-W Madhevere,JN Frylinck,T20I,33,24.0,3,14,1,0,4.36,11.0,42.42
+W Madhevere,J Hermann,T20I,16,21.0,1,9,3,1,7.88,16.0,56.25
+W Madhevere,JN Frylinck,T20I,34,25.0,3,14,1,0,4.41,11.33,41.18
 W Madhevere,JN Loftie-Eaton,T20I,12,13.0,1,4,1,0,6.5,12.0,33.33
 W Madhevere,JP Kotze,T20I,11,19.0,0,2,0,2,10.36,11.0,18.18
 W Madhevere,KA Maharaj,Test,14,12.0,0,10,0,1,5.14,14.0,71.43
@@ -132910,7 +133202,7 @@ WK Dilhari,Nahida Akter,ODI,14,5.0,0,10,0,0,2.14,14.0,71.43
 WK Dilhari,Najiha Alvi,ODI,18,13.0,0,9,1,0,4.33,18.0,50.0
 WK Dilhari,Nida Dar,T20I,35,36.0,2,14,2,1,6.17,17.5,40.0
 WK Dilhari,Nigar Sultana,ODI,88,55.0,1,53,2,2,3.75,88.0,60.23
-WK Dilhari,Nigar Sultana,T20I,53,57.0,0,18,1,1,6.45,53.0,33.96
+WK Dilhari,Nigar Sultana,T20I,60,59.0,1,23,1,1,5.9,60.0,38.33
 WK Dilhari,O Prendergast,ODI,31,44.0,1,12,5,1,8.52,31.0,38.71
 WK Dilhari,P Maya,T20I,12,6.0,1,8,0,0,3.0,12.0,66.67
 WK Dilhari,P Vastrakar,ODI,17,15.0,0,6,0,0,5.29,17.0,35.29
@@ -132925,7 +133217,7 @@ WK Dilhari,S Luus,T20I,19,24.0,1,5,0,2,7.58,19.0,26.32
 WK Dilhari,S Mandhana,ODI,28,27.0,1,14,3,0,5.79,28.0,50.0
 WK Dilhari,S Mandhana,T20I,40,37.0,3,19,4,0,5.55,13.33,47.5
 WK Dilhari,S Mostary,ODI,25,37.0,0,10,7,0,8.88,25.0,40.0
-WK Dilhari,S Mostary,T20I,35,39.0,0,13,1,1,6.69,35.0,37.14
+WK Dilhari,S Mostary,T20I,46,50.0,0,17,2,1,6.52,46.0,36.96
 WK Dilhari,SA Campbelle,T20I,10,7.0,1,5,0,0,4.2,10.0,50.0
 WK Dilhari,SFM Devine,ODI,46,45.0,0,18,4,0,5.87,46.0,39.13
 WK Dilhari,SFM Devine,T20I,23,41.0,0,1,2,2,10.7,23.0,4.35
@@ -132939,7 +133231,7 @@ WK Dilhari,Sharmin Akhter,ODI,41,39.0,0,22,4,0,5.71,41.0,53.66
 WK Dilhari,Sharmin Akhter,T20I,12,10.0,0,5,1,0,5.0,12.0,41.67
 WK Dilhari,Shawaal Zulfiqar,T20I,17,18.0,2,8,1,1,6.35,8.5,47.06
 WK Dilhari,Shorna Akter,ODI,12,13.0,1,4,1,0,6.5,12.0,33.33
-WK Dilhari,Shorna Akter,T20I,26,33.0,2,8,3,1,7.62,13.0,30.77
+WK Dilhari,Shorna Akter,T20I,32,37.0,2,10,3,1,6.94,16.0,31.25
 WK Dilhari,Sidra Ameen,ODI,100,86.0,1,57,12,0,5.16,100.0,57.0
 WK Dilhari,T Brits,ODI,29,33.0,1,11,5,0,6.83,29.0,37.93
 WK Dilhari,Umaima Sohail,T20I,13,16.0,3,4,0,1,7.38,4.33,30.77
@@ -133047,7 +133339,7 @@ WP Masakadza,Liton Das,ODI,18,25.0,0,8,5,0,8.33,18.0,44.44
 WP Masakadza,Liton Das,T20I,13,16.0,0,4,2,0,7.38,13.0,30.77
 WP Masakadza,MB Kruger,T20I,14,10.0,0,10,2,0,4.29,14.0,71.43
 WP Masakadza,MD Shanaka,ODI,30,23.0,0,11,1,0,4.6,30.0,36.67
-WP Masakadza,MG Erasmus,T20I,31,30.0,0,14,3,0,5.81,31.0,45.16
+WP Masakadza,MG Erasmus,T20I,40,46.0,0,16,3,1,6.9,40.0,40.0
 WP Masakadza,MH Cross,ODI,17,9.0,0,8,0,0,3.18,17.0,47.06
 WP Masakadza,MP Breetzke,Test,19,7.0,0,14,0,0,2.21,19.0,73.68
 WP Masakadza,MP O'Dowd,ODI,27,21.0,1,12,2,0,4.67,27.0,44.44
@@ -135455,6 +135747,7 @@ Z Bimenyimana,Asif Ali,T20I,21,19.0,1,9,1,0,5.43,21.0,42.86
 Z Bimenyimana,B Masaba,T20I,17,33.0,0,4,4,1,11.65,17.0,23.53
 Z Bimenyimana,D Ajekun,T20I,17,18.0,0,11,2,0,6.35,17.0,64.71
 Z Bimenyimana,D Kansonkho,T20I,48,54.0,0,26,3,3,6.75,48.0,54.17
+Z Bimenyimana,DM Gondaria,T20I,10,10.0,1,6,0,1,6.0,10.0,60.0
 Z Bimenyimana,Devender Singh,T20I,15,30.0,0,6,1,2,12.0,15.0,40.0
 Z Bimenyimana,G Kansonkho,T20I,22,22.0,1,13,4,0,6.0,22.0,59.09
 Z Bimenyimana,G Ngegba,T20I,11,8.0,1,6,1,0,4.36,11.0,54.55
@@ -135466,6 +135759,7 @@ Z Bimenyimana,J Bangura,T20I,14,9.0,0,8,1,0,3.86,14.0,57.14
 Z Bimenyimana,JK Vifah,T20I,12,17.0,2,7,2,0,8.5,6.0,58.33
 Z Bimenyimana,JV Chand,T20I,11,19.0,0,4,2,1,10.36,11.0,36.36
 Z Bimenyimana,K Motlanka,T20I,31,42.0,1,16,5,2,8.13,31.0,51.61
+Z Bimenyimana,M Kasselman,T20I,19,31.0,0,9,7,0,9.79,19.0,47.37
 Z Bimenyimana,M Yunusu Issa,T20I,10,18.0,1,3,2,1,10.8,10.0,30.0
 Z Bimenyimana,MO Kitunda,T20I,20,10.0,3,16,1,0,3.0,6.67,80.0
 Z Bimenyimana,Muhammad Asim,T20I,12,11.0,1,9,1,1,5.5,12.0,75.0
@@ -135479,7 +135773,7 @@ Z Bimenyimana,R Lutaaya,T20I,15,24.0,1,5,3,0,9.6,15.0,33.33
 Z Bimenyimana,R Obuya,T20I,17,25.0,1,6,3,0,8.82,17.0,35.29
 Z Bimenyimana,RB Patel,T20I,13,14.0,0,4,1,0,6.46,13.0,30.77
 Z Bimenyimana,RG Mukasa,T20I,47,48.0,3,29,7,0,6.13,15.67,61.7
-Z Bimenyimana,RN Patel,T20I,22,27.0,4,12,5,0,7.36,5.5,54.55
+Z Bimenyimana,RN Patel,T20I,25,29.0,4,13,5,0,6.96,6.25,52.0
 Z Bimenyimana,RR Patel,T20I,11,16.0,1,6,2,1,8.73,11.0,54.55
 Z Bimenyimana,S Kamate,T20I,10,4.0,0,9,1,0,2.4,10.0,90.0
 Z Bimenyimana,S Sesazi,T20I,64,97.0,2,30,15,2,9.09,32.0,46.88
@@ -135495,7 +135789,7 @@ Z Bimenyimana,Sulaimon Runsewe,T20I,43,65.0,2,19,8,3,9.07,21.5,44.19
 Z Bimenyimana,T Marumani,T20I,13,23.0,0,7,4,1,10.62,13.0,53.85
 Z Bimenyimana,T Perera,T20I,20,18.0,1,11,2,0,5.4,20.0,55.0
 Z Bimenyimana,Tanzeel Sheikh,T20I,10,22.0,0,4,3,1,13.2,10.0,40.0
-Z Bimenyimana,V Balakrishnan,T20I,12,18.0,0,7,4,0,9.0,12.0,58.33
+Z Bimenyimana,V Balakrishnan,T20I,18,28.0,0,9,6,0,9.33,18.0,50.0
 Z Bimenyimana,Y Jalloh,T20I,19,19.0,1,11,3,0,6.0,19.0,57.89
 Z Burgess,A Ferguson,T20I,21,31.0,1,11,5,1,8.86,21.0,52.38
 Z Burgess,A Natubhai Ahir,T20I,19,9.0,1,12,0,0,2.84,19.0,63.16
