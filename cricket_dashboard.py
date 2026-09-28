@@ -355,6 +355,50 @@ def milestones_trusted(fmt, kind="bat"):
     d = bat_inn if kind == "bat" else bowl_inn
     return (not d.empty) and ("innings" in d.columns)
 
+
+# ── Per-innings stats (highest score / best bowling / innings count) ─────────
+# The career tables (bat_fmt / bowl_fmt) can have both Test innings merged into
+# one row, which is how "81" turned into "92". These helpers rebuild the numbers
+# from the per-innings tables instead, taking the best single innings.
+def _first_col(df, cands):
+    for c in cands:
+        if c in df.columns: return c
+    return None
+
+def _player_inn_rows(d, fmt, name, name_cands):
+    if d is None or d.empty: return pd.DataFrame(), None
+    ncol = _first_col(d, name_cands)
+    if ncol is None: return pd.DataFrame(), None
+    if "format" in d.columns: d = d[d["format"] == fmt]
+    r = d[d[ncol] == name]
+    if r.empty:
+        r = d[d[ncol].astype(str).str.lower() == str(name).lower()]
+    return r, ncol
+
+def _one_row_per_innings(r, num_cols):
+    """Collapse duplicates so each (match, innings) is counted once."""
+    keys = [c for c in (_first_col(r, ["match_id","matchid","match","id"]),
+                        _first_col(r, ["innings","inning","innings_no","innings_number"])) if c]
+    if len(keys) == 2:
+        return r.groupby(keys, as_index=False)[num_cols].sum()
+    return r
+
+def bat_innings_stats(fmt, name):
+    r, _ = _player_inn_rows(bat_inn, fmt, name, ["striker","batter","batsman","player"])
+    rc = _first_col(r, ["runs","runs_scored","score"]) if not r.empty else None
+    if rc is None: return None
+    r = _one_row_per_innings(r, [rc])
+    return {"innings": int(len(r)), "highest": int(r[rc].max())}
+
+def bowl_innings_stats(fmt, name):
+    r, _ = _player_inn_rows(bowl_inn, fmt, name, ["bowler","player"])
+    wc = _first_col(r, ["wickets","wkts","wicket"]) if not r.empty else None
+    rc = _first_col(r, ["runs_conceded","runs","runs_given","conceded"]) if not r.empty else None
+    if wc is None or rc is None: return None
+    r = _one_row_per_innings(r, [wc, rc])
+    best = r.sort_values([wc, rc], ascending=[False, True]).iloc[0]
+    return {"innings": int(len(r)), "best": f"{int(best[wc])}/{int(best[rc])}"}
+
 # ── Chart helpers ─────────────────────────────────────────────────────────────
 def ch(fig, h=380, margin=None):
     fig.update_layout(**BASE, height=h, margin=margin or M_DEFAULT)
@@ -926,7 +970,11 @@ elif section=="🔍 Player Search":
             if len(bat)>0:
                 with tabs[ti]:
                     p=bat.sort_values("runs",ascending=False).iloc[0]
-                    metrics({"Matches":int(p["matches"]),"Runs":f"{int(p['runs']):,}","Average":p["average"]})
+                    _bi=bat_innings_stats(fmt,p["striker"])
+                    _row1={"Matches":int(p["matches"])}
+                    if _bi: _row1["Innings"]=_bi["innings"]
+                    _row1.update({"Runs":f"{int(p['runs']):,}","Average":p["average"]})
+                    metrics(_row1)
                     metrics({"Strike Rate":p["strike_rate"],"4s":int(p["fours"]),"6s":int(p["sixes"])})
                     metrics({"Dismissals":int(p["dismissals"]),"Dot Ball %":f"{p['dot_pct']}%","Boundary %":f"{p['boundary_pct']}%"})
                     h100=int(p["hundreds"]) if "hundreds" in p.index and pd.notna(p.get("hundreds")) else "—"
@@ -934,7 +982,8 @@ elif section=="🔍 Player Search":
                     hs=int(p["highest"]) if "highest" in p.index and pd.notna(p.get("highest")) else "—"
                     dk=int(p["ducks"]) if "ducks" in p.index and pd.notna(p.get("ducks")) else "—"
                     ps_=round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
-                    if not milestones_trusted(fmt,"bat"):
+                    if _bi: hs=_bi["highest"]   # true best single innings
+                    if not milestones_trusted(fmt,"bat") and not _bi:
                         h100=h50=hs=dk="n/a"
                         st.caption("ℹ️ Test 100s / 50s / Highest / Ducks are being recalculated — the source data merged both innings of a Test.")
                     metrics({"100s":h100,"50s":h50,"Highest":hs,"Ducks":dk,"⭐ Score":ps_})
@@ -944,11 +993,16 @@ elif section=="🔍 Player Search":
             if len(bowl)>0:
                 with tabs[ti]:
                     p2=bowl.sort_values("wickets",ascending=False).iloc[0]
-                    metrics({"Matches":int(p2["matches"]),"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
+                    _wi=bowl_innings_stats(fmt,p2["bowler"])
+                    _wrow={"Matches":int(p2["matches"])}
+                    if _wi: _wrow["Innings"]=_wi["innings"]
+                    _wrow.update({"Wickets":int(p2["wickets"]),"Economy":p2["economy"]})
+                    metrics(_wrow)
                     metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot %":f"{p2['dot_pct']}%"})
                     fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
                     bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
-                    if not milestones_trusted(fmt,"bowl"):
+                    if _wi: bb=_wi["best"]   # true best single-innings figures
+                    if not milestones_trusted(fmt,"bowl") and not _wi:
                         fw=bb="n/a"
                     metrics({"5-Wkt Hauls":fw,"Best Bowling":bb})
                 ti+=1
@@ -1260,8 +1314,12 @@ elif section=="🏆 Leaderboard":
             fig_sc.update_xaxes(showgrid=True,gridcolor=GRID)
             fig_sc.update_yaxes(showgrid=True,gridcolor=GRID)
             st.plotly_chart(fig_sc,**CFG)
-        _cols=["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"]
-        if not milestones_trusted(fmt,"bat"): _cols=[c for c in _cols if c not in ("hundreds","fifties","highest")]
+        _bis=[bat_innings_stats(fmt,n) for n in lb["striker"]]
+        if any(_bis):
+            lb["innings"]=[b["innings"] if b else None for b in _bis]
+            lb["highest"]=[b["highest"] if b else None for b in _bis]
+        _cols=["Rank","striker","matches","innings","runs","average","strike_rate","hundreds","fifties","highest","player_score"]
+        if not milestones_trusted(fmt,"bat"): _cols=[c for c in _cols if c not in ("hundreds","fifties")+(() if "innings" in lb.columns else ("highest",))]
         show_cols=[c for c in _cols if c in lb.columns]
         st.dataframe(lb[show_cols].reset_index(drop=True))
     with tab2:
@@ -1293,7 +1351,11 @@ elif section=="🏆 Leaderboard":
             fig_sc2.update_xaxes(showgrid=True,gridcolor=GRID)
             fig_sc2.update_yaxes(showgrid=True,gridcolor=GRID)
             st.plotly_chart(fig_sc2,**CFG)
-        show_cols2=[c for c in ["Rank","bowler","matches","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
+        _wis=[bowl_innings_stats(fmt,n) for n in lb2["bowler"]]
+        if any(_wis):
+            lb2["innings"]=[w["innings"] if w else None for w in _wis]
+            lb2["best_bowling"]=[w["best"] if w else None for w in _wis]
+        show_cols2=[c for c in ["Rank","bowler","matches","innings","wickets","economy","average","five_wkts","best_bowling"] if c in lb2.columns]
         st.dataframe(lb2[show_cols2].reset_index(drop=True))
 
 # ══ SIMILAR PLAYERS ═══════════════════════════════════════════════════════════
