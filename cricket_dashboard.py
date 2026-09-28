@@ -987,6 +987,13 @@ elif section=="🔍 Player Search":
                         h100=h50=hs=dk="n/a"
                         st.caption("ℹ️ Test 100s / 50s / Highest / Ducks are being recalculated — the source data merged both innings of a Test.")
                     metrics({"100s":h100,"50s":h50,"Highest":hs,"Ducks":dk,"⭐ Score":ps_})
+                    with st.expander("🛠 Data check (highest score / innings)"):
+                        _r,_nc=_player_inn_rows(bat_inn,fmt,p["striker"],["striker","batter","batsman","player"])
+                        st.write("Innings-table columns:",list(bat_inn.columns) if not bat_inn.empty else "table is empty / failed to load")
+                        st.write("Rows found for this player:",len(_r),"| stats used:",_bi)
+                        if not _r.empty:
+                            _rc=_first_col(_r,["runs","runs_scored","score"])
+                            st.dataframe(_r.sort_values(_rc,ascending=False).head(8) if _rc else _r.head(8))
                     fr=int(p["fours"])*4; sr_=int(p["sixes"])*6; or_=max(0,int(p["runs"])-fr-sr_)
                     ch(donut(["Fours","Sixes","Other"],[fr,sr_,or_],[clr,"#d63031","#636e72"],"Scoring Breakdown"),300)
                 ti+=1
