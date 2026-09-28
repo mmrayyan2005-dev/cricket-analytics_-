@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import requests
@@ -301,6 +302,58 @@ def find_rows(df, name_col, query):
         mask = df[name_col].str.contains(rf"(?i)^{_re.escape(q)}\b", na=False, regex=True)
         if mask.any(): return df[mask]
     return pd.DataFrame()
+
+
+# ── Similar-player engine ─────────────────────────────────────────────────────
+# Old version: "similar" = everyone in the same KMeans cluster, sorted by average.
+# That is NOT similarity (clusters hold up to 600 players, and sorting by average
+# just lists the best players in the group). New version: measure the distance
+# between the chosen player's stats and every other player's stats, closest first.
+BAT_SIM_FEATS = {"average":1.0,"strike_rate":1.0,"boundary_pct":0.8,"dot_pct":0.6,"runs":0.5}
+BOWL_SIM_FEATS = {"economy":1.0,"average":1.0,"dot_pct":0.8,"wickets":0.5}
+
+def nearest_players(pool, name_col, target_name, feats, k=10):
+    """Rank players in `pool` (one format) by closeness of playing style to target."""
+    cols = [c for c in feats if c in pool.columns]
+    pool = pool.dropna(subset=cols).drop_duplicates(subset=[name_col]).reset_index(drop=True)
+    if target_name not in set(pool[name_col]) or len(cols) < 2 or len(pool) < 3:
+        return pd.DataFrame()
+    X = pool[cols].astype(float).copy()
+    for c in ("runs","wickets"):          # volume is very skewed -> log scale
+        if c in X.columns: X[c] = np.log1p(X[c])
+    sd = X.std(ddof=0).replace(0, 1)
+    Z = ((X - X.mean()) / sd) * np.array([feats[c] for c in cols])
+    t = Z[pool[name_col] == target_name].iloc[0].values
+    d = np.sqrt(((Z.values - t) ** 2).sum(axis=1))
+    out = pool.copy(); out["_d"] = d
+    out = out[out[name_col] != target_name].sort_values("_d")
+    if out.empty: return out
+    dmax = max(float(np.percentile(d, 95)), 1e-9)   # 95th pct distance = 0% match
+    out["match_pct"] = (100 * (1 - out["_d"] / dmax)).clip(0, 100).round(0).astype(int)
+    return out.head(k).drop(columns=["_d"])
+
+def pick_one(df, name_col, key, sort_col):
+    """If a search matches several different players, let the user choose."""
+    names = (df.groupby(name_col)[sort_col].max().sort_values(ascending=False).index.tolist())
+    if len(names) <= 1: return names[0] if names else None
+    return st.selectbox("Several players match — pick one", names, key=key)
+
+def sim_card(name, match_pct, line1, line2, color):
+    st.markdown(f"""<div style="background:var(--card);border:1px solid var(--border);border-left:3px solid {color};
+      border-radius:var(--radius);padding:12px 14px;margin:0 0 10px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span style="font-weight:700;font-size:14px">{name}</span>
+        <span style="color:{color};font-weight:800;font-size:15px">{match_pct}% match</span></div>
+      <div style="color:var(--subtle);font-size:12px;margin-top:4px">{line1}</div>
+      <div style="color:var(--muted);font-size:11px">{line2}</div></div>""", unsafe_allow_html=True)
+
+def milestones_trusted(fmt, kind="bat"):
+    """Test 100s/50s/ducks/highest/5-wkt/best bowling are only correct when the
+    innings table has a real per-innings key. Old data merged both Test innings
+    of a match (90 + 100 -> '190'). Self-heals once the pipeline is fixed."""
+    if fmt != "Test": return True
+    d = bat_inn if kind == "bat" else bowl_inn
+    return (not d.empty) and ("innings" in d.columns)
 
 # ── Chart helpers ─────────────────────────────────────────────────────────────
 def ch(fig, h=380, margin=None):
@@ -833,6 +886,11 @@ elif section=="🔍 Player Search":
         clr=FC.get(fmt,"#00e5a0")
         bat=find_rows(bat_fmt[bat_fmt["format"]==fmt],"striker",sname)
         bowl=find_rows(bowl_fmt[bowl_fmt["format"]==fmt],"bowler",sname)
+        _names=sorted(set(bat["striker"])|set(bowl["bowler"]),
+                      key=lambda n:-(bat[bat["striker"]==n]["matches"].sum()+bowl[bowl["bowler"]==n]["matches"].sum()))
+        if len(_names)>1:
+            _pick=st.selectbox("Several players match — pick one",_names,key="ps_pick")
+            bat=bat[bat["striker"]==_pick]; bowl=bowl[bowl["bowler"]==_pick]
         display_name=bat["striker"].iloc[0] if len(bat)>0 else (bowl["bowler"].iloc[0] if len(bowl)>0 else sname)
         show_player_card(display_name,name,fmt)
 
@@ -851,6 +909,11 @@ elif section=="🔍 Player Search":
               <span style="font-size:11px;color:#fbbf24">Stats reflect Cricsheet's latest data. Very recent matches (last 2-3 days) may not yet be included.</span>
             </div>""", unsafe_allow_html=True)
 
+        if fmt in ("Test","ODI") and not bat_inn.empty and "start_date" in bat_inn.columns:
+            _fs=bat_inn[bat_inn["format"]==fmt]["start_date"]
+            if len(_fs):
+                st.caption(f"ℹ️ {fmt} data here starts in {str(_fs.min())[:4]} (Cricsheet coverage). "
+                           f"Players whose careers began earlier — e.g. Waqar Younis, Wasim Akram — only show the matches from that point on, so their totals look small.")
         if len(bat)==0 and len(bowl)==0:
             st.warning(f"No {fmt} data for '{display_name}'.")
         else:
@@ -871,6 +934,9 @@ elif section=="🔍 Player Search":
                     hs=int(p["highest"]) if "highest" in p.index and pd.notna(p.get("highest")) else "—"
                     dk=int(p["ducks"]) if "ducks" in p.index and pd.notna(p.get("ducks")) else "—"
                     ps_=round(float(p["player_score"]),1) if "player_score" in p.index and pd.notna(p.get("player_score")) else "—"
+                    if not milestones_trusted(fmt,"bat"):
+                        h100=h50=hs=dk="n/a"
+                        st.caption("ℹ️ Test 100s / 50s / Highest / Ducks are being recalculated — the source data merged both innings of a Test.")
                     metrics({"100s":h100,"50s":h50,"Highest":hs,"Ducks":dk,"⭐ Score":ps_})
                     fr=int(p["fours"])*4; sr_=int(p["sixes"])*6; or_=max(0,int(p["runs"])-fr-sr_)
                     ch(donut(["Fours","Sixes","Other"],[fr,sr_,or_],[clr,"#d63031","#636e72"],"Scoring Breakdown"),300)
@@ -882,6 +948,8 @@ elif section=="🔍 Player Search":
                     metrics({"Average":p2["average"],"Strike Rate":p2["strike_rate"],"Dot %":f"{p2['dot_pct']}%"})
                     fw=int(p2["five_wkts"]) if "five_wkts" in p2.index and pd.notna(p2.get("five_wkts")) else "—"
                     bb=p2.get("best_bowling","—") if "best_bowling" in p2.index else "—"
+                    if not milestones_trusted(fmt,"bowl"):
+                        fw=bb="n/a"
                     metrics({"5-Wkt Hauls":fw,"Best Bowling":bb})
                 ti+=1
             with tabs[ti]:
@@ -1192,7 +1260,9 @@ elif section=="🏆 Leaderboard":
             fig_sc.update_xaxes(showgrid=True,gridcolor=GRID)
             fig_sc.update_yaxes(showgrid=True,gridcolor=GRID)
             st.plotly_chart(fig_sc,**CFG)
-        show_cols=[c for c in ["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"] if c in lb.columns]
+        _cols=["Rank","striker","matches","runs","average","strike_rate","hundreds","fifties","highest","player_score"]
+        if not milestones_trusted(fmt,"bat"): _cols=[c for c in _cols if c not in ("hundreds","fifties","highest")]
+        show_cols=[c for c in _cols if c in lb.columns]
         st.dataframe(lb[show_cols].reset_index(drop=True))
     with tab2:
         ws=bowl_fmt[bowl_fmt["format"]==fmt]
@@ -1228,55 +1298,64 @@ elif section=="🏆 Leaderboard":
 
 # ══ SIMILAR PLAYERS ═══════════════════════════════════════════════════════════
 elif section=="🤖 Similar Players":
-    page_banner("🤖","Similar Players","ML-powered: find cricketers who play just like your favourite","#0a0a1a","#1a1a3a","#a29bfe")
-    st.markdown("Uses **KMeans clustering + cosine similarity** on career stats to find statistically similar players.")
+    page_banner("🤖","Similar Players","Find cricketers who play just like your favourite","#0a0a1a","#1a1a3a","#a29bfe")
+    st.markdown("Pick a player and we'll list the ones whose **playing style is closest** to theirs.")
+    with st.expander("How does this work?"):
+        st.markdown("""Think of how Spotify finds songs that sound like your favourite one: it compares
+a few traits of each song and lists the closest ones. We do the same with cricketers.
+
+- **Batters** are compared on: average, strike rate, boundary %, dot-ball %, and how many runs they've scored.
+- **Bowlers** are compared on: economy, average, dot-ball %, and how many wickets they've taken.
+- **Match %** = how close the style is. Higher = more alike (100% ≈ twin).
+
+Only players with enough career data are included (200+ runs or 20+ wickets in that format).
+Nothing to configure — just search a name.""")
     st_type=st.radio("Type",["Batter","Bowler"],horizontal=True)
     name=st.text_input("Player name","Babar"); fmt=st.radio("Format",ALL_FMT,horizontal=True)
     if name:
         sname=resolve(name)
         if st_type=="Batter":
-            src=find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname)
+            pool=bat_sim[bat_sim["format"]==fmt] if not bat_sim.empty else pd.DataFrame()
+            src=find_rows(pool,"striker",sname) if not pool.empty else pd.DataFrame()
             if len(src)==0:
-                has_bowl=not find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname).empty
+                has_bowl=not find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname).empty if not bowl_sim.empty else False
                 hint=" (They appear as a Bowler — try switching to Bowler above.)" if has_bowl else ""
-                st.error(f"No ML data for '{name}' in {fmt}. They may have <200 runs.{hint}")
+                st.error(f"No data for '{name}' in {fmt}. Batters need at least 200 runs in a format to be compared.{hint}")
             else:
-                p=src.iloc[0]; cluster=int(p["cluster"])
-                same=bat_sim[(bat_sim["cluster"]==cluster)&(bat_sim["format"]==fmt)]
-                same=same[~same["striker"].str.contains(sname,case=False,na=False)]
-                same=same.sort_values("average",ascending=False).head(12)
-                st.subheader(f"Players most similar to {p['striker']} in {fmt}")
-                st.caption(f"⭐ Player Score: {p.get('player_score','—')} | Cluster #{cluster} | {len(same)} similar players found")
-                ch(bar_h(same,"average","striker","average","Purples",f"Similar batters — {fmt}"))
-                # Show compact player cards for top 4 matches
-                st.markdown("#### 🎴 Top Similar Players")
-                top4=same.head(4)["striker"].tolist()
-                card_cols=st.columns(min(len(top4),2))
-                for i,pname_s in enumerate(top4):
-                    with card_cols[i%2]:
-                        show_player_card(pname_s,pname_s,fmt,compact=True)
-                st.dataframe(same[["striker","runs","average","strike_rate","boundary_pct","player_score"]].reset_index(drop=True))
+                target=pick_one(src,"striker","sim_pick_b","runs")
+                p=src[src["striker"]==target].iloc[0]
+                res=nearest_players(pool,"striker",target,BAT_SIM_FEATS,k=10)
+                st.subheader(f"Batters most similar to {target} in {fmt}")
+                st.caption(f"{target}: avg {p['average']} · SR {p['strike_rate']} · boundaries {p['boundary_pct']}% · {int(p['runs']):,} runs")
+                if res.empty: st.info("Not enough players to compare in this format.")
+                else:
+                    cc=st.columns(2)
+                    for i,(_,r) in enumerate(res.head(6).iterrows()):
+                        with cc[i%2]:
+                            sim_card(r["striker"],r["match_pct"],f"Avg {r['average']} · SR {r['strike_rate']} · Boundary {r['boundary_pct']}%",
+                                     f"{int(r['runs']):,} runs · Dot balls {r['dot_pct']}%",FC.get(fmt,"#a29bfe"))
+                    st.dataframe(res[["striker","match_pct","average","strike_rate","boundary_pct","dot_pct","runs"]].rename(columns={"match_pct":"match %"}).reset_index(drop=True))
         else:
-            src=find_rows(bowl_sim[bowl_sim["format"]==fmt],"bowler",sname)
+            pool=bowl_sim[bowl_sim["format"]==fmt] if not bowl_sim.empty else pd.DataFrame()
+            src=find_rows(pool,"bowler",sname) if not pool.empty else pd.DataFrame()
             if len(src)==0:
-                has_bat=not find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname).empty
+                has_bat=not find_rows(bat_sim[bat_sim["format"]==fmt],"striker",sname).empty if not bat_sim.empty else False
                 hint=" (They appear as a Batter — try switching to Batter above.)" if has_bat else ""
-                st.error(f"No ML data for '{name}' in {fmt}. They may have <20 wickets.{hint}")
+                st.error(f"No data for '{name}' in {fmt}. Bowlers need at least 20 wickets in a format to be compared.{hint}")
             else:
-                p=src.iloc[0]; cluster=int(p["cluster"])
-                same=bowl_sim[(bowl_sim["cluster"]==cluster)&(bowl_sim["format"]==fmt)]
-                same=same[~same["bowler"].str.contains(sname,case=False,na=False)]
-                same=same.sort_values("wickets",ascending=False).head(12)
-                st.subheader(f"Bowlers most similar to {p['bowler']} in {fmt}")
-                st.caption(f"Cluster #{cluster} | {len(same)} similar bowlers found")
-                ch(bar_h(same,"wickets","bowler","economy","Reds",f"Similar bowlers — {fmt}"))
-                top4b=same.head(4)["bowler"].tolist()
-                st.markdown("#### 🎴 Top Similar Bowlers")
-                card_cols2=st.columns(min(len(top4b),2))
-                for i,bname_s in enumerate(top4b):
-                    with card_cols2[i%2]:
-                        show_player_card(bname_s,bname_s,fmt,compact=True)
-                st.dataframe(same[["bowler","wickets","economy","average","dot_pct"]].reset_index(drop=True))
+                target=pick_one(src,"bowler","sim_pick_w","wickets")
+                p=src[src["bowler"]==target].iloc[0]
+                res=nearest_players(pool,"bowler",target,BOWL_SIM_FEATS,k=10)
+                st.subheader(f"Bowlers most similar to {target} in {fmt}")
+                st.caption(f"{target}: {int(p['wickets'])} wkts · economy {p['economy']} · avg {p['average']} · dot balls {p['dot_pct']}%")
+                if res.empty: st.info("Not enough players to compare in this format.")
+                else:
+                    cc=st.columns(2)
+                    for i,(_,r) in enumerate(res.head(6).iterrows()):
+                        with cc[i%2]:
+                            sim_card(r["bowler"],r["match_pct"],f"{int(r['wickets'])} wkts · Economy {r['economy']} · Avg {r['average']}",
+                                     f"Dot balls {r['dot_pct']}%",FC.get(fmt,"#a29bfe"))
+                    st.dataframe(res[["bowler","match_pct","wickets","economy","average","dot_pct"]].rename(columns={"match_pct":"match %"}).reset_index(drop=True))
 
 # ══ FORM & RATINGS ════════════════════════════════════════════════════════════
 elif section=="🔥 Form & Ratings":
