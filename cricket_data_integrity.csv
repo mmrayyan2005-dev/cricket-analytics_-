@@ -1,2 +1,2 @@
-duplicate_batting_rows,duplicate_bowling_rows,extreme_strike_rate_innings,impossible_run_rate_rows,innings_over_400_runs,bowling_innings_over_10_wkts,ducks_not_dismissed
-0,0,937,0,0,0,0
+duplicate_batting_rows,duplicate_bowling_rows,duplicate_ball_events,impossible_run_rate_rows,extreme_strike_rate_innings
+0,0,0,0,166
