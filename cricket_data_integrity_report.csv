@@ -1,7 +1,7 @@
 check,count
 duplicate_batting_rows,0
 duplicate_bowling_rows,0
-extreme_strike_rate_innings,937
+extreme_strike_rate_innings,193
 impossible_run_rate_rows,0
 innings_over_400_runs,0
 bowling_innings_over_10_wkts,0
