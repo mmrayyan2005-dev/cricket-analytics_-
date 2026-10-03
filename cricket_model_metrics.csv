@@ -18,6 +18,8 @@ run_forecast_naive,MAE,99.9835603569751
 run_forecast_roll3,MAE,85.82065132299985
 run_forecast_structured,MAE,84.73959801804986
 run_forecast_gbm,MAE,82.88860139320265
+run_forecast_blend,MAE,82.46716576742054
+run_forecast_deployed,Range coverage (target 0.80),0.8078910286519493
 workload_overs_naive_last,MAE,1.3236094517456523
 workload_overs_mean5,MAE,1.1259951767777336
 workload_overs_gbm,MAE,1.079174597040278
