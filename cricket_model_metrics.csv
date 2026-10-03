@@ -12,7 +12,13 @@ win_probability_best,Accuracy,0.6931677018633541
 win_probability_best,LogLoss,0.5989688278649247
 win_probability_best,Brier,0.20574829211684192
 win_probability_baseline_higher_elo,Accuracy,0.650103519668737
-run_forecast_rf,MAE,89.10683974038942
-run_forecast_rf,R2,0.3618703091362695
-run_forecast_naive,MAE,100.68097853220169
-run_forecast_roll3,MAE,92.8156931269762
+run_forecast_rf,MAE,86.67213930348258
+run_forecast_rf,R2,0.33088318273556805
+run_forecast_naive,MAE,99.35373134328358
+run_forecast_roll3,MAE,90.68316749585408
+run_forecast_structured,MAE,89.02804137232684
+run_forecast_gbm,MAE,86.65971238297941
+workload_overs_naive_last,MAE,1.323522383304126
+workload_overs_mean5,MAE,1.1259660488910133
+workload_overs_gbm,MAE,1.0801213252885702
+workload_overs_deployed,MAE,1.0801213252885702
