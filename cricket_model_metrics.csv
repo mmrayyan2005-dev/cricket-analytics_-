@@ -2,7 +2,7 @@ model,metric,value
 win_probability_rf,AUC,0.7554540466392319
 win_probability_rf,Accuracy,0.6894409937888198
 win_probability_rf,LogLoss,0.5995214028354361
-win_probability_rf,Brier,0.2060417052419088
+win_probability_rf,Brier,0.20604170524190876
 win_probability_logreg,AUC,0.7514931412894377
 win_probability_logreg,Accuracy,0.6782608695652174
 win_probability_logreg,LogLoss,0.5946835328772836
@@ -12,16 +12,20 @@ win_probability_best,Accuracy,0.6782608695652174
 win_probability_best,LogLoss,0.5946835328772836
 win_probability_best,Brier,0.20421160288805063
 win_probability_baseline_higher_elo,Accuracy,0.650103519668737
-run_forecast_gbm,MAE,82.88914983560358
-run_forecast_gbm,R2,0.3631728723241199
-run_forecast_naive,MAE,99.9835603569751
-run_forecast_roll3,MAE,85.82065132299985
-run_forecast_structured,MAE,84.73959801804986
-run_forecast_gbm,MAE,82.88860139320265
-run_forecast_blend,MAE,82.46716576742054
-run_forecast_deployed,Range coverage (target 0.80),0.8078910286519493
-workload_overs_naive_last,MAE,1.3236094517456523
-workload_overs_mean5,MAE,1.1259951767777336
-workload_overs_gbm,MAE,1.0797617603310428
-workload_overs_deployed,MAE,1.0797617603310428
-workload_overs_deployed,Share within 1 over,0.6449621664675428
+win_probability_elo_only,LogLoss,0.615498714440327
+win_probability_best,ECE,0.03579008229254363
+run_forecast_deployed,MAE,83.01362141850635
+run_forecast_deployed,R2,0.3632787451238819
+run_forecast_naive,MAE,99.97933302019727
+run_forecast_roll3,MAE,85.91772350086113
+run_forecast_structured,MAE,84.83096064363478
+run_forecast_gbm,MAE,83.01917454552554
+run_forecast_blend,MAE,82.57367204653237
+run_forecast_deployed,Range coverage (target 0.80),0.8201033348990137
+run_forecast_deployed,Share of regulars who played next season,0.7130514629158146
+workload_overs_naive_last,MAE,1.3236875647255633
+workload_overs_mean5,MAE,1.1260922577161725
+workload_overs_gbm,MAE,1.0781629954978489
+workload_overs_deployed,MAE,1.0781629954978489
+workload_overs_deployed,Share within 1 over,0.6453437425316657
+workload_overs_deployed,Range coverage (target 0.80),0.7940332988130328
