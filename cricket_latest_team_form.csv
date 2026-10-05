@@ -1,163 +1,314 @@
-team,form
-Adelaide Strikers,0.4
-Africa XI,0.25
-Antigua Hawksbills,0.1
-Antigua and Barbuda Falcons,0.6
-Argentina,0.8
-Asia XI,0.75
-Australia,0.9
-Austria,0.7
-Bahamas,0.2
-Bahrain,0.2
-Bangladesh,0.6
-Barbados,0.3333333333333333
-Barbados Royals,0.2
-Barbados Tridents,0.5
-Belgium,0.2
-Belize,0.3
-Bermuda,0.8
-Bhutan,0.3
-Botswana,0.2
-Brazil,0.5
-Brisbane Heat,0.5
-Bulgaria,0.1
-Cambodia,0.0
-Cameroon,0.6
-Canada,0.1
-Cayman Islands,0.8
-Chennai Super Kings,0.5
-Chile,0.0
-China,0.3
-Cook Islands,0.4
-Costa Rica,0.3
-Croatia,0.5
-Cyprus,0.4
-Czech Republic,0.5
-Deccan Chargers,0.4
-Delhi Capitals,0.5
-Delhi Daredevils,0.4
-Denmark,0.8
-England,1.0
-Estonia,0.5
-Eswatini,0.5
-Fiji,0.3
-Finland,0.4
-France,0.7
-Gambia,0.1111111111111111
-Germany,0.6
-Ghana,0.6
-Gibraltar,0.1
-Greece,0.0
-Guernsey,0.5
-Gujarat Giants,0.5
-Gujarat Lions,0.3
-Gujarat Titans,0.7
-Guyana Amazon Warriors,0.8
-Hobart Hurricanes,0.6
-Hong Kong,0.2
-Hungary,0.2
-Hyderabad Kingsmen,0.7
-ICC World XI,0.14285714285714285
-India,0.9
-Indonesia,0.5
-Iran,0.0
-Ireland,0.3
-Islamabad United,0.6
-Isle of Man,0.6
-Israel,0.3
-Italy,0.3
-Ivory Coast,0.0
-Jamaica Kingsmen,0.5
-Jamaica Tallawahs,0.4
-Japan,0.6
-Jersey,0.9
-Karachi Kings,0.5
-Kenya,0.9
-Kings XI Punjab,0.4
-Kochi Tuskers Kerala,0.4
-Kolkata Knight Riders,0.5
-Kuwait,0.4
-Lahore Qalandars,0.5
-Lesotho,0.3
-Lucknow Super Giants,0.2
-Luxembourg,0.3
-Malawi,0.2
-Malaysia,0.2
-Maldives,0.4
-Mali,0.1
-Malta,0.3
-Melbourne Renegades,0.3
-Melbourne Stars,0.5
-Mexico,0.4
-Mongolia,0.1
-Mozambique,0.4
-Multan Sultans,0.5
-Mumbai Indians,0.3
-Myanmar,0.3
-Namibia,0.3
-Nepal,0.4
-Netherlands,0.3
-New Zealand,0.7
-Nigeria,0.2
-Norway,0.5
-Oman,0.3
-Pakistan,0.5
-Panama,0.7
-Papua New Guinea,0.5
-Perth Scorchers,0.8
-Peru,0.0
-Peshawar Zalmi,0.9
-Philippines,0.3
-Portugal,0.8
-Pune Warriors,0.2
-Punjab Kings,0.4
-Qatar,0.4
-Quetta Gladiators,0.3
-Rajasthan Royals,0.5
-Rawalpindiz,0.1
-Rising Pune Supergiant,0.7
-Rising Pune Supergiants,0.4
-Romania,0.6
-Royal Challengers Bangalore,0.6
-Royal Challengers Bengaluru,0.7
-Rwanda,0.5
-Samoa,0.4
-Saudi Arabia,0.0
-Scotland,0.6
-Serbia,0.4
-Seychelles,0.1
-Sierra Leone,0.2
-Singapore,0.4
-Slovenia,0.0
-South Africa,1.0
-South Korea,0.4
-Spain,0.9
-Sri Lanka,0.5
-St Helena,0.1
-St Kitts and Nevis Patriots,0.4
-St Lucia Kings,0.4
-St Lucia Stars,0.3
-St Lucia Zouks,0.6
-Sunrisers Hyderabad,0.7
-Suriname,0.2
-Swaziland,0.0
-Sweden,0.7
-Switzerland,0.3
-Sydney Sixers,0.7
-Sydney Thunder,0.2
-Tanzania,0.4
-Thailand,0.5
-Timor-Leste,0.0
-Trinbago Knight Riders,0.3
-Trinidad & Tobago Red Steel,0.7
-Turkey,0.5
-Turks and Caicos Island,0.25
-UP Warriorz,0.3
-Uganda,0.8
-United Arab Emirates,0.6
-United States of America,0.6
-Uzbekistan,0.0
-Vanuatu,0.2
-West Indies,0.6
-Zambia,0.3
-Zimbabwe,0.2
+team,format,gender,form
+Adelaide Strikers,BBL,male,0.4
+Africa XI,ODI,male,0.25
+Antigua Hawksbills,CPL,male,0.1
+Antigua and Barbuda Falcons,CPL,male,0.6
+Argentina,T20I,female,0.5
+Argentina,T20I,male,0.7
+Asia XI,ODI,male,0.75
+Australia,ODI,female,0.9
+Australia,ODI,male,0.5
+Australia,T20I,female,1.0
+Australia,T20I,male,0.5
+Australia,Test,female,0.6666666666666666
+Australia,Test,male,0.8
+Austria,T20I,female,0.5
+Austria,T20I,male,0.7
+Bahamas,T20I,male,0.2
+Bahrain,T20I,female,0.0
+Bahrain,T20I,male,0.5
+Bangladesh,ODI,female,0.2
+Bangladesh,ODI,male,0.6
+Bangladesh,T20I,female,0.5
+Bangladesh,T20I,male,0.5
+Bangladesh,Test,male,0.6
+Barbados,T20I,female,0.3333333333333333
+Barbados Royals,CPL,male,0.2
+Barbados Tridents,CPL,male,0.5
+Belgium,T20I,female,0.1
+Belgium,T20I,male,0.8
+Belize,T20I,male,0.3
+Bermuda,ODI,male,0.2
+Bermuda,T20I,male,0.8
+Bhutan,T20I,female,0.5
+Bhutan,T20I,male,0.6
+Botswana,T20I,female,0.5
+Botswana,T20I,male,0.2
+Brazil,T20I,female,0.8
+Brazil,T20I,male,0.5
+Brisbane Heat,BBL,male,0.5
+Bulgaria,T20I,female,0.1
+Bulgaria,T20I,male,0.1
+Cambodia,T20I,female,0.0
+Cambodia,T20I,male,0.1
+Cameroon,T20I,female,0.4
+Cameroon,T20I,male,0.5
+Canada,ODI,male,0.1
+Canada,T20I,female,0.2
+Canada,T20I,male,0.7
+Cayman Islands,T20I,male,0.8
+Chennai Super Kings,IPL,male,0.5
+Chile,T20I,female,0.0
+Chile,T20I,male,0.0
+China,T20I,female,0.3
+China,T20I,male,0.1
+Cook Islands,T20I,female,0.2
+Cook Islands,T20I,male,0.4
+Costa Rica,T20I,female,0.5
+Costa Rica,T20I,male,0.2
+Croatia,T20I,female,0.6666666666666666
+Croatia,T20I,male,0.2
+Cyprus,T20I,female,0.9
+Cyprus,T20I,male,0.2
+Czech Republic,T20I,female,0.6
+Czech Republic,T20I,male,0.4
+Deccan Chargers,IPL,male,0.4
+Delhi Capitals,IPL,male,0.5
+Delhi Capitals,WPL,female,0.5
+Delhi Daredevils,IPL,male,0.4
+Denmark,T20I,female,0.5
+Denmark,T20I,male,0.8
+England,ODI,female,0.7
+England,ODI,male,0.5
+England,T20I,female,0.8
+England,T20I,male,0.9
+England,Test,female,0.3
+England,Test,male,0.5
+Estonia,T20I,female,0.6
+Estonia,T20I,male,0.3
+Eswatini,T20I,female,0.0
+Eswatini,T20I,male,0.5
+Fiji,T20I,female,0.4
+Fiji,T20I,male,0.3
+Finland,T20I,female,0.3
+Finland,T20I,male,0.4
+France,T20I,female,0.2
+France,T20I,male,0.7
+Gambia,T20I,male,0.1111111111111111
+Germany,T20I,female,0.7
+Germany,T20I,male,0.6
+Ghana,T20I,female,0.0
+Ghana,T20I,male,0.7
+Gibraltar,T20I,female,0.6
+Gibraltar,T20I,male,0.1
+Greece,T20I,female,0.2
+Greece,T20I,male,0.0
+Guernsey,T20I,female,0.25
+Guernsey,T20I,male,0.6
+Gujarat Giants,WPL,female,0.5
+Gujarat Lions,IPL,male,0.3
+Gujarat Titans,IPL,male,0.7
+Guyana Amazon Warriors,CPL,male,0.8
+Hobart Hurricanes,BBL,male,0.6
+Hong Kong,ODI,male,0.3
+Hong Kong,T20I,female,0.2
+Hong Kong,T20I,male,0.6
+Hungary,T20I,male,0.2
+Hyderabad Kingsmen,PSL,male,0.7
+ICC World XI,ODI,male,0.0
+ICC World XI,T20I,male,0.25
+ICC World XI,Test,male,0.0
+India,ODI,female,0.4
+India,ODI,male,0.5
+India,T20I,female,0.8
+India,T20I,male,0.4
+India,Test,female,0.8333333333333334
+India,Test,male,0.5
+Indonesia,T20I,female,0.5
+Indonesia,T20I,male,0.3
+Iran,T20I,male,0.0
+Ireland,ODI,female,0.1
+Ireland,ODI,male,0.5
+Ireland,T20I,female,0.5
+Ireland,T20I,male,0.7
+Ireland,Test,male,0.2
+Islamabad United,PSL,male,0.6
+Isle of Man,T20I,female,0.4
+Isle of Man,T20I,male,0.5
+Israel,T20I,male,0.3
+Italy,T20I,female,0.4
+Italy,T20I,male,0.4
+Ivory Coast,T20I,male,0.0
+Jamaica Kingsmen,CPL,male,0.5
+Jamaica Tallawahs,CPL,male,0.4
+Japan,T20I,female,0.5
+Japan,T20I,male,0.8
+Jersey,ODI,male,0.25
+Jersey,T20I,female,0.6
+Jersey,T20I,male,0.9
+Karachi Kings,PSL,male,0.5
+Kenya,ODI,male,0.3
+Kenya,T20I,female,0.3
+Kenya,T20I,male,0.9
+Kings XI Punjab,IPL,male,0.4
+Kochi Tuskers Kerala,IPL,male,0.4
+Kolkata Knight Riders,IPL,male,0.5
+Kuwait,T20I,female,0.5
+Kuwait,T20I,male,0.4
+Lahore Qalandars,PSL,male,0.5
+Lesotho,T20I,female,0.3
+Lesotho,T20I,male,0.1
+Lucknow Super Giants,IPL,male,0.2
+Luxembourg,T20I,female,0.4
+Luxembourg,T20I,male,0.3
+Malawi,T20I,female,0.4
+Malawi,T20I,male,0.5
+Malaysia,T20I,female,0.5
+Malaysia,T20I,male,0.5
+Maldives,T20I,female,0.0
+Maldives,T20I,male,0.4
+Mali,T20I,female,0.0
+Mali,T20I,male,0.1
+Malta,T20I,female,0.2
+Malta,T20I,male,0.7
+Melbourne Renegades,BBL,male,0.3
+Melbourne Stars,BBL,male,0.5
+Mexico,T20I,female,1.0
+Mexico,T20I,male,0.4
+Mongolia,T20I,female,0.1
+Mongolia,T20I,male,0.0
+Mozambique,T20I,female,0.4
+Mozambique,T20I,male,0.5
+Multan Sultans,PSL,male,0.5
+Mumbai Indians,IPL,male,0.3
+Mumbai Indians,WPL,female,0.5
+Myanmar,T20I,female,0.4
+Myanmar,T20I,male,0.3
+Namibia,ODI,male,0.4
+Namibia,T20I,female,0.5
+Namibia,T20I,male,0.6
+Nepal,ODI,male,0.5
+Nepal,T20I,female,0.6
+Nepal,T20I,male,0.6
+Netherlands,ODI,female,0.4
+Netherlands,ODI,male,0.5
+Netherlands,T20I,female,0.1
+Netherlands,T20I,male,0.4
+New Zealand,ODI,female,0.6
+New Zealand,ODI,male,0.6
+New Zealand,T20I,female,0.5
+New Zealand,T20I,male,0.4
+New Zealand,Test,male,0.8
+Nigeria,T20I,female,0.5
+Nigeria,T20I,male,0.5
+Norway,T20I,female,0.5
+Norway,T20I,male,0.4
+Oman,ODI,male,0.3
+Oman,T20I,female,0.7
+Oman,T20I,male,0.3
+Pakistan,ODI,female,0.5
+Pakistan,ODI,male,0.7
+Pakistan,T20I,female,0.5
+Pakistan,T20I,male,0.7
+Pakistan,Test,male,0.2
+Panama,T20I,male,0.7
+Papua New Guinea,ODI,female,0.2
+Papua New Guinea,ODI,male,0.2
+Papua New Guinea,T20I,female,0.5
+Papua New Guinea,T20I,male,0.6
+Perth Scorchers,BBL,male,0.8
+Peru,T20I,male,0.0
+Peshawar Zalmi,PSL,male,0.9
+Philippines,T20I,female,0.2
+Philippines,T20I,male,0.6
+Portugal,T20I,female,0.6666666666666666
+Portugal,T20I,male,1.0
+Pune Warriors,IPL,male,0.2
+Punjab Kings,IPL,male,0.4
+Qatar,T20I,female,0.2
+Qatar,T20I,male,0.6
+Quetta Gladiators,PSL,male,0.3
+Rajasthan Royals,IPL,male,0.5
+Rawalpindiz,PSL,male,0.1
+Rising Pune Supergiant,IPL,male,0.7
+Rising Pune Supergiants,IPL,male,0.4
+Romania,T20I,female,0.5555555555555556
+Romania,T20I,male,0.7
+Royal Challengers Bangalore,IPL,male,0.5
+Royal Challengers Bangalore,WPL,female,0.6
+Royal Challengers Bengaluru,IPL,male,0.7
+Royal Challengers Bengaluru,WPL,female,0.8
+Rwanda,T20I,female,0.8
+Rwanda,T20I,male,0.5
+Samoa,T20I,female,0.5
+Samoa,T20I,male,0.4
+Saudi Arabia,T20I,female,0.0
+Saudi Arabia,T20I,male,0.6
+Scotland,ODI,female,0.6
+Scotland,ODI,male,0.7
+Scotland,T20I,female,0.5
+Scotland,T20I,male,0.4
+Serbia,T20I,female,0.6
+Serbia,T20I,male,0.0
+Seychelles,T20I,male,0.1
+Sierra Leone,T20I,female,0.4
+Sierra Leone,T20I,male,0.2
+Singapore,T20I,female,0.2
+Singapore,T20I,male,0.6
+Slovenia,T20I,male,0.0
+South Africa,ODI,female,0.6
+South Africa,ODI,male,0.5
+South Africa,T20I,female,0.8
+South Africa,T20I,male,0.7
+South Africa,Test,female,0.0
+South Africa,Test,male,0.9
+South Korea,T20I,female,0.0
+South Korea,T20I,male,0.4
+Spain,T20I,female,0.6
+Spain,T20I,male,0.9
+Sri Lanka,ODI,female,0.7
+Sri Lanka,ODI,male,0.5
+Sri Lanka,T20I,female,0.8
+Sri Lanka,T20I,male,0.2
+Sri Lanka,Test,male,0.4
+St Helena,T20I,male,0.1
+St Kitts and Nevis Patriots,CPL,male,0.4
+St Lucia Kings,CPL,male,0.4
+St Lucia Stars,CPL,male,0.3
+St Lucia Zouks,CPL,male,0.6
+Sunrisers Hyderabad,IPL,male,0.7
+Suriname,T20I,male,0.2
+Swaziland,T20I,male,0.0
+Sweden,T20I,female,0.6
+Sweden,T20I,male,0.6
+Switzerland,T20I,female,0.5
+Switzerland,T20I,male,0.5
+Sydney Sixers,BBL,male,0.7
+Sydney Thunder,BBL,male,0.2
+Tanzania,T20I,female,0.1
+Tanzania,T20I,male,0.7
+Thailand,ODI,female,0.4
+Thailand,T20I,female,0.6
+Thailand,T20I,male,0.2
+Timor-Leste,T20I,male,0.0
+Trinbago Knight Riders,CPL,male,0.3
+Trinidad & Tobago Red Steel,CPL,male,0.7
+Turkey,T20I,female,0.8
+Turkey,T20I,male,0.1
+Turks and Caicos Island,T20I,male,0.25
+UP Warriorz,WPL,female,0.3
+Uganda,T20I,female,0.6
+Uganda,T20I,male,0.9
+United Arab Emirates,ODI,female,0.5
+United Arab Emirates,ODI,male,0.5
+United Arab Emirates,T20I,female,0.7
+United Arab Emirates,T20I,male,0.5
+United States of America,ODI,female,0.3333333333333333
+United States of America,ODI,male,0.6
+United States of America,T20I,female,0.7
+United States of America,T20I,male,0.7
+Uzbekistan,T20I,male,0.0
+Vanuatu,T20I,female,0.2
+Vanuatu,T20I,male,0.2
+West Indies,ODI,female,0.4
+West Indies,ODI,male,0.2
+West Indies,T20I,female,0.5
+West Indies,T20I,male,0.7
+West Indies,Test,male,0.2
+Zambia,T20I,female,0.0
+Zambia,T20I,male,0.6
+Zimbabwe,ODI,female,0.2
+Zimbabwe,ODI,male,0.4
+Zimbabwe,T20I,female,0.0
+Zimbabwe,T20I,male,0.2
+Zimbabwe,Test,male,0.2
