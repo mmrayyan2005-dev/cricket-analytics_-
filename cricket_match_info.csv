@@ -5547,6 +5547,16 @@ match_id,date,format,team1,team2,venue
 1529229,2026-10-03,ODI,India,West Indies,"Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh"
 1554409,2026-10-03,ODI,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas"
 1554410,2026-10-05,ODI,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas"
+1554411,2026-10-07,ODI,Namibia,United States of America,"Grand Prairie Stadium, Dallas"
+1528716,2026-10-09,ODI,Bangladesh,Australia,"Allan Border Field, Brisbane"
+1554412,2026-10-09,ODI,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas"
+1554415,2026-10-09,ODI,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1528717,2026-10-11,ODI,Bangladesh,Australia,"Allan Border Field, Brisbane"
+1554413,2026-10-11,ODI,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas"
+1554416,2026-10-11,ODI,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1554414,2026-10-13,ODI,United States of America,Namibia,"Grand Prairie Stadium, Dallas"
+1554417,2026-10-13,ODI,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1528718,2026-10-14,ODI,Bangladesh,Australia,"Allan Border Field, Brisbane"
 959175,2016-02-04,PSL,Islamabad United,Quetta Gladiators,Dubai International Cricket Stadium
 959177,2016-02-05,PSL,Lahore Qalandars,Karachi Kings,Dubai International Cricket Stadium
 959179,2016-02-05,PSL,Peshawar Zalmi,Islamabad United,Dubai International Cricket Stadium
@@ -11507,6 +11517,41 @@ match_id,date,format,team1,team2,venue
 1554537,2026-10-06,T20I,Bahrain,Bhutan,"Bayuemas Oval, Kuala Lumpur"
 1554538,2026-10-06,T20I,Mongolia,Kuwait,"YSD-UKM Cricket Oval, Bangi"
 1554980,2026-10-07,T20I,Zimbabwe,West Indies,"Takashinga Sports Club, Highfield, Harare"
+1554539,2026-10-08,T20I,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur"
+1554540,2026-10-08,T20I,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi"
+1554541,2026-10-08,T20I,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur"
+1554568,2026-10-08,T20I,China,Maldives,"Bayuemas Oval, Kuala Lumpur"
+1554569,2026-10-08,T20I,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi"
+1554570,2026-10-08,T20I,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur"
+1529231,2026-10-09,T20I,India,West Indies,"JSCA International Stadium Complex, Ranchi"
+1550708,2026-10-09,T20I,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium
+1554542,2026-10-09,T20I,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur"
+1554543,2026-10-09,T20I,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi"
+1554544,2026-10-09,T20I,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur"
+1554571,2026-10-09,T20I,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur"
+1554572,2026-10-09,T20I,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi"
+1554573,2026-10-09,T20I,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur"
+1529232,2026-10-11,T20I,India,West Indies,"Holkar Cricket Stadium, Indore"
+1550709,2026-10-11,T20I,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium
+1554545,2026-10-11,T20I,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur"
+1554546,2026-10-11,T20I,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi"
+1554547,2026-10-11,T20I,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur"
+1554574,2026-10-11,T20I,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur"
+1554575,2026-10-11,T20I,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi"
+1554576,2026-10-11,T20I,Singapore,China,"Selangor Turf Club, Kuala Lumpur"
+1554548,2026-10-12,T20I,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur"
+1554549,2026-10-12,T20I,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi"
+1554550,2026-10-12,T20I,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur"
+1554577,2026-10-12,T20I,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur"
+1554578,2026-10-12,T20I,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi"
+1554579,2026-10-12,T20I,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur"
+1550710,2026-10-13,T20I,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium
+1554551,2026-10-14,T20I,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi"
+1554552,2026-10-14,T20I,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur"
+1554553,2026-10-14,T20I,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur"
+1554580,2026-10-14,T20I,China,Malaysia,"Bayuemas Oval, Kuala Lumpur"
+1554581,2026-10-14,T20I,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur"
+1554582,2026-10-14,T20I,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi"
 63963,2001-12-19,Test,England,India,"M Chinnaswamy Stadium, Bangalore"
 64012,2002-12-26,Test,Australia,England,Melbourne Cricket Ground
 64022,2002-12-26,Test,South Africa,Pakistan,"Kingsmead, Durban"
@@ -12426,6 +12471,7 @@ match_id,date,format,team1,team2,venue
 1544002,2026-08-23,Test,India,Sri Lanka,"Sinhalese Sports Club Ground, Colombo"
 1496583,2026-08-27,Test,England,Pakistan,"Lord's, London"
 1496584,2026-09-09,Test,Pakistan,England,"Edgbaston, Birmingham"
+1525659,2026-10-09,Test,Australia,South Africa,"Kingsmead, Durban"
 1358929,2023-03-04,WPL,Mumbai Indians,Gujarat Giants,"Dr DY Patil Sports Academy, Mumbai"
 1358930,2023-03-05,WPL,Delhi Capitals,Royal Challengers Bangalore,"Brabourne Stadium, Mumbai"
 1358931,2023-03-05,WPL,Gujarat Giants,UP Warriorz,"Dr DY Patil Sports Academy, Mumbai"
