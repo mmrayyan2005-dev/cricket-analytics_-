@@ -138708,6 +138708,21 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1525657,PJ Cummins,South Africa,Australia,"Senwes Park, Potchefstroom",2026-09-30,ODI,30,17.0,0,21,5.0,3.4,2026
 1525657,T Stubbs,Australia,South Africa,"Senwes Park, Potchefstroom",2026-09-30,ODI,12,10.0,0,7,2.0,5.0,2026
 1525657,XC Bartlett,South Africa,Australia,"Senwes Park, Potchefstroom",2026-09-30,ODI,30,25.0,2,20,5.0,5.0,2026
+1525659,A Nortje,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,240,141.0,4,181,40.0,3.53,2026
+1525659,AK Markram,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,18,3.0,0,15,3.0,1.0,2026
+1525659,BJ Webster,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,37,27.0,1,29,6.2,4.38,2026
+1525659,JR Hazlewood,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,198,103.0,8,152,33.0,3.12,2026
+1525659,KA Maharaj,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,175,131.0,2,102,29.2,4.49,2026
+1525659,M Jansen,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,237,112.0,4,178,39.5,2.84,2026
+1525659,M Labuschagne,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,12,6.0,0,7,2.0,3.0,2026
+1525659,MA Starc,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,198,94.0,3,154,33.0,2.85,2026
+1525659,MT Renshaw,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,78,30.0,2,59,13.0,2.31,2026
+1525659,NJ Maddinson,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,24,18.0,0,20,4.0,4.5,2026
+1525659,NM Lyon,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,252,90.0,2,193,42.0,2.14,2026
+1525659,PJ Cummins,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,178,88.0,4,139,29.7,2.97,2026
+1525659,PWA Mulder,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,190,92.0,4,146,31.7,2.91,2026
+1525659,SR Harmer,Australia,South Africa,"Kingsmead, Durban",2026-10-09,Test,320,189.0,2,217,53.3,3.54,2026
+1525659,TM Head,South Africa,Australia,"Kingsmead, Durban",2026-10-09,Test,18,20.0,0,8,3.0,6.67,2026
 1526564,A Gardner,West Indies,Australia,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,18,26.0,0,5,3.0,8.67,2026
 1526564,A King,West Indies,Australia,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,24,14.0,3,16,4.0,3.5,2026
 1526564,ASS Fletcher,Australia,West Indies,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,25,28.0,0,8,4.2,6.72,2026
@@ -140553,6 +140568,44 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1528549,Prince Yadav,Ireland,India,"Civil Service Cricket Club, Stormont, Belfast",2026-06-28,T20I,24,20.0,3,11,4.0,5.0,2026
 1528549,S Dube,Ireland,India,"Civil Service Cricket Club, Stormont, Belfast",2026-06-28,T20I,18,25.0,2,7,3.0,8.33,2026
 1528549,Suryansh Shedge,Ireland,India,"Civil Service Cricket Club, Stormont, Belfast",2026-06-28,T20I,13,25.0,0,3,2.2,11.54,2026
+1528716,A Gardner,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,42,29.0,1,24,7.0,4.14,2026
+1528716,A King,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,48,25.0,0,31,8.0,3.12,2026
+1528716,A Sutherland,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,61,30.0,5,47,10.2,2.95,2026
+1528716,G Wareham,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,24,17.0,1,16,4.0,4.25,2026
+1528716,Habiba Islam,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-09,ODI,37,36.0,2,23,6.2,5.84,2026
+1528716,KJ Garth,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,48,30.0,0,32,8.0,3.75,2026
+1528716,ML Schutt,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,60,19.0,2,51,10.0,1.9,2026
+1528716,Marufa Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-09,ODI,24,29.0,0,13,4.0,7.25,2026
+1528716,Nahida Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-09,ODI,28,29.0,0,14,4.7,6.21,2026
+1528716,Rabeya Khan,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-09,ODI,42,32.0,1,20,7.0,4.57,2026
+1528716,Ritu Moni,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-09,ODI,24,35.0,0,5,4.0,8.75,2026
+1528716,TM McGrath,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-09,ODI,18,9.0,1,12,3.0,3.0,2026
+1528717,A Gardner,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,42,35.0,0,18,7.0,5.0,2026
+1528717,A King,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,30,18.0,0,22,5.0,3.6,2026
+1528717,A Sutherland,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,60,46.0,0,33,10.0,4.6,2026
+1528717,G Wareham,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,24,17.0,0,16,4.0,4.25,2026
+1528717,Habiba Islam,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,37,51.0,0,14,6.2,8.27,2026
+1528717,KJ Garth,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,60,30.0,1,45,10.0,3.0,2026
+1528717,ML Schutt,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,60,34.0,5,42,10.0,3.4,2026
+1528717,Marufa Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,25,40.0,0,9,4.2,9.6,2026
+1528717,Nahida Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,24,35.0,0,6,4.0,8.75,2026
+1528717,Rabeya Khan,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,30,33.0,0,12,5.0,6.6,2026
+1528717,Ritu Moni,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,30,30.0,0,13,5.0,6.0,2026
+1528717,Shorna Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-11,ODI,24,32.0,1,11,4.0,8.0,2026
+1528717,TM McGrath,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-11,ODI,24,25.0,0,9,4.0,6.25,2026
+1528718,A Gardner,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,59,49.0,2,31,9.8,4.98,2026
+1528718,A King,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,30,16.0,1,17,5.0,3.2,2026
+1528718,A Sutherland,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,36,23.0,2,21,6.0,3.83,2026
+1528718,Disha Biswas,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,30,40.0,1,13,5.0,8.0,2026
+1528718,EA Perry,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,30,9.0,1,22,5.0,1.8,2026
+1528718,Habiba Islam,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,34,44.0,0,13,5.7,7.76,2026
+1528718,KJ Garth,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,60,35.0,0,45,10.0,3.5,2026
+1528718,ML Schutt,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,60,16.0,4,53,10.0,1.6,2026
+1528718,NJ Carey,Bangladesh,Australia,"Allan Border Field, Brisbane",2026-10-14,ODI,24,15.0,0,15,4.0,3.75,2026
+1528718,Rabeya Khan,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,18,20.0,0,6,3.0,6.67,2026
+1528718,Ritu Moni,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,24,18.0,0,10,4.0,4.5,2026
+1528718,Shorna Akter,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,12,17.0,0,4,2.0,8.5,2026
+1528718,Sultana Khatun,Australia,Bangladesh,"Allan Border Field, Brisbane",2026-10-14,ODI,18,32.0,1,5,3.0,10.67,2026
 1529140,BM Scholtz,Oman,Namibia,"Namibia Cricket Ground, Windhoek",2026-04-04,ODI,60,43.0,0,33,10.0,4.3,2026
 1529140,DO Leicher,Oman,Namibia,"Namibia Cricket Ground, Windhoek",2026-04-04,ODI,6,4.0,0,2,1.0,4.0,2026
 1529140,Hassnain Shah,Namibia,Oman,"Namibia Cricket Ground, Windhoek",2026-04-04,ODI,48,57.0,3,19,8.0,7.12,2026
@@ -140693,6 +140746,30 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1529230,RL Chase,India,West Indies,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-10-06,T20I,22,37.0,1,3,3.7,10.09,2026
 1529230,S Joseph,India,West Indies,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-10-06,T20I,12,23.0,0,2,2.0,11.5,2026
 1529230,SK Springer,India,West Indies,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2026-10-06,T20I,6,12.0,0,2,1.0,12.0,2026
+1529231,AJ Hosein,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,19,46.0,0,4,3.2,14.53,2026
+1529231,AR Patel,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,21,62.0,0,7,3.5,17.71,2026
+1529231,Arshdeep Singh,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,24,45.0,0,5,4.0,11.25,2026
+1529231,G Motie,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,12,21.0,0,4,2.0,10.5,2026
+1529231,Kuldeep Yadav,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,24,52.0,1,6,4.0,13.0,2026
+1529231,MP Yadav,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,18,36.0,3,9,3.0,12.0,2026
+1529231,Naman Dhir,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,12,24.0,0,6,2.0,12.0,2026
+1529231,R Powell,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,2,7.0,0,0,0.3,21.0,2026
+1529231,R Shepherd,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,22,43.0,0,4,3.7,11.73,2026
+1529231,RL Chase,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,24,23.0,3,10,4.0,5.75,2026
+1529231,S Dube,West Indies,India,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,12,29.0,0,1,2.0,14.5,2026
+1529231,S Joseph,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,18,38.0,0,2,3.0,12.67,2026
+1529231,SK Springer,India,West Indies,"JSCA International Stadium Complex, Ranchi",2026-10-09,T20I,25,64.0,2,4,4.2,15.36,2026
+1529232,AR Patel,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,18,33.0,1,6,3.0,11.0,2026
+1529232,Arshdeep Singh,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,42.0,3,7,4.0,10.5,2026
+1529232,G Motie,India,West Indies,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,36.0,2,3,4.0,9.0,2026
+1529232,KMA Paul,India,West Indies,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,37.0,1,4,4.0,9.25,2026
+1529232,MP Yadav,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,32.0,0,11,4.0,8.0,2026
+1529232,Naman Dhir,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,18,37.0,2,4,3.0,12.33,2026
+1529232,Nithish Kumar Reddy,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,12,19.0,1,4,2.0,9.5,2026
+1529232,Prince Yadav,West Indies,India,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,25,36.0,0,5,4.2,8.64,2026
+1529232,RL Chase,India,West Indies,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,38.0,2,8,4.0,9.5,2026
+1529232,S Joseph,India,West Indies,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,54.0,2,6,4.0,13.5,2026
+1529232,SK Springer,India,West Indies,"Holkar Cricket Stadium, Indore",2026-10-11,T20I,24,48.0,3,5,4.0,12.0,2026
 1529264,E Malinga,Rajasthan Royals,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2026-04-13,IPL,24,30.0,2,7,4.0,7.5,2026
 1529264,Harsh Dubey,Rajasthan Royals,Sunrisers Hyderabad,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2026-04-13,IPL,12,20.0,0,4,2.0,10.0,2026
 1529264,JC Archer,Sunrisers Hyderabad,Rajasthan Royals,"Rajiv Gandhi International Stadium, Uppal, Hyderabad",2026-04-13,IPL,24,37.0,2,13,4.0,9.25,2026
@@ -148201,6 +148278,40 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1550481,SR Patil,Sri Lanka,India,"Korogi Sports Park, Nisshin",2026-09-22,T20I,10,9.0,2,5,1.7,5.4,2026
 1550481,Shafali Verma,Sri Lanka,India,"Korogi Sports Park, Nisshin",2026-09-22,T20I,12,3.0,2,9,2.0,1.5,2026
 1550481,WK Dilhari,India,Sri Lanka,"Korogi Sports Park, Nisshin",2026-09-22,T20I,24,35.0,1,7,4.0,8.75,2026
+1550708,Abrar Ahmed,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,24,36.0,0,6,4.0,9.0,2026
+1550708,DN Wellalage,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,18,25.0,0,5,3.0,8.33,2026
+1550708,E Malinga,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,23,33.0,2,12,3.8,8.61,2026
+1550708,M Theekshana,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,24,36.0,2,8,4.0,9.0,2026
+1550708,MD Shanaka,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,12,15.0,0,4,2.0,7.5,2026
+1550708,Mohammad Imran,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,24,20.0,2,13,4.0,5.0,2026
+1550708,N Thushara,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,18,32.0,1,9,3.0,10.67,2026
+1550708,Naseem Shah,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,24,20.0,3,10,4.0,5.0,2026
+1550708,PVD Chameera,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-09,T20I,18,40.0,1,3,3.0,13.33,2026
+1550708,Razaullah,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,19,28.0,1,8,3.2,8.84,2026
+1550708,Saim Ayub,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,12,17.0,1,3,2.0,8.5,2026
+1550708,Shadab Khan,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-09,T20I,18,33.0,1,3,3.0,11.0,2026
+1550709,Abrar Ahmed,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,18,26.0,0,6,3.0,8.67,2026
+1550709,B Fernando,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,42.0,0,8,4.0,10.5,2026
+1550709,E Malinga,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,39.0,1,7,4.0,9.75,2026
+1550709,M Theekshana,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,54.0,1,7,4.0,13.5,2026
+1550709,MD Shanaka,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,18,30.0,1,5,3.0,10.0,2026
+1550709,Mohammad Imran,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,10.0,3,14,4.0,2.5,2026
+1550709,N Thushara,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,32.0,0,9,4.0,8.0,2026
+1550709,Naseem Shah,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,24,27.0,0,8,4.0,6.75,2026
+1550709,PHKD Mendis,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-11,T20I,7,14.0,0,1,1.2,12.0,2026
+1550709,Saim Ayub,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,18,19.0,1,6,3.0,6.33,2026
+1550709,Salman Mirza,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,18,28.0,2,8,3.0,9.33,2026
+1550709,Shadab Khan,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-11,T20I,18,19.0,1,7,3.0,6.33,2026
+1550710,Arafat Minhas,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-13,T20I,18,26.0,1,4,3.0,8.67,2026
+1550710,B Fernando,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,45.0,0,9,4.0,11.25,2026
+1550710,E Malinga,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,36.0,2,10,4.0,9.0,2026
+1550710,MD Shanaka,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,21.0,3,12,4.0,5.25,2026
+1550710,Mohammad Imran,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,29.0,1,11,4.0,7.25,2026
+1550710,N Thushara,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,37.0,2,5,4.0,9.25,2026
+1550710,Razaullah,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-13,T20I,19,37.0,0,7,3.2,11.68,2026
+1550710,Salman Mirza,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-13,T20I,18,40.0,0,5,3.0,13.33,2026
+1550710,Sufiyan Muqeem,Sri Lanka,Pakistan,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,34.0,0,4,4.0,8.5,2026
+1550710,V Viyaskanth,Pakistan,Sri Lanka,Rawalpindi Cricket Stadium,2026-10-13,T20I,24,23.0,1,10,4.0,5.75,2026
 1551066,D Pavelic,Serbia,Croatia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,20,11.0,1,9,3.3,3.3,2026
 1551066,E Prokic,Croatia,Serbia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,15,13.0,0,2,2.5,5.2,2026
 1551066,H Leko,Serbia,Croatia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,25,12.0,1,17,4.2,2.88,2026
@@ -148812,6 +148923,94 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1554410,Muhammad Shahdad,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-05,ODI,30,32.0,1,14,5.0,6.4,2026
 1554410,SN Netravalkar,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-05,ODI,49,38.0,1,30,8.2,4.65,2026
 1554410,Shubham Ranjane,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-05,ODI,60,54.0,1,25,10.0,5.4,2026
+1554411,BM Scholtz,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,53,65.0,1,22,8.8,7.36,2026
+1554411,Ehsan Adil,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,48,40.0,4,24,8.0,5.0,2026
+1554411,GSNFG Jayasuriya,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,30,30.0,3,11,5.0,6.0,2026
+1554411,Harmeet Singh,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,36,53.0,0,5,6.0,8.83,2026
+1554411,JJ Smit,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,60,46.0,2,30,10.0,4.6,2026
+1554411,JN Loftie-Eaton,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,36,39.0,2,9,6.0,6.5,2026
+1554411,JT Brassell,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,61,79.0,0,25,10.2,7.77,2026
+1554411,MG Erasmus,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,24,25.0,0,8,4.0,6.25,2026
+1554411,Milind Kumar,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,48,30.0,1,24,8.0,3.75,2026
+1554411,R Trumpelmann,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,60,38.0,1,33,10.0,3.8,2026
+1554411,SN Netravalkar,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,60,45.0,1,32,10.0,4.5,2026
+1554411,Shubham Ranjane,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,48,53.0,0,18,8.0,6.62,2026
+1554411,Yasir Mohammad,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-07,ODI,30,41.0,0,9,5.0,8.2,2026
+1554412,AD Nath,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,18,14.0,0,10,3.0,4.67,2026
+1554412,Aayan Afzal Khan,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,24,21.0,0,11,4.0,5.25,2026
+1554412,Ali Naseer,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,30,28.0,1,19,5.0,5.6,2026
+1554412,BM Scholtz,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,54,24.0,2,40,9.0,2.67,2026
+1554412,Basil Hameed,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,48,39.0,1,21,8.0,4.88,2026
+1554412,JJ Smit,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,60,28.0,4,45,10.0,2.8,2026
+1554412,JT Brassell,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,54,28.0,1,40,9.0,3.11,2026
+1554412,Khuzaima Tanveer,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,37,25.0,0,24,6.2,4.05,2026
+1554412,MG Erasmus,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,6,9.0,0,2,1.0,9.0,2026
+1554412,R Trumpelmann,United Arab Emirates,Namibia,"Grand Prairie Stadium, Dallas",2026-10-09,ODI,51,40.0,3,37,8.5,4.71,2026
+1554413,AD Nath,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,42,22.0,0,21,7.0,3.14,2026
+1554413,Awais Ali Shah,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,34,53.0,0,8,5.7,9.35,2026
+1554413,Basil Hameed,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,24,28.0,1,7,4.0,7.0,2026
+1554413,GSNFG Jayasuriya,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,24,16.0,0,17,4.0,4.0,2026
+1554413,Hassan Khan,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,48,48.0,1,19,8.0,6.0,2026
+1554413,Jasdeep Singh,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,48,47.0,1,26,8.0,5.88,2026
+1554413,Khuzaima Tanveer,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,60,41.0,1,43,10.0,4.1,2026
+1554413,Milind Kumar,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,12,14.0,0,4,2.0,7.0,2026
+1554413,Muhammad Arfan,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,60,29.0,3,40,10.0,2.9,2026
+1554413,Muhammad Shahdad,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,6,11.0,0,1,1.0,11.0,2026
+1554413,NP Kenjige,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,30,21.0,1,18,5.0,4.2,2026
+1554413,SN Netravalkar,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,59,23.0,3,40,9.8,2.34,2026
+1554413,Shoaib Khan,United States of America,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,6,8.0,0,2,1.0,8.0,2026
+1554413,Shubham Ranjane,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-11,ODI,60,38.0,4,37,10.0,3.8,2026
+1554414,BM Scholtz,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,36,39.0,2,20,6.0,6.5,2026
+1554414,Ehsan Adil,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,60,48.0,1,31,10.0,4.8,2026
+1554414,GSNFG Jayasuriya,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,24,28.0,0,5,4.0,7.0,2026
+1554414,Harmeet Singh,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,51,44.0,1,23,8.5,5.18,2026
+1554414,Hassan Khan,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,60,57.0,1,24,10.0,5.7,2026
+1554414,JJ Smit,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,60,32.0,1,40,10.0,3.2,2026
+1554414,JT Brassell,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,61,59.0,2,34,10.2,5.8,2026
+1554414,Jasdeep Singh,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,54,55.0,1,23,9.0,6.11,2026
+1554414,M Heingo,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,61,69.0,2,31,10.2,6.79,2026
+1554414,MG Erasmus,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,24,30.0,0,6,4.0,7.5,2026
+1554414,Milind Kumar,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,12,11.0,0,7,2.0,5.5,2026
+1554414,R Trumpelmann,United States of America,Namibia,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,60,36.0,0,39,10.0,3.6,2026
+1554414,Shubham Ranjane,Namibia,United States of America,"Grand Prairie Stadium, Dallas",2026-10-13,ODI,30,30.0,0,13,5.0,6.0,2026
+1554415,AS Hundal,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,37,43.0,3,16,6.2,6.97,2026
+1554415,Akhil Kumar,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,36,43.0,0,19,6.0,7.17,2026
+1554415,H Thaker,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,42,37.0,4,26,7.0,5.29,2026
+1554415,Hassnain Shah,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,33.0,4,35,10.0,3.3,2026
+1554415,Jay Odedra,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,22.0,0,43,10.0,2.2,2026
+1554415,Mujibur Ali,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,24,39.0,0,7,4.0,9.75,2026
+1554415,S Sajeev,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,18,18.0,0,5,3.0,6.0,2026
+1554415,S Shrivastava,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,54,58.0,3,24,9.0,6.44,2026
+1554415,Shakeel Ahmed,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,25.0,3,43,10.0,2.5,2026
+1554415,Sheel Patel,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,36.0,2,34,10.0,3.6,2026
+1554415,Shivam Sharma,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,51.0,0,33,10.0,5.1,2026
+1554415,Sukhjinder Singh,Oman,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,60,42.0,1,40,10.0,4.2,2026
+1554415,Zikria Islam,Canada,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-09,ODI,12,16.0,0,5,2.0,8.0,2026
+1554416,Akhil Kumar,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,63.0,5,34,10.0,6.3,2026
+1554416,Basir Ahamad,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,6,5.0,0,2,1.0,5.0,2026
+1554416,DS Airee,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,48,36.0,1,25,8.0,4.5,2026
+1554416,Gulsan Jha,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,18,13.0,0,7,3.0,4.33,2026
+1554416,H Thaker,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,32.0,0,35,10.0,3.2,2026
+1554416,Karan KC,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,48,34.0,2,24,8.0,4.25,2026
+1554416,LN Rajbanshi,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,36.0,3,36,10.0,3.6,2026
+1554416,NK Yadav,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,52,39.0,2,32,8.7,4.5,2026
+1554416,S Lamichhane,Canada,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,32.0,2,35,10.0,3.2,2026
+1554416,Sheel Patel,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,44.0,0,39,10.0,4.4,2026
+1554416,Sukhjinder Singh,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,44.0,3,42,10.0,4.4,2026
+1554416,Zahid Shirzad,Nepal,Canada,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-11,ODI,60,39.0,2,34,10.0,3.9,2026
+1554417,Basir Ahamad,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,24,20.0,0,13,4.0,5.0,2026
+1554417,DS Airee,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,42,30.0,2,24,7.0,4.29,2026
+1554417,Hassnain Shah,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,60,75.0,1,24,10.0,7.5,2026
+1554417,Jay Odedra,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,60,47.0,0,24,10.0,4.7,2026
+1554417,K Sonavale,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,54,38.0,2,29,9.0,4.22,2026
+1554417,Karan KC,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,36,8.0,1,31,6.0,1.33,2026
+1554417,LN Rajbanshi,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,36,31.0,1,21,6.0,5.17,2026
+1554417,Mujibur Ali,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,6,7.0,0,1,1.0,7.0,2026
+1554417,NK Yadav,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,36,11.0,3,29,6.0,1.83,2026
+1554417,RK Paudel,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,12,13.0,0,2,2.0,6.5,2026
+1554417,S Lamichhane,Oman,Nepal,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,54,28.0,3,36,9.0,3.11,2026
+1554417,Shah Faisal,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,60,41.0,3,36,10.0,4.1,2026
+1554417,Shakeel Ahmed,Nepal,Oman,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1),2026-10-13,ODI,60,50.0,2,33,10.0,5.0,2026
 1554533,A Mongar,Myanmar,Bhutan,"Bayuemas Oval, Kuala Lumpur",2026-10-05,T20I,24,9.0,2,18,4.0,2.25,2026
 1554533,GK Ghalley,Myanmar,Bhutan,"Bayuemas Oval, Kuala Lumpur",2026-10-05,T20I,25,28.0,3,13,4.2,6.72,2026
 1554533,K Dorji,Myanmar,Bhutan,"Bayuemas Oval, Kuala Lumpur",2026-10-05,T20I,12,10.0,0,6,2.0,5.0,2026
@@ -148881,6 +149080,332 @@ match_id,bowler,batting_team,bowling_team,venue,start_date,format,balls,runs_giv
 1554538,Shahrukh Quddus,Mongolia,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-06,T20I,12,2.0,0,11,2.0,1.0,2026
 1554538,T Tumursukh,Kuwait,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-06,T20I,9,21.0,0,3,1.5,14.0,2026
 1554538,Yasin Patel,Mongolia,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-06,T20I,18,8.0,1,13,3.0,2.67,2026
+1554539,A Chenthamara,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,4.0,1,8,2.0,2.0,2026
+1554539,AV Lazarus,Kuwait,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,18,28.0,1,10,3.0,9.33,2026
+1554539,Adnan Idrees,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,24,8.0,2,17,4.0,2.0,2026
+1554539,MNM Aslam,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,24,9.0,3,15,4.0,2.25,2026
+1554539,Meet Bhavsar,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,21,9.0,2,17,3.5,2.57,2026
+1554539,Mohamed Shafeeq,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,16.0,0,7,2.0,8.0,2026
+1554539,N Senamontree,Kuwait,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,18,24.0,0,9,3.0,8.0,2026
+1554539,Sarawut Maliwan,Kuwait,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,6,9.0,0,2,1.0,9.0,2026
+1554539,Yasin Patel,Thailand,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,18,10.0,2,11,3.0,3.33,2026
+1554540,B Batbayr,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,7,12.0,0,1,1.2,10.29,2026
+1554540,B Jargaltuya,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,43.0,0,5,4.0,10.75,2026
+1554540,G Ganbold,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,12,27.0,0,2,2.0,13.5,2026
+1554540,K Dorji,Mongolia,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,12,11.0,1,7,2.0,5.5,2026
+1554540,L Erdenebulgan,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,30.0,2,11,4.0,7.5,2026
+1554540,S Gantulga,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,21.0,3,10,3.0,7.0,2026
+1554540,S Yeshi,Mongolia,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,8.0,3,17,4.0,2.0,2026
+1554540,T Jamtsho,Mongolia,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,17.0,0,11,3.0,5.67,2026
+1554540,T Tumursukh,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,12,29.0,0,4,2.0,14.5,2026
+1554540,Tashi Dorji,Mongolia,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,15.0,4,14,4.0,3.75,2026
+1554540,Tashi Phuntsho,Mongolia,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,12,11.0,2,7,2.0,5.5,2026
+1554540,Z Shurentsetseg,Bhutan,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,38.0,0,7,4.0,9.5,2026
+1554541,Abdul Majid Abbasi,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,25.0,5,13,4.0,6.25,2026
+1554541,Ali Dawood,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,18,5.0,1,14,3.0,1.67,2026
+1554541,Asif Javed,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,12,6.0,0,7,2.0,3.0,2026
+1554541,Asif Shaikh,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,13.0,0,14,4.0,3.25,2026
+1554541,Aung Ko Ko,Bahrain,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,8,8.0,0,3,1.3,6.0,2026
+1554541,Imran Anwar,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,18,11.0,1,12,3.0,3.67,2026
+1554541,Kaung Htet Kyaw,Bahrain,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,22.0,1,13,4.0,5.5,2026
+1554541,Paing Danu,Bahrain,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,6,8.0,0,1,1.0,8.0,2026
+1554541,Pyae Phyo Wai,Bahrain,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,22.0,1,10,4.0,5.5,2026
+1554541,Sai Hla Htwe,Bahrain,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,6,7.0,0,2,1.0,7.0,2026
+1554541,Shujaat Rasool,Myanmar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,8.0,2,16,4.0,2.0,2026
+1554542,B Jargaltuya,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,6,8.0,0,1,1.0,8.0,2026
+1554542,B Tamjidsuren,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,24.0,0,10,4.0,6.0,2026
+1554542,C Pengkumta,Mongolia,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,6,1.0,0,5,1.0,1.0,2026
+1554542,K Senamontree,Mongolia,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,7.0,4,21,4.0,1.75,2026
+1554542,L Erdenebulgan,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,46.0,1,4,4.0,11.5,2026
+1554542,M Erdenebat,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,7,12.0,0,1,1.2,10.29,2026
+1554542,P Donkaew,Mongolia,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,9,1.0,1,8,1.5,0.67,2026
+1554542,P Thongsa,Mongolia,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,12,1.0,4,11,2.0,0.5,2026
+1554542,S Gantulga,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,28.0,0,9,4.0,7.0,2026
+1554542,T Amarmend,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,6,11.0,0,0,1.0,11.0,2026
+1554542,T Buri,Mongolia,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,18,0.0,1,18,3.0,0.0,2026
+1554542,T Tumursukh,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,40.0,1,5,4.0,10.0,2026
+1554542,Z Shurentsetseg,Thailand,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,6,7.0,0,1,1.0,7.0,2026
+1554543,A Chenthamara,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,46.0,1,4,4.0,11.5,2026
+1554543,Abdul Majid Abbasi,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,18,29.0,0,7,3.0,9.67,2026
+1554543,Adnan Idrees,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,22.0,2,11,4.0,5.5,2026
+1554543,Ali Dawood,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,13.0,3,16,4.0,3.25,2026
+1554543,Asif Ali,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,10.0,0,2,1.0,10.0,2026
+1554543,Asif Javed,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,44.0,1,7,4.0,11.0,2026
+1554543,Imran Anwar,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,14,30.0,0,3,2.3,12.86,2026
+1554543,Imran Khan,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,30.0,2,10,4.0,7.5,2026
+1554543,MNM Aslam,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,18,33.0,0,4,3.0,11.0,2026
+1554543,Meet Bhavsar,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,9.0,0,2,1.0,9.0,2026
+1554543,Muhammad Umar,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,17.0,0,0,1.0,17.0,2026
+1554543,Shahrukh Quddus,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,15,37.0,0,2,2.5,14.8,2026
+1554543,Shujaat Rasool,Kuwait,Bahrain,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,12,22.0,1,3,2.0,11.0,2026
+1554543,Yasin Patel,Bahrain,Kuwait,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,21.0,1,15,4.0,5.25,2026
+1554544,DAM Louis,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,6.0,4,21,4.0,1.5,2026
+1554544,Ikramullah Khan,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,6.0,0,14,3.0,2.0,2026
+1554544,Kaung Htet Kyaw,Qatar,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,22.0,0,7,3.0,7.33,2026
+1554544,MM Baig,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,13.0,3,12,3.0,4.33,2026
+1554544,Muhammad Asim,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,12,5.0,0,10,2.0,2.5,2026
+1554544,Mujeeb-ur-Rehman,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,12,8.0,0,8,2.0,4.0,2026
+1554544,Nyeing Cham Soe,Qatar,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,6,5.0,0,2,1.0,5.0,2026
+1554544,Owais Ahmed,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,12,5.0,1,9,2.0,2.5,2026
+1554544,Pyae Phyo Wai,Qatar,Myanmar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,22.0,1,10,3.0,7.33,2026
+1554544,Shariq Munir,Myanmar,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,7.0,1,17,4.0,1.75,2026
+1554545,A Chenthamara,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,2.0,1,10,2.0,1.0,2026
+1554545,Adnan Idrees,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,15.0,3,17,4.0,3.75,2026
+1554545,KK Lin Thu,Kuwait,Myanmar,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,16.0,1,5,2.0,8.0,2026
+1554545,Kaung Htet Kyaw,Kuwait,Myanmar,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,15.0,0,8,2.0,7.5,2026
+1554545,MNM Aslam,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,21,5.0,3,17,3.5,1.43,2026
+1554545,Meet Bhavsar,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,6,1.0,2,5,1.0,1.0,2026
+1554545,Ummer Abbas,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,6,0.0,0,6,1.0,0.0,2026
+1554545,Yasin Patel,Myanmar,Kuwait,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,6.0,1,20,4.0,1.5,2026
+1554546,DAM Louis,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,10.0,0,1,1.0,10.0,2026
+1554546,Ikramullah Khan,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,4.0,0,5,1.0,4.0,2026
+1554546,K Dorji,Qatar,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,13.0,0,2,1.0,13.0,2026
+1554546,MM Baig,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,11.0,3,8,2.0,5.5,2026
+1554546,Muhammad Asim,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,6.0,5,18,4.0,1.5,2026
+1554546,Mujeeb-ur-Rehman,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,8.0,1,18,4.0,2.0,2026
+1554546,Owais Ahmed,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,6.0,1,7,2.0,3.0,2026
+1554546,S Yeshi,Qatar,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,10,15.0,1,4,1.7,9.0,2026
+1554546,Shariq Munir,Bhutan,Qatar,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,14.0,0,7,2.0,7.0,2026
+1554546,T Jamtsho,Qatar,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,24.0,0,3,2.0,12.0,2026
+1554546,Tashi Dorji,Qatar,Bhutan,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,11.0,0,2,1.0,11.0,2026
+1554547,Abdul Majid Abbasi,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,4,0.0,2,4,0.7,0.0,2026
+1554547,Ali Dawood,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,5.0,5,22,4.0,1.25,2026
+1554547,Asif Shaikh,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,1.0,1,11,2.0,0.5,2026
+1554547,B Tamjidsuren,Bahrain,Mongolia,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,2,5.0,0,1,0.3,15.0,2026
+1554547,Imran Anwar,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,4.0,0,9,2.0,2.0,2026
+1554547,L Erdenebulgan,Bahrain,Mongolia,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,6,12.0,2,2,1.0,12.0,2026
+1554547,Rizwan Butt,Mongolia,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,4.0,2,20,4.0,1.0,2026
+1554548,B Batbayr,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,6,12.0,0,0,1.0,12.0,2026
+1554548,B Tamjidsuren,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,34.0,1,10,4.0,8.5,2026
+1554548,G Ganbold,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,6,18.0,0,0,1.0,18.0,2026
+1554548,L Erdenebulgan,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,13,27.0,1,2,2.2,12.46,2026
+1554548,M Erdenebat,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,6,11.0,1,1,1.0,11.0,2026
+1554548,S Gantulga,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,25,47.0,0,5,4.2,11.28,2026
+1554548,T Tumursukh,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,12,25.0,0,2,2.0,12.5,2026
+1554548,Z Shurentsetseg,Qatar,Mongolia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,7,24.0,0,0,1.2,20.57,2026
+1554549,AV Lazarus,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,6,2.0,2,4,1.0,2.0,2026
+1554549,Aung Ko Ko,Thailand,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,7,6.0,0,2,1.2,5.14,2026
+1554549,C Pengkumta,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,3.0,1,9,2.0,1.5,2026
+1554549,K Senamontree,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,6,5.0,0,2,1.0,5.0,2026
+1554549,KK Lin Thu,Thailand,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,8.0,0,5,2.0,4.0,2026
+1554549,Kaung Htet Kyaw,Thailand,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,13,17.0,1,4,2.2,7.85,2026
+1554549,N Senamontree,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,24,9.0,1,19,4.0,2.25,2026
+1554549,P Donkaew,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,4.0,0,9,2.0,2.0,2026
+1554549,P Thongsa,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,24,13.0,4,20,4.0,3.25,2026
+1554549,Paing Danu,Thailand,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,5,5.0,0,0,0.8,6.0,2026
+1554549,Pyae Phyo Wai,Thailand,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,25,15.0,0,12,4.2,3.6,2026
+1554549,T Buri,Myanmar,Thailand,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,8.0,2,7,2.0,4.0,2026
+1554550,A Chenthamara,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,19,13.0,0,11,3.2,4.11,2026
+1554550,Adnan Idrees,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,18,9.0,2,11,3.0,3.0,2026
+1554550,MNM Aslam,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,24,19.0,2,12,4.0,4.75,2026
+1554550,Meet Bhavsar,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,24,13.0,1,13,4.0,3.25,2026
+1554550,S Yeshi,Kuwait,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,6,19.0,0,1,1.0,19.0,2026
+1554550,Shahrukh Quddus,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,13,7.0,0,10,2.2,3.23,2026
+1554550,T Jamtsho,Kuwait,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,8,29.0,1,2,1.3,21.75,2026
+1554550,Tashi Phuntsho,Kuwait,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,29.0,1,3,2.0,14.5,2026
+1554550,Yasin Patel,Bhutan,Kuwait,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,24,11.0,4,18,4.0,2.75,2026
+1554551,Aung Ko Ko,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,9.0,1,7,2.0,4.5,2026
+1554551,B Tamjidsuren,Myanmar,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,6,14.0,0,1,1.0,14.0,2026
+1554551,KK Lin Thu,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,7.0,2,18,4.0,1.75,2026
+1554551,L Erdenebulgan,Myanmar,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,14,20.0,0,4,2.3,8.57,2026
+1554551,Nyeing Cham Soe,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,16,16.0,3,7,2.7,6.0,2026
+1554551,Paing Danu,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,11.0,3,16,4.0,2.75,2026
+1554551,Pyae Phyo Wai,Mongolia,Myanmar,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,4.0,1,22,4.0,1.0,2026
+1554551,S Gantulga,Myanmar,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,6,9.0,1,3,1.0,9.0,2026
+1554551,T Tumursukh,Myanmar,Mongolia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,6,6.0,0,3,1.0,6.0,2026
+1554552,Abdul Majid Abbasi,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,9.0,2,16,4.0,2.25,2026
+1554552,Ali Dawood,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,25,25.0,2,11,4.2,6.0,2026
+1554552,Asif Ali,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,18.0,0,1,2.0,9.0,2026
+1554552,Asif Javed,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,13.0,1,12,4.0,3.25,2026
+1554552,Ikramullah Khan,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,27.0,1,11,4.0,6.75,2026
+1554552,Imran Khan,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,30.0,1,6,4.0,7.5,2026
+1554552,MM Baig,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,27.0,2,5,2.0,13.5,2026
+1554552,Muhammad Asim,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,18,25.0,1,9,3.0,8.33,2026
+1554552,Mujeeb-ur-Rehman,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,11.0,0,14,4.0,2.75,2026
+1554552,Owais Ahmed,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,12.0,4,12,4.0,3.0,2026
+1554552,Shariq Munir,Bahrain,Qatar,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,18,16.0,2,8,3.0,5.33,2026
+1554552,Shujaat Rasool,Qatar,Bahrain,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,21.0,2,3,2.0,10.5,2026
+1554553,A Mongar,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,20.0,0,4,2.0,10.0,2026
+1554553,AV Lazarus,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,18,12.0,0,10,3.0,4.0,2026
+1554553,C Pengkumta,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,18,12.0,0,10,3.0,4.0,2026
+1554553,GK Ghalley,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,1,1.0,0,0,0.2,6.0,2026
+1554553,MK Thakur,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,17,17.0,2,8,2.8,6.0,2026
+1554553,N Senamontree,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,8.0,5,17,4.0,2.0,2026
+1554553,P Thongsa,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,23.0,2,10,4.0,5.75,2026
+1554553,RM Dorji,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,23,25.0,2,8,3.8,6.52,2026
+1554553,S Yeshi,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,12.0,1,18,4.0,3.0,2026
+1554553,Sarawut Maliwan,Bhutan,Thailand,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,14.0,1,6,2.0,7.0,2026
+1554553,T Jamtsho,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,25,27.0,2,9,4.2,6.48,2026
+1554553,Tashi Dorji,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,12,27.0,1,3,2.0,13.5,2026
+1554553,Tashi Phuntsho,Thailand,Bhutan,"Selangor Turf Club, Kuala Lumpur",2026-10-14,T20I,24,20.0,2,12,4.0,5.0,2026
+1554568,Azyan Farhath,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,25,27.0,4,13,4.2,6.48,2026
+1554568,Chen Zhuo Yue,Maldives,China,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,8,24.0,0,2,1.3,18.0,2026
+1554568,Deng Jinqi,Maldives,China,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,22.0,0,1,2.0,11.0,2026
+1554568,Harsha Amarasinghe,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,18,5.0,1,16,3.0,1.67,2026
+1554568,Ibrahim Rizan,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,9,6.0,2,5,1.5,4.0,2026
+1554568,Ma Qiancheng,Maldives,China,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,10.0,0,7,2.0,5.0,2026
+1554568,Sheraz Iqbal,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,8.0,0,7,2.0,4.0,2026
+1554568,T Kavinda,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,11.0,2,9,2.0,5.5,2026
+1554568,Tian Sen Qun,Maldives,China,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,12,12.0,0,8,2.0,6.0,2026
+1554568,Umar Adam,China,Maldives,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,24,10.0,1,18,4.0,2.5,2026
+1554568,Yao Junting,Maldives,China,"Bayuemas Oval, Kuala Lumpur",2026-10-08,T20I,18,29.0,0,6,3.0,9.67,2026
+1554569,A Kaul,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,6,8.0,0,1,1.0,8.0,2026
+1554569,AR Puri,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,18.0,1,10,4.0,4.5,2026
+1554569,C Sridev,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,31.0,0,3,3.0,10.33,2026
+1554569,DPS Tyagi,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,37.0,3,7,4.0,9.25,2026
+1554569,H Venkataram,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,31.0,2,9,4.0,7.75,2026
+1554569,Hisham Sheikh,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,14.0,1,11,3.0,4.67,2026
+1554569,Imran Yousaf,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,21.0,2,12,4.0,5.25,2026
+1554569,Ishtiaq Ahmad,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,12,9.0,0,7,2.0,4.5,2026
+1554569,J Santhanam,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,29.0,1,7,3.0,9.67,2026
+1554569,Muhammad Atif,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,15.0,1,4,3.0,5.0,2026
+1554569,S Gulecha,Saudi Arabia,Singapore,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,6,10.0,0,2,1.0,10.0,2026
+1554569,Usman Khalid,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,18,16.0,2,11,3.0,5.33,2026
+1554569,Usman Najeeb,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,6,7.0,0,2,1.0,7.0,2026
+1554569,Zain Ul Abidin,Singapore,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-08,T20I,24,16.0,1,17,4.0,4.0,2026
+1554570,A Shukla,Malaysia,Hong Kong,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,18,24.0,3,8,3.0,8.0,2026
+1554570,Aizaz Khan,Malaysia,Hong Kong,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,12,15.0,0,3,2.0,7.5,2026
+1554570,Ehsan Khan,Malaysia,Hong Kong,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,12,7.0,1,8,2.0,3.5,2026
+1554570,Hassan Khan Mohammad,Malaysia,Hong Kong,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,6,12.0,0,2,1.0,12.0,2026
+1554570,Mohammad Ghazanfar,Malaysia,Hong Kong,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,12,11.0,1,7,2.0,5.5,2026
+1554570,Muhammad Wafiq,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,12,20.0,0,4,2.0,10.0,2026
+1554570,P Madhukar,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,18,27.0,0,6,3.0,9.0,2026
+1554570,Pavandeep Singh,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,18,17.0,1,6,3.0,5.67,2026
+1554570,S Vijay Unni,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,16.0,3,13,4.0,4.0,2026
+1554570,Syed Aziz,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,38.0,0,2,4.0,9.5,2026
+1554570,Virandeep Singh,Hong Kong,Malaysia,"Selangor Turf Club, Kuala Lumpur",2026-10-08,T20I,24,18.0,1,9,4.0,4.5,2026
+1554571,Hisham Sheikh,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,12,17.0,0,1,2.0,8.5,2026
+1554571,Imran Yousaf,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,12,17.0,0,3,2.0,8.5,2026
+1554571,Ishtiaq Ahmad,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,18.0,1,14,4.0,4.5,2026
+1554571,Muhammad Wafiq,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,12,25.0,1,5,2.0,12.5,2026
+1554571,P Madhukar,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,13,18.0,1,4,2.2,8.31,2026
+1554571,Pavandeep Singh,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,16.0,0,12,4.0,4.0,2026
+1554571,S Vijay Unni,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,28.0,1,9,4.0,7.0,2026
+1554571,Syed Aziz,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,18,31.0,1,6,3.0,10.33,2026
+1554571,Usman Khalid,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,28.0,1,11,4.0,7.0,2026
+1554571,Usman Najeeb,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,20.0,0,11,4.0,5.0,2026
+1554571,Virandeep Singh,Saudi Arabia,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,15.0,3,11,4.0,3.75,2026
+1554571,Zain Ul Abidin,Malaysia,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-09,T20I,24,26.0,0,3,4.0,6.5,2026
+1554572,A Shukla,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,12,8.0,1,7,2.0,4.0,2026
+1554572,Aizaz Khan,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,1.0,1,5,1.0,1.0,2026
+1554572,Deng Jinqi,Hong Kong,China,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,16.0,1,1,1.0,16.0,2026
+1554572,Ehsan Khan,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,20,5.0,3,16,3.3,1.5,2026
+1554572,Hassan Khan Mohammad,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,12,9.0,1,9,2.0,4.5,2026
+1554572,Liu Qingze,Hong Kong,China,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,4,3.0,0,1,0.7,4.5,2026
+1554572,Ma Qiancheng,Hong Kong,China,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,8.0,1,2,1.0,8.0,2026
+1554572,Mohammad Ghazanfar,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,24,10.0,3,17,4.0,2.5,2026
+1554572,Reyansh Sharma,China,Hong Kong,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,5.0,1,3,1.0,5.0,2026
+1554572,Tian Sen Qun,Hong Kong,China,"YSD-UKM Cricket Oval, Bangi",2026-10-09,T20I,6,13.0,0,2,1.0,13.0,2026
+1554573,AR Puri,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,20.0,0,8,3.0,6.67,2026
+1554573,Ameel Mauroof,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,24.0,0,2,3.0,8.0,2026
+1554573,Azyan Farhath,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,12,20.0,1,1,2.0,10.0,2026
+1554573,DPS Tyagi,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,25,37.0,2,9,4.2,8.88,2026
+1554573,H Venkataram,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,15.0,1,9,3.0,5.0,2026
+1554573,Harsha Amarasinghe,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,37.0,2,10,4.0,9.25,2026
+1554573,Ibrahim Rizan,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,18,22.0,0,5,3.0,7.33,2026
+1554573,J Santhanam,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,28.0,2,11,4.0,7.0,2026
+1554573,PSRK Sudarshan,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,35.0,2,8,4.0,8.75,2026
+1554573,S Gulecha,Maldives,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,12,19.0,0,4,2.0,9.5,2026
+1554573,Sheraz Iqbal,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,42.0,3,8,4.0,10.5,2026
+1554573,Umar Adam,Singapore,Maldives,"Selangor Turf Club, Kuala Lumpur",2026-10-09,T20I,24,37.0,0,11,4.0,9.25,2026
+1554574,A Shukla,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,24.0,1,5,2.0,12.0,2026
+1554574,Aizaz Khan,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,18,27.0,1,3,3.0,9.0,2026
+1554574,Anshuman Rath,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,6,5.0,0,4,1.0,5.0,2026
+1554574,Ehsan Khan,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,18,20.0,1,7,3.0,6.67,2026
+1554574,Hassan Khan Mohammad,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,18,36.0,1,6,3.0,12.0,2026
+1554574,Hisham Sheikh,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,25,30.0,0,8,4.2,7.2,2026
+1554574,Imran Yousaf,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,15.0,0,4,2.0,7.5,2026
+1554574,Ishtiaq Ahmad,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,23.0,4,11,4.0,5.75,2026
+1554574,Mohammad Ghazanfar,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,29.0,1,6,4.0,7.25,2026
+1554574,Usman Khalid,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,12,22.0,0,5,2.0,11.0,2026
+1554574,Usman Najeeb,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,24.0,3,12,4.0,6.0,2026
+1554574,Yasim Murtaza,Saudi Arabia,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,24,21.0,1,12,4.0,5.25,2026
+1554574,Zain Ul Abidin,Hong Kong,Saudi Arabia,"Bayuemas Oval, Kuala Lumpur",2026-10-11,T20I,21,32.0,3,10,3.5,9.14,2026
+1554575,Ameel Mauroof,Malaysia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,15.0,1,2,1.0,15.0,2026
+1554575,Harsha Amarasinghe,Malaysia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,38.0,0,2,2.0,19.0,2026
+1554575,Ibrahim Rizan,Malaysia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,11,26.0,0,2,1.8,14.18,2026
+1554575,Muhammad Akram,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,24.0,0,4,2.0,12.0,2026
+1554575,Muhammad Amir,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,18,26.0,0,5,3.0,8.67,2026
+1554575,P Madhukar,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,6,9.0,0,2,1.0,9.0,2026
+1554575,Pavandeep Singh,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,12.0,4,15,4.0,3.0,2026
+1554575,S Vijay Unni,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,12,14.0,3,4,2.0,7.0,2026
+1554575,Syed Aziz,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,21.0,1,8,4.0,5.25,2026
+1554575,Umar Adam,Malaysia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,41.0,3,11,4.0,10.25,2026
+1554575,Virandeep Singh,Maldives,Malaysia,"YSD-UKM Cricket Oval, Bangi",2026-10-11,T20I,24,13.0,1,14,4.0,3.25,2026
+1554576,AR Puri,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,12.0,0,16,4.0,3.0,2026
+1554576,Chen Zhuo Yue,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,21.0,2,9,4.0,5.25,2026
+1554576,DPS Tyagi,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,9.0,0,9,2.0,4.5,2026
+1554576,H Venkataram,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,4.0,0,8,2.0,2.0,2026
+1554576,Harman Singh,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,19,16.0,1,10,3.2,5.05,2026
+1554576,J Santhanam,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,14.0,0,7,2.0,7.0,2026
+1554576,Liu Qingze,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,12,14.0,1,3,2.0,7.0,2026
+1554576,Ma Qiancheng,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,18,24.0,1,8,3.0,8.0,2026
+1554576,Manpreet Singh,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,18,4.0,3,14,3.0,1.33,2026
+1554576,PSRK Sudarshan,China,Singapore,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,14.0,2,13,4.0,3.5,2026
+1554576,Tian Sen Qun,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,18,18.0,4,10,3.0,6.0,2026
+1554576,Yao Junting,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,30.0,0,5,4.0,7.5,2026
+1554576,Zong Yuechao,Singapore,China,"Selangor Turf Club, Kuala Lumpur",2026-10-11,T20I,24,22.0,2,6,4.0,5.5,2026
+1554577,AR Puri,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,15.0,0,9,4.0,3.75,2026
+1554577,DPS Tyagi,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,12,24.0,0,2,2.0,12.0,2026
+1554577,H Venkataram,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,12,21.0,2,5,2.0,10.5,2026
+1554577,J Santhanam,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,19.0,1,14,4.0,4.75,2026
+1554577,Manpreet Singh,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,26.0,1,9,4.0,6.5,2026
+1554577,P Madhukar,Singapore,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,15.0,2,9,4.0,3.75,2026
+1554577,PSRK Sudarshan,Malaysia,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,37.0,1,4,4.0,9.25,2026
+1554577,Pavandeep Singh,Singapore,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,32.0,1,8,4.0,8.0,2026
+1554577,S Vijay Unni,Singapore,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,23.0,1,9,4.0,5.75,2026
+1554577,Syed Aziz,Singapore,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,18,22.0,1,9,3.0,7.33,2026
+1554577,Virandeep Singh,Singapore,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-12,T20I,24,14.0,5,16,4.0,3.5,2026
+1554578,Azyan Farhath,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,24,34.0,0,4,4.0,8.5,2026
+1554578,Harsha Amarasinghe,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,15.0,0,4,2.0,7.5,2026
+1554578,Ibrahim Rizan,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,12,9.0,1,5,2.0,4.5,2026
+1554578,Nazwan Ismail,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,6,18.0,0,1,1.0,18.0,2026
+1554578,Umar Adam,Hong Kong,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-12,T20I,24,24.0,2,11,4.0,6.0,2026
+1554579,Chen Zhuo Yue,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,14.0,1,1,2.0,7.0,2026
+1554579,Hisham Sheikh,China,Saudi Arabia,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,2.0,2,10,2.0,1.0,2026
+1554579,Ishtiaq Ahmad,China,Saudi Arabia,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,13,15.0,3,7,2.2,6.92,2026
+1554579,Ma Qiancheng,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,13.0,1,5,2.0,6.5,2026
+1554579,Muhammad Saqib,China,Saudi Arabia,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,5.0,0,10,2.0,2.5,2026
+1554579,Qi Shuai,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,26.0,0,0,2.0,13.0,2026
+1554579,Tian Sen Qun,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,21.0,4,3,2.0,10.5,2026
+1554579,Usman Khalid,China,Saudi Arabia,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,4.0,2,8,2.0,2.0,2026
+1554579,Yao Junting,Saudi Arabia,China,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,16.0,0,1,2.0,8.0,2026
+1554579,Zain Ul Abidin,China,Saudi Arabia,"Selangor Turf Club, Kuala Lumpur",2026-10-12,T20I,12,2.0,1,10,2.0,1.0,2026
+1554580,Ahmed Aqeel,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,12,10.0,0,6,2.0,5.0,2026
+1554580,Azri Azhar,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,12.0,2,18,4.0,3.0,2026
+1554580,Deng Jinqi,Malaysia,China,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,6,11.0,0,0,1.0,11.0,2026
+1554580,Ma Qiancheng,Malaysia,China,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,18,21.0,2,11,3.0,7.0,2026
+1554580,Pavandeep Singh,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,7.0,0,18,4.0,1.75,2026
+1554580,S Vijay Unni,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,12,4.0,0,9,2.0,2.0,2026
+1554580,Syed Aziz,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,5.0,4,21,4.0,1.25,2026
+1554580,Tian Sen Qun,Malaysia,China,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,12,16.0,1,5,2.0,8.0,2026
+1554580,Virandeep Singh,China,Malaysia,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,8.0,4,17,4.0,2.0,2026
+1554580,Yao Junting,Malaysia,China,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,8,14.0,1,3,1.3,10.5,2026
+1554581,A Shukla,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,28.0,1,9,4.0,7.0,2026
+1554581,AR Puri,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,27.0,0,5,4.0,6.75,2026
+1554581,Aizaz Khan,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,12,21.0,0,3,2.0,10.5,2026
+1554581,Ehsan Khan,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,26.0,5,6,4.0,6.5,2026
+1554581,H Venkataram,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,29.0,2,8,4.0,7.25,2026
+1554581,Harman Singh,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,6,12.0,0,2,1.0,12.0,2026
+1554581,J Santhanam,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,18,32.0,0,4,3.0,10.67,2026
+1554581,Manpreet Singh,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,22.0,3,8,4.0,5.5,2026
+1554581,Mohammad Ghazanfar,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,18,28.0,1,6,3.0,9.33,2026
+1554581,Nasrulla Rana,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,6,18.0,0,0,1.0,18.0,2026
+1554581,PSRK Sudarshan,Hong Kong,Singapore,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,46.0,0,5,4.0,11.5,2026
+1554581,Yasim Murtaza,Singapore,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-10-14,T20I,24,12.0,3,17,4.0,3.0,2026
+1554582,Abdul Wahid,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,8.0,2,8,2.0,4.0,2026
+1554582,Azyan Farhath,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,36.0,1,8,4.0,9.0,2026
+1554582,Harsha Amarasinghe,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,38.0,1,9,4.0,9.5,2026
+1554582,Hisham Sheikh,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,13.0,0,4,2.0,6.5,2026
+1554582,Ibrahim Rizan,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,22.0,0,2,2.0,11.0,2026
+1554582,Ishtiaq Ahmad,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,5.0,0,8,2.0,2.5,2026
+1554582,Muhammad Atif,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,18,9.0,4,11,3.0,3.0,2026
+1554582,Muhammad Saqib,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,7,12.0,1,4,1.2,10.29,2026
+1554582,Nazwan Ismail,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,36.0,1,6,4.0,9.0,2026
+1554582,Sheraz Iqbal,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,12,24.0,2,5,2.0,12.0,2026
+1554582,Umar Adam,Saudi Arabia,Maldives,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,34.0,0,7,4.0,8.5,2026
+1554582,Usman Khalid,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,18,9.0,0,10,3.0,3.0,2026
+1554582,Zain Ul Abidin,Maldives,Saudi Arabia,"YSD-UKM Cricket Oval, Bangi",2026-10-14,T20I,24,10.0,3,17,4.0,2.5,2026
 1554583,Abdullahi Ismail,Ghana,Nigeria,"Tafawa Balewa Square Cricket Oval, Lagos",2026-09-21,T20I,18,7.0,0,14,3.0,2.33,2026
 1554583,CM Akachukwu,Ghana,Nigeria,"Tafawa Balewa Square Cricket Oval, Lagos",2026-09-21,T20I,18,9.0,3,9,3.0,3.0,2026
 1554583,IO Okpe,Ghana,Nigeria,"Tafawa Balewa Square Cricket Oval, Lagos",2026-09-21,T20I,12,17.0,0,4,2.0,8.5,2026
