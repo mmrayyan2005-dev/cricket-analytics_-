@@ -1,31 +1,39 @@
 model,metric,value
-win_probability_rf,AUC,0.7554540466392319
-win_probability_rf,Accuracy,0.6894409937888198
-win_probability_rf,LogLoss,0.5995214028354361
-win_probability_rf,Brier,0.20604170524190876
-win_probability_logreg,AUC,0.7514931412894377
-win_probability_logreg,Accuracy,0.6782608695652174
-win_probability_logreg,LogLoss,0.5946835328772836
-win_probability_logreg,Brier,0.20421160288805063
-win_probability_best,AUC,0.7514931412894377
-win_probability_best,Accuracy,0.6782608695652174
-win_probability_best,LogLoss,0.5946835328772836
-win_probability_best,Brier,0.20421160288805063
-win_probability_baseline_higher_elo,Accuracy,0.650103519668737
-win_probability_elo_only,LogLoss,0.615498714440327
-win_probability_best,ECE,0.03579008229254363
-run_forecast_deployed,MAE,83.01362141850635
-run_forecast_deployed,R2,0.3632787451238819
-run_forecast_naive,MAE,99.97933302019727
-run_forecast_roll3,MAE,85.91772350086113
-run_forecast_structured,MAE,84.83096064363478
-run_forecast_gbm,MAE,83.01917454552554
-run_forecast_blend,MAE,82.57367204653237
-run_forecast_deployed,Range coverage (target 0.80),0.8201033348990137
-run_forecast_deployed,Share of regulars who played next season,0.7130514629158146
-workload_overs_naive_last,MAE,1.3236875647255633
-workload_overs_mean5,MAE,1.1260922577161725
-workload_overs_gbm,MAE,1.0781629954978489
-workload_overs_deployed,MAE,1.0781629954978489
-workload_overs_deployed,Share within 1 over,0.6453437425316657
-workload_overs_deployed,Range coverage (target 0.80),0.7940332988130328
+win_probability_Logistic Regression,AUC,0.7404785687506718
+win_probability_Logistic Regression,Accuracy,0.6690803765387401
+win_probability_Logistic Regression,LogLoss,0.6030631159774446
+win_probability_Logistic Regression,Brier,0.20800398523711558
+win_probability_Logistic Regression,ECE,0.03452566056785607
+win_probability_Random Forest,AUC,0.7435066552359678
+win_probability_Random Forest,Accuracy,0.6766835626357712
+win_probability_Random Forest,LogLoss,0.6059477818103804
+win_probability_Random Forest,Brier,0.20921082973156757
+win_probability_Random Forest,ECE,0.05839953852382454
+win_probability_Elo-only logistic (baseline),AUC,0.7140081116013728
+win_probability_Elo-only logistic (baseline),Accuracy,0.6455467052860246
+win_probability_Elo-only logistic (baseline),LogLoss,0.6194145698907663
+win_probability_Elo-only logistic (baseline),Brier,0.2156025185219029
+win_probability_Elo-only logistic (baseline),ECE,0.029663967376960504
+win_probability_Constant base rate (baseline),AUC,0.5
+win_probability_Constant base rate (baseline),Accuracy,0.501448225923244
+win_probability_Constant base rate (baseline),LogLoss,0.6931471805599453
+win_probability_Constant base rate (baseline),Brier,0.25
+win_probability_Constant base rate (baseline),ECE,0.0014482259232440065
+win_probability_baseline_higher_elo,Accuracy,0.6455467052860246
+win_probability_best_vs_elo_only,LogLoss gain (mean),0.013466788080385927
+win_probability_best_vs_elo_only,LogLoss gain CI low,0.009576884128705344
+win_probability_best_vs_elo_only,LogLoss gain CI high,0.017610475800475686
+run_forecast_deployed,MAE,95.03917525773196
+run_forecast_deployed,R2,0.5001270883329052
+run_forecast_deployed,Range coverage (target 0.80),0.8210309278350515
+run_forecast_naive,MAE,115.76329896907217
+run_forecast_roll3,MAE,100.3792439862543
+run_forecast_structured,MAE,99.22921731155306
+run_forecast_gbm,MAE,95.03775565825907
+run_forecast_blend,MAE,95.69991784398465
+workload_overs_naive_last,MAE,1.0792367044426978
+workload_overs_mean5,MAE,1.0240988402392197
+workload_overs_gbm,MAE,0.9123828417260321
+workload_overs_deployed,MAE,0.9123828417260321
+workload_overs_deployed,Share within 1 over,0.7066146084222803
+workload_overs_deployed,Range coverage (target 0.80),0.8009025682630632
