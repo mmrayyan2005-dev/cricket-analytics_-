@@ -5570,6 +5570,17 @@ match_id,date,format,team1,team2,venue
 1535656,2026-10-25,ODI,India,Zimbabwe,"Kotambi Stadium, Vadodara"
 1550716,2026-10-25,ODI,England,Pakistan,"Gaddafi Stadium, Lahore"
 1559563,2026-10-25,ODI,United Arab Emirates,Netherlands,"ICC Academy, Dubai"
+1550717,2026-10-27,ODI,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore"
+1558233,2026-10-27,ODI,Namibia,Ireland,"High Performance Oval, Windhoek"
+1559564,2026-10-27,ODI,Netherlands,Oman,"ICC Academy, Dubai"
+1535657,2026-10-28,ODI,Zimbabwe,India,"Kotambi Stadium, Vadodara"
+1550718,2026-10-29,ODI,England,Sri Lanka,"Gaddafi Stadium, Lahore"
+1559565,2026-10-29,ODI,Oman,United Arab Emirates,"ICC Academy, Dubai"
+1558234,2026-10-30,ODI,Ireland,Namibia,"High Performance Oval, Windhoek"
+1550719,2026-10-31,ODI,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore"
+1559566,2026-10-31,ODI,Netherlands,United Arab Emirates,"ICC Academy, Dubai"
+1558235,2026-11-01,ODI,Ireland,Namibia,"High Performance Oval, Windhoek"
+1559567,2026-11-02,ODI,Oman,Netherlands,"ICC Academy, Dubai"
 959175,2016-02-04,PSL,Islamabad United,Quetta Gladiators,Dubai International Cricket Stadium
 959177,2016-02-05,PSL,Lahore Qalandars,Karachi Kings,Dubai International Cricket Stadium
 959179,2016-02-05,PSL,Peshawar Zalmi,Islamabad United,Dubai International Cricket Stadium
@@ -11599,6 +11610,10 @@ match_id,date,format,team1,team2,venue
 1557532,2026-10-25,T20I,Gambia,Lesotho,"Nigeria Cricket Federation Oval 1, Abuja"
 1557533,2026-10-25,T20I,Zambia,Mozambique,"Nigeria Cricket Federation Oval 2, Abuja"
 1557534,2026-10-25,T20I,Nigeria,Uganda,"Nigeria Cricket Federation Oval 1, Abuja"
+1558573,2026-10-25,T20I,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco
+1539434,2026-10-27,T20I,New Zealand,India,"Hnry Stadium, Wellington"
+1539435,2026-10-30,T20I,New Zealand,India,"Eden Park, Auckland"
+1539436,2026-11-01,T20I,India,New Zealand,"Seddon Park, Hamilton"
 63963,2001-12-19,Test,England,India,"M Chinnaswamy Stadium, Bangalore"
 64012,2002-12-26,Test,Australia,England,Melbourne Cricket Ground
 64022,2002-12-26,Test,South Africa,Pakistan,"Kingsmead, Durban"
@@ -12520,6 +12535,8 @@ match_id,date,format,team1,team2,venue
 1496584,2026-09-09,Test,Pakistan,England,"Edgbaston, Birmingham"
 1525659,2026-10-09,Test,Australia,South Africa,"Kingsmead, Durban"
 1525660,2026-10-18,Test,South Africa,Australia,"St George's Park, Gqeberha"
+1525661,2026-10-27,Test,South Africa,Australia,"Newlands, Cape Town"
+1553295,2026-10-28,Test,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur"
 1358929,2023-03-04,WPL,Mumbai Indians,Gujarat Giants,"Dr DY Patil Sports Academy, Mumbai"
 1358930,2023-03-05,WPL,Delhi Capitals,Royal Challengers Bangalore,"Brabourne Stadium, Mumbai"
 1358931,2023-03-05,WPL,Gujarat Giants,UP Warriorz,"Dr DY Patil Sports Academy, Mumbai"
