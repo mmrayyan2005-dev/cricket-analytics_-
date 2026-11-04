@@ -192588,6 +192588,28 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1525660,SR Harmer,South Africa,Australia,"St George's Park, Gqeberha",2026-10-18,Test,82,157,10,1,1,52.23,2026
 1525660,T Bavuma,South Africa,Australia,"St George's Park, Gqeberha",2026-10-18,Test,179,334,18,1,1,53.59,2026
 1525660,TM Head,Australia,South Africa,"St George's Park, Gqeberha",2026-10-18,Test,135,214,18,0,1,63.08,2026
+1525661,AK Markram,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,79,147,10,1,1,53.74,2026
+1525661,AT Carey,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,82,177,7,0,1,46.33,2026
+1525661,C Connolly,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,29,85,3,0,1,34.12,2026
+1525661,C Green,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,92,220,11,2,1,41.82,2026
+1525661,DG Bedingham,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,61,96,8,0,1,63.54,2026
+1525661,G Coetzee,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,1,7,0,0,1,14.29,2026
+1525661,JP Inglis,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,106,152,11,2,1,69.74,2026
+1525661,JR Hazlewood,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,4,7,1,0,1,57.14,2026
+1525661,K Rabada,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,2,16,0,0,1,12.5,2026
+1525661,M Jansen,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,52,79,7,0,1,65.82,2026
+1525661,M Labuschagne,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,4,8,1,0,1,50.0,2026
+1525661,MA Starc,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,11,54,2,0,1,20.37,2026
+1525661,MJ Ackerman,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,157,174,20,2,1,90.23,2026
+1525661,MP Breetzke,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,45,133,5,0,1,33.83,2026
+1525661,MT Renshaw,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,74,140,10,0,1,52.86,2026
+1525661,NM Lyon,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,34,82,6,0,1,41.46,2026
+1525661,PJ Cummins,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,11,96,1,0,1,11.46,2026
+1525661,PWA Mulder,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,115,223,10,4,1,51.57,2026
+1525661,RD Rickelton,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,143,302,17,0,1,47.35,2026
+1525661,SR Harmer,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,1,10,0,0,1,10.0,2026
+1525661,T Bavuma,South Africa,Australia,"Newlands, Cape Town",2026-10-27,Test,35,118,1,0,1,29.66,2026
+1525661,TM Head,Australia,South Africa,"Newlands, Cape Town",2026-10-27,Test,55,75,10,0,1,73.33,2026
 1526564,A Gardner,Australia,West Indies,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,1,2,0,0,1,50.0,2026
 1526564,A King,Australia,West Indies,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,1,2,0,0,0,50.0,2026
 1526564,BL Mooney,Australia,West Indies,"Arnos Vale Ground, Kingstown, St Vincent",2026-03-19,T20I,79,55,7,2,1,143.64,2026
@@ -199829,6 +199851,21 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1535656,Shafali Verma,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-25,ODI,8,8,1,0,1,100.0,2026
 1535656,T Makusha,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-25,ODI,0,2,0,0,1,0.0,2026
 1535656,TS Hasabnis,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-25,ODI,3,5,0,0,1,60.0,2026
+1535657,B Biza,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,1,16,0,0,1,6.25,2026
+1535657,CS Mugeri-Tiripano,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,4,8,1,0,1,50.0,2026
+1535657,CT Dhururu,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,20,39,4,0,1,51.28,2026
+1535657,F Chipare,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,4,13,0,0,0,30.77,2026
+1535657,H Deol,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-28,ODI,19,19,4,0,1,100.0,2026
+1535657,J Nkomo,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,35,67,4,0,1,52.24,2026
+1535657,L Phiri,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,0,6,0,0,1,0.0,2026
+1535657,M Mavunga,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,6,9,1,0,1,66.67,2026
+1535657,M Mupachikwa,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,37,48,7,0,1,77.08,2026
+1535657,N Gwanzura,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,10,13,2,0,1,76.92,2026
+1535657,N Sibanda,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,3,12,0,0,1,25.0,2026
+1535657,O Chare,Zimbabwe,India,"Kotambi Stadium, Vadodara",2026-10-28,ODI,0,10,0,0,1,0.0,2026
+1535657,Pratika Rawal,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-28,ODI,59,56,4,3,0,105.36,2026
+1535657,Shafali Verma,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-28,ODI,51,26,6,3,0,196.15,2026
+1535657,YH Bhatia,India,Zimbabwe,"Kotambi Stadium, Vadodara",2026-10-28,ODI,0,1,0,0,1,0.0,2026
 1536399,A Cheung,Hong Kong,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-05-26,T20I,4,6,0,0,1,66.67,2026
 1536399,A Suwanchonrathi,Thailand,Hong Kong,"Bayuemas Oval, Kuala Lumpur",2026-05-26,T20I,3,6,0,0,1,50.0,2026
 1536399,Hiu Ying Cheung,Hong Kong,Thailand,"Bayuemas Oval, Kuala Lumpur",2026-05-26,T20I,11,12,1,0,0,91.67,2026
@@ -201447,6 +201484,52 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1539433,TL Seifert,New Zealand,India,"Hagley Oval, Christchurch",2026-10-24,T20I,7,6,0,1,1,116.67,2026
 1539433,Tilak Varma,India,New Zealand,"Hagley Oval, Christchurch",2026-10-24,T20I,51,26,6,1,0,196.15,2026
 1539433,V Suryavanshi,India,New Zealand,"Hagley Oval, Christchurch",2026-10-24,T20I,4,8,0,0,1,50.0,2026
+1539434,Abhishek Sharma,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,113,38,9,11,1,297.37,2026
+1539434,BJ Jacobs,New Zealand,India,"Hnry Stadium, Wellington",2026-10-27,T20I,39,23,4,1,0,169.57,2026
+1539434,DJ Mitchell,New Zealand,India,"Hnry Stadium, Wellington",2026-10-27,T20I,89,52,5,5,0,171.15,2026
+1539434,FH Allen,New Zealand,India,"Hnry Stadium, Wellington",2026-10-27,T20I,40,25,0,5,1,160.0,2026
+1539434,GD Phillips,New Zealand,India,"Hnry Stadium, Wellington",2026-10-27,T20I,17,14,3,0,1,121.43,2026
+1539434,Naman Dhir,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,4,1,1,0,0,400.0,2026
+1539434,SS Iyer,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,5,10,0,0,1,50.0,2026
+1539434,SV Samson,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,18,13,2,0,1,138.46,2026
+1539434,TL Seifert,New Zealand,India,"Hnry Stadium, Wellington",2026-10-27,T20I,2,6,0,0,1,33.33,2026
+1539434,Tilak Varma,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,1,1,0,0,0,100.0,2026
+1539434,V Suryavanshi,India,New Zealand,"Hnry Stadium, Wellington",2026-10-27,T20I,45,19,4,4,1,236.84,2026
+1539435,AF Milne,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,1,1,0,0,0,100.0,2026
+1539435,AR Patel,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,7,9,1,0,1,77.78,2026
+1539435,Abhishek Sharma,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,27,15,3,1,1,180.0,2026
+1539435,Arshdeep Singh,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,0,1,0,0,1,0.0,2026
+1539435,BJ Jacobs,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,7,7,0,0,1,100.0,2026
+1539435,DJ Mitchell,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,24,9,2,2,1,266.67,2026
+1539435,FH Allen,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,31,17,2,2,1,182.35,2026
+1539435,GD Phillips,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,107,49,6,10,1,218.37,2026
+1539435,Ishan Kishan,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,0,3,0,0,1,0.0,2026
+1539435,MG Bracewell,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,65,25,4,6,1,260.0,2026
+1539435,MJ Santner,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,5,6,0,0,1,83.33,2026
+1539435,MP Yadav,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,3,4,0,0,0,75.0,2026
+1539435,NG Smith,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,6,3,1,0,0,200.0,2026
+1539435,Naman Dhir,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,28,13,2,2,1,215.38,2026
+1539435,Nithish Kumar Reddy,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,21,10,0,2,1,210.0,2026
+1539435,Prince Yadav,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,18,17,2,1,0,105.88,2026
+1539435,SS Iyer,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,22,11,4,0,1,200.0,2026
+1539435,SV Samson,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,4,2,1,0,1,200.0,2026
+1539435,TL Seifert,New Zealand,India,"Eden Park, Auckland",2026-10-30,T20I,3,5,0,0,1,60.0,2026
+1539435,Tilak Varma,India,New Zealand,"Eden Park, Auckland",2026-10-30,T20I,35,35,1,3,1,100.0,2026
+1539436,Abhishek Sharma,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,1,2,0,0,1,50.0,2026
+1539436,Arshdeep Singh,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,1,1,0,0,0,100.0,2026
+1539436,B Kumar,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,6,4,1,0,1,150.0,2026
+1539436,BJ Jacobs,New Zealand,India,"Seddon Park, Hamilton",2026-11-01,T20I,1,1,0,0,0,100.0,2026
+1539436,DJ Mitchell,New Zealand,India,"Seddon Park, Hamilton",2026-11-01,T20I,29,16,0,4,1,181.25,2026
+1539436,FH Allen,New Zealand,India,"Seddon Park, Hamilton",2026-11-01,T20I,2,3,0,0,1,66.67,2026
+1539436,GD Phillips,New Zealand,India,"Seddon Park, Hamilton",2026-11-01,T20I,65,38,8,3,0,171.05,2026
+1539436,Ishan Kishan,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,61,32,5,5,1,190.62,2026
+1539436,Naman Dhir,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,33,23,4,1,1,143.48,2026
+1539436,Nithish Kumar Reddy,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,22,17,2,1,1,129.41,2026
+1539436,Prince Yadav,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,0,1,0,0,0,0.0,2026
+1539436,SS Iyer,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,50,23,3,4,1,217.39,2026
+1539436,SV Samson,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,4,10,0,0,1,40.0,2026
+1539436,TL Seifert,New Zealand,India,"Seddon Park, Hamilton",2026-11-01,T20I,93,50,11,5,1,186.0,2026
+1539436,Tilak Varma,India,New Zealand,"Seddon Park, Hamilton",2026-11-01,T20I,6,8,0,0,1,75.0,2026
 1539464,A Mundra,Sweden,Norway,"Botkyrka Cricket Center, Stockholm",2026-06-11,T20I,8,5,2,0,1,160.0,2026
 1539464,Ahmadullah Shinwari,Norway,Sweden,"Botkyrka Cricket Center, Stockholm",2026-06-11,T20I,1,1,0,0,0,100.0,2026
 1539464,Chaudhary Akram,Norway,Sweden,"Botkyrka Cricket Center, Stockholm",2026-06-11,T20I,9,11,0,0,1,81.82,2026
@@ -205753,6 +205836,56 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1550716,Shaheen Shah Afridi,Pakistan,England,"Gaddafi Stadium, Lahore",2026-10-25,ODI,4,5,1,0,1,80.0,2026
 1550716,T Banton,England,Pakistan,"Gaddafi Stadium, Lahore",2026-10-25,ODI,4,5,1,0,1,80.0,2026
 1550716,WG Jacks,England,Pakistan,"Gaddafi Stadium, Lahore",2026-10-25,ODI,13,16,0,0,1,81.25,2026
+1550717,Agha Salman,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,9,14,1,0,1,64.29,2026
+1550717,Arafat Minhas,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,10,18,1,0,1,55.56,2026
+1550717,BKG Mendis,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-27,ODI,8,6,2,0,1,133.33,2026
+1550717,Babar Azam,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,29,33,5,0,1,87.88,2026
+1550717,Fakhar Zaman,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,5,13,1,0,1,38.46,2026
+1550717,Haris Rauf,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,1,2,0,0,1,50.0,2026
+1550717,Hassan Nawaz,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,17,31,0,1,1,54.84,2026
+1550717,Maaz Sadaqat,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,8,11,1,0,1,72.73,2026
+1550717,Naseem Shah,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,2,5,0,0,0,40.0,2026
+1550717,P Rathnayake,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-27,ODI,23,26,2,0,0,88.46,2026
+1550717,PHKD Mendis,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-27,ODI,62,60,8,2,0,103.33,2026
+1550717,Saad Baig,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,5,8,0,0,1,62.5,2026
+1550717,Shadab Khan,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,2,5,0,0,1,40.0,2026
+1550717,Shaheen Shah Afridi,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-27,ODI,15,13,0,2,1,115.38,2026
+1550717,WIA Fernando,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-27,ODI,16,17,2,0,1,94.12,2026
+1550718,AM Fernando,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,1,3,0,0,1,33.33,2026
+1550718,BKG Mendis,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,89,71,8,5,1,125.35,2026
+1550718,BM Duckett,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,167,132,24,0,1,126.52,2026
+1550718,DN Wellalage,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,1,4,0,0,1,25.0,2026
+1550718,E Malinga,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,1,4,0,0,1,25.0,2026
+1550718,HC Brook,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,44,34,3,2,1,129.41,2026
+1550718,J Liyanage,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,27,17,1,3,1,158.82,2026
+1550718,JM Cox,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,43,27,3,1,1,159.26,2026
+1550718,MD Shanaka,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,4,11,0,0,1,36.36,2026
+1550718,P Rathnayake,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,118,77,15,1,1,153.25,2026
+1550718,PHKD Mendis,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,4,11,1,0,1,36.36,2026
+1550718,SM Curran,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,21,12,1,1,0,175.0,2026
+1550718,SSD Arachchige,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,30,24,4,0,1,125.0,2026
+1550718,T Banton,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,74,75,8,2,1,98.67,2026
+1550718,WG Jacks,England,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-29,ODI,30,21,4,0,1,142.86,2026
+1550718,WIA Fernando,Sri Lanka,England,"Gaddafi Stadium, Lahore",2026-10-29,ODI,48,50,8,1,1,96.0,2026
+1550719,AM Fernando,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,6,5,1,0,0,120.0,2026
+1550719,Agha Salman,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,17,25,0,0,1,68.0,2026
+1550719,Arafat Minhas,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,61,31,3,4,1,196.77,2026
+1550719,BKG Mendis,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,8,12,0,1,1,66.67,2026
+1550719,Babar Azam,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,0,5,0,0,1,0.0,2026
+1550719,DN Wellalage,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,3,4,0,0,1,75.0,2026
+1550719,Faheem Ashraf,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,0,1,0,0,1,0.0,2026
+1550719,Fakhar Zaman,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,127,99,11,6,1,128.28,2026
+1550719,Hassan Nawaz,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,37,45,2,0,0,82.22,2026
+1550719,J Liyanage,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,6,9,0,0,1,66.67,2026
+1550719,M Theekshana,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,9,8,0,1,0,112.5,2026
+1550719,MD Shanaka,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,17,9,2,1,1,188.89,2026
+1550719,Maaz Sadaqat,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,5,7,1,0,1,71.43,2026
+1550719,P Rathnayake,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,77,65,8,0,1,118.46,2026
+1550719,PHKD Mendis,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,131,128,12,2,1,102.34,2026
+1550719,SSD Arachchige,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,15,12,2,0,1,125.0,2026
+1550719,Saad Baig,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,74,75,11,0,1,98.67,2026
+1550719,Shaheen Shah Afridi,Pakistan,Sri Lanka,"Gaddafi Stadium, Lahore",2026-10-31,ODI,6,3,0,1,0,200.0,2026
+1550719,WIA Fernando,Sri Lanka,Pakistan,"Gaddafi Stadium, Lahore",2026-10-31,ODI,38,49,3,1,1,77.55,2026
 1551066,D Demic,Serbia,Croatia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,25,53,2,0,1,47.17,2026
 1551066,D Pavelic,Croatia,Serbia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,4,7,0,0,1,57.14,2026
 1551066,H Bosnic,Croatia,Serbia,Lisicji Jarak Cricket Ground,2026-09-04,T20I,14,25,1,0,1,56.0,2026
@@ -206560,6 +206693,29 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1552926,Riazat Ali Shah,Uganda,Kenya,"Gahanga International Cricket Stadium, Rwanda",2026-09-19,T20I,53,33,4,3,1,160.61,2026
 1552926,S Gill,Kenya,Uganda,"Gahanga International Cricket Stadium, Rwanda",2026-09-19,T20I,22,28,0,1,1,78.57,2026
 1552926,S Singh,Kenya,Uganda,"Gahanga International Cricket Stadium, Rwanda",2026-09-19,T20I,8,8,1,0,1,100.0,2026
+1553295,AA Jangoo,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,0,3,0,0,1,0.0,2026
+1553295,BA King,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,96,135,13,1,1,71.11,2026
+1553295,Hasan Mahmud,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,14,42,1,0,1,33.33,2026
+1553295,J Bishop,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,15,11,3,0,1,136.36,2026
+1553295,JA Warrican,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,0,4,0,0,1,0.0,2026
+1553295,JD Campbell,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,103,133,12,3,1,77.44,2026
+1553295,JNT Seales,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,0,5,0,0,1,0.0,2026
+1553295,JP Greaves,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,46,103,2,0,1,44.66,2026
+1553295,Jaker Ali,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,22,34,2,0,1,64.71,2026
+1553295,KAR Hodge,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,38,47,5,1,1,80.85,2026
+1553295,Liton Das,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,38,98,4,0,1,38.78,2026
+1553295,Mehedi Hasan Miraz,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,24,71,2,0,1,33.8,2026
+1553295,Mominul Haque,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,28,51,2,0,1,54.9,2026
+1553295,Nayeem Hasan,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,57,103,4,0,1,55.34,2026
+1553295,Nazmul Hossain Shanto,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,29,79,2,0,1,36.71,2026
+1553295,RL Chase,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,43,60,5,0,0,71.67,2026
+1553295,S Joseph,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,4,10,0,0,1,40.0,2026
+1553295,Shadman Islam,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,118,264,13,0,1,44.7,2026
+1553295,Shoriful Islam,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,7,9,1,0,1,77.78,2026
+1553295,T Chanderpaul,West Indies,Bangladesh,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,57,199,6,1,1,28.64,2026
+1553295,Taijul Islam,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,9,20,1,0,1,45.0,2026
+1553295,Tanzid Hasan,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,7,25,0,0,1,28.0,2026
+1553295,Towhid Hridoy,Bangladesh,West Indies,"Shere Bangla National Stadium, Mirpur",2026-10-28,Test,42,88,3,0,1,47.73,2026
 1554409,JN Frylinck,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-03,ODI,2,9,0,0,0,22.22,2026
 1554409,L Steenkamp,Namibia,United Arab Emirates,"Grand Prairie Stadium, Dallas",2026-10-03,ODI,1,3,0,0,0,33.33,2026
 1554410,Aayan Afzal Khan,United Arab Emirates,United States of America,"Grand Prairie Stadium, Dallas",2026-10-05,ODI,6,5,0,0,0,120.0,2026
@@ -207887,6 +208043,63 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1558232,MG Erasmus,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-24,ODI,156,125,14,4,0,124.8,2026
 1558232,PR Stirling,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-24,ODI,77,71,8,3,1,108.45,2026
 1558232,ZE Green,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-24,ODI,3,7,0,0,1,42.86,2026
+1558233,A Balbirnie,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,20,33,2,0,1,60.61,2026
+1558233,A Busing-Volschenk,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,36,26,2,3,1,138.46,2026
+1558233,AR McBrine,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,30,31,1,2,1,96.77,2026
+1558233,C Campher,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,106,86,11,3,1,123.26,2026
+1558233,C Carmichael,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,0,3,0,0,1,0.0,2026
+1558233,G Hoey,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,21,21,1,1,1,100.0,2026
+1558233,GH Dockrell,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,25,49,0,0,1,51.02,2026
+1558233,HT Tector,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,6,5,1,0,1,120.0,2026
+1558233,J Moondra,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,2,4,0,0,1,50.0,2026
+1558233,JJ Smit,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,12,11,1,0,1,109.09,2026
+1558233,JN Frylinck,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,126,122,9,4,1,103.28,2026
+1558233,JN Loftie-Eaton,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,11,19,0,1,1,57.89,2026
+1558233,L McCarthy,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,2,6,0,0,0,33.33,2026
+1558233,L Steenkamp,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,13,19,3,0,1,68.42,2026
+1558233,L Tucker,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-27,ODI,26,31,3,0,1,83.87,2026
+1558233,MB Kruger,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,42,46,6,0,1,91.3,2026
+1558233,MG Erasmus,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,54,51,6,1,1,105.88,2026
+1558233,R Trumpelmann,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-27,ODI,9,6,1,0,0,150.0,2026
+1558234,A Balbirnie,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,19,34,1,1,1,55.88,2026
+1558234,A Busing-Volschenk,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,8,19,0,0,1,42.11,2026
+1558234,BM Scholtz,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,5,13,1,0,0,38.46,2026
+1558234,C Campher,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,66,50,2,6,1,132.0,2026
+1558234,C Carmichael,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,7,14,1,0,1,50.0,2026
+1558234,GH Dockrell,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,47,34,4,2,0,138.24,2026
+1558234,HT Tector,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,15,43,0,0,1,34.88,2026
+1558234,J Moondra,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,1,2,0,0,1,50.0,2026
+1558234,J Neill,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,14,6,0,2,1,233.33,2026
+1558234,JJ Smit,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,3,12,0,0,1,25.0,2026
+1558234,JN Frylinck,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,4,13,1,0,1,30.77,2026
+1558234,JN Loftie-Eaton,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,23,34,1,1,1,67.65,2026
+1558234,JT Brassell,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,11,17,1,0,1,64.71,2026
+1558234,L McCarthy,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,7,4,1,0,0,175.0,2026
+1558234,L Steenkamp,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,21,34,4,0,1,61.76,2026
+1558234,L Tucker,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,28,33,3,0,1,84.85,2026
+1558234,MB Kruger,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,0,3,0,0,1,0.0,2026
+1558234,MG Erasmus,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,1,10,0,0,1,10.0,2026
+1558234,R Trumpelmann,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,40,34,3,3,1,117.65,2026
+1558234,TH Tector,Ireland,Namibia,"High Performance Oval, Windhoek",2026-10-30,ODI,73,81,7,3,1,90.12,2026
+1558234,ZE Green,Namibia,Ireland,"High Performance Oval, Windhoek",2026-10-30,ODI,45,58,3,0,1,77.59,2026
+1558235,A Balbirnie,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,9,24,0,0,1,37.5,2026
+1558235,C Campher,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,0,1,0,0,1,0.0,2026
+1558235,C Carmichael,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,27,57,2,0,1,47.37,2026
+1558235,G Hoey,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,9,19,1,0,1,47.37,2026
+1558235,GH Dockrell,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,0,2,0,0,1,0.0,2026
+1558235,HT Tector,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,21,35,2,0,1,60.0,2026
+1558235,J Moondra,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,1,10,0,0,1,10.0,2026
+1558235,J Neill,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,33,25,4,1,1,132.0,2026
+1558235,JN Frylinck,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,9,9,2,0,1,100.0,2026
+1558235,L Steenkamp,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,46,44,6,1,1,104.55,2026
+1558235,L Tucker,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,20,14,0,2,1,142.86,2026
+1558235,M van Lingen,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,15,20,2,0,1,75.0,2026
+1558235,MB Kruger,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,15,20,1,0,1,75.0,2026
+1558235,MG Erasmus,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,30,18,3,1,1,166.67,2026
+1558235,MJ Humphreys,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,0,3,0,0,0,0.0,2026
+1558235,TH Tector,Ireland,Namibia,"High Performance Oval, Windhoek",2026-11-01,ODI,5,9,1,0,1,55.56,2026
+1558235,WP Myburgh,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,3,13,0,0,0,23.08,2026
+1558235,ZE Green,Namibia,Ireland,"High Performance Oval, Windhoek",2026-11-01,ODI,11,4,1,1,0,275.0,2026
 1558244,A Nookala,Austria,Sweden,"Moara Vlasiei Cricket Ground, Ilfov County",2026-10-15,T20I,3,13,0,0,1,23.08,2026
 1558244,A Vaidya,Sweden,Austria,"Moara Vlasiei Cricket Ground, Ilfov County",2026-10-15,T20I,39,34,4,0,0,114.71,2026
 1558244,AM Zepeda,Austria,Sweden,"Moara Vlasiei Cricket Ground, Ilfov County",2026-10-15,T20I,38,33,1,0,1,115.15,2026
@@ -208021,6 +208234,26 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1558571,T Salcedo,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-24,T20I,0,3,0,0,1,0.0,2026
 1558571,VH Diaz,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-24,T20I,0,2,0,0,1,0.0,2026
 1558571,ZC Hernandez,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-24,T20I,3,20,0,0,1,15.0,2026
+1558573,A Emch,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,3,7,0,0,1,42.86,2026
+1558573,A Galan,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,32,28,4,0,1,114.29,2026
+1558573,AC Dei Castelli,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,5,0,0,0,0.0,2026
+1558573,AC Septien,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,9,16,1,0,1,56.25,2026
+1558573,AD Perez,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,3,0,0,1,0.0,2026
+1558573,C Valencia,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,17,13,2,0,0,130.77,2026
+1558573,CG Amado,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,1,0,0,0,0.0,2026
+1558573,GMS Gaby,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,2,6,0,0,1,33.33,2026
+1558573,I Rodriguez,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,3,0,0,1,0.0,2026
+1558573,J Andujar,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,5,4,1,0,1,125.0,2026
+1558573,JC Cullen,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,58,40,7,0,1,145.0,2026
+1558573,JG Pastrana,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,5,19,0,0,1,26.32,2026
+1558573,JH Diaz,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,7,0,0,1,0.0,2026
+1558573,M Bestani,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,25,25,4,0,1,100.0,2026
+1558573,M Castineiras,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,14,11,2,0,1,127.27,2026
+1558573,M Mastrangelo,Argentina,Mexico,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,2,5,0,0,1,40.0,2026
+1558573,Maddelyn Fernanda,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,1,0,0,1,0.0,2026
+1558573,T Salcedo,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,5,6,1,0,1,83.33,2026
+1558573,VH Diaz,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,0,9,0,0,1,0.0,2026
+1558573,ZC Hernandez,Mexico,Argentina,Complejo Municipal de Beisbol de Texcoco,2026-10-25,T20I,2,9,0,0,1,22.22,2026
 1559563,A Dutt,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-25,ODI,36,36,3,3,0,100.0,2026
 1559563,A Sharma,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-25,ODI,15,21,3,0,1,71.43,2026
 1559563,AD Nath,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-25,ODI,68,77,7,0,1,88.31,2026
@@ -208040,3 +208273,68 @@ match_id,striker,batting_team,bowling_team,venue,start_date,format,runs,balls_fa
 1559563,T van der Gugten,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-25,ODI,9,14,1,0,0,64.29,2026
 1559563,Waseem Muhammad,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-25,ODI,19,20,3,0,1,95.0,2026
 1559563,ZB Lion-Cachet,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-25,ODI,16,28,1,0,1,57.14,2026
+1559564,AR Bisht,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,27,36,3,0,1,75.0,2026
+1559564,BFW de Leede,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,145,110,14,5,0,131.82,2026
+1559564,C de Lange,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,102,91,8,1,1,112.09,2026
+1559564,CN Ackermann,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,4,9,0,0,1,44.44,2026
+1559564,Hammad Mirza,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,15,19,1,1,1,78.95,2026
+1559564,Hassnain Shah,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,5,8,1,0,1,62.5,2026
+1559564,Jatinder Singh,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,67,76,7,1,1,88.16,2026
+1559564,Jay Odedra,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,11,28,0,0,1,39.29,2026
+1559564,Jeet Shah,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,15,27,2,0,1,55.56,2026
+1559564,LN Saishiv,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,4,5,0,0,1,80.0,2026
+1559564,M Levitt,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,29,19,3,1,0,152.63,2026
+1559564,MP O'Dowd,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,63,46,8,3,1,136.96,2026
+1559564,Mujibur Ali,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,29,42,2,1,1,69.05,2026
+1559564,NRJ Croes,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,5,16,0,0,1,31.25,2026
+1559564,S Shrivastava,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,2,10,0,0,1,20.0,2026
+1559564,ZB Lion-Cachet,Netherlands,Oman,"ICC Academy, Dubai",2026-10-27,ODI,5,9,0,0,1,55.56,2026
+1559564,Zikria Islam,Oman,Netherlands,"ICC Academy, Dubai",2026-10-27,ODI,77,46,5,4,1,167.39,2026
+1559565,A Sharma,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,49,61,6,0,1,80.33,2026
+1559565,AD Nath,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,14,33,0,0,1,42.42,2026
+1559565,AR Bisht,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,38,59,3,1,1,64.41,2026
+1559565,Awais Ali Shah,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,21,33,2,0,0,63.64,2026
+1559565,Basil Hameed,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,3,5,0,0,0,60.0,2026
+1559565,Hammad Mirza,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,6,15,1,0,0,40.0,2026
+1559565,Hassnain Shah,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,6,6,0,1,1,100.0,2026
+1559565,Jatinder Singh,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,88,107,13,0,1,82.24,2026
+1559565,Jeet Shah,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,1,7,0,0,1,14.29,2026
+1559565,Muhammad Shahdad,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,21,52,2,0,1,40.38,2026
+1559565,Muhammed Imran,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,0,5,0,0,0,0.0,2026
+1559565,Mujibur Ali,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,10,26,1,0,1,38.46,2026
+1559565,R Chopra,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,34,59,4,0,1,57.63,2026
+1559565,S Shrivastava,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,1,9,0,0,1,11.11,2026
+1559565,Shakeel Ahmed,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,0,3,0,0,1,0.0,2026
+1559565,T Suri,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,9,7,2,0,1,128.57,2026
+1559565,V Shukla,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,11,9,1,0,1,122.22,2026
+1559565,Waseem Muhammad,United Arab Emirates,Oman,"ICC Academy, Dubai",2026-10-29,ODI,43,35,3,1,1,122.86,2026
+1559565,Zikria Islam,Oman,United Arab Emirates,"ICC Academy, Dubai",2026-10-29,ODI,17,25,3,0,1,68.0,2026
+1559566,AD Nath,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,99,88,5,4,1,112.5,2026
+1559566,Adeeb Usmani,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,81,93,3,2,0,87.1,2026
+1559566,Awais Ali Shah,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,7,4,1,0,0,175.0,2026
+1559566,BFW de Leede,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,0,1,0,0,1,0.0,2026
+1559566,C de Lange,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,0,1,0,0,1,0.0,2026
+1559566,CN Ackermann,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,34,40,2,0,0,85.0,2026
+1559566,MP O'Dowd,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,106,119,10,3,1,89.08,2026
+1559566,Muhammad Shahdad,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,14,19,2,0,1,73.68,2026
+1559566,NRJ Croes,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,16,44,1,0,1,36.36,2026
+1559566,R Chopra,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,11,26,1,0,1,42.31,2026
+1559566,SA Edwards,Netherlands,United Arab Emirates,"ICC Academy, Dubai",2026-10-31,ODI,94,95,8,1,0,98.95,2026
+1559566,Shoaib Khan,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,28,52,2,0,1,53.85,2026
+1559566,Waseem Muhammad,United Arab Emirates,Netherlands,"ICC Academy, Dubai",2026-10-31,ODI,19,13,4,0,1,146.15,2026
+1559567,AR Bisht,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,4,15,0,0,1,26.67,2026
+1559567,C de Lange,Netherlands,Oman,"ICC Academy, Dubai",2026-11-02,ODI,79,107,8,0,1,73.83,2026
+1559567,CN Ackermann,Netherlands,Oman,"ICC Academy, Dubai",2026-11-02,ODI,1,2,0,0,0,50.0,2026
+1559567,Hammad Mirza,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,17,38,0,0,1,44.74,2026
+1559567,Hassnain Shah,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,9,14,1,0,1,64.29,2026
+1559567,Jatinder Singh,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,30,36,5,0,1,83.33,2026
+1559567,Jeet Shah,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,8,26,1,0,1,30.77,2026
+1559567,K Sonavale,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,14,18,1,0,1,77.78,2026
+1559567,MP O'Dowd,Netherlands,Oman,"ICC Academy, Dubai",2026-11-02,ODI,29,29,3,2,1,100.0,2026
+1559567,Mujibur Ali,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,44,78,3,0,1,56.41,2026
+1559567,Nadeem Khan,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,2,4,0,0,1,50.0,2026
+1559567,S Shrivastava,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,9,16,0,0,0,56.25,2026
+1559567,SA Edwards,Netherlands,Oman,"ICC Academy, Dubai",2026-11-02,ODI,2,4,0,0,0,50.0,2026
+1559567,Shakeel Ahmed,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,0,1,0,0,1,0.0,2026
+1559567,V Shukla,Oman,Netherlands,"ICC Academy, Dubai",2026-11-02,ODI,38,50,4,1,1,76.0,2026
+1559567,ZB Lion-Cachet,Netherlands,Oman,"ICC Academy, Dubai",2026-11-02,ODI,68,75,6,0,0,90.67,2026
